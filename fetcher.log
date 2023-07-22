@@ -693,3 +693,30 @@
 [2023-07-23 01:31:19] WARNING root fetch - processPackages [ldanansi]: Skipping, unable to determine old version
 [2023-07-23 01:31:19] INFO root fetch - main [MainThread]: End processing [ldanansi] error
 [2023-07-23 01:31:19] INFO root fetch - main [MainThread]: Store serial: [18998293]
+[2023-07-23 01:36:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18998293]
+[2023-07-23 01:36:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-23 01:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: klvm-rs
+[2023-07-23 01:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unigui
+[2023-07-23 01:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nthp-api
+[2023-07-23 01:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ktrain
+[2023-07-23 01:36:29] WARNING root fetch - processPackages [nthp-api]: Skipping, unable to determine old version
+[2023-07-23 01:36:29] INFO root fetch - main [MainThread]: End processing [nthp-api] error
+[2023-07-23 01:36:29] INFO root fetch - processPackages [unigui]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-23 01:36:29] WARNING root fetch - processPackages [klvm-rs]: Skipping, unable to determine old version
+[2023-07-23 01:36:29] INFO root fetch - main [MainThread]: End processing [klvm-rs] error
+[2023-07-23 01:36:29] INFO root fetch - processPackages [ktrain]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-23 01:36:29] INFO root fetch - processPackages [ktrain]: Downloading https://files.pythonhosted.org/packages/4c/eb/f7c8eecbaa0e06d80dbf78e1ae6b293b944d89a1f294331324c0b5262ad4/ktrain-0.9.3.tar.gz
+[2023-07-23 01:36:30] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/86/d3/afec22f99e37dd8393d1ba7ac6a651ff613a276088926fe41f7cc9880a95/unigui-1.9.0.tar.gz
+[2023-07-23 01:36:30] INFO root fetch - processPackages [ktrain]: Downloading https://files.pythonhosted.org/packages/73/d5/77df174a24b752d0c7bb5a140591e2c909781b0ab6d9d73451d484a6ede2/ktrain-0.9.4.tar.gz
+[2023-07-23 01:36:30] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/16/bb/1820a8044730525f07693d21bfaf6175ef69ce106ddd214b27de7b9df586/unigui-1.9.1.tar.gz
+[2023-07-23 01:36:30] INFO root fetch - processPackages [ktrain]: executing diffoscope
+[2023-07-23 01:36:30] INFO root fetch - processPackages [ktrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ktrain-0.9.3.tar.gz tmp/ktrain-0.9.4.tar.gz --markdown 20230723/k/ktrain/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-23 01:36:30] INFO root fetch - processPackages [unigui]: executing diffoscope
+[2023-07-23 01:36:30] INFO root fetch - processPackages [unigui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unigui-1.9.0.tar.gz tmp/unigui-1.9.1.tar.gz --markdown 20230723/u/unigui/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-23 01:36:31] INFO root fetch - processPackages [ktrain]: Remove: archive file [/home/abi/fetcher/tmp/ktrain-0.9.3.tar.gz]
+[2023-07-23 01:36:31] INFO root fetch - processPackages [ktrain]: Remove: archive file [/home/abi/fetcher/tmp/ktrain-0.9.4.tar.gz]
+[2023-07-23 01:36:31] INFO root fetch - main [MainThread]: End processing [ktrain]: success
+[2023-07-23 01:36:45] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.9.0.tar.gz]
+[2023-07-23 01:36:45] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.9.1.tar.gz]
+[2023-07-23 01:36:45] INFO root fetch - main [MainThread]: End processing [unigui]: success
+[2023-07-23 01:36:45] INFO root fetch - main [MainThread]: Store serial: [18998309]
