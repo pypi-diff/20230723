@@ -611,3 +611,24 @@
 [2023-07-23 01:15:51] INFO root fetch - processPackages [chatlab]: Remove: archive file [/home/abi/fetcher/tmp/chatlab-1.0.0a0.tar.gz]
 [2023-07-23 01:15:51] INFO root fetch - main [MainThread]: End processing [chatlab]: success
 [2023-07-23 01:15:51] INFO root fetch - main [MainThread]: Store serial: [18998264]
+[2023-07-23 01:20:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18998264]
+[2023-07-23 01:20:59] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-23 01:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arrow-odbc
+[2023-07-23 01:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: curies
+[2023-07-23 01:20:59] INFO root fetch - processPackages [arrow-odbc]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-23 01:20:59] INFO root fetch - processPackages [curies]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-07-23 01:20:59] INFO root fetch - processPackages [arrow-odbc]: Downloading https://files.pythonhosted.org/packages/7c/56/16749e53b67bc1f3a7fadc89047ed67f4e427c291f7d1eb2691ac4448c79/arrow_odbc-1.1.1.tar.gz
+[2023-07-23 01:20:59] INFO root fetch - processPackages [curies]: Downloading https://files.pythonhosted.org/packages/e5/b0/0ade4b432b756fb604b735cdeff218cd0b8d24d4ac579e0f105cd0f725dc/curies-0.5.6.tar.gz
+[2023-07-23 01:20:59] INFO root fetch - processPackages [arrow-odbc]: Downloading https://files.pythonhosted.org/packages/61/8c/be5bef796dfbae7ff1a8764e7555c9048bf09ab31c7fdbc1bf5330d742b4/arrow_odbc-1.1.2.tar.gz
+[2023-07-23 01:20:59] INFO root fetch - processPackages [arrow-odbc]: executing diffoscope
+[2023-07-23 01:20:59] INFO root fetch - processPackages [arrow-odbc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arrow_odbc-1.1.1.tar.gz tmp/arrow_odbc-1.1.2.tar.gz --markdown 20230723/a/arrow-odbc/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-23 01:20:59] INFO root fetch - processPackages [curies]: Downloading https://files.pythonhosted.org/packages/36/ff/03cdd2eba5e34d322242ea6f9422f64a7c944a0e3c3fc0da426aab734750/curies-0.5.7.tar.gz
+[2023-07-23 01:21:00] INFO root fetch - processPackages [curies]: executing diffoscope
+[2023-07-23 01:21:00] INFO root fetch - processPackages [curies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curies-0.5.6.tar.gz tmp/curies-0.5.7.tar.gz --markdown 20230723/c/curies/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-07-23 01:21:00] INFO root fetch - processPackages [arrow-odbc]: Remove: archive file [/home/abi/fetcher/tmp/arrow_odbc-1.1.1.tar.gz]
+[2023-07-23 01:21:00] INFO root fetch - processPackages [arrow-odbc]: Remove: archive file [/home/abi/fetcher/tmp/arrow_odbc-1.1.2.tar.gz]
+[2023-07-23 01:21:00] INFO root fetch - main [MainThread]: End processing [arrow-odbc]: success
+[2023-07-23 01:21:01] INFO root fetch - processPackages [curies]: Remove: archive file [/home/abi/fetcher/tmp/curies-0.5.6.tar.gz]
+[2023-07-23 01:21:01] INFO root fetch - processPackages [curies]: Remove: archive file [/home/abi/fetcher/tmp/curies-0.5.7.tar.gz]
+[2023-07-23 01:21:01] INFO root fetch - main [MainThread]: End processing [curies]: success
+[2023-07-23 01:21:01] INFO root fetch - main [MainThread]: Store serial: [18998272]
