@@ -479,3 +479,42 @@
 [2023-07-23 00:55:08] INFO root fetch - processPackages [icepool]: Remove: archive file [/home/abi/fetcher/tmp/icepool-1.0.0.tar.gz]
 [2023-07-23 00:55:08] INFO root fetch - main [MainThread]: End processing [icepool]: success
 [2023-07-23 00:55:08] INFO root fetch - main [MainThread]: Store serial: [18998220]
+[2023-07-23 01:00:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18998220]
+[2023-07-23 01:00:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-23 01:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rpamaker
+[2023-07-23 01:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tinyscript
+[2023-07-23 01:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fruitcraft
+[2023-07-23 01:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mychatbot
+[2023-07-23 01:00:17] INFO root fetch - processPackages [mychatbot]: New version: [2.2] Old Version: [2.1]
+[2023-07-23 01:00:17] INFO root fetch - processPackages [fruitcraft]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-23 01:00:17] INFO root fetch - processPackages [rpamaker]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 01:00:17] INFO root fetch - processPackages [tinyscript]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-07-23 01:00:17] INFO root fetch - processPackages [mychatbot]: Downloading https://files.pythonhosted.org/packages/5a/97/df3f3f22f1c372edaac70dc30bbd8ca367e31afb2a5c5a581234ad08056a/mychatbot-2.1.tar.gz
+[2023-07-23 01:00:17] INFO root fetch - processPackages [fruitcraft]: Downloading https://files.pythonhosted.org/packages/7f/89/077b0ff81fa737431acdf77fab90c8cec434cfefdd94789ed5d4c8b73089/fruitcraft-0.0.2.tar.gz
+[2023-07-23 01:00:17] INFO root fetch - processPackages [rpamaker]: Downloading https://files.pythonhosted.org/packages/ae/cc/d5be25893f871b175941e3fca4e40513a034a9f0534238c8a476720f2a4d/rpamaker-0.0.8.tar.gz
+[2023-07-23 01:00:17] INFO root fetch - processPackages [tinyscript]: Downloading https://files.pythonhosted.org/packages/45/d0/3393f08eca58519f8e94086418ba3efe9502ad4acb3cc377fe73b08f64ab/tinyscript-1.9.4.tar.gz
+[2023-07-23 01:00:17] INFO root fetch - processPackages [rpamaker]: Downloading https://files.pythonhosted.org/packages/da/89/f7ca592d5d9fee6b498e325261cddd5082866e4a2a17fcf08604524654e6/rpamaker-0.0.9.tar.gz
+[2023-07-23 01:00:17] INFO root fetch - processPackages [tinyscript]: Downloading https://files.pythonhosted.org/packages/a4/92/f1a76d3caa9d4c9a8eea462e7b0ebce18a722fc05ccdba197c2ce598db2b/tinyscript-1.9.5.tar.gz
+[2023-07-23 01:00:17] INFO root fetch - processPackages [mychatbot]: Downloading https://files.pythonhosted.org/packages/53/fc/19d876df10c51513fa4f10023174aacecb2f18443cbe22439d5107d0e365/mychatbot-2.2.tar.gz
+[2023-07-23 01:00:17] INFO root fetch - processPackages [fruitcraft]: Downloading https://files.pythonhosted.org/packages/78/fc/d242751cfdd1231938f3dc36d18623b7e9e2ee8582d063f7df50b96f26a3/fruitcraft-0.0.3.tar.gz
+[2023-07-23 01:00:17] INFO root fetch - processPackages [rpamaker]: executing diffoscope
+[2023-07-23 01:00:17] INFO root fetch - processPackages [rpamaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpamaker-0.0.8.tar.gz tmp/rpamaker-0.0.9.tar.gz --markdown 20230723/r/rpamaker/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 01:00:17] INFO root fetch - processPackages [tinyscript]: executing diffoscope
+[2023-07-23 01:00:17] INFO root fetch - processPackages [tinyscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyscript-1.9.4.tar.gz tmp/tinyscript-1.9.5.tar.gz --markdown 20230723/t/tinyscript/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-07-23 01:00:17] INFO root fetch - processPackages [fruitcraft]: executing diffoscope
+[2023-07-23 01:00:17] INFO root fetch - processPackages [fruitcraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fruitcraft-0.0.2.tar.gz tmp/fruitcraft-0.0.3.tar.gz --markdown 20230723/f/fruitcraft/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-23 01:00:17] INFO root fetch - processPackages [mychatbot]: executing diffoscope
+[2023-07-23 01:00:17] INFO root fetch - processPackages [mychatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mychatbot-2.1.tar.gz tmp/mychatbot-2.2.tar.gz --markdown 20230723/m/mychatbot/2.1-2.2/diff.md --exclude *.pyd
+[2023-07-23 01:00:18] INFO root fetch - processPackages [rpamaker]: Remove: archive file [/home/abi/fetcher/tmp/rpamaker-0.0.8.tar.gz]
+[2023-07-23 01:00:18] INFO root fetch - processPackages [rpamaker]: Remove: archive file [/home/abi/fetcher/tmp/rpamaker-0.0.9.tar.gz]
+[2023-07-23 01:00:18] INFO root fetch - main [MainThread]: End processing [rpamaker]: success
+[2023-07-23 01:00:18] INFO root fetch - processPackages [tinyscript]: Remove: archive file [/home/abi/fetcher/tmp/tinyscript-1.9.4.tar.gz]
+[2023-07-23 01:00:18] INFO root fetch - processPackages [tinyscript]: Remove: archive file [/home/abi/fetcher/tmp/tinyscript-1.9.5.tar.gz]
+[2023-07-23 01:00:18] INFO root fetch - main [MainThread]: End processing [tinyscript]: success
+[2023-07-23 01:00:18] INFO root fetch - processPackages [mychatbot]: Remove: archive file [/home/abi/fetcher/tmp/mychatbot-2.1.tar.gz]
+[2023-07-23 01:00:18] INFO root fetch - processPackages [mychatbot]: Remove: archive file [/home/abi/fetcher/tmp/mychatbot-2.2.tar.gz]
+[2023-07-23 01:00:18] INFO root fetch - main [MainThread]: End processing [mychatbot]: success
+[2023-07-23 01:00:18] INFO root fetch - processPackages [fruitcraft]: Remove: archive file [/home/abi/fetcher/tmp/fruitcraft-0.0.2.tar.gz]
+[2023-07-23 01:00:18] INFO root fetch - processPackages [fruitcraft]: Remove: archive file [/home/abi/fetcher/tmp/fruitcraft-0.0.3.tar.gz]
+[2023-07-23 01:00:18] INFO root fetch - main [MainThread]: End processing [fruitcraft]: success
+[2023-07-23 01:00:18] INFO root fetch - main [MainThread]: Store serial: [18998231]
