@@ -759,3 +759,54 @@
 [2023-07-23 01:41:56] INFO root fetch - processPackages [phylotrackpy]: Remove: archive file [/home/abi/fetcher/tmp/phylotrackpy-0.1.5.tar.gz]
 [2023-07-23 01:41:56] INFO root fetch - main [MainThread]: End processing [phylotrackpy]: success
 [2023-07-23 01:41:56] INFO root fetch - main [MainThread]: Store serial: [18998349]
+[2023-07-23 01:47:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18998349]
+[2023-07-23 01:47:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-23 01:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llmflows
+[2023-07-23 01:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: baimomcsm-api
+[2023-07-23 01:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aicodebot
+[2023-07-23 01:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: youtubeaio
+[2023-07-23 01:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: skyplane-nightly
+[2023-07-23 01:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aiogram-fluent
+[2023-07-23 01:47:05] INFO root fetch - processPackages [llmflows]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-23 01:47:05] INFO root fetch - processPackages [youtubeaio]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-23 01:47:05] WARNING root fetch - processPackages [aiogram-fluent]: Skipping, unable to determine old version
+[2023-07-23 01:47:05] INFO root fetch - main [MainThread]: End processing [aiogram-fluent] error
+[2023-07-23 01:47:05] INFO root fetch - processPackages [aicodebot]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-23 01:47:05] INFO root fetch - processPackages [baimomcsm-api]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-23 01:47:05] INFO root fetch - processPackages [skyplane-nightly]: New version: [0.3.2.dev20230721] Old Version: [0.3.2.dev20230720]
+[2023-07-23 01:47:05] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/de/93/5893654a616bad8ecf7cff940e452492ff5cadede0c121a0b836015603f8/aicodebot-0.9.5.tar.gz
+[2023-07-23 01:47:05] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/8a/31/952d8dd20f7efaf463cfa17e85ce4f5f9bbb428260a239eb00bbd27d437f/skyplane_nightly-0.3.2.dev20230720.tar.gz
+[2023-07-23 01:47:05] INFO root fetch - processPackages [youtubeaio]: Downloading https://files.pythonhosted.org/packages/9e/00/23a564056eca329b1c8ba3aff200c2e34a1a4d23f3eae93cb1e6e0b85494/youtubeaio-1.1.1.tar.gz
+[2023-07-23 01:47:06] INFO root fetch - processPackages [llmflows]: Downloading https://files.pythonhosted.org/packages/49/ec/110301ba9f4e83aa89843764cc36c040325c0aca50a6df6d5d5ee5544326/llmflows-0.0.7.tar.gz
+[2023-07-23 01:47:06] INFO root fetch - processPackages [baimomcsm-api]: Downloading https://files.pythonhosted.org/packages/39/61/04627b754a6637d49f7473a93db6d3f4cffb2faf8224284db736e2ef1771/baimomcsm_api-0.0.3.tar.gz
+[2023-07-23 01:47:06] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/f0/54/b7976dc18a7bd9ee80ceff88ce124d243c375fa58db5ebe25e50df423f49/aicodebot-0.9.6.tar.gz
+[2023-07-23 01:47:06] INFO root fetch - processPackages [aicodebot]: executing diffoscope
+[2023-07-23 01:47:06] INFO root fetch - processPackages [aicodebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicodebot-0.9.5.tar.gz tmp/aicodebot-0.9.6.tar.gz --markdown 20230723/a/aicodebot/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-23 01:47:06] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/c1/02/604eb95bd63659951411c9fb79b31bd8b1226431ea11507fbbe58474f87c/skyplane_nightly-0.3.2.dev20230721.tar.gz
+[2023-07-23 01:47:06] INFO root fetch - processPackages [youtubeaio]: Downloading https://files.pythonhosted.org/packages/21/22/dbf8edd033a586945dd5b2dee2aafd6eb576ccbdc79b98d715c9018cbb63/youtubeaio-1.1.2.tar.gz
+[2023-07-23 01:47:06] INFO root fetch - processPackages [baimomcsm-api]: Downloading https://files.pythonhosted.org/packages/93/58/c9731490d68c28c4b7cc9f365ab045ac08f1cec2031b25576ceb05244cb8/baimomcsm_api-0.0.4.tar.gz
+[2023-07-23 01:47:06] INFO root fetch - processPackages [llmflows]: Downloading https://files.pythonhosted.org/packages/d1/8a/7ba657088beea67a9f8e2eb6803731739d9de02908c01f2ae802268e11fb/llmflows-0.0.8.tar.gz
+[2023-07-23 01:47:06] INFO root fetch - processPackages [skyplane-nightly]: executing diffoscope
+[2023-07-23 01:47:06] INFO root fetch - processPackages [skyplane-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyplane_nightly-0.3.2.dev20230720.tar.gz tmp/skyplane_nightly-0.3.2.dev20230721.tar.gz --markdown 20230723/s/skyplane-nightly/0.3.2.dev20230720-0.3.2.dev20230721/diff.md --exclude *.pyd
+[2023-07-23 01:47:06] INFO root fetch - processPackages [youtubeaio]: executing diffoscope
+[2023-07-23 01:47:06] INFO root fetch - processPackages [youtubeaio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youtubeaio-1.1.1.tar.gz tmp/youtubeaio-1.1.2.tar.gz --markdown 20230723/y/youtubeaio/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-23 01:47:06] INFO root fetch - processPackages [baimomcsm-api]: executing diffoscope
+[2023-07-23 01:47:06] INFO root fetch - processPackages [baimomcsm-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baimomcsm_api-0.0.3.tar.gz tmp/baimomcsm_api-0.0.4.tar.gz --markdown 20230723/b/baimomcsm-api/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-23 01:47:06] INFO root fetch - processPackages [llmflows]: executing diffoscope
+[2023-07-23 01:47:06] INFO root fetch - processPackages [llmflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmflows-0.0.7.tar.gz tmp/llmflows-0.0.8.tar.gz --markdown 20230723/l/llmflows/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-23 01:47:07] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.9.5.tar.gz]
+[2023-07-23 01:47:07] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.9.6.tar.gz]
+[2023-07-23 01:47:07] INFO root fetch - main [MainThread]: End processing [aicodebot]: success
+[2023-07-23 01:47:07] INFO root fetch - processPackages [baimomcsm-api]: Remove: archive file [/home/abi/fetcher/tmp/baimomcsm_api-0.0.3.tar.gz]
+[2023-07-23 01:47:07] INFO root fetch - processPackages [baimomcsm-api]: Remove: archive file [/home/abi/fetcher/tmp/baimomcsm_api-0.0.4.tar.gz]
+[2023-07-23 01:47:07] INFO root fetch - main [MainThread]: End processing [baimomcsm-api]: success
+[2023-07-23 01:47:07] INFO root fetch - processPackages [youtubeaio]: Remove: archive file [/home/abi/fetcher/tmp/youtubeaio-1.1.1.tar.gz]
+[2023-07-23 01:47:07] INFO root fetch - processPackages [youtubeaio]: Remove: archive file [/home/abi/fetcher/tmp/youtubeaio-1.1.2.tar.gz]
+[2023-07-23 01:47:07] INFO root fetch - main [MainThread]: End processing [youtubeaio]: success
+[2023-07-23 01:47:07] INFO root fetch - processPackages [llmflows]: Remove: archive file [/home/abi/fetcher/tmp/llmflows-0.0.7.tar.gz]
+[2023-07-23 01:47:07] INFO root fetch - processPackages [llmflows]: Remove: archive file [/home/abi/fetcher/tmp/llmflows-0.0.8.tar.gz]
+[2023-07-23 01:47:07] INFO root fetch - main [MainThread]: End processing [llmflows]: success
+[2023-07-23 01:47:07] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230720.tar.gz]
+[2023-07-23 01:47:07] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230721.tar.gz]
+[2023-07-23 01:47:07] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
+[2023-07-23 01:47:07] INFO root fetch - main [MainThread]: Store serial: [18998381]
