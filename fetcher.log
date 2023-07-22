@@ -330,3 +330,42 @@
 [2023-07-23 00:34:23] INFO root fetch - processPackages [pyinstrument]: Remove: archive file [/home/abi/fetcher/tmp/pyinstrument-4.5.1.tar.gz]
 [2023-07-23 00:34:23] INFO root fetch - main [MainThread]: End processing [pyinstrument]: success
 [2023-07-23 00:34:23] INFO root fetch - main [MainThread]: Store serial: [18998163]
+[2023-07-23 00:39:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18998163]
+[2023-07-23 00:39:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-23 00:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bs-python-utils
+[2023-07-23 00:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-help
+[2023-07-23 00:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-help
+[2023-07-23 00:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: omni-pro
+[2023-07-23 00:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fruitcraft
+[2023-07-23 00:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: saveMZ
+[2023-07-23 00:39:32] WARNING root fetch - processPackages [data-help]: Skipping, unable to determine old version
+[2023-07-23 00:39:32] INFO root fetch - main [MainThread]: End processing [data-help] error
+[2023-07-23 00:39:32] INFO root fetch - processPackages [omni-pro]: New version: [0.1.22] Old Version: [0.1.21]
+[2023-07-23 00:39:32] WARNING root fetch - processPackages [data-help]: Skipping, unable to determine old version
+[2023-07-23 00:39:32] INFO root fetch - main [MainThread]: End processing [data-help] error
+[2023-07-23 00:39:32] INFO root fetch - processPackages [fruitcraft]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-23 00:39:32] INFO root fetch - processPackages [omni-pro]: Downloading https://files.pythonhosted.org/packages/10/07/a988cda2d3b8386daebc080e686d9c1b8eee897899a29890adedd5cb7fb2/omni-pro-0.1.21.tar.gz
+[2023-07-23 00:39:32] INFO root fetch - processPackages [bs-python-utils]: New version: [0.4] Old Version: [0.3]
+[2023-07-23 00:39:32] INFO root fetch - processPackages [fruitcraft]: Downloading https://files.pythonhosted.org/packages/8c/47/b18954e60d0b4de6136ce0f5c132545496a8d47de4df8a55e80af633e979/fruitcraft-0.0.1.tar.gz
+[2023-07-23 00:39:32] WARNING root fetch - processPackages [saveMZ]: Skipping, unable to determine old version
+[2023-07-23 00:39:32] INFO root fetch - main [MainThread]: End processing [saveMZ] error
+[2023-07-23 00:39:32] INFO root fetch - processPackages [bs-python-utils]: Downloading https://files.pythonhosted.org/packages/b4/ca/78effe58d8b23aa12eedcdfd224d216d064054f16fefa53503b9bae2a5fd/bs_python_utils-0.3.tar.gz
+[2023-07-23 00:39:32] INFO root fetch - processPackages [fruitcraft]: Downloading https://files.pythonhosted.org/packages/7f/89/077b0ff81fa737431acdf77fab90c8cec434cfefdd94789ed5d4c8b73089/fruitcraft-0.0.2.tar.gz
+[2023-07-23 00:39:32] INFO root fetch - processPackages [fruitcraft]: executing diffoscope
+[2023-07-23 00:39:32] INFO root fetch - processPackages [fruitcraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fruitcraft-0.0.1.tar.gz tmp/fruitcraft-0.0.2.tar.gz --markdown 20230723/f/fruitcraft/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-23 00:39:32] INFO root fetch - processPackages [omni-pro]: Downloading https://files.pythonhosted.org/packages/72/c8/b779ddc95afbdb11354be4c5ca4f5fb3e3b069734551d4bf9dbc6929e093/omni-pro-0.1.22.tar.gz
+[2023-07-23 00:39:33] INFO root fetch - processPackages [bs-python-utils]: Downloading https://files.pythonhosted.org/packages/78/78/275b9a7fcb9f82e1a9ec60fc1904a0970fad05f45587a7157aa6bf4e563f/bs_python_utils-0.4.tar.gz
+[2023-07-23 00:39:33] INFO root fetch - processPackages [omni-pro]: executing diffoscope
+[2023-07-23 00:39:33] INFO root fetch - processPackages [omni-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omni-pro-0.1.21.tar.gz tmp/omni-pro-0.1.22.tar.gz --markdown 20230723/o/omni-pro/0.1.21-0.1.22/diff.md --exclude *.pyd
+[2023-07-23 00:39:33] INFO root fetch - processPackages [bs-python-utils]: executing diffoscope
+[2023-07-23 00:39:33] INFO root fetch - processPackages [bs-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bs_python_utils-0.3.tar.gz tmp/bs_python_utils-0.4.tar.gz --markdown 20230723/b/bs-python-utils/0.3-0.4/diff.md --exclude *.pyd
+[2023-07-23 00:39:33] INFO root fetch - processPackages [fruitcraft]: Remove: archive file [/home/abi/fetcher/tmp/fruitcraft-0.0.1.tar.gz]
+[2023-07-23 00:39:33] INFO root fetch - processPackages [fruitcraft]: Remove: archive file [/home/abi/fetcher/tmp/fruitcraft-0.0.2.tar.gz]
+[2023-07-23 00:39:33] INFO root fetch - main [MainThread]: End processing [fruitcraft]: success
+[2023-07-23 00:39:33] INFO root fetch - processPackages [bs-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/bs_python_utils-0.3.tar.gz]
+[2023-07-23 00:39:33] INFO root fetch - processPackages [bs-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/bs_python_utils-0.4.tar.gz]
+[2023-07-23 00:39:33] INFO root fetch - main [MainThread]: End processing [bs-python-utils]: success
+[2023-07-23 00:39:35] INFO root fetch - processPackages [omni-pro]: Remove: archive file [/home/abi/fetcher/tmp/omni-pro-0.1.21.tar.gz]
+[2023-07-23 00:39:35] INFO root fetch - processPackages [omni-pro]: Remove: archive file [/home/abi/fetcher/tmp/omni-pro-0.1.22.tar.gz]
+[2023-07-23 00:39:35] INFO root fetch - main [MainThread]: End processing [omni-pro]: success
+[2023-07-23 00:39:35] INFO root fetch - main [MainThread]: Store serial: [18998181]
