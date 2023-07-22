@@ -292,3 +292,41 @@
 [2023-07-23 00:29:12] INFO root fetch - processPackages [dunderlab-timescaledbapp]: Remove: archive file [/home/abi/fetcher/tmp/dunderlab-timescaledbapp-0.1.2.tar.gz]
 [2023-07-23 00:29:12] INFO root fetch - main [MainThread]: End processing [dunderlab-timescaledbapp]: success
 [2023-07-23 00:29:12] INFO root fetch - main [MainThread]: Store serial: [18998084]
+[2023-07-23 00:34:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18998084]
+[2023-07-23 00:34:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-23 00:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-chalk-it
+[2023-07-23 00:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Signal8
+[2023-07-23 00:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyinstrument
+[2023-07-23 00:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wombo
+[2023-07-23 00:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bergwerkapp
+[2023-07-23 00:34:21] INFO root fetch - processPackages [Signal8]: New version: [4.97] Old Version: [4.96]
+[2023-07-23 00:34:21] INFO root fetch - processPackages [wombo]: New version: [0.1.8] Old Version: [0.1.72]
+[2023-07-23 00:34:21] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/41/df/67872e130a8c3cd3d8ba673cac5e8e13688b4c7c71c315f92be1476a2315/Signal8-4.96.tar.gz
+[2023-07-23 00:34:21] WARNING root fetch - processPackages [bergwerkapp]: Skipping, unable to determine old version
+[2023-07-23 00:34:21] INFO root fetch - processPackages [py-chalk-it]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-23 00:34:21] INFO root fetch - main [MainThread]: End processing [bergwerkapp] error
+[2023-07-23 00:34:21] INFO root fetch - processPackages [pyinstrument]: New version: [4.5.1] Old Version: [4.5.0]
+[2023-07-23 00:34:22] INFO root fetch - processPackages [wombo]: Downloading https://files.pythonhosted.org/packages/66/aa/1024e39f730a0ed889f403b0f50eb5b094ebacc3f78eefce72dfd39f6371/wombo-0.1.72.tar.gz
+[2023-07-23 00:34:22] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/20/aa/b25f75ccdfa2f4706f59f88f174277cd5585bb0ee8eba5f8a55fddc1c976/Signal8-4.97.tar.gz
+[2023-07-23 00:34:22] INFO root fetch - processPackages [py-chalk-it]: Downloading https://files.pythonhosted.org/packages/4d/13/38669fab34460e866698f00556b67fcf3778bf5d33a246c215c5773c44b3/py-chalk-it-0.3.4.tar.gz
+[2023-07-23 00:34:22] INFO root fetch - processPackages [pyinstrument]: Downloading https://files.pythonhosted.org/packages/b5/33/18a2ce869a8c1c06ece992c0236b0b6109232d11adb6519cfb1267ee85de/pyinstrument-4.5.0.tar.gz
+[2023-07-23 00:34:22] WARNING root fetch - processPackages [py-chalk-it]: Skipping package: exceeds size limit 33407855>=10485760
+[2023-07-23 00:34:22] INFO root fetch - processPackages [Signal8]: executing diffoscope
+[2023-07-23 00:34:22] INFO root fetch - processPackages [Signal8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Signal8-4.96.tar.gz tmp/Signal8-4.97.tar.gz --markdown 20230723/S/Signal8/4.96-4.97/diff.md --exclude *.pyd
+[2023-07-23 00:34:22] INFO root fetch - main [MainThread]: End processing [py-chalk-it] error
+[2023-07-23 00:34:22] INFO root fetch - processPackages [wombo]: Downloading https://files.pythonhosted.org/packages/13/df/c9aef4cbba0fcbc985b9f17e512bf7e328ba5f757da52cd537f1d68d93d5/wombo-0.1.8.tar.gz
+[2023-07-23 00:34:22] INFO root fetch - processPackages [wombo]: executing diffoscope
+[2023-07-23 00:34:22] INFO root fetch - processPackages [wombo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wombo-0.1.72.tar.gz tmp/wombo-0.1.8.tar.gz --markdown 20230723/w/wombo/0.1.72-0.1.8/diff.md --exclude *.pyd
+[2023-07-23 00:34:22] INFO root fetch - processPackages [pyinstrument]: Downloading https://files.pythonhosted.org/packages/24/94/0d4c272dcc7e04cd2cbb7a60b6e9da3ba8a20233d22f53f556cc48e64033/pyinstrument-4.5.1.tar.gz
+[2023-07-23 00:34:22] INFO root fetch - processPackages [pyinstrument]: executing diffoscope
+[2023-07-23 00:34:22] INFO root fetch - processPackages [pyinstrument]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyinstrument-4.5.0.tar.gz tmp/pyinstrument-4.5.1.tar.gz --markdown 20230723/p/pyinstrument/4.5.0-4.5.1/diff.md --exclude *.pyd
+[2023-07-23 00:34:22] INFO root fetch - processPackages [Signal8]: Remove: archive file [/home/abi/fetcher/tmp/Signal8-4.96.tar.gz]
+[2023-07-23 00:34:22] INFO root fetch - processPackages [Signal8]: Remove: archive file [/home/abi/fetcher/tmp/Signal8-4.97.tar.gz]
+[2023-07-23 00:34:22] INFO root fetch - main [MainThread]: End processing [Signal8]: success
+[2023-07-23 00:34:23] INFO root fetch - processPackages [wombo]: Remove: archive file [/home/abi/fetcher/tmp/wombo-0.1.72.tar.gz]
+[2023-07-23 00:34:23] INFO root fetch - processPackages [wombo]: Remove: archive file [/home/abi/fetcher/tmp/wombo-0.1.8.tar.gz]
+[2023-07-23 00:34:23] INFO root fetch - main [MainThread]: End processing [wombo]: success
+[2023-07-23 00:34:23] INFO root fetch - processPackages [pyinstrument]: Remove: archive file [/home/abi/fetcher/tmp/pyinstrument-4.5.0.tar.gz]
+[2023-07-23 00:34:23] INFO root fetch - processPackages [pyinstrument]: Remove: archive file [/home/abi/fetcher/tmp/pyinstrument-4.5.1.tar.gz]
+[2023-07-23 00:34:23] INFO root fetch - main [MainThread]: End processing [pyinstrument]: success
+[2023-07-23 00:34:23] INFO root fetch - main [MainThread]: Store serial: [18998163]
