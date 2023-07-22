@@ -381,3 +381,36 @@
 [2023-07-23 00:44:44] INFO root fetch - processPackages [mychatbot]: Remove: archive file [/home/abi/fetcher/tmp/mychatbot-2.1.tar.gz]
 [2023-07-23 00:44:44] INFO root fetch - main [MainThread]: End processing [mychatbot]: success
 [2023-07-23 00:44:44] INFO root fetch - main [MainThread]: Store serial: [18998187]
+[2023-07-23 00:49:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18998187]
+[2023-07-23 00:49:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-23 00:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kcli
+[2023-07-23 00:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-help
+[2023-07-23 00:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bergwerkapp
+[2023-07-23 00:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kfish
+[2023-07-23 00:49:53] INFO root fetch - processPackages [bergwerkapp]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-23 00:49:53] INFO root fetch - processPackages [kfish]: New version: [99.0.202307222248] Old Version: [99.0.202307221949]
+[2023-07-23 00:49:53] INFO root fetch - processPackages [kcli]: New version: [99.0.202307222245] Old Version: [99.0.202307221945]
+[2023-07-23 00:49:53] WARNING root fetch - processPackages [data-help]: Skipping, unable to determine old version
+[2023-07-23 00:49:53] INFO root fetch - main [MainThread]: End processing [data-help] error
+[2023-07-23 00:49:53] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/e3/c9/4dff2c5e19861d0b4062d8e00b7a5ffd1ba28106ef935c6dff545c354d49/kfish-99.0.202307221949-py3-none-any.whl
+[2023-07-23 00:49:53] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/42/fd/3dd0383982a666ab4fcab064a0405a0db46321990516e6bb7a312309fd27/kcli-99.0.202307221945-py3-none-any.whl
+[2023-07-23 00:49:53] INFO root fetch - processPackages [bergwerkapp]: Downloading https://files.pythonhosted.org/packages/3d/15/d5db4d1b162ade88b354e50611feac9e37af097d6e438dd11e89ffd9e7e6/bergwerkapp-1.0.0.tar.gz
+[2023-07-23 00:49:53] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/29/27/3f7f653fdd6f055a98add0b403804229fd89073b24291b373b6b1eb811f8/kfish-99.0.202307222248-py3-none-any.whl
+[2023-07-23 00:49:53] INFO root fetch - processPackages [bergwerkapp]: Downloading https://files.pythonhosted.org/packages/5f/77/a0921e0067c9731e87a4a1ed19db6f3ad7905fc5a54720799b2b0810e59c/bergwerkapp-1.0.1.tar.gz
+[2023-07-23 00:49:53] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/77/d2/1f37a9947c2dc512fcc402d56ce5cb6e406a3084ca7c12a24cd9b55d9031/kcli-99.0.202307222245-py3-none-any.whl
+[2023-07-23 00:49:53] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-23 00:49:53] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307221949-py3-none-any.whl.zip tmp/kfish-99.0.202307222248-py3-none-any.whl.zip --markdown 20230723/k/kfish/99.0.202307221949-99.0.202307222248/diff.md --exclude *.pyd
+[2023-07-23 00:49:53] INFO root fetch - processPackages [bergwerkapp]: executing diffoscope
+[2023-07-23 00:49:53] INFO root fetch - processPackages [bergwerkapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bergwerkapp-1.0.0.tar.gz tmp/bergwerkapp-1.0.1.tar.gz --markdown 20230723/b/bergwerkapp/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-23 00:49:53] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-23 00:49:53] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307221945-py3-none-any.whl.zip tmp/kcli-99.0.202307222245-py3-none-any.whl.zip --markdown 20230723/k/kcli/99.0.202307221945-99.0.202307222245/diff.md --exclude *.pyd
+[2023-07-23 00:49:54] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307221949-py3-none-any.whl.zip]
+[2023-07-23 00:49:54] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307222248-py3-none-any.whl.zip]
+[2023-07-23 00:49:54] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-23 00:49:54] INFO root fetch - processPackages [bergwerkapp]: Remove: archive file [/home/abi/fetcher/tmp/bergwerkapp-1.0.0.tar.gz]
+[2023-07-23 00:49:54] INFO root fetch - processPackages [bergwerkapp]: Remove: archive file [/home/abi/fetcher/tmp/bergwerkapp-1.0.1.tar.gz]
+[2023-07-23 00:49:54] INFO root fetch - main [MainThread]: End processing [bergwerkapp]: success
+[2023-07-23 00:49:56] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307221945-py3-none-any.whl.zip]
+[2023-07-23 00:49:56] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307222245-py3-none-any.whl.zip]
+[2023-07-23 00:49:56] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-23 00:49:56] INFO root fetch - main [MainThread]: Store serial: [18998199]
