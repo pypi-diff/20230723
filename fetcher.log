@@ -810,3 +810,24 @@
 [2023-07-23 01:47:07] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230721.tar.gz]
 [2023-07-23 01:47:07] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
 [2023-07-23 01:47:07] INFO root fetch - main [MainThread]: Store serial: [18998381]
+[2023-07-23 01:52:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18998381]
+[2023-07-23 01:52:17] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-23 01:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vmn
+[2023-07-23 01:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nsj-queue-lib
+[2023-07-23 01:52:17] INFO root fetch - processPackages [nsj-queue-lib]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-23 01:52:17] INFO root fetch - processPackages [vmn]: New version: [0.8.5rc3] Old Version: [0.8.5rc2]
+[2023-07-23 01:52:17] INFO root fetch - processPackages [nsj-queue-lib]: Downloading https://files.pythonhosted.org/packages/b4/54/4848a8be6d38993d50e47e5b8a7f911000bf3429df1afd2068ade17a40ba/nsj_queue_lib-0.1.1.tar.gz
+[2023-07-23 01:52:18] INFO root fetch - processPackages [vmn]: Downloading https://files.pythonhosted.org/packages/d6/0e/b49cc949cc33a52c3b5b71b9cbb4c22383fc46feba0ad0d116d0b5d87ff5/vmn-0.8.5rc2-py3-none-any.whl
+[2023-07-23 01:52:18] INFO root fetch - processPackages [nsj-queue-lib]: Downloading https://files.pythonhosted.org/packages/cb/36/b98e95adb6c135de0a3bf6b767c98992b3ea64a44e8a725e3cd22ded5377/nsj_queue_lib-0.1.2.tar.gz
+[2023-07-23 01:52:18] INFO root fetch - processPackages [nsj-queue-lib]: executing diffoscope
+[2023-07-23 01:52:18] INFO root fetch - processPackages [nsj-queue-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsj_queue_lib-0.1.1.tar.gz tmp/nsj_queue_lib-0.1.2.tar.gz --markdown 20230723/n/nsj-queue-lib/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-23 01:52:18] INFO root fetch - processPackages [vmn]: Downloading https://files.pythonhosted.org/packages/b5/19/e6f29ad2ce60bba0f0ef1d222283ed5e49bc8b7d4c10262ac36a1647a831/vmn-0.8.5rc3-py3-none-any.whl
+[2023-07-23 01:52:18] INFO root fetch - processPackages [vmn]: executing diffoscope
+[2023-07-23 01:52:18] INFO root fetch - processPackages [vmn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vmn-0.8.5rc2-py3-none-any.whl.zip tmp/vmn-0.8.5rc3-py3-none-any.whl.zip --markdown 20230723/v/vmn/0.8.5rc2-0.8.5rc3/diff.md --exclude *.pyd
+[2023-07-23 01:52:19] INFO root fetch - processPackages [nsj-queue-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_queue_lib-0.1.1.tar.gz]
+[2023-07-23 01:52:19] INFO root fetch - processPackages [nsj-queue-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_queue_lib-0.1.2.tar.gz]
+[2023-07-23 01:52:19] INFO root fetch - main [MainThread]: End processing [nsj-queue-lib]: success
+[2023-07-23 01:52:19] INFO root fetch - processPackages [vmn]: Remove: archive file [/home/abi/fetcher/tmp/vmn-0.8.5rc2-py3-none-any.whl.zip]
+[2023-07-23 01:52:19] INFO root fetch - processPackages [vmn]: Remove: archive file [/home/abi/fetcher/tmp/vmn-0.8.5rc3-py3-none-any.whl.zip]
+[2023-07-23 01:52:19] INFO root fetch - main [MainThread]: End processing [vmn]: success
+[2023-07-23 01:52:19] INFO root fetch - main [MainThread]: Store serial: [18998386]
