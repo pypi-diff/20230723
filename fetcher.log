@@ -572,3 +572,42 @@
 [2023-07-23 01:10:40] INFO root fetch - processPackages [mychatbot]: Remove: archive file [/home/abi/fetcher/tmp/mychatbot-2.4.tar.gz]
 [2023-07-23 01:10:40] INFO root fetch - main [MainThread]: End processing [mychatbot]: success
 [2023-07-23 01:10:40] INFO root fetch - main [MainThread]: Store serial: [18998252]
+[2023-07-23 01:15:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18998252]
+[2023-07-23 01:15:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-23 01:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netlify-python
+[2023-07-23 01:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jplaw
+[2023-07-23 01:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatlab
+[2023-07-23 01:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chalk-harness
+[2023-07-23 01:15:49] INFO root fetch - processPackages [netlify-python]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-23 01:15:49] INFO root fetch - processPackages [jplaw]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-23 01:15:49] INFO root fetch - processPackages [chatlab]: New version: [1.0.0a0] Old Version: [0.16.0]
+[2023-07-23 01:15:49] INFO root fetch - processPackages [chalk-harness]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-23 01:15:49] INFO root fetch - processPackages [jplaw]: Downloading https://files.pythonhosted.org/packages/68/d4/6e0d4d79eb23ae525ac235280286acb548f663a5601fb1b2ff95ca1af004/jplaw-0.1.8.tar.gz
+[2023-07-23 01:15:49] INFO root fetch - processPackages [chatlab]: Downloading https://files.pythonhosted.org/packages/9c/df/d9ca4b2626a11ca8be990718ca3d05d710332409c459cc3f81c215e88270/chatlab-0.16.0.tar.gz
+[2023-07-23 01:15:49] INFO root fetch - processPackages [chalk-harness]: Downloading https://files.pythonhosted.org/packages/84/f5/b936b84471ef7ad22e984b34f5cb75b9a08129c6bca023ffb213a3ae2533/chalk-harness-1.0.4.tar.gz
+[2023-07-23 01:15:49] INFO root fetch - processPackages [netlify-python]: Downloading https://files.pythonhosted.org/packages/a0/43/2044f0487b205061304491951249eab0d3c7833b000f48b9d6d89b603599/netlify-python-0.1.1.tar.gz
+[2023-07-23 01:15:49] INFO root fetch - processPackages [chatlab]: Downloading https://files.pythonhosted.org/packages/f8/ef/33942c86915449f024cb323abb7c38fc127de5e1c68c66726d48291ffd9d/chatlab-1.0.0a0.tar.gz
+[2023-07-23 01:15:49] INFO root fetch - processPackages [chalk-harness]: Downloading https://files.pythonhosted.org/packages/33/6d/6411c4fc5fe05814637e79ace5fb7fbb6ef25b858fc6bfae4ca1b5b311bd/chalk-harness-1.0.5.tar.gz
+[2023-07-23 01:15:49] INFO root fetch - processPackages [jplaw]: Downloading https://files.pythonhosted.org/packages/19/9e/cbe18352b490980dcca0d87641b86094e77e839dd1fbb1fe79c3c4ce8f83/jplaw-0.1.9.tar.gz
+[2023-07-23 01:15:50] INFO root fetch - processPackages [chalk-harness]: executing diffoscope
+[2023-07-23 01:15:50] INFO root fetch - processPackages [chalk-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalk-harness-1.0.4.tar.gz tmp/chalk-harness-1.0.5.tar.gz --markdown 20230723/c/chalk-harness/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-23 01:15:50] INFO root fetch - processPackages [netlify-python]: Downloading https://files.pythonhosted.org/packages/e9/25/cf34139fab29c55375ec035d3528acd6f6673b8396a7f90c64f699fcbaf7/netlify-python-0.2.0.tar.gz
+[2023-07-23 01:15:50] INFO root fetch - processPackages [jplaw]: executing diffoscope
+[2023-07-23 01:15:50] INFO root fetch - processPackages [jplaw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jplaw-0.1.8.tar.gz tmp/jplaw-0.1.9.tar.gz --markdown 20230723/j/jplaw/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-23 01:15:50] INFO root fetch - processPackages [chatlab]: executing diffoscope
+[2023-07-23 01:15:50] INFO root fetch - processPackages [chatlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatlab-0.16.0.tar.gz tmp/chatlab-1.0.0a0.tar.gz --markdown 20230723/c/chatlab/0.16.0-1.0.0a0/diff.md --exclude *.pyd
+[2023-07-23 01:15:50] INFO root fetch - processPackages [netlify-python]: executing diffoscope
+[2023-07-23 01:15:50] INFO root fetch - processPackages [netlify-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netlify-python-0.1.1.tar.gz tmp/netlify-python-0.2.0.tar.gz --markdown 20230723/n/netlify-python/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-23 01:15:50] INFO root fetch - processPackages [netlify-python]: Remove: archive file [/home/abi/fetcher/tmp/netlify-python-0.1.1.tar.gz]
+[2023-07-23 01:15:50] INFO root fetch - processPackages [netlify-python]: Remove: archive file [/home/abi/fetcher/tmp/netlify-python-0.2.0.tar.gz]
+[2023-07-23 01:15:50] INFO root fetch - main [MainThread]: End processing [netlify-python]: success
+[2023-07-23 01:15:50] INFO root fetch - processPackages [chalk-harness]: Remove: archive file [/home/abi/fetcher/tmp/chalk-harness-1.0.4.tar.gz]
+[2023-07-23 01:15:50] INFO root fetch - processPackages [chalk-harness]: Remove: archive file [/home/abi/fetcher/tmp/chalk-harness-1.0.5.tar.gz]
+[2023-07-23 01:15:50] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
+[2023-07-23 01:15:51] INFO root fetch - processPackages [jplaw]: Remove: archive file [/home/abi/fetcher/tmp/jplaw-0.1.8.tar.gz]
+[2023-07-23 01:15:51] INFO root fetch - processPackages [jplaw]: Remove: archive file [/home/abi/fetcher/tmp/jplaw-0.1.9.tar.gz]
+[2023-07-23 01:15:51] INFO root fetch - main [MainThread]: End processing [jplaw]: success
+[2023-07-23 01:15:51] INFO root fetch - processPackages [chatlab]: Remove: archive file [/home/abi/fetcher/tmp/chatlab-0.16.0.tar.gz]
+[2023-07-23 01:15:51] INFO root fetch - processPackages [chatlab]: Remove: archive file [/home/abi/fetcher/tmp/chatlab-1.0.0a0.tar.gz]
+[2023-07-23 01:15:51] INFO root fetch - main [MainThread]: End processing [chatlab]: success
+[2023-07-23 01:15:51] INFO root fetch - main [MainThread]: Store serial: [18998264]
