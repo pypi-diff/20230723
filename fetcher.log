@@ -414,3 +414,68 @@
 [2023-07-23 00:49:56] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307222245-py3-none-any.whl.zip]
 [2023-07-23 00:49:56] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-07-23 00:49:56] INFO root fetch - main [MainThread]: Store serial: [18998199]
+[2023-07-23 00:55:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18998199]
+[2023-07-23 00:55:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-23 00:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nsj-queue-lib
+[2023-07-23 00:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: logger-extras
+[2023-07-23 00:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scrall
+[2023-07-23 00:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: linthell
+[2023-07-23 00:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: psdist
+[2023-07-23 00:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mychatbot
+[2023-07-23 00:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: icepool
+[2023-07-23 00:55:06] INFO root fetch - processPackages [scrall]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-23 00:55:06] INFO root fetch - processPackages [mychatbot]: New version: [2.1] Old Version: [2.0]
+[2023-07-23 00:55:06] INFO root fetch - processPackages [logger-extras]: New version: [0.1.0] Old Version: [0.0.1rc1]
+[2023-07-23 00:55:06] INFO root fetch - processPackages [nsj-queue-lib]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-23 00:55:06] INFO root fetch - processPackages [logger-extras]: Downloading https://files.pythonhosted.org/packages/82/df/8115673cab5aed50b626b065222b223dcf0f047299254ec896a3e461be12/logger_extras-0.0.1rc1.tar.gz
+[2023-07-23 00:55:06] INFO root fetch - processPackages [linthell]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-23 00:55:06] INFO root fetch - processPackages [scrall]: Downloading https://files.pythonhosted.org/packages/de/00/9be7725773d762b1329f041571b6d1925040ba279ca0d8793d9bb0f39264/scrall-0.2.8.tar.gz
+[2023-07-23 00:55:06] INFO root fetch - processPackages [psdist]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-23 00:55:06] INFO root fetch - processPackages [icepool]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-07-23 00:55:06] INFO root fetch - processPackages [nsj-queue-lib]: Downloading https://files.pythonhosted.org/packages/44/98/1ac7ad9a81222700e4b756a55200e656f73581a6c29f4a081ab72fbacd9f/nsj_queue_lib-0.1.0.tar.gz
+[2023-07-23 00:55:06] INFO root fetch - processPackages [mychatbot]: Downloading https://files.pythonhosted.org/packages/20/69/54bb404059b3ece384f0d40826d1da4561bb258fd37dac0ccbe15b9f06f6/mychatbot-2.0.tar.gz
+[2023-07-23 00:55:06] INFO root fetch - processPackages [scrall]: Downloading https://files.pythonhosted.org/packages/9a/df/ccceb037295ae0343198d907678498d8862f523ce37edf85f3e7717dd05f/scrall-0.2.9.tar.gz
+[2023-07-23 00:55:06] INFO root fetch - processPackages [icepool]: Downloading https://files.pythonhosted.org/packages/89/19/d048a9d0f7be7d936293f865a84bdffde2fd5b06a3b5773d75e376762197/icepool-0.9.0.tar.gz
+[2023-07-23 00:55:06] INFO root fetch - processPackages [mychatbot]: Downloading https://files.pythonhosted.org/packages/5a/97/df3f3f22f1c372edaac70dc30bbd8ca367e31afb2a5c5a581234ad08056a/mychatbot-2.1.tar.gz
+[2023-07-23 00:55:06] INFO root fetch - processPackages [scrall]: executing diffoscope
+[2023-07-23 00:55:06] INFO root fetch - processPackages [scrall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrall-0.2.8.tar.gz tmp/scrall-0.2.9.tar.gz --markdown 20230723/s/scrall/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-23 00:55:06] INFO root fetch - processPackages [logger-extras]: Downloading https://files.pythonhosted.org/packages/23/7e/b648629e5773b9015672fb7b8984fab01b6458b3fd69ea60714bff2fe8ec/logger_extras-0.1.0.tar.gz
+[2023-07-23 00:55:06] INFO root fetch - processPackages [nsj-queue-lib]: Downloading https://files.pythonhosted.org/packages/b4/54/4848a8be6d38993d50e47e5b8a7f911000bf3429df1afd2068ade17a40ba/nsj_queue_lib-0.1.1.tar.gz
+[2023-07-23 00:55:07] INFO root fetch - processPackages [linthell]: Downloading https://files.pythonhosted.org/packages/7e/ae/06897d336ac034d9a025b00b3dbfa2fa81f1312240471528c89d1de8a35a/linthell-1.0.3.tar.gz
+[2023-07-23 00:55:07] INFO root fetch - processPackages [mychatbot]: executing diffoscope
+[2023-07-23 00:55:07] INFO root fetch - processPackages [mychatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mychatbot-2.0.tar.gz tmp/mychatbot-2.1.tar.gz --markdown 20230723/m/mychatbot/2.0-2.1/diff.md --exclude *.pyd
+[2023-07-23 00:55:07] INFO root fetch - processPackages [logger-extras]: executing diffoscope
+[2023-07-23 00:55:07] INFO root fetch - processPackages [logger-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger_extras-0.0.1rc1.tar.gz tmp/logger_extras-0.1.0.tar.gz --markdown 20230723/l/logger-extras/0.0.1rc1-0.1.0/diff.md --exclude *.pyd
+[2023-07-23 00:55:07] INFO root fetch - processPackages [nsj-queue-lib]: executing diffoscope
+[2023-07-23 00:55:07] INFO root fetch - processPackages [nsj-queue-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsj_queue_lib-0.1.0.tar.gz tmp/nsj_queue_lib-0.1.1.tar.gz --markdown 20230723/n/nsj-queue-lib/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-23 00:55:07] INFO root fetch - processPackages [psdist]: Downloading https://files.pythonhosted.org/packages/e6/b0/a4d39fb5c039d67c1aed69bf51b9fdcabc801eb195055fcc39fa7e2b4ccb/psdist-0.1.9.tar.gz
+[2023-07-23 00:55:07] INFO root fetch - processPackages [icepool]: Downloading https://files.pythonhosted.org/packages/ae/e6/ad86599b13fdc8f687fe724156ed7031585a9a7cfceca043ff87f4ff9d47/icepool-1.0.0.tar.gz
+[2023-07-23 00:55:07] INFO root fetch - processPackages [psdist]: executing diffoscope
+[2023-07-23 00:55:07] INFO root fetch - processPackages [psdist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psdist-0.1.8.tar.gz tmp/psdist-0.1.9.tar.gz --markdown 20230723/p/psdist/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-23 00:55:07] INFO root fetch - processPackages [icepool]: executing diffoscope
+[2023-07-23 00:55:07] INFO root fetch - processPackages [icepool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icepool-0.9.0.tar.gz tmp/icepool-1.0.0.tar.gz --markdown 20230723/i/icepool/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-23 00:55:07] INFO root fetch - processPackages [linthell]: Downloading https://files.pythonhosted.org/packages/4c/41/513de6def75dd57345750e4c881faa93a08d06d8daef1ddf30564bc33658/linthell-1.0.4.tar.gz
+[2023-07-23 00:55:07] INFO root fetch - processPackages [linthell]: executing diffoscope
+[2023-07-23 00:55:07] INFO root fetch - processPackages [linthell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linthell-1.0.3.tar.gz tmp/linthell-1.0.4.tar.gz --markdown 20230723/l/linthell/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-23 00:55:07] INFO root fetch - processPackages [scrall]: Remove: archive file [/home/abi/fetcher/tmp/scrall-0.2.8.tar.gz]
+[2023-07-23 00:55:07] INFO root fetch - processPackages [scrall]: Remove: archive file [/home/abi/fetcher/tmp/scrall-0.2.9.tar.gz]
+[2023-07-23 00:55:07] INFO root fetch - main [MainThread]: End processing [scrall]: success
+[2023-07-23 00:55:07] INFO root fetch - processPackages [mychatbot]: Remove: archive file [/home/abi/fetcher/tmp/mychatbot-2.0.tar.gz]
+[2023-07-23 00:55:07] INFO root fetch - processPackages [mychatbot]: Remove: archive file [/home/abi/fetcher/tmp/mychatbot-2.1.tar.gz]
+[2023-07-23 00:55:07] INFO root fetch - main [MainThread]: End processing [mychatbot]: success
+[2023-07-23 00:55:08] INFO root fetch - processPackages [logger-extras]: Remove: archive file [/home/abi/fetcher/tmp/logger_extras-0.0.1rc1.tar.gz]
+[2023-07-23 00:55:08] INFO root fetch - processPackages [logger-extras]: Remove: archive file [/home/abi/fetcher/tmp/logger_extras-0.1.0.tar.gz]
+[2023-07-23 00:55:08] INFO root fetch - main [MainThread]: End processing [logger-extras]: success
+[2023-07-23 00:55:08] INFO root fetch - processPackages [nsj-queue-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_queue_lib-0.1.0.tar.gz]
+[2023-07-23 00:55:08] INFO root fetch - processPackages [nsj-queue-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_queue_lib-0.1.1.tar.gz]
+[2023-07-23 00:55:08] INFO root fetch - main [MainThread]: End processing [nsj-queue-lib]: success
+[2023-07-23 00:55:08] INFO root fetch - processPackages [psdist]: Remove: archive file [/home/abi/fetcher/tmp/psdist-0.1.8.tar.gz]
+[2023-07-23 00:55:08] INFO root fetch - processPackages [psdist]: Remove: archive file [/home/abi/fetcher/tmp/psdist-0.1.9.tar.gz]
+[2023-07-23 00:55:08] INFO root fetch - main [MainThread]: End processing [psdist]: success
+[2023-07-23 00:55:08] INFO root fetch - processPackages [linthell]: Remove: archive file [/home/abi/fetcher/tmp/linthell-1.0.3.tar.gz]
+[2023-07-23 00:55:08] INFO root fetch - processPackages [linthell]: Remove: archive file [/home/abi/fetcher/tmp/linthell-1.0.4.tar.gz]
+[2023-07-23 00:55:08] INFO root fetch - main [MainThread]: End processing [linthell]: success
+[2023-07-23 00:55:08] INFO root fetch - processPackages [icepool]: Remove: archive file [/home/abi/fetcher/tmp/icepool-0.9.0.tar.gz]
+[2023-07-23 00:55:08] INFO root fetch - processPackages [icepool]: Remove: archive file [/home/abi/fetcher/tmp/icepool-1.0.0.tar.gz]
+[2023-07-23 00:55:08] INFO root fetch - main [MainThread]: End processing [icepool]: success
+[2023-07-23 00:55:08] INFO root fetch - main [MainThread]: Store serial: [18998220]
