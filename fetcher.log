@@ -831,3 +831,24 @@
 [2023-07-23 01:52:19] INFO root fetch - processPackages [vmn]: Remove: archive file [/home/abi/fetcher/tmp/vmn-0.8.5rc3-py3-none-any.whl.zip]
 [2023-07-23 01:52:19] INFO root fetch - main [MainThread]: End processing [vmn]: success
 [2023-07-23 01:52:19] INFO root fetch - main [MainThread]: Store serial: [18998386]
+[2023-07-23 01:57:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18998386]
+[2023-07-23 01:57:27] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-23 01:57:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: matan
+[2023-07-23 01:57:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docker-harbormaster
+[2023-07-23 01:57:27] INFO root fetch - processPackages [matan]: New version: [0.1.5.2.9] Old Version: [0.1.5.2.8]
+[2023-07-23 01:57:27] INFO root fetch - processPackages [docker-harbormaster]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-23 01:57:28] INFO root fetch - processPackages [matan]: Downloading https://files.pythonhosted.org/packages/dd/d4/7e09af0a9233d398fb00a7af41e8adf20cd45f7be2e523ca864fc53fdfc8/matan-0.1.5.2.8.tar.gz
+[2023-07-23 01:57:28] INFO root fetch - processPackages [docker-harbormaster]: Downloading https://files.pythonhosted.org/packages/95/9d/b52852e3ee48f2a81ef97d11f9765bb0b45106bda0b30817ce81d56ef1c5/docker_harbormaster-0.3.0.tar.gz
+[2023-07-23 01:57:28] INFO root fetch - processPackages [docker-harbormaster]: Downloading https://files.pythonhosted.org/packages/92/fa/f05a5c0c44d1432da0d68613d47bd2ff60629e70a7f42102972474f9abc3/docker_harbormaster-0.3.1.tar.gz
+[2023-07-23 01:57:28] INFO root fetch - processPackages [matan]: Downloading https://files.pythonhosted.org/packages/48/65/5ce9f8a299725852df96251e8573ce6ae7aa4f7556829d5940ed7945d3a1/matan-0.1.5.2.9.tar.gz
+[2023-07-23 01:57:28] INFO root fetch - processPackages [docker-harbormaster]: executing diffoscope
+[2023-07-23 01:57:28] INFO root fetch - processPackages [docker-harbormaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker_harbormaster-0.3.0.tar.gz tmp/docker_harbormaster-0.3.1.tar.gz --markdown 20230723/d/docker-harbormaster/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-23 01:57:28] INFO root fetch - processPackages [matan]: executing diffoscope
+[2023-07-23 01:57:28] INFO root fetch - processPackages [matan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matan-0.1.5.2.8.tar.gz tmp/matan-0.1.5.2.9.tar.gz --markdown 20230723/m/matan/0.1.5.2.8-0.1.5.2.9/diff.md --exclude *.pyd
+[2023-07-23 01:57:29] INFO root fetch - processPackages [docker-harbormaster]: Remove: archive file [/home/abi/fetcher/tmp/docker_harbormaster-0.3.0.tar.gz]
+[2023-07-23 01:57:29] INFO root fetch - processPackages [docker-harbormaster]: Remove: archive file [/home/abi/fetcher/tmp/docker_harbormaster-0.3.1.tar.gz]
+[2023-07-23 01:57:29] INFO root fetch - main [MainThread]: End processing [docker-harbormaster]: success
+[2023-07-23 01:57:29] INFO root fetch - processPackages [matan]: Remove: archive file [/home/abi/fetcher/tmp/matan-0.1.5.2.8.tar.gz]
+[2023-07-23 01:57:29] INFO root fetch - processPackages [matan]: Remove: archive file [/home/abi/fetcher/tmp/matan-0.1.5.2.9.tar.gz]
+[2023-07-23 01:57:29] INFO root fetch - main [MainThread]: End processing [matan]: success
+[2023-07-23 01:57:29] INFO root fetch - main [MainThread]: Store serial: [18998391]
