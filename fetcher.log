@@ -720,3 +720,42 @@
 [2023-07-23 01:36:45] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.9.1.tar.gz]
 [2023-07-23 01:36:45] INFO root fetch - main [MainThread]: End processing [unigui]: success
 [2023-07-23 01:36:45] INFO root fetch - main [MainThread]: Store serial: [18998309]
+[2023-07-23 01:41:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18998309]
+[2023-07-23 01:41:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-23 01:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nthp-api
+[2023-07-23 01:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlite-utils
+[2023-07-23 01:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phylotrackpy
+[2023-07-23 01:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vesta
+[2023-07-23 01:41:54] INFO root fetch - processPackages [phylotrackpy]: New version: [0.1.5] Old Version: [0.1.14]
+[2023-07-23 01:41:54] INFO root fetch - processPackages [nthp-api]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-23 01:41:54] INFO root fetch - processPackages [sqlite-utils]: New version: [3.9.1] Old Version: [3.9]
+[2023-07-23 01:41:54] INFO root fetch - processPackages [vesta]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-23 01:41:54] INFO root fetch - processPackages [nthp-api]: Downloading https://files.pythonhosted.org/packages/bc/55/1bb55accfb62b8a449bc44f45c9d853a456a126b194fea2c7f03f894ed83/nthp_api-0.1.0.tar.gz
+[2023-07-23 01:41:54] INFO root fetch - processPackages [phylotrackpy]: Downloading https://files.pythonhosted.org/packages/fd/13/12a206653b91ad7dc40f2a9e59400ff25f9ec576425cb86c77254e51b86c/phylotrackpy-0.1.14-pp37-pypy37_pp73-manylinux_2_17_i686.manylinux2014_i686.whl
+[2023-07-23 01:41:54] INFO root fetch - processPackages [sqlite-utils]: Downloading https://files.pythonhosted.org/packages/86/4f/17aaa5880391e1a982119013e590ae246d709d7bf797127ab7dedfacb10a/sqlite-utils-3.9.tar.gz
+[2023-07-23 01:41:54] INFO root fetch - processPackages [vesta]: Downloading https://files.pythonhosted.org/packages/ed/3e/c631ea005d0064266a73bbdb29b67cf48fb0dc6f5d2fcdec2f2b33556d5c/vesta-0.8.0.tar.gz
+[2023-07-23 01:41:54] INFO root fetch - processPackages [nthp-api]: Downloading https://files.pythonhosted.org/packages/6a/84/210d3e33af7b6437e5543e2ad1853843561c95643c2c5c57fd1c4a7a9546/nthp_api-0.1.1.tar.gz
+[2023-07-23 01:41:54] INFO root fetch - processPackages [nthp-api]: executing diffoscope
+[2023-07-23 01:41:54] INFO root fetch - processPackages [nthp-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nthp_api-0.1.0.tar.gz tmp/nthp_api-0.1.1.tar.gz --markdown 20230723/n/nthp-api/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-23 01:41:54] INFO root fetch - processPackages [sqlite-utils]: Downloading https://files.pythonhosted.org/packages/9c/c9/3b3d73898243153dd80aa56c1bf80f5dd700ae65d12c29324ac9db833e03/sqlite-utils-3.9.1.tar.gz
+[2023-07-23 01:41:54] INFO root fetch - processPackages [vesta]: Downloading https://files.pythonhosted.org/packages/7b/b5/6d6befb1087bccefbd6e41e4cec9158f7eb6a7e62fdbca8c434c695a10ae/vesta-0.9.0.tar.gz
+[2023-07-23 01:41:55] INFO root fetch - processPackages [vesta]: executing diffoscope
+[2023-07-23 01:41:55] INFO root fetch - processPackages [vesta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vesta-0.8.0.tar.gz tmp/vesta-0.9.0.tar.gz --markdown 20230723/v/vesta/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-23 01:41:55] INFO root fetch - processPackages [sqlite-utils]: executing diffoscope
+[2023-07-23 01:41:55] INFO root fetch - processPackages [sqlite-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite-utils-3.9.tar.gz tmp/sqlite-utils-3.9.1.tar.gz --markdown 20230723/s/sqlite-utils/3.9-3.9.1/diff.md --exclude *.pyd
+[2023-07-23 01:41:55] INFO root fetch - processPackages [nthp-api]: Remove: archive file [/home/abi/fetcher/tmp/nthp_api-0.1.0.tar.gz]
+[2023-07-23 01:41:55] INFO root fetch - processPackages [nthp-api]: Remove: archive file [/home/abi/fetcher/tmp/nthp_api-0.1.1.tar.gz]
+[2023-07-23 01:41:55] INFO root fetch - main [MainThread]: End processing [nthp-api]: success
+[2023-07-23 01:41:55] INFO root fetch - processPackages [phylotrackpy]: Downloading https://files.pythonhosted.org/packages/2f/73/f4e4b62711fd3e384d6b8314a0fff16b6c0b38790d464d8b7c4a110bd3e5/phylotrackpy-0.1.5.tar.gz
+[2023-07-23 01:41:55] INFO root fetch - processPackages [phylotrackpy]: executing diffoscope
+[2023-07-23 01:41:55] INFO root fetch - processPackages [phylotrackpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phylotrackpy-0.1.14-pp37-pypy37_pp73-manylinux_2_17_i686.manylinux2014_i686.whl.zip tmp/phylotrackpy-0.1.5.tar.gz --markdown 20230723/p/phylotrackpy/0.1.14-0.1.5/diff.md --exclude *.pyd
+[2023-07-23 01:41:55] INFO root fetch - processPackages [vesta]: Remove: archive file [/home/abi/fetcher/tmp/vesta-0.8.0.tar.gz]
+[2023-07-23 01:41:55] INFO root fetch - processPackages [vesta]: Remove: archive file [/home/abi/fetcher/tmp/vesta-0.9.0.tar.gz]
+[2023-07-23 01:41:55] INFO root fetch - main [MainThread]: End processing [vesta]: success
+[2023-07-23 01:41:56] INFO root fetch - processPackages [sqlite-utils]: Remove: archive file [/home/abi/fetcher/tmp/sqlite-utils-3.9.tar.gz]
+[2023-07-23 01:41:56] INFO root fetch - processPackages [sqlite-utils]: Remove: archive file [/home/abi/fetcher/tmp/sqlite-utils-3.9.1.tar.gz]
+[2023-07-23 01:41:56] INFO root fetch - main [MainThread]: End processing [sqlite-utils]: success
+[2023-07-23 01:41:56] INFO root fetch - processPackages [phylotrackpy]: Remove: archive file [/home/abi/fetcher/tmp/phylotrackpy-0.1.14-pp37-pypy37_pp73-manylinux_2_17_i686.manylinux2014_i686.whl.zip]
+[2023-07-23 01:41:56] INFO root fetch - processPackages [phylotrackpy]: Remove: archive file [/home/abi/fetcher/tmp/phylotrackpy-0.1.5.tar.gz]
+[2023-07-23 01:41:56] INFO root fetch - main [MainThread]: End processing [phylotrackpy]: success
+[2023-07-23 01:41:56] INFO root fetch - main [MainThread]: Store serial: [18998349]
