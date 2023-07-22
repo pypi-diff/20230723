@@ -113,3 +113,39 @@
 [2023-07-23 00:08:28] INFO root fetch - processPackages [poetry-plugin-dotenv]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_dotenv-0.5.1.tar.gz]
 [2023-07-23 00:08:28] INFO root fetch - main [MainThread]: End processing [poetry-plugin-dotenv]: success
 [2023-07-23 00:08:28] INFO root fetch - main [MainThread]: Store serial: [18997996]
+[2023-07-23 00:13:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18997996]
+[2023-07-23 00:13:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-23 00:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pgpc
+[2023-07-23 00:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Signal8
+[2023-07-23 00:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pynthlib
+[2023-07-23 00:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-azure-ad-auth-redux
+[2023-07-23 00:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nsj-sql-utils-lib
+[2023-07-23 00:13:37] INFO root fetch - processPackages [django-azure-ad-auth-redux]: New version: [1.5.23] Old Version: [1.5.22]
+[2023-07-23 00:13:37] INFO root fetch - processPackages [Signal8]: New version: [4.95] Old Version: [4.94]
+[2023-07-23 00:13:37] INFO root fetch - processPackages [pynthlib]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-23 00:13:37] WARNING root fetch - processPackages [pgpc]: Skipping, unable to determine old version
+[2023-07-23 00:13:37] INFO root fetch - main [MainThread]: End processing [pgpc] error
+[2023-07-23 00:13:37] INFO root fetch - processPackages [django-azure-ad-auth-redux]: Downloading https://files.pythonhosted.org/packages/e7/92/2a1e86cf447b16355ab7a94cb91ba0bebd9967681fa1f61e61842a7e2058/django_azure_ad_auth_redux-1.5.22.tar.gz
+[2023-07-23 00:13:37] WARNING root fetch - processPackages [nsj-sql-utils-lib]: Skipping, unable to determine old version
+[2023-07-23 00:13:37] INFO root fetch - main [MainThread]: End processing [nsj-sql-utils-lib] error
+[2023-07-23 00:13:37] INFO root fetch - processPackages [pynthlib]: Downloading https://files.pythonhosted.org/packages/f9/a1/f55d1c1c961673aa11a7591f1304deb338c8385bacf3ec98f6f7430de28f/pynthlib-0.0.1.tar.gz
+[2023-07-23 00:13:37] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/97/0b/f28aec993fc3153e0ca6642f1835fdd2f6d30a32f819ebffe89752c3846d/Signal8-4.94.tar.gz
+[2023-07-23 00:13:37] INFO root fetch - processPackages [django-azure-ad-auth-redux]: Downloading https://files.pythonhosted.org/packages/63/24/07ba1805ece161785da1df9e2f5c09d456629f10c676e4ba7dfcff7defeb/django_azure_ad_auth_redux-1.5.23.tar.gz
+[2023-07-23 00:13:37] INFO root fetch - processPackages [pynthlib]: Downloading https://files.pythonhosted.org/packages/93/8e/0b3beadc3902f63fd82b0631cfa67e100e78f3ac57ebadbf6951c81555ba/pynthlib-0.0.2.tar.gz
+[2023-07-23 00:13:37] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/fa/77/77b9c837034f8fc8a2dd446053cf7b7a67c9207c05df67feed900babec34/Signal8-4.95.tar.gz
+[2023-07-23 00:13:37] INFO root fetch - processPackages [django-azure-ad-auth-redux]: executing diffoscope
+[2023-07-23 00:13:37] INFO root fetch - processPackages [django-azure-ad-auth-redux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_azure_ad_auth_redux-1.5.22.tar.gz tmp/django_azure_ad_auth_redux-1.5.23.tar.gz --markdown 20230723/d/django-azure-ad-auth-redux/1.5.22-1.5.23/diff.md --exclude *.pyd
+[2023-07-23 00:13:37] INFO root fetch - processPackages [pynthlib]: executing diffoscope
+[2023-07-23 00:13:37] INFO root fetch - processPackages [pynthlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynthlib-0.0.1.tar.gz tmp/pynthlib-0.0.2.tar.gz --markdown 20230723/p/pynthlib/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-23 00:13:37] INFO root fetch - processPackages [Signal8]: executing diffoscope
+[2023-07-23 00:13:37] INFO root fetch - processPackages [Signal8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Signal8-4.94.tar.gz tmp/Signal8-4.95.tar.gz --markdown 20230723/S/Signal8/4.94-4.95/diff.md --exclude *.pyd
+[2023-07-23 00:13:38] INFO root fetch - processPackages [django-azure-ad-auth-redux]: Remove: archive file [/home/abi/fetcher/tmp/django_azure_ad_auth_redux-1.5.22.tar.gz]
+[2023-07-23 00:13:38] INFO root fetch - processPackages [django-azure-ad-auth-redux]: Remove: archive file [/home/abi/fetcher/tmp/django_azure_ad_auth_redux-1.5.23.tar.gz]
+[2023-07-23 00:13:38] INFO root fetch - main [MainThread]: End processing [django-azure-ad-auth-redux]: success
+[2023-07-23 00:13:38] INFO root fetch - processPackages [pynthlib]: Remove: archive file [/home/abi/fetcher/tmp/pynthlib-0.0.1.tar.gz]
+[2023-07-23 00:13:38] INFO root fetch - processPackages [pynthlib]: Remove: archive file [/home/abi/fetcher/tmp/pynthlib-0.0.2.tar.gz]
+[2023-07-23 00:13:38] INFO root fetch - main [MainThread]: End processing [pynthlib]: success
+[2023-07-23 00:13:38] INFO root fetch - processPackages [Signal8]: Remove: archive file [/home/abi/fetcher/tmp/Signal8-4.94.tar.gz]
+[2023-07-23 00:13:38] INFO root fetch - processPackages [Signal8]: Remove: archive file [/home/abi/fetcher/tmp/Signal8-4.95.tar.gz]
+[2023-07-23 00:13:38] INFO root fetch - main [MainThread]: End processing [Signal8]: success
+[2023-07-23 00:13:38] INFO root fetch - main [MainThread]: Store serial: [18998012]
