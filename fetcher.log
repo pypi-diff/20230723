@@ -518,3 +518,42 @@
 [2023-07-23 01:00:18] INFO root fetch - processPackages [fruitcraft]: Remove: archive file [/home/abi/fetcher/tmp/fruitcraft-0.0.3.tar.gz]
 [2023-07-23 01:00:18] INFO root fetch - main [MainThread]: End processing [fruitcraft]: success
 [2023-07-23 01:00:18] INFO root fetch - main [MainThread]: Store serial: [18998231]
+[2023-07-23 01:05:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18998231]
+[2023-07-23 01:05:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-23 01:05:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: catmux
+[2023-07-23 01:05:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmnt-cu101
+[2023-07-23 01:05:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wombo
+[2023-07-23 01:05:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmnt
+[2023-07-23 01:05:28] INFO root fetch - processPackages [wombo]: New version: [0.1.8] Old Version: [0.1.72]
+[2023-07-23 01:05:28] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230721] Old Version: [0.7.0b20230720]
+[2023-07-23 01:05:28] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230721] Old Version: [0.7.0b20230720]
+[2023-07-23 01:05:28] INFO root fetch - processPackages [catmux]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-23 01:05:28] INFO root fetch - processPackages [wombo]: Downloading https://files.pythonhosted.org/packages/66/aa/1024e39f730a0ed889f403b0f50eb5b094ebacc3f78eefce72dfd39f6371/wombo-0.1.72.tar.gz
+[2023-07-23 01:05:28] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/e7/6c/a64cbce597e22fd0402783a1698ad99a733fc2ba2b6dd9f813653f407ca8/tmnt-cu101-0.7.0b20230720.tar.gz
+[2023-07-23 01:05:28] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/03/fb/8d2cf47f2f954f22d259b53fd8216977a1104d1b40dbf42d7fbe2a5a9aab/tmnt-0.7.0b20230720.tar.gz
+[2023-07-23 01:05:28] INFO root fetch - processPackages [wombo]: Downloading https://files.pythonhosted.org/packages/13/df/c9aef4cbba0fcbc985b9f17e512bf7e328ba5f757da52cd537f1d68d93d5/wombo-0.1.8.tar.gz
+[2023-07-23 01:05:28] INFO root fetch - processPackages [catmux]: Downloading https://files.pythonhosted.org/packages/8a/d5/65122935b8ea7986908a2427b47bb35495c4ecf71c1be2f3148160c88fb7/catmux-0.3.3.tar.gz
+[2023-07-23 01:05:28] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/12/f6/2209bc4e0b897a13141dbd8f4ae44b4e33e5a8a04dbdee6f9058718ed7f7/tmnt-cu101-0.7.0b20230721.tar.gz
+[2023-07-23 01:05:28] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/24/4f/0900e834e5b576130a029d8921129975acd4bad4cf4cbd383b40bc61434f/tmnt-0.7.0b20230721.tar.gz
+[2023-07-23 01:05:28] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-07-23 01:05:28] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230720.tar.gz tmp/tmnt-cu101-0.7.0b20230721.tar.gz --markdown 20230723/t/tmnt-cu101/0.7.0b20230720-0.7.0b20230721/diff.md --exclude *.pyd
+[2023-07-23 01:05:28] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-07-23 01:05:28] INFO root fetch - processPackages [wombo]: executing diffoscope
+[2023-07-23 01:05:28] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230720.tar.gz tmp/tmnt-0.7.0b20230721.tar.gz --markdown 20230723/t/tmnt/0.7.0b20230720-0.7.0b20230721/diff.md --exclude *.pyd
+[2023-07-23 01:05:28] INFO root fetch - processPackages [wombo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wombo-0.1.72.tar.gz tmp/wombo-0.1.8.tar.gz --markdown 20230723/w/wombo/0.1.72-0.1.8/diff.md --exclude *.pyd
+[2023-07-23 01:05:29] INFO root fetch - processPackages [catmux]: Downloading https://files.pythonhosted.org/packages/36/b1/e762f74dae6092b0b3db5c4108a0b9be60150d2fdb1590ebb37184dbe03c/catmux-0.3.4.tar.gz
+[2023-07-23 01:05:29] INFO root fetch - processPackages [catmux]: executing diffoscope
+[2023-07-23 01:05:29] INFO root fetch - processPackages [catmux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catmux-0.3.3.tar.gz tmp/catmux-0.3.4.tar.gz --markdown 20230723/c/catmux/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-23 01:05:29] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230720.tar.gz]
+[2023-07-23 01:05:29] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230721.tar.gz]
+[2023-07-23 01:05:29] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-07-23 01:05:29] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230720.tar.gz]
+[2023-07-23 01:05:29] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230721.tar.gz]
+[2023-07-23 01:05:29] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-07-23 01:05:29] INFO root fetch - processPackages [wombo]: Remove: archive file [/home/abi/fetcher/tmp/wombo-0.1.72.tar.gz]
+[2023-07-23 01:05:29] INFO root fetch - processPackages [wombo]: Remove: archive file [/home/abi/fetcher/tmp/wombo-0.1.8.tar.gz]
+[2023-07-23 01:05:29] INFO root fetch - main [MainThread]: End processing [wombo]: success
+[2023-07-23 01:05:30] INFO root fetch - processPackages [catmux]: Remove: archive file [/home/abi/fetcher/tmp/catmux-0.3.3.tar.gz]
+[2023-07-23 01:05:30] INFO root fetch - processPackages [catmux]: Remove: archive file [/home/abi/fetcher/tmp/catmux-0.3.4.tar.gz]
+[2023-07-23 01:05:30] INFO root fetch - main [MainThread]: End processing [catmux]: success
+[2023-07-23 01:05:30] INFO root fetch - main [MainThread]: Store serial: [18998243]
