@@ -369,3 +369,15 @@
 [2023-07-23 00:39:35] INFO root fetch - processPackages [omni-pro]: Remove: archive file [/home/abi/fetcher/tmp/omni-pro-0.1.22.tar.gz]
 [2023-07-23 00:39:35] INFO root fetch - main [MainThread]: End processing [omni-pro]: success
 [2023-07-23 00:39:35] INFO root fetch - main [MainThread]: Store serial: [18998181]
+[2023-07-23 00:44:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18998181]
+[2023-07-23 00:44:43] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-23 00:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mychatbot
+[2023-07-23 00:44:43] INFO root fetch - processPackages [mychatbot]: New version: [2.1] Old Version: [2.0]
+[2023-07-23 00:44:43] INFO root fetch - processPackages [mychatbot]: Downloading https://files.pythonhosted.org/packages/20/69/54bb404059b3ece384f0d40826d1da4561bb258fd37dac0ccbe15b9f06f6/mychatbot-2.0.tar.gz
+[2023-07-23 00:44:44] INFO root fetch - processPackages [mychatbot]: Downloading https://files.pythonhosted.org/packages/5a/97/df3f3f22f1c372edaac70dc30bbd8ca367e31afb2a5c5a581234ad08056a/mychatbot-2.1.tar.gz
+[2023-07-23 00:44:44] INFO root fetch - processPackages [mychatbot]: executing diffoscope
+[2023-07-23 00:44:44] INFO root fetch - processPackages [mychatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mychatbot-2.0.tar.gz tmp/mychatbot-2.1.tar.gz --markdown 20230723/m/mychatbot/2.0-2.1/diff.md --exclude *.pyd
+[2023-07-23 00:44:44] INFO root fetch - processPackages [mychatbot]: Remove: archive file [/home/abi/fetcher/tmp/mychatbot-2.0.tar.gz]
+[2023-07-23 00:44:44] INFO root fetch - processPackages [mychatbot]: Remove: archive file [/home/abi/fetcher/tmp/mychatbot-2.1.tar.gz]
+[2023-07-23 00:44:44] INFO root fetch - main [MainThread]: End processing [mychatbot]: success
+[2023-07-23 00:44:44] INFO root fetch - main [MainThread]: Store serial: [18998187]
