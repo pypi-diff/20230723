@@ -205,3 +205,51 @@
 [2023-07-23 00:18:49] INFO root fetch - processPackages [dill]: Remove: archive file [/home/abi/fetcher/tmp/dill-0.3.6.tar.gz]
 [2023-07-23 00:18:49] INFO root fetch - main [MainThread]: End processing [dill]: success
 [2023-07-23 00:18:49] INFO root fetch - main [MainThread]: Store serial: [18998040]
+[2023-07-23 00:23:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18998040]
+[2023-07-23 00:23:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-23 00:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dill
+[2023-07-23 00:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MyBaleCloud
+[2023-07-23 00:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dtogen
+[2023-07-23 00:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Signal8
+[2023-07-23 00:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: beam-sdk
+[2023-07-23 00:23:59] INFO root fetch - processPackages [dtogen]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-23 00:23:59] INFO root fetch - processPackages [MyBaleCloud]: New version: [1.0] Old Version: [0.2]
+[2023-07-23 00:23:59] INFO root fetch - processPackages [dill]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-07-23 00:23:59] INFO root fetch - processPackages [Signal8]: New version: [4.97] Old Version: [4.96]
+[2023-07-23 00:23:59] INFO root fetch - processPackages [beam-sdk]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-23 00:23:59] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/41/df/67872e130a8c3cd3d8ba673cac5e8e13688b4c7c71c315f92be1476a2315/Signal8-4.96.tar.gz
+[2023-07-23 00:23:59] INFO root fetch - processPackages [MyBaleCloud]: Downloading https://files.pythonhosted.org/packages/d4/12/8bc5492fb7b8befe8453d702488e71ac3bb8229e7577e3b6eadf9eed17e2/MyBaleCloud-0.2.tar.gz
+[2023-07-23 00:23:59] INFO root fetch - processPackages [dill]: Downloading https://files.pythonhosted.org/packages/7c/e7/364a09134e1062d4d5ff69b853a56cf61c223e0afcc6906b6832bcd51ea8/dill-0.3.6.tar.gz
+[2023-07-23 00:23:59] INFO root fetch - processPackages [dtogen]: Downloading https://files.pythonhosted.org/packages/3e/7f/e5ddb3e12cad34c41cdb1e441fd9ad66de8d44c684852b3f9dd108dcb587/dtogen-0.0.4.tar.gz
+[2023-07-23 00:23:59] INFO root fetch - processPackages [beam-sdk]: Downloading https://files.pythonhosted.org/packages/d6/21/9666fc17e5c5d3b0f75cde3f0ad0a33e2fe3063aa155fc1fc4593572bb8d/beam-sdk-0.9.8.tar.gz
+[2023-07-23 00:23:59] INFO root fetch - processPackages [MyBaleCloud]: Downloading https://files.pythonhosted.org/packages/83/07/7d41f926e876d2087fb51fa8ceb3e683dcdcafebfb67e5373e40caf7843e/MyBaleCloud-1.0.tar.gz
+[2023-07-23 00:24:00] INFO root fetch - processPackages [dill]: Downloading https://files.pythonhosted.org/packages/c4/31/54dd222e02311c2dbc9e680d37cbd50f4494ce1ee9b04c69980e4ec26f38/dill-0.3.7.tar.gz
+[2023-07-23 00:24:00] INFO root fetch - processPackages [beam-sdk]: Downloading https://files.pythonhosted.org/packages/64/d7/1ec63c342b9af2c5412a757ed5c8a6c98db462032364060ff95bda50e556/beam-sdk-0.9.9.tar.gz
+[2023-07-23 00:24:00] INFO root fetch - processPackages [MyBaleCloud]: executing diffoscope
+[2023-07-23 00:24:00] INFO root fetch - processPackages [MyBaleCloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MyBaleCloud-0.2.tar.gz tmp/MyBaleCloud-1.0.tar.gz --markdown 20230723/M/MyBaleCloud/0.2-1.0/diff.md --exclude *.pyd
+[2023-07-23 00:24:00] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/20/aa/b25f75ccdfa2f4706f59f88f174277cd5585bb0ee8eba5f8a55fddc1c976/Signal8-4.97.tar.gz
+[2023-07-23 00:24:00] INFO root fetch - processPackages [dtogen]: Downloading https://files.pythonhosted.org/packages/03/3f/249d431be8e81bf85a3967604557911f36166a9c1b502cd5ccdec284abe8/dtogen-0.0.5.tar.gz
+[2023-07-23 00:24:00] INFO root fetch - processPackages [beam-sdk]: executing diffoscope
+[2023-07-23 00:24:00] INFO root fetch - processPackages [beam-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beam-sdk-0.9.8.tar.gz tmp/beam-sdk-0.9.9.tar.gz --markdown 20230723/b/beam-sdk/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-23 00:24:00] INFO root fetch - processPackages [dill]: executing diffoscope
+[2023-07-23 00:24:00] INFO root fetch - processPackages [dill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dill-0.3.6.tar.gz tmp/dill-0.3.7.tar.gz --markdown 20230723/d/dill/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-07-23 00:24:00] INFO root fetch - processPackages [dtogen]: executing diffoscope
+[2023-07-23 00:24:00] INFO root fetch - processPackages [dtogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtogen-0.0.4.tar.gz tmp/dtogen-0.0.5.tar.gz --markdown 20230723/d/dtogen/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-23 00:24:00] INFO root fetch - processPackages [Signal8]: executing diffoscope
+[2023-07-23 00:24:00] INFO root fetch - processPackages [Signal8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Signal8-4.96.tar.gz tmp/Signal8-4.97.tar.gz --markdown 20230723/S/Signal8/4.96-4.97/diff.md --exclude *.pyd
+[2023-07-23 00:24:01] INFO root fetch - processPackages [MyBaleCloud]: Remove: archive file [/home/abi/fetcher/tmp/MyBaleCloud-0.2.tar.gz]
+[2023-07-23 00:24:01] INFO root fetch - processPackages [MyBaleCloud]: Remove: archive file [/home/abi/fetcher/tmp/MyBaleCloud-1.0.tar.gz]
+[2023-07-23 00:24:01] INFO root fetch - main [MainThread]: End processing [MyBaleCloud]: success
+[2023-07-23 00:24:01] INFO root fetch - processPackages [Signal8]: Remove: archive file [/home/abi/fetcher/tmp/Signal8-4.96.tar.gz]
+[2023-07-23 00:24:01] INFO root fetch - processPackages [Signal8]: Remove: archive file [/home/abi/fetcher/tmp/Signal8-4.97.tar.gz]
+[2023-07-23 00:24:01] INFO root fetch - main [MainThread]: End processing [Signal8]: success
+[2023-07-23 00:24:01] INFO root fetch - processPackages [beam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/beam-sdk-0.9.8.tar.gz]
+[2023-07-23 00:24:01] INFO root fetch - processPackages [beam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/beam-sdk-0.9.9.tar.gz]
+[2023-07-23 00:24:01] INFO root fetch - main [MainThread]: End processing [beam-sdk]: success
+[2023-07-23 00:24:01] INFO root fetch - processPackages [dtogen]: Remove: archive file [/home/abi/fetcher/tmp/dtogen-0.0.4.tar.gz]
+[2023-07-23 00:24:01] INFO root fetch - processPackages [dtogen]: Remove: archive file [/home/abi/fetcher/tmp/dtogen-0.0.5.tar.gz]
+[2023-07-23 00:24:01] INFO root fetch - main [MainThread]: End processing [dtogen]: success
+[2023-07-23 00:24:01] INFO root fetch - processPackages [dill]: Remove: archive file [/home/abi/fetcher/tmp/dill-0.3.6.tar.gz]
+[2023-07-23 00:24:01] INFO root fetch - processPackages [dill]: Remove: archive file [/home/abi/fetcher/tmp/dill-0.3.7.tar.gz]
+[2023-07-23 00:24:01] INFO root fetch - main [MainThread]: End processing [dill]: success
+[2023-07-23 00:24:01] INFO root fetch - main [MainThread]: Store serial: [18998064]
