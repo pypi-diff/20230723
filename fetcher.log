@@ -56,3 +56,60 @@
 [2023-07-23 00:03:16] INFO root fetch - processPackages [moptipyapps]: Remove: archive file [/home/abi/fetcher/tmp/moptipyapps-0.8.9.tar.gz]
 [2023-07-23 00:03:16] INFO root fetch - main [MainThread]: End processing [moptipyapps]: success
 [2023-07-23 00:03:16] INFO root fetch - main [MainThread]: Store serial: [18997978]
+[2023-07-23 00:08:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18997978]
+[2023-07-23 00:08:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-23 00:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygeoops
+[2023-07-23 00:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abi3info
+[2023-07-23 00:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sita-package-ml
+[2023-07-23 00:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: poetry-plugin-dotenv
+[2023-07-23 00:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: responsecurve
+[2023-07-23 00:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MyBaleCloud
+[2023-07-23 00:08:26] INFO root fetch - processPackages [abi3info]: New version: [2023.7.22] Old Version: [2023.7.21]
+[2023-07-23 00:08:26] INFO root fetch - processPackages [responsecurve]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 00:08:26] INFO root fetch - processPackages [sita-package-ml]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-23 00:08:26] INFO root fetch - processPackages [pygeoops]: New version: [0.2.0a1] Old Version: [0.1.1]
+[2023-07-23 00:08:26] INFO root fetch - processPackages [poetry-plugin-dotenv]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-23 00:08:26] INFO root fetch - processPackages [MyBaleCloud]: New version: [0.2] Old Version: [0.1]
+[2023-07-23 00:08:26] INFO root fetch - processPackages [abi3info]: Downloading https://files.pythonhosted.org/packages/8a/ae/675cd558a37d3306530ddf84be20761c26518383e5d57cdff8f1d55b040a/abi3info-2023.7.21.tar.gz
+[2023-07-23 00:08:26] INFO root fetch - processPackages [MyBaleCloud]: Downloading https://files.pythonhosted.org/packages/25/bc/c30877d24b37c492ba7dedfaa6b78be46d7a3136da975b0e19a477c195e2/MyBaleCloud-0.1.tar.gz
+[2023-07-23 00:08:27] INFO root fetch - processPackages [sita-package-ml]: Downloading https://files.pythonhosted.org/packages/d0/99/c8b812325e8817a6f9e172b66535c9fb05a53201790198ea3fb245f66be0/sita_package_ml-0.1.1.tar.gz
+[2023-07-23 00:08:27] INFO root fetch - processPackages [responsecurve]: Downloading https://files.pythonhosted.org/packages/83/af/76281c1d8b9b386e8ca09984bd38c68b9d3f5d6afe3b5aeedf2337f0fb68/responsecurve-0.0.8.tar.gz
+[2023-07-23 00:08:27] INFO root fetch - processPackages [poetry-plugin-dotenv]: Downloading https://files.pythonhosted.org/packages/de/83/3160e46caaf766eaf3072d9f3b5821872801a21b9fff6bd1428b4d565aea/poetry_plugin_dotenv-0.5.0.tar.gz
+[2023-07-23 00:08:27] INFO root fetch - processPackages [pygeoops]: Downloading https://files.pythonhosted.org/packages/c0/80/9e8ebc416e2290030849dd3b5defe060fb51d8979bc9df45ca4a811af796/pygeoops-0.1.1.tar.gz
+[2023-07-23 00:08:27] INFO root fetch - processPackages [MyBaleCloud]: Downloading https://files.pythonhosted.org/packages/d4/12/8bc5492fb7b8befe8453d702488e71ac3bb8229e7577e3b6eadf9eed17e2/MyBaleCloud-0.2.tar.gz
+[2023-07-23 00:08:27] INFO root fetch - processPackages [abi3info]: Downloading https://files.pythonhosted.org/packages/e4/3f/ce5c44a2a487178aba742c006616e15a81320dbe0c79ed4f85d4ecedb08d/abi3info-2023.7.22.tar.gz
+[2023-07-23 00:08:27] INFO root fetch - processPackages [MyBaleCloud]: executing diffoscope
+[2023-07-23 00:08:27] INFO root fetch - processPackages [MyBaleCloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MyBaleCloud-0.1.tar.gz tmp/MyBaleCloud-0.2.tar.gz --markdown 20230723/M/MyBaleCloud/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-23 00:08:27] INFO root fetch - processPackages [sita-package-ml]: Downloading https://files.pythonhosted.org/packages/c3/0a/562939a81a0eacb8ce9ef15c50a6b57bbf48286fe705a860b2ddab0bf2a8/sita_package_ml-0.1.2.tar.gz
+[2023-07-23 00:08:27] INFO root fetch - processPackages [pygeoops]: Downloading https://files.pythonhosted.org/packages/96/51/d7527708f7375cb4c2d2d625aaa7958bee2c6d693be69b09f98a00055712/pygeoops-0.2.0a1.tar.gz
+[2023-07-23 00:08:27] INFO root fetch - processPackages [abi3info]: executing diffoscope
+[2023-07-23 00:08:27] INFO root fetch - processPackages [abi3info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abi3info-2023.7.21.tar.gz tmp/abi3info-2023.7.22.tar.gz --markdown 20230723/a/abi3info/2023.7.21-2023.7.22/diff.md --exclude *.pyd
+[2023-07-23 00:08:27] INFO root fetch - processPackages [sita-package-ml]: executing diffoscope
+[2023-07-23 00:08:27] INFO root fetch - processPackages [sita-package-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sita_package_ml-0.1.1.tar.gz tmp/sita_package_ml-0.1.2.tar.gz --markdown 20230723/s/sita-package-ml/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-23 00:08:27] INFO root fetch - processPackages [poetry-plugin-dotenv]: Downloading https://files.pythonhosted.org/packages/a2/92/b387869af2f7b59f207aaa066d4f0b6c92635dfab9a36c2a800959b1ad17/poetry_plugin_dotenv-0.5.1.tar.gz
+[2023-07-23 00:08:27] INFO root fetch - processPackages [responsecurve]: Downloading https://files.pythonhosted.org/packages/ad/77/8b87f9012cd97eb90743830de99b898bdc97610504dbcfeec075bc330c5a/responsecurve-0.0.9.tar.gz
+[2023-07-23 00:08:27] INFO root fetch - processPackages [responsecurve]: executing diffoscope
+[2023-07-23 00:08:27] INFO root fetch - processPackages [responsecurve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/responsecurve-0.0.8.tar.gz tmp/responsecurve-0.0.9.tar.gz --markdown 20230723/r/responsecurve/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 00:08:27] INFO root fetch - processPackages [pygeoops]: executing diffoscope
+[2023-07-23 00:08:27] INFO root fetch - processPackages [pygeoops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygeoops-0.1.1.tar.gz tmp/pygeoops-0.2.0a1.tar.gz --markdown 20230723/p/pygeoops/0.1.1-0.2.0a1/diff.md --exclude *.pyd
+[2023-07-23 00:08:27] INFO root fetch - processPackages [poetry-plugin-dotenv]: executing diffoscope
+[2023-07-23 00:08:27] INFO root fetch - processPackages [poetry-plugin-dotenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_plugin_dotenv-0.5.0.tar.gz tmp/poetry_plugin_dotenv-0.5.1.tar.gz --markdown 20230723/p/poetry-plugin-dotenv/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-23 00:08:28] INFO root fetch - processPackages [MyBaleCloud]: Remove: archive file [/home/abi/fetcher/tmp/MyBaleCloud-0.1.tar.gz]
+[2023-07-23 00:08:28] INFO root fetch - processPackages [MyBaleCloud]: Remove: archive file [/home/abi/fetcher/tmp/MyBaleCloud-0.2.tar.gz]
+[2023-07-23 00:08:28] INFO root fetch - main [MainThread]: End processing [MyBaleCloud]: success
+[2023-07-23 00:08:28] INFO root fetch - processPackages [pygeoops]: Remove: archive file [/home/abi/fetcher/tmp/pygeoops-0.1.1.tar.gz]
+[2023-07-23 00:08:28] INFO root fetch - processPackages [pygeoops]: Remove: archive file [/home/abi/fetcher/tmp/pygeoops-0.2.0a1.tar.gz]
+[2023-07-23 00:08:28] INFO root fetch - main [MainThread]: End processing [pygeoops]: success
+[2023-07-23 00:08:28] INFO root fetch - processPackages [abi3info]: Remove: archive file [/home/abi/fetcher/tmp/abi3info-2023.7.21.tar.gz]
+[2023-07-23 00:08:28] INFO root fetch - processPackages [abi3info]: Remove: archive file [/home/abi/fetcher/tmp/abi3info-2023.7.22.tar.gz]
+[2023-07-23 00:08:28] INFO root fetch - main [MainThread]: End processing [abi3info]: success
+[2023-07-23 00:08:28] INFO root fetch - processPackages [sita-package-ml]: Remove: archive file [/home/abi/fetcher/tmp/sita_package_ml-0.1.1.tar.gz]
+[2023-07-23 00:08:28] INFO root fetch - processPackages [sita-package-ml]: Remove: archive file [/home/abi/fetcher/tmp/sita_package_ml-0.1.2.tar.gz]
+[2023-07-23 00:08:28] INFO root fetch - main [MainThread]: End processing [sita-package-ml]: success
+[2023-07-23 00:08:28] INFO root fetch - processPackages [responsecurve]: Remove: archive file [/home/abi/fetcher/tmp/responsecurve-0.0.8.tar.gz]
+[2023-07-23 00:08:28] INFO root fetch - processPackages [responsecurve]: Remove: archive file [/home/abi/fetcher/tmp/responsecurve-0.0.9.tar.gz]
+[2023-07-23 00:08:28] INFO root fetch - main [MainThread]: End processing [responsecurve]: success
+[2023-07-23 00:08:28] INFO root fetch - processPackages [poetry-plugin-dotenv]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_dotenv-0.5.0.tar.gz]
+[2023-07-23 00:08:28] INFO root fetch - processPackages [poetry-plugin-dotenv]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_dotenv-0.5.1.tar.gz]
+[2023-07-23 00:08:28] INFO root fetch - main [MainThread]: End processing [poetry-plugin-dotenv]: success
+[2023-07-23 00:08:28] INFO root fetch - main [MainThread]: Store serial: [18997996]
