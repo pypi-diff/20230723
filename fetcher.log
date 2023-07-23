@@ -13207,3 +13207,63 @@ AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
 [2023-07-23 20:51:52] INFO root fetch - processPackages [stability-matrix-tools]: Remove: archive file [/home/abi/fetcher/tmp/stability_matrix_tools-0.2.0.tar.gz]
 [2023-07-23 20:51:52] INFO root fetch - main [MainThread]: End processing [stability-matrix-tools]: success
 [2023-07-23 20:51:52] INFO root fetch - main [MainThread]: Store serial: [19004078]
+[2023-07-23 20:56:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19004078]
+[2023-07-23 20:57:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-23 20:57:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: queryset-annotations
+[2023-07-23 20:57:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: laspy
+[2023-07-23 20:57:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kinpal
+[2023-07-23 20:57:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pythonfinder
+[2023-07-23 20:57:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moosez
+[2023-07-23 20:57:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spimdisasm
+[2023-07-23 20:57:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vagd
+[2023-07-23 20:57:01] WARNING root fetch - processPackages [kinpal]: Skipping, unable to determine old version
+[2023-07-23 20:57:01] INFO root fetch - main [MainThread]: End processing [kinpal] error
+[2023-07-23 20:57:01] INFO root fetch - processPackages [queryset-annotations]: New version: [1.1.0] Old Version: [1]
+[2023-07-23 20:57:01] INFO root fetch - processPackages [spimdisasm]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-23 20:57:01] INFO root fetch - processPackages [vagd]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-07-23 20:57:01] INFO root fetch - processPackages [pythonfinder]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-07-23 20:57:01] INFO root fetch - processPackages [laspy]: New version: [2.5.0] Old Version: [2.4.1]
+[2023-07-23 20:57:01] INFO root fetch - processPackages [moosez]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-07-23 20:57:01] INFO root fetch - processPackages [vagd]: Downloading https://files.pythonhosted.org/packages/65/e3/f5918a92c4b2fb7e135a0726a82b8112ef0e7ee16c2dc8f628b9acb385d6/vagd-0.4.7.tar.gz
+[2023-07-23 20:57:01] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/4f/bd/935c1e954bcb9871bab04cc4c6fe99509c6610620b0a02062c2afae6a712/moosez-2.2.2.tar.gz
+[2023-07-23 20:57:01] INFO root fetch - processPackages [spimdisasm]: Downloading https://files.pythonhosted.org/packages/65/8a/e3c45d6cdbcedb650d78e916ad3a53d6a72fa3e8eb4c6ffe1da395457581/spimdisasm-1.9.1.tar.gz
+[2023-07-23 20:57:01] INFO root fetch - processPackages [queryset-annotations]: Downloading https://files.pythonhosted.org/packages/fe/c1/bdf2153c043c034e5b9e47dc2948bbdc871ad1dff9b222ce66e2b44878d0/queryset_annotations-1.tar.gz
+[2023-07-23 20:57:01] INFO root fetch - processPackages [pythonfinder]: Downloading https://files.pythonhosted.org/packages/22/49/b4de174056dfc320433888ce063948845d0c9bb2805d5465e66793c97402/pythonfinder-2.0.4.tar.gz
+[2023-07-23 20:57:01] INFO root fetch - processPackages [laspy]: Downloading https://files.pythonhosted.org/packages/7a/68/c864ea8e55c1fc3f1259375a0a31c60a06618cda4e14572c7d0e0aada6c2/laspy-2.4.1.tar.gz
+[2023-07-23 20:57:02] INFO root fetch - processPackages [vagd]: Downloading https://files.pythonhosted.org/packages/77/f8/61fb3876866c9e3d8344d543af6bffe9268972b9204cd80466cdb354ae8d/vagd-0.4.8.tar.gz
+[2023-07-23 20:57:02] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/db/d3/b82ffade12873d6e4b53536b94ecd79ea54ed5d18eb0d90ffa4759f31f2f/moosez-2.2.3.tar.gz
+[2023-07-23 20:57:02] INFO root fetch - processPackages [queryset-annotations]: Downloading https://files.pythonhosted.org/packages/3f/ce/aa306ecf6ce0757dabbb632a7cc3ef5a35202c38f8d68a378086a6b3d1b7/queryset_annotations-1.1.0.tar.gz
+[2023-07-23 20:57:02] INFO root fetch - processPackages [vagd]: executing diffoscope
+[2023-07-23 20:57:02] INFO root fetch - processPackages [vagd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vagd-0.4.7.tar.gz tmp/vagd-0.4.8.tar.gz --markdown 20230723/v/vagd/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-07-23 20:57:02] INFO root fetch - processPackages [pythonfinder]: Downloading https://files.pythonhosted.org/packages/b4/b3/f47e5f1ce7de24b294ee0219af11ef07cda88c60542e3b8eb04b839cf27b/pythonfinder-2.0.5.tar.gz
+[2023-07-23 20:57:02] INFO root fetch - processPackages [queryset-annotations]: executing diffoscope
+[2023-07-23 20:57:02] INFO root fetch - processPackages [queryset-annotations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/queryset_annotations-1.tar.gz tmp/queryset_annotations-1.1.0.tar.gz --markdown 20230723/q/queryset-annotations/1-1.1.0/diff.md --exclude *.pyd
+[2023-07-23 20:57:02] INFO root fetch - processPackages [moosez]: executing diffoscope
+[2023-07-23 20:57:02] INFO root fetch - processPackages [moosez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moosez-2.2.2.tar.gz tmp/moosez-2.2.3.tar.gz --markdown 20230723/m/moosez/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-07-23 20:57:02] INFO root fetch - processPackages [laspy]: Downloading https://files.pythonhosted.org/packages/c3/f8/2441fbba2f7dfd9b812ecf3ffc73f555a82eb30fe238167d3fd07d51cde2/laspy-2.5.0.tar.gz
+[2023-07-23 20:57:02] INFO root fetch - processPackages [pythonfinder]: executing diffoscope
+[2023-07-23 20:57:02] INFO root fetch - processPackages [pythonfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonfinder-2.0.4.tar.gz tmp/pythonfinder-2.0.5.tar.gz --markdown 20230723/p/pythonfinder/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-07-23 20:57:02] INFO root fetch - processPackages [laspy]: executing diffoscope
+[2023-07-23 20:57:02] INFO root fetch - processPackages [laspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laspy-2.4.1.tar.gz tmp/laspy-2.5.0.tar.gz --markdown 20230723/l/laspy/2.4.1-2.5.0/diff.md --exclude *.pyd
+[2023-07-23 20:57:02] INFO root fetch - processPackages [spimdisasm]: Downloading https://files.pythonhosted.org/packages/4f/b6/3e3fe88ecbbc893a7b39d4c1bb62693fbaa6ad1360bbb0af77a0acafca9c/spimdisasm-1.9.2.tar.gz
+[2023-07-23 20:57:02] INFO root fetch - processPackages [spimdisasm]: executing diffoscope
+[2023-07-23 20:57:02] INFO root fetch - processPackages [spimdisasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spimdisasm-1.9.1.tar.gz tmp/spimdisasm-1.9.2.tar.gz --markdown 20230723/s/spimdisasm/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-23 20:57:03] INFO root fetch - processPackages [vagd]: Remove: archive file [/home/abi/fetcher/tmp/vagd-0.4.7.tar.gz]
+[2023-07-23 20:57:03] INFO root fetch - processPackages [vagd]: Remove: archive file [/home/abi/fetcher/tmp/vagd-0.4.8.tar.gz]
+[2023-07-23 20:57:03] INFO root fetch - main [MainThread]: End processing [vagd]: success
+[2023-07-23 20:57:03] INFO root fetch - processPackages [queryset-annotations]: Remove: archive file [/home/abi/fetcher/tmp/queryset_annotations-1.tar.gz]
+[2023-07-23 20:57:03] INFO root fetch - processPackages [queryset-annotations]: Remove: archive file [/home/abi/fetcher/tmp/queryset_annotations-1.1.0.tar.gz]
+[2023-07-23 20:57:03] INFO root fetch - main [MainThread]: End processing [queryset-annotations]: success
+[2023-07-23 20:57:03] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.2.2.tar.gz]
+[2023-07-23 20:57:03] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.2.3.tar.gz]
+[2023-07-23 20:57:03] INFO root fetch - main [MainThread]: End processing [moosez]: success
+[2023-07-23 20:57:03] INFO root fetch - processPackages [spimdisasm]: Remove: archive file [/home/abi/fetcher/tmp/spimdisasm-1.9.1.tar.gz]
+[2023-07-23 20:57:03] INFO root fetch - processPackages [spimdisasm]: Remove: archive file [/home/abi/fetcher/tmp/spimdisasm-1.9.2.tar.gz]
+[2023-07-23 20:57:03] INFO root fetch - main [MainThread]: End processing [spimdisasm]: success
+[2023-07-23 20:57:04] INFO root fetch - processPackages [laspy]: Remove: archive file [/home/abi/fetcher/tmp/laspy-2.4.1.tar.gz]
+[2023-07-23 20:57:04] INFO root fetch - processPackages [laspy]: Remove: archive file [/home/abi/fetcher/tmp/laspy-2.5.0.tar.gz]
+[2023-07-23 20:57:04] INFO root fetch - main [MainThread]: End processing [laspy]: success
+[2023-07-23 20:57:06] INFO root fetch - processPackages [pythonfinder]: Remove: archive file [/home/abi/fetcher/tmp/pythonfinder-2.0.4.tar.gz]
+[2023-07-23 20:57:06] INFO root fetch - processPackages [pythonfinder]: Remove: archive file [/home/abi/fetcher/tmp/pythonfinder-2.0.5.tar.gz]
+[2023-07-23 20:57:06] INFO root fetch - main [MainThread]: End processing [pythonfinder]: success
+[2023-07-23 20:57:06] INFO root fetch - main [MainThread]: Store serial: [19004099]
