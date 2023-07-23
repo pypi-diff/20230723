@@ -4783,3 +4783,24 @@
 [2023-07-23 09:35:00] INFO root fetch - processPackages [nonebot-plugin-today-waifu]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_today_waifu-0.1.4.tar.gz]
 [2023-07-23 09:35:00] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-today-waifu]: success
 [2023-07-23 09:35:00] INFO root fetch - main [MainThread]: Store serial: [19000083]
+[2023-07-23 09:40:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19000083]
+[2023-07-23 09:40:08] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-23 09:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xsdata
+[2023-07-23 09:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mohou
+[2023-07-23 09:40:08] INFO root fetch - processPackages [mohou]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-07-23 09:40:08] INFO root fetch - processPackages [xsdata]: New version: [23.7] Old Version: [23.6]
+[2023-07-23 09:40:08] INFO root fetch - processPackages [mohou]: Downloading https://files.pythonhosted.org/packages/63/d4/6dc7492c07c07fe82897f008b1615958e4169053b578baf2ff3dea38696c/mohou-0.5.7.tar.gz
+[2023-07-23 09:40:09] INFO root fetch - processPackages [xsdata]: Downloading https://files.pythonhosted.org/packages/e8/a1/08b839e22e7daa6744d23b0b6128c8233916ad76726be3692618c9fb4c8e/xsdata-23.6.tar.gz
+[2023-07-23 09:40:09] INFO root fetch - processPackages [mohou]: Downloading https://files.pythonhosted.org/packages/fd/5a/98aa505ed53415fc1ac105f5f842d25c041c759bb388a071eb9e9a401aa2/mohou-0.5.8.tar.gz
+[2023-07-23 09:40:09] INFO root fetch - processPackages [mohou]: executing diffoscope
+[2023-07-23 09:40:09] INFO root fetch - processPackages [mohou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mohou-0.5.7.tar.gz tmp/mohou-0.5.8.tar.gz --markdown 20230723/m/mohou/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-07-23 09:40:09] INFO root fetch - processPackages [xsdata]: Downloading https://files.pythonhosted.org/packages/39/d2/266cfadedc563a69453f889d9c4b9f9b07311d9e4d536d3fea17fb39e718/xsdata-23.7.tar.gz
+[2023-07-23 09:40:09] INFO root fetch - processPackages [xsdata]: executing diffoscope
+[2023-07-23 09:40:09] INFO root fetch - processPackages [xsdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xsdata-23.6.tar.gz tmp/xsdata-23.7.tar.gz --markdown 20230723/x/xsdata/23.6-23.7/diff.md --exclude *.pyd
+[2023-07-23 09:40:09] INFO root fetch - processPackages [mohou]: Remove: archive file [/home/abi/fetcher/tmp/mohou-0.5.7.tar.gz]
+[2023-07-23 09:40:09] INFO root fetch - processPackages [mohou]: Remove: archive file [/home/abi/fetcher/tmp/mohou-0.5.8.tar.gz]
+[2023-07-23 09:40:09] INFO root fetch - main [MainThread]: End processing [mohou]: success
+[2023-07-23 09:40:11] INFO root fetch - processPackages [xsdata]: Remove: archive file [/home/abi/fetcher/tmp/xsdata-23.6.tar.gz]
+[2023-07-23 09:40:11] INFO root fetch - processPackages [xsdata]: Remove: archive file [/home/abi/fetcher/tmp/xsdata-23.7.tar.gz]
+[2023-07-23 09:40:11] INFO root fetch - main [MainThread]: End processing [xsdata]: success
+[2023-07-23 09:40:11] INFO root fetch - main [MainThread]: Store serial: [19000089]
