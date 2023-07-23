@@ -10407,3 +10407,63 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 17:32:14] INFO root fetch - processPackages [blankly]: Remove: archive file [/home/abi/fetcher/tmp/Blankly-v0.1.1-alpha.tar.gz]
 [2023-07-23 17:32:14] INFO root fetch - main [MainThread]: End processing [blankly]: success
 [2023-07-23 17:32:14] INFO root fetch - main [MainThread]: Store serial: [19002756]
+[2023-07-23 17:37:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19002756]
+[2023-07-23 17:37:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-23 17:37:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: orbdtools
+[2023-07-23 17:37:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pylette-windows
+[2023-07-23 17:37:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finanalysis
+[2023-07-23 17:37:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mintpdf
+[2023-07-23 17:37:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pex
+[2023-07-23 17:37:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pueda
+[2023-07-23 17:37:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chatlab
+[2023-07-23 17:37:22] INFO root fetch - processPackages [orbdtools]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-23 17:37:22] INFO root fetch - processPackages [pex]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-07-23 17:37:22] INFO root fetch - processPackages [pylette-windows]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-07-23 17:37:22] WARNING root fetch - processPackages [finanalysis]: Skipping, unable to determine old version
+[2023-07-23 17:37:22] INFO root fetch - main [MainThread]: End processing [finanalysis] error
+[2023-07-23 17:37:22] INFO root fetch - processPackages [mintpdf]: New version: [1.2] Old Version: [1.1]
+[2023-07-23 17:37:22] INFO root fetch - processPackages [chatlab]: New version: [1.0.0a0] Old Version: [0.16.0]
+[2023-07-23 17:37:22] INFO root fetch - processPackages [pueda]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-23 17:37:22] INFO root fetch - processPackages [chatlab]: Downloading https://files.pythonhosted.org/packages/9c/df/d9ca4b2626a11ca8be990718ca3d05d710332409c459cc3f81c215e88270/chatlab-0.16.0.tar.gz
+[2023-07-23 17:37:23] INFO root fetch - processPackages [mintpdf]: Downloading https://files.pythonhosted.org/packages/33/14/0b31be178b6cec1d7b81a47c3853ca2eed7f84da04794e5d2724a470f800/mintpdf-1.1.tar.gz
+[2023-07-23 17:37:23] INFO root fetch - processPackages [orbdtools]: Downloading https://files.pythonhosted.org/packages/e9/ad/9fe34fbed97f962c15c724a8e09ae6d82477b5f8f072b3f206371dd312da/orbdtools-0.0.1-py3-none-any.whl
+[2023-07-23 17:37:23] INFO root fetch - processPackages [pex]: Downloading https://files.pythonhosted.org/packages/bc/74/287adfa37d7be93d3183305f3f1e9685ecf1f6dae715b25bef0d69553bfc/pex-2.1.98.tar.gz
+[2023-07-23 17:37:23] INFO root fetch - processPackages [pylette-windows]: Downloading https://files.pythonhosted.org/packages/92/63/ba3ef958edea87b25c333936aa3c413813aa7a982307e8cba94cbfb9c0eb/pylette-windows-1.0.0.tar.gz
+[2023-07-23 17:37:23] INFO root fetch - processPackages [pueda]: Downloading https://files.pythonhosted.org/packages/f6/97/da8e194f48647a985e845d18db79b5dcf0a58401e335a74ab7b8502283c2/pueda-0.1.5.tar.gz
+[2023-07-23 17:37:23] INFO root fetch - processPackages [chatlab]: Downloading https://files.pythonhosted.org/packages/f8/ef/33942c86915449f024cb323abb7c38fc127de5e1c68c66726d48291ffd9d/chatlab-1.0.0a0.tar.gz
+[2023-07-23 17:37:23] INFO root fetch - processPackages [chatlab]: executing diffoscope
+[2023-07-23 17:37:23] INFO root fetch - processPackages [chatlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatlab-0.16.0.tar.gz tmp/chatlab-1.0.0a0.tar.gz --markdown 20230723/c/chatlab/0.16.0-1.0.0a0/diff.md --exclude *.pyd
+[2023-07-23 17:37:23] INFO root fetch - processPackages [orbdtools]: Downloading https://files.pythonhosted.org/packages/9e/da/2445dd7cd4bd8f906157753d5ed95c3b9616b23b562506bbc79f49be21f8/orbdtools-0.0.2-py3-none-any.whl
+[2023-07-23 17:37:23] INFO root fetch - processPackages [mintpdf]: Downloading https://files.pythonhosted.org/packages/0e/b9/d324065e64f52fbf5f7fbe0217394e199c4628583a04b384f2ce02fb1b23/mintpdf-1.2.tar.gz
+[2023-07-23 17:37:23] INFO root fetch - processPackages [pylette-windows]: Downloading https://files.pythonhosted.org/packages/44/49/14968afdd7d12d98b38a85f9e402856e3a39d04e82bd30e5db9ad9edcbbe/pylette-windows-2.0.0.tar.gz
+[2023-07-23 17:37:23] INFO root fetch - processPackages [pueda]: Downloading https://files.pythonhosted.org/packages/84/d9/52eb079fa6d302a37ca81c8ac9d95418c704e9a0c42e9d6e27b601693a78/pueda-0.1.6.tar.gz
+[2023-07-23 17:37:23] INFO root fetch - processPackages [orbdtools]: executing diffoscope
+[2023-07-23 17:37:23] INFO root fetch - processPackages [orbdtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbdtools-0.0.1-py3-none-any.whl.zip tmp/orbdtools-0.0.2-py3-none-any.whl.zip --markdown 20230723/o/orbdtools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-23 17:37:23] INFO root fetch - processPackages [pylette-windows]: executing diffoscope
+[2023-07-23 17:37:23] INFO root fetch - processPackages [pylette-windows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylette-windows-1.0.0.tar.gz tmp/pylette-windows-2.0.0.tar.gz --markdown 20230723/p/pylette-windows/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-07-23 17:37:23] INFO root fetch - processPackages [mintpdf]: executing diffoscope
+[2023-07-23 17:37:23] INFO root fetch - processPackages [mintpdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mintpdf-1.1.tar.gz tmp/mintpdf-1.2.tar.gz --markdown 20230723/m/mintpdf/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-23 17:37:23] INFO root fetch - processPackages [pueda]: executing diffoscope
+[2023-07-23 17:37:23] INFO root fetch - processPackages [pueda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pueda-0.1.5.tar.gz tmp/pueda-0.1.6.tar.gz --markdown 20230723/p/pueda/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-23 17:37:24] INFO root fetch - processPackages [pex]: Downloading https://files.pythonhosted.org/packages/f8/76/7e17f82344dd14a5a9cf76391cdf6edeede0e409432a319db98512d11375/pex-2.1.99.tar.gz
+[2023-07-23 17:37:24] INFO root fetch - processPackages [chatlab]: Remove: archive file [/home/abi/fetcher/tmp/chatlab-0.16.0.tar.gz]
+[2023-07-23 17:37:24] INFO root fetch - processPackages [chatlab]: Remove: archive file [/home/abi/fetcher/tmp/chatlab-1.0.0a0.tar.gz]
+[2023-07-23 17:37:24] INFO root fetch - main [MainThread]: End processing [chatlab]: success
+[2023-07-23 17:37:24] INFO root fetch - processPackages [mintpdf]: Remove: archive file [/home/abi/fetcher/tmp/mintpdf-1.1.tar.gz]
+[2023-07-23 17:37:24] INFO root fetch - processPackages [mintpdf]: Remove: archive file [/home/abi/fetcher/tmp/mintpdf-1.2.tar.gz]
+[2023-07-23 17:37:24] INFO root fetch - main [MainThread]: End processing [mintpdf]: success
+[2023-07-23 17:37:24] INFO root fetch - processPackages [orbdtools]: Remove: archive file [/home/abi/fetcher/tmp/orbdtools-0.0.1-py3-none-any.whl.zip]
+[2023-07-23 17:37:24] INFO root fetch - processPackages [orbdtools]: Remove: archive file [/home/abi/fetcher/tmp/orbdtools-0.0.2-py3-none-any.whl.zip]
+[2023-07-23 17:37:24] INFO root fetch - main [MainThread]: End processing [orbdtools]: success
+[2023-07-23 17:37:24] INFO root fetch - processPackages [pueda]: Remove: archive file [/home/abi/fetcher/tmp/pueda-0.1.5.tar.gz]
+[2023-07-23 17:37:24] INFO root fetch - processPackages [pueda]: Remove: archive file [/home/abi/fetcher/tmp/pueda-0.1.6.tar.gz]
+[2023-07-23 17:37:24] INFO root fetch - main [MainThread]: End processing [pueda]: success
+[2023-07-23 17:37:24] INFO root fetch - processPackages [pylette-windows]: Remove: archive file [/home/abi/fetcher/tmp/pylette-windows-1.0.0.tar.gz]
+[2023-07-23 17:37:24] INFO root fetch - processPackages [pylette-windows]: Remove: archive file [/home/abi/fetcher/tmp/pylette-windows-2.0.0.tar.gz]
+[2023-07-23 17:37:24] INFO root fetch - main [MainThread]: End processing [pylette-windows]: success
+[2023-07-23 17:37:25] INFO root fetch - processPackages [pex]: executing diffoscope
+[2023-07-23 17:37:25] INFO root fetch - processPackages [pex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pex-2.1.98.tar.gz tmp/pex-2.1.99.tar.gz --markdown 20230723/p/pex/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-07-23 17:37:30] INFO root fetch - processPackages [pex]: Remove: archive file [/home/abi/fetcher/tmp/pex-2.1.98.tar.gz]
+[2023-07-23 17:37:30] INFO root fetch - processPackages [pex]: Remove: archive file [/home/abi/fetcher/tmp/pex-2.1.99.tar.gz]
+[2023-07-23 17:37:30] INFO root fetch - main [MainThread]: End processing [pex]: success
+[2023-07-23 17:37:30] INFO root fetch - main [MainThread]: Store serial: [19002778]
