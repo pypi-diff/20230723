@@ -15222,3 +15222,42 @@ AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
 [2023-07-23 22:59:31] INFO root fetch - processPackages [zenoml]: Remove: archive file [/home/abi/fetcher/tmp/zenoml-0.6.3.tar.gz]
 [2023-07-23 22:59:31] INFO root fetch - main [MainThread]: End processing [zenoml]: success
 [2023-07-23 22:59:31] INFO root fetch - main [MainThread]: Store serial: [19004834]
+[2023-07-23 23:04:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19004834]
+[2023-07-23 23:04:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-23 23:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geomancy
+[2023-07-23 23:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipenv
+[2023-07-23 23:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crypto-licensing
+[2023-07-23 23:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyqrack
+[2023-07-23 23:04:40] INFO root fetch - processPackages [geomancy]: New version: [0.6.1b0] Old Version: [0.6.0b0]
+[2023-07-23 23:04:40] INFO root fetch - processPackages [crypto-licensing]: New version: [3.3.1] Old Version: [3.3.0]
+[2023-07-23 23:04:40] INFO root fetch - processPackages [pyqrack]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-07-23 23:04:40] INFO root fetch - processPackages [pipenv]: New version: [9.1.0] Old Version: [9.0.3]
+[2023-07-23 23:04:40] INFO root fetch - processPackages [geomancy]: Downloading https://files.pythonhosted.org/packages/47/4e/82184e4865e351fa5333558716570903efe8ce13943d9663d7d521a60c6a/geomancy-0.6.0b0.tar.gz
+[2023-07-23 23:04:40] INFO root fetch - processPackages [crypto-licensing]: Downloading https://files.pythonhosted.org/packages/41/7e/ceeccc062a828ebcfdd0c2a60c36192ae24108103038bb4bc6d689b1b5b1/crypto_licensing-3.3.0.tar.gz
+[2023-07-23 23:04:40] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/28/29/f16cb84b71504321dc06c36eb231f91bd576824fb0425d18edef846c9e14/pyqrack-1.9.5.tar.gz
+[2023-07-23 23:04:40] INFO root fetch - processPackages [pipenv]: Downloading https://files.pythonhosted.org/packages/df/eb/d796f85bc65969569a250c896c8b7d7aacb25a6857914c08cf4ed9bfc7f6/pipenv-9.0.3.tar.gz
+[2023-07-23 23:04:40] INFO root fetch - processPackages [geomancy]: Downloading https://files.pythonhosted.org/packages/bd/39/b2c772f2ce906986a321de264a429470f413817c3793275b87cba5a0fc4d/geomancy-0.6.1b0.tar.gz
+[2023-07-23 23:04:41] INFO root fetch - processPackages [crypto-licensing]: Downloading https://files.pythonhosted.org/packages/bb/ce/3d623204202f114618fdf0f2edfa908f6791766523e30868277771c0faa0/crypto_licensing-3.3.1.tar.gz
+[2023-07-23 23:04:41] INFO root fetch - processPackages [geomancy]: executing diffoscope
+[2023-07-23 23:04:41] INFO root fetch - processPackages [geomancy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geomancy-0.6.0b0.tar.gz tmp/geomancy-0.6.1b0.tar.gz --markdown 20230723/g/geomancy/0.6.0b0-0.6.1b0/diff.md --exclude *.pyd
+[2023-07-23 23:04:41] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/34/a1/c6968107745c3dcebdaf556a582d8f63f49943f43c90a7d33e04b0397f53/pyqrack-1.9.6.tar.gz
+[2023-07-23 23:04:41] INFO root fetch - processPackages [crypto-licensing]: executing diffoscope
+[2023-07-23 23:04:41] INFO root fetch - processPackages [crypto-licensing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto_licensing-3.3.0.tar.gz tmp/crypto_licensing-3.3.1.tar.gz --markdown 20230723/c/crypto-licensing/3.3.0-3.3.1/diff.md --exclude *.pyd
+[2023-07-23 23:04:41] INFO root fetch - processPackages [pyqrack]: executing diffoscope
+[2023-07-23 23:04:41] INFO root fetch - processPackages [pyqrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqrack-1.9.5.tar.gz tmp/pyqrack-1.9.6.tar.gz --markdown 20230723/p/pyqrack/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-07-23 23:04:41] INFO root fetch - processPackages [pipenv]: Downloading https://files.pythonhosted.org/packages/53/66/3f7451f27ce52b194f289c5b3ceb6b159ba177a932bea1fef8e1885ccf92/pipenv-9.1.0.tar.gz
+[2023-07-23 23:04:42] INFO root fetch - processPackages [geomancy]: Remove: archive file [/home/abi/fetcher/tmp/geomancy-0.6.0b0.tar.gz]
+[2023-07-23 23:04:42] INFO root fetch - processPackages [geomancy]: Remove: archive file [/home/abi/fetcher/tmp/geomancy-0.6.1b0.tar.gz]
+[2023-07-23 23:04:42] INFO root fetch - main [MainThread]: End processing [geomancy]: success
+[2023-07-23 23:04:42] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.5.tar.gz]
+[2023-07-23 23:04:42] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.6.tar.gz]
+[2023-07-23 23:04:42] INFO root fetch - main [MainThread]: End processing [pyqrack]: success
+[2023-07-23 23:04:42] INFO root fetch - processPackages [crypto-licensing]: Remove: archive file [/home/abi/fetcher/tmp/crypto_licensing-3.3.0.tar.gz]
+[2023-07-23 23:04:42] INFO root fetch - processPackages [crypto-licensing]: Remove: archive file [/home/abi/fetcher/tmp/crypto_licensing-3.3.1.tar.gz]
+[2023-07-23 23:04:42] INFO root fetch - main [MainThread]: End processing [crypto-licensing]: success
+[2023-07-23 23:04:42] INFO root fetch - processPackages [pipenv]: executing diffoscope
+[2023-07-23 23:04:42] INFO root fetch - processPackages [pipenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipenv-9.0.3.tar.gz tmp/pipenv-9.1.0.tar.gz --markdown 20230723/p/pipenv/9.0.3-9.1.0/diff.md --exclude *.pyd
+[2023-07-23 23:04:45] INFO root fetch - processPackages [pipenv]: Remove: archive file [/home/abi/fetcher/tmp/pipenv-9.0.3.tar.gz]
+[2023-07-23 23:04:45] INFO root fetch - processPackages [pipenv]: Remove: archive file [/home/abi/fetcher/tmp/pipenv-9.1.0.tar.gz]
+[2023-07-23 23:04:45] INFO root fetch - main [MainThread]: End processing [pipenv]: success
+[2023-07-23 23:04:45] INFO root fetch - main [MainThread]: Store serial: [19004854]
