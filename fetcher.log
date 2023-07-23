@@ -3817,3 +3817,51 @@
 [2023-07-23 07:18:34] INFO root fetch - processPackages [zoho-analytics-connector]: Remove: archive file [/home/abi/fetcher/tmp/zoho_analytics_connector-1.4.3.tar.gz]
 [2023-07-23 07:18:34] INFO root fetch - main [MainThread]: End processing [zoho-analytics-connector]: success
 [2023-07-23 07:18:34] INFO root fetch - main [MainThread]: Store serial: [18999635]
+[2023-07-23 07:23:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999635]
+[2023-07-23 07:23:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-23 07:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: colordemo
+[2023-07-23 07:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: example-package-vinhvh
+[2023-07-23 07:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rapidpe-rift-pipe
+[2023-07-23 07:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zoish
+[2023-07-23 07:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gitea-actions
+[2023-07-23 07:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vinh-package
+[2023-07-23 07:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: connex
+[2023-07-23 07:23:43] INFO root fetch - processPackages [colordemo]: New version: [0.2] Old Version: [0.1]
+[2023-07-23 07:23:43] WARNING root fetch - processPackages [vinh-package]: Skipping, unable to determine old version
+[2023-07-23 07:23:43] INFO root fetch - main [MainThread]: End processing [vinh-package] error
+[2023-07-23 07:23:43] INFO root fetch - processPackages [zoish]: New version: [4.1.0] Old Version: [3.7.1]
+[2023-07-23 07:23:43] INFO root fetch - processPackages [connex]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-23 07:23:43] WARNING root fetch - processPackages [gitea-actions]: Skipping, unable to determine old version
+[2023-07-23 07:23:43] INFO root fetch - main [MainThread]: End processing [gitea-actions] error
+[2023-07-23 07:23:43] WARNING root fetch - processPackages [example-package-vinhvh]: Skipping, unable to determine old version
+[2023-07-23 07:23:43] INFO root fetch - main [MainThread]: End processing [example-package-vinhvh] error
+[2023-07-23 07:23:43] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.5.4.dev20230723] Old Version: [0.5.4.dev20230722]
+[2023-07-23 07:23:43] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/e8/0f/b84934b0e06e6c83a495718f36623fb952204027ec09a3ba4712a80157dd/rapidpe_rift_pipe-0.5.4.dev20230722.tar.gz
+[2023-07-23 07:23:43] INFO root fetch - processPackages [colordemo]: Downloading https://files.pythonhosted.org/packages/36/a0/32c65f20de20e65f82ccbe6660a3f9c12719afe541c6ac47694f8184c163/colordemo-0.1.tar.gz
+[2023-07-23 07:23:43] INFO root fetch - processPackages [zoish]: Downloading https://files.pythonhosted.org/packages/64/8e/521bacaa28c27156c1c95fd2c6778f8cefd363709be8b899c5478fd64fea/zoish-3.7.1.tar.gz
+[2023-07-23 07:23:43] INFO root fetch - processPackages [connex]: Downloading https://files.pythonhosted.org/packages/ed/0c/66f89bc6fe35c59b28d7b557c7b5c125a8e8934a7cf820ff22e92ce1db1a/connex-0.3.2.tar.gz
+[2023-07-23 07:23:44] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/e9/a1/6a2c0beccd0591684b4cf024f403da261f0ce7380d59b257155540078b2f/rapidpe_rift_pipe-0.5.4.dev20230723.tar.gz
+[2023-07-23 07:23:44] INFO root fetch - processPackages [colordemo]: Downloading https://files.pythonhosted.org/packages/43/d7/9dbe5f202f006d6120e87ea379d09e55143330626a4b224e745505281820/colordemo-0.2.tar.gz
+[2023-07-23 07:23:44] INFO root fetch - processPackages [connex]: Downloading https://files.pythonhosted.org/packages/af/f3/ab7fa02f94f3614091b73a5cb089acf28524326a6fcb3673f7da7e4e6aea/connex-0.3.3.tar.gz
+[2023-07-23 07:23:44] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-07-23 07:23:44] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.5.4.dev20230722.tar.gz tmp/rapidpe_rift_pipe-0.5.4.dev20230723.tar.gz --markdown 20230723/r/rapidpe-rift-pipe/0.5.4.dev20230722-0.5.4.dev20230723/diff.md --exclude *.pyd
+[2023-07-23 07:23:44] INFO root fetch - processPackages [colordemo]: executing diffoscope
+[2023-07-23 07:23:44] INFO root fetch - processPackages [colordemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colordemo-0.1.tar.gz tmp/colordemo-0.2.tar.gz --markdown 20230723/c/colordemo/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-23 07:23:44] INFO root fetch - processPackages [connex]: executing diffoscope
+[2023-07-23 07:23:44] INFO root fetch - processPackages [connex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connex-0.3.2.tar.gz tmp/connex-0.3.3.tar.gz --markdown 20230723/c/connex/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-23 07:23:44] INFO root fetch - processPackages [zoish]: Downloading https://files.pythonhosted.org/packages/c7/fc/6d9062ed957082c1fcc55fd27478e459a5eea969bebcc5fd3cca2b2b49f0/zoish-4.1.0.tar.gz
+[2023-07-23 07:23:44] INFO root fetch - processPackages [zoish]: executing diffoscope
+[2023-07-23 07:23:44] INFO root fetch - processPackages [zoish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoish-3.7.1.tar.gz tmp/zoish-4.1.0.tar.gz --markdown 20230723/z/zoish/3.7.1-4.1.0/diff.md --exclude *.pyd
+[2023-07-23 07:23:45] INFO root fetch - processPackages [connex]: Remove: archive file [/home/abi/fetcher/tmp/connex-0.3.2.tar.gz]
+[2023-07-23 07:23:45] INFO root fetch - processPackages [connex]: Remove: archive file [/home/abi/fetcher/tmp/connex-0.3.3.tar.gz]
+[2023-07-23 07:23:45] INFO root fetch - main [MainThread]: End processing [connex]: success
+[2023-07-23 07:23:45] INFO root fetch - processPackages [colordemo]: Remove: archive file [/home/abi/fetcher/tmp/colordemo-0.1.tar.gz]
+[2023-07-23 07:23:45] INFO root fetch - processPackages [colordemo]: Remove: archive file [/home/abi/fetcher/tmp/colordemo-0.2.tar.gz]
+[2023-07-23 07:23:45] INFO root fetch - main [MainThread]: End processing [colordemo]: success
+[2023-07-23 07:23:45] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230722.tar.gz]
+[2023-07-23 07:23:45] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230723.tar.gz]
+[2023-07-23 07:23:45] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-07-23 07:23:45] INFO root fetch - processPackages [zoish]: Remove: archive file [/home/abi/fetcher/tmp/zoish-3.7.1.tar.gz]
+[2023-07-23 07:23:45] INFO root fetch - processPackages [zoish]: Remove: archive file [/home/abi/fetcher/tmp/zoish-4.1.0.tar.gz]
+[2023-07-23 07:23:45] INFO root fetch - main [MainThread]: End processing [zoish]: success
+[2023-07-23 07:23:45] INFO root fetch - main [MainThread]: Store serial: [18999663]
