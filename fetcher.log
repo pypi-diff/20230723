@@ -2551,3 +2551,36 @@
 [2023-07-23 04:47:40] INFO root fetch - processPackages [mojo-interop]: Remove: archive file [/home/abi/fetcher/tmp/mojo_interop-0.0.9.tar.gz]
 [2023-07-23 04:47:40] INFO root fetch - main [MainThread]: End processing [mojo-interop]: success
 [2023-07-23 04:47:40] INFO root fetch - main [MainThread]: Store serial: [18999092]
+[2023-07-23 04:52:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999092]
+[2023-07-23 04:52:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-23 04:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eriparse
+[2023-07-23 04:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libgal
+[2023-07-23 04:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: terminal-manager
+[2023-07-23 04:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onnx2tf
+[2023-07-23 04:52:49] WARNING root fetch - processPackages [eriparse]: Skipping, unable to determine old version
+[2023-07-23 04:52:49] INFO root fetch - main [MainThread]: End processing [eriparse] error
+[2023-07-23 04:52:49] INFO root fetch - processPackages [terminal-manager]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-07-23 04:52:49] INFO root fetch - processPackages [libgal]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 04:52:49] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-23 04:52:49] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/6f/b3/519ee148592d2531639c5f3c1434df000ecf2c24a5b55b61cba8fd4767f9/onnx2tf-1.9.8.tar.gz
+[2023-07-23 04:52:49] INFO root fetch - processPackages [terminal-manager]: Downloading https://files.pythonhosted.org/packages/44/b5/f80cfbf3640ed9a91adf4635600c96de971fcd2c20273a7ca8469665d193/terminal_manager-0.8.6.tar.gz
+[2023-07-23 04:52:49] INFO root fetch - processPackages [libgal]: Downloading https://files.pythonhosted.org/packages/fd/f7/3bb2ba6518d060363250bdb2cc8104fe4f312ada15161d9b3e3b934dc206/libgal-0.0.8.tar.gz
+[2023-07-23 04:52:49] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/0e/df/e0c6978b06db6c5c04de100ecbe0bbb281caed31c4dd88663e61e36ca571/onnx2tf-1.9.9.tar.gz
+[2023-07-23 04:52:49] INFO root fetch - processPackages [terminal-manager]: Downloading https://files.pythonhosted.org/packages/80/d0/573e281c99b388a1ffbaa36c57855165e18cb63cab4547097acd871fb954/terminal_manager-0.8.7.tar.gz
+[2023-07-23 04:52:49] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2023-07-23 04:52:49] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20230723/o/onnx2tf/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-23 04:52:49] INFO root fetch - processPackages [libgal]: Downloading https://files.pythonhosted.org/packages/73/3c/2c641d1ff28319a7854e7f1de9427e7aba75af69b0e7913e0b776765d3ad/libgal-0.0.9.tar.gz
+[2023-07-23 04:52:49] INFO root fetch - processPackages [terminal-manager]: executing diffoscope
+[2023-07-23 04:52:49] INFO root fetch - processPackages [terminal-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terminal_manager-0.8.6.tar.gz tmp/terminal_manager-0.8.7.tar.gz --markdown 20230723/t/terminal-manager/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-07-23 04:52:49] INFO root fetch - processPackages [libgal]: executing diffoscope
+[2023-07-23 04:52:49] INFO root fetch - processPackages [libgal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libgal-0.0.8.tar.gz tmp/libgal-0.0.9.tar.gz --markdown 20230723/l/libgal/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 04:52:50] INFO root fetch - processPackages [libgal]: Remove: archive file [/home/abi/fetcher/tmp/libgal-0.0.8.tar.gz]
+[2023-07-23 04:52:50] INFO root fetch - processPackages [libgal]: Remove: archive file [/home/abi/fetcher/tmp/libgal-0.0.9.tar.gz]
+[2023-07-23 04:52:50] INFO root fetch - main [MainThread]: End processing [libgal]: success
+[2023-07-23 04:52:50] INFO root fetch - processPackages [terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/terminal_manager-0.8.6.tar.gz]
+[2023-07-23 04:52:50] INFO root fetch - processPackages [terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/terminal_manager-0.8.7.tar.gz]
+[2023-07-23 04:52:50] INFO root fetch - main [MainThread]: End processing [terminal-manager]: success
+[2023-07-23 04:52:51] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.8.tar.gz]
+[2023-07-23 04:52:51] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
+[2023-07-23 04:52:51] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2023-07-23 04:52:51] INFO root fetch - main [MainThread]: Store serial: [18999106]
