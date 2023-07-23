@@ -1934,3 +1934,24 @@
 [2023-07-23 03:16:19] INFO root fetch - processPackages [realnet]: Remove: archive file [/home/abi/fetcher/tmp/realnet-0.0.99.tar.gz]
 [2023-07-23 03:16:19] INFO root fetch - main [MainThread]: End processing [realnet]: success
 [2023-07-23 03:16:19] INFO root fetch - main [MainThread]: Store serial: [18998841]
+[2023-07-23 03:21:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18998841]
+[2023-07-23 03:21:28] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-23 03:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-hugo-deploy
+[2023-07-23 03:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-sops-secrets
+[2023-07-23 03:21:28] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-23 03:21:28] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-23 03:21:28] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-07-23 03:21:28] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-07-23 03:21:28] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-07-23 03:21:29] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-07-23 03:21:29] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-07-23 03:21:29] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230723/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-23 03:21:29] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-07-23 03:21:29] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230723/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-23 03:21:29] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-07-23 03:21:29] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-07-23 03:21:29] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-07-23 03:21:30] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-07-23 03:21:30] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-07-23 03:21:30] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-07-23 03:21:30] INFO root fetch - main [MainThread]: Store serial: [18998849]
