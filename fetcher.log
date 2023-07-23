@@ -9550,3 +9550,36 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 16:34:49] INFO root fetch - processPackages [Mesa]: Remove: archive file [/home/abi/fetcher/tmp/Mesa-2.1.tar.gz]
 [2023-07-23 16:34:49] INFO root fetch - main [MainThread]: End processing [Mesa]: success
 [2023-07-23 16:34:49] INFO root fetch - main [MainThread]: Store serial: [19002375]
+[2023-07-23 16:39:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19002375]
+[2023-07-23 16:39:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-23 16:39:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FirebaseDatabaseTakeover
+[2023-07-23 16:39:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apysc
+[2023-07-23 16:39:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: domain-admin
+[2023-07-23 16:39:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: atro-args
+[2023-07-23 16:39:57] WARNING root fetch - processPackages [FirebaseDatabaseTakeover]: Skipping, unable to determine old version
+[2023-07-23 16:39:57] INFO root fetch - main [MainThread]: End processing [FirebaseDatabaseTakeover] error
+[2023-07-23 16:39:57] INFO root fetch - processPackages [apysc]: New version: [3.3.3] Old Version: [3.3.2]
+[2023-07-23 16:39:57] INFO root fetch - processPackages [domain-admin]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-07-23 16:39:58] INFO root fetch - processPackages [atro-args]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-23 16:39:58] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/8b/2c/4b0ade57210e4ecd650223d5f7cc99c025678d3ccb5294ae39920cac64a2/apysc-3.3.2.tar.gz
+[2023-07-23 16:39:58] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/14/24/e692f8a1c83abe09f8ecea865da2278da173f187abc6774cf756db07e2a1/domain-admin-1.5.5.tar.gz
+[2023-07-23 16:39:58] INFO root fetch - processPackages [atro-args]: Downloading https://files.pythonhosted.org/packages/76/d5/8e44abd8333034c6f2b10d9c6f55bf7c553f193827f64b35546e58a82216/atro_args-0.1.0.tar.gz
+[2023-07-23 16:39:58] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/23/22/29a38be99d39afc027a4cb516ab1248a4021718c3ea9ef6b74ae66e743f1/apysc-3.3.3.tar.gz
+[2023-07-23 16:39:58] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/5d/38/376f7c9d99a45e6d2fb4d1691bd1ae5a52ee800ba0be98054b12b57aaa36/domain-admin-1.5.6.tar.gz
+[2023-07-23 16:39:58] INFO root fetch - processPackages [atro-args]: Downloading https://files.pythonhosted.org/packages/45/9c/ff85530fb6b4f41561e20250cf885dc4ec228676302edb9092311675844b/atro_args-0.2.0.tar.gz
+[2023-07-23 16:39:58] INFO root fetch - processPackages [apysc]: executing diffoscope
+[2023-07-23 16:39:58] INFO root fetch - processPackages [apysc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apysc-3.3.2.tar.gz tmp/apysc-3.3.3.tar.gz --markdown 20230723/a/apysc/3.3.2-3.3.3/diff.md --exclude *.pyd
+[2023-07-23 16:39:58] INFO root fetch - processPackages [atro-args]: executing diffoscope
+[2023-07-23 16:39:58] INFO root fetch - processPackages [atro-args]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atro_args-0.1.0.tar.gz tmp/atro_args-0.2.0.tar.gz --markdown 20230723/a/atro-args/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-23 16:39:58] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-07-23 16:39:58] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.5.5.tar.gz tmp/domain-admin-1.5.6.tar.gz --markdown 20230723/d/domain-admin/1.5.5-1.5.6/diff.md --exclude *.pyd
+[2023-07-23 16:39:59] INFO root fetch - processPackages [atro-args]: Remove: archive file [/home/abi/fetcher/tmp/atro_args-0.1.0.tar.gz]
+[2023-07-23 16:39:59] INFO root fetch - processPackages [atro-args]: Remove: archive file [/home/abi/fetcher/tmp/atro_args-0.2.0.tar.gz]
+[2023-07-23 16:39:59] INFO root fetch - main [MainThread]: End processing [atro-args]: success
+[2023-07-23 16:40:02] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.3.2.tar.gz]
+[2023-07-23 16:40:02] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.3.3.tar.gz]
+[2023-07-23 16:40:02] INFO root fetch - main [MainThread]: End processing [apysc]: success
+[2023-07-23 16:40:05] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.5.5.tar.gz]
+[2023-07-23 16:40:05] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.5.6.tar.gz]
+[2023-07-23 16:40:05] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-07-23 16:40:05] INFO root fetch - main [MainThread]: Store serial: [19002393]
