@@ -12670,3 +12670,81 @@ AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
 [2023-07-23 20:14:06] INFO root fetch - processPackages [saic-ismart-client]: Remove: archive file [/home/abi/fetcher/tmp/saic_ismart_client-1.4.9.tar.gz]
 [2023-07-23 20:14:06] INFO root fetch - main [MainThread]: End processing [saic-ismart-client]: success
 [2023-07-23 20:14:06] INFO root fetch - main [MainThread]: Store serial: [19003898]
+[2023-07-23 20:19:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19003898]
+[2023-07-23 20:19:14] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-23 20:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gammarer.aws-secure-flow-log-bucket
+[2023-07-23 20:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gammarer.aws-secure-cloudfront-origin-bucket
+[2023-07-23 20:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oarepo-cli
+[2023-07-23 20:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OneOnOne
+[2023-07-23 20:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: steroid
+[2023-07-23 20:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gammarer.aws-secure-log-bucket
+[2023-07-23 20:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dash-solana-components
+[2023-07-23 20:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yxr-oi-cli
+[2023-07-23 20:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: uuidtoimage
+[2023-07-23 20:19:15] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-23 20:19:15] WARNING root fetch - processPackages [uuidtoimage]: Skipping, unable to determine old version
+[2023-07-23 20:19:15] INFO root fetch - main [MainThread]: End processing [uuidtoimage] error
+[2023-07-23 20:19:15] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-07-23 20:19:15] INFO root fetch - processPackages [OneOnOne]: New version: [0.6942] Old Version: [0.6941]
+[2023-07-23 20:19:15] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-23 20:19:15] INFO root fetch - processPackages [dash-solana-components]: New version: [1.0.6] Old Version: [1.0.4]
+[2023-07-23 20:19:15] INFO root fetch - processPackages [yxr-oi-cli]: New version: [0.2.2.2] Old Version: [0.2.2.1]
+[2023-07-23 20:19:15] INFO root fetch - processPackages [steroid]: New version: [0.7b0] Old Version: [0.6b0]
+[2023-07-23 20:19:15] INFO root fetch - processPackages [oarepo-cli]: New version: [11.1.9] Old Version: [11.1.8]
+[2023-07-23 20:19:15] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: Downloading https://files.pythonhosted.org/packages/7f/39/3eaa2ff2d408ced36277394379d5bd6f9bdab519ed986f812b5add6a44a4/gammarer.aws-secure-cloudfront-origin-bucket-0.6.4.tar.gz
+[2023-07-23 20:19:15] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/c4/b4/3cea79df96c2a2a15b4477d1851ff5f58676b92dfef93ca493ae2a2bbb90/OneOnOne-0.6941.tar.gz
+[2023-07-23 20:19:15] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: Downloading https://files.pythonhosted.org/packages/6f/29/1492971cad104aa97c68162c67e650cf7e87000792923b7981307d88eab2/gammarer.aws-secure-log-bucket-0.9.5.tar.gz
+[2023-07-23 20:19:15] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Downloading https://files.pythonhosted.org/packages/91/c2/760978127ffd1666fb96326d8354963d9ce0eaa97af813042885f5b81885/gammarer.aws-secure-flow-log-bucket-0.3.5.tar.gz
+[2023-07-23 20:19:15] INFO root fetch - processPackages [steroid]: Downloading https://files.pythonhosted.org/packages/f6/73/504836df561f0a0d6c2f6da357fda2eeea622bfbaf04c85e515f6d8fa9a5/steroid-0.6b0.tar.gz
+[2023-07-23 20:19:15] INFO root fetch - processPackages [dash-solana-components]: Downloading https://files.pythonhosted.org/packages/05/b4/02851781c2a14617cf2520c6a6f130a64b7d4dd5a2339af52f657dc10dfa/dash_solana_components-1.0.4-py3-none-any.whl
+[2023-07-23 20:19:15] INFO root fetch - processPackages [yxr-oi-cli]: Downloading https://files.pythonhosted.org/packages/c3/e9/7f17881812f9fffea6e57c6ccf3d6bb0051d6c8211030f3a7c8f67ff1369/yxr_oi_cli-0.2.2.1.tar.gz
+[2023-07-23 20:19:15] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/af/a7/2733a476ea08d89fb2f474b4da4c3e1bcd0256c07baebfab128540be8be1/oarepo-cli-11.1.8.tar.gz
+[2023-07-23 20:19:15] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: Downloading https://files.pythonhosted.org/packages/4e/59/eebbd718de62c3bef38f6c465ed27863823f1da41ab1b8041b2057fc6e09/gammarer.aws-secure-cloudfront-origin-bucket-0.6.5.tar.gz
+[2023-07-23 20:19:15] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Downloading https://files.pythonhosted.org/packages/84/9f/aa998edfce31a350b75971f1ec300d4af378e20aaff7998e680edaf9d2c5/gammarer.aws-secure-flow-log-bucket-0.3.6.tar.gz
+[2023-07-23 20:19:15] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: Downloading https://files.pythonhosted.org/packages/07/5c/4a8cd64dc92e393e2e44e24ca5ddf8df4acacb3f101ca1ac61e386aa5208/gammarer.aws-secure-log-bucket-0.9.6.tar.gz
+[2023-07-23 20:19:15] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/07/80/4e3769913fc567ad069aff932d28770f02353d6d2dc8d3575e1ec73860d1/OneOnOne-0.6942.tar.gz
+[2023-07-23 20:19:15] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: executing diffoscope
+[2023-07-23 20:19:15] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-cloudfront-origin-bucket-0.6.4.tar.gz tmp/gammarer.aws-secure-cloudfront-origin-bucket-0.6.5.tar.gz --markdown 20230723/g/gammarer.aws-secure-cloudfront-origin-bucket/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-07-23 20:19:15] INFO root fetch - processPackages [steroid]: Downloading https://files.pythonhosted.org/packages/79/d2/b7d1aa1656a729697ba1e5aa103c3fa02852daefe174ffbccec9953c9f47/steroid-0.7b0.tar.gz
+[2023-07-23 20:19:15] INFO root fetch - processPackages [yxr-oi-cli]: Downloading https://files.pythonhosted.org/packages/0e/48/cc2af476e71173bef734b9600c0054ad281c89f1792bce716d1415974689/yxr_oi_cli-0.2.2.2.tar.gz
+[2023-07-23 20:19:16] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: executing diffoscope
+[2023-07-23 20:19:16] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-flow-log-bucket-0.3.5.tar.gz tmp/gammarer.aws-secure-flow-log-bucket-0.3.6.tar.gz --markdown 20230723/g/gammarer.aws-secure-flow-log-bucket/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-23 20:19:16] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: executing diffoscope
+[2023-07-23 20:19:16] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-log-bucket-0.9.5.tar.gz tmp/gammarer.aws-secure-log-bucket-0.9.6.tar.gz --markdown 20230723/g/gammarer.aws-secure-log-bucket/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-23 20:19:16] INFO root fetch - processPackages [steroid]: executing diffoscope
+[2023-07-23 20:19:16] INFO root fetch - processPackages [steroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steroid-0.6b0.tar.gz tmp/steroid-0.7b0.tar.gz --markdown 20230723/s/steroid/0.6b0-0.7b0/diff.md --exclude *.pyd
+[2023-07-23 20:19:16] INFO root fetch - processPackages [dash-solana-components]: Downloading https://files.pythonhosted.org/packages/c0/60/0b33552f856dd638ed853167ff35cafe372779887da0717b0a28d959cf72/dash_solana_components-1.0.6-py3-none-any.whl
+[2023-07-23 20:19:16] INFO root fetch - processPackages [yxr-oi-cli]: executing diffoscope
+[2023-07-23 20:19:16] INFO root fetch - processPackages [yxr-oi-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yxr_oi_cli-0.2.2.1.tar.gz tmp/yxr_oi_cli-0.2.2.2.tar.gz --markdown 20230723/y/yxr-oi-cli/0.2.2.1-0.2.2.2/diff.md --exclude *.pyd
+[2023-07-23 20:19:16] INFO root fetch - processPackages [dash-solana-components]: executing diffoscope
+[2023-07-23 20:19:16] INFO root fetch - processPackages [dash-solana-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_solana_components-1.0.4-py3-none-any.whl.zip tmp/dash_solana_components-1.0.6-py3-none-any.whl.zip --markdown 20230723/d/dash-solana-components/1.0.4-1.0.6/diff.md --exclude *.pyd
+[2023-07-23 20:19:16] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-23 20:19:16] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6941.tar.gz tmp/OneOnOne-0.6942.tar.gz --markdown 20230723/O/OneOnOne/0.6941-0.6942/diff.md --exclude *.pyd
+[2023-07-23 20:19:16] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/c1/07/390f9767ed13e63ef97918ed09945b5501685e21d178f8f10dfc1cd2a54c/oarepo-cli-11.1.9.tar.gz
+[2023-07-23 20:19:17] INFO root fetch - processPackages [oarepo-cli]: executing diffoscope
+[2023-07-23 20:19:17] INFO root fetch - processPackages [oarepo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-cli-11.1.8.tar.gz tmp/oarepo-cli-11.1.9.tar.gz --markdown 20230723/o/oarepo-cli/11.1.8-11.1.9/diff.md --exclude *.pyd
+[2023-07-23 20:19:17] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-cloudfront-origin-bucket-0.6.4.tar.gz]
+[2023-07-23 20:19:17] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-cloudfront-origin-bucket-0.6.5.tar.gz]
+[2023-07-23 20:19:17] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-cloudfront-origin-bucket]: success
+[2023-07-23 20:19:17] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-flow-log-bucket-0.3.5.tar.gz]
+[2023-07-23 20:19:17] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-flow-log-bucket-0.3.6.tar.gz]
+[2023-07-23 20:19:17] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-flow-log-bucket]: success
+[2023-07-23 20:19:17] INFO root fetch - processPackages [steroid]: Remove: archive file [/home/abi/fetcher/tmp/steroid-0.6b0.tar.gz]
+[2023-07-23 20:19:17] INFO root fetch - processPackages [steroid]: Remove: archive file [/home/abi/fetcher/tmp/steroid-0.7b0.tar.gz]
+[2023-07-23 20:19:17] INFO root fetch - main [MainThread]: End processing [steroid]: success
+[2023-07-23 20:19:17] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-log-bucket-0.9.5.tar.gz]
+[2023-07-23 20:19:17] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-log-bucket-0.9.6.tar.gz]
+[2023-07-23 20:19:17] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-log-bucket]: success
+[2023-07-23 20:19:17] INFO root fetch - processPackages [yxr-oi-cli]: Remove: archive file [/home/abi/fetcher/tmp/yxr_oi_cli-0.2.2.1.tar.gz]
+[2023-07-23 20:19:17] INFO root fetch - processPackages [yxr-oi-cli]: Remove: archive file [/home/abi/fetcher/tmp/yxr_oi_cli-0.2.2.2.tar.gz]
+[2023-07-23 20:19:17] INFO root fetch - main [MainThread]: End processing [yxr-oi-cli]: success
+[2023-07-23 20:19:17] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6941.tar.gz]
+[2023-07-23 20:19:17] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6942.tar.gz]
+[2023-07-23 20:19:17] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-23 20:19:19] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.8.tar.gz]
+[2023-07-23 20:19:19] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.9.tar.gz]
+[2023-07-23 20:19:19] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
+[2023-07-23 20:19:27] INFO root fetch - processPackages [dash-solana-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_solana_components-1.0.4-py3-none-any.whl.zip]
+[2023-07-23 20:19:27] INFO root fetch - processPackages [dash-solana-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_solana_components-1.0.6-py3-none-any.whl.zip]
+[2023-07-23 20:19:27] INFO root fetch - main [MainThread]: End processing [dash-solana-components]: success
+[2023-07-23 20:19:27] INFO root fetch - main [MainThread]: Store serial: [19003925]
