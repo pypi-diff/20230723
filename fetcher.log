@@ -2608,3 +2608,10 @@
 [2023-07-23 04:58:02] INFO root fetch - processPackages [mypylib]: Remove: archive file [/home/abi/fetcher/tmp/mypylib-0.1.82.tar.gz]
 [2023-07-23 04:58:02] INFO root fetch - main [MainThread]: End processing [mypylib]: success
 [2023-07-23 04:58:02] INFO root fetch - main [MainThread]: Store serial: [18999117]
+[2023-07-23 05:03:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999117]
+[2023-07-23 05:03:12] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-23 05:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ssh-terminal-manager
+[2023-07-23 05:03:12] INFO root fetch - processPackages [ssh-terminal-manager]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-07-23 05:03:12] ERROR root fetch - processPackages [ssh-terminal-manager]: Unable to fetch info: No such project/version 'ssh-terminal-manager' 0.8.6
+[2023-07-23 05:03:12] INFO root fetch - main [MainThread]: End processing [ssh-terminal-manager] error
+[2023-07-23 05:03:12] INFO root fetch - main [MainThread]: Store serial: [18999121]
