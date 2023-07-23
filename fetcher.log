@@ -7246,3 +7246,41 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 13:33:54] INFO root fetch - processPackages [pyquizrd]: Remove: archive file [/home/abi/fetcher/tmp/pyquizrd-0.1.3.tar.gz]
 [2023-07-23 13:33:54] INFO root fetch - main [MainThread]: End processing [pyquizrd]: success
 [2023-07-23 13:33:54] INFO root fetch - main [MainThread]: Store serial: [19001187]
+[2023-07-23 13:38:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19001187]
+[2023-07-23 13:39:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-23 13:39:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: brutils
+[2023-07-23 13:39:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datomize
+[2023-07-23 13:39:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easy-liftover
+[2023-07-23 13:39:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SageLogger
+[2023-07-23 13:39:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyre-check-nightly
+[2023-07-23 13:39:03] WARNING root fetch - processPackages [easy-liftover]: Skipping, unable to determine old version
+[2023-07-23 13:39:03] INFO root fetch - main [MainThread]: End processing [easy-liftover] error
+[2023-07-23 13:39:03] INFO root fetch - processPackages [SageLogger]: New version: [1.3.1] Old Version: [1.0]
+[2023-07-23 13:39:03] INFO root fetch - processPackages [datomize]: New version: [2.3.9] Old Version: [2.3.7]
+[2023-07-23 13:39:03] INFO root fetch - processPackages [brutils]: New version: [2.0.0] Old Version: [1.0.1]
+[2023-07-23 13:39:03] INFO root fetch - processPackages [SageLogger]: Downloading https://files.pythonhosted.org/packages/ed/ad/81fb4168a674c522bba9f160b5064f42c3c572d5a64671aa4ff0e449d36b/SageLogger-1.0.tar.gz
+[2023-07-23 13:39:03] INFO root fetch - processPackages [brutils]: Downloading https://files.pythonhosted.org/packages/e4/bb/a74e6587dab32d31bb56e9029c7392667075ab0f7dfb61446d240a7655af/brutils-1.0.1.tar.gz
+[2023-07-23 13:39:03] INFO root fetch - processPackages [datomize]: Downloading https://files.pythonhosted.org/packages/25/b4/c3532bd05754ac8ceea7deffda4114334395ce38b480dd990314e84237cb/datomize-2.3.7.tar.gz
+[2023-07-23 13:39:03] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101690110709] Old Version: [0.0.101690024418]
+[2023-07-23 13:39:03] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/a5/dc/995d315cc81bd5e4a1a88124e2470ca3e8c3bed6cec7cfb464b61644ef09/pyre-check-nightly-0.0.101690024418.tar.gz
+[2023-07-23 13:39:03] INFO root fetch - processPackages [SageLogger]: Downloading https://files.pythonhosted.org/packages/0c/e7/36d44bb7daadd39c84fd511426346bdd1b1a54cbdad6a3dab831030036af/SageLogger-1.3.1.tar.gz
+[2023-07-23 13:39:03] INFO root fetch - processPackages [brutils]: Downloading https://files.pythonhosted.org/packages/49/02/db48bb143c375f1a0df611218406fa8e8d05d50ae8871d72788d4a6b52a9/brutils-2.0.0.tar.gz
+[2023-07-23 13:39:03] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23770255>=10485760
+[2023-07-23 13:39:03] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-07-23 13:39:03] INFO root fetch - processPackages [brutils]: executing diffoscope
+[2023-07-23 13:39:03] INFO root fetch - processPackages [brutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brutils-1.0.1.tar.gz tmp/brutils-2.0.0.tar.gz --markdown 20230723/b/brutils/1.0.1-2.0.0/diff.md --exclude *.pyd
+[2023-07-23 13:39:03] INFO root fetch - processPackages [datomize]: Downloading https://files.pythonhosted.org/packages/bb/52/3fe883aeba48564976e4831066c8fff8b5229f3dc0042772e242b79c98d4/datomize-2.3.9.tar.gz
+[2023-07-23 13:39:03] INFO root fetch - processPackages [SageLogger]: executing diffoscope
+[2023-07-23 13:39:03] INFO root fetch - processPackages [SageLogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SageLogger-1.0.tar.gz tmp/SageLogger-1.3.1.tar.gz --markdown 20230723/S/SageLogger/1.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-23 13:39:03] INFO root fetch - processPackages [datomize]: executing diffoscope
+[2023-07-23 13:39:03] INFO root fetch - processPackages [datomize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datomize-2.3.7.tar.gz tmp/datomize-2.3.9.tar.gz --markdown 20230723/d/datomize/2.3.7-2.3.9/diff.md --exclude *.pyd
+[2023-07-23 13:39:04] INFO root fetch - processPackages [brutils]: Remove: archive file [/home/abi/fetcher/tmp/brutils-1.0.1.tar.gz]
+[2023-07-23 13:39:04] INFO root fetch - processPackages [brutils]: Remove: archive file [/home/abi/fetcher/tmp/brutils-2.0.0.tar.gz]
+[2023-07-23 13:39:04] INFO root fetch - main [MainThread]: End processing [brutils]: success
+[2023-07-23 13:39:04] INFO root fetch - processPackages [SageLogger]: Remove: archive file [/home/abi/fetcher/tmp/SageLogger-1.0.tar.gz]
+[2023-07-23 13:39:04] INFO root fetch - processPackages [SageLogger]: Remove: archive file [/home/abi/fetcher/tmp/SageLogger-1.3.1.tar.gz]
+[2023-07-23 13:39:04] INFO root fetch - main [MainThread]: End processing [SageLogger]: success
+[2023-07-23 13:39:04] INFO root fetch - processPackages [datomize]: Remove: archive file [/home/abi/fetcher/tmp/datomize-2.3.7.tar.gz]
+[2023-07-23 13:39:04] INFO root fetch - processPackages [datomize]: Remove: archive file [/home/abi/fetcher/tmp/datomize-2.3.9.tar.gz]
+[2023-07-23 13:39:04] INFO root fetch - main [MainThread]: End processing [datomize]: success
+[2023-07-23 13:39:04] INFO root fetch - main [MainThread]: Store serial: [19001203]
