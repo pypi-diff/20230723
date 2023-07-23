@@ -11122,3 +11122,87 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 18:19:20] INFO root fetch - processPackages [AndroidN]: Remove: archive file [/home/abi/fetcher/tmp/AndroidN-0.0.6.tar.gz]
 [2023-07-23 18:19:20] INFO root fetch - main [MainThread]: End processing [AndroidN]: success
 [2023-07-23 18:19:20] INFO root fetch - main [MainThread]: Store serial: [19003179]
+[2023-07-23 18:24:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19003179]
+[2023-07-23 18:24:31] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-23 18:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: logger-local
+[2023-07-23 18:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pillar1
+[2023-07-23 18:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ConfigArgParse
+[2023-07-23 18:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nb-thumb
+[2023-07-23 18:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PGAPy
+[2023-07-23 18:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyft
+[2023-07-23 18:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datahelp
+[2023-07-23 18:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: navalmartin-mir-vision-utils
+[2023-07-23 18:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kidash
+[2023-07-23 18:24:31] INFO root fetch - processPackages [nb-thumb]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 18:24:31] INFO root fetch - processPackages [ConfigArgParse]: New version: [1.7] Old Version: [1.5.5]
+[2023-07-23 18:24:31] INFO root fetch - processPackages [PGAPy]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-07-23 18:24:31] INFO root fetch - processPackages [pyft]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-23 18:24:31] INFO root fetch - processPackages [kidash]: New version: [0.5.9rc1] Old Version: [0.5.8rc1]
+[2023-07-23 18:24:31] INFO root fetch - processPackages [pillar1]: New version: [0.1.9.9] Old Version: [0.1.9.8]
+[2023-07-23 18:24:31] INFO root fetch - processPackages [logger-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 18:24:31] INFO root fetch - processPackages [datahelp]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-23 18:24:31] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 18:24:31] INFO root fetch - processPackages [pyft]: Downloading https://files.pythonhosted.org/packages/02/93/e6e05f3380af83b5c4b010925934d31dba5527b59d0f256aef8bd6b6b0d1/pyft-0.1.5.tar.gz
+[2023-07-23 18:24:31] INFO root fetch - processPackages [nb-thumb]: Downloading https://files.pythonhosted.org/packages/ab/31/1d264983a9d7de7e9f10edcbc48429da92c985efb6daaf42e4f8af9b9841/nb-thumb-0.0.8.tar.gz
+[2023-07-23 18:24:31] INFO root fetch - processPackages [datahelp]: Downloading https://files.pythonhosted.org/packages/d2/1a/97b64b284217ea3a9fcc5b878d84436e6509165ce651f2fef4ee7224c96c/datahelp-0.1.1.tar.gz
+[2023-07-23 18:24:31] INFO root fetch - processPackages [ConfigArgParse]: Downloading https://files.pythonhosted.org/packages/3c/fb/bf200c55a1e7014577c37fa9cbfa0148f629762bb3acff56299d8c58cbc3/ConfigArgParse-1.5.5.tar.gz
+[2023-07-23 18:24:31] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/fd/c8/dc894f4393d99c54f62ae98519892157e6b0e0327ac1f0b1a261450e9868/pillar1-0.1.9.8.tar.gz
+[2023-07-23 18:24:31] INFO root fetch - processPackages [PGAPy]: Downloading https://files.pythonhosted.org/packages/a3/db/d5b0328f39d191431494ca5d7de43617fae73509a35aea55f1273b43dc09/PGAPy-2.2.1.tar.gz
+[2023-07-23 18:24:31] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: Downloading https://files.pythonhosted.org/packages/10/43/0faf2ce040c31ec3d5fbec3455704388d1de1f395388b47123317288da72/navalmartin_mir_vision_utils-0.0.8.tar.gz
+[2023-07-23 18:24:31] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/21/e1/7a45a748162f16f488c16187a0b07c25201df5531bf12da29ff61c6d7db5/logger-local-0.0.8.tar.gz
+[2023-07-23 18:24:31] INFO root fetch - processPackages [kidash]: Downloading https://files.pythonhosted.org/packages/dd/85/50e7f036b68a7d4930fcf18f06e413aea4dd70b2947f806dd87190740177/kidash-0.5.8rc1.tar.gz
+[2023-07-23 18:24:32] INFO root fetch - processPackages [nb-thumb]: Downloading https://files.pythonhosted.org/packages/c0/a9/6bee8a8875be47c8f376aec67118c1b234be8bfb2fa1fd51248a6b335332/nb-thumb-0.0.9.tar.gz
+[2023-07-23 18:24:32] INFO root fetch - processPackages [datahelp]: Downloading https://files.pythonhosted.org/packages/fa/07/c0b0205d874ef664a5cf3527243d2b24cf789adbc9749118b4fc9e8fc3e4/datahelp-0.1.2.tar.gz
+[2023-07-23 18:24:32] INFO root fetch - processPackages [ConfigArgParse]: Downloading https://files.pythonhosted.org/packages/70/8a/73f1008adfad01cb923255b924b1528727b8270e67cb4ef41eabdc7d783e/ConfigArgParse-1.7.tar.gz
+[2023-07-23 18:24:32] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/92/8d/efcf5703708adcc432230e0d510fec42756434d28ae2e4b4348f30be2eef/pillar1-0.1.9.9.tar.gz
+[2023-07-23 18:24:32] INFO root fetch - processPackages [nb-thumb]: executing diffoscope
+[2023-07-23 18:24:32] INFO root fetch - processPackages [nb-thumb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb-thumb-0.0.8.tar.gz tmp/nb-thumb-0.0.9.tar.gz --markdown 20230723/n/nb-thumb/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 18:24:32] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/2d/a9/d7815ae572e09b03370b309ad1bf127cf7c8f4c91b3ddd26fd0043a2e559/logger-local-0.0.9.tar.gz
+[2023-07-23 18:24:32] INFO root fetch - processPackages [PGAPy]: Downloading https://files.pythonhosted.org/packages/f6/2f/56e5c2bdc2749d635885435afda63ee4849d07758fe283fc12a074535485/PGAPy-2.2.2.tar.gz
+[2023-07-23 18:24:32] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: Downloading https://files.pythonhosted.org/packages/33/82/0632f8ba98948950c674aefdba1e9cae6ee975dd3eedc20360ba647945ff/navalmartin_mir_vision_utils-0.0.9.tar.gz
+[2023-07-23 18:24:32] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-07-23 18:24:32] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.9.8.tar.gz tmp/pillar1-0.1.9.9.tar.gz --markdown 20230723/p/pillar1/0.1.9.8-0.1.9.9/diff.md --exclude *.pyd
+[2023-07-23 18:24:32] INFO root fetch - processPackages [kidash]: Downloading https://files.pythonhosted.org/packages/05/27/3a5af6d37a7bd5aca57c918ef8390f461f882f60e072aebf0fcf70edb441/kidash-0.5.9rc1.tar.gz
+[2023-07-23 18:24:32] INFO root fetch - processPackages [datahelp]: executing diffoscope
+[2023-07-23 18:24:32] INFO root fetch - processPackages [datahelp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datahelp-0.1.1.tar.gz tmp/datahelp-0.1.2.tar.gz --markdown 20230723/d/datahelp/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-23 18:24:32] INFO root fetch - processPackages [logger-local]: executing diffoscope
+[2023-07-23 18:24:32] INFO root fetch - processPackages [logger-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger-local-0.0.8.tar.gz tmp/logger-local-0.0.9.tar.gz --markdown 20230723/l/logger-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 18:24:32] INFO root fetch - processPackages [ConfigArgParse]: executing diffoscope
+[2023-07-23 18:24:32] INFO root fetch - processPackages [ConfigArgParse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ConfigArgParse-1.5.5.tar.gz tmp/ConfigArgParse-1.7.tar.gz --markdown 20230723/C/ConfigArgParse/1.5.5-1.7/diff.md --exclude *.pyd
+[2023-07-23 18:24:32] INFO root fetch - processPackages [PGAPy]: executing diffoscope
+[2023-07-23 18:24:32] INFO root fetch - processPackages [PGAPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PGAPy-2.2.1.tar.gz tmp/PGAPy-2.2.2.tar.gz --markdown 20230723/P/PGAPy/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-07-23 18:24:32] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: executing diffoscope
+[2023-07-23 18:24:32] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navalmartin_mir_vision_utils-0.0.8.tar.gz tmp/navalmartin_mir_vision_utils-0.0.9.tar.gz --markdown 20230723/n/navalmartin-mir-vision-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 18:24:32] INFO root fetch - processPackages [kidash]: executing diffoscope
+[2023-07-23 18:24:32] INFO root fetch - processPackages [kidash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kidash-0.5.8rc1.tar.gz tmp/kidash-0.5.9rc1.tar.gz --markdown 20230723/k/kidash/0.5.8rc1-0.5.9rc1/diff.md --exclude *.pyd
+[2023-07-23 18:24:33] INFO root fetch - processPackages [pyft]: Downloading https://files.pythonhosted.org/packages/a3/a5/862a667ea22060468fbb9a217ce8d25c4eda9ff6c64b79f5887e7d4123be/pyft-0.1.6.tar.gz
+[2023-07-23 18:24:33] INFO root fetch - processPackages [nb-thumb]: Remove: archive file [/home/abi/fetcher/tmp/nb-thumb-0.0.8.tar.gz]
+[2023-07-23 18:24:33] INFO root fetch - processPackages [nb-thumb]: Remove: archive file [/home/abi/fetcher/tmp/nb-thumb-0.0.9.tar.gz]
+[2023-07-23 18:24:33] INFO root fetch - main [MainThread]: End processing [nb-thumb]: success
+[2023-07-23 18:24:33] INFO root fetch - processPackages [pyft]: executing diffoscope
+[2023-07-23 18:24:33] INFO root fetch - processPackages [pyft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyft-0.1.5.tar.gz tmp/pyft-0.1.6.tar.gz --markdown 20230723/p/pyft/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-23 18:24:33] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.9.8.tar.gz]
+[2023-07-23 18:24:33] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.9.9.tar.gz]
+[2023-07-23 18:24:33] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-07-23 18:24:33] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.8.tar.gz]
+[2023-07-23 18:24:33] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.9.tar.gz]
+[2023-07-23 18:24:33] INFO root fetch - main [MainThread]: End processing [logger-local]: success
+[2023-07-23 18:24:34] INFO root fetch - processPackages [kidash]: Remove: archive file [/home/abi/fetcher/tmp/kidash-0.5.8rc1.tar.gz]
+[2023-07-23 18:24:34] INFO root fetch - processPackages [kidash]: Remove: archive file [/home/abi/fetcher/tmp/kidash-0.5.9rc1.tar.gz]
+[2023-07-23 18:24:34] INFO root fetch - main [MainThread]: End processing [kidash]: success
+[2023-07-23 18:24:34] INFO root fetch - processPackages [datahelp]: Remove: archive file [/home/abi/fetcher/tmp/datahelp-0.1.1.tar.gz]
+[2023-07-23 18:24:34] INFO root fetch - processPackages [datahelp]: Remove: archive file [/home/abi/fetcher/tmp/datahelp-0.1.2.tar.gz]
+[2023-07-23 18:24:34] INFO root fetch - main [MainThread]: End processing [datahelp]: success
+[2023-07-23 18:24:34] INFO root fetch - processPackages [ConfigArgParse]: Remove: archive file [/home/abi/fetcher/tmp/ConfigArgParse-1.5.5.tar.gz]
+[2023-07-23 18:24:34] INFO root fetch - processPackages [ConfigArgParse]: Remove: archive file [/home/abi/fetcher/tmp/ConfigArgParse-1.7.tar.gz]
+[2023-07-23 18:24:34] INFO root fetch - main [MainThread]: End processing [ConfigArgParse]: success
+[2023-07-23 18:24:34] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: Remove: archive file [/home/abi/fetcher/tmp/navalmartin_mir_vision_utils-0.0.8.tar.gz]
+[2023-07-23 18:24:34] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: Remove: archive file [/home/abi/fetcher/tmp/navalmartin_mir_vision_utils-0.0.9.tar.gz]
+[2023-07-23 18:24:34] INFO root fetch - main [MainThread]: End processing [navalmartin-mir-vision-utils]: success
+[2023-07-23 18:24:34] INFO root fetch - processPackages [PGAPy]: Remove: archive file [/home/abi/fetcher/tmp/PGAPy-2.2.1.tar.gz]
+[2023-07-23 18:24:34] INFO root fetch - processPackages [PGAPy]: Remove: archive file [/home/abi/fetcher/tmp/PGAPy-2.2.2.tar.gz]
+[2023-07-23 18:24:34] INFO root fetch - main [MainThread]: End processing [PGAPy]: success
+[2023-07-23 18:24:35] INFO root fetch - processPackages [pyft]: Remove: archive file [/home/abi/fetcher/tmp/pyft-0.1.5.tar.gz]
+[2023-07-23 18:24:35] INFO root fetch - processPackages [pyft]: Remove: archive file [/home/abi/fetcher/tmp/pyft-0.1.6.tar.gz]
+[2023-07-23 18:24:35] INFO root fetch - main [MainThread]: End processing [pyft]: success
+[2023-07-23 18:24:35] INFO root fetch - main [MainThread]: Store serial: [19003208]
