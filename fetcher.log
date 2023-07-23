@@ -4056,3 +4056,24 @@
 [2023-07-23 07:50:40] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.3.0.tar.gz]
 [2023-07-23 07:50:40] INFO root fetch - main [MainThread]: End processing [autopack-tools]: success
 [2023-07-23 07:50:40] INFO root fetch - main [MainThread]: Store serial: [18999741]
+[2023-07-23 07:55:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999741]
+[2023-07-23 07:55:50] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-23 07:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pg-sui
+[2023-07-23 07:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neuralpit
+[2023-07-23 07:55:50] INFO root fetch - processPackages [pg-sui]: New version: [0.2.3.1] Old Version: [0.2.3]
+[2023-07-23 07:55:50] INFO root fetch - processPackages [neuralpit]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-23 07:55:50] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/56/58/bb03618390059b6d129f2de5cd391ec42364984c951277841e024e78d46e/neuralpit-2.0.8.tar.gz
+[2023-07-23 07:55:50] INFO root fetch - processPackages [pg-sui]: Downloading https://files.pythonhosted.org/packages/6f/cc/f57729ffa1ea71f6d06ed8c5d839dd2bca677b45c09eb0fa36b5cabed37b/pg-sui-0.2.3.tar.gz
+[2023-07-23 07:55:50] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/8d/d4/cdca716e9f1023aaa975149951886336025da24ab787ef5b10e974341df6/neuralpit-2.0.9.tar.gz
+[2023-07-23 07:55:50] INFO root fetch - processPackages [neuralpit]: executing diffoscope
+[2023-07-23 07:55:50] INFO root fetch - processPackages [neuralpit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralpit-2.0.8.tar.gz tmp/neuralpit-2.0.9.tar.gz --markdown 20230723/n/neuralpit/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-23 07:55:50] INFO root fetch - processPackages [pg-sui]: Downloading https://files.pythonhosted.org/packages/c6/dc/da6a625c1b761a637512c6e681bd7e42a9eca36b8e8c6de334f317c7d53e/pg-sui-0.2.3.1.tar.gz
+[2023-07-23 07:55:50] INFO root fetch - processPackages [pg-sui]: executing diffoscope
+[2023-07-23 07:55:50] INFO root fetch - processPackages [pg-sui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg-sui-0.2.3.tar.gz tmp/pg-sui-0.2.3.1.tar.gz --markdown 20230723/p/pg-sui/0.2.3-0.2.3.1/diff.md --exclude *.pyd
+[2023-07-23 07:55:51] INFO root fetch - processPackages [neuralpit]: Remove: archive file [/home/abi/fetcher/tmp/neuralpit-2.0.8.tar.gz]
+[2023-07-23 07:55:51] INFO root fetch - processPackages [neuralpit]: Remove: archive file [/home/abi/fetcher/tmp/neuralpit-2.0.9.tar.gz]
+[2023-07-23 07:55:51] INFO root fetch - main [MainThread]: End processing [neuralpit]: success
+[2023-07-23 07:55:52] INFO root fetch - processPackages [pg-sui]: Remove: archive file [/home/abi/fetcher/tmp/pg-sui-0.2.3.tar.gz]
+[2023-07-23 07:55:52] INFO root fetch - processPackages [pg-sui]: Remove: archive file [/home/abi/fetcher/tmp/pg-sui-0.2.3.1.tar.gz]
+[2023-07-23 07:55:52] INFO root fetch - main [MainThread]: End processing [pg-sui]: success
+[2023-07-23 07:55:52] INFO root fetch - main [MainThread]: Store serial: [18999747]
