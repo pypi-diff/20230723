@@ -15261,3 +15261,69 @@ AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
 [2023-07-23 23:04:45] INFO root fetch - processPackages [pipenv]: Remove: archive file [/home/abi/fetcher/tmp/pipenv-9.1.0.tar.gz]
 [2023-07-23 23:04:45] INFO root fetch - main [MainThread]: End processing [pipenv]: success
 [2023-07-23 23:04:45] INFO root fetch - main [MainThread]: Store serial: [19004854]
+[2023-07-23 23:09:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19004854]
+[2023-07-23 23:09:54] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-23 23:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: q2gui
+[2023-07-23 23:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: perceval-opnfv
+[2023-07-23 23:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fennel-ai
+[2023-07-23 23:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: q2rad
+[2023-07-23 23:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airtime
+[2023-07-23 23:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xso
+[2023-07-23 23:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyassist
+[2023-07-23 23:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Primus
+[2023-07-23 23:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ColorfulCLI
+[2023-07-23 23:09:54] INFO root fetch - processPackages [xso]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-07-23 23:09:54] INFO root fetch - processPackages [perceval-opnfv]: New version: [0.2.9] Old Version: [0.2.8rc2]
+[2023-07-23 23:09:54] INFO root fetch - processPackages [pyassist]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-23 23:09:54] WARNING root fetch - processPackages [airtime]: Skipping, unable to determine old version
+[2023-07-23 23:09:54] INFO root fetch - main [MainThread]: End processing [airtime] error
+[2023-07-23 23:09:54] WARNING root fetch - processPackages [Primus]: Skipping, unable to determine old version
+[2023-07-23 23:09:54] INFO root fetch - main [MainThread]: End processing [Primus] error
+[2023-07-23 23:09:54] INFO root fetch - processPackages [fennel-ai]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-07-23 23:09:54] INFO root fetch - processPackages [q2gui]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-23 23:09:54] INFO root fetch - processPackages [q2rad]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-23 23:09:54] WARNING root fetch - processPackages [ColorfulCLI]: Skipping, unable to determine old version
+[2023-07-23 23:09:54] INFO root fetch - main [MainThread]: End processing [ColorfulCLI] error
+[2023-07-23 23:09:54] INFO root fetch - processPackages [xso]: Downloading https://files.pythonhosted.org/packages/19/7c/7c5e67828767c48158060a165326b4ef89b57c5fe29c5ad61f0b8b56771e/xso-0.0.4.tar.gz
+[2023-07-23 23:09:54] INFO root fetch - processPackages [perceval-opnfv]: Downloading https://files.pythonhosted.org/packages/5c/77/9530594bf6c3822d57cc3519d7038f264d3ec68563d282c09a41cacfcd8b/perceval_opnfv-0.2.8rc2.tar.gz
+[2023-07-23 23:09:54] INFO root fetch - processPackages [pyassist]: Downloading https://files.pythonhosted.org/packages/06/29/940e7e9b4d32cba654ea988169eaab124819d3db5d3af403a220239009b6/pyassist-0.2.3.tar.gz
+[2023-07-23 23:09:54] INFO root fetch - processPackages [fennel-ai]: Downloading https://files.pythonhosted.org/packages/d4/26/4eb76cfe9ce1dbe30c04220d8454ea3bc2454cab78e5cb06cba758448183/fennel_ai-0.8.6.tar.gz
+[2023-07-23 23:09:54] INFO root fetch - processPackages [q2rad]: Downloading https://files.pythonhosted.org/packages/80/49/6ec4d4467c701099cbfa21472d6b7c426277eeae8e82db973157f4077dd1/q2rad-0.1.98.tar.gz
+[2023-07-23 23:09:54] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/97/15/9a5e27167a28b919a9cddce6abb2321351e6113cdec2d4d638ba8252564d/q2gui-0.1.98.tar.gz
+[2023-07-23 23:09:54] INFO root fetch - processPackages [perceval-opnfv]: Downloading https://files.pythonhosted.org/packages/45/31/4d8e7afbe78e4396469b939734a808a0073335f82e0dbcbebef94a25b892/perceval_opnfv-0.2.9.tar.gz
+[2023-07-23 23:09:54] INFO root fetch - processPackages [xso]: Downloading https://files.pythonhosted.org/packages/a3/f3/ef93c6afd503aeff4e6b520a7273af3f311c4da3049ecd6cfd2e5e9e26f6/xso-0.1.0.tar.gz
+[2023-07-23 23:09:55] INFO root fetch - processPackages [pyassist]: Downloading https://files.pythonhosted.org/packages/7d/ac/120912e66ade3059936835c5dc06bfedd648894f72286c375153e7ff960f/pyassist-0.2.4.tar.gz
+[2023-07-23 23:09:55] INFO root fetch - processPackages [perceval-opnfv]: executing diffoscope
+[2023-07-23 23:09:55] INFO root fetch - processPackages [perceval-opnfv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_opnfv-0.2.8rc2.tar.gz tmp/perceval_opnfv-0.2.9.tar.gz --markdown 20230723/p/perceval-opnfv/0.2.8rc2-0.2.9/diff.md --exclude *.pyd
+[2023-07-23 23:09:55] INFO root fetch - processPackages [pyassist]: executing diffoscope
+[2023-07-23 23:09:55] INFO root fetch - processPackages [pyassist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyassist-0.2.3.tar.gz tmp/pyassist-0.2.4.tar.gz --markdown 20230723/p/pyassist/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-23 23:09:55] INFO root fetch - processPackages [q2rad]: Downloading https://files.pythonhosted.org/packages/47/0e/9309c87c362671a5eef5895adc1cb5d29e984c27a0e09a60a83cada10f73/q2rad-0.1.99.tar.gz
+[2023-07-23 23:09:55] INFO root fetch - processPackages [xso]: executing diffoscope
+[2023-07-23 23:09:55] INFO root fetch - processPackages [xso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xso-0.0.4.tar.gz tmp/xso-0.1.0.tar.gz --markdown 20230723/x/xso/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-07-23 23:09:55] INFO root fetch - processPackages [fennel-ai]: Downloading https://files.pythonhosted.org/packages/4c/fc/90b33a768471ec120e5a2eb150847406a26ac2ef34bd6a41f7eb20a0432f/fennel_ai-0.8.7.tar.gz
+[2023-07-23 23:09:55] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/58/3e/df0471f53d74fc7d0d5885ad90423ae0ffbcaec42bcc77a0b466ed7fef7f/q2gui-0.1.99.tar.gz
+[2023-07-23 23:09:55] INFO root fetch - processPackages [q2rad]: executing diffoscope
+[2023-07-23 23:09:55] INFO root fetch - processPackages [q2rad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2rad-0.1.98.tar.gz tmp/q2rad-0.1.99.tar.gz --markdown 20230723/q/q2rad/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-23 23:09:55] INFO root fetch - processPackages [q2gui]: executing diffoscope
+[2023-07-23 23:09:55] INFO root fetch - processPackages [q2gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2gui-0.1.98.tar.gz tmp/q2gui-0.1.99.tar.gz --markdown 20230723/q/q2gui/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-23 23:09:55] INFO root fetch - processPackages [fennel-ai]: executing diffoscope
+[2023-07-23 23:09:55] INFO root fetch - processPackages [fennel-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fennel_ai-0.8.6.tar.gz tmp/fennel_ai-0.8.7.tar.gz --markdown 20230723/f/fennel-ai/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-07-23 23:09:56] INFO root fetch - processPackages [pyassist]: Remove: archive file [/home/abi/fetcher/tmp/pyassist-0.2.3.tar.gz]
+[2023-07-23 23:09:56] INFO root fetch - processPackages [pyassist]: Remove: archive file [/home/abi/fetcher/tmp/pyassist-0.2.4.tar.gz]
+[2023-07-23 23:09:56] INFO root fetch - main [MainThread]: End processing [pyassist]: success
+[2023-07-23 23:09:56] INFO root fetch - processPackages [perceval-opnfv]: Remove: archive file [/home/abi/fetcher/tmp/perceval_opnfv-0.2.8rc2.tar.gz]
+[2023-07-23 23:09:56] INFO root fetch - processPackages [perceval-opnfv]: Remove: archive file [/home/abi/fetcher/tmp/perceval_opnfv-0.2.9.tar.gz]
+[2023-07-23 23:09:56] INFO root fetch - main [MainThread]: End processing [perceval-opnfv]: success
+[2023-07-23 23:09:56] INFO root fetch - processPackages [xso]: Remove: archive file [/home/abi/fetcher/tmp/xso-0.0.4.tar.gz]
+[2023-07-23 23:09:56] INFO root fetch - processPackages [xso]: Remove: archive file [/home/abi/fetcher/tmp/xso-0.1.0.tar.gz]
+[2023-07-23 23:09:56] INFO root fetch - main [MainThread]: End processing [xso]: success
+[2023-07-23 23:09:56] INFO root fetch - processPackages [q2rad]: Remove: archive file [/home/abi/fetcher/tmp/q2rad-0.1.98.tar.gz]
+[2023-07-23 23:09:56] INFO root fetch - processPackages [q2rad]: Remove: archive file [/home/abi/fetcher/tmp/q2rad-0.1.99.tar.gz]
+[2023-07-23 23:09:56] INFO root fetch - main [MainThread]: End processing [q2rad]: success
+[2023-07-23 23:09:56] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.98.tar.gz]
+[2023-07-23 23:09:56] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.99.tar.gz]
+[2023-07-23 23:09:56] INFO root fetch - main [MainThread]: End processing [q2gui]: success
+[2023-07-23 23:09:56] INFO root fetch - processPackages [fennel-ai]: Remove: archive file [/home/abi/fetcher/tmp/fennel_ai-0.8.6.tar.gz]
+[2023-07-23 23:09:56] INFO root fetch - processPackages [fennel-ai]: Remove: archive file [/home/abi/fetcher/tmp/fennel_ai-0.8.7.tar.gz]
+[2023-07-23 23:09:56] INFO root fetch - main [MainThread]: End processing [fennel-ai]: success
+[2023-07-23 23:09:56] INFO root fetch - main [MainThread]: Store serial: [19004887]
