@@ -1955,3 +1955,36 @@
 [2023-07-23 03:21:30] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
 [2023-07-23 03:21:30] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
 [2023-07-23 03:21:30] INFO root fetch - main [MainThread]: Store serial: [18998849]
+[2023-07-23 03:26:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18998849]
+[2023-07-23 03:26:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-23 03:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openllm
+[2023-07-23 03:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-outbox-menu
+[2023-07-23 03:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-subminute
+[2023-07-23 03:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uu2nano
+[2023-07-23 03:26:39] INFO root fetch - processPackages [django-outbox-menu]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-23 03:26:39] INFO root fetch - processPackages [openllm]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-23 03:26:39] WARNING root fetch - processPackages [uu2nano]: Skipping, unable to determine old version
+[2023-07-23 03:26:39] INFO root fetch - main [MainThread]: End processing [uu2nano] error
+[2023-07-23 03:26:39] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-23 03:26:39] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/42/92/ece77f183c483bae215c7439bf743bed7f76ed28f7d83c171d62aa659425/openllm-0.2.6.tar.gz
+[2023-07-23 03:26:39] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-07-23 03:26:39] INFO root fetch - processPackages [django-outbox-menu]: Downloading https://files.pythonhosted.org/packages/a4/b5/e927ce22b10a0beef1e06c269bf6eadb92529b619a81ebd58c9491256c5a/django-outbox-menu-1.0.8.tar.gz
+[2023-07-23 03:26:39] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-07-23 03:26:39] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/bb/eb/23ce1c89910a62657eaf990d0b83a28aaf320d31cbaa3b9c23cb7b14601a/openllm-0.2.7.tar.gz
+[2023-07-23 03:26:39] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-07-23 03:26:39] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230723/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-23 03:26:39] INFO root fetch - processPackages [openllm]: executing diffoscope
+[2023-07-23 03:26:39] INFO root fetch - processPackages [openllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm-0.2.6.tar.gz tmp/openllm-0.2.7.tar.gz --markdown 20230723/o/openllm/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-23 03:26:39] INFO root fetch - processPackages [django-outbox-menu]: Downloading https://files.pythonhosted.org/packages/12/74/17de0051024c6e36a45ad52e58d199e38092cc14004026d9ecb4d963cfd5/django-outbox-menu-1.0.9.tar.gz
+[2023-07-23 03:26:40] INFO root fetch - processPackages [django-outbox-menu]: executing diffoscope
+[2023-07-23 03:26:40] INFO root fetch - processPackages [django-outbox-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-outbox-menu-1.0.8.tar.gz tmp/django-outbox-menu-1.0.9.tar.gz --markdown 20230723/d/django-outbox-menu/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-23 03:26:40] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.98.tar.gz]
+[2023-07-23 03:26:40] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.99.tar.gz]
+[2023-07-23 03:26:40] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-07-23 03:26:40] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.2.6.tar.gz]
+[2023-07-23 03:26:40] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.2.7.tar.gz]
+[2023-07-23 03:26:40] INFO root fetch - main [MainThread]: End processing [openllm]: success
+[2023-07-23 03:26:41] INFO root fetch - processPackages [django-outbox-menu]: Remove: archive file [/home/abi/fetcher/tmp/django-outbox-menu-1.0.8.tar.gz]
+[2023-07-23 03:26:41] INFO root fetch - processPackages [django-outbox-menu]: Remove: archive file [/home/abi/fetcher/tmp/django-outbox-menu-1.0.9.tar.gz]
+[2023-07-23 03:26:41] INFO root fetch - main [MainThread]: End processing [django-outbox-menu]: success
+[2023-07-23 03:26:41] INFO root fetch - main [MainThread]: Store serial: [18998860]
