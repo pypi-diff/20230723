@@ -10969,3 +10969,75 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 18:08:52] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.7.9.tar.gz]
 [2023-07-23 18:08:52] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
 [2023-07-23 18:08:52] INFO root fetch - main [MainThread]: Store serial: [19003049]
+[2023-07-23 18:13:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19003049]
+[2023-07-23 18:14:01] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-23 18:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llmflows
+[2023-07-23 18:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uk-bin-collection
+[2023-07-23 18:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gigagan-pytorch
+[2023-07-23 18:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: angreal
+[2023-07-23 18:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ephemeral-sh
+[2023-07-23 18:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: atproto
+[2023-07-23 18:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymolviz
+[2023-07-23 18:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: async-poe-client
+[2023-07-23 18:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pluginlab-admin
+[2023-07-23 18:14:02] INFO root fetch - processPackages [gigagan-pytorch]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-23 18:14:02] INFO root fetch - processPackages [llmflows]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 18:14:02] INFO root fetch - processPackages [async-poe-client]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-23 18:14:02] INFO root fetch - processPackages [uk-bin-collection]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-23 18:14:02] WARNING root fetch - processPackages [ephemeral-sh]: Skipping, unable to determine old version
+[2023-07-23 18:14:02] INFO root fetch - main [MainThread]: End processing [ephemeral-sh] error
+[2023-07-23 18:14:02] INFO root fetch - processPackages [angreal]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-07-23 18:14:02] INFO root fetch - processPackages [pymolviz]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-23 18:14:02] INFO root fetch - processPackages [atproto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 18:14:02] WARNING root fetch - processPackages [pluginlab-admin]: Skipping, unable to determine old version
+[2023-07-23 18:14:02] INFO root fetch - main [MainThread]: End processing [pluginlab-admin] error
+[2023-07-23 18:14:02] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/d9/e0/b2934610f827a6e16444d91655fb41306e808620e7da2b2472801cfe1cfc/gigagan-pytorch-0.1.8.tar.gz
+[2023-07-23 18:14:02] INFO root fetch - processPackages [llmflows]: Downloading https://files.pythonhosted.org/packages/d1/8a/7ba657088beea67a9f8e2eb6803731739d9de02908c01f2ae802268e11fb/llmflows-0.0.8.tar.gz
+[2023-07-23 18:14:02] INFO root fetch - processPackages [uk-bin-collection]: Downloading https://files.pythonhosted.org/packages/0f/d5/7515bdc67f11c4469950f280773d5d43eba78f3843cd4b49ccc3d55c34b7/uk_bin_collection-0.7.0.tar.gz
+[2023-07-23 18:14:02] INFO root fetch - processPackages [async-poe-client]: Downloading https://files.pythonhosted.org/packages/13/52/9171a894660735a6eb2abbc0fbbf0d10028ce6c1bff078ee5305eb6aac1a/async_poe_client-0.1.2.tar.gz
+[2023-07-23 18:14:02] INFO root fetch - processPackages [angreal]: Downloading https://files.pythonhosted.org/packages/09/b1/2f62ca41fc51a90b7c4e54bb7431ddae907dc151d194d875ac3f59ec46e0/angreal-2.0.7.tar.gz
+[2023-07-23 18:14:02] INFO root fetch - processPackages [pymolviz]: Downloading https://files.pythonhosted.org/packages/69/cb/fbddfe345fd19080181fc6a4aa12fb811696d0566a2042cb2f71b294d12b/pymolviz-1.0.1.tar.gz
+[2023-07-23 18:14:02] INFO root fetch - processPackages [atproto]: Downloading https://files.pythonhosted.org/packages/41/b1/8fd5cf9bb765a6bab94fe28a2c42c4f7961bca68115339fa301a2551b814/atproto-0.0.8.tar.gz
+[2023-07-23 18:14:02] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/be/b0/4d464405e8b805823829907ca5b9cc50aac0dca80644c3147d4146d45ecb/gigagan-pytorch-0.1.9.tar.gz
+[2023-07-23 18:14:02] INFO root fetch - processPackages [async-poe-client]: Downloading https://files.pythonhosted.org/packages/69/1b/5a7d4d9a16bc8d02d8ff1388f461073b0c34b57dea6ba319fe9c45f69d0d/async_poe_client-0.1.3.tar.gz
+[2023-07-23 18:14:02] INFO root fetch - processPackages [llmflows]: Downloading https://files.pythonhosted.org/packages/c7/cb/c86b59ec187a7675af76a57206f33dc9397eaf5a39e310a2b6649d63326d/llmflows-0.0.9.tar.gz
+[2023-07-23 18:14:02] INFO root fetch - processPackages [uk-bin-collection]: Downloading https://files.pythonhosted.org/packages/f6/3c/e25a4eb0a28d67a6748fdb9acd0380565c1585a1ff833d282a9d2acc90a1/uk_bin_collection-0.8.0.tar.gz
+[2023-07-23 18:14:02] INFO root fetch - processPackages [gigagan-pytorch]: executing diffoscope
+[2023-07-23 18:14:02] INFO root fetch - processPackages [gigagan-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigagan-pytorch-0.1.8.tar.gz tmp/gigagan-pytorch-0.1.9.tar.gz --markdown 20230723/g/gigagan-pytorch/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-23 18:14:02] INFO root fetch - processPackages [async-poe-client]: executing diffoscope
+[2023-07-23 18:14:02] INFO root fetch - processPackages [async-poe-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_poe_client-0.1.2.tar.gz tmp/async_poe_client-0.1.3.tar.gz --markdown 20230723/a/async-poe-client/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-23 18:14:02] INFO root fetch - processPackages [pymolviz]: Downloading https://files.pythonhosted.org/packages/e9/d4/1aebe14133bccfec9d7bcf35ce1f42a39633f949bdac48e98b38fcd96dd6/pymolviz-1.0.2.tar.gz
+[2023-07-23 18:14:02] INFO root fetch - processPackages [llmflows]: executing diffoscope
+[2023-07-23 18:14:02] INFO root fetch - processPackages [llmflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmflows-0.0.8.tar.gz tmp/llmflows-0.0.9.tar.gz --markdown 20230723/l/llmflows/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 18:14:02] INFO root fetch - processPackages [uk-bin-collection]: executing diffoscope
+[2023-07-23 18:14:02] INFO root fetch - processPackages [uk-bin-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uk_bin_collection-0.7.0.tar.gz tmp/uk_bin_collection-0.8.0.tar.gz --markdown 20230723/u/uk-bin-collection/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-23 18:14:02] INFO root fetch - processPackages [angreal]: Downloading https://files.pythonhosted.org/packages/ed/c2/7d2e833ae366059818057793a9596340b65b8c17ed4a95551608d6d1d108/angreal-2.0.8-cp39-cp39-manylinux_2_17_armv7l.manylinux2014_armv7l.whl
+[2023-07-23 18:14:02] INFO root fetch - processPackages [atproto]: Downloading https://files.pythonhosted.org/packages/77/1e/7dc305471e00c4c47363abdd5b249d56887681dfb22aa19f38866d6e7506/atproto-0.0.9.tar.gz
+[2023-07-23 18:14:02] INFO root fetch - processPackages [pymolviz]: executing diffoscope
+[2023-07-23 18:14:02] INFO root fetch - processPackages [pymolviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymolviz-1.0.1.tar.gz tmp/pymolviz-1.0.2.tar.gz --markdown 20230723/p/pymolviz/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-23 18:14:03] INFO root fetch - processPackages [atproto]: executing diffoscope
+[2023-07-23 18:14:03] INFO root fetch - processPackages [atproto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atproto-0.0.8.tar.gz tmp/atproto-0.0.9.tar.gz --markdown 20230723/a/atproto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 18:14:03] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.1.8.tar.gz]
+[2023-07-23 18:14:03] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.1.9.tar.gz]
+[2023-07-23 18:14:03] INFO root fetch - main [MainThread]: End processing [gigagan-pytorch]: success
+[2023-07-23 18:14:03] INFO root fetch - processPackages [pymolviz]: Remove: archive file [/home/abi/fetcher/tmp/pymolviz-1.0.1.tar.gz]
+[2023-07-23 18:14:03] INFO root fetch - processPackages [pymolviz]: Remove: archive file [/home/abi/fetcher/tmp/pymolviz-1.0.2.tar.gz]
+[2023-07-23 18:14:03] INFO root fetch - main [MainThread]: End processing [pymolviz]: success
+[2023-07-23 18:14:03] INFO root fetch - processPackages [async-poe-client]: Remove: archive file [/home/abi/fetcher/tmp/async_poe_client-0.1.2.tar.gz]
+[2023-07-23 18:14:03] INFO root fetch - processPackages [async-poe-client]: Remove: archive file [/home/abi/fetcher/tmp/async_poe_client-0.1.3.tar.gz]
+[2023-07-23 18:14:03] INFO root fetch - main [MainThread]: End processing [async-poe-client]: success
+[2023-07-23 18:14:04] INFO root fetch - processPackages [llmflows]: Remove: archive file [/home/abi/fetcher/tmp/llmflows-0.0.8.tar.gz]
+[2023-07-23 18:14:04] INFO root fetch - processPackages [llmflows]: Remove: archive file [/home/abi/fetcher/tmp/llmflows-0.0.9.tar.gz]
+[2023-07-23 18:14:04] INFO root fetch - main [MainThread]: End processing [llmflows]: success
+[2023-07-23 18:14:04] INFO root fetch - processPackages [uk-bin-collection]: Remove: archive file [/home/abi/fetcher/tmp/uk_bin_collection-0.7.0.tar.gz]
+[2023-07-23 18:14:04] INFO root fetch - processPackages [uk-bin-collection]: Remove: archive file [/home/abi/fetcher/tmp/uk_bin_collection-0.8.0.tar.gz]
+[2023-07-23 18:14:04] INFO root fetch - main [MainThread]: End processing [uk-bin-collection]: success
+[2023-07-23 18:14:04] INFO root fetch - processPackages [atproto]: Remove: archive file [/home/abi/fetcher/tmp/atproto-0.0.8.tar.gz]
+[2023-07-23 18:14:04] INFO root fetch - processPackages [atproto]: Remove: archive file [/home/abi/fetcher/tmp/atproto-0.0.9.tar.gz]
+[2023-07-23 18:14:04] INFO root fetch - main [MainThread]: End processing [atproto]: success
+[2023-07-23 18:14:06] INFO root fetch - processPackages [angreal]: executing diffoscope
+[2023-07-23 18:14:06] INFO root fetch - processPackages [angreal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/angreal-2.0.7.tar.gz tmp/angreal-2.0.8-cp39-cp39-manylinux_2_17_armv7l.manylinux2014_armv7l.whl.zip --markdown 20230723/a/angreal/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-07-23 18:14:07] INFO root fetch - processPackages [angreal]: Remove: archive file [/home/abi/fetcher/tmp/angreal-2.0.7.tar.gz]
+[2023-07-23 18:14:07] INFO root fetch - processPackages [angreal]: Remove: archive file [/home/abi/fetcher/tmp/angreal-2.0.8-cp39-cp39-manylinux_2_17_armv7l.manylinux2014_armv7l.whl.zip]
+[2023-07-23 18:14:07] INFO root fetch - main [MainThread]: End processing [angreal]: success
+[2023-07-23 18:14:07] INFO root fetch - main [MainThread]: Store serial: [19003131]
