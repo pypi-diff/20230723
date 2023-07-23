@@ -9438,3 +9438,115 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 16:29:35] INFO root fetch - processPackages [my-ui-booking.com]: Remove: archive file [/home/abi/fetcher/tmp/my_ui_booking.com-0.5.tar.gz]
 [2023-07-23 16:29:35] INFO root fetch - main [MainThread]: End processing [my-ui-booking.com]: success
 [2023-07-23 16:29:35] INFO root fetch - main [MainThread]: Store serial: [19002328]
+[2023-07-23 16:34:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19002328]
+[2023-07-23 16:34:44] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-23 16:34:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qcfinancial
+[2023-07-23 16:34:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zhei-init
+[2023-07-23 16:34:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mostats
+[2023-07-23 16:34:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scaraplate
+[2023-07-23 16:34:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jsodb
+[2023-07-23 16:34:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zhei-init
+[2023-07-23 16:34:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-data-migrations
+[2023-07-23 16:34:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kellanz-unique-package-name
+[2023-07-23 16:34:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: epure
+[2023-07-23 16:34:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: starcatalogquery
+[2023-07-23 16:34:44] INFO root fetch - processPackages [starcatalogquery]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-23 16:34:44] INFO root fetch - processPackages [django-data-migrations]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-23 16:34:44] INFO root fetch - processPackages [zhei-init]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-23 16:34:44] WARNING root fetch - processPackages [qcfinancial]: Skipping, unable to determine old version
+[2023-07-23 16:34:44] INFO root fetch - processPackages [qcfinancial]: Start processing: starmatch
+[2023-07-23 16:34:44] INFO root fetch - main [MainThread]: End processing [qcfinancial] error
+[2023-07-23 16:34:44] INFO root fetch - processPackages [zhei-init]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-23 16:34:44] INFO root fetch - processPackages [jsodb]: New version: [1.6.0] Old Version: [1.5.5]
+[2023-07-23 16:34:44] INFO root fetch - processPackages [scaraplate]: New version: [0.5] Old Version: [0.4]
+[2023-07-23 16:34:44] INFO root fetch - processPackages [mostats]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-23 16:34:44] WARNING root fetch - processPackages [kellanz-unique-package-name]: Skipping, unable to determine old version
+[2023-07-23 16:34:44] INFO root fetch - processPackages [kellanz-unique-package-name]: Start processing: zheinit
+[2023-07-23 16:34:44] INFO root fetch - main [MainThread]: End processing [kellanz-unique-package-name] error
+[2023-07-23 16:34:44] INFO root fetch - processPackages [starcatalogquery]: Downloading https://files.pythonhosted.org/packages/99/4c/c4e918f3011f9b05109c3db0d931c7a817a957174c5cf2b77acd11541128/starcatalogquery-0.1.8-py3-none-any.whl
+[2023-07-23 16:34:44] INFO root fetch - processPackages [epure]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-23 16:34:44] INFO root fetch - processPackages [zhei-init]: Downloading https://files.pythonhosted.org/packages/72/8b/a652319d21eef8fc0fac747a04ae6e613ba5b458bee2d03e268d4315f70e/zhei-init-0.0.3.tar.gz
+[2023-07-23 16:34:44] INFO root fetch - processPackages [zhei-init]: Downloading https://files.pythonhosted.org/packages/72/8b/a652319d21eef8fc0fac747a04ae6e613ba5b458bee2d03e268d4315f70e/zhei-init-0.0.3.tar.gz
+[2023-07-23 16:34:44] INFO root fetch - processPackages [starmatch]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-23 16:34:44] WARNING root fetch - processPackages [zheinit]: Skipping, unable to determine old version
+[2023-07-23 16:34:44] INFO root fetch - processPackages [zheinit]: Start processing: cece
+[2023-07-23 16:34:44] INFO root fetch - main [MainThread]: End processing [zheinit] error
+[2023-07-23 16:34:44] INFO root fetch - processPackages [django-data-migrations]: Downloading https://files.pythonhosted.org/packages/73/30/293aa319119174c807087a9ec4e073732f8b39b11865ab7eab9e3eda035f/django-data-migrations-0.1.3.tar.gz
+[2023-07-23 16:34:44] INFO root fetch - processPackages [jsodb]: Downloading https://files.pythonhosted.org/packages/74/61/666dba8a7e86a3edcdfd02f1b33b716b15f7c7c0696f98bd1e10206c53b3/jsodb-1.5.5.tar.gz
+[2023-07-23 16:34:44] WARNING root fetch - processPackages [cece]: Skipping, unable to determine old version
+[2023-07-23 16:34:44] INFO root fetch - processPackages [cece]: Start processing: Mesa
+[2023-07-23 16:34:44] INFO root fetch - main [MainThread]: End processing [cece] error
+[2023-07-23 16:34:44] INFO root fetch - processPackages [scaraplate]: Downloading https://files.pythonhosted.org/packages/b4/7d/15b0307d1da7fba5516e8f5d9dea64cff4db46ee7209f09d66cbe22e7e82/scaraplate-0.4.tar.gz
+[2023-07-23 16:34:44] INFO root fetch - processPackages [mostats]: Downloading https://files.pythonhosted.org/packages/4d/d5/9737916cb01fc3200ddc5da2fd490309beeb71c18c200ecc00df1bd51d39/mostats-1.0.8-py3-none-any.whl
+[2023-07-23 16:34:44] INFO root fetch - processPackages [epure]: Downloading https://files.pythonhosted.org/packages/43/6c/c26358007dbb906b402655423da9b7bedbcfcf392c2c9e20b8164e5c862e/epure-0.2.8.tar.gz
+[2023-07-23 16:34:44] INFO root fetch - processPackages [zhei-init]: Downloading https://files.pythonhosted.org/packages/8f/ce/9786d186013164d767fd640bdfee4fec68b0860ff1757fe9a964038d9349/zhei-init-0.0.4.tar.gz
+[2023-07-23 16:34:45] INFO root fetch - processPackages [starmatch]: Downloading https://files.pythonhosted.org/packages/34/be/4ac4cf29f746d3f34c9f6fc18c5cca511e7cd3f4b6573c83947f50201d30/starmatch-0.1.1-py3-none-any.whl
+[2023-07-23 16:34:45] INFO root fetch - processPackages [starcatalogquery]: Downloading https://files.pythonhosted.org/packages/3b/c8/1bd1c5ef93a57a272e8a79f1545aad94db8484b6757347df5410d14a2499/starcatalogquery-0.1.9-py3-none-any.whl
+[2023-07-23 16:34:45] INFO root fetch - processPackages [Mesa]: New version: [2.1] Old Version: [1.2.1]
+[2023-07-23 16:34:45] INFO root fetch - processPackages [zhei-init]: Downloading https://files.pythonhosted.org/packages/8f/ce/9786d186013164d767fd640bdfee4fec68b0860ff1757fe9a964038d9349/zhei-init-0.0.4.tar.gz
+[2023-07-23 16:34:45] INFO root fetch - processPackages [zhei-init]: executing diffoscope
+[2023-07-23 16:34:45] INFO root fetch - processPackages [zhei-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhei-init-0.0.3.tar.gz tmp/zhei-init-0.0.4.tar.gz --markdown 20230723/z/zhei-init/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-23 16:34:45] INFO root fetch - processPackages [starcatalogquery]: executing diffoscope
+[2023-07-23 16:34:45] INFO root fetch - processPackages [starcatalogquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starcatalogquery-0.1.8-py3-none-any.whl.zip tmp/starcatalogquery-0.1.9-py3-none-any.whl.zip --markdown 20230723/s/starcatalogquery/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-23 16:34:45] INFO root fetch - processPackages [zhei-init]: executing diffoscope
+[2023-07-23 16:34:45] INFO root fetch - processPackages [zhei-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhei-init-0.0.3.tar.gz tmp/zhei-init-0.0.4.tar.gz --markdown 20230723/z/zhei-init/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-23 16:34:45] INFO root fetch - processPackages [django-data-migrations]: Downloading https://files.pythonhosted.org/packages/e2/86/8bbbc0a7df8b056099c6624f94508932234bbe449e4411a247468cd03fc6/django-data-migrations-0.1.4.tar.gz
+[2023-07-23 16:34:45] INFO root fetch - processPackages [Mesa]: Downloading https://files.pythonhosted.org/packages/7e/78/44106b5ee29202ff3e15c7a07ad1e5020488dd815bbf41900da0b3e83215/Mesa-1.2.1.tar.gz
+[2023-07-23 16:34:45] INFO root fetch - processPackages [jsodb]: Downloading https://files.pythonhosted.org/packages/78/1d/55b1ef78c7b9439c460bd6bc2f57c5290145f19ee9392d5b0bfb0383990c/jsodb-1.6.0.tar.gz
+[2023-07-23 16:34:45] INFO root fetch - processPackages [scaraplate]: Downloading https://files.pythonhosted.org/packages/3e/9a/d0a272c050f427b98ec51c74e6f4334c709d462b99f7a89950070fc4f17c/scaraplate-0.5.tar.gz
+[2023-07-23 16:34:45] INFO root fetch - processPackages [django-data-migrations]: executing diffoscope
+[2023-07-23 16:34:45] INFO root fetch - processPackages [django-data-migrations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-data-migrations-0.1.3.tar.gz tmp/django-data-migrations-0.1.4.tar.gz --markdown 20230723/d/django-data-migrations/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-23 16:34:45] INFO root fetch - processPackages [mostats]: Downloading https://files.pythonhosted.org/packages/ad/d5/86e988e653a869f1b971741243da2bb9a870fff3a31eb959d1e84660a167/mostats-1.0.9-py3-none-any.whl
+[2023-07-23 16:34:45] INFO root fetch - processPackages [epure]: Downloading https://files.pythonhosted.org/packages/63/be/5f55b879f17e553d286060c5527d714551546adddef9befd9ac088862e1a/epure-0.2.9.tar.gz
+[2023-07-23 16:34:45] INFO root fetch - processPackages [mostats]: executing diffoscope
+[2023-07-23 16:34:45] INFO root fetch - processPackages [mostats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mostats-1.0.8-py3-none-any.whl.zip tmp/mostats-1.0.9-py3-none-any.whl.zip --markdown 20230723/m/mostats/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-23 16:34:45] INFO root fetch - processPackages [starmatch]: Downloading https://files.pythonhosted.org/packages/79/ca/febb426b430bf124c621b283a70125d30068d5ff6336eae0caebc763c38a/starmatch-0.1.2-py3-none-any.whl
+[2023-07-23 16:34:45] INFO root fetch - processPackages [epure]: executing diffoscope
+[2023-07-23 16:34:45] INFO root fetch - processPackages [epure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epure-0.2.8.tar.gz tmp/epure-0.2.9.tar.gz --markdown 20230723/e/epure/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-23 16:34:45] INFO root fetch - processPackages [scaraplate]: executing diffoscope
+[2023-07-23 16:34:45] INFO root fetch - processPackages [scaraplate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaraplate-0.4.tar.gz tmp/scaraplate-0.5.tar.gz --markdown 20230723/s/scaraplate/0.4-0.5/diff.md --exclude *.pyd
+[2023-07-23 16:34:45] INFO root fetch - processPackages [jsodb]: executing diffoscope
+[2023-07-23 16:34:45] INFO root fetch - processPackages [jsodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsodb-1.5.5.tar.gz tmp/jsodb-1.6.0.tar.gz --markdown 20230723/j/jsodb/1.5.5-1.6.0/diff.md --exclude *.pyd
+[2023-07-23 16:34:45] INFO root fetch - processPackages [starmatch]: executing diffoscope
+[2023-07-23 16:34:45] INFO root fetch - processPackages [starmatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starmatch-0.1.1-py3-none-any.whl.zip tmp/starmatch-0.1.2-py3-none-any.whl.zip --markdown 20230723/s/starmatch/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-23 16:34:45] INFO root fetch - processPackages [Mesa]: Downloading https://files.pythonhosted.org/packages/e6/71/2439dc869c8096f3281891d057be4f06e4295df3b26fdf466047b06c560c/Mesa-2.1.tar.gz
+[2023-07-23 16:34:46] INFO root fetch - processPackages [Mesa]: executing diffoscope
+[2023-07-23 16:34:46] INFO root fetch - processPackages [Mesa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Mesa-1.2.1.tar.gz tmp/Mesa-2.1.tar.gz --markdown 20230723/M/Mesa/1.2.1-2.1/diff.md --exclude *.pyd
+[2023-07-23 16:34:46] INFO root fetch - processPackages [zhei-init]: Remove: archive file [/home/abi/fetcher/tmp/zhei-init-0.0.3.tar.gz]
+[2023-07-23 16:34:46] INFO root fetch - processPackages [zhei-init]: Remove: archive file [/home/abi/fetcher/tmp/zhei-init-0.0.4.tar.gz]
+[2023-07-23 16:34:46] INFO root fetch - processPackages [zhei-init]: Start processing: always-updates
+[2023-07-23 16:34:46] INFO root fetch - main [MainThread]: End processing [zhei-init]: success
+[2023-07-23 16:34:46] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-07-23 16:34:46] INFO root fetch - processPackages [starcatalogquery]: Remove: archive file [/home/abi/fetcher/tmp/starcatalogquery-0.1.8-py3-none-any.whl.zip]
+[2023-07-23 16:34:46] INFO root fetch - processPackages [starcatalogquery]: Remove: archive file [/home/abi/fetcher/tmp/starcatalogquery-0.1.9-py3-none-any.whl.zip]
+[2023-07-23 16:34:46] INFO root fetch - main [MainThread]: End processing [starcatalogquery]: success
+[2023-07-23 16:34:46] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-07-23 16:34:46] INFO root fetch - main [MainThread]: End processing [zhei-init]: success
+[2023-07-23 16:34:46] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-07-23 16:34:46] INFO root fetch - processPackages [django-data-migrations]: Remove: archive file [/home/abi/fetcher/tmp/django-data-migrations-0.1.3.tar.gz]
+[2023-07-23 16:34:46] INFO root fetch - processPackages [django-data-migrations]: Remove: archive file [/home/abi/fetcher/tmp/django-data-migrations-0.1.4.tar.gz]
+[2023-07-23 16:34:46] INFO root fetch - main [MainThread]: End processing [django-data-migrations]: success
+[2023-07-23 16:34:46] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-07-23 16:34:46] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230723/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-07-23 16:34:47] INFO root fetch - processPackages [mostats]: Remove: archive file [/home/abi/fetcher/tmp/mostats-1.0.8-py3-none-any.whl.zip]
+[2023-07-23 16:34:47] INFO root fetch - processPackages [mostats]: Remove: archive file [/home/abi/fetcher/tmp/mostats-1.0.9-py3-none-any.whl.zip]
+[2023-07-23 16:34:47] INFO root fetch - main [MainThread]: End processing [mostats]: success
+[2023-07-23 16:34:47] INFO root fetch - processPackages [jsodb]: Remove: archive file [/home/abi/fetcher/tmp/jsodb-1.5.5.tar.gz]
+[2023-07-23 16:34:47] INFO root fetch - processPackages [jsodb]: Remove: archive file [/home/abi/fetcher/tmp/jsodb-1.6.0.tar.gz]
+[2023-07-23 16:34:47] INFO root fetch - main [MainThread]: End processing [jsodb]: success
+[2023-07-23 16:34:47] INFO root fetch - processPackages [epure]: Remove: archive file [/home/abi/fetcher/tmp/epure-0.2.8.tar.gz]
+[2023-07-23 16:34:47] INFO root fetch - processPackages [epure]: Remove: archive file [/home/abi/fetcher/tmp/epure-0.2.9.tar.gz]
+[2023-07-23 16:34:47] INFO root fetch - main [MainThread]: End processing [epure]: success
+[2023-07-23 16:34:47] INFO root fetch - processPackages [starmatch]: Remove: archive file [/home/abi/fetcher/tmp/starmatch-0.1.1-py3-none-any.whl.zip]
+[2023-07-23 16:34:47] INFO root fetch - processPackages [starmatch]: Remove: archive file [/home/abi/fetcher/tmp/starmatch-0.1.2-py3-none-any.whl.zip]
+[2023-07-23 16:34:47] INFO root fetch - main [MainThread]: End processing [starmatch]: success
+[2023-07-23 16:34:47] INFO root fetch - processPackages [scaraplate]: Remove: archive file [/home/abi/fetcher/tmp/scaraplate-0.4.tar.gz]
+[2023-07-23 16:34:47] INFO root fetch - processPackages [scaraplate]: Remove: archive file [/home/abi/fetcher/tmp/scaraplate-0.5.tar.gz]
+[2023-07-23 16:34:47] INFO root fetch - main [MainThread]: End processing [scaraplate]: success
+[2023-07-23 16:34:47] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-07-23 16:34:47] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-07-23 16:34:47] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-07-23 16:34:49] INFO root fetch - processPackages [Mesa]: Remove: archive file [/home/abi/fetcher/tmp/Mesa-1.2.1.tar.gz]
+[2023-07-23 16:34:49] INFO root fetch - processPackages [Mesa]: Remove: archive file [/home/abi/fetcher/tmp/Mesa-2.1.tar.gz]
+[2023-07-23 16:34:49] INFO root fetch - main [MainThread]: End processing [Mesa]: success
+[2023-07-23 16:34:49] INFO root fetch - main [MainThread]: Store serial: [19002375]
