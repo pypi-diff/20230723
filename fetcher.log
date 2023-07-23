@@ -4137,3 +4137,72 @@
 [2023-07-23 08:06:14] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.6.tar.gz]
 [2023-07-23 08:06:14] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
 [2023-07-23 08:06:14] INFO root fetch - main [MainThread]: Store serial: [18999793]
+[2023-07-23 08:11:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999793]
+[2023-07-23 08:11:22] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-23 08:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zdatabase
+[2023-07-23 08:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MedicalImageConverter
+[2023-07-23 08:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: utsav
+[2023-07-23 08:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dash-solana-components
+[2023-07-23 08:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vinhvh-package
+[2023-07-23 08:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lb-telemetry
+[2023-07-23 08:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rebotics-sdk
+[2023-07-23 08:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dtogen
+[2023-07-23 08:11:23] INFO root fetch - processPackages [dash-solana-components]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-23 08:11:23] INFO root fetch - processPackages [MedicalImageConverter]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-23 08:11:23] WARNING root fetch - processPackages [vinhvh-package]: Skipping, unable to determine old version
+[2023-07-23 08:11:23] INFO root fetch - main [MainThread]: End processing [vinhvh-package] error
+[2023-07-23 08:11:23] INFO root fetch - processPackages [lb-telemetry]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-23 08:11:23] INFO root fetch - processPackages [dtogen]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-23 08:11:23] INFO root fetch - processPackages [utsav]: New version: [0.2] Old Version: [0.1]
+[2023-07-23 08:11:23] INFO root fetch - processPackages [zdatabase]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-07-23 08:11:23] INFO root fetch - processPackages [rebotics-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-23 08:11:23] INFO root fetch - processPackages [dash-solana-components]: Downloading https://files.pythonhosted.org/packages/55/e0/01d446c1857dc878f2da01104a0db14cfcb34ffa8455ca46e98f6951d9d2/dash_solana_components-1.0.1-py3-none-any.whl
+[2023-07-23 08:11:23] INFO root fetch - processPackages [MedicalImageConverter]: Downloading https://files.pythonhosted.org/packages/43/a2/fcc6b7f7267a2a0b78d7a8d5788eeb711ffdd12b619c76513d225cf75238/MedicalImageConverter-1.0.1.tar.gz
+[2023-07-23 08:11:23] INFO root fetch - processPackages [lb-telemetry]: Downloading https://files.pythonhosted.org/packages/2e/93/44fe1e7536163bf3d4865da481349118acd7a14dbb8986bc4643afea82a3/lb-telemetry-0.2.1.tar.gz
+[2023-07-23 08:11:23] INFO root fetch - processPackages [dtogen]: Downloading https://files.pythonhosted.org/packages/d1/b5/a7fd76e25cec74670035a06385c2644983d67d34f305741977bda05a9b12/dtogen-0.0.6.tar.gz
+[2023-07-23 08:11:23] INFO root fetch - processPackages [utsav]: Downloading https://files.pythonhosted.org/packages/73/c1/4117d19e6034b6eae0fbd2f8dd6d8af84af9c69a71504419d42bdf19a1ca/utsav-0.1.tar.gz
+[2023-07-23 08:11:23] INFO root fetch - processPackages [zdatabase]: Downloading https://files.pythonhosted.org/packages/bf/84/85b7268d8de4800488035b422bec5a37e16f80722f1d36d82b26e1f936e1/zdatabase-0.5.7.tar.gz
+[2023-07-23 08:11:23] INFO root fetch - processPackages [rebotics-sdk]: Downloading https://files.pythonhosted.org/packages/51/65/08d641bf16e8c340b76e15f57bf4c36d7254f98e49c96a1ac85a040f86b0/rebotics_sdk-0.9.0.tar.gz
+[2023-07-23 08:11:23] INFO root fetch - processPackages [lb-telemetry]: Downloading https://files.pythonhosted.org/packages/2a/b0/b2480388304f0a26d17e4f117b4218c4b909b5e9816887b1d44c5fe81e37/lb-telemetry-0.3.0.tar.gz
+[2023-07-23 08:11:23] INFO root fetch - processPackages [MedicalImageConverter]: Downloading https://files.pythonhosted.org/packages/8f/27/fe3aa4ff91bae46e2d2ece7c8933f695a137f3a68b90f6133fd340c0f290/MedicalImageConverter-1.0.2.tar.gz
+[2023-07-23 08:11:23] INFO root fetch - processPackages [dash-solana-components]: Downloading https://files.pythonhosted.org/packages/2e/1a/5fa075cf4eb23a35d97ce9ac4c8617f9bb42684b620aa0474d3d7cd27957/dash_solana_components-1.0.2-py3-none-any.whl
+[2023-07-23 08:11:23] INFO root fetch - processPackages [dtogen]: Downloading https://files.pythonhosted.org/packages/2e/88/4a6484b8dfc2f289d38497bf2d6be1904e974176025e605b1fb5f89906fc/dtogen-0.0.7.tar.gz
+[2023-07-23 08:11:23] INFO root fetch - processPackages [utsav]: Downloading https://files.pythonhosted.org/packages/96/8a/e3cf45676e92067cd2c8629d9e120af5d17d7d6b42793da10ef20ccca160/utsav-0.2.tar.gz
+[2023-07-23 08:11:23] INFO root fetch - processPackages [MedicalImageConverter]: executing diffoscope
+[2023-07-23 08:11:23] INFO root fetch - processPackages [MedicalImageConverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MedicalImageConverter-1.0.1.tar.gz tmp/MedicalImageConverter-1.0.2.tar.gz --markdown 20230723/M/MedicalImageConverter/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-23 08:11:23] INFO root fetch - processPackages [lb-telemetry]: executing diffoscope
+[2023-07-23 08:11:23] INFO root fetch - processPackages [lb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lb-telemetry-0.2.1.tar.gz tmp/lb-telemetry-0.3.0.tar.gz --markdown 20230723/l/lb-telemetry/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-23 08:11:23] INFO root fetch - processPackages [dash-solana-components]: executing diffoscope
+[2023-07-23 08:11:23] INFO root fetch - processPackages [dash-solana-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_solana_components-1.0.1-py3-none-any.whl.zip tmp/dash_solana_components-1.0.2-py3-none-any.whl.zip --markdown 20230723/d/dash-solana-components/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-23 08:11:23] INFO root fetch - processPackages [dtogen]: executing diffoscope
+[2023-07-23 08:11:23] INFO root fetch - processPackages [dtogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtogen-0.0.6.tar.gz tmp/dtogen-0.0.7.tar.gz --markdown 20230723/d/dtogen/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-23 08:11:23] INFO root fetch - processPackages [utsav]: executing diffoscope
+[2023-07-23 08:11:23] INFO root fetch - processPackages [utsav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utsav-0.1.tar.gz tmp/utsav-0.2.tar.gz --markdown 20230723/u/utsav/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-23 08:11:23] INFO root fetch - processPackages [zdatabase]: Downloading https://files.pythonhosted.org/packages/cb/ce/ade80400cf2bd8027c80b2cce4b2daabf78f1d5b2bb73af3031edb8f92e7/zdatabase-0.5.8.tar.gz
+[2023-07-23 08:11:23] INFO root fetch - processPackages [zdatabase]: executing diffoscope
+[2023-07-23 08:11:23] INFO root fetch - processPackages [zdatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zdatabase-0.5.7.tar.gz tmp/zdatabase-0.5.8.tar.gz --markdown 20230723/z/zdatabase/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-07-23 08:11:23] INFO root fetch - processPackages [rebotics-sdk]: Downloading https://files.pythonhosted.org/packages/3a/af/a2aa77307cf3fac9701095f738d855d74af3c987de0ec7d7a1d8b75aee7f/rebotics_sdk-0.9.1.tar.gz
+[2023-07-23 08:11:24] INFO root fetch - processPackages [rebotics-sdk]: executing diffoscope
+[2023-07-23 08:11:24] INFO root fetch - processPackages [rebotics-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebotics_sdk-0.9.0.tar.gz tmp/rebotics_sdk-0.9.1.tar.gz --markdown 20230723/r/rebotics-sdk/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-23 08:11:25] INFO root fetch - processPackages [dtogen]: Remove: archive file [/home/abi/fetcher/tmp/dtogen-0.0.6.tar.gz]
+[2023-07-23 08:11:25] INFO root fetch - processPackages [dtogen]: Remove: archive file [/home/abi/fetcher/tmp/dtogen-0.0.7.tar.gz]
+[2023-07-23 08:11:25] INFO root fetch - main [MainThread]: End processing [dtogen]: success
+[2023-07-23 08:11:25] INFO root fetch - processPackages [zdatabase]: Remove: archive file [/home/abi/fetcher/tmp/zdatabase-0.5.7.tar.gz]
+[2023-07-23 08:11:25] INFO root fetch - processPackages [zdatabase]: Remove: archive file [/home/abi/fetcher/tmp/zdatabase-0.5.8.tar.gz]
+[2023-07-23 08:11:25] INFO root fetch - main [MainThread]: End processing [zdatabase]: success
+[2023-07-23 08:11:25] INFO root fetch - processPackages [utsav]: Remove: archive file [/home/abi/fetcher/tmp/utsav-0.1.tar.gz]
+[2023-07-23 08:11:25] INFO root fetch - processPackages [utsav]: Remove: archive file [/home/abi/fetcher/tmp/utsav-0.2.tar.gz]
+[2023-07-23 08:11:25] INFO root fetch - main [MainThread]: End processing [utsav]: success
+[2023-07-23 08:11:25] INFO root fetch - processPackages [lb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/lb-telemetry-0.2.1.tar.gz]
+[2023-07-23 08:11:25] INFO root fetch - processPackages [lb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/lb-telemetry-0.3.0.tar.gz]
+[2023-07-23 08:11:25] INFO root fetch - main [MainThread]: End processing [lb-telemetry]: success
+[2023-07-23 08:11:25] INFO root fetch - processPackages [MedicalImageConverter]: Remove: archive file [/home/abi/fetcher/tmp/MedicalImageConverter-1.0.1.tar.gz]
+[2023-07-23 08:11:25] INFO root fetch - processPackages [MedicalImageConverter]: Remove: archive file [/home/abi/fetcher/tmp/MedicalImageConverter-1.0.2.tar.gz]
+[2023-07-23 08:11:25] INFO root fetch - main [MainThread]: End processing [MedicalImageConverter]: success
+[2023-07-23 08:11:25] INFO root fetch - processPackages [rebotics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rebotics_sdk-0.9.0.tar.gz]
+[2023-07-23 08:11:25] INFO root fetch - processPackages [rebotics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rebotics_sdk-0.9.1.tar.gz]
+[2023-07-23 08:11:25] INFO root fetch - main [MainThread]: End processing [rebotics-sdk]: success
+[2023-07-23 08:11:42] INFO root fetch - processPackages [dash-solana-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_solana_components-1.0.1-py3-none-any.whl.zip]
+[2023-07-23 08:11:42] INFO root fetch - processPackages [dash-solana-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_solana_components-1.0.2-py3-none-any.whl.zip]
+[2023-07-23 08:11:42] INFO root fetch - main [MainThread]: End processing [dash-solana-components]: success
+[2023-07-23 08:11:42] INFO root fetch - main [MainThread]: Store serial: [18999816]
