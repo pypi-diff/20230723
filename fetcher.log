@@ -9727,3 +9727,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 16:50:30] INFO root fetch - processPackages [petals]: Remove: archive file [/home/abi/fetcher/tmp/petals-2.0.1.tar.gz]
 [2023-07-23 16:50:30] INFO root fetch - main [MainThread]: End processing [petals]: success
 [2023-07-23 16:50:30] INFO root fetch - main [MainThread]: Store serial: [19002512]
+[2023-07-23 16:55:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19002512]
+[2023-07-23 16:55:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-23 16:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cow-api
+[2023-07-23 16:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: salabim
+[2023-07-23 16:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phone-gen
+[2023-07-23 16:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: loq0
+[2023-07-23 16:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zheinit
+[2023-07-23 16:55:39] INFO root fetch - processPackages [loq0]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-23 16:55:39] INFO root fetch - processPackages [phone-gen]: New version: [2.3.5] Old Version: [2.3.4]
+[2023-07-23 16:55:39] INFO root fetch - processPackages [zheinit]: New version: [0.0.71] Old Version: [0.0.7]
+[2023-07-23 16:55:39] WARNING root fetch - processPackages [cow-api]: Skipping, unable to determine old version
+[2023-07-23 16:55:39] INFO root fetch - main [MainThread]: End processing [cow-api] error
+[2023-07-23 16:55:39] INFO root fetch - processPackages [salabim]: New version: [23.3.3] Old Version: [23.3.2]
+[2023-07-23 16:55:39] INFO root fetch - processPackages [zheinit]: Downloading https://files.pythonhosted.org/packages/7d/6c/44846f3802d34a5f84cb08e36975364f14e7ab52507a0ed059e615d0e343/zheinit-0.0.7.tar.gz
+[2023-07-23 16:55:40] INFO root fetch - processPackages [loq0]: Downloading https://files.pythonhosted.org/packages/c3/e2/d96d92aa947270a33a0352c1c8f2ae977cb8f6111e284e2823d161124b4c/loq0-0.0.1.tar.gz
+[2023-07-23 16:55:40] INFO root fetch - processPackages [salabim]: Downloading https://files.pythonhosted.org/packages/1d/f4/419c76aa6db9a2522f8750c39eb444c5cb0710cdd6193bd74cf77c087551/salabim-23.3.2.tar.gz
+[2023-07-23 16:55:40] INFO root fetch - processPackages [phone-gen]: Downloading https://files.pythonhosted.org/packages/58/86/19c1cb438021963ac162e7fe3707fa64f7063f4cd85f07021a4b3daffb51/phone_gen-2.3.4.tar.gz
+[2023-07-23 16:55:40] INFO root fetch - processPackages [zheinit]: Downloading https://files.pythonhosted.org/packages/ed/b6/4a1c81675874addfcc902736c21055cdec026fbbad85d3af9a3ce829c3a3/zheinit-0.0.71.tar.gz
+[2023-07-23 16:55:40] INFO root fetch - processPackages [loq0]: Downloading https://files.pythonhosted.org/packages/d9/ce/b583c1db8053d6d8e0a7eaf6ccf97a2d858b02ed8953cdd0ce4d16c4afc3/loq0-0.0.2.tar.gz
+[2023-07-23 16:55:40] INFO root fetch - processPackages [zheinit]: executing diffoscope
+[2023-07-23 16:55:40] INFO root fetch - processPackages [zheinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zheinit-0.0.7.tar.gz tmp/zheinit-0.0.71.tar.gz --markdown 20230723/z/zheinit/0.0.7-0.0.71/diff.md --exclude *.pyd
+[2023-07-23 16:55:40] INFO root fetch - processPackages [salabim]: Downloading https://files.pythonhosted.org/packages/5d/88/910b2e87224ebf6965b5ba8b025df21fd72e4b46cfc97e3183f4a3eb8a90/salabim-23.3.3.tar.gz
+[2023-07-23 16:55:40] INFO root fetch - processPackages [loq0]: executing diffoscope
+[2023-07-23 16:55:40] INFO root fetch - processPackages [loq0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loq0-0.0.1.tar.gz tmp/loq0-0.0.2.tar.gz --markdown 20230723/l/loq0/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-23 16:55:40] INFO root fetch - processPackages [phone-gen]: Downloading https://files.pythonhosted.org/packages/61/82/709964c9babeb28422f413549c440d6e56502b57576fd3d94a7be4e4e969/phone_gen-2.3.5.tar.gz
+[2023-07-23 16:55:40] INFO root fetch - processPackages [phone-gen]: executing diffoscope
+[2023-07-23 16:55:40] INFO root fetch - processPackages [phone-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phone_gen-2.3.4.tar.gz tmp/phone_gen-2.3.5.tar.gz --markdown 20230723/p/phone-gen/2.3.4-2.3.5/diff.md --exclude *.pyd
+[2023-07-23 16:55:40] INFO root fetch - processPackages [salabim]: executing diffoscope
+[2023-07-23 16:55:40] INFO root fetch - processPackages [salabim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salabim-23.3.2.tar.gz tmp/salabim-23.3.3.tar.gz --markdown 20230723/s/salabim/23.3.2-23.3.3/diff.md --exclude *.pyd
+[2023-07-23 16:55:41] INFO root fetch - processPackages [zheinit]: Remove: archive file [/home/abi/fetcher/tmp/zheinit-0.0.7.tar.gz]
+[2023-07-23 16:55:41] INFO root fetch - processPackages [zheinit]: Remove: archive file [/home/abi/fetcher/tmp/zheinit-0.0.71.tar.gz]
+[2023-07-23 16:55:41] INFO root fetch - main [MainThread]: End processing [zheinit]: success
+[2023-07-23 16:55:41] INFO root fetch - processPackages [loq0]: Remove: archive file [/home/abi/fetcher/tmp/loq0-0.0.1.tar.gz]
+[2023-07-23 16:55:41] INFO root fetch - processPackages [loq0]: Remove: archive file [/home/abi/fetcher/tmp/loq0-0.0.2.tar.gz]
+[2023-07-23 16:55:41] INFO root fetch - main [MainThread]: End processing [loq0]: success
+[2023-07-23 16:55:41] INFO root fetch - processPackages [phone-gen]: Remove: archive file [/home/abi/fetcher/tmp/phone_gen-2.3.4.tar.gz]
+[2023-07-23 16:55:41] INFO root fetch - processPackages [phone-gen]: Remove: archive file [/home/abi/fetcher/tmp/phone_gen-2.3.5.tar.gz]
+[2023-07-23 16:55:41] INFO root fetch - main [MainThread]: End processing [phone-gen]: success
+[2023-07-23 16:55:42] INFO root fetch - processPackages [salabim]: Remove: archive file [/home/abi/fetcher/tmp/salabim-23.3.2.tar.gz]
+[2023-07-23 16:55:42] INFO root fetch - processPackages [salabim]: Remove: archive file [/home/abi/fetcher/tmp/salabim-23.3.3.tar.gz]
+[2023-07-23 16:55:42] INFO root fetch - main [MainThread]: End processing [salabim]: success
+[2023-07-23 16:55:42] INFO root fetch - main [MainThread]: Store serial: [19002531]
