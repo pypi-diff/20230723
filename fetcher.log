@@ -5909,3 +5909,24 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 11:21:26] INFO root fetch - processPackages [fastapi-template]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_template-5.0.2.tar.gz]
 [2023-07-23 11:21:26] INFO root fetch - main [MainThread]: End processing [fastapi-template]: success
 [2023-07-23 11:21:26] INFO root fetch - main [MainThread]: Store serial: [19000469]
+[2023-07-23 11:26:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19000469]
+[2023-07-23 11:26:36] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-23 11:26:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyntweb
+[2023-07-23 11:26:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robocad-py
+[2023-07-23 11:26:36] INFO root fetch - processPackages [pyntweb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-23 11:26:36] INFO root fetch - processPackages [robocad-py]: New version: [0.0.1.1] Old Version: [0.0.0.9]
+[2023-07-23 11:26:36] INFO root fetch - processPackages [pyntweb]: Downloading https://files.pythonhosted.org/packages/2e/55/9fdd0c128f6126b0e1fb8dd2733eec6f7d04710d7d70ee998115c2fa03ef/pyntweb-0.2.8.tar.gz
+[2023-07-23 11:26:36] INFO root fetch - processPackages [robocad-py]: Downloading https://files.pythonhosted.org/packages/21/40/2bfed1dadb8dbf0f68f85f846954ffa4f13f9f46c629a39564662854fd38/robocad-py-0.0.0.9.tar.gz
+[2023-07-23 11:26:36] INFO root fetch - processPackages [pyntweb]: Downloading https://files.pythonhosted.org/packages/68/76/9710407be69a495a5e8f803078c9a0974413ebeb4f49e1bf7b63684a43bd/pyntweb-0.2.9.tar.gz
+[2023-07-23 11:26:36] INFO root fetch - processPackages [pyntweb]: executing diffoscope
+[2023-07-23 11:26:36] INFO root fetch - processPackages [pyntweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyntweb-0.2.8.tar.gz tmp/pyntweb-0.2.9.tar.gz --markdown 20230723/p/pyntweb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-23 11:26:37] INFO root fetch - processPackages [robocad-py]: Downloading https://files.pythonhosted.org/packages/c9/7a/f63766e33ee6bcbd43370281b3c312026819a331e8c38aa23c40e17fdf27/robocad-py-0.0.1.1.tar.gz
+[2023-07-23 11:26:37] INFO root fetch - processPackages [robocad-py]: executing diffoscope
+[2023-07-23 11:26:37] INFO root fetch - processPackages [robocad-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocad-py-0.0.0.9.tar.gz tmp/robocad-py-0.0.1.1.tar.gz --markdown 20230723/r/robocad-py/0.0.0.9-0.0.1.1/diff.md --exclude *.pyd
+[2023-07-23 11:26:37] INFO root fetch - processPackages [pyntweb]: Remove: archive file [/home/abi/fetcher/tmp/pyntweb-0.2.8.tar.gz]
+[2023-07-23 11:26:37] INFO root fetch - processPackages [pyntweb]: Remove: archive file [/home/abi/fetcher/tmp/pyntweb-0.2.9.tar.gz]
+[2023-07-23 11:26:37] INFO root fetch - main [MainThread]: End processing [pyntweb]: success
+[2023-07-23 11:26:37] INFO root fetch - processPackages [robocad-py]: Remove: archive file [/home/abi/fetcher/tmp/robocad-py-0.0.0.9.tar.gz]
+[2023-07-23 11:26:37] INFO root fetch - processPackages [robocad-py]: Remove: archive file [/home/abi/fetcher/tmp/robocad-py-0.0.1.1.tar.gz]
+[2023-07-23 11:26:37] INFO root fetch - main [MainThread]: End processing [robocad-py]: success
+[2023-07-23 11:26:37] INFO root fetch - main [MainThread]: Store serial: [19000473]
