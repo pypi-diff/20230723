@@ -2391,3 +2391,18 @@
 [2023-07-23 04:26:46] INFO root fetch - processPackages [monai-weekly]: Remove: archive file [/home/abi/fetcher/tmp/monai-weekly-1.3.dev2330.tar.gz]
 [2023-07-23 04:26:46] INFO root fetch - main [MainThread]: End processing [monai-weekly]: success
 [2023-07-23 04:26:46] INFO root fetch - main [MainThread]: Store serial: [18999035]
+[2023-07-23 04:31:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999035]
+[2023-07-23 04:31:55] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-23 04:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gunther
+[2023-07-23 04:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AutoQPF
+[2023-07-23 04:31:55] INFO root fetch - processPackages [AutoQPF]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-23 04:31:55] WARNING root fetch - processPackages [gunther]: Skipping, unable to determine old version
+[2023-07-23 04:31:55] INFO root fetch - main [MainThread]: End processing [gunther] error
+[2023-07-23 04:31:55] INFO root fetch - processPackages [AutoQPF]: Downloading https://files.pythonhosted.org/packages/23/c7/a38e3b15f3c8ae34fdcadcc896506a254dea5a9efb72d4184fa930c34e2a/AutoQPF-0.1.2.tar.gz
+[2023-07-23 04:31:55] INFO root fetch - processPackages [AutoQPF]: Downloading https://files.pythonhosted.org/packages/f7/e6/0f9566efff03cbf79e26b33675a1cdb01235f8b7f12446a77c3719b280c2/AutoQPF-0.1.3.tar.gz
+[2023-07-23 04:31:55] INFO root fetch - processPackages [AutoQPF]: executing diffoscope
+[2023-07-23 04:31:55] INFO root fetch - processPackages [AutoQPF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoQPF-0.1.2.tar.gz tmp/AutoQPF-0.1.3.tar.gz --markdown 20230723/A/AutoQPF/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-23 04:31:56] INFO root fetch - processPackages [AutoQPF]: Remove: archive file [/home/abi/fetcher/tmp/AutoQPF-0.1.2.tar.gz]
+[2023-07-23 04:31:56] INFO root fetch - processPackages [AutoQPF]: Remove: archive file [/home/abi/fetcher/tmp/AutoQPF-0.1.3.tar.gz]
+[2023-07-23 04:31:56] INFO root fetch - main [MainThread]: End processing [AutoQPF]: success
+[2023-07-23 04:31:56] INFO root fetch - main [MainThread]: Store serial: [18999043]
