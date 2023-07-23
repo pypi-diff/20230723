@@ -14806,3 +14806,79 @@ AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
 [2023-07-23 22:28:06] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
 [2023-07-23 22:28:06] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-07-23 22:28:06] INFO root fetch - main [MainThread]: Store serial: [19004688]
+[2023-07-23 22:33:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19004688]
+[2023-07-23 22:33:15] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-23 22:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mynacode
+[2023-07-23 22:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: photondemo
+[2023-07-23 22:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: osgood
+[2023-07-23 22:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: getajob
+[2023-07-23 22:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-univer
+[2023-07-23 22:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mynacode
+[2023-07-23 22:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MedicalImageConverter
+[2023-07-23 22:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyytlounge
+[2023-07-23 22:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flake8-staged-diff
+[2023-07-23 22:33:15] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-23 22:33:15] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-23 22:33:15] INFO root fetch - processPackages [pyytlounge]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-07-23 22:33:15] INFO root fetch - processPackages [photondemo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 22:33:15] INFO root fetch - processPackages [getajob]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-23 22:33:15] INFO root fetch - processPackages [MedicalImageConverter]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-23 22:33:15] INFO root fetch - processPackages [osgood]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-07-23 22:33:15] INFO root fetch - processPackages [python-univer]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-07-23 22:33:15] WARNING root fetch - processPackages [flake8-staged-diff]: Skipping, unable to determine old version
+[2023-07-23 22:33:15] INFO root fetch - main [MainThread]: End processing [flake8-staged-diff] error
+[2023-07-23 22:33:15] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-23 22:33:15] INFO root fetch - processPackages [photondemo]: Downloading https://files.pythonhosted.org/packages/0a/6d/7932cd610a0541b76d781bb7f7bdd31d7a2f5dd2384d1eac4c2f87af88f3/photondemo-0.0.8.tar.gz
+[2023-07-23 22:33:15] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-23 22:33:15] INFO root fetch - processPackages [MedicalImageConverter]: Downloading https://files.pythonhosted.org/packages/83/b3/fd0c855e23e06c988229b2954f69133c8346c112e312318a0035ac1ad7f0/MedicalImageConverter-1.1.0.tar.gz
+[2023-07-23 22:33:15] INFO root fetch - processPackages [getajob]: Downloading https://files.pythonhosted.org/packages/e9/1a/39a276812417b6ea5eef3540d91daecc8080b84019013afdb9cb7f7e70a4/getajob-0.4.0.tar.gz
+[2023-07-23 22:33:15] INFO root fetch - processPackages [osgood]: Downloading https://files.pythonhosted.org/packages/d3/89/1cf8c55289fe0dd7a11822de3452000fd01957b81e5839a79f796cce58ad/osgood-1.2.0.tar.gz
+[2023-07-23 22:33:15] INFO root fetch - processPackages [python-univer]: Downloading https://files.pythonhosted.org/packages/70/69/b66fc4afb339dfc2d2a4602752496566d46e5498bfb877ff6455443d1731/python-univer-1.4.5.tar.gz
+[2023-07-23 22:33:15] INFO root fetch - processPackages [pyytlounge]: Downloading https://files.pythonhosted.org/packages/cd/0f/54413d6fdd038a8b10b11fcb7d607227bff67ae503ab83a0d5065f45e220/pyytlounge-1.6.0.tar.gz
+[2023-07-23 22:33:15] INFO root fetch - processPackages [photondemo]: Downloading https://files.pythonhosted.org/packages/2f/9e/40812f7ad1e8f5454f4c951d1ed05c6cb8c153661e3ca9c0592c6603a2e0/photondemo-0.0.9.tar.gz
+[2023-07-23 22:33:15] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-23 22:33:15] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-23 22:33:15] INFO root fetch - processPackages [photondemo]: executing diffoscope
+[2023-07-23 22:33:15] INFO root fetch - processPackages [photondemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/photondemo-0.0.8.tar.gz tmp/photondemo-0.0.9.tar.gz --markdown 20230723/p/photondemo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 22:33:16] INFO root fetch - processPackages [MedicalImageConverter]: Downloading https://files.pythonhosted.org/packages/d5/17/131294a4ae2de29bee3bc8636a84a104e4bff1e3d465cc44ca3b9e8b2274/MedicalImageConverter-1.1.1.tar.gz
+[2023-07-23 22:33:16] INFO root fetch - processPackages [getajob]: Downloading https://files.pythonhosted.org/packages/b8/27/72c93271581db8ec6709d2b8f9451ffa38ce27fcd8ccb41c4cab5fd138ff/getajob-0.4.1.tar.gz
+[2023-07-23 22:33:16] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-23 22:33:16] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230723/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-23 22:33:16] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-23 22:33:16] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230723/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-23 22:33:16] INFO root fetch - processPackages [python-univer]: Downloading https://files.pythonhosted.org/packages/9d/bb/a765a989eb0eb4c1828670219c1f2cbc5c57970908ff4fef23d74de37458/python-univer-1.4.6.tar.gz
+[2023-07-23 22:33:16] INFO root fetch - processPackages [MedicalImageConverter]: executing diffoscope
+[2023-07-23 22:33:16] INFO root fetch - processPackages [MedicalImageConverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MedicalImageConverter-1.1.0.tar.gz tmp/MedicalImageConverter-1.1.1.tar.gz --markdown 20230723/M/MedicalImageConverter/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-23 22:33:16] INFO root fetch - processPackages [osgood]: Downloading https://files.pythonhosted.org/packages/50/f6/0088818bbc328deb22838d25ebe736c1cef80f412b5b5e9bc3097ba09322/osgood-1.3.0.tar.gz
+[2023-07-23 22:33:16] INFO root fetch - processPackages [getajob]: executing diffoscope
+[2023-07-23 22:33:16] INFO root fetch - processPackages [getajob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getajob-0.4.0.tar.gz tmp/getajob-0.4.1.tar.gz --markdown 20230723/g/getajob/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-23 22:33:16] INFO root fetch - processPackages [pyytlounge]: Downloading https://files.pythonhosted.org/packages/e9/39/e44ba003d7d391ab24ce0b65089b9d128bc823307cafe79f29b8b7b48daf/pyytlounge-1.6.1.tar.gz
+[2023-07-23 22:33:16] INFO root fetch - processPackages [python-univer]: executing diffoscope
+[2023-07-23 22:33:16] INFO root fetch - processPackages [python-univer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-univer-1.4.5.tar.gz tmp/python-univer-1.4.6.tar.gz --markdown 20230723/p/python-univer/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-07-23 22:33:16] INFO root fetch - processPackages [osgood]: executing diffoscope
+[2023-07-23 22:33:16] INFO root fetch - processPackages [osgood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osgood-1.2.0.tar.gz tmp/osgood-1.3.0.tar.gz --markdown 20230723/o/osgood/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-07-23 22:33:16] INFO root fetch - processPackages [pyytlounge]: executing diffoscope
+[2023-07-23 22:33:16] INFO root fetch - processPackages [pyytlounge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyytlounge-1.6.0.tar.gz tmp/pyytlounge-1.6.1.tar.gz --markdown 20230723/p/pyytlounge/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-07-23 22:33:17] INFO root fetch - processPackages [photondemo]: Remove: archive file [/home/abi/fetcher/tmp/photondemo-0.0.8.tar.gz]
+[2023-07-23 22:33:17] INFO root fetch - processPackages [photondemo]: Remove: archive file [/home/abi/fetcher/tmp/photondemo-0.0.9.tar.gz]
+[2023-07-23 22:33:17] INFO root fetch - main [MainThread]: End processing [photondemo]: success
+[2023-07-23 22:33:17] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-07-23 22:33:17] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-07-23 22:33:17] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-23 22:33:17] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-23 22:33:17] INFO root fetch - processPackages [MedicalImageConverter]: Remove: archive file [/home/abi/fetcher/tmp/MedicalImageConverter-1.1.0.tar.gz]
+[2023-07-23 22:33:17] INFO root fetch - processPackages [MedicalImageConverter]: Remove: archive file [/home/abi/fetcher/tmp/MedicalImageConverter-1.1.1.tar.gz]
+[2023-07-23 22:33:17] INFO root fetch - main [MainThread]: End processing [MedicalImageConverter]: success
+[2023-07-23 22:33:17] INFO root fetch - processPackages [pyytlounge]: Remove: archive file [/home/abi/fetcher/tmp/pyytlounge-1.6.0.tar.gz]
+[2023-07-23 22:33:17] INFO root fetch - processPackages [pyytlounge]: Remove: archive file [/home/abi/fetcher/tmp/pyytlounge-1.6.1.tar.gz]
+[2023-07-23 22:33:17] INFO root fetch - main [MainThread]: End processing [pyytlounge]: success
+[2023-07-23 22:33:17] INFO root fetch - processPackages [osgood]: Remove: archive file [/home/abi/fetcher/tmp/osgood-1.2.0.tar.gz]
+[2023-07-23 22:33:17] INFO root fetch - processPackages [osgood]: Remove: archive file [/home/abi/fetcher/tmp/osgood-1.3.0.tar.gz]
+[2023-07-23 22:33:17] INFO root fetch - main [MainThread]: End processing [osgood]: success
+[2023-07-23 22:33:17] INFO root fetch - processPackages [python-univer]: Remove: archive file [/home/abi/fetcher/tmp/python-univer-1.4.5.tar.gz]
+[2023-07-23 22:33:17] INFO root fetch - processPackages [python-univer]: Remove: archive file [/home/abi/fetcher/tmp/python-univer-1.4.6.tar.gz]
+[2023-07-23 22:33:17] INFO root fetch - main [MainThread]: End processing [python-univer]: success
+[2023-07-23 22:33:17] INFO root fetch - processPackages [getajob]: Remove: archive file [/home/abi/fetcher/tmp/getajob-0.4.0.tar.gz]
+[2023-07-23 22:33:17] INFO root fetch - processPackages [getajob]: Remove: archive file [/home/abi/fetcher/tmp/getajob-0.4.1.tar.gz]
+[2023-07-23 22:33:17] INFO root fetch - main [MainThread]: End processing [getajob]: success
+[2023-07-23 22:33:17] INFO root fetch - main [MainThread]: Store serial: [19004715]
