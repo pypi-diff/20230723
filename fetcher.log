@@ -4610,3 +4610,71 @@
 [2023-07-23 09:14:16] INFO root fetch - processPackages [dash-solana-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_solana_components-1.0.3-py3-none-any.whl.zip]
 [2023-07-23 09:14:16] INFO root fetch - main [MainThread]: End processing [dash-solana-components]: success
 [2023-07-23 09:14:16] INFO root fetch - main [MainThread]: Store serial: [18999974]
+[2023-07-23 09:19:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999974]
+[2023-07-23 09:19:25] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-23 09:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edge-pdf
+[2023-07-23 09:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfq-nightly
+[2023-07-23 09:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: npf
+[2023-07-23 09:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: addonethousend
+[2023-07-23 09:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: punwrap
+[2023-07-23 09:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyvalidata
+[2023-07-23 09:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stigg-api-client
+[2023-07-23 09:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stigg-api-client-v2
+[2023-07-23 09:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: async-poe-client
+[2023-07-23 09:19:25] INFO root fetch - processPackages [pyvalidata]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-07-23 09:19:25] WARNING root fetch - processPackages [edge-pdf]: Skipping, unable to determine old version
+[2023-07-23 09:19:25] INFO root fetch - main [MainThread]: End processing [edge-pdf] error
+[2023-07-23 09:19:25] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [0.499.0] Old Version: [0.496.0]
+[2023-07-23 09:19:25] INFO root fetch - processPackages [punwrap]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-23 09:19:25] INFO root fetch - processPackages [async-poe-client]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-23 09:19:25] WARNING root fetch - processPackages [addonethousend]: Skipping, unable to determine old version
+[2023-07-23 09:19:25] INFO root fetch - processPackages [npf]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-23 09:19:25] INFO root fetch - main [MainThread]: End processing [addonethousend] error
+[2023-07-23 09:19:25] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.499.0]
+[2023-07-23 09:19:25] INFO root fetch - processPackages [async-poe-client]: Downloading https://files.pythonhosted.org/packages/f1/15/94d0a08a517e5400990704f734ce2412003c454724f8f99cce7a0a5c1722/async_poe_client-0.1.1.tar.gz
+[2023-07-23 09:19:25] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230723] Old Version: [0.7.3.dev20230722]
+[2023-07-23 09:19:25] INFO root fetch - processPackages [pyvalidata]: Downloading https://files.pythonhosted.org/packages/84/b9/d3d6b7fd5cd1905382a83e84568f1b2ae077d4363c6f3d5272ce333480c4/pyvalidata-0.0.0.tar.gz
+[2023-07-23 09:19:25] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/2d/2a/13396681ef34516a2bd7bfd5ebad19ee66311d903adc01607c5271d73e09/stigg_api_client_v2-0.496.0.tar.gz
+[2023-07-23 09:19:25] INFO root fetch - processPackages [npf]: Downloading https://files.pythonhosted.org/packages/44/0c/3e478ce5d39abfaf553be5523f8dd1a28ace87e948c64f7c7bc286744a2e/npf-1.0.8.tar.gz
+[2023-07-23 09:19:25] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/e2/69/ac230affc44a7aee6b5c2c189c9c9251feba17cef543e219d1db0bd17846/stigg_api_client-0.499.0.tar.gz
+[2023-07-23 09:19:25] INFO root fetch - processPackages [punwrap]: Downloading https://files.pythonhosted.org/packages/46/9b/b38cfcbe40800dd5763d6ebdd8abc9c8b6ccb88911f25144a2c4f0ea422e/punwrap-0.2.1.tar.gz
+[2023-07-23 09:19:25] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/d2/62/9d32a88de6ea94b5ca00312232997433a1bb71059bfabf9183b29cca4e99/tfq_nightly-0.7.3.dev20230722-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-23 09:19:25] INFO root fetch - processPackages [async-poe-client]: Downloading https://files.pythonhosted.org/packages/13/52/9171a894660735a6eb2abbc0fbbf0d10028ce6c1bff078ee5305eb6aac1a/async_poe_client-0.1.2.tar.gz
+[2023-07-23 09:19:25] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10807265>=10485760
+[2023-07-23 09:19:25] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-07-23 09:19:25] INFO root fetch - processPackages [async-poe-client]: executing diffoscope
+[2023-07-23 09:19:25] INFO root fetch - processPackages [async-poe-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_poe_client-0.1.1.tar.gz tmp/async_poe_client-0.1.2.tar.gz --markdown 20230723/a/async-poe-client/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-23 09:19:25] INFO root fetch - processPackages [pyvalidata]: Downloading https://files.pythonhosted.org/packages/9b/24/20edd64670dffd824482dfcddbb06c32db959d74a708a38391725058288e/pyvalidata-0.1.0.tar.gz
+[2023-07-23 09:19:25] INFO root fetch - processPackages [npf]: Downloading https://files.pythonhosted.org/packages/ea/66/52aab137d4c382a910523654a3b21507b0e75160197812fb8f27aee00718/npf-1.0.9.tar.gz
+[2023-07-23 09:19:25] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/8f/e3/dd787891ca23b128a2f419549349030edea426495c1ec21b01106df7d7ae/stigg_api_client_v2-0.499.0.tar.gz
+[2023-07-23 09:19:25] INFO root fetch - processPackages [pyvalidata]: executing diffoscope
+[2023-07-23 09:19:25] INFO root fetch - processPackages [pyvalidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvalidata-0.0.0.tar.gz tmp/pyvalidata-0.1.0.tar.gz --markdown 20230723/p/pyvalidata/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-07-23 09:19:26] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/6f/d2/ae3138d8e73b06a33bdd8d29d234ac4387d7bf23217c13b557d497089bbf/stigg_api_client-0.5.0.tar.gz
+[2023-07-23 09:19:26] INFO root fetch - processPackages [punwrap]: Downloading https://files.pythonhosted.org/packages/28/d7/f552bf80bab3de37cae1a7ccaef2b82cf327db6beee320e8cf26d8e38498/punwrap-0.2.2.tar.gz
+[2023-07-23 09:19:26] INFO root fetch - processPackages [npf]: executing diffoscope
+[2023-07-23 09:19:26] INFO root fetch - processPackages [npf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npf-1.0.8.tar.gz tmp/npf-1.0.9.tar.gz --markdown 20230723/n/npf/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-23 09:19:26] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2023-07-23 09:19:26] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-0.496.0.tar.gz tmp/stigg_api_client_v2-0.499.0.tar.gz --markdown 20230723/s/stigg-api-client-v2/0.496.0-0.499.0/diff.md --exclude *.pyd
+[2023-07-23 09:19:26] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-07-23 09:19:26] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.499.0.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230723/s/stigg-api-client/0.499.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-23 09:19:26] INFO root fetch - processPackages [punwrap]: executing diffoscope
+[2023-07-23 09:19:26] INFO root fetch - processPackages [punwrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/punwrap-0.2.1.tar.gz tmp/punwrap-0.2.2.tar.gz --markdown 20230723/p/punwrap/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-23 09:19:27] INFO root fetch - processPackages [pyvalidata]: Remove: archive file [/home/abi/fetcher/tmp/pyvalidata-0.0.0.tar.gz]
+[2023-07-23 09:19:27] INFO root fetch - processPackages [pyvalidata]: Remove: archive file [/home/abi/fetcher/tmp/pyvalidata-0.1.0.tar.gz]
+[2023-07-23 09:19:27] INFO root fetch - main [MainThread]: End processing [pyvalidata]: success
+[2023-07-23 09:19:27] INFO root fetch - processPackages [punwrap]: Remove: archive file [/home/abi/fetcher/tmp/punwrap-0.2.1.tar.gz]
+[2023-07-23 09:19:27] INFO root fetch - processPackages [punwrap]: Remove: archive file [/home/abi/fetcher/tmp/punwrap-0.2.2.tar.gz]
+[2023-07-23 09:19:27] INFO root fetch - main [MainThread]: End processing [punwrap]: success
+[2023-07-23 09:19:27] INFO root fetch - processPackages [async-poe-client]: Remove: archive file [/home/abi/fetcher/tmp/async_poe_client-0.1.1.tar.gz]
+[2023-07-23 09:19:27] INFO root fetch - processPackages [async-poe-client]: Remove: archive file [/home/abi/fetcher/tmp/async_poe_client-0.1.2.tar.gz]
+[2023-07-23 09:19:27] INFO root fetch - main [MainThread]: End processing [async-poe-client]: success
+[2023-07-23 09:19:27] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.499.0.tar.gz]
+[2023-07-23 09:19:27] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.5.0.tar.gz]
+[2023-07-23 09:19:27] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-07-23 09:19:27] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.496.0.tar.gz]
+[2023-07-23 09:19:27] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.499.0.tar.gz]
+[2023-07-23 09:19:27] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2023-07-23 09:19:27] INFO root fetch - processPackages [npf]: Remove: archive file [/home/abi/fetcher/tmp/npf-1.0.8.tar.gz]
+[2023-07-23 09:19:27] INFO root fetch - processPackages [npf]: Remove: archive file [/home/abi/fetcher/tmp/npf-1.0.9.tar.gz]
+[2023-07-23 09:19:27] INFO root fetch - main [MainThread]: End processing [npf]: success
+[2023-07-23 09:19:27] INFO root fetch - main [MainThread]: Store serial: [19000013]
