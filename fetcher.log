@@ -2678,3 +2678,20 @@
 [2023-07-23 05:13:44] INFO root fetch - processPackages [miniosl]: Remove: archive file [/home/abi/fetcher/tmp/miniosl-0.0.9-cp310-cp310-manylinux_2_28_x86_64.whl.zip]
 [2023-07-23 05:13:44] INFO root fetch - main [MainThread]: End processing [miniosl]: success
 [2023-07-23 05:13:44] INFO root fetch - main [MainThread]: Store serial: [18999143]
+[2023-07-23 05:18:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999143]
+[2023-07-23 05:18:56] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-23 05:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grss
+[2023-07-23 05:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfsd
+[2023-07-23 05:18:56] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 05:18:56] INFO root fetch - processPackages [grss]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-23 05:18:56] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/bc/a3/f3db8d87a39f5eb8a59d2664840211b257e17b2838d141754bf65b5b99d4/kfsd-0.0.8.tar.gz
+[2023-07-23 05:18:56] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/cc/18/f96c1914d54bd725df13ee5bf82870ca513b9a3c82d89aa30a7d271fa26a/kfsd-0.0.9.tar.gz
+[2023-07-23 05:18:56] INFO root fetch - processPackages [grss]: Downloading https://files.pythonhosted.org/packages/29/f5/08667a663fbea970cd65d2504ab84f65713e609f2a761079ec6c0b34fabd/grss-0.8.0.tar.gz
+[2023-07-23 05:18:56] WARNING root fetch - processPackages [grss]: Skipping package: exceeds size limit 28318325>=10485760
+[2023-07-23 05:18:56] INFO root fetch - main [MainThread]: End processing [grss] error
+[2023-07-23 05:18:56] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-07-23 05:18:56] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230723/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 05:18:57] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.8.tar.gz]
+[2023-07-23 05:18:57] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.9.tar.gz]
+[2023-07-23 05:18:57] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-07-23 05:18:57] INFO root fetch - main [MainThread]: Store serial: [18999171]
