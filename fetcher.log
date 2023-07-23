@@ -15023,3 +15023,53 @@ AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
 [2023-07-23 22:43:41] INFO root fetch - processPackages [crowdstrike-falconpy]: Remove: archive file [/home/abi/fetcher/tmp/crowdstrike-falconpy-1.3.0.dev9.tar.gz]
 [2023-07-23 22:43:41] INFO root fetch - main [MainThread]: End processing [crowdstrike-falconpy]: success
 [2023-07-23 22:43:41] INFO root fetch - main [MainThread]: Store serial: [19004762]
+[2023-07-23 22:48:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19004762]
+[2023-07-23 22:48:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-23 22:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mynacode
+[2023-07-23 22:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PROTECA
+[2023-07-23 22:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shimpy
+[2023-07-23 22:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mynacode
+[2023-07-23 22:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iterlite
+[2023-07-23 22:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: reddit-dl
+[2023-07-23 22:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mynacode
+[2023-07-23 22:48:49] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-23 22:48:49] INFO root fetch - processPackages [shimpy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-23 22:48:50] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-23 22:48:50] WARNING root fetch - processPackages [PROTECA]: Skipping, unable to determine old version
+[2023-07-23 22:48:50] INFO root fetch - main [MainThread]: End processing [PROTECA] error
+[2023-07-23 22:48:50] INFO root fetch - processPackages [iterlite]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-23 22:48:50] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-23 22:48:50] WARNING root fetch - processPackages [reddit-dl]: Skipping, unable to determine old version
+[2023-07-23 22:48:50] INFO root fetch - main [MainThread]: End processing [reddit-dl] error
+[2023-07-23 22:48:50] INFO root fetch - processPackages [iterlite]: Downloading https://files.pythonhosted.org/packages/41/10/04f529cb9f20825e99d496ec8e5ae429ec82ee2f03432329c6cbf53020d2/iterlite-0.2.0.tar.gz
+[2023-07-23 22:48:50] INFO root fetch - processPackages [shimpy]: Downloading https://files.pythonhosted.org/packages/4b/28/b1801aad940ffcfec8668663bf70d454a508754aa57e78be9f9c9e1196a7/shimpy-0.0.1.tar.gz
+[2023-07-23 22:48:50] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-23 22:48:50] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-23 22:48:50] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-23 22:48:50] INFO root fetch - processPackages [iterlite]: Downloading https://files.pythonhosted.org/packages/b5/7c/7464d8ce0eebdec3c215a5d4c305afc570b2d538e3b3ddb19a1304a93428/iterlite-0.2.1.tar.gz
+[2023-07-23 22:48:50] INFO root fetch - processPackages [shimpy]: Downloading https://files.pythonhosted.org/packages/57/99/87304e262ce8f32e6bc96aa74e48fcb0bbba7e4ebc535d177f48e664fe0b/shimpy-0.0.2.tar.gz
+[2023-07-23 22:48:50] INFO root fetch - processPackages [iterlite]: executing diffoscope
+[2023-07-23 22:48:50] INFO root fetch - processPackages [iterlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iterlite-0.2.0.tar.gz tmp/iterlite-0.2.1.tar.gz --markdown 20230723/i/iterlite/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-23 22:48:50] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-23 22:48:50] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-23 22:48:50] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-23 22:48:50] INFO root fetch - processPackages [shimpy]: executing diffoscope
+[2023-07-23 22:48:50] INFO root fetch - processPackages [shimpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shimpy-0.0.1.tar.gz tmp/shimpy-0.0.2.tar.gz --markdown 20230723/s/shimpy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-23 22:48:50] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-23 22:48:50] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230723/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-23 22:48:50] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-23 22:48:50] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230723/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-23 22:48:50] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-23 22:48:50] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230723/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-23 22:48:51] INFO root fetch - processPackages [iterlite]: Remove: archive file [/home/abi/fetcher/tmp/iterlite-0.2.0.tar.gz]
+[2023-07-23 22:48:51] INFO root fetch - processPackages [iterlite]: Remove: archive file [/home/abi/fetcher/tmp/iterlite-0.2.1.tar.gz]
+[2023-07-23 22:48:51] INFO root fetch - main [MainThread]: End processing [iterlite]: success
+[2023-07-23 22:48:51] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-07-23 22:48:51] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-07-23 22:48:51] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-23 22:48:51] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-23 22:48:51] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-23 22:48:51] INFO root fetch - processPackages [shimpy]: Remove: archive file [/home/abi/fetcher/tmp/shimpy-0.0.1.tar.gz]
+[2023-07-23 22:48:51] INFO root fetch - processPackages [shimpy]: Remove: archive file [/home/abi/fetcher/tmp/shimpy-0.0.2.tar.gz]
+[2023-07-23 22:48:51] INFO root fetch - main [MainThread]: End processing [shimpy]: success
+[2023-07-23 22:48:51] INFO root fetch - main [MainThread]: Store serial: [19004785]
