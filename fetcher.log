@@ -12377,3 +12377,145 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 19:53:15] INFO root fetch - processPackages [Nuitka]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-1.7.6.tar.gz]
 [2023-07-23 19:53:15] INFO root fetch - main [MainThread]: End processing [Nuitka]: success
 [2023-07-23 19:53:15] INFO root fetch - main [MainThread]: Store serial: [19003808]
+[2023-07-23 19:58:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19003808]
+[2023-07-23 19:58:24] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-23 19:58:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cybrex
+[2023-07-23 19:58:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spotRiver
+[2023-07-23 19:58:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chromedriver-auto
+[2023-07-23 19:58:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chromedriver-auto
+[2023-07-23 19:58:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chromedriver-auto
+[2023-07-23 19:58:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chromedriver-auto
+[2023-07-23 19:58:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chromedriver-auto
+[2023-07-23 19:58:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cybrex
+[2023-07-23 19:58:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gptask-cli
+[2023-07-23 19:58:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xyz-common
+[2023-07-23 19:58:24] INFO root fetch - processPackages [chromedriver-auto]: New version: [1.0.1] Old Version: [0.0.4]
+[2023-07-23 19:58:24] INFO root fetch - processPackages [cybrex]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-23 19:58:24] INFO root fetch - processPackages [chromedriver-auto]: New version: [1.0.1] Old Version: [0.0.4]
+[2023-07-23 19:58:24] INFO root fetch - processPackages [cybrex]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-23 19:58:24] INFO root fetch - processPackages [chromedriver-auto]: New version: [1.0.1] Old Version: [0.0.4]
+[2023-07-23 19:58:24] INFO root fetch - processPackages [chromedriver-auto]: New version: [1.0.1] Old Version: [0.0.4]
+[2023-07-23 19:58:25] INFO root fetch - processPackages [gptask-cli]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-23 19:58:25] INFO root fetch - processPackages [chromedriver-auto]: New version: [1.0.1] Old Version: [0.0.4]
+[2023-07-23 19:58:25] INFO root fetch - processPackages [xyz-common]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-23 19:58:25] INFO root fetch - processPackages [spotRiver]: New version: [0.0.97] Old Version: [0.0.96]
+[2023-07-23 19:58:25] INFO root fetch - processPackages [chromedriver-auto]: Downloading https://files.pythonhosted.org/packages/af/79/1998384f784185613783557b4dc9610186f46a4a0691f1bdeaa8b0ef1772/chromedriver_auto-0.0.4.tar.gz
+[2023-07-23 19:58:25] INFO root fetch - processPackages [chromedriver-auto]: Downloading https://files.pythonhosted.org/packages/af/79/1998384f784185613783557b4dc9610186f46a4a0691f1bdeaa8b0ef1772/chromedriver_auto-0.0.4.tar.gz
+[2023-07-23 19:58:25] INFO root fetch - processPackages [gptask-cli]: Downloading https://files.pythonhosted.org/packages/b0/f3/12f9618ca18fd34833a461a5f46ca10d5b01e8ded8394a01a7b00a86eb13/gptask_cli-0.1.5.tar.gz
+[2023-07-23 19:58:25] INFO root fetch - processPackages [chromedriver-auto]: Downloading https://files.pythonhosted.org/packages/af/79/1998384f784185613783557b4dc9610186f46a4a0691f1bdeaa8b0ef1772/chromedriver_auto-0.0.4.tar.gz
+[2023-07-23 19:58:25] INFO root fetch - processPackages [chromedriver-auto]: Downloading https://files.pythonhosted.org/packages/af/79/1998384f784185613783557b4dc9610186f46a4a0691f1bdeaa8b0ef1772/chromedriver_auto-0.0.4.tar.gz
+[2023-07-23 19:58:25] INFO root fetch - processPackages [chromedriver-auto]: Downloading https://files.pythonhosted.org/packages/af/79/1998384f784185613783557b4dc9610186f46a4a0691f1bdeaa8b0ef1772/chromedriver_auto-0.0.4.tar.gz
+[2023-07-23 19:58:25] INFO root fetch - processPackages [spotRiver]: Downloading https://files.pythonhosted.org/packages/d0/d0/3f35da51ecfbe749802ee51ab36c5300680ee335e7b62e5a8d29746df388/spotRiver-0.0.96.tar.gz
+[2023-07-23 19:58:25] INFO root fetch - processPackages [cybrex]: Downloading https://files.pythonhosted.org/packages/17/4e/2bd5c59781a00e6df37789e8058da22674a86f57e4a91331841199c116ca/cybrex-1.0.8.tar.gz
+[2023-07-23 19:58:25] INFO root fetch - processPackages [cybrex]: Downloading https://files.pythonhosted.org/packages/17/4e/2bd5c59781a00e6df37789e8058da22674a86f57e4a91331841199c116ca/cybrex-1.0.8.tar.gz
+[2023-07-23 19:58:25] INFO root fetch - processPackages [xyz-common]: Downloading https://files.pythonhosted.org/packages/ec/4b/f8d32c9d019d5b70e24b09741718be6418ea5b6fcdc1c5fdf2a041386c4b/xyz_common-0.1.5-py3-none-any.whl
+[2023-07-23 19:58:25] INFO root fetch - processPackages [chromedriver-auto]: Downloading https://files.pythonhosted.org/packages/35/db/1019bb8a825d56ac9faa273284dc2eb357b583309b10738704b2d2f180f1/chromedriver_auto-1.0.1.tar.gz
+[2023-07-23 19:58:25] INFO root fetch - processPackages [chromedriver-auto]: Downloading https://files.pythonhosted.org/packages/35/db/1019bb8a825d56ac9faa273284dc2eb357b583309b10738704b2d2f180f1/chromedriver_auto-1.0.1.tar.gz
+[2023-07-23 19:58:25] INFO root fetch - processPackages [chromedriver-auto]: Downloading https://files.pythonhosted.org/packages/35/db/1019bb8a825d56ac9faa273284dc2eb357b583309b10738704b2d2f180f1/chromedriver_auto-1.0.1.tar.gz
+[2023-07-23 19:58:25] INFO root fetch - processPackages [chromedriver-auto]: Downloading https://files.pythonhosted.org/packages/35/db/1019bb8a825d56ac9faa273284dc2eb357b583309b10738704b2d2f180f1/chromedriver_auto-1.0.1.tar.gz
+[2023-07-23 19:58:25] INFO root fetch - processPackages [cybrex]: Downloading https://files.pythonhosted.org/packages/17/53/be9154311a856eb74206a350e8ecd21bc6fb79d238e1f7fed6249fdca855/cybrex-1.0.9.tar.gz
+[2023-07-23 19:58:25] INFO root fetch - processPackages [cybrex]: Downloading https://files.pythonhosted.org/packages/17/53/be9154311a856eb74206a350e8ecd21bc6fb79d238e1f7fed6249fdca855/cybrex-1.0.9.tar.gz
+[2023-07-23 19:58:25] INFO root fetch - processPackages [chromedriver-auto]: Downloading https://files.pythonhosted.org/packages/35/db/1019bb8a825d56ac9faa273284dc2eb357b583309b10738704b2d2f180f1/chromedriver_auto-1.0.1.tar.gz
+[2023-07-23 19:58:25] INFO root fetch - processPackages [gptask-cli]: Downloading https://files.pythonhosted.org/packages/f3/2a/4d7a7003c25545749b448181b1958d40657b63d4425d6db5e9d15d5b4b8b/gptask_cli-0.1.6.tar.gz
+[2023-07-23 19:58:25] INFO root fetch - processPackages [spotRiver]: Downloading https://files.pythonhosted.org/packages/92/e3/a7c8751e0f97361d8631f494f4d247598f163be8d185a26f8227ba69cc5d/spotRiver-0.0.97.tar.gz
+[2023-07-23 19:58:25] INFO root fetch - processPackages [chromedriver-auto]: executing diffoscope
+[2023-07-23 19:58:25] INFO root fetch - processPackages [chromedriver-auto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver_auto-0.0.4.tar.gz tmp/chromedriver_auto-1.0.1.tar.gz --markdown 20230723/c/chromedriver-auto/0.0.4-1.0.1/diff.md --exclude *.pyd
+[2023-07-23 19:58:26] INFO root fetch - processPackages [chromedriver-auto]: executing diffoscope
+[2023-07-23 19:58:26] INFO root fetch - processPackages [chromedriver-auto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver_auto-0.0.4.tar.gz tmp/chromedriver_auto-1.0.1.tar.gz --markdown 20230723/c/chromedriver-auto/0.0.4-1.0.1/diff.md --exclude *.pyd
+[2023-07-23 19:58:26] INFO root fetch - processPackages [chromedriver-auto]: executing diffoscope
+[2023-07-23 19:58:26] INFO root fetch - processPackages [chromedriver-auto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver_auto-0.0.4.tar.gz tmp/chromedriver_auto-1.0.1.tar.gz --markdown 20230723/c/chromedriver-auto/0.0.4-1.0.1/diff.md --exclude *.pyd
+[2023-07-23 19:58:26] INFO root fetch - processPackages [chromedriver-auto]: executing diffoscope
+[2023-07-23 19:58:26] INFO root fetch - processPackages [chromedriver-auto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver_auto-0.0.4.tar.gz tmp/chromedriver_auto-1.0.1.tar.gz --markdown 20230723/c/chromedriver-auto/0.0.4-1.0.1/diff.md --exclude *.pyd
+[2023-07-23 19:58:26] INFO root fetch - processPackages [cybrex]: executing diffoscope
+[2023-07-23 19:58:26] INFO root fetch - processPackages [cybrex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrex-1.0.8.tar.gz tmp/cybrex-1.0.9.tar.gz --markdown 20230723/c/cybrex/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-23 19:58:26] INFO root fetch - processPackages [cybrex]: executing diffoscope
+[2023-07-23 19:58:26] INFO root fetch - processPackages [cybrex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrex-1.0.8.tar.gz tmp/cybrex-1.0.9.tar.gz --markdown 20230723/c/cybrex/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-23 19:58:26] INFO root fetch - processPackages [chromedriver-auto]: executing diffoscope
+[2023-07-23 19:58:26] INFO root fetch - processPackages [chromedriver-auto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver_auto-0.0.4.tar.gz tmp/chromedriver_auto-1.0.1.tar.gz --markdown 20230723/c/chromedriver-auto/0.0.4-1.0.1/diff.md --exclude *.pyd
+[2023-07-23 19:58:26] INFO root fetch - processPackages [gptask-cli]: executing diffoscope
+[2023-07-23 19:58:26] INFO root fetch - processPackages [gptask-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptask_cli-0.1.5.tar.gz tmp/gptask_cli-0.1.6.tar.gz --markdown 20230723/g/gptask-cli/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-23 19:58:26] INFO root fetch - processPackages [spotRiver]: executing diffoscope
+[2023-07-23 19:58:26] INFO root fetch - processPackages [spotRiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotRiver-0.0.96.tar.gz tmp/spotRiver-0.0.97.tar.gz --markdown 20230723/s/spotRiver/0.0.96-0.0.97/diff.md --exclude *.pyd
+[2023-07-23 19:58:26] INFO root fetch - processPackages [xyz-common]: Downloading https://files.pythonhosted.org/packages/6c/c4/7bbe269f63f1a114565eedcccdfab7fa42769d2f1191a3629ed1d215de06/xyz_common-0.1.6-py3-none-any.whl
+[2023-07-23 19:58:26] INFO root fetch - processPackages [xyz-common]: executing diffoscope
+[2023-07-23 19:58:26] INFO root fetch - processPackages [xyz-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xyz_common-0.1.5-py3-none-any.whl.zip tmp/xyz_common-0.1.6-py3-none-any.whl.zip --markdown 20230723/x/xyz-common/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-23 19:58:27] INFO root fetch - processPackages [chromedriver-auto]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver_auto-0.0.4.tar.gz]
+[2023-07-23 19:58:27] INFO root fetch - processPackages [chromedriver-auto]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver_auto-1.0.1.tar.gz]
+[2023-07-23 19:58:27] INFO root fetch - processPackages [chromedriver-auto]: Start processing: lvmgort
+[2023-07-23 19:58:27] INFO root fetch - main [MainThread]: End processing [chromedriver-auto]: success
+[2023-07-23 19:58:27] INFO root fetch - processPackages [lvmgort]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-23 19:58:27] INFO root fetch - processPackages [cybrex]: Remove: archive file [/home/abi/fetcher/tmp/cybrex-1.0.8.tar.gz]
+[2023-07-23 19:58:27] INFO root fetch - processPackages [cybrex]: Remove: archive file [/home/abi/fetcher/tmp/cybrex-1.0.9.tar.gz]
+[2023-07-23 19:58:27] INFO root fetch - processPackages [cybrex]: Start processing: OneOnOne
+[2023-07-23 19:58:27] INFO root fetch - main [MainThread]: End processing [cybrex]: success
+[2023-07-23 19:58:27] INFO root fetch - processPackages [OneOnOne]: New version: [0.6939] Old Version: [0.6938]
+[2023-07-23 19:58:27] INFO root fetch - main [MainThread]: End processing [cybrex]: success
+[2023-07-23 19:58:27] INFO root fetch - main [MainThread]: End processing [chromedriver-auto]: success
+[2023-07-23 19:58:27] ERROR root fetch - processPackages [chromedriver-auto]: Diffoscope failed: time="2023-07-23T19:58:26+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
+
+[2023-07-23 19:58:27] INFO root fetch - main [MainThread]: End processing [chromedriver-auto] error
+[2023-07-23 19:58:27] ERROR root fetch - processPackages [chromedriver-auto]: Diffoscope failed: time="2023-07-23T19:58:26+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
+
+[2023-07-23 19:58:27] INFO root fetch - main [MainThread]: End processing [chromedriver-auto] error
+[2023-07-23 19:58:27] INFO root fetch - main [MainThread]: End processing [chromedriver-auto]: success
+[2023-07-23 19:58:27] INFO root fetch - processPackages [lvmgort]: Downloading https://files.pythonhosted.org/packages/b7/29/5b22d61b2fb5089fd395641ea787f8cc8a4bb7107c883985d53bc39c5847/lvmgort-0.2.2.tar.gz
+[2023-07-23 19:58:27] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/5b/8f/2e86c2ce05862386139efd1ff9bcb4872408d436cf6fc83776935bc3be6a/OneOnOne-0.6938.tar.gz
+[2023-07-23 19:58:27] INFO root fetch - processPackages [xyz-common]: Remove: archive file [/home/abi/fetcher/tmp/xyz_common-0.1.5-py3-none-any.whl.zip]
+[2023-07-23 19:58:27] INFO root fetch - processPackages [xyz-common]: Remove: archive file [/home/abi/fetcher/tmp/xyz_common-0.1.6-py3-none-any.whl.zip]
+[2023-07-23 19:58:27] INFO root fetch - main [MainThread]: End processing [xyz-common]: success
+[2023-07-23 19:58:27] INFO root fetch - processPackages [lvmgort]: executing diffoscope
+[2023-07-23 19:58:27] INFO root fetch - processPackages [lvmgort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lvmgort-0.2.1.tar.gz tmp/lvmgort-0.2.2.tar.gz --markdown 20230723/l/lvmgort/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-23 19:58:28] INFO root fetch - processPackages [gptask-cli]: Remove: archive file [/home/abi/fetcher/tmp/gptask_cli-0.1.5.tar.gz]
+[2023-07-23 19:58:28] INFO root fetch - processPackages [gptask-cli]: Remove: archive file [/home/abi/fetcher/tmp/gptask_cli-0.1.6.tar.gz]
+[2023-07-23 19:58:28] INFO root fetch - main [MainThread]: End processing [gptask-cli]: success
+[2023-07-23 19:58:28] INFO root fetch - processPackages [spotRiver]: Remove: archive file [/home/abi/fetcher/tmp/spotRiver-0.0.96.tar.gz]
+[2023-07-23 19:58:28] INFO root fetch - processPackages [spotRiver]: Remove: archive file [/home/abi/fetcher/tmp/spotRiver-0.0.97.tar.gz]
+[2023-07-23 19:58:28] INFO root fetch - main [MainThread]: End processing [spotRiver]: success
+[2023-07-23 19:58:28] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/d5/07/48ce1185edda8b947bf93e7bf9e75a6c05a3f964e9bb517c2a39df863ef6/OneOnOne-0.6939.tar.gz
+[2023-07-23 19:58:28] INFO root fetch - processPackages [lvmgort]: Remove: archive file [/home/abi/fetcher/tmp/lvmgort-0.2.1.tar.gz]
+[2023-07-23 19:58:28] INFO root fetch - processPackages [lvmgort]: Remove: archive file [/home/abi/fetcher/tmp/lvmgort-0.2.2.tar.gz]
+[2023-07-23 19:58:28] INFO root fetch - main [MainThread]: End processing [lvmgort]: success
+[2023-07-23 19:58:28] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-23 19:58:28] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6938.tar.gz tmp/OneOnOne-0.6939.tar.gz --markdown 20230723/O/OneOnOne/0.6938-0.6939/diff.md --exclude *.pyd
+[2023-07-23 19:58:29] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6938.tar.gz]
+[2023-07-23 19:58:29] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6939.tar.gz]
+[2023-07-23 19:58:29] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-23 19:58:29] INFO root fetch - main [MainThread]: Store serial: [19003845]
