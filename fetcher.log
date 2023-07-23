@@ -12646,3 +12646,27 @@ AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
 [2023-07-23 20:08:55] INFO root fetch - processPackages [piperider-nightly]: Remove: archive file [/home/abi/fetcher/tmp/piperider-nightly-0.9.0.20220921.tar.gz]
 [2023-07-23 20:08:55] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
 [2023-07-23 20:08:55] INFO root fetch - main [MainThread]: Store serial: [19003889]
+[2023-07-23 20:13:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19003889]
+[2023-07-23 20:14:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-23 20:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: saic-ismart-client
+[2023-07-23 20:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: absbox
+[2023-07-23 20:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dup-hawk
+[2023-07-23 20:14:04] INFO root fetch - processPackages [absbox]: New version: [0.9.3] Old Version: [0.8.9]
+[2023-07-23 20:14:04] INFO root fetch - processPackages [saic-ismart-client]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-23 20:14:04] WARNING root fetch - processPackages [dup-hawk]: Skipping, unable to determine old version
+[2023-07-23 20:14:04] INFO root fetch - main [MainThread]: End processing [dup-hawk] error
+[2023-07-23 20:14:05] INFO root fetch - processPackages [saic-ismart-client]: Downloading https://files.pythonhosted.org/packages/34/04/2c3aba818cf057009ca2e759fe4cb52b1be9accb0af4be844dba18793cf2/saic_ismart_client-1.4.8.tar.gz
+[2023-07-23 20:14:05] INFO root fetch - processPackages [absbox]: Downloading https://files.pythonhosted.org/packages/f2/f5/d913079148fbe1aebd6fc56849f3245eda346886eb6d2488747d9a978493/AbsBox-0.8.9.tar.gz
+[2023-07-23 20:14:05] INFO root fetch - processPackages [saic-ismart-client]: Downloading https://files.pythonhosted.org/packages/64/2f/9ce81adbaa69869c08b298187f5dd3522888cf5ee3537d50d6b13d80fc6e/saic_ismart_client-1.4.9.tar.gz
+[2023-07-23 20:14:05] INFO root fetch - processPackages [absbox]: Downloading https://files.pythonhosted.org/packages/63/df/8bc5a95a40d1cc98f7aa27a8baf79a5df19fa8dc2f6836ff02171d21c08a/AbsBox-0.9.3.tar.gz
+[2023-07-23 20:14:05] INFO root fetch - processPackages [saic-ismart-client]: executing diffoscope
+[2023-07-23 20:14:05] INFO root fetch - processPackages [saic-ismart-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saic_ismart_client-1.4.8.tar.gz tmp/saic_ismart_client-1.4.9.tar.gz --markdown 20230723/s/saic-ismart-client/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-23 20:14:05] INFO root fetch - processPackages [absbox]: executing diffoscope
+[2023-07-23 20:14:05] INFO root fetch - processPackages [absbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AbsBox-0.8.9.tar.gz tmp/AbsBox-0.9.3.tar.gz --markdown 20230723/a/absbox/0.8.9-0.9.3/diff.md --exclude *.pyd
+[2023-07-23 20:14:06] INFO root fetch - processPackages [absbox]: Remove: archive file [/home/abi/fetcher/tmp/AbsBox-0.8.9.tar.gz]
+[2023-07-23 20:14:06] INFO root fetch - processPackages [absbox]: Remove: archive file [/home/abi/fetcher/tmp/AbsBox-0.9.3.tar.gz]
+[2023-07-23 20:14:06] INFO root fetch - main [MainThread]: End processing [absbox]: success
+[2023-07-23 20:14:06] INFO root fetch - processPackages [saic-ismart-client]: Remove: archive file [/home/abi/fetcher/tmp/saic_ismart_client-1.4.8.tar.gz]
+[2023-07-23 20:14:06] INFO root fetch - processPackages [saic-ismart-client]: Remove: archive file [/home/abi/fetcher/tmp/saic_ismart_client-1.4.9.tar.gz]
+[2023-07-23 20:14:06] INFO root fetch - main [MainThread]: End processing [saic-ismart-client]: success
+[2023-07-23 20:14:06] INFO root fetch - main [MainThread]: Store serial: [19003898]
