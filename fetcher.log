@@ -4958,3 +4958,58 @@
 [2023-07-23 10:01:32] INFO root fetch - processPackages [id2xml]: Remove: archive file [/home/abi/fetcher/tmp/id2xml-1.5.2.tar.gz]
 [2023-07-23 10:01:32] INFO root fetch - main [MainThread]: End processing [id2xml]: success
 [2023-07-23 10:01:32] INFO root fetch - main [MainThread]: Store serial: [19000146]
+[2023-07-23 10:06:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19000146]
+[2023-07-23 10:06:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-23 10:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wow-ai-mms
+[2023-07-23 10:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iman
+[2023-07-23 10:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iman
+[2023-07-23 10:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zhei
+[2023-07-23 10:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: honeyhive
+[2023-07-23 10:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyglove
+[2023-07-23 10:06:40] INFO root fetch - processPackages [zhei]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 10:06:40] INFO root fetch - processPackages [iman]: New version: [0.0.91] Old Version: [0.0.90]
+[2023-07-23 10:06:40] INFO root fetch - processPackages [wow-ai-mms]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-23 10:06:40] INFO root fetch - processPackages [honeyhive]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-23 10:06:40] INFO root fetch - processPackages [iman]: New version: [0.0.91] Old Version: [0.0.90]
+[2023-07-23 10:06:40] INFO root fetch - processPackages [pyglove]: New version: [0.4.1.dev20230722] Old Version: [0.4.1.dev20230721]
+[2023-07-23 10:06:40] INFO root fetch - processPackages [wow-ai-mms]: Downloading https://files.pythonhosted.org/packages/a5/7a/45ea4efc51fcabac167f24579defdafb31351e0437362216cc45d597511c/wow_ai_mms-0.1.6.tar.gz
+[2023-07-23 10:06:40] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/a8/11/5a35f40c9d75bc9ec53cd57c13113fb6630f3e35df5a166e4922bf1ab54c/pyglove-0.4.1.dev20230721.tar.gz
+[2023-07-23 10:06:40] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/89/94/de0fdd97d6f1a8d2090b57b165aee445a4899d378c6d992ccd8a12fb6232/iman-0.0.90.tar.gz
+[2023-07-23 10:06:40] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/89/94/de0fdd97d6f1a8d2090b57b165aee445a4899d378c6d992ccd8a12fb6232/iman-0.0.90.tar.gz
+[2023-07-23 10:06:40] INFO root fetch - processPackages [zhei]: Downloading https://files.pythonhosted.org/packages/fe/e6/d6e9a8571394bc0f3c5f41cc8657e57af493d8f610996864a47c36f29e74/zhei-0.0.8.tar.gz
+[2023-07-23 10:06:40] INFO root fetch - processPackages [honeyhive]: Downloading https://files.pythonhosted.org/packages/e0/81/f6d6340aec5b095aa11da18b3c6280f76f098ca09a9356d7e6205ea0ea29/honeyhive-0.1.8.tar.gz
+[2023-07-23 10:06:41] INFO root fetch - processPackages [wow-ai-mms]: Downloading https://files.pythonhosted.org/packages/f2/3b/fc089c70354adad648a0b237831ea88c4c6b7b8e161e16ebc53569e66f80/wow_ai_mms-0.1.7.tar.gz
+[2023-07-23 10:06:41] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/41/9e/e16614c4328bce9b23ada027a365413327a25c3e31efe6a38ed72f96aad0/iman-0.0.91.tar.gz
+[2023-07-23 10:06:41] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/41/9e/e16614c4328bce9b23ada027a365413327a25c3e31efe6a38ed72f96aad0/iman-0.0.91.tar.gz
+[2023-07-23 10:06:41] INFO root fetch - processPackages [wow-ai-mms]: executing diffoscope
+[2023-07-23 10:06:41] INFO root fetch - processPackages [wow-ai-mms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wow_ai_mms-0.1.6.tar.gz tmp/wow_ai_mms-0.1.7.tar.gz --markdown 20230723/w/wow-ai-mms/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-23 10:06:41] INFO root fetch - processPackages [honeyhive]: Downloading https://files.pythonhosted.org/packages/0c/c1/d48d189339ca8c3f60587c138db4d20d0adb6b147463986ee18210817f6e/honeyhive-0.1.9.tar.gz
+[2023-07-23 10:06:41] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/4f/eb/b67b5a9b8b3529c02fae262835f0df338850e962f7b82a94034f2342bc06/pyglove-0.4.1.dev20230722.tar.gz
+[2023-07-23 10:06:41] INFO root fetch - processPackages [honeyhive]: executing diffoscope
+[2023-07-23 10:06:41] INFO root fetch - processPackages [honeyhive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeyhive-0.1.8.tar.gz tmp/honeyhive-0.1.9.tar.gz --markdown 20230723/h/honeyhive/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-23 10:06:41] INFO root fetch - processPackages [zhei]: Downloading https://files.pythonhosted.org/packages/d9/f8/741be51eea312a636974b7efa45fc6ce78e84d511b8b44f353639d955c27/zhei-0.0.9.tar.gz
+[2023-07-23 10:06:41] INFO root fetch - processPackages [iman]: executing diffoscope
+[2023-07-23 10:06:41] INFO root fetch - processPackages [iman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iman-0.0.90.tar.gz tmp/iman-0.0.91.tar.gz --markdown 20230723/i/iman/0.0.90-0.0.91/diff.md --exclude *.pyd
+[2023-07-23 10:06:41] INFO root fetch - processPackages [iman]: executing diffoscope
+[2023-07-23 10:06:41] INFO root fetch - processPackages [iman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iman-0.0.90.tar.gz tmp/iman-0.0.91.tar.gz --markdown 20230723/i/iman/0.0.90-0.0.91/diff.md --exclude *.pyd
+[2023-07-23 10:06:41] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-07-23 10:06:41] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.1.dev20230721.tar.gz tmp/pyglove-0.4.1.dev20230722.tar.gz --markdown 20230723/p/pyglove/0.4.1.dev20230721-0.4.1.dev20230722/diff.md --exclude *.pyd
+[2023-07-23 10:06:41] INFO root fetch - processPackages [zhei]: executing diffoscope
+[2023-07-23 10:06:41] INFO root fetch - processPackages [zhei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhei-0.0.8.tar.gz tmp/zhei-0.0.9.tar.gz --markdown 20230723/z/zhei/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 10:06:42] INFO root fetch - processPackages [honeyhive]: Remove: archive file [/home/abi/fetcher/tmp/honeyhive-0.1.8.tar.gz]
+[2023-07-23 10:06:42] INFO root fetch - processPackages [honeyhive]: Remove: archive file [/home/abi/fetcher/tmp/honeyhive-0.1.9.tar.gz]
+[2023-07-23 10:06:42] INFO root fetch - main [MainThread]: End processing [honeyhive]: success
+[2023-07-23 10:06:42] INFO root fetch - processPackages [wow-ai-mms]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_mms-0.1.6.tar.gz]
+[2023-07-23 10:06:42] INFO root fetch - processPackages [wow-ai-mms]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_mms-0.1.7.tar.gz]
+[2023-07-23 10:06:42] INFO root fetch - main [MainThread]: End processing [wow-ai-mms]: success
+[2023-07-23 10:06:42] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.90.tar.gz]
+[2023-07-23 10:06:42] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.91.tar.gz]
+[2023-07-23 10:06:42] INFO root fetch - main [MainThread]: End processing [iman]: success
+[2023-07-23 10:06:42] INFO root fetch - main [MainThread]: End processing [iman]: success
+[2023-07-23 10:06:42] INFO root fetch - processPackages [zhei]: Remove: archive file [/home/abi/fetcher/tmp/zhei-0.0.8.tar.gz]
+[2023-07-23 10:06:42] INFO root fetch - processPackages [zhei]: Remove: archive file [/home/abi/fetcher/tmp/zhei-0.0.9.tar.gz]
+[2023-07-23 10:06:42] INFO root fetch - main [MainThread]: End processing [zhei]: success
+[2023-07-23 10:06:43] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.1.dev20230721.tar.gz]
+[2023-07-23 10:06:43] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.1.dev20230722.tar.gz]
+[2023-07-23 10:06:43] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-07-23 10:06:43] INFO root fetch - main [MainThread]: Store serial: [19000164]
