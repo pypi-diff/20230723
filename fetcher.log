@@ -7350,3 +7350,63 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 13:44:15] INFO root fetch - processPackages [pyquizrd]: Remove: archive file [/home/abi/fetcher/tmp/pyquizrd-0.1.4.tar.gz]
 [2023-07-23 13:44:15] INFO root fetch - main [MainThread]: End processing [pyquizrd]: success
 [2023-07-23 13:44:15] INFO root fetch - main [MainThread]: Store serial: [19001234]
+[2023-07-23 13:49:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19001234]
+[2023-07-23 13:49:24] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-23 13:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fractal-toolkit
+[2023-07-23 13:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ui-booking.com
+[2023-07-23 13:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easyliftover
+[2023-07-23 13:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyEasySQL
+[2023-07-23 13:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: examon-core
+[2023-07-23 13:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SageLogger
+[2023-07-23 13:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hstrat
+[2023-07-23 13:49:24] INFO root fetch - processPackages [examon-core]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-23 13:49:24] INFO root fetch - processPackages [ui-booking.com]: New version: [0.102] Old Version: [0.101]
+[2023-07-23 13:49:24] INFO root fetch - processPackages [fractal-toolkit]: New version: [4.1.2] Old Version: [4.1.0]
+[2023-07-23 13:49:24] INFO root fetch - processPackages [hstrat]: New version: [1.8.0] Old Version: [1.7.4]
+[2023-07-23 13:49:24] INFO root fetch - processPackages [SageLogger]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-23 13:49:24] INFO root fetch - processPackages [PyEasySQL]: New version: [3.1.0] Old Version: [3.0.3]
+[2023-07-23 13:49:24] WARNING root fetch - processPackages [easyliftover]: Skipping, unable to determine old version
+[2023-07-23 13:49:24] INFO root fetch - main [MainThread]: End processing [easyliftover] error
+[2023-07-23 13:49:24] INFO root fetch - processPackages [PyEasySQL]: Downloading https://files.pythonhosted.org/packages/50/28/e039203c65edbdbcd7b8171e7f5632d3a49394b655b5956be28525c58889/PyEasySQL-3.0.3.tar.gz
+[2023-07-23 13:49:24] INFO root fetch - processPackages [hstrat]: Downloading https://files.pythonhosted.org/packages/c9/0d/58844d17b78cea126ddaed48df9ebd168bf32c6185ec0b0ca32580091642/hstrat-1.7.4.tar.gz
+[2023-07-23 13:49:24] INFO root fetch - processPackages [SageLogger]: Downloading https://files.pythonhosted.org/packages/db/c8/97f6a19158b5301031d2ba4f2f909cdf0445786a9191a31b27cc807efe78/SageLogger-1.3.2.tar.gz
+[2023-07-23 13:49:24] INFO root fetch - processPackages [ui-booking.com]: Downloading https://files.pythonhosted.org/packages/28/ca/9e21612736f4cf3e8da10708c249b6b9bb50c524d2158e11ce91333d2fea/ui_booking.com-0.101.tar.gz
+[2023-07-23 13:49:24] INFO root fetch - processPackages [fractal-toolkit]: Downloading https://files.pythonhosted.org/packages/7e/ca/4c5ac45393c26a38d734eac9571c004b6799fcf00525d17f7d1d5b8090eb/fractal_toolkit-4.1.0.tar.gz
+[2023-07-23 13:49:24] INFO root fetch - processPackages [examon-core]: Downloading https://files.pythonhosted.org/packages/1f/6c/779170f53559a1731903d960e01d75f379a0caff3ca09499bb24ecc84388/examon_core-1.0.8.tar.gz
+[2023-07-23 13:49:25] INFO root fetch - processPackages [hstrat]: Downloading https://files.pythonhosted.org/packages/b8/89/9193d1b80ce9efb063695461fb3c9d0909288d30268f4362629ccede198b/hstrat-1.8.0.tar.gz
+[2023-07-23 13:49:25] INFO root fetch - processPackages [PyEasySQL]: Downloading https://files.pythonhosted.org/packages/98/f9/a3aebb4cee73ede1e3cf4df1df37d536960a6c6dbf1317597d4bd5ccbd0e/PyEasySQL-3.1.0.tar.gz
+[2023-07-23 13:49:25] INFO root fetch - processPackages [SageLogger]: Downloading https://files.pythonhosted.org/packages/0d/29/0d34bb99ca18adbfc7ecb5eb03eaec5cfdae6c6ee01f72237a365b2677ee/SageLogger-1.3.3.tar.gz
+[2023-07-23 13:49:25] INFO root fetch - processPackages [ui-booking.com]: Downloading https://files.pythonhosted.org/packages/30/a8/68d7643ba42603fcba522a64b6cec0a82168340101a136bbfed7ae4c17e0/ui_booking.com-0.102.tar.gz
+[2023-07-23 13:49:25] INFO root fetch - processPackages [examon-core]: Downloading https://files.pythonhosted.org/packages/07/38/d903ac017957f33e6f4f89d3e4d79b109f3326f211f01c19b1f3d59d579c/examon_core-1.0.9.tar.gz
+[2023-07-23 13:49:25] INFO root fetch - processPackages [fractal-toolkit]: Downloading https://files.pythonhosted.org/packages/80/74/9c7326d4d260864ded92d2121b6061c1b00a785f76c2bf4ac2a6de05fabb/fractal_toolkit-4.1.2.tar.gz
+[2023-07-23 13:49:25] INFO root fetch - processPackages [PyEasySQL]: executing diffoscope
+[2023-07-23 13:49:25] INFO root fetch - processPackages [PyEasySQL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyEasySQL-3.0.3.tar.gz tmp/PyEasySQL-3.1.0.tar.gz --markdown 20230723/P/PyEasySQL/3.0.3-3.1.0/diff.md --exclude *.pyd
+[2023-07-23 13:49:25] INFO root fetch - processPackages [SageLogger]: executing diffoscope
+[2023-07-23 13:49:25] INFO root fetch - processPackages [SageLogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SageLogger-1.3.2.tar.gz tmp/SageLogger-1.3.3.tar.gz --markdown 20230723/S/SageLogger/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-23 13:49:25] INFO root fetch - processPackages [ui-booking.com]: executing diffoscope
+[2023-07-23 13:49:25] INFO root fetch - processPackages [ui-booking.com]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ui_booking.com-0.101.tar.gz tmp/ui_booking.com-0.102.tar.gz --markdown 20230723/u/ui-booking.com/0.101-0.102/diff.md --exclude *.pyd
+[2023-07-23 13:49:25] INFO root fetch - processPackages [examon-core]: executing diffoscope
+[2023-07-23 13:49:25] INFO root fetch - processPackages [examon-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/examon_core-1.0.8.tar.gz tmp/examon_core-1.0.9.tar.gz --markdown 20230723/e/examon-core/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-23 13:49:25] INFO root fetch - processPackages [hstrat]: executing diffoscope
+[2023-07-23 13:49:25] INFO root fetch - processPackages [hstrat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hstrat-1.7.4.tar.gz tmp/hstrat-1.8.0.tar.gz --markdown 20230723/h/hstrat/1.7.4-1.8.0/diff.md --exclude *.pyd
+[2023-07-23 13:49:25] INFO root fetch - processPackages [fractal-toolkit]: executing diffoscope
+[2023-07-23 13:49:25] INFO root fetch - processPackages [fractal-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_toolkit-4.1.0.tar.gz tmp/fractal_toolkit-4.1.2.tar.gz --markdown 20230723/f/fractal-toolkit/4.1.0-4.1.2/diff.md --exclude *.pyd
+[2023-07-23 13:49:26] INFO root fetch - processPackages [examon-core]: Remove: archive file [/home/abi/fetcher/tmp/examon_core-1.0.8.tar.gz]
+[2023-07-23 13:49:26] INFO root fetch - processPackages [examon-core]: Remove: archive file [/home/abi/fetcher/tmp/examon_core-1.0.9.tar.gz]
+[2023-07-23 13:49:26] INFO root fetch - main [MainThread]: End processing [examon-core]: success
+[2023-07-23 13:49:26] INFO root fetch - processPackages [ui-booking.com]: Remove: archive file [/home/abi/fetcher/tmp/ui_booking.com-0.101.tar.gz]
+[2023-07-23 13:49:26] INFO root fetch - processPackages [ui-booking.com]: Remove: archive file [/home/abi/fetcher/tmp/ui_booking.com-0.102.tar.gz]
+[2023-07-23 13:49:26] INFO root fetch - main [MainThread]: End processing [ui-booking.com]: success
+[2023-07-23 13:49:26] INFO root fetch - processPackages [PyEasySQL]: Remove: archive file [/home/abi/fetcher/tmp/PyEasySQL-3.0.3.tar.gz]
+[2023-07-23 13:49:26] INFO root fetch - processPackages [PyEasySQL]: Remove: archive file [/home/abi/fetcher/tmp/PyEasySQL-3.1.0.tar.gz]
+[2023-07-23 13:49:26] INFO root fetch - main [MainThread]: End processing [PyEasySQL]: success
+[2023-07-23 13:49:26] INFO root fetch - processPackages [SageLogger]: Remove: archive file [/home/abi/fetcher/tmp/SageLogger-1.3.2.tar.gz]
+[2023-07-23 13:49:26] INFO root fetch - processPackages [SageLogger]: Remove: archive file [/home/abi/fetcher/tmp/SageLogger-1.3.3.tar.gz]
+[2023-07-23 13:49:26] INFO root fetch - main [MainThread]: End processing [SageLogger]: success
+[2023-07-23 13:49:26] INFO root fetch - processPackages [fractal-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fractal_toolkit-4.1.0.tar.gz]
+[2023-07-23 13:49:26] INFO root fetch - processPackages [fractal-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fractal_toolkit-4.1.2.tar.gz]
+[2023-07-23 13:49:26] INFO root fetch - main [MainThread]: End processing [fractal-toolkit]: success
+[2023-07-23 13:49:32] INFO root fetch - processPackages [hstrat]: Remove: archive file [/home/abi/fetcher/tmp/hstrat-1.7.4.tar.gz]
+[2023-07-23 13:49:32] INFO root fetch - processPackages [hstrat]: Remove: archive file [/home/abi/fetcher/tmp/hstrat-1.8.0.tar.gz]
+[2023-07-23 13:49:32] INFO root fetch - main [MainThread]: End processing [hstrat]: success
+[2023-07-23 13:49:32] INFO root fetch - main [MainThread]: Store serial: [19001257]
