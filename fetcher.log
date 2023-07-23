@@ -5818,3 +5818,15 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 11:05:41] INFO root fetch - processPackages [autogluon.eda]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.eda-0.8.3b20230723.tar.gz]
 [2023-07-23 11:05:41] INFO root fetch - main [MainThread]: End processing [autogluon.eda]: success
 [2023-07-23 11:05:41] INFO root fetch - main [MainThread]: Store serial: [19000429]
+[2023-07-23 11:10:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19000429]
+[2023-07-23 11:10:49] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-23 11:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xiaomi-ble
+[2023-07-23 11:10:49] INFO root fetch - processPackages [xiaomi-ble]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-23 11:10:50] INFO root fetch - processPackages [xiaomi-ble]: Downloading https://files.pythonhosted.org/packages/88/f2/12299e377e2573298346c8b5aafba862a8dc6ee519042614a545dd7681ec/xiaomi-ble-0.9.2.tar.gz
+[2023-07-23 11:10:50] INFO root fetch - processPackages [xiaomi-ble]: Downloading https://files.pythonhosted.org/packages/f6/49/a91b790de545fe1a61c57fb016733518e3c312802b3ec64610f44c81ee11/xiaomi-ble-0.9.3.tar.gz
+[2023-07-23 11:10:50] INFO root fetch - processPackages [xiaomi-ble]: executing diffoscope
+[2023-07-23 11:10:50] INFO root fetch - processPackages [xiaomi-ble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaomi-ble-0.9.2.tar.gz tmp/xiaomi-ble-0.9.3.tar.gz --markdown 20230723/x/xiaomi-ble/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-23 11:10:51] INFO root fetch - processPackages [xiaomi-ble]: Remove: archive file [/home/abi/fetcher/tmp/xiaomi-ble-0.9.2.tar.gz]
+[2023-07-23 11:10:51] INFO root fetch - processPackages [xiaomi-ble]: Remove: archive file [/home/abi/fetcher/tmp/xiaomi-ble-0.9.3.tar.gz]
+[2023-07-23 11:10:51] INFO root fetch - main [MainThread]: End processing [xiaomi-ble]: success
+[2023-07-23 11:10:51] INFO root fetch - main [MainThread]: Store serial: [19000432]
