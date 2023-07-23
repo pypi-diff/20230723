@@ -6655,3 +6655,81 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 12:36:40] INFO root fetch - processPackages [cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/cdk-github-0.0.9.tar.gz]
 [2023-07-23 12:36:40] INFO root fetch - main [MainThread]: End processing [cdk-github]: success
 [2023-07-23 12:36:40] INFO root fetch - main [MainThread]: Store serial: [19000896]
+[2023-07-23 12:41:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19000896]
+[2023-07-23 12:41:49] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-23 12:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-univer
+[2023-07-23 12:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vinhvh-package
+[2023-07-23 12:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytdxattest
+[2023-07-23 12:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moptipyapps
+[2023-07-23 12:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kitman
+[2023-07-23 12:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bdating-common
+[2023-07-23 12:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: llm-claude
+[2023-07-23 12:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: skypilot-nightly
+[2023-07-23 12:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-l10n-ro-account-edi-ubl
+[2023-07-23 12:41:49] INFO root fetch - processPackages [python-univer]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-07-23 12:41:49] INFO root fetch - processPackages [moptipyapps]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-23 12:41:49] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: New version: [16.0.1.11.0] Old Version: [15.0.1.9.1]
+[2023-07-23 12:41:49] WARNING root fetch - processPackages [pytdxattest]: Skipping, unable to determine old version
+[2023-07-23 12:41:49] INFO root fetch - main [MainThread]: End processing [pytdxattest] error
+[2023-07-23 12:41:49] INFO root fetch - processPackages [vinhvh-package]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-23 12:41:49] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20230722] Old Version: [1.0.0.dev20230721]
+[2023-07-23 12:41:49] INFO root fetch - processPackages [kitman]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-07-23 12:41:49] INFO root fetch - processPackages [llm-claude]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-23 12:41:49] INFO root fetch - processPackages [bdating-common]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-23 12:41:49] INFO root fetch - processPackages [python-univer]: Downloading https://files.pythonhosted.org/packages/7a/d8/471698d6dd13fc8c3c91b3ae07a85bf401ab59b72e88d97413e61abec015/python-univer-1.4.1.tar.gz
+[2023-07-23 12:41:49] INFO root fetch - processPackages [moptipyapps]: Downloading https://files.pythonhosted.org/packages/dd/b4/372f1e1ae19b5e3f8b5e9be2bda60edf1667543cd5ae4b16fbd6408c9958/moptipyapps-0.8.8.tar.gz
+[2023-07-23 12:41:49] INFO root fetch - processPackages [vinhvh-package]: Downloading https://files.pythonhosted.org/packages/ae/f0/d732a65d6a4358008b5019273d0012196a87cf3da5670876c1b92f9c164e/vinhvh_package-0.0.5.tar.gz
+[2023-07-23 12:41:49] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/29/35/e80405076e0bf805965699afd40a3601f6ee86b0014afd5248a7661c5a96/skypilot-nightly-1.0.0.dev20230721.tar.gz
+[2023-07-23 12:41:49] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: Downloading https://files.pythonhosted.org/packages/be/bf/c9bb110ba793964e8a10dad91b1db4e8fd40e65c451dd7813887a439632b/odoo_addon_l10n_ro_account_edi_ubl-15.0.1.9.1-py3-none-any.whl
+[2023-07-23 12:41:49] INFO root fetch - processPackages [kitman]: Downloading https://files.pythonhosted.org/packages/10/1f/34922cbaa1cff13c7393dd1de9ed90334516d1f4425067079147cb2406e0/kitman-0.1.5.tar.gz
+[2023-07-23 12:41:49] INFO root fetch - processPackages [llm-claude]: Downloading https://files.pythonhosted.org/packages/0b/8a/2a87805a63a991879bd0772789584c69c4a1b392e3123816eea3b978b7fc/llm-claude-0.1.0.tar.gz
+[2023-07-23 12:41:49] INFO root fetch - processPackages [bdating-common]: Downloading https://files.pythonhosted.org/packages/b6/e8/182164ed551405a938d125b986db596ae2ec4c2e63f64a36150e891ba74b/bdating-common-0.9.8.tar.gz
+[2023-07-23 12:41:49] INFO root fetch - processPackages [python-univer]: Downloading https://files.pythonhosted.org/packages/8c/a6/5e174bc83b3cef19b0c5aa50910480860cf0964817b71a370215bb556063/python-univer-1.4.2.tar.gz
+[2023-07-23 12:41:50] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/05/43/051948f388efd9002507bd36e34378c17c24086e28fc64a9747d5c68c852/skypilot-nightly-1.0.0.dev20230722.tar.gz
+[2023-07-23 12:41:50] INFO root fetch - processPackages [vinhvh-package]: Downloading https://files.pythonhosted.org/packages/cf/8d/2cc05076d06ac70789b7299233071f38483386973408e42d166e32bd9a3d/vinhvh_package-0.0.6.tar.gz
+[2023-07-23 12:41:50] INFO root fetch - processPackages [moptipyapps]: Downloading https://files.pythonhosted.org/packages/99/84/e6a54ea53992f0d12000f77a325b6ffd82fd0a9248f130f966739810c773/moptipyapps-0.8.9.tar.gz
+[2023-07-23 12:41:50] INFO root fetch - processPackages [python-univer]: executing diffoscope
+[2023-07-23 12:41:50] INFO root fetch - processPackages [python-univer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-univer-1.4.1.tar.gz tmp/python-univer-1.4.2.tar.gz --markdown 20230723/p/python-univer/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-07-23 12:41:50] INFO root fetch - processPackages [bdating-common]: Downloading https://files.pythonhosted.org/packages/5e/03/279ccb140de56fd96b4d934616aca37e5a50bff8f0684be248f712f24d5a/bdating-common-0.9.9.tar.gz
+[2023-07-23 12:41:50] INFO root fetch - processPackages [vinhvh-package]: executing diffoscope
+[2023-07-23 12:41:50] INFO root fetch - processPackages [vinhvh-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vinhvh_package-0.0.5.tar.gz tmp/vinhvh_package-0.0.6.tar.gz --markdown 20230723/v/vinhvh-package/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-23 12:41:50] INFO root fetch - processPackages [llm-claude]: Downloading https://files.pythonhosted.org/packages/62/fe/e037415de6ba72987e7917ce6af0603c5a52fe33372d85cb392d5dbca710/llm-claude-0.2.0.tar.gz
+[2023-07-23 12:41:50] INFO root fetch - processPackages [kitman]: Downloading https://files.pythonhosted.org/packages/5a/27/f39329d4f303233dc8b164388087e0bada0fdb812b516c21dd35d1b7b880/kitman-0.2.0.tar.gz
+[2023-07-23 12:41:50] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: Downloading https://files.pythonhosted.org/packages/9d/54/8488263efebe3f86fdc76bb924cc18a3021795aaae1fcf56f55773685a72/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.11.0-py3-none-any.whl
+[2023-07-23 12:41:50] INFO root fetch - processPackages [llm-claude]: executing diffoscope
+[2023-07-23 12:41:50] INFO root fetch - processPackages [llm-claude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-claude-0.1.0.tar.gz tmp/llm-claude-0.2.0.tar.gz --markdown 20230723/l/llm-claude/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-23 12:41:50] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2023-07-23 12:41:50] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot-nightly-1.0.0.dev20230721.tar.gz tmp/skypilot-nightly-1.0.0.dev20230722.tar.gz --markdown 20230723/s/skypilot-nightly/1.0.0.dev20230721-1.0.0.dev20230722/diff.md --exclude *.pyd
+[2023-07-23 12:41:50] INFO root fetch - processPackages [bdating-common]: executing diffoscope
+[2023-07-23 12:41:50] INFO root fetch - processPackages [bdating-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdating-common-0.9.8.tar.gz tmp/bdating-common-0.9.9.tar.gz --markdown 20230723/b/bdating-common/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-23 12:41:50] INFO root fetch - processPackages [moptipyapps]: executing diffoscope
+[2023-07-23 12:41:50] INFO root fetch - processPackages [moptipyapps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moptipyapps-0.8.8.tar.gz tmp/moptipyapps-0.8.9.tar.gz --markdown 20230723/m/moptipyapps/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-23 12:41:50] INFO root fetch - processPackages [kitman]: executing diffoscope
+[2023-07-23 12:41:50] INFO root fetch - processPackages [kitman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kitman-0.1.5.tar.gz tmp/kitman-0.2.0.tar.gz --markdown 20230723/k/kitman/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-07-23 12:41:50] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: executing diffoscope
+[2023-07-23 12:41:50] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_account_edi_ubl-15.0.1.9.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.11.0-py3-none-any.whl.zip --markdown 20230723/o/odoo-addon-l10n-ro-account-edi-ubl/15.0.1.9.1-16.0.1.11.0/diff.md --exclude *.pyd
+[2023-07-23 12:41:51] INFO root fetch - processPackages [vinhvh-package]: Remove: archive file [/home/abi/fetcher/tmp/vinhvh_package-0.0.5.tar.gz]
+[2023-07-23 12:41:51] INFO root fetch - processPackages [vinhvh-package]: Remove: archive file [/home/abi/fetcher/tmp/vinhvh_package-0.0.6.tar.gz]
+[2023-07-23 12:41:51] INFO root fetch - main [MainThread]: End processing [vinhvh-package]: success
+[2023-07-23 12:41:51] INFO root fetch - processPackages [python-univer]: Remove: archive file [/home/abi/fetcher/tmp/python-univer-1.4.1.tar.gz]
+[2023-07-23 12:41:51] INFO root fetch - processPackages [python-univer]: Remove: archive file [/home/abi/fetcher/tmp/python-univer-1.4.2.tar.gz]
+[2023-07-23 12:41:51] INFO root fetch - main [MainThread]: End processing [python-univer]: success
+[2023-07-23 12:41:51] INFO root fetch - processPackages [llm-claude]: Remove: archive file [/home/abi/fetcher/tmp/llm-claude-0.1.0.tar.gz]
+[2023-07-23 12:41:51] INFO root fetch - processPackages [llm-claude]: Remove: archive file [/home/abi/fetcher/tmp/llm-claude-0.2.0.tar.gz]
+[2023-07-23 12:41:51] INFO root fetch - main [MainThread]: End processing [llm-claude]: success
+[2023-07-23 12:41:51] INFO root fetch - processPackages [bdating-common]: Remove: archive file [/home/abi/fetcher/tmp/bdating-common-0.9.8.tar.gz]
+[2023-07-23 12:41:51] INFO root fetch - processPackages [bdating-common]: Remove: archive file [/home/abi/fetcher/tmp/bdating-common-0.9.9.tar.gz]
+[2023-07-23 12:41:51] INFO root fetch - main [MainThread]: End processing [bdating-common]: success
+[2023-07-23 12:41:51] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_account_edi_ubl-15.0.1.9.1-py3-none-any.whl.zip]
+[2023-07-23 12:41:51] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.11.0-py3-none-any.whl.zip]
+[2023-07-23 12:41:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-account-edi-ubl]: success
+[2023-07-23 12:41:51] INFO root fetch - processPackages [kitman]: Remove: archive file [/home/abi/fetcher/tmp/kitman-0.1.5.tar.gz]
+[2023-07-23 12:41:51] INFO root fetch - processPackages [kitman]: Remove: archive file [/home/abi/fetcher/tmp/kitman-0.2.0.tar.gz]
+[2023-07-23 12:41:51] INFO root fetch - main [MainThread]: End processing [kitman]: success
+[2023-07-23 12:41:52] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230721.tar.gz]
+[2023-07-23 12:41:52] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230722.tar.gz]
+[2023-07-23 12:41:52] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2023-07-23 12:41:53] INFO root fetch - processPackages [moptipyapps]: Remove: archive file [/home/abi/fetcher/tmp/moptipyapps-0.8.8.tar.gz]
+[2023-07-23 12:41:53] INFO root fetch - processPackages [moptipyapps]: Remove: archive file [/home/abi/fetcher/tmp/moptipyapps-0.8.9.tar.gz]
+[2023-07-23 12:41:53] INFO root fetch - main [MainThread]: End processing [moptipyapps]: success
+[2023-07-23 12:41:53] INFO root fetch - main [MainThread]: Store serial: [19000925]
