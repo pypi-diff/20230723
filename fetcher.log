@@ -10590,3 +10590,58 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 17:47:58] INFO root fetch - processPackages [ooo-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ooo_dev_tools-0.9.8.tar.gz]
 [2023-07-23 17:47:58] INFO root fetch - main [MainThread]: End processing [ooo-dev-tools]: success
 [2023-07-23 17:47:58] INFO root fetch - main [MainThread]: Store serial: [19002838]
+[2023-07-23 17:53:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19002838]
+[2023-07-23 17:53:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-23 17:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Vpro
+[2023-07-23 17:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: posaydones-material-theming
+[2023-07-23 17:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: WorldD
+[2023-07-23 17:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: brishgarden
+[2023-07-23 17:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: posaydones-material-theming
+[2023-07-23 17:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scFates
+[2023-07-23 17:53:06] INFO root fetch - processPackages [posaydones-material-theming]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-23 17:53:06] INFO root fetch - processPackages [WorldD]: New version: [0.12] Old Version: [0.11]
+[2023-07-23 17:53:06] INFO root fetch - processPackages [brishgarden]: New version: [0.2.3.1] Old Version: [0.2.3]
+[2023-07-23 17:53:06] INFO root fetch - processPackages [Vpro]: New version: [0.28] Old Version: [0.27]
+[2023-07-23 17:53:06] INFO root fetch - processPackages [posaydones-material-theming]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-23 17:53:07] INFO root fetch - processPackages [scFates]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-23 17:53:07] INFO root fetch - processPackages [posaydones-material-theming]: Downloading https://files.pythonhosted.org/packages/f6/fe/2771ddca87c77703f25d503b64f3169319180a861587b0071e7069b6a6cc/posaydones-material-theming-1.0.2.tar.gz
+[2023-07-23 17:53:07] INFO root fetch - processPackages [posaydones-material-theming]: Downloading https://files.pythonhosted.org/packages/f6/fe/2771ddca87c77703f25d503b64f3169319180a861587b0071e7069b6a6cc/posaydones-material-theming-1.0.2.tar.gz
+[2023-07-23 17:53:07] INFO root fetch - processPackages [brishgarden]: Downloading https://files.pythonhosted.org/packages/25/03/9882911f9518703f1d14f1f21d856bc083d017ce02d55657a5cc376abb53/brishgarden-0.2.3.tar.gz
+[2023-07-23 17:53:07] INFO root fetch - processPackages [WorldD]: Downloading https://files.pythonhosted.org/packages/06/89/1fb7441b8767c49d74edb5d64d8f2f37e8bde064fad95cfd8a72582beb06/WorldD-0.11.tar.gz
+[2023-07-23 17:53:07] INFO root fetch - processPackages [Vpro]: Downloading https://files.pythonhosted.org/packages/76/5b/ace43821aefa8a05fd0c2ef3db7d5af9d3777b04208e8895ec92b7d9b2a6/Vpro-0.27.tar.gz
+[2023-07-23 17:53:07] INFO root fetch - processPackages [scFates]: Downloading https://files.pythonhosted.org/packages/5e/7d/c0db5a1b54900a0b07822b9d88752ccc9a1496c7482610b6dc28702f871c/scFates-1.0.2.tar.gz
+[2023-07-23 17:53:07] INFO root fetch - processPackages [posaydones-material-theming]: Downloading https://files.pythonhosted.org/packages/5f/cd/ba5ba9e11bbd8c30576eb0159fd4b438ebe9b0609e998080e53516ff742d/posaydones-material-theming-1.0.3.tar.gz
+[2023-07-23 17:53:07] INFO root fetch - processPackages [posaydones-material-theming]: Downloading https://files.pythonhosted.org/packages/5f/cd/ba5ba9e11bbd8c30576eb0159fd4b438ebe9b0609e998080e53516ff742d/posaydones-material-theming-1.0.3.tar.gz
+[2023-07-23 17:53:07] INFO root fetch - processPackages [WorldD]: Downloading https://files.pythonhosted.org/packages/fb/2b/c36ce79d1524d31961f01ac0370c5a7aac091527915dfcbf567cb5db81b2/WorldD-0.12.tar.gz
+[2023-07-23 17:53:07] INFO root fetch - processPackages [Vpro]: Downloading https://files.pythonhosted.org/packages/32/05/2d35588059a8289f8387f2912160ed594e3438529dc8c07e2b011c2077d2/Vpro-0.28.tar.gz
+[2023-07-23 17:53:07] INFO root fetch - processPackages [brishgarden]: Downloading https://files.pythonhosted.org/packages/31/83/f2fe2f43108e64f1760b27dbf104475df3cd38825e79119ddbd2d48d1913/brishgarden-0.2.3.1.tar.gz
+[2023-07-23 17:53:07] INFO root fetch - processPackages [WorldD]: executing diffoscope
+[2023-07-23 17:53:07] INFO root fetch - processPackages [WorldD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WorldD-0.11.tar.gz tmp/WorldD-0.12.tar.gz --markdown 20230723/W/WorldD/0.11-0.12/diff.md --exclude *.pyd
+[2023-07-23 17:53:07] INFO root fetch - processPackages [scFates]: Downloading https://files.pythonhosted.org/packages/30/a4/d0e30e02f50d47c9a59d62148af6342b28dd10a53241a0c033fe6dbbd127/scFates-1.0.3.tar.gz
+[2023-07-23 17:53:07] INFO root fetch - processPackages [Vpro]: executing diffoscope
+[2023-07-23 17:53:07] INFO root fetch - processPackages [Vpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Vpro-0.27.tar.gz tmp/Vpro-0.28.tar.gz --markdown 20230723/V/Vpro/0.27-0.28/diff.md --exclude *.pyd
+[2023-07-23 17:53:07] INFO root fetch - processPackages [posaydones-material-theming]: executing diffoscope
+[2023-07-23 17:53:07] INFO root fetch - processPackages [posaydones-material-theming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/posaydones-material-theming-1.0.2.tar.gz tmp/posaydones-material-theming-1.0.3.tar.gz --markdown 20230723/p/posaydones-material-theming/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-23 17:53:07] INFO root fetch - processPackages [posaydones-material-theming]: executing diffoscope
+[2023-07-23 17:53:07] INFO root fetch - processPackages [posaydones-material-theming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/posaydones-material-theming-1.0.2.tar.gz tmp/posaydones-material-theming-1.0.3.tar.gz --markdown 20230723/p/posaydones-material-theming/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-23 17:53:07] INFO root fetch - processPackages [brishgarden]: executing diffoscope
+[2023-07-23 17:53:07] INFO root fetch - processPackages [brishgarden]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brishgarden-0.2.3.tar.gz tmp/brishgarden-0.2.3.1.tar.gz --markdown 20230723/b/brishgarden/0.2.3-0.2.3.1/diff.md --exclude *.pyd
+[2023-07-23 17:53:08] INFO root fetch - processPackages [scFates]: executing diffoscope
+[2023-07-23 17:53:08] INFO root fetch - processPackages [scFates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scFates-1.0.2.tar.gz tmp/scFates-1.0.3.tar.gz --markdown 20230723/s/scFates/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-23 17:53:08] INFO root fetch - processPackages [posaydones-material-theming]: Remove: archive file [/home/abi/fetcher/tmp/posaydones-material-theming-1.0.2.tar.gz]
+[2023-07-23 17:53:08] INFO root fetch - processPackages [posaydones-material-theming]: Remove: archive file [/home/abi/fetcher/tmp/posaydones-material-theming-1.0.3.tar.gz]
+[2023-07-23 17:53:08] INFO root fetch - main [MainThread]: End processing [posaydones-material-theming]: success
+[2023-07-23 17:53:08] INFO root fetch - main [MainThread]: End processing [posaydones-material-theming]: success
+[2023-07-23 17:53:08] INFO root fetch - processPackages [brishgarden]: Remove: archive file [/home/abi/fetcher/tmp/brishgarden-0.2.3.tar.gz]
+[2023-07-23 17:53:08] INFO root fetch - processPackages [brishgarden]: Remove: archive file [/home/abi/fetcher/tmp/brishgarden-0.2.3.1.tar.gz]
+[2023-07-23 17:53:08] INFO root fetch - main [MainThread]: End processing [brishgarden]: success
+[2023-07-23 17:53:08] INFO root fetch - processPackages [WorldD]: Remove: archive file [/home/abi/fetcher/tmp/WorldD-0.11.tar.gz]
+[2023-07-23 17:53:08] INFO root fetch - processPackages [WorldD]: Remove: archive file [/home/abi/fetcher/tmp/WorldD-0.12.tar.gz]
+[2023-07-23 17:53:08] INFO root fetch - main [MainThread]: End processing [WorldD]: success
+[2023-07-23 17:53:08] INFO root fetch - processPackages [Vpro]: Remove: archive file [/home/abi/fetcher/tmp/Vpro-0.27.tar.gz]
+[2023-07-23 17:53:08] INFO root fetch - processPackages [Vpro]: Remove: archive file [/home/abi/fetcher/tmp/Vpro-0.28.tar.gz]
+[2023-07-23 17:53:08] INFO root fetch - main [MainThread]: End processing [Vpro]: success
+[2023-07-23 17:53:09] INFO root fetch - processPackages [scFates]: Remove: archive file [/home/abi/fetcher/tmp/scFates-1.0.2.tar.gz]
+[2023-07-23 17:53:09] INFO root fetch - processPackages [scFates]: Remove: archive file [/home/abi/fetcher/tmp/scFates-1.0.3.tar.gz]
+[2023-07-23 17:53:09] INFO root fetch - main [MainThread]: End processing [scFates]: success
+[2023-07-23 17:53:09] INFO root fetch - main [MainThread]: Store serial: [19002854]
