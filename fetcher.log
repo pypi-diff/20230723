@@ -15498,3 +15498,66 @@ AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
 [2023-07-23 23:25:31] INFO root fetch - main [MainThread]: End processing [streamlitopencvplayer]: success
 [2023-07-23 23:25:31] INFO root fetch - main [MainThread]: End processing [mynacode]: success
 [2023-07-23 23:25:31] INFO root fetch - main [MainThread]: Store serial: [19004947]
+[2023-07-23 23:30:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19004947]
+[2023-07-23 23:30:39] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-23 23:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reddit-dl
+[2023-07-23 23:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grimoire-elk
+[2023-07-23 23:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: code-loader
+[2023-07-23 23:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpyt
+[2023-07-23 23:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: issacto
+[2023-07-23 23:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hoskerlatch
+[2023-07-23 23:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: photondemo
+[2023-07-23 23:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pillar1
+[2023-07-23 23:30:39] INFO root fetch - processPackages [hoskerlatch]: New version: [1.2.0] Old Version: [1.0.0]
+[2023-07-23 23:30:39] WARNING root fetch - processPackages [issacto]: Skipping, unable to determine old version
+[2023-07-23 23:30:39] INFO root fetch - main [MainThread]: End processing [issacto] error
+[2023-07-23 23:30:39] INFO root fetch - processPackages [photondemo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 23:30:39] INFO root fetch - processPackages [gpyt]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-23 23:30:39] INFO root fetch - processPackages [grimoire-elk]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-07-23 23:30:39] INFO root fetch - processPackages [pillar1]: New version: [0.1.9.9] Old Version: [0.1.9.8]
+[2023-07-23 23:30:39] INFO root fetch - processPackages [code-loader]: New version: [0.2.9] Old Version: [0.2.84.dev4]
+[2023-07-23 23:30:39] WARNING root fetch - processPackages [reddit-dl]: Skipping, unable to determine old version
+[2023-07-23 23:30:39] INFO root fetch - main [MainThread]: End processing [reddit-dl] error
+[2023-07-23 23:30:40] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/fd/c8/dc894f4393d99c54f62ae98519892157e6b0e0327ac1f0b1a261450e9868/pillar1-0.1.9.8.tar.gz
+[2023-07-23 23:30:40] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/01/1c/191acb0990d3ecfd7e611c5188801d1891b2beec2e5a30f8a8f469a55266/code_loader-0.2.84.dev4.tar.gz
+[2023-07-23 23:30:40] INFO root fetch - processPackages [photondemo]: Downloading https://files.pythonhosted.org/packages/0a/6d/7932cd610a0541b76d781bb7f7bdd31d7a2f5dd2384d1eac4c2f87af88f3/photondemo-0.0.8.tar.gz
+[2023-07-23 23:30:40] INFO root fetch - processPackages [hoskerlatch]: Downloading https://files.pythonhosted.org/packages/4a/23/af8b83057b558b3e218df9fff75fa9c9821b94a46d2755bb8379f5b1a03b/hoskerlatch-1.0.0.tar.gz
+[2023-07-23 23:30:40] INFO root fetch - processPackages [gpyt]: Downloading https://files.pythonhosted.org/packages/7f/d3/b17aac5e24d33b266c17f2b984cbf3b796885c37c9c4d83f5686d0710a85/gpyt-0.2.8.tar.gz
+[2023-07-23 23:30:40] INFO root fetch - processPackages [grimoire-elk]: Downloading https://files.pythonhosted.org/packages/6e/6b/26e2cafa568bb7a51ea5d1be8c64dd391ab1aa2cd01232155f52ad48b67c/grimoire-elk-0.98.0.tar.gz
+[2023-07-23 23:30:40] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/92/8d/efcf5703708adcc432230e0d510fec42756434d28ae2e4b4348f30be2eef/pillar1-0.1.9.9.tar.gz
+[2023-07-23 23:30:40] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-07-23 23:30:40] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.9.8.tar.gz tmp/pillar1-0.1.9.9.tar.gz --markdown 20230723/p/pillar1/0.1.9.8-0.1.9.9/diff.md --exclude *.pyd
+[2023-07-23 23:30:40] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/23/3d/c50351675c5df1eec25c494b3e7b9f9b516c43bd5d3db8cc4447604a8f74/code-loader-0.2.9.tar.gz
+[2023-07-23 23:30:40] INFO root fetch - processPackages [hoskerlatch]: Downloading https://files.pythonhosted.org/packages/46/7f/4a994e0e1f4eb32680968dea76be5290a945766b7a3c19ed3f6627521c38/hoskerlatch-1.2.0.tar.gz
+[2023-07-23 23:30:40] INFO root fetch - processPackages [gpyt]: Downloading https://files.pythonhosted.org/packages/a9/66/b60384915b7d030e84c5815bb2d3e307e2d6014f31c06cb7c3195f75d1fd/gpyt-0.2.9.tar.gz
+[2023-07-23 23:30:40] INFO root fetch - processPackages [photondemo]: Downloading https://files.pythonhosted.org/packages/2f/9e/40812f7ad1e8f5454f4c951d1ed05c6cb8c153661e3ca9c0592c6603a2e0/photondemo-0.0.9.tar.gz
+[2023-07-23 23:30:40] INFO root fetch - processPackages [code-loader]: executing diffoscope
+[2023-07-23 23:30:40] INFO root fetch - processPackages [code-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code_loader-0.2.84.dev4.tar.gz tmp/code-loader-0.2.9.tar.gz --markdown 20230723/c/code-loader/0.2.84.dev4-0.2.9/diff.md --exclude *.pyd
+[2023-07-23 23:30:40] INFO root fetch - processPackages [hoskerlatch]: executing diffoscope
+[2023-07-23 23:30:40] INFO root fetch - processPackages [hoskerlatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoskerlatch-1.0.0.tar.gz tmp/hoskerlatch-1.2.0.tar.gz --markdown 20230723/h/hoskerlatch/1.0.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-23 23:30:40] INFO root fetch - processPackages [gpyt]: executing diffoscope
+[2023-07-23 23:30:40] INFO root fetch - processPackages [gpyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpyt-0.2.8.tar.gz tmp/gpyt-0.2.9.tar.gz --markdown 20230723/g/gpyt/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-23 23:30:40] INFO root fetch - processPackages [grimoire-elk]: Downloading https://files.pythonhosted.org/packages/94/9c/1d6de6f85b2b5e248e8a8caecf336a3c3a718fef571a361ac806e66bb816/grimoire-elk-0.99.0.tar.gz
+[2023-07-23 23:30:40] INFO root fetch - processPackages [photondemo]: executing diffoscope
+[2023-07-23 23:30:40] INFO root fetch - processPackages [photondemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/photondemo-0.0.8.tar.gz tmp/photondemo-0.0.9.tar.gz --markdown 20230723/p/photondemo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 23:30:40] INFO root fetch - processPackages [grimoire-elk]: executing diffoscope
+[2023-07-23 23:30:40] INFO root fetch - processPackages [grimoire-elk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grimoire-elk-0.98.0.tar.gz tmp/grimoire-elk-0.99.0.tar.gz --markdown 20230723/g/grimoire-elk/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-07-23 23:30:41] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.9.8.tar.gz]
+[2023-07-23 23:30:41] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.9.9.tar.gz]
+[2023-07-23 23:30:41] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-07-23 23:30:41] INFO root fetch - processPackages [hoskerlatch]: Remove: archive file [/home/abi/fetcher/tmp/hoskerlatch-1.0.0.tar.gz]
+[2023-07-23 23:30:41] INFO root fetch - processPackages [hoskerlatch]: Remove: archive file [/home/abi/fetcher/tmp/hoskerlatch-1.2.0.tar.gz]
+[2023-07-23 23:30:41] INFO root fetch - main [MainThread]: End processing [hoskerlatch]: success
+[2023-07-23 23:30:41] INFO root fetch - processPackages [gpyt]: Remove: archive file [/home/abi/fetcher/tmp/gpyt-0.2.8.tar.gz]
+[2023-07-23 23:30:41] INFO root fetch - processPackages [gpyt]: Remove: archive file [/home/abi/fetcher/tmp/gpyt-0.2.9.tar.gz]
+[2023-07-23 23:30:41] INFO root fetch - main [MainThread]: End processing [gpyt]: success
+[2023-07-23 23:30:41] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code_loader-0.2.84.dev4.tar.gz]
+[2023-07-23 23:30:41] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code-loader-0.2.9.tar.gz]
+[2023-07-23 23:30:41] INFO root fetch - main [MainThread]: End processing [code-loader]: success
+[2023-07-23 23:30:41] INFO root fetch - processPackages [photondemo]: Remove: archive file [/home/abi/fetcher/tmp/photondemo-0.0.8.tar.gz]
+[2023-07-23 23:30:41] INFO root fetch - processPackages [photondemo]: Remove: archive file [/home/abi/fetcher/tmp/photondemo-0.0.9.tar.gz]
+[2023-07-23 23:30:41] INFO root fetch - main [MainThread]: End processing [photondemo]: success
+[2023-07-23 23:30:42] INFO root fetch - processPackages [grimoire-elk]: Remove: archive file [/home/abi/fetcher/tmp/grimoire-elk-0.98.0.tar.gz]
+[2023-07-23 23:30:42] INFO root fetch - processPackages [grimoire-elk]: Remove: archive file [/home/abi/fetcher/tmp/grimoire-elk-0.99.0.tar.gz]
+[2023-07-23 23:30:42] INFO root fetch - main [MainThread]: End processing [grimoire-elk]: success
+[2023-07-23 23:30:42] INFO root fetch - main [MainThread]: Store serial: [19004972]
