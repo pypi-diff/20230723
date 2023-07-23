@@ -7946,3 +7946,63 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 14:31:36] INFO root fetch - processPackages [python-supporter]: Remove: archive file [/home/abi/fetcher/tmp/python-supporter-0.0.9.tar.gz]
 [2023-07-23 14:31:36] INFO root fetch - main [MainThread]: End processing [python-supporter]: success
 [2023-07-23 14:31:36] INFO root fetch - main [MainThread]: Store serial: [19001447]
+[2023-07-23 14:36:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19001447]
+[2023-07-23 14:36:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-23 14:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stGCL
+[2023-07-23 14:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyassorted
+[2023-07-23 14:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llamabot
+[2023-07-23 14:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SageLogger
+[2023-07-23 14:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: djangondor
+[2023-07-23 14:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: projen
+[2023-07-23 14:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fakesnow
+[2023-07-23 14:36:45] INFO root fetch - processPackages [llamabot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 14:36:45] INFO root fetch - processPackages [djangondor]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-23 14:36:45] WARNING root fetch - processPackages [stGCL]: Skipping, unable to determine old version
+[2023-07-23 14:36:45] INFO root fetch - processPackages [SageLogger]: New version: [1.3] Old Version: [1.0]
+[2023-07-23 14:36:45] INFO root fetch - main [MainThread]: End processing [stGCL] error
+[2023-07-23 14:36:45] INFO root fetch - processPackages [pyassorted]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-07-23 14:36:45] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-07-23 14:36:45] INFO root fetch - processPackages [fakesnow]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-07-23 14:36:45] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/31/05/7d4721877f2dde80d5bd40c84773d24b5486a794e78758d5c6c51a0e0ee0/llamabot-0.0.8.tar.gz
+[2023-07-23 14:36:45] INFO root fetch - processPackages [djangondor]: Downloading https://files.pythonhosted.org/packages/10/c7/a7be0c4ddf1427c9d50793bed644685e0d26a2e2fb43919f413f5bb791ed/djangondor-0.0.3.tar.gz
+[2023-07-23 14:36:45] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-07-23 14:36:45] INFO root fetch - processPackages [SageLogger]: Downloading https://files.pythonhosted.org/packages/ed/ad/81fb4168a674c522bba9f160b5064f42c3c572d5a64671aa4ff0e449d36b/SageLogger-1.0.tar.gz
+[2023-07-23 14:36:45] INFO root fetch - processPackages [pyassorted]: Downloading https://files.pythonhosted.org/packages/b9/eb/9201a184371dc49849be6af4caacf604e40512b5a59dcbe0ed3d58900ca5/pyassorted-0.7.5.tar.gz
+[2023-07-23 14:36:45] INFO root fetch - processPackages [fakesnow]: Downloading https://files.pythonhosted.org/packages/15/28/17755744632ce51875a74678b2fcb46e28552ffb5bc923db0f516da95ae0/fakesnow-0.4.1.tar.gz
+[2023-07-23 14:36:45] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/8c/77/360013b912689bcadc9699ffbfd0c59717ab5c032c425ce8f661e39484f5/llamabot-0.0.9.tar.gz
+[2023-07-23 14:36:45] INFO root fetch - processPackages [djangondor]: Downloading https://files.pythonhosted.org/packages/38/d1/646b6bc65c3a1f1aa03fae177fdb793b1c2197f3c5c33b47ec4b6d5a47d5/djangondor-0.0.4.tar.gz
+[2023-07-23 14:36:45] INFO root fetch - processPackages [llamabot]: executing diffoscope
+[2023-07-23 14:36:45] INFO root fetch - processPackages [llamabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamabot-0.0.8.tar.gz tmp/llamabot-0.0.9.tar.gz --markdown 20230723/l/llamabot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 14:36:46] INFO root fetch - processPackages [SageLogger]: Downloading https://files.pythonhosted.org/packages/c0/79/502cd2d11c25329443e865e190aa6ef8e849b9cc5de3393599db959720a7/SageLogger-1.3.tar.gz
+[2023-07-23 14:36:46] INFO root fetch - processPackages [pyassorted]: Downloading https://files.pythonhosted.org/packages/eb/92/ef97e8a99d6c4c514c3c9c586ab442ea056704e302f7225f878df46155e3/pyassorted-0.7.6.tar.gz
+[2023-07-23 14:36:46] INFO root fetch - processPackages [djangondor]: executing diffoscope
+[2023-07-23 14:36:46] INFO root fetch - processPackages [djangondor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangondor-0.0.3.tar.gz tmp/djangondor-0.0.4.tar.gz --markdown 20230723/d/djangondor/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-23 14:36:46] INFO root fetch - processPackages [fakesnow]: Downloading https://files.pythonhosted.org/packages/73/8c/7adf53503678d761328bb0f2475fcd421e1d9819db0b063707d74337984b/fakesnow-0.5.0.tar.gz
+[2023-07-23 14:36:46] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-07-23 14:36:46] INFO root fetch - processPackages [SageLogger]: executing diffoscope
+[2023-07-23 14:36:46] INFO root fetch - processPackages [SageLogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SageLogger-1.0.tar.gz tmp/SageLogger-1.3.tar.gz --markdown 20230723/S/SageLogger/1.0-1.3/diff.md --exclude *.pyd
+[2023-07-23 14:36:46] INFO root fetch - processPackages [pyassorted]: executing diffoscope
+[2023-07-23 14:36:46] INFO root fetch - processPackages [pyassorted]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyassorted-0.7.5.tar.gz tmp/pyassorted-0.7.6.tar.gz --markdown 20230723/p/pyassorted/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-07-23 14:36:46] INFO root fetch - processPackages [fakesnow]: executing diffoscope
+[2023-07-23 14:36:46] INFO root fetch - processPackages [fakesnow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fakesnow-0.4.1.tar.gz tmp/fakesnow-0.5.0.tar.gz --markdown 20230723/f/fakesnow/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-07-23 14:36:46] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-07-23 14:36:46] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230723/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-07-23 14:36:46] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.8.tar.gz]
+[2023-07-23 14:36:46] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.9.tar.gz]
+[2023-07-23 14:36:46] INFO root fetch - main [MainThread]: End processing [llamabot]: success
+[2023-07-23 14:36:47] INFO root fetch - processPackages [djangondor]: Remove: archive file [/home/abi/fetcher/tmp/djangondor-0.0.3.tar.gz]
+[2023-07-23 14:36:47] INFO root fetch - processPackages [djangondor]: Remove: archive file [/home/abi/fetcher/tmp/djangondor-0.0.4.tar.gz]
+[2023-07-23 14:36:47] INFO root fetch - main [MainThread]: End processing [djangondor]: success
+[2023-07-23 14:36:47] INFO root fetch - processPackages [SageLogger]: Remove: archive file [/home/abi/fetcher/tmp/SageLogger-1.0.tar.gz]
+[2023-07-23 14:36:47] INFO root fetch - processPackages [SageLogger]: Remove: archive file [/home/abi/fetcher/tmp/SageLogger-1.3.tar.gz]
+[2023-07-23 14:36:47] INFO root fetch - main [MainThread]: End processing [SageLogger]: success
+[2023-07-23 14:36:47] INFO root fetch - processPackages [pyassorted]: Remove: archive file [/home/abi/fetcher/tmp/pyassorted-0.7.5.tar.gz]
+[2023-07-23 14:36:47] INFO root fetch - processPackages [pyassorted]: Remove: archive file [/home/abi/fetcher/tmp/pyassorted-0.7.6.tar.gz]
+[2023-07-23 14:36:47] INFO root fetch - main [MainThread]: End processing [pyassorted]: success
+[2023-07-23 14:36:47] INFO root fetch - processPackages [fakesnow]: Remove: archive file [/home/abi/fetcher/tmp/fakesnow-0.4.1.tar.gz]
+[2023-07-23 14:36:47] INFO root fetch - processPackages [fakesnow]: Remove: archive file [/home/abi/fetcher/tmp/fakesnow-0.5.0.tar.gz]
+[2023-07-23 14:36:47] INFO root fetch - main [MainThread]: End processing [fakesnow]: success
+[2023-07-23 14:36:47] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-07-23 14:36:47] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-07-23 14:36:47] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-07-23 14:36:47] INFO root fetch - main [MainThread]: Store serial: [19001480]
