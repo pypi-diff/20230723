@@ -4463,3 +4463,33 @@
 [2023-07-23 08:53:17] INFO root fetch - processPackages [keycmd]: Remove: archive file [/home/abi/fetcher/tmp/keycmd-0.2.0.tar.gz]
 [2023-07-23 08:53:17] INFO root fetch - main [MainThread]: End processing [keycmd]: success
 [2023-07-23 08:53:17] INFO root fetch - main [MainThread]: Store serial: [18999916]
+[2023-07-23 08:58:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999916]
+[2023-07-23 08:58:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-23 08:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codeless-django
+[2023-07-23 08:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudshell-automation-api
+[2023-07-23 08:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vinhvh-package
+[2023-07-23 08:58:27] INFO root fetch - processPackages [codeless-django]: New version: [0.0.14] Old Version: [0.0.13]
+[2023-07-23 08:58:27] INFO root fetch - processPackages [vinhvh-package]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-23 08:58:27] INFO root fetch - processPackages [cloudshell-automation-api]: New version: [9.3.0.177156] Old Version: [9.3.0.176686]
+[2023-07-23 08:58:27] INFO root fetch - processPackages [vinhvh-package]: Downloading https://files.pythonhosted.org/packages/f1/e0/7bdf948f6de7eeee84766a6839b5e754d24f0a3810cb478fee9b844b5f21/vinhvh_package-0.0.2.tar.gz
+[2023-07-23 08:58:27] INFO root fetch - processPackages [codeless-django]: Downloading https://files.pythonhosted.org/packages/96/5a/a10c5552c0cbfde58d7ead4e5da31d7ce08492685d2d997444b376e71aec/codeless-django-0.0.13.tar.gz
+[2023-07-23 08:58:27] INFO root fetch - processPackages [cloudshell-automation-api]: Downloading https://files.pythonhosted.org/packages/88/5d/452fb9e91f1243980ee0c603397abb8c74ae04daa14c13a2c8385b1cfda3/cloudshell-automation-api-9.3.0.176686.tar.gz
+[2023-07-23 08:58:27] INFO root fetch - processPackages [vinhvh-package]: Downloading https://files.pythonhosted.org/packages/24/48/ca4f4b429aff43c521d9885d8658ccad137420e50987beb426252eef7b93/vinhvh_package-0.0.3.tar.gz
+[2023-07-23 08:58:27] INFO root fetch - processPackages [codeless-django]: Downloading https://files.pythonhosted.org/packages/e3/32/8161b7dbb2a52414e403fda7c45e94fd2095f13899ed694aacdeecde26f8/codeless-django-0.0.14.tar.gz
+[2023-07-23 08:58:27] INFO root fetch - processPackages [cloudshell-automation-api]: Downloading https://files.pythonhosted.org/packages/c4/bc/679059012e6aa088d27763edbfa0e7d0db7b0db10c4f2c2d14dff4fb4367/cloudshell-automation-api-9.3.0.177156.tar.gz
+[2023-07-23 08:58:27] INFO root fetch - processPackages [vinhvh-package]: executing diffoscope
+[2023-07-23 08:58:27] INFO root fetch - processPackages [vinhvh-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vinhvh_package-0.0.2.tar.gz tmp/vinhvh_package-0.0.3.tar.gz --markdown 20230723/v/vinhvh-package/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-23 08:58:27] INFO root fetch - processPackages [codeless-django]: executing diffoscope
+[2023-07-23 08:58:27] INFO root fetch - processPackages [codeless-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeless-django-0.0.13.tar.gz tmp/codeless-django-0.0.14.tar.gz --markdown 20230723/c/codeless-django/0.0.13-0.0.14/diff.md --exclude *.pyd
+[2023-07-23 08:58:27] INFO root fetch - processPackages [cloudshell-automation-api]: executing diffoscope
+[2023-07-23 08:58:27] INFO root fetch - processPackages [cloudshell-automation-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudshell-automation-api-9.3.0.176686.tar.gz tmp/cloudshell-automation-api-9.3.0.177156.tar.gz --markdown 20230723/c/cloudshell-automation-api/9.3.0.176686-9.3.0.177156/diff.md --exclude *.pyd
+[2023-07-23 08:58:28] INFO root fetch - processPackages [vinhvh-package]: Remove: archive file [/home/abi/fetcher/tmp/vinhvh_package-0.0.2.tar.gz]
+[2023-07-23 08:58:28] INFO root fetch - processPackages [vinhvh-package]: Remove: archive file [/home/abi/fetcher/tmp/vinhvh_package-0.0.3.tar.gz]
+[2023-07-23 08:58:28] INFO root fetch - main [MainThread]: End processing [vinhvh-package]: success
+[2023-07-23 08:58:28] INFO root fetch - processPackages [cloudshell-automation-api]: Remove: archive file [/home/abi/fetcher/tmp/cloudshell-automation-api-9.3.0.176686.tar.gz]
+[2023-07-23 08:58:28] INFO root fetch - processPackages [cloudshell-automation-api]: Remove: archive file [/home/abi/fetcher/tmp/cloudshell-automation-api-9.3.0.177156.tar.gz]
+[2023-07-23 08:58:28] INFO root fetch - main [MainThread]: End processing [cloudshell-automation-api]: success
+[2023-07-23 08:58:28] INFO root fetch - processPackages [codeless-django]: Remove: archive file [/home/abi/fetcher/tmp/codeless-django-0.0.13.tar.gz]
+[2023-07-23 08:58:28] INFO root fetch - processPackages [codeless-django]: Remove: archive file [/home/abi/fetcher/tmp/codeless-django-0.0.14.tar.gz]
+[2023-07-23 08:58:28] INFO root fetch - main [MainThread]: End processing [codeless-django]: success
+[2023-07-23 08:58:28] INFO root fetch - main [MainThread]: Store serial: [18999924]
