@@ -8912,3 +8912,24 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 15:42:29] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.499.0.tar.gz]
 [2023-07-23 15:42:29] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
 [2023-07-23 15:42:29] INFO root fetch - main [MainThread]: Store serial: [19002011]
+[2023-07-23 15:47:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19002011]
+[2023-07-23 15:47:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-23 15:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlfile
+[2023-07-23 15:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: studentanalysis-pckg
+[2023-07-23 15:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py4D-browser
+[2023-07-23 15:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cece
+[2023-07-23 15:47:38] WARNING root fetch - processPackages [cece]: Skipping, unable to determine old version
+[2023-07-23 15:47:38] INFO root fetch - main [MainThread]: End processing [cece] error
+[2023-07-23 15:47:38] WARNING root fetch - processPackages [mlfile]: Skipping, unable to determine old version
+[2023-07-23 15:47:38] INFO root fetch - main [MainThread]: End processing [mlfile] error
+[2023-07-23 15:47:38] INFO root fetch - processPackages [py4D-browser]: New version: [0.999] Old Version: [0.99]
+[2023-07-23 15:47:38] WARNING root fetch - processPackages [studentanalysis-pckg]: Skipping, unable to determine old version
+[2023-07-23 15:47:38] INFO root fetch - main [MainThread]: End processing [studentanalysis-pckg] error
+[2023-07-23 15:47:38] INFO root fetch - processPackages [py4D-browser]: Downloading https://files.pythonhosted.org/packages/2c/e6/6697b320ac2fd22aa66bc64161083a1902b6de88f19502e0eb7642d92236/py4D_browser-0.99.tar.gz
+[2023-07-23 15:47:38] INFO root fetch - processPackages [py4D-browser]: Downloading https://files.pythonhosted.org/packages/5c/6d/9d5b517ba4432a00eba5cbf37179dc051b2ebc6acf360f2893c865ba3b02/py4D_browser-0.999.tar.gz
+[2023-07-23 15:47:38] INFO root fetch - processPackages [py4D-browser]: executing diffoscope
+[2023-07-23 15:47:38] INFO root fetch - processPackages [py4D-browser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py4D_browser-0.99.tar.gz tmp/py4D_browser-0.999.tar.gz --markdown 20230723/p/py4D-browser/0.99-0.999/diff.md --exclude *.pyd
+[2023-07-23 15:47:39] INFO root fetch - processPackages [py4D-browser]: Remove: archive file [/home/abi/fetcher/tmp/py4D_browser-0.99.tar.gz]
+[2023-07-23 15:47:39] INFO root fetch - processPackages [py4D-browser]: Remove: archive file [/home/abi/fetcher/tmp/py4D_browser-0.999.tar.gz]
+[2023-07-23 15:47:39] INFO root fetch - main [MainThread]: End processing [py4D-browser]: success
+[2023-07-23 15:47:39] INFO root fetch - main [MainThread]: Store serial: [19002027]
