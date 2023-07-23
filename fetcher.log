@@ -4254,3 +4254,51 @@
 [2023-07-23 08:16:56] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230722.tar.gz]
 [2023-07-23 08:16:56] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-07-23 08:16:56] INFO root fetch - main [MainThread]: Store serial: [18999831]
+[2023-07-23 08:22:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999831]
+[2023-07-23 08:22:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-23 08:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: processpiper
+[2023-07-23 08:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: great-expectations-experimental
+[2023-07-23 08:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geography
+[2023-07-23 08:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-license-manager
+[2023-07-23 08:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yaylib
+[2023-07-23 08:22:06] INFO root fetch - processPackages [processpiper]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-23 08:22:06] INFO root fetch - processPackages [yaylib]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-23 08:22:06] INFO root fetch - processPackages [geography]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 08:22:06] INFO root fetch - processPackages [python-license-manager]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-23 08:22:06] INFO root fetch - processPackages [great-expectations-experimental]: New version: [0.1.20230723002] Old Version: [0.1.20230720119]
+[2023-07-23 08:22:06] INFO root fetch - processPackages [geography]: Downloading https://files.pythonhosted.org/packages/eb/ae/5da084e2061fe125d0b6c140bdbc3a046b3b24641a7e2be112461a228052/geography-0.0.8.tar.gz
+[2023-07-23 08:22:06] INFO root fetch - processPackages [yaylib]: Downloading https://files.pythonhosted.org/packages/6b/9e/8a291f0ad4450aa40b74b5ddd8c02713b7dbc0780b7e647fd03695adb2d7/yaylib-1.0.4.tar.gz
+[2023-07-23 08:22:06] INFO root fetch - processPackages [processpiper]: Downloading https://files.pythonhosted.org/packages/60/22/da078b7bc7e655e34f944f6303942bbbc9025e59d2405aeea48047cd8d78/processpiper-0.4.1.tar.gz
+[2023-07-23 08:22:06] INFO root fetch - processPackages [python-license-manager]: Downloading https://files.pythonhosted.org/packages/1c/56/249c6e42bae95b278d2dd80c738ff5248664ac6844193f61146b1d1a8d9d/python_license_manager-0.2.7-py3-none-any.whl
+[2023-07-23 08:22:06] INFO root fetch - processPackages [great-expectations-experimental]: Downloading https://files.pythonhosted.org/packages/f3/52/ebe0474660bef8c91e7ca9d182d30df4d67c576a0ca0d3b25ae796062df3/great_expectations_experimental-0.1.20230720119.tar.gz
+[2023-07-23 08:22:06] INFO root fetch - processPackages [geography]: Downloading https://files.pythonhosted.org/packages/40/30/bdea1bdd15ad1e1e66ed2f8c5cf90434d2c0cfc355c3d017977d196a19bd/geography-0.0.9.tar.gz
+[2023-07-23 08:22:06] INFO root fetch - processPackages [yaylib]: Downloading https://files.pythonhosted.org/packages/64/27/c53e62ed5f5b5c9822470bca7c83c1621eb169485ebe5edd712f7b7491b3/yaylib-1.0.5.tar.gz
+[2023-07-23 08:22:06] INFO root fetch - processPackages [processpiper]: Downloading https://files.pythonhosted.org/packages/18/4a/00393dae13dff75202305113d0c37fb19fffff8af6a49d4250b20fecf318/processpiper-0.4.2.tar.gz
+[2023-07-23 08:22:06] INFO root fetch - processPackages [geography]: executing diffoscope
+[2023-07-23 08:22:06] INFO root fetch - processPackages [geography]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geography-0.0.8.tar.gz tmp/geography-0.0.9.tar.gz --markdown 20230723/g/geography/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 08:22:06] INFO root fetch - processPackages [python-license-manager]: Downloading https://files.pythonhosted.org/packages/07/61/ccc1a3d695ad0868871344159f3d5b918b7ca4a15b34fc9c527ad02da966/python_license_manager-0.2.8-py3-none-any.whl
+[2023-07-23 08:22:07] INFO root fetch - processPackages [great-expectations-experimental]: Downloading https://files.pythonhosted.org/packages/ab/5b/22f2c9570fef8739867d968c98a05d715a06307cb2d39f67ea2e532008e2/great_expectations_experimental-0.1.20230723002.tar.gz
+[2023-07-23 08:22:07] INFO root fetch - processPackages [processpiper]: executing diffoscope
+[2023-07-23 08:22:07] INFO root fetch - processPackages [processpiper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/processpiper-0.4.1.tar.gz tmp/processpiper-0.4.2.tar.gz --markdown 20230723/p/processpiper/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-23 08:22:07] INFO root fetch - processPackages [python-license-manager]: executing diffoscope
+[2023-07-23 08:22:07] INFO root fetch - processPackages [python-license-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_license_manager-0.2.7-py3-none-any.whl.zip tmp/python_license_manager-0.2.8-py3-none-any.whl.zip --markdown 20230723/p/python-license-manager/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-23 08:22:07] INFO root fetch - processPackages [yaylib]: executing diffoscope
+[2023-07-23 08:22:07] INFO root fetch - processPackages [yaylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaylib-1.0.4.tar.gz tmp/yaylib-1.0.5.tar.gz --markdown 20230723/y/yaylib/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-23 08:22:07] INFO root fetch - processPackages [great-expectations-experimental]: executing diffoscope
+[2023-07-23 08:22:07] INFO root fetch - processPackages [great-expectations-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/great_expectations_experimental-0.1.20230720119.tar.gz tmp/great_expectations_experimental-0.1.20230723002.tar.gz --markdown 20230723/g/great-expectations-experimental/0.1.20230720119-0.1.20230723002/diff.md --exclude *.pyd
+[2023-07-23 08:22:07] INFO root fetch - processPackages [geography]: Remove: archive file [/home/abi/fetcher/tmp/geography-0.0.8.tar.gz]
+[2023-07-23 08:22:07] INFO root fetch - processPackages [geography]: Remove: archive file [/home/abi/fetcher/tmp/geography-0.0.9.tar.gz]
+[2023-07-23 08:22:07] INFO root fetch - main [MainThread]: End processing [geography]: success
+[2023-07-23 08:22:08] INFO root fetch - processPackages [processpiper]: Remove: archive file [/home/abi/fetcher/tmp/processpiper-0.4.1.tar.gz]
+[2023-07-23 08:22:08] INFO root fetch - processPackages [processpiper]: Remove: archive file [/home/abi/fetcher/tmp/processpiper-0.4.2.tar.gz]
+[2023-07-23 08:22:08] INFO root fetch - main [MainThread]: End processing [processpiper]: success
+[2023-07-23 08:22:08] INFO root fetch - processPackages [python-license-manager]: Remove: archive file [/home/abi/fetcher/tmp/python_license_manager-0.2.7-py3-none-any.whl.zip]
+[2023-07-23 08:22:08] INFO root fetch - processPackages [python-license-manager]: Remove: archive file [/home/abi/fetcher/tmp/python_license_manager-0.2.8-py3-none-any.whl.zip]
+[2023-07-23 08:22:08] INFO root fetch - main [MainThread]: End processing [python-license-manager]: success
+[2023-07-23 08:22:08] INFO root fetch - processPackages [yaylib]: Remove: archive file [/home/abi/fetcher/tmp/yaylib-1.0.4.tar.gz]
+[2023-07-23 08:22:08] INFO root fetch - processPackages [yaylib]: Remove: archive file [/home/abi/fetcher/tmp/yaylib-1.0.5.tar.gz]
+[2023-07-23 08:22:08] INFO root fetch - main [MainThread]: End processing [yaylib]: success
+[2023-07-23 08:22:08] INFO root fetch - processPackages [great-expectations-experimental]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations_experimental-0.1.20230720119.tar.gz]
+[2023-07-23 08:22:08] INFO root fetch - processPackages [great-expectations-experimental]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations_experimental-0.1.20230723002.tar.gz]
+[2023-07-23 08:22:08] INFO root fetch - main [MainThread]: End processing [great-expectations-experimental]: success
+[2023-07-23 08:22:08] INFO root fetch - main [MainThread]: Store serial: [18999851]
