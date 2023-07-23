@@ -13267,3 +13267,94 @@ AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
 [2023-07-23 20:57:06] INFO root fetch - processPackages [pythonfinder]: Remove: archive file [/home/abi/fetcher/tmp/pythonfinder-2.0.5.tar.gz]
 [2023-07-23 20:57:06] INFO root fetch - main [MainThread]: End processing [pythonfinder]: success
 [2023-07-23 20:57:06] INFO root fetch - main [MainThread]: Store serial: [19004099]
+[2023-07-23 21:02:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19004099]
+[2023-07-23 21:02:15] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-23 21:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyarr
+[2023-07-23 21:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gogo-cli
+[2023-07-23 21:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: retakesearch-py
+[2023-07-23 21:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: retakesearch
+[2023-07-23 21:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moosez
+[2023-07-23 21:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tempren
+[2023-07-23 21:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: temp-api
+[2023-07-23 21:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qtgql
+[2023-07-23 21:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: MedicalImageConverter
+[2023-07-23 21:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: metaphor-connectors
+[2023-07-23 21:02:15] WARNING root fetch - processPackages [retakesearch]: Skipping, unable to determine old version
+[2023-07-23 21:02:15] INFO root fetch - processPackages [retakesearch]: Start processing: spotRiver
+[2023-07-23 21:02:15] INFO root fetch - main [MainThread]: End processing [retakesearch] error
+[2023-07-23 21:02:15] WARNING root fetch - processPackages [temp-api]: Skipping, unable to determine old version
+[2023-07-23 21:02:15] INFO root fetch - processPackages [temp-api]: Start processing: datahelp
+[2023-07-23 21:02:15] INFO root fetch - main [MainThread]: End processing [temp-api] error
+[2023-07-23 21:02:15] INFO root fetch - processPackages [gogo-cli]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-23 21:02:15] INFO root fetch - processPackages [pyarr]: New version: [5.1.1] Old Version: [5.1.0]
+[2023-07-23 21:02:15] INFO root fetch - processPackages [moosez]: New version: [2.2.4] Old Version: [2.2.3]
+[2023-07-23 21:02:15] INFO root fetch - processPackages [MedicalImageConverter]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-23 21:02:15] WARNING root fetch - processPackages [retakesearch-py]: Skipping, unable to determine old version
+[2023-07-23 21:02:15] INFO root fetch - main [MainThread]: End processing [retakesearch-py] error
+[2023-07-23 21:02:15] INFO root fetch - processPackages [tempren]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-07-23 21:02:15] INFO root fetch - processPackages [qtgql]: New version: [0.130.2] Old Version: [0.129.2]
+[2023-07-23 21:02:15] INFO root fetch - processPackages [metaphor-connectors]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-23 21:02:15] INFO root fetch - processPackages [datahelp]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-23 21:02:15] INFO root fetch - processPackages [spotRiver]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-23 21:02:15] INFO root fetch - processPackages [MedicalImageConverter]: Downloading https://files.pythonhosted.org/packages/96/e7/3dc005d6ff6a72ed70243f63adcdef586e98ad28637983ec3f051bb57288/MedicalImageConverter-1.0.3.tar.gz
+[2023-07-23 21:02:15] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/db/d3/b82ffade12873d6e4b53536b94ecd79ea54ed5d18eb0d90ffa4759f31f2f/moosez-2.2.3.tar.gz
+[2023-07-23 21:02:15] INFO root fetch - processPackages [datahelp]: Downloading https://files.pythonhosted.org/packages/b5/1a/7f44375aa7b215e04d53938942e6b8bf95bb365cc4ecd60db85357f08fcf/datahelp-0.1.5.tar.gz
+[2023-07-23 21:02:15] INFO root fetch - processPackages [spotRiver]: Downloading https://files.pythonhosted.org/packages/67/69/d646739daf9e9434499e3cf5d1d62ba2ed86ecd62f113177a90575eb517c/spotRiver-0.0.98.tar.gz
+[2023-07-23 21:02:15] INFO root fetch - processPackages [gogo-cli]: Downloading https://files.pythonhosted.org/packages/9f/83/cf7bc2f50e9e0eabc4ad8225f9cdc590c5685c2b9da73f8c272b826833e3/gogo_cli-0.0.1.tar.gz
+[2023-07-23 21:02:15] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/80/b7/8ae892c86dd643f1b0e34073f9cdc339676f69d2ea999749324076ac4fb4/qtgql-0.129.2.tar.gz
+[2023-07-23 21:02:15] INFO root fetch - processPackages [pyarr]: Downloading https://files.pythonhosted.org/packages/fa/b6/36fde78cbbe8abf65af06e81b77e2069f5c5c2ed12537bab3162c30c81d7/pyarr-5.1.0.tar.gz
+[2023-07-23 21:02:15] INFO root fetch - processPackages [tempren]: Downloading https://files.pythonhosted.org/packages/53/36/e6d1fecd76cc435faa70b53dd1e869bd054d6423d61e1727780450efd558/tempren-0.8.3.tar.gz
+[2023-07-23 21:02:16] INFO root fetch - processPackages [MedicalImageConverter]: Downloading https://files.pythonhosted.org/packages/54/e9/f4c9d105336163cf5d509c8e05ea952405ed8342302ebb8176f760a0f025/MedicalImageConverter-1.0.4-py3-none-any.whl
+[2023-07-23 21:02:16] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/bf/a5/47a885ab8127c349a1d5066745b0e5702e8083bc25acfd269ba7af0fdeab/moosez-2.2.4.tar.gz
+[2023-07-23 21:02:16] INFO root fetch - processPackages [spotRiver]: Downloading https://files.pythonhosted.org/packages/46/74/52f0a2fdf6bebd2e115eeb483098cca2a0279608a0ee1165eb34c13c6454/spotRiver-0.0.99.tar.gz
+[2023-07-23 21:02:16] INFO root fetch - processPackages [datahelp]: Downloading https://files.pythonhosted.org/packages/1e/e9/0d32606e6471762df310659ca32cd246253bcf9246aa9572937ca08dfdb1/datahelp-0.1.6.tar.gz
+[2023-07-23 21:02:16] INFO root fetch - processPackages [gogo-cli]: Downloading https://files.pythonhosted.org/packages/7f/b8/c17c19ac9ae4734a89bf3db8bb612bad87ede02f22bf5bdfd8d34a32bf01/gogo_cli-0.0.2.tar.gz
+[2023-07-23 21:02:16] INFO root fetch - processPackages [metaphor-connectors]: executing diffoscope
+[2023-07-23 21:02:16] INFO root fetch - processPackages [metaphor-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-connectors-0.9.3.tar.gz tmp/metaphor-connectors-0.9.4.tar.gz --markdown 20230723/m/metaphor-connectors/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-23 21:02:16] INFO root fetch - processPackages [MedicalImageConverter]: executing diffoscope
+[2023-07-23 21:02:16] INFO root fetch - processPackages [MedicalImageConverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MedicalImageConverter-1.0.3.tar.gz tmp/MedicalImageConverter-1.0.4-py3-none-any.whl.zip --markdown 20230723/M/MedicalImageConverter/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-23 21:02:16] INFO root fetch - processPackages [moosez]: executing diffoscope
+[2023-07-23 21:02:16] INFO root fetch - processPackages [moosez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moosez-2.2.3.tar.gz tmp/moosez-2.2.4.tar.gz --markdown 20230723/m/moosez/2.2.3-2.2.4/diff.md --exclude *.pyd
+[2023-07-23 21:02:16] INFO root fetch - processPackages [spotRiver]: executing diffoscope
+[2023-07-23 21:02:16] INFO root fetch - processPackages [spotRiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotRiver-0.0.98.tar.gz tmp/spotRiver-0.0.99.tar.gz --markdown 20230723/s/spotRiver/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-23 21:02:16] INFO root fetch - processPackages [gogo-cli]: executing diffoscope
+[2023-07-23 21:02:16] INFO root fetch - processPackages [gogo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gogo_cli-0.0.1.tar.gz tmp/gogo_cli-0.0.2.tar.gz --markdown 20230723/g/gogo-cli/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-23 21:02:16] INFO root fetch - processPackages [datahelp]: executing diffoscope
+[2023-07-23 21:02:16] INFO root fetch - processPackages [datahelp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datahelp-0.1.5.tar.gz tmp/datahelp-0.1.6.tar.gz --markdown 20230723/d/datahelp/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-23 21:02:16] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/f3/07/bf6f5c80aed5a7009d48f0fb16714f9a1da5417363a0925fa43631e5ab60/qtgql-0.130.2.tar.gz
+[2023-07-23 21:02:16] INFO root fetch - processPackages [pyarr]: Downloading https://files.pythonhosted.org/packages/14/46/3c11e4621d7d5b36a2d3809897ee857682b2112fea16fe7aa1bf892b0411/pyarr-5.1.1.tar.gz
+[2023-07-23 21:02:16] INFO root fetch - processPackages [qtgql]: executing diffoscope
+[2023-07-23 21:02:16] INFO root fetch - processPackages [qtgql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtgql-0.129.2.tar.gz tmp/qtgql-0.130.2.tar.gz --markdown 20230723/q/qtgql/0.129.2-0.130.2/diff.md --exclude *.pyd
+[2023-07-23 21:02:16] INFO root fetch - processPackages [pyarr]: executing diffoscope
+[2023-07-23 21:02:16] INFO root fetch - processPackages [pyarr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarr-5.1.0.tar.gz tmp/pyarr-5.1.1.tar.gz --markdown 20230723/p/pyarr/5.1.0-5.1.1/diff.md --exclude *.pyd
+[2023-07-23 21:02:16] INFO root fetch - processPackages [tempren]: Downloading https://files.pythonhosted.org/packages/82/58/73de35434e453892be482c9ddbe170f9c062f5301905fa63ece6e167d203/tempren-0.9.0.tar.gz
+[2023-07-23 21:02:16] INFO root fetch - processPackages [tempren]: executing diffoscope
+[2023-07-23 21:02:16] INFO root fetch - processPackages [tempren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tempren-0.8.3.tar.gz tmp/tempren-0.9.0.tar.gz --markdown 20230723/t/tempren/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-07-23 21:02:17] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.3.tar.gz]
+[2023-07-23 21:02:17] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.4.tar.gz]
+[2023-07-23 21:02:17] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
+[2023-07-23 21:02:17] INFO root fetch - processPackages [MedicalImageConverter]: Remove: archive file [/home/abi/fetcher/tmp/MedicalImageConverter-1.0.3.tar.gz]
+[2023-07-23 21:02:17] INFO root fetch - processPackages [MedicalImageConverter]: Remove: archive file [/home/abi/fetcher/tmp/MedicalImageConverter-1.0.4-py3-none-any.whl.zip]
+[2023-07-23 21:02:17] INFO root fetch - main [MainThread]: End processing [MedicalImageConverter]: success
+[2023-07-23 21:02:17] INFO root fetch - processPackages [gogo-cli]: Remove: archive file [/home/abi/fetcher/tmp/gogo_cli-0.0.1.tar.gz]
+[2023-07-23 21:02:17] INFO root fetch - processPackages [gogo-cli]: Remove: archive file [/home/abi/fetcher/tmp/gogo_cli-0.0.2.tar.gz]
+[2023-07-23 21:02:17] INFO root fetch - main [MainThread]: End processing [gogo-cli]: success
+[2023-07-23 21:02:17] INFO root fetch - processPackages [datahelp]: Remove: archive file [/home/abi/fetcher/tmp/datahelp-0.1.5.tar.gz]
+[2023-07-23 21:02:17] INFO root fetch - processPackages [datahelp]: Remove: archive file [/home/abi/fetcher/tmp/datahelp-0.1.6.tar.gz]
+[2023-07-23 21:02:17] INFO root fetch - main [MainThread]: End processing [datahelp]: success
+[2023-07-23 21:02:17] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.129.2.tar.gz]
+[2023-07-23 21:02:17] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.130.2.tar.gz]
+[2023-07-23 21:02:17] INFO root fetch - main [MainThread]: End processing [qtgql]: success
+[2023-07-23 21:02:17] INFO root fetch - processPackages [spotRiver]: Remove: archive file [/home/abi/fetcher/tmp/spotRiver-0.0.98.tar.gz]
+[2023-07-23 21:02:17] INFO root fetch - processPackages [spotRiver]: Remove: archive file [/home/abi/fetcher/tmp/spotRiver-0.0.99.tar.gz]
+[2023-07-23 21:02:17] INFO root fetch - main [MainThread]: End processing [spotRiver]: success
+[2023-07-23 21:02:17] INFO root fetch - processPackages [pyarr]: Remove: archive file [/home/abi/fetcher/tmp/pyarr-5.1.0.tar.gz]
+[2023-07-23 21:02:17] INFO root fetch - processPackages [pyarr]: Remove: archive file [/home/abi/fetcher/tmp/pyarr-5.1.1.tar.gz]
+[2023-07-23 21:02:17] INFO root fetch - main [MainThread]: End processing [pyarr]: success
+[2023-07-23 21:02:18] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.2.3.tar.gz]
+[2023-07-23 21:02:18] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.2.4.tar.gz]
+[2023-07-23 21:02:18] INFO root fetch - main [MainThread]: End processing [moosez]: success
+[2023-07-23 21:02:18] INFO root fetch - processPackages [tempren]: Remove: archive file [/home/abi/fetcher/tmp/tempren-0.8.3.tar.gz]
+[2023-07-23 21:02:18] INFO root fetch - processPackages [tempren]: Remove: archive file [/home/abi/fetcher/tmp/tempren-0.9.0.tar.gz]
+[2023-07-23 21:02:18] INFO root fetch - main [MainThread]: End processing [tempren]: success
+[2023-07-23 21:02:18] INFO root fetch - main [MainThread]: Store serial: [19004141]
