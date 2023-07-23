@@ -11756,3 +11756,33 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 19:01:00] INFO root fetch - processPackages [localeet]: Remove: archive file [/home/abi/fetcher/tmp/localeet-0.0.5.tar.gz]
 [2023-07-23 19:01:00] INFO root fetch - main [MainThread]: End processing [localeet]: success
 [2023-07-23 19:01:00] INFO root fetch - main [MainThread]: Store serial: [19003451]
+[2023-07-23 19:06:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19003451]
+[2023-07-23 19:06:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-23 19:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thetadata
+[2023-07-23 19:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langthreads
+[2023-07-23 19:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: github-actions-cli
+[2023-07-23 19:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easyocr-itgn
+[2023-07-23 19:06:09] INFO root fetch - processPackages [github-actions-cli]: New version: [1.0.0b3] Old Version: [1.0.0b2]
+[2023-07-23 19:06:09] INFO root fetch - processPackages [easyocr-itgn]: New version: [1.2.3] Old Version: [1.0.1]
+[2023-07-23 19:06:09] WARNING root fetch - processPackages [langthreads]: Skipping, unable to determine old version
+[2023-07-23 19:06:09] INFO root fetch - main [MainThread]: End processing [langthreads] error
+[2023-07-23 19:06:09] INFO root fetch - processPackages [thetadata]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-23 19:06:09] INFO root fetch - processPackages [easyocr-itgn]: Downloading https://files.pythonhosted.org/packages/9a/69/4c1b924bed999bf438c276643da90da4412ed3226ae93f49db789d1c0b81/easyocr-itgn-1.0.1.tar.gz
+[2023-07-23 19:06:09] INFO root fetch - processPackages [github-actions-cli]: Downloading https://files.pythonhosted.org/packages/dd/a8/e97a91444b19d70ae833448edc999307379df7896b368300010248b1e058/github_actions_cli-1.0.0b2.tar.gz
+[2023-07-23 19:06:09] INFO root fetch - processPackages [thetadata]: Downloading https://files.pythonhosted.org/packages/a3/15/5a0ab5e3a6e4067f4b12242cc6beded5cda544fa45556ecc442c0fd3dc45/thetadata-0.9.8.tar.gz
+[2023-07-23 19:06:09] INFO root fetch - processPackages [easyocr-itgn]: Downloading https://files.pythonhosted.org/packages/4d/a6/9eacf6d2564685f5d4a94416d8c6aece8c87224692fd51fde6cd0e68dfec/easyocr-itgn-1.2.3.tar.gz
+[2023-07-23 19:06:09] INFO root fetch - processPackages [github-actions-cli]: Downloading https://files.pythonhosted.org/packages/61/0f/7100ecae08399b850313995b4dddaf0e39430e77aa931f17fc2e940ff2cc/github_actions_cli-1.0.0b3.tar.gz
+[2023-07-23 19:06:09] INFO root fetch - processPackages [thetadata]: Downloading https://files.pythonhosted.org/packages/30/b9/ee535d8870959e67993d5b94b977560b86cabaeedcec0a7248dd3597561d/thetadata-0.9.9.tar.gz
+[2023-07-23 19:06:09] WARNING root fetch - processPackages [easyocr-itgn]: Skipping package: exceeds size limit 72042388>=10485760
+[2023-07-23 19:06:09] INFO root fetch - main [MainThread]: End processing [easyocr-itgn] error
+[2023-07-23 19:06:09] INFO root fetch - processPackages [thetadata]: executing diffoscope
+[2023-07-23 19:06:09] INFO root fetch - processPackages [thetadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thetadata-0.9.8.tar.gz tmp/thetadata-0.9.9.tar.gz --markdown 20230723/t/thetadata/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-23 19:06:09] INFO root fetch - processPackages [github-actions-cli]: executing diffoscope
+[2023-07-23 19:06:09] INFO root fetch - processPackages [github-actions-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github_actions_cli-1.0.0b2.tar.gz tmp/github_actions_cli-1.0.0b3.tar.gz --markdown 20230723/g/github-actions-cli/1.0.0b2-1.0.0b3/diff.md --exclude *.pyd
+[2023-07-23 19:06:10] INFO root fetch - processPackages [github-actions-cli]: Remove: archive file [/home/abi/fetcher/tmp/github_actions_cli-1.0.0b2.tar.gz]
+[2023-07-23 19:06:10] INFO root fetch - processPackages [github-actions-cli]: Remove: archive file [/home/abi/fetcher/tmp/github_actions_cli-1.0.0b3.tar.gz]
+[2023-07-23 19:06:10] INFO root fetch - main [MainThread]: End processing [github-actions-cli]: success
+[2023-07-23 19:06:10] INFO root fetch - processPackages [thetadata]: Remove: archive file [/home/abi/fetcher/tmp/thetadata-0.9.8.tar.gz]
+[2023-07-23 19:06:10] INFO root fetch - processPackages [thetadata]: Remove: archive file [/home/abi/fetcher/tmp/thetadata-0.9.9.tar.gz]
+[2023-07-23 19:06:10] INFO root fetch - main [MainThread]: End processing [thetadata]: success
+[2023-07-23 19:06:10] INFO root fetch - main [MainThread]: Store serial: [19003472]
