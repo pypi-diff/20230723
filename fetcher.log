@@ -4412,3 +4412,9 @@
 [2023-07-23 08:42:58] INFO root fetch - processPackages [rest-api-supporter]: Remove: archive file [/home/abi/fetcher/tmp/rest-api-supporter-0.0.9.tar.gz]
 [2023-07-23 08:42:58] INFO root fetch - main [MainThread]: End processing [rest-api-supporter]: success
 [2023-07-23 08:42:58] INFO root fetch - main [MainThread]: Store serial: [18999894]
+[2023-07-23 08:48:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999894]
+[2023-07-23 08:48:06] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-23 08:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: testpocexecution001
+[2023-07-23 08:48:06] WARNING root fetch - processPackages [testpocexecution001]: Skipping, unable to determine old version
+[2023-07-23 08:48:06] INFO root fetch - main [MainThread]: End processing [testpocexecution001] error
+[2023-07-23 08:48:06] INFO root fetch - main [MainThread]: Store serial: [18999898]
