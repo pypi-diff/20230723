@@ -15591,3 +15591,61 @@ AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
 [2023-07-23 23:35:54] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307222245-py3-none-any.whl.zip]
 [2023-07-23 23:35:54] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-07-23 23:35:54] INFO root fetch - main [MainThread]: Store serial: [19004980]
+[2023-07-23 23:40:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19004980]
+[2023-07-23 23:41:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-23 23:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pillar1
+[2023-07-23 23:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pillar1
+[2023-07-23 23:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygetsource
+[2023-07-23 23:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kfish
+[2023-07-23 23:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modal-client
+[2023-07-23 23:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modal
+[2023-07-23 23:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spotPython
+[2023-07-23 23:41:03] INFO root fetch - processPackages [pillar1]: New version: [0.1.9.9] Old Version: [0.1.9.8]
+[2023-07-23 23:41:03] INFO root fetch - processPackages [modal]: New version: [0.50.2700] Old Version: [0.50.2697]
+[2023-07-23 23:41:03] WARNING root fetch - processPackages [pygetsource]: Skipping, unable to determine old version
+[2023-07-23 23:41:03] INFO root fetch - main [MainThread]: End processing [pygetsource] error
+[2023-07-23 23:41:03] INFO root fetch - processPackages [pillar1]: New version: [0.1.9.9] Old Version: [0.1.9.8]
+[2023-07-23 23:41:03] INFO root fetch - processPackages [kfish]: New version: [99.0.202307232137] Old Version: [99.0.202307222248]
+[2023-07-23 23:41:03] INFO root fetch - processPackages [modal-client]: New version: [0.50.2700] Old Version: [0.50.2697]
+[2023-07-23 23:41:03] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c2/94/7b80dffc59babbc961997c32bfe8a419e14372155c3280c9c96b1ade3818/modal-0.50.2697-py3-none-any.whl
+[2023-07-23 23:41:03] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/29/27/3f7f653fdd6f055a98add0b403804229fd89073b24291b373b6b1eb811f8/kfish-99.0.202307222248-py3-none-any.whl
+[2023-07-23 23:41:03] INFO root fetch - processPackages [spotPython]: New version: [0.6.8] Old Version: [0.6.6]
+[2023-07-23 23:41:03] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/f7/ce/31e7a580b02c3de3dcb9304a580c49e5df8ed9c241907d9b17c743ab3d7d/modal_client-0.50.2697-py3-none-any.whl
+[2023-07-23 23:41:03] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/fd/c8/dc894f4393d99c54f62ae98519892157e6b0e0327ac1f0b1a261450e9868/pillar1-0.1.9.8.tar.gz
+[2023-07-23 23:41:03] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/fd/c8/dc894f4393d99c54f62ae98519892157e6b0e0327ac1f0b1a261450e9868/pillar1-0.1.9.8.tar.gz
+[2023-07-23 23:41:04] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/26/3a/e0c8869c3079af70834de2782d7915bc51d542a26632a0a863627a93b96a/spotPython-0.6.6.tar.gz
+[2023-07-23 23:41:04] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/d8/fd/69a1601305c69b699681c95f992664a45a50e2632912bda397d5e9c514f8/modal-0.50.2700-py3-none-any.whl
+[2023-07-23 23:41:04] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/cd/a8/e0c5f3318812c6de05e58eeeeaa7718a225c10a70d294effadce3c898668/kfish-99.0.202307232137-py3-none-any.whl
+[2023-07-23 23:41:04] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/92/8d/efcf5703708adcc432230e0d510fec42756434d28ae2e4b4348f30be2eef/pillar1-0.1.9.9.tar.gz
+[2023-07-23 23:41:04] INFO root fetch - processPackages [modal]: executing diffoscope
+[2023-07-23 23:41:04] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.50.2697-py3-none-any.whl.zip tmp/modal-0.50.2700-py3-none-any.whl.zip --markdown 20230723/m/modal/0.50.2697-0.50.2700/diff.md --exclude *.pyd
+[2023-07-23 23:41:04] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/d0/10/d14038049ae2000a789ffdcdd4e6be57c43b94e8b26f42e47cd8ed983196/modal_client-0.50.2700-py3-none-any.whl
+[2023-07-23 23:41:04] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-23 23:41:04] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307222248-py3-none-any.whl.zip tmp/kfish-99.0.202307232137-py3-none-any.whl.zip --markdown 20230723/k/kfish/99.0.202307222248-99.0.202307232137/diff.md --exclude *.pyd
+[2023-07-23 23:41:04] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/92/8d/efcf5703708adcc432230e0d510fec42756434d28ae2e4b4348f30be2eef/pillar1-0.1.9.9.tar.gz
+[2023-07-23 23:41:04] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-07-23 23:41:04] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.9.8.tar.gz tmp/pillar1-0.1.9.9.tar.gz --markdown 20230723/p/pillar1/0.1.9.8-0.1.9.9/diff.md --exclude *.pyd
+[2023-07-23 23:41:04] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-07-23 23:41:04] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.50.2697-py3-none-any.whl.zip tmp/modal_client-0.50.2700-py3-none-any.whl.zip --markdown 20230723/m/modal-client/0.50.2697-0.50.2700/diff.md --exclude *.pyd
+[2023-07-23 23:41:04] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-07-23 23:41:04] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.9.8.tar.gz tmp/pillar1-0.1.9.9.tar.gz --markdown 20230723/p/pillar1/0.1.9.8-0.1.9.9/diff.md --exclude *.pyd
+[2023-07-23 23:41:05] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/39/0a/926e39ce8ad2ce09c7fbb2203730fc1430777b4b144a50fc60c3d3255d0c/spotPython-0.6.8.tar.gz
+[2023-07-23 23:41:05] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307222248-py3-none-any.whl.zip]
+[2023-07-23 23:41:05] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307232137-py3-none-any.whl.zip]
+[2023-07-23 23:41:05] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-23 23:41:05] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2697-py3-none-any.whl.zip]
+[2023-07-23 23:41:05] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2700-py3-none-any.whl.zip]
+[2023-07-23 23:41:05] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2023-07-23 23:41:05] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.9.8.tar.gz]
+[2023-07-23 23:41:05] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.9.9.tar.gz]
+[2023-07-23 23:41:05] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-07-23 23:41:05] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-07-23 23:41:05] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2697-py3-none-any.whl.zip]
+[2023-07-23 23:41:05] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2700-py3-none-any.whl.zip]
+[2023-07-23 23:41:05] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-07-23 23:41:06] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-07-23 23:41:06] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.6.6.tar.gz tmp/spotPython-0.6.8.tar.gz --markdown 20230723/s/spotPython/0.6.6-0.6.8/diff.md --exclude *.pyd
+[2023-07-23 23:41:07] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.6.6.tar.gz]
+[2023-07-23 23:41:07] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.6.8.tar.gz]
+[2023-07-23 23:41:07] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-07-23 23:41:07] INFO root fetch - main [MainThread]: Store serial: [19005000]
