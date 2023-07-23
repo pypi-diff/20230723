@@ -15165,3 +15165,60 @@ AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
 [2023-07-23 22:54:03] INFO root fetch - processPackages [rec-spotify]: Remove: archive file [/home/abi/fetcher/tmp/rec_spotify-1.2.2.tar.gz]
 [2023-07-23 22:54:03] INFO root fetch - main [MainThread]: End processing [rec-spotify]: success
 [2023-07-23 22:54:03] INFO root fetch - main [MainThread]: Store serial: [19004814]
+[2023-07-23 22:59:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19004814]
+[2023-07-23 22:59:11] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-23 22:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neoscr
+[2023-07-23 22:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-randomprime
+[2023-07-23 22:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geomancy
+[2023-07-23 22:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zenoml
+[2023-07-23 22:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kabelwerk
+[2023-07-23 22:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyhOn
+[2023-07-23 22:59:11] INFO root fetch - processPackages [geomancy]: New version: [0.6.0b0] Old Version: [0.1.0a0]
+[2023-07-23 22:59:11] INFO root fetch - processPackages [neoscr]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-07-23 22:59:11] INFO root fetch - processPackages [kabelwerk]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-23 22:59:11] INFO root fetch - processPackages [zenoml]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-23 22:59:11] INFO root fetch - processPackages [pyhOn]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-23 22:59:11] INFO root fetch - processPackages [py-randomprime]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-07-23 22:59:11] INFO root fetch - processPackages [pyhOn]: Downloading https://files.pythonhosted.org/packages/ea/21/a02ec05f27736d84fc536a77e7d8d4bff64042649263f7f166eb347f645e/pyhOn-0.9.0.tar.gz
+[2023-07-23 22:59:12] INFO root fetch - processPackages [py-randomprime]: Downloading https://files.pythonhosted.org/packages/a1/c2/9f63a80aa15c105bf618f0737e83a193079aeedd84344cd8bde9e895eb12/py-randomprime-1.9.5.tar.gz
+[2023-07-23 22:59:12] INFO root fetch - processPackages [geomancy]: Downloading https://files.pythonhosted.org/packages/22/a0/25102c85e138584ae0b2d3332b74d9a1049e246a5629086bfad4160cd5d1/geomancy-0.1.0a0.tar.gz
+[2023-07-23 22:59:12] INFO root fetch - processPackages [neoscr]: Downloading https://files.pythonhosted.org/packages/29/8c/17e4b5559e673f4e0e9ce78c55650256274695e5f7512d6ca86dfa36d8b9/neoscr-1.0.0.tar.gz
+[2023-07-23 22:59:12] INFO root fetch - processPackages [kabelwerk]: Downloading https://files.pythonhosted.org/packages/94/9d/45a4348aac2b9ebaeff5e399938aa83d1111a1fc5d1ad4c6b1ac04f69fd3/kabelwerk-0.1.0.tar.gz
+[2023-07-23 22:59:12] INFO root fetch - processPackages [zenoml]: Downloading https://files.pythonhosted.org/packages/87/7c/df559b24141678b486e6e51f6731beba807317a11f3ca2cd67b49db3fc67/zenoml-0.6.2.tar.gz
+[2023-07-23 22:59:12] INFO root fetch - processPackages [py-randomprime]: Downloading https://files.pythonhosted.org/packages/6a/a6/30f067323fda064fe22f5ce375f9f91e615acab8985915b93ce4839b3fd9/py-randomprime-1.9.6.tar.gz
+[2023-07-23 22:59:12] INFO root fetch - processPackages [pyhOn]: Downloading https://files.pythonhosted.org/packages/bd/8e/c3ca4f478da222a67df9747f74292644f871e32df734b2eaaef829814af5/pyhOn-0.9.1.tar.gz
+[2023-07-23 22:59:12] INFO root fetch - processPackages [geomancy]: Downloading https://files.pythonhosted.org/packages/47/4e/82184e4865e351fa5333558716570903efe8ce13943d9663d7d521a60c6a/geomancy-0.6.0b0.tar.gz
+[2023-07-23 22:59:12] INFO root fetch - processPackages [py-randomprime]: executing diffoscope
+[2023-07-23 22:59:12] INFO root fetch - processPackages [py-randomprime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-randomprime-1.9.5.tar.gz tmp/py-randomprime-1.9.6.tar.gz --markdown 20230723/p/py-randomprime/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-07-23 22:59:12] INFO root fetch - processPackages [pyhOn]: executing diffoscope
+[2023-07-23 22:59:12] INFO root fetch - processPackages [pyhOn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhOn-0.9.0.tar.gz tmp/pyhOn-0.9.1.tar.gz --markdown 20230723/p/pyhOn/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-23 22:59:12] INFO root fetch - processPackages [kabelwerk]: Downloading https://files.pythonhosted.org/packages/5b/d1/c5f789ed3ce947d656db1c0376781e23dd26009dded3593f68ca4dada673/kabelwerk-0.1.1.tar.gz
+[2023-07-23 22:59:12] INFO root fetch - processPackages [neoscr]: Downloading https://files.pythonhosted.org/packages/29/f6/5b6aad1068ddd25d4b8cc2a766eeb7ccd58c44189c8b82b02fea1924d496/neoscr-2.0.0.tar.gz
+[2023-07-23 22:59:12] INFO root fetch - processPackages [geomancy]: executing diffoscope
+[2023-07-23 22:59:12] INFO root fetch - processPackages [geomancy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geomancy-0.1.0a0.tar.gz tmp/geomancy-0.6.0b0.tar.gz --markdown 20230723/g/geomancy/0.1.0a0-0.6.0b0/diff.md --exclude *.pyd
+[2023-07-23 22:59:12] INFO root fetch - processPackages [zenoml]: Downloading https://files.pythonhosted.org/packages/25/ce/401bc612018f5a4c67aa4bd2b7fb909e911552d9cd1d3e50305f5873a067/zenoml-0.6.3.tar.gz
+[2023-07-23 22:59:12] INFO root fetch - processPackages [kabelwerk]: executing diffoscope
+[2023-07-23 22:59:12] INFO root fetch - processPackages [kabelwerk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kabelwerk-0.1.0.tar.gz tmp/kabelwerk-0.1.1.tar.gz --markdown 20230723/k/kabelwerk/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-23 22:59:12] INFO root fetch - processPackages [neoscr]: executing diffoscope
+[2023-07-23 22:59:12] INFO root fetch - processPackages [neoscr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neoscr-1.0.0.tar.gz tmp/neoscr-2.0.0.tar.gz --markdown 20230723/n/neoscr/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-07-23 22:59:12] INFO root fetch - processPackages [zenoml]: executing diffoscope
+[2023-07-23 22:59:12] INFO root fetch - processPackages [zenoml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zenoml-0.6.2.tar.gz tmp/zenoml-0.6.3.tar.gz --markdown 20230723/z/zenoml/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-23 22:59:13] INFO root fetch - processPackages [py-randomprime]: Remove: archive file [/home/abi/fetcher/tmp/py-randomprime-1.9.5.tar.gz]
+[2023-07-23 22:59:13] INFO root fetch - processPackages [py-randomprime]: Remove: archive file [/home/abi/fetcher/tmp/py-randomprime-1.9.6.tar.gz]
+[2023-07-23 22:59:13] INFO root fetch - main [MainThread]: End processing [py-randomprime]: success
+[2023-07-23 22:59:13] INFO root fetch - processPackages [pyhOn]: Remove: archive file [/home/abi/fetcher/tmp/pyhOn-0.9.0.tar.gz]
+[2023-07-23 22:59:13] INFO root fetch - processPackages [pyhOn]: Remove: archive file [/home/abi/fetcher/tmp/pyhOn-0.9.1.tar.gz]
+[2023-07-23 22:59:13] INFO root fetch - main [MainThread]: End processing [pyhOn]: success
+[2023-07-23 22:59:13] INFO root fetch - processPackages [kabelwerk]: Remove: archive file [/home/abi/fetcher/tmp/kabelwerk-0.1.0.tar.gz]
+[2023-07-23 22:59:13] INFO root fetch - processPackages [kabelwerk]: Remove: archive file [/home/abi/fetcher/tmp/kabelwerk-0.1.1.tar.gz]
+[2023-07-23 22:59:13] INFO root fetch - main [MainThread]: End processing [kabelwerk]: success
+[2023-07-23 22:59:13] INFO root fetch - processPackages [geomancy]: Remove: archive file [/home/abi/fetcher/tmp/geomancy-0.1.0a0.tar.gz]
+[2023-07-23 22:59:13] INFO root fetch - processPackages [geomancy]: Remove: archive file [/home/abi/fetcher/tmp/geomancy-0.6.0b0.tar.gz]
+[2023-07-23 22:59:13] INFO root fetch - main [MainThread]: End processing [geomancy]: success
+[2023-07-23 22:59:13] INFO root fetch - processPackages [neoscr]: Remove: archive file [/home/abi/fetcher/tmp/neoscr-1.0.0.tar.gz]
+[2023-07-23 22:59:13] INFO root fetch - processPackages [neoscr]: Remove: archive file [/home/abi/fetcher/tmp/neoscr-2.0.0.tar.gz]
+[2023-07-23 22:59:13] INFO root fetch - main [MainThread]: End processing [neoscr]: success
+[2023-07-23 22:59:31] INFO root fetch - processPackages [zenoml]: Remove: archive file [/home/abi/fetcher/tmp/zenoml-0.6.2.tar.gz]
+[2023-07-23 22:59:31] INFO root fetch - processPackages [zenoml]: Remove: archive file [/home/abi/fetcher/tmp/zenoml-0.6.3.tar.gz]
+[2023-07-23 22:59:31] INFO root fetch - main [MainThread]: End processing [zenoml]: success
+[2023-07-23 22:59:31] INFO root fetch - main [MainThread]: Store serial: [19004834]
