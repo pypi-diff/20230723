@@ -1624,3 +1624,45 @@
 [2023-07-23 02:34:44] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.9.0.tar.gz]
 [2023-07-23 02:34:44] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
 [2023-07-23 02:34:44] INFO root fetch - main [MainThread]: Store serial: [18998644]
+[2023-07-23 02:39:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18998644]
+[2023-07-23 02:39:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-23 02:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jssp-tool
+[2023-07-23 02:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: everdrop-aws-cdk-constructs
+[2023-07-23 02:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: henon2midi
+[2023-07-23 02:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aeppl-nightly
+[2023-07-23 02:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: multion
+[2023-07-23 02:39:54] INFO root fetch - processPackages [multion]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-23 02:39:54] WARNING root fetch - processPackages [henon2midi]: Skipping, unable to determine old version
+[2023-07-23 02:39:54] INFO root fetch - main [MainThread]: End processing [henon2midi] error
+[2023-07-23 02:39:54] INFO root fetch - processPackages [jssp-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-23 02:39:54] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20230722] Old Version: [0.1.5.dev20230721]
+[2023-07-23 02:39:54] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-23 02:39:54] INFO root fetch - processPackages [jssp-tool]: Downloading https://files.pythonhosted.org/packages/11/53/4a0d6e16e40c1bb133cbabc5535a07bccb59983686599b3cd7b0f35f7db0/jssp_tool-1.0.8-py3-none-any.whl
+[2023-07-23 02:39:54] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/a9/ca/aeb84cd566bb1f059094a5e3cbe0acf53d1ad8c9b296d5bcd1a26a57c600/everdrop-aws-cdk-constructs-0.0.98.tar.gz
+[2023-07-23 02:39:54] INFO root fetch - processPackages [multion]: Downloading https://files.pythonhosted.org/packages/d6/43/02bc870af4fa102cebd16359306dcad5fa14e8e9c01dc9fb58766ba6d578/multion-0.1.8.tar.gz
+[2023-07-23 02:39:54] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/21/45/4145ae5cab9ad42ee3c58250d290d964621b89965fa68b960058f9fe828f/aeppl-nightly-0.1.5.dev20230721.tar.gz
+[2023-07-23 02:39:54] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/ba/e1/34dff9d00ac2779522d025899f60c8b8d5579695389a50f873ff90fa24fc/everdrop-aws-cdk-constructs-0.0.99.tar.gz
+[2023-07-23 02:39:54] INFO root fetch - processPackages [multion]: Downloading https://files.pythonhosted.org/packages/e5/2f/980afa9d6c01bdbb0bd9ff59f522a5ef520b0ad1456d6633ec11136cfc6c/multion-0.1.9.tar.gz
+[2023-07-23 02:39:54] INFO root fetch - processPackages [jssp-tool]: Downloading https://files.pythonhosted.org/packages/c7/95/d77b9d03043e999fb7862aa865a79b6e87a022b2a62ff38610498d56b9e6/jssp_tool-1.0.9-py3-none-any.whl
+[2023-07-23 02:39:54] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: executing diffoscope
+[2023-07-23 02:39:54] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everdrop-aws-cdk-constructs-0.0.98.tar.gz tmp/everdrop-aws-cdk-constructs-0.0.99.tar.gz --markdown 20230723/e/everdrop-aws-cdk-constructs/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-23 02:39:54] INFO root fetch - processPackages [multion]: executing diffoscope
+[2023-07-23 02:39:54] INFO root fetch - processPackages [multion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multion-0.1.8.tar.gz tmp/multion-0.1.9.tar.gz --markdown 20230723/m/multion/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-23 02:39:54] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/c9/60/2048a767db39c520ad3f59df92902ab8ab0bc980b175258b09c8b5ef8087/aeppl-nightly-0.1.5.dev20230722.tar.gz
+[2023-07-23 02:39:54] INFO root fetch - processPackages [jssp-tool]: executing diffoscope
+[2023-07-23 02:39:54] INFO root fetch - processPackages [jssp-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jssp_tool-1.0.8-py3-none-any.whl.zip tmp/jssp_tool-1.0.9-py3-none-any.whl.zip --markdown 20230723/j/jssp-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-23 02:39:54] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2023-07-23 02:39:54] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.5.dev20230721.tar.gz tmp/aeppl-nightly-0.1.5.dev20230722.tar.gz --markdown 20230723/a/aeppl-nightly/0.1.5.dev20230721-0.1.5.dev20230722/diff.md --exclude *.pyd
+[2023-07-23 02:39:55] INFO root fetch - processPackages [multion]: Remove: archive file [/home/abi/fetcher/tmp/multion-0.1.8.tar.gz]
+[2023-07-23 02:39:55] INFO root fetch - processPackages [multion]: Remove: archive file [/home/abi/fetcher/tmp/multion-0.1.9.tar.gz]
+[2023-07-23 02:39:55] INFO root fetch - main [MainThread]: End processing [multion]: success
+[2023-07-23 02:39:55] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/everdrop-aws-cdk-constructs-0.0.98.tar.gz]
+[2023-07-23 02:39:55] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/everdrop-aws-cdk-constructs-0.0.99.tar.gz]
+[2023-07-23 02:39:55] INFO root fetch - main [MainThread]: End processing [everdrop-aws-cdk-constructs]: success
+[2023-07-23 02:39:55] INFO root fetch - processPackages [jssp-tool]: Remove: archive file [/home/abi/fetcher/tmp/jssp_tool-1.0.8-py3-none-any.whl.zip]
+[2023-07-23 02:39:55] INFO root fetch - processPackages [jssp-tool]: Remove: archive file [/home/abi/fetcher/tmp/jssp_tool-1.0.9-py3-none-any.whl.zip]
+[2023-07-23 02:39:55] INFO root fetch - main [MainThread]: End processing [jssp-tool]: success
+[2023-07-23 02:39:55] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20230721.tar.gz]
+[2023-07-23 02:39:55] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20230722.tar.gz]
+[2023-07-23 02:39:55] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2023-07-23 02:39:55] INFO root fetch - main [MainThread]: Store serial: [18998661]
