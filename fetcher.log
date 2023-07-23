@@ -4379,3 +4379,12 @@
 [2023-07-23 08:32:38] INFO root fetch - processPackages [hstrat]: Remove: archive file [/home/abi/fetcher/tmp/hstrat-1.8.0.tar.gz]
 [2023-07-23 08:32:38] INFO root fetch - main [MainThread]: End processing [hstrat]: success
 [2023-07-23 08:32:38] INFO root fetch - main [MainThread]: Store serial: [18999874]
+[2023-07-23 08:37:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999874]
+[2023-07-23 08:37:49] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-23 08:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: audio-to-animation-video
+[2023-07-23 08:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: audio-to-animation-video
+[2023-07-23 08:37:49] WARNING root fetch - processPackages [audio-to-animation-video]: Skipping, unable to determine old version
+[2023-07-23 08:37:49] INFO root fetch - main [MainThread]: End processing [audio-to-animation-video] error
+[2023-07-23 08:37:49] WARNING root fetch - processPackages [audio-to-animation-video]: Skipping, unable to determine old version
+[2023-07-23 08:37:49] INFO root fetch - main [MainThread]: End processing [audio-to-animation-video] error
+[2023-07-23 08:37:49] INFO root fetch - main [MainThread]: Store serial: [18999882]
