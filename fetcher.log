@@ -10198,3 +10198,96 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 
 [2023-07-23 17:16:40] INFO root fetch - main [MainThread]: End processing [Telethon] error
 [2023-07-23 17:16:40] INFO root fetch - main [MainThread]: Store serial: [19002678]
+[2023-07-23 17:21:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19002678]
+[2023-07-23 17:21:48] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-23 17:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arrow-odbc
+[2023-07-23 17:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: my-finance-package
+[2023-07-23 17:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-game-collection
+[2023-07-23 17:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neuralpit
+[2023-07-23 17:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llamabot
+[2023-07-23 17:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dantro
+[2023-07-23 17:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assisted-service-client
+[2023-07-23 17:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: smpl-pkg-powly535
+[2023-07-23 17:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: m6anet
+[2023-07-23 17:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pg-bulk-ingest
+[2023-07-23 17:21:48] INFO root fetch - processPackages [my-finance-package]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-23 17:21:48] INFO root fetch - processPackages [neuralpit]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-23 17:21:48] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-07-23 17:21:48] INFO root fetch - processPackages [llamabot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 17:21:48] INFO root fetch - processPackages [smpl-pkg-powly535]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-23 17:21:48] INFO root fetch - processPackages [pg-bulk-ingest]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 17:21:48] INFO root fetch - processPackages [arrow-odbc]: New version: [1.2.0] Old Version: [1.1.3]
+[2023-07-23 17:21:48] INFO root fetch - processPackages [dantro]: New version: [0.19.2] Old Version: [0.19.1]
+[2023-07-23 17:21:48] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-07-23 17:21:48] INFO root fetch - processPackages [m6anet]: New version: [2.1.0] Old Version: [2.0.2]
+[2023-07-23 17:21:48] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/56/58/bb03618390059b6d129f2de5cd391ec42364984c951277841e024e78d46e/neuralpit-2.0.8.tar.gz
+[2023-07-23 17:21:48] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/31/05/7d4721877f2dde80d5bd40c84773d24b5486a794e78758d5c6c51a0e0ee0/llamabot-0.0.8.tar.gz
+[2023-07-23 17:21:48] INFO root fetch - processPackages [pg-bulk-ingest]: Downloading https://files.pythonhosted.org/packages/e7/4c/79370bd20a6c816fde6c364043a829acf317c47786fa13893e26ccd005f6/pg_bulk_ingest-0.0.8.tar.gz
+[2023-07-23 17:21:48] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-07-23 17:21:48] INFO root fetch - processPackages [my-finance-package]: Downloading https://files.pythonhosted.org/packages/71/78/dda39de8b5de7a547e522f0f24e24dbdbe15309b043503255b6a6fb2dc7e/my-finance-package-0.1.0.tar.gz
+[2023-07-23 17:21:49] INFO root fetch - processPackages [smpl-pkg-powly535]: Downloading https://files.pythonhosted.org/packages/23/85/b08a18370d3a5f26af429ab475b4989083648a870b5fd55b2a3ec7c2a8e1/smpl-pkg-powly535-0.0.1.tar.gz
+[2023-07-23 17:21:49] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/51/fb/d907f05bab271d6408024397bb87d8e7e069ff91fa3152a09c37d0191aec/nonebot_plugin_game_collection-2.3.8.tar.gz
+[2023-07-23 17:21:49] INFO root fetch - processPackages [arrow-odbc]: Downloading https://files.pythonhosted.org/packages/6b/51/26f390233b500d6b250bbd0ad6714c34d735bde721b85bceec6eabb06d07/arrow_odbc-1.1.3.tar.gz
+[2023-07-23 17:21:49] INFO root fetch - processPackages [m6anet]: Downloading https://files.pythonhosted.org/packages/a4/38/142fd9adafc7d128a61006aae59408bd029845af10e9623ceecb9f787bb1/m6anet-2.0.2.tar.gz
+[2023-07-23 17:21:49] INFO root fetch - processPackages [dantro]: Downloading https://files.pythonhosted.org/packages/a0/11/a8d7d4d0f26e9869cab002b9372d06ce57d24c57460633b3808ce49a08b1/dantro-0.19.1.tar.gz
+[2023-07-23 17:21:49] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/8d/d4/cdca716e9f1023aaa975149951886336025da24ab787ef5b10e974341df6/neuralpit-2.0.9.tar.gz
+[2023-07-23 17:21:49] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/8c/77/360013b912689bcadc9699ffbfd0c59717ab5c032c425ce8f661e39484f5/llamabot-0.0.9.tar.gz
+[2023-07-23 17:21:49] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-07-23 17:21:49] INFO root fetch - processPackages [my-finance-package]: Downloading https://files.pythonhosted.org/packages/e3/a0/f1733f86b339e6cd32516492614223564547466c00d207a9553ecbcbf7eb/my-finance-package-0.2.0.tar.gz
+[2023-07-23 17:21:49] INFO root fetch - processPackages [pg-bulk-ingest]: Downloading https://files.pythonhosted.org/packages/db/bb/df7525f74975aacf76789085425bed157db43bb21c9d69e39c9e4bedd944/pg_bulk_ingest-0.0.9.tar.gz
+[2023-07-23 17:21:49] INFO root fetch - processPackages [neuralpit]: executing diffoscope
+[2023-07-23 17:21:49] INFO root fetch - processPackages [neuralpit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralpit-2.0.8.tar.gz tmp/neuralpit-2.0.9.tar.gz --markdown 20230723/n/neuralpit/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-23 17:21:49] INFO root fetch - processPackages [smpl-pkg-powly535]: Downloading https://files.pythonhosted.org/packages/46/5c/7318dcb4e22fea2b09dac43b33e1b3667888b57f7a431e677a13404b98f5/smpl-pkg-powly535-0.0.2.tar.gz
+[2023-07-23 17:21:49] INFO root fetch - processPackages [arrow-odbc]: Downloading https://files.pythonhosted.org/packages/74/62/fe4758cfc37636b8473713af3e806df0d63fb732640822bd50da327e8e3f/arrow_odbc-1.2.0.tar.gz
+[2023-07-23 17:21:49] INFO root fetch - processPackages [llamabot]: executing diffoscope
+[2023-07-23 17:21:49] INFO root fetch - processPackages [llamabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamabot-0.0.8.tar.gz tmp/llamabot-0.0.9.tar.gz --markdown 20230723/l/llamabot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 17:21:49] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/e4/94/777d03c2f9fbba4c5835c0178b82dffa9d6007ab381b752f81e9af32ff1e/nonebot_plugin_game_collection-2.3.9.tar.gz
+[2023-07-23 17:21:49] INFO root fetch - processPackages [m6anet]: Downloading https://files.pythonhosted.org/packages/1b/10/6afabc78da3599863f8c841e904f09a0cda26247eeb1627900c38b71eb2b/m6anet-2.1.0.tar.gz
+[2023-07-23 17:21:49] INFO root fetch - processPackages [dantro]: Downloading https://files.pythonhosted.org/packages/fd/08/1f9e761ba15d1c2f1022456e8cb6f167475f4a48b19691229ba5869eeae6/dantro-0.19.2.tar.gz
+[2023-07-23 17:21:49] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-07-23 17:21:49] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230723/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-07-23 17:21:49] INFO root fetch - processPackages [my-finance-package]: executing diffoscope
+[2023-07-23 17:21:49] INFO root fetch - processPackages [my-finance-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my-finance-package-0.1.0.tar.gz tmp/my-finance-package-0.2.0.tar.gz --markdown 20230723/m/my-finance-package/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-23 17:21:49] INFO root fetch - processPackages [pg-bulk-ingest]: executing diffoscope
+[2023-07-23 17:21:49] INFO root fetch - processPackages [pg-bulk-ingest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_bulk_ingest-0.0.8.tar.gz tmp/pg_bulk_ingest-0.0.9.tar.gz --markdown 20230723/p/pg-bulk-ingest/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 17:21:49] INFO root fetch - processPackages [arrow-odbc]: executing diffoscope
+[2023-07-23 17:21:49] INFO root fetch - processPackages [arrow-odbc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arrow_odbc-1.1.3.tar.gz tmp/arrow_odbc-1.2.0.tar.gz --markdown 20230723/a/arrow-odbc/1.1.3-1.2.0/diff.md --exclude *.pyd
+[2023-07-23 17:21:49] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-07-23 17:21:49] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.3.8.tar.gz tmp/nonebot_plugin_game_collection-2.3.9.tar.gz --markdown 20230723/n/nonebot-plugin-game-collection/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-07-23 17:21:49] INFO root fetch - processPackages [smpl-pkg-powly535]: executing diffoscope
+[2023-07-23 17:21:49] INFO root fetch - processPackages [smpl-pkg-powly535]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smpl-pkg-powly535-0.0.1.tar.gz tmp/smpl-pkg-powly535-0.0.2.tar.gz --markdown 20230723/s/smpl-pkg-powly535/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-23 17:21:49] INFO root fetch - processPackages [dantro]: executing diffoscope
+[2023-07-23 17:21:49] INFO root fetch - processPackages [dantro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dantro-0.19.1.tar.gz tmp/dantro-0.19.2.tar.gz --markdown 20230723/d/dantro/0.19.1-0.19.2/diff.md --exclude *.pyd
+[2023-07-23 17:21:50] INFO root fetch - processPackages [m6anet]: executing diffoscope
+[2023-07-23 17:21:50] INFO root fetch - processPackages [m6anet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m6anet-2.0.2.tar.gz tmp/m6anet-2.1.0.tar.gz --markdown 20230723/m/m6anet/2.0.2-2.1.0/diff.md --exclude *.pyd
+[2023-07-23 17:21:51] INFO root fetch - processPackages [neuralpit]: Remove: archive file [/home/abi/fetcher/tmp/neuralpit-2.0.8.tar.gz]
+[2023-07-23 17:21:51] INFO root fetch - processPackages [neuralpit]: Remove: archive file [/home/abi/fetcher/tmp/neuralpit-2.0.9.tar.gz]
+[2023-07-23 17:21:51] INFO root fetch - main [MainThread]: End processing [neuralpit]: success
+[2023-07-23 17:21:51] INFO root fetch - processPackages [my-finance-package]: Remove: archive file [/home/abi/fetcher/tmp/my-finance-package-0.1.0.tar.gz]
+[2023-07-23 17:21:51] INFO root fetch - processPackages [my-finance-package]: Remove: archive file [/home/abi/fetcher/tmp/my-finance-package-0.2.0.tar.gz]
+[2023-07-23 17:21:51] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.8.tar.gz]
+[2023-07-23 17:21:51] INFO root fetch - main [MainThread]: End processing [my-finance-package]: success
+[2023-07-23 17:21:51] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.9.tar.gz]
+[2023-07-23 17:21:51] INFO root fetch - main [MainThread]: End processing [llamabot]: success
+[2023-07-23 17:21:51] INFO root fetch - processPackages [pg-bulk-ingest]: Remove: archive file [/home/abi/fetcher/tmp/pg_bulk_ingest-0.0.8.tar.gz]
+[2023-07-23 17:21:51] INFO root fetch - processPackages [pg-bulk-ingest]: Remove: archive file [/home/abi/fetcher/tmp/pg_bulk_ingest-0.0.9.tar.gz]
+[2023-07-23 17:21:51] INFO root fetch - main [MainThread]: End processing [pg-bulk-ingest]: success
+[2023-07-23 17:21:51] INFO root fetch - processPackages [smpl-pkg-powly535]: Remove: archive file [/home/abi/fetcher/tmp/smpl-pkg-powly535-0.0.1.tar.gz]
+[2023-07-23 17:21:51] INFO root fetch - processPackages [smpl-pkg-powly535]: Remove: archive file [/home/abi/fetcher/tmp/smpl-pkg-powly535-0.0.2.tar.gz]
+[2023-07-23 17:21:51] INFO root fetch - main [MainThread]: End processing [smpl-pkg-powly535]: success
+[2023-07-23 17:21:51] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.3.8.tar.gz]
+[2023-07-23 17:21:51] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.3.9.tar.gz]
+[2023-07-23 17:21:51] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-07-23 17:21:51] INFO root fetch - processPackages [arrow-odbc]: Remove: archive file [/home/abi/fetcher/tmp/arrow_odbc-1.1.3.tar.gz]
+[2023-07-23 17:21:51] INFO root fetch - processPackages [arrow-odbc]: Remove: archive file [/home/abi/fetcher/tmp/arrow_odbc-1.2.0.tar.gz]
+[2023-07-23 17:21:51] INFO root fetch - main [MainThread]: End processing [arrow-odbc]: success
+[2023-07-23 17:21:51] INFO root fetch - processPackages [m6anet]: Remove: archive file [/home/abi/fetcher/tmp/m6anet-2.0.2.tar.gz]
+[2023-07-23 17:21:51] INFO root fetch - processPackages [m6anet]: Remove: archive file [/home/abi/fetcher/tmp/m6anet-2.1.0.tar.gz]
+[2023-07-23 17:21:51] INFO root fetch - main [MainThread]: End processing [m6anet]: success
+[2023-07-23 17:21:51] INFO root fetch - processPackages [dantro]: Remove: archive file [/home/abi/fetcher/tmp/dantro-0.19.1.tar.gz]
+[2023-07-23 17:21:51] INFO root fetch - processPackages [dantro]: Remove: archive file [/home/abi/fetcher/tmp/dantro-0.19.2.tar.gz]
+[2023-07-23 17:21:51] INFO root fetch - main [MainThread]: End processing [dantro]: success
+[2023-07-23 17:21:52] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-07-23 17:21:52] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-07-23 17:21:52] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-07-23 17:21:52] INFO root fetch - main [MainThread]: Store serial: [19002710]
