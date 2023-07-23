@@ -2370,3 +2370,24 @@
 [2023-07-23 04:21:30] INFO root fetch - processPackages [pynamicui]: Remove: archive file [/home/abi/fetcher/tmp/pynamicui-0.0.9.tar.gz]
 [2023-07-23 04:21:30] INFO root fetch - main [MainThread]: End processing [pynamicui]: success
 [2023-07-23 04:21:30] INFO root fetch - main [MainThread]: Store serial: [18999028]
+[2023-07-23 04:26:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999028]
+[2023-07-23 04:26:38] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-23 04:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: monai-weekly
+[2023-07-23 04:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: browsr
+[2023-07-23 04:26:38] INFO root fetch - processPackages [browsr]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-23 04:26:38] INFO root fetch - processPackages [monai-weekly]: New version: [1.3.dev2330] Old Version: [1.3.dev2329]
+[2023-07-23 04:26:38] INFO root fetch - processPackages [browsr]: Downloading https://files.pythonhosted.org/packages/58/8b/9c60586f504d9dea35957b9044dfc82db27bc571cd9045e51b578389b51b/browsr-1.8.0.tar.gz
+[2023-07-23 04:26:38] INFO root fetch - processPackages [monai-weekly]: Downloading https://files.pythonhosted.org/packages/c4/31/c8bd59a0b3c8627f7fb310832e7979ab9b51f684add16c2e8ea576c6ef0d/monai-weekly-1.3.dev2329.tar.gz
+[2023-07-23 04:26:39] INFO root fetch - processPackages [monai-weekly]: Downloading https://files.pythonhosted.org/packages/c8/21/d14f9c780efdeb8d2349a6b24941ff559105f55ee97c1cb68aa04da8c0cf/monai-weekly-1.3.dev2330.tar.gz
+[2023-07-23 04:26:39] INFO root fetch - processPackages [monai-weekly]: executing diffoscope
+[2023-07-23 04:26:39] INFO root fetch - processPackages [monai-weekly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monai-weekly-1.3.dev2329.tar.gz tmp/monai-weekly-1.3.dev2330.tar.gz --markdown 20230723/m/monai-weekly/1.3.dev2329-1.3.dev2330/diff.md --exclude *.pyd
+[2023-07-23 04:26:40] INFO root fetch - processPackages [browsr]: Downloading https://files.pythonhosted.org/packages/73/3f/6676ffcb6a7ad2bb28d9189dc5dcba9bbd3cf0ce3703ea6d13af9acf72cb/browsr-1.9.0.tar.gz
+[2023-07-23 04:26:41] INFO root fetch - processPackages [browsr]: executing diffoscope
+[2023-07-23 04:26:41] INFO root fetch - processPackages [browsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browsr-1.8.0.tar.gz tmp/browsr-1.9.0.tar.gz --markdown 20230723/b/browsr/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-23 04:26:42] INFO root fetch - processPackages [browsr]: Remove: archive file [/home/abi/fetcher/tmp/browsr-1.8.0.tar.gz]
+[2023-07-23 04:26:42] INFO root fetch - processPackages [browsr]: Remove: archive file [/home/abi/fetcher/tmp/browsr-1.9.0.tar.gz]
+[2023-07-23 04:26:42] INFO root fetch - main [MainThread]: End processing [browsr]: success
+[2023-07-23 04:26:46] INFO root fetch - processPackages [monai-weekly]: Remove: archive file [/home/abi/fetcher/tmp/monai-weekly-1.3.dev2329.tar.gz]
+[2023-07-23 04:26:46] INFO root fetch - processPackages [monai-weekly]: Remove: archive file [/home/abi/fetcher/tmp/monai-weekly-1.3.dev2330.tar.gz]
+[2023-07-23 04:26:46] INFO root fetch - main [MainThread]: End processing [monai-weekly]: success
+[2023-07-23 04:26:46] INFO root fetch - main [MainThread]: Store serial: [18999035]
