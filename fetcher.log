@@ -10645,3 +10645,114 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 17:53:09] INFO root fetch - processPackages [scFates]: Remove: archive file [/home/abi/fetcher/tmp/scFates-1.0.3.tar.gz]
 [2023-07-23 17:53:09] INFO root fetch - main [MainThread]: End processing [scFates]: success
 [2023-07-23 17:53:09] INFO root fetch - main [MainThread]: Store serial: [19002854]
+[2023-07-23 17:58:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19002854]
+[2023-07-23 17:58:18] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-23 17:58:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scFates
+[2023-07-23 17:58:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bycon
+[2023-07-23 17:58:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastllm
+[2023-07-23 17:58:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quackquack
+[2023-07-23 17:58:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grrif-tools
+[2023-07-23 17:58:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dagshub
+[2023-07-23 17:58:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: basti-cdk
+[2023-07-23 17:58:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Connectome-Utilities
+[2023-07-23 17:58:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chartfactor
+[2023-07-23 17:58:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chartfactor-jlab-ext
+[2023-07-23 17:58:18] INFO root fetch - processPackages [chartfactor-jlab-ext]: New version: [4.1.9] Old Version: [4.1.8]
+[2023-07-23 17:58:18] INFO root fetch - processPackages [scFates]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-23 17:58:18] INFO root fetch - processPackages [fastllm]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-23 17:58:18] INFO root fetch - processPackages [quackquack]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-23 17:58:18] INFO root fetch - processPackages [bycon]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-23 17:58:18] INFO root fetch - processPackages [basti-cdk]: New version: [1.0.0a3] Old Version: [1.0.0a0]
+[2023-07-23 17:58:18] INFO root fetch - processPackages [Connectome-Utilities]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-23 17:58:18] INFO root fetch - processPackages [grrif-tools]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-07-23 17:58:18] INFO root fetch - processPackages [dagshub]: New version: [0.3.0.post1] Old Version: [0.3.0]
+[2023-07-23 17:58:18] INFO root fetch - processPackages [chartfactor]: New version: [4.1.9] Old Version: [4.1.8]
+[2023-07-23 17:58:18] INFO root fetch - processPackages [scFates]: Downloading https://files.pythonhosted.org/packages/5e/7d/c0db5a1b54900a0b07822b9d88752ccc9a1496c7482610b6dc28702f871c/scFates-1.0.2.tar.gz
+[2023-07-23 17:58:18] INFO root fetch - processPackages [fastllm]: Downloading https://files.pythonhosted.org/packages/0d/f7/67f6ac1d87451be0a17669346dfbc5a65a6b9c6fa92f2fcbf6f0bd4d39e5/fastllm-0.1.0.tar.gz
+[2023-07-23 17:58:18] INFO root fetch - processPackages [chartfactor-jlab-ext]: Downloading https://files.pythonhosted.org/packages/cc/a4/85daf844bdc010d3b6279fb0e8ebe60ee62905963aca4f393e1efcca1feb/chartfactor-jlab-ext-4.1.8.tar.gz
+[2023-07-23 17:58:18] INFO root fetch - processPackages [basti-cdk]: Downloading https://files.pythonhosted.org/packages/4d/77/5bd34c988c6309385168adc633f1fcf3e82d5d10fe88e38f05f6ef6215bd/basti-cdk-1.0.0a0.tar.gz
+[2023-07-23 17:58:18] INFO root fetch - processPackages [quackquack]: Downloading https://files.pythonhosted.org/packages/87/52/31c2b426caafacbfb98e8ce5d1cff5d454b57771be237eb53526f305dba9/quackquack-1.2.0.tar.gz
+[2023-07-23 17:58:18] INFO root fetch - processPackages [bycon]: Downloading https://files.pythonhosted.org/packages/d8/52/9205bbdcf60c69e8870bca5c3a21b54dc9acc3dc4e845822e9f9630cbb34/bycon-1.0.8.tar.gz
+[2023-07-23 17:58:18] INFO root fetch - processPackages [chartfactor]: Downloading https://files.pythonhosted.org/packages/51/bd/236f1ae29b3cc86d202a733d2aaeb78c86201ef7bc61fc1cd30bddbce0f2/chartfactor-4.1.8.tar.gz
+[2023-07-23 17:58:18] INFO root fetch - processPackages [grrif-tools]: Downloading https://files.pythonhosted.org/packages/9f/2e/bf256bb74c2ec04951c91a13d09b9d3c43c8cb2eab3493d9217a08823aa9/grrif_tools-0.7.1.tar.gz
+[2023-07-23 17:58:18] INFO root fetch - processPackages [Connectome-Utilities]: Downloading https://files.pythonhosted.org/packages/03/b9/605bb4f422cfb8a71f19e03dacb1497b86eadcfc7932ef6576bed2bee323/Connectome-Utilities-0.3.1.tar.gz
+[2023-07-23 17:58:18] INFO root fetch - processPackages [dagshub]: Downloading https://files.pythonhosted.org/packages/42/5f/13463bf3126056886fddcf61e2b2a7d8250486697f0b0324bdaa282b4e39/dagshub-0.3.0.tar.gz
+[2023-07-23 17:58:19] INFO root fetch - processPackages [scFates]: Downloading https://files.pythonhosted.org/packages/30/a4/d0e30e02f50d47c9a59d62148af6342b28dd10a53241a0c033fe6dbbd127/scFates-1.0.3.tar.gz
+[2023-07-23 17:58:19] INFO root fetch - processPackages [fastllm]: Downloading https://files.pythonhosted.org/packages/53/af/88967521f323c9b63130155f42a06994d6ef8323183dc14c71cefbe48fdb/fastllm-0.1.1.tar.gz
+[2023-07-23 17:58:19] INFO root fetch - processPackages [chartfactor-jlab-ext]: Downloading https://files.pythonhosted.org/packages/72/c6/0474b4f09832c1718fcc42a76919f02eeafd36c752b4a0527a1e99cbc65f/chartfactor-jlab-ext-4.1.9.tar.gz
+[2023-07-23 17:58:19] INFO root fetch - processPackages [basti-cdk]: Downloading https://files.pythonhosted.org/packages/11/03/3e38236f3414e0343c6780438f7b0d83fae7a7abcd39b53ce947c5450672/basti-cdk-1.0.0a3.tar.gz
+[2023-07-23 17:58:19] INFO root fetch - processPackages [quackquack]: Downloading https://files.pythonhosted.org/packages/c4/3c/41725c12dbf68f0d7de122794f6bb7ddefbe2ddfcf2b21c4d132cacdb0f1/quackquack-1.2.1.tar.gz
+[2023-07-23 17:58:19] INFO root fetch - processPackages [scFates]: executing diffoscope
+[2023-07-23 17:58:19] INFO root fetch - processPackages [scFates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scFates-1.0.2.tar.gz tmp/scFates-1.0.3.tar.gz --markdown 20230723/s/scFates/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-23 17:58:19] INFO root fetch - processPackages [bycon]: Downloading https://files.pythonhosted.org/packages/0c/b2/ef8a7b90b711214a2f00741f476f95ddd0b540bf9732ac39a993a39e0d03/bycon-1.0.9.tar.gz
+[2023-07-23 17:58:19] INFO root fetch - processPackages [grrif-tools]: Downloading https://files.pythonhosted.org/packages/00/bf/389901e655eb37fc7176b883000011ff2150ab4c9213b86fdfc99ca5cdc1/grrif_tools-0.8.0.tar.gz
+[2023-07-23 17:58:19] INFO root fetch - processPackages [Connectome-Utilities]: Downloading https://files.pythonhosted.org/packages/11/cc/05dac0a8647c451c65831c878d5177cdfe2161d952fe0c8626fd4c331ef7/Connectome-Utilities-0.3.2.tar.gz
+[2023-07-23 17:58:19] INFO root fetch - processPackages [fastllm]: executing diffoscope
+[2023-07-23 17:58:19] INFO root fetch - processPackages [fastllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastllm-0.1.0.tar.gz tmp/fastllm-0.1.1.tar.gz --markdown 20230723/f/fastllm/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-23 17:58:19] INFO root fetch - processPackages [dagshub]: Downloading https://files.pythonhosted.org/packages/d2/dc/5aa323857354028ec503d41f73066a00ffd78960c71d6f3536140d583e05/dagshub-0.3.0.post1.tar.gz
+[2023-07-23 17:58:19] INFO root fetch - processPackages [chartfactor]: Downloading https://files.pythonhosted.org/packages/8e/5d/6202a224abbd847f997118507e9fe6896e2196a4601df38fb897fe5308fc/chartfactor-4.1.9.tar.gz
+[2023-07-23 17:58:19] INFO root fetch - processPackages [quackquack]: executing diffoscope
+[2023-07-23 17:58:19] INFO root fetch - processPackages [quackquack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quackquack-1.2.0.tar.gz tmp/quackquack-1.2.1.tar.gz --markdown 20230723/q/quackquack/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-23 17:58:19] INFO root fetch - processPackages [basti-cdk]: executing diffoscope
+[2023-07-23 17:58:19] INFO root fetch - processPackages [basti-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basti-cdk-1.0.0a0.tar.gz tmp/basti-cdk-1.0.0a3.tar.gz --markdown 20230723/b/basti-cdk/1.0.0a0-1.0.0a3/diff.md --exclude *.pyd
+[2023-07-23 17:58:19] INFO root fetch - processPackages [bycon]: executing diffoscope
+[2023-07-23 17:58:19] INFO root fetch - processPackages [bycon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bycon-1.0.8.tar.gz tmp/bycon-1.0.9.tar.gz --markdown 20230723/b/bycon/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-23 17:58:19] INFO root fetch - processPackages [chartfactor-jlab-ext]: executing diffoscope
+[2023-07-23 17:58:19] INFO root fetch - processPackages [chartfactor-jlab-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chartfactor-jlab-ext-4.1.8.tar.gz tmp/chartfactor-jlab-ext-4.1.9.tar.gz --markdown 20230723/c/chartfactor-jlab-ext/4.1.8-4.1.9/diff.md --exclude *.pyd
+[2023-07-23 17:58:19] INFO root fetch - processPackages [grrif-tools]: executing diffoscope
+[2023-07-23 17:58:19] INFO root fetch - processPackages [grrif-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grrif_tools-0.7.1.tar.gz tmp/grrif_tools-0.8.0.tar.gz --markdown 20230723/g/grrif-tools/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-07-23 17:58:19] INFO root fetch - processPackages [Connectome-Utilities]: executing diffoscope
+[2023-07-23 17:58:19] INFO root fetch - processPackages [Connectome-Utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Connectome-Utilities-0.3.1.tar.gz tmp/Connectome-Utilities-0.3.2.tar.gz --markdown 20230723/C/Connectome-Utilities/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-23 17:58:19] INFO root fetch - processPackages [dagshub]: executing diffoscope
+[2023-07-23 17:58:19] INFO root fetch - processPackages [dagshub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagshub-0.3.0.tar.gz tmp/dagshub-0.3.0.post1.tar.gz --markdown 20230723/d/dagshub/0.3.0-0.3.0.post1/diff.md --exclude *.pyd
+[2023-07-23 17:58:19] INFO root fetch - processPackages [chartfactor]: executing diffoscope
+[2023-07-23 17:58:19] INFO root fetch - processPackages [chartfactor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chartfactor-4.1.8.tar.gz tmp/chartfactor-4.1.9.tar.gz --markdown 20230723/c/chartfactor/4.1.8-4.1.9/diff.md --exclude *.pyd
+[2023-07-23 17:58:20] INFO root fetch - processPackages [fastllm]: Remove: archive file [/home/abi/fetcher/tmp/fastllm-0.1.0.tar.gz]
+[2023-07-23 17:58:20] INFO root fetch - processPackages [fastllm]: Remove: archive file [/home/abi/fetcher/tmp/fastllm-0.1.1.tar.gz]
+[2023-07-23 17:58:20] INFO root fetch - processPackages [fastllm]: Start processing: pythonbmp
+[2023-07-23 17:58:20] INFO root fetch - main [MainThread]: End processing [fastllm]: success
+[2023-07-23 17:58:20] INFO root fetch - processPackages [pythonbmp]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-23 17:58:21] INFO root fetch - processPackages [basti-cdk]: Remove: archive file [/home/abi/fetcher/tmp/basti-cdk-1.0.0a0.tar.gz]
+[2023-07-23 17:58:21] INFO root fetch - processPackages [basti-cdk]: Remove: archive file [/home/abi/fetcher/tmp/basti-cdk-1.0.0a3.tar.gz]
+[2023-07-23 17:58:21] INFO root fetch - processPackages [basti-cdk]: Start processing: keyrings.envvars
+[2023-07-23 17:58:21] INFO root fetch - main [MainThread]: End processing [basti-cdk]: success
+[2023-07-23 17:58:21] INFO root fetch - processPackages [keyrings.envvars]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-23 17:58:21] INFO root fetch - processPackages [pythonbmp]: Downloading https://files.pythonhosted.org/packages/9e/23/72e140ef90aadfa06c68a38398c614cf85d5bd9c64883ad030934d8795e9/pythonbmp-1.0.2-py3-none-any.whl
+[2023-07-23 17:58:21] INFO root fetch - processPackages [quackquack]: Remove: archive file [/home/abi/fetcher/tmp/quackquack-1.2.0.tar.gz]
+[2023-07-23 17:58:21] INFO root fetch - processPackages [quackquack]: Remove: archive file [/home/abi/fetcher/tmp/quackquack-1.2.1.tar.gz]
+[2023-07-23 17:58:21] INFO root fetch - main [MainThread]: End processing [quackquack]: success
+[2023-07-23 17:58:21] INFO root fetch - processPackages [keyrings.envvars]: Downloading https://files.pythonhosted.org/packages/f5/25/fd5ce7433f398921da904478abd476c5efc6c91da27486b64a5cc1cc9180/keyrings_envvars-1.0.1.tar.gz
+[2023-07-23 17:58:21] INFO root fetch - processPackages [Connectome-Utilities]: Remove: archive file [/home/abi/fetcher/tmp/Connectome-Utilities-0.3.1.tar.gz]
+[2023-07-23 17:58:21] INFO root fetch - processPackages [Connectome-Utilities]: Remove: archive file [/home/abi/fetcher/tmp/Connectome-Utilities-0.3.2.tar.gz]
+[2023-07-23 17:58:21] INFO root fetch - main [MainThread]: End processing [Connectome-Utilities]: success
+[2023-07-23 17:58:21] INFO root fetch - processPackages [grrif-tools]: Remove: archive file [/home/abi/fetcher/tmp/grrif_tools-0.7.1.tar.gz]
+[2023-07-23 17:58:21] INFO root fetch - processPackages [grrif-tools]: Remove: archive file [/home/abi/fetcher/tmp/grrif_tools-0.8.0.tar.gz]
+[2023-07-23 17:58:21] INFO root fetch - main [MainThread]: End processing [grrif-tools]: success
+[2023-07-23 17:58:21] INFO root fetch - processPackages [scFates]: Remove: archive file [/home/abi/fetcher/tmp/scFates-1.0.2.tar.gz]
+[2023-07-23 17:58:21] INFO root fetch - processPackages [scFates]: Remove: archive file [/home/abi/fetcher/tmp/scFates-1.0.3.tar.gz]
+[2023-07-23 17:58:21] INFO root fetch - main [MainThread]: End processing [scFates]: success
+[2023-07-23 17:58:21] INFO root fetch - processPackages [pythonbmp]: Downloading https://files.pythonhosted.org/packages/0d/71/630b44cae9925924e5d878acca33b245ebde13596e1c62691c0919fe2ebd/pythonbmp-1.0.3.tar.gz
+[2023-07-23 17:58:21] INFO root fetch - processPackages [keyrings.envvars]: Downloading https://files.pythonhosted.org/packages/32/57/54b686388e07adc695d4a03b6eee43ca79fecbc3fc9c7b285e658a8bf03b/keyrings_envvars-1.0.2.tar.gz
+[2023-07-23 17:58:21] INFO root fetch - processPackages [chartfactor]: Remove: archive file [/home/abi/fetcher/tmp/chartfactor-4.1.8.tar.gz]
+[2023-07-23 17:58:21] INFO root fetch - processPackages [chartfactor]: Remove: archive file [/home/abi/fetcher/tmp/chartfactor-4.1.9.tar.gz]
+[2023-07-23 17:58:21] INFO root fetch - main [MainThread]: End processing [chartfactor]: success
+[2023-07-23 17:58:21] INFO root fetch - processPackages [dagshub]: Remove: archive file [/home/abi/fetcher/tmp/dagshub-0.3.0.tar.gz]
+[2023-07-23 17:58:21] INFO root fetch - processPackages [dagshub]: Remove: archive file [/home/abi/fetcher/tmp/dagshub-0.3.0.post1.tar.gz]
+[2023-07-23 17:58:21] INFO root fetch - main [MainThread]: End processing [dagshub]: success
+[2023-07-23 17:58:21] INFO root fetch - processPackages [pythonbmp]: executing diffoscope
+[2023-07-23 17:58:21] INFO root fetch - processPackages [pythonbmp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonbmp-1.0.2-py3-none-any.whl.zip tmp/pythonbmp-1.0.3.tar.gz --markdown 20230723/p/pythonbmp/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-23 17:58:21] INFO root fetch - processPackages [keyrings.envvars]: executing diffoscope
+[2023-07-23 17:58:21] INFO root fetch - processPackages [keyrings.envvars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keyrings_envvars-1.0.1.tar.gz tmp/keyrings_envvars-1.0.2.tar.gz --markdown 20230723/k/keyrings.envvars/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-23 17:58:21] INFO root fetch - processPackages [chartfactor-jlab-ext]: Remove: archive file [/home/abi/fetcher/tmp/chartfactor-jlab-ext-4.1.8.tar.gz]
+[2023-07-23 17:58:21] INFO root fetch - processPackages [chartfactor-jlab-ext]: Remove: archive file [/home/abi/fetcher/tmp/chartfactor-jlab-ext-4.1.9.tar.gz]
+[2023-07-23 17:58:21] INFO root fetch - main [MainThread]: End processing [chartfactor-jlab-ext]: success
+[2023-07-23 17:58:22] INFO root fetch - processPackages [pythonbmp]: Remove: archive file [/home/abi/fetcher/tmp/pythonbmp-1.0.2-py3-none-any.whl.zip]
+[2023-07-23 17:58:22] INFO root fetch - processPackages [pythonbmp]: Remove: archive file [/home/abi/fetcher/tmp/pythonbmp-1.0.3.tar.gz]
+[2023-07-23 17:58:22] INFO root fetch - main [MainThread]: End processing [pythonbmp]: success
+[2023-07-23 17:58:22] INFO root fetch - processPackages [keyrings.envvars]: Remove: archive file [/home/abi/fetcher/tmp/keyrings_envvars-1.0.1.tar.gz]
+[2023-07-23 17:58:22] INFO root fetch - processPackages [keyrings.envvars]: Remove: archive file [/home/abi/fetcher/tmp/keyrings_envvars-1.0.2.tar.gz]
+[2023-07-23 17:58:22] INFO root fetch - main [MainThread]: End processing [keyrings.envvars]: success
+[2023-07-23 17:58:23] INFO root fetch - processPackages [bycon]: Remove: archive file [/home/abi/fetcher/tmp/bycon-1.0.8.tar.gz]
+[2023-07-23 17:58:23] INFO root fetch - processPackages [bycon]: Remove: archive file [/home/abi/fetcher/tmp/bycon-1.0.9.tar.gz]
+[2023-07-23 17:58:23] INFO root fetch - main [MainThread]: End processing [bycon]: success
+[2023-07-23 17:58:23] INFO root fetch - main [MainThread]: Store serial: [19002890]
