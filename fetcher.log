@@ -5951,3 +5951,108 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 11:31:48] INFO root fetch - processPackages [recompose]: Remove: archive file [/home/abi/fetcher/tmp/recompose-1.0.0b0-py3-none-any.whl.zip]
 [2023-07-23 11:31:48] INFO root fetch - main [MainThread]: End processing [recompose]: success
 [2023-07-23 11:31:48] INFO root fetch - main [MainThread]: Store serial: [19000478]
+[2023-07-23 11:36:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19000478]
+[2023-07-23 11:36:57] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-23 11:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fasttextsearch
+[2023-07-23 11:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autoapi-django
+[2023-07-23 11:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: normflows
+[2023-07-23 11:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyntweb
+[2023-07-23 11:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: checkatlas
+[2023-07-23 11:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: drukbam
+[2023-07-23 11:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rosa-python-client
+[2023-07-23 11:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mutwo.midi
+[2023-07-23 11:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: logger-local
+[2023-07-23 11:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyne-script-utilities
+[2023-07-23 11:36:57] INFO root fetch - processPackages [autoapi-django]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-23 11:36:57] INFO root fetch - processPackages [drukbam]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-23 11:36:57] INFO root fetch - processPackages [checkatlas]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-23 11:36:57] INFO root fetch - processPackages [mutwo.midi]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-23 11:36:57] INFO root fetch - processPackages [fasttextsearch]: New version: [0.51] Old Version: [0.5]
+[2023-07-23 11:36:57] INFO root fetch - processPackages [pyntweb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-23 11:36:57] INFO root fetch - processPackages [pyne-script-utilities]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-23 11:36:57] INFO root fetch - processPackages [logger-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 11:36:57] INFO root fetch - processPackages [normflows]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-07-23 11:36:57] INFO root fetch - processPackages [autoapi-django]: Downloading https://files.pythonhosted.org/packages/33/37/fdee8136fc0237aea9075a557a730240a9f626eff149eb5e8328776b4321/autoapi-django-0.9.1.tar.gz
+[2023-07-23 11:36:57] INFO root fetch - processPackages [rosa-python-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-23 11:36:57] INFO root fetch - processPackages [drukbam]: Downloading https://files.pythonhosted.org/packages/e5/b7/d6d08b0daa795b50c326f9733857af1de7144f274f1aaf9af21a63e337df/drukbam-1.1.3.tar.gz
+[2023-07-23 11:36:57] INFO root fetch - processPackages [pyntweb]: Downloading https://files.pythonhosted.org/packages/2e/55/9fdd0c128f6126b0e1fb8dd2733eec6f7d04710d7d70ee998115c2fa03ef/pyntweb-0.2.8.tar.gz
+[2023-07-23 11:36:57] INFO root fetch - processPackages [autoapi-django]: Downloading https://files.pythonhosted.org/packages/4a/c8/e5fbd22789d51741011533765bab6db3930f338c9225d61686e4dec24027/autoapi-django-0.9.2.tar.gz
+[2023-07-23 11:36:57] INFO root fetch - processPackages [mutwo.midi]: Downloading https://files.pythonhosted.org/packages/83/3f/d698e6ff0fb127341eab6127dd8f315288d999576485675ee4b819875a6a/mutwo.midi-0.8.1.tar.gz
+[2023-07-23 11:36:57] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/51/a7/9c8f313c3b04370e742edd1762034985eea1f24a918183a7084f6eb93e1e/checkatlas-0.3.8.tar.gz
+[2023-07-23 11:36:58] INFO root fetch - processPackages [normflows]: Downloading https://files.pythonhosted.org/packages/09/2f/3e787c7cbd425c8e20731801fde900cb442287399e51544623d24d0980e7/normflows-1.7.1.tar.gz
+[2023-07-23 11:36:58] INFO root fetch - processPackages [rosa-python-client]: Downloading https://files.pythonhosted.org/packages/9d/3d/13a352dc8b1b3b85a795352b1cee6cd40ca9d5cb9e015f6174830f9ffb0e/rosa_python_client-1.0.8.tar.gz
+[2023-07-23 11:36:58] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/21/e1/7a45a748162f16f488c16187a0b07c25201df5531bf12da29ff61c6d7db5/logger-local-0.0.8.tar.gz
+[2023-07-23 11:36:58] INFO root fetch - processPackages [fasttextsearch]: Downloading https://files.pythonhosted.org/packages/db/2c/daa26dbcf6f2d0e293f287edbc757007851e82dbccb606b1d755533af8d7/fasttextsearch-0.5.tar.gz
+[2023-07-23 11:36:58] INFO root fetch - processPackages [pyne-script-utilities]: Downloading https://files.pythonhosted.org/packages/f8/a9/0944a9fa2eb6b7f3da7c6e9cc066ff2b65f8f1196d1de09ad9ba6e99d52d/pyne_script_utilities-1.0.1.tar.gz
+[2023-07-23 11:36:58] INFO root fetch - processPackages [autoapi-django]: executing diffoscope
+[2023-07-23 11:36:58] INFO root fetch - processPackages [autoapi-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoapi-django-0.9.1.tar.gz tmp/autoapi-django-0.9.2.tar.gz --markdown 20230723/a/autoapi-django/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-23 11:36:58] INFO root fetch - processPackages [drukbam]: Downloading https://files.pythonhosted.org/packages/7d/05/40053b11ecf00cb0618f8380f1edf09038fbe88bb03e2bc10c473d1d5895/drukbam-1.1.4.tar.gz
+[2023-07-23 11:36:58] INFO root fetch - processPackages [pyntweb]: Downloading https://files.pythonhosted.org/packages/68/76/9710407be69a495a5e8f803078c9a0974413ebeb4f49e1bf7b63684a43bd/pyntweb-0.2.9.tar.gz
+[2023-07-23 11:36:58] INFO root fetch - processPackages [drukbam]: executing diffoscope
+[2023-07-23 11:36:58] INFO root fetch - processPackages [drukbam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drukbam-1.1.3.tar.gz tmp/drukbam-1.1.4.tar.gz --markdown 20230723/d/drukbam/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-23 11:36:58] INFO root fetch - processPackages [pyntweb]: executing diffoscope
+[2023-07-23 11:36:58] INFO root fetch - processPackages [pyntweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyntweb-0.2.8.tar.gz tmp/pyntweb-0.2.9.tar.gz --markdown 20230723/p/pyntweb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-23 11:36:58] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/01/47/ebbe376d483ba9fd31540dfcf7afc7ebb4936d9f18fbba952eee1303faaa/checkatlas-0.3.9.tar.gz
+[2023-07-23 11:36:58] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/2d/a9/d7815ae572e09b03370b309ad1bf127cf7c8f4c91b3ddd26fd0043a2e559/logger-local-0.0.9.tar.gz
+[2023-07-23 11:36:58] INFO root fetch - processPackages [mutwo.midi]: Downloading https://files.pythonhosted.org/packages/56/6f/f000bcae50e3efcb95ef47151c09cd0d2c2446410b11f1d1592eed12e8af/mutwo.midi-0.9.0.tar.gz
+[2023-07-23 11:36:58] INFO root fetch - processPackages [normflows]: Downloading https://files.pythonhosted.org/packages/25/5c/29cc2ef6e4bf4da6abb7a3f74e6fbff74bcb46c9f8616cdb1be67ad7f3aa/normflows-1.7.2.tar.gz
+[2023-07-23 11:36:58] INFO root fetch - processPackages [fasttextsearch]: Downloading https://files.pythonhosted.org/packages/14/f9/53b730f00b50570995f155b92ad862bdbf230205426461f5062fda05737a/fasttextsearch-0.51.tar.gz
+[2023-07-23 11:36:58] INFO root fetch - processPackages [rosa-python-client]: Downloading https://files.pythonhosted.org/packages/57/71/77aa94783e126449ad00cda27a853d3161809a6117e0e34f7ab67ade9050/rosa_python_client-1.0.9.tar.gz
+[2023-07-23 11:36:58] INFO root fetch - processPackages [checkatlas]: executing diffoscope
+[2023-07-23 11:36:58] INFO root fetch - processPackages [checkatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkatlas-0.3.8.tar.gz tmp/checkatlas-0.3.9.tar.gz --markdown 20230723/c/checkatlas/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-23 11:36:58] INFO root fetch - processPackages [logger-local]: executing diffoscope
+[2023-07-23 11:36:58] INFO root fetch - processPackages [logger-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger-local-0.0.8.tar.gz tmp/logger-local-0.0.9.tar.gz --markdown 20230723/l/logger-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 11:36:58] INFO root fetch - processPackages [pyne-script-utilities]: Downloading https://files.pythonhosted.org/packages/9e/73/d65ef78cc470a76d13e133dfbd6ca777de12684e855e203913d5841ded32/pyne_script_utilities-1.0.2.tar.gz
+[2023-07-23 11:36:58] INFO root fetch - processPackages [normflows]: executing diffoscope
+[2023-07-23 11:36:58] INFO root fetch - processPackages [normflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/normflows-1.7.1.tar.gz tmp/normflows-1.7.2.tar.gz --markdown 20230723/n/normflows/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-07-23 11:36:58] INFO root fetch - processPackages [fasttextsearch]: executing diffoscope
+[2023-07-23 11:36:58] INFO root fetch - processPackages [fasttextsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fasttextsearch-0.5.tar.gz tmp/fasttextsearch-0.51.tar.gz --markdown 20230723/f/fasttextsearch/0.5-0.51/diff.md --exclude *.pyd
+[2023-07-23 11:36:58] INFO root fetch - processPackages [mutwo.midi]: executing diffoscope
+[2023-07-23 11:36:58] INFO root fetch - processPackages [mutwo.midi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mutwo.midi-0.8.1.tar.gz tmp/mutwo.midi-0.9.0.tar.gz --markdown 20230723/m/mutwo.midi/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-23 11:36:58] INFO root fetch - processPackages [pyne-script-utilities]: executing diffoscope
+[2023-07-23 11:36:58] INFO root fetch - processPackages [pyne-script-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyne_script_utilities-1.0.1.tar.gz tmp/pyne_script_utilities-1.0.2.tar.gz --markdown 20230723/p/pyne-script-utilities/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-23 11:36:58] INFO root fetch - processPackages [rosa-python-client]: executing diffoscope
+[2023-07-23 11:36:58] INFO root fetch - processPackages [rosa-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosa_python_client-1.0.8.tar.gz tmp/rosa_python_client-1.0.9.tar.gz --markdown 20230723/r/rosa-python-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-23 11:36:59] INFO root fetch - processPackages [autoapi-django]: Remove: archive file [/home/abi/fetcher/tmp/autoapi-django-0.9.1.tar.gz]
+[2023-07-23 11:36:59] INFO root fetch - processPackages [autoapi-django]: Remove: archive file [/home/abi/fetcher/tmp/autoapi-django-0.9.2.tar.gz]
+[2023-07-23 11:36:59] INFO root fetch - processPackages [autoapi-django]: Start processing: recompose
+[2023-07-23 11:36:59] INFO root fetch - main [MainThread]: End processing [autoapi-django]: success
+[2023-07-23 11:36:59] INFO root fetch - processPackages [recompose]: New version: [1.0.1] Old Version: [1.0.0b0]
+[2023-07-23 11:36:59] INFO root fetch - processPackages [recompose]: Downloading https://files.pythonhosted.org/packages/08/fe/d903de3c81763b76e10ad2f81aea5879bfba8c90c47c11635dbb9023482c/recompose-1.0.0b0-py3-none-any.whl
+[2023-07-23 11:36:59] INFO root fetch - processPackages [drukbam]: Remove: archive file [/home/abi/fetcher/tmp/drukbam-1.1.3.tar.gz]
+[2023-07-23 11:36:59] INFO root fetch - processPackages [drukbam]: Remove: archive file [/home/abi/fetcher/tmp/drukbam-1.1.4.tar.gz]
+[2023-07-23 11:36:59] INFO root fetch - processPackages [drukbam]: Start processing: FirebaseDatabaseTakeover
+[2023-07-23 11:36:59] INFO root fetch - main [MainThread]: End processing [drukbam]: success
+[2023-07-23 11:36:59] INFO root fetch - processPackages [pyntweb]: Remove: archive file [/home/abi/fetcher/tmp/pyntweb-0.2.8.tar.gz]
+[2023-07-23 11:36:59] INFO root fetch - processPackages [pyntweb]: Remove: archive file [/home/abi/fetcher/tmp/pyntweb-0.2.9.tar.gz]
+[2023-07-23 11:36:59] INFO root fetch - main [MainThread]: End processing [pyntweb]: success
+[2023-07-23 11:37:00] WARNING root fetch - processPackages [FirebaseDatabaseTakeover]: Skipping, unable to determine old version
+[2023-07-23 11:37:00] INFO root fetch - main [MainThread]: End processing [FirebaseDatabaseTakeover] error
+[2023-07-23 11:37:00] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.8.tar.gz]
+[2023-07-23 11:37:00] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.9.tar.gz]
+[2023-07-23 11:37:00] INFO root fetch - main [MainThread]: End processing [logger-local]: success
+[2023-07-23 11:37:00] INFO root fetch - processPackages [recompose]: Downloading https://files.pythonhosted.org/packages/21/f5/96faf18f39f2cb43ae9be51f3a897d22505cc7a39660841a5197132d2abf/recompose-1.0.1-py3-none-any.whl
+[2023-07-23 11:37:00] INFO root fetch - processPackages [recompose]: executing diffoscope
+[2023-07-23 11:37:00] INFO root fetch - processPackages [recompose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recompose-1.0.0b0-py3-none-any.whl.zip tmp/recompose-1.0.1-py3-none-any.whl.zip --markdown 20230723/r/recompose/1.0.0b0-1.0.1/diff.md --exclude *.pyd
+[2023-07-23 11:37:00] INFO root fetch - processPackages [mutwo.midi]: Remove: archive file [/home/abi/fetcher/tmp/mutwo.midi-0.8.1.tar.gz]
+[2023-07-23 11:37:00] INFO root fetch - processPackages [mutwo.midi]: Remove: archive file [/home/abi/fetcher/tmp/mutwo.midi-0.9.0.tar.gz]
+[2023-07-23 11:37:00] INFO root fetch - main [MainThread]: End processing [mutwo.midi]: success
+[2023-07-23 11:37:00] INFO root fetch - processPackages [rosa-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rosa_python_client-1.0.8.tar.gz]
+[2023-07-23 11:37:00] INFO root fetch - processPackages [rosa-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rosa_python_client-1.0.9.tar.gz]
+[2023-07-23 11:37:00] INFO root fetch - main [MainThread]: End processing [rosa-python-client]: success
+[2023-07-23 11:37:00] INFO root fetch - processPackages [pyne-script-utilities]: Remove: archive file [/home/abi/fetcher/tmp/pyne_script_utilities-1.0.1.tar.gz]
+[2023-07-23 11:37:00] INFO root fetch - processPackages [pyne-script-utilities]: Remove: archive file [/home/abi/fetcher/tmp/pyne_script_utilities-1.0.2.tar.gz]
+[2023-07-23 11:37:00] INFO root fetch - main [MainThread]: End processing [pyne-script-utilities]: success
+[2023-07-23 11:37:00] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.3.8.tar.gz]
+[2023-07-23 11:37:00] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.3.9.tar.gz]
+[2023-07-23 11:37:00] INFO root fetch - main [MainThread]: End processing [checkatlas]: success
+[2023-07-23 11:37:00] INFO root fetch - processPackages [normflows]: Remove: archive file [/home/abi/fetcher/tmp/normflows-1.7.1.tar.gz]
+[2023-07-23 11:37:00] INFO root fetch - processPackages [normflows]: Remove: archive file [/home/abi/fetcher/tmp/normflows-1.7.2.tar.gz]
+[2023-07-23 11:37:00] INFO root fetch - main [MainThread]: End processing [normflows]: success
+[2023-07-23 11:37:00] INFO root fetch - processPackages [fasttextsearch]: Remove: archive file [/home/abi/fetcher/tmp/fasttextsearch-0.5.tar.gz]
+[2023-07-23 11:37:00] INFO root fetch - processPackages [fasttextsearch]: Remove: archive file [/home/abi/fetcher/tmp/fasttextsearch-0.51.tar.gz]
+[2023-07-23 11:37:00] INFO root fetch - main [MainThread]: End processing [fasttextsearch]: success
+[2023-07-23 11:37:01] INFO root fetch - processPackages [recompose]: Remove: archive file [/home/abi/fetcher/tmp/recompose-1.0.0b0-py3-none-any.whl.zip]
+[2023-07-23 11:37:01] INFO root fetch - processPackages [recompose]: Remove: archive file [/home/abi/fetcher/tmp/recompose-1.0.1-py3-none-any.whl.zip]
+[2023-07-23 11:37:01] INFO root fetch - main [MainThread]: End processing [recompose]: success
+[2023-07-23 11:37:01] INFO root fetch - main [MainThread]: Store serial: [19000524]
