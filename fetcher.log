@@ -3565,3 +3565,39 @@
 [2023-07-23 06:47:18] INFO root fetch - processPackages [AutoQPF]: Remove: archive file [/home/abi/fetcher/tmp/AutoQPF-0.1.4.tar.gz]
 [2023-07-23 06:47:18] INFO root fetch - main [MainThread]: End processing [AutoQPF]: success
 [2023-07-23 06:47:18] INFO root fetch - main [MainThread]: Store serial: [18999513]
+[2023-07-23 06:52:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999513]
+[2023-07-23 06:52:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-23 06:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kulipdf
+[2023-07-23 06:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: psd-export
+[2023-07-23 06:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: v3io-frames
+[2023-07-23 06:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phap
+[2023-07-23 06:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pg-alchemy-kit
+[2023-07-23 06:52:26] WARNING root fetch - processPackages [kulipdf]: Skipping, unable to determine old version
+[2023-07-23 06:52:26] INFO root fetch - main [MainThread]: End processing [kulipdf] error
+[2023-07-23 06:52:26] INFO root fetch - processPackages [psd-export]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-23 06:52:26] INFO root fetch - processPackages [v3io-frames]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-23 06:52:26] WARNING root fetch - processPackages [pg-alchemy-kit]: Skipping, unable to determine old version
+[2023-07-23 06:52:26] INFO root fetch - main [MainThread]: End processing [pg-alchemy-kit] error
+[2023-07-23 06:52:26] INFO root fetch - processPackages [phap]: New version: [3.0.0] Old Version: [2.2.1rc1]
+[2023-07-23 06:52:26] INFO root fetch - processPackages [psd-export]: Downloading https://files.pythonhosted.org/packages/79/be/bd79e2e66ae9642a3ef983c0b7d12c72224c279c11c0c4a0f441f2c4914c/psd_export-1.0.8.tar.gz
+[2023-07-23 06:52:26] INFO root fetch - processPackages [phap]: Downloading https://files.pythonhosted.org/packages/55/15/a94e84e1211655477f0516e030bfe943c069ad23cd638e55588ee059e486/phap-2.2.1rc1.tar.gz
+[2023-07-23 06:52:26] INFO root fetch - processPackages [v3io-frames]: Downloading https://files.pythonhosted.org/packages/a5/ce/b7b19a5d57cec191c0598f3eee0e03e08ec46e86b3529d27e659c9f5941e/v3io_frames-0.9.5.tar.gz
+[2023-07-23 06:52:27] INFO root fetch - processPackages [psd-export]: Downloading https://files.pythonhosted.org/packages/b4/2e/3892de4c1b874936438aa08ee9784611755a30d23b291eec2081c04dc15c/psd_export-1.0.9.tar.gz
+[2023-07-23 06:52:27] INFO root fetch - processPackages [v3io-frames]: Downloading https://files.pythonhosted.org/packages/f6/d6/959b6bfc090ed338e806d47a119ec3b52f250aba6ad968cd5c8b9f01f8af/v3io_frames-0.9.6.tar.gz
+[2023-07-23 06:52:27] INFO root fetch - processPackages [phap]: Downloading https://files.pythonhosted.org/packages/84/6f/d9e1418947dfc190f7c582855a2f52caa5b3b04a4e6652e81e83872d4cd6/phap-3.0.0.tar.gz
+[2023-07-23 06:52:27] INFO root fetch - processPackages [psd-export]: executing diffoscope
+[2023-07-23 06:52:27] INFO root fetch - processPackages [psd-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psd_export-1.0.8.tar.gz tmp/psd_export-1.0.9.tar.gz --markdown 20230723/p/psd-export/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-23 06:52:27] INFO root fetch - processPackages [v3io-frames]: executing diffoscope
+[2023-07-23 06:52:27] INFO root fetch - processPackages [v3io-frames]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v3io_frames-0.9.5.tar.gz tmp/v3io_frames-0.9.6.tar.gz --markdown 20230723/v/v3io-frames/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-23 06:52:27] INFO root fetch - processPackages [phap]: executing diffoscope
+[2023-07-23 06:52:27] INFO root fetch - processPackages [phap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phap-2.2.1rc1.tar.gz tmp/phap-3.0.0.tar.gz --markdown 20230723/p/phap/2.2.1rc1-3.0.0/diff.md --exclude *.pyd
+[2023-07-23 06:52:28] INFO root fetch - processPackages [psd-export]: Remove: archive file [/home/abi/fetcher/tmp/psd_export-1.0.8.tar.gz]
+[2023-07-23 06:52:28] INFO root fetch - processPackages [psd-export]: Remove: archive file [/home/abi/fetcher/tmp/psd_export-1.0.9.tar.gz]
+[2023-07-23 06:52:28] INFO root fetch - main [MainThread]: End processing [psd-export]: success
+[2023-07-23 06:52:28] INFO root fetch - processPackages [phap]: Remove: archive file [/home/abi/fetcher/tmp/phap-2.2.1rc1.tar.gz]
+[2023-07-23 06:52:28] INFO root fetch - processPackages [phap]: Remove: archive file [/home/abi/fetcher/tmp/phap-3.0.0.tar.gz]
+[2023-07-23 06:52:28] INFO root fetch - main [MainThread]: End processing [phap]: success
+[2023-07-23 06:52:28] INFO root fetch - processPackages [v3io-frames]: Remove: archive file [/home/abi/fetcher/tmp/v3io_frames-0.9.5.tar.gz]
+[2023-07-23 06:52:28] INFO root fetch - processPackages [v3io-frames]: Remove: archive file [/home/abi/fetcher/tmp/v3io_frames-0.9.6.tar.gz]
+[2023-07-23 06:52:28] INFO root fetch - main [MainThread]: End processing [v3io-frames]: success
+[2023-07-23 06:52:28] INFO root fetch - main [MainThread]: Store serial: [18999532]
