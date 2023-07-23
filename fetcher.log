@@ -5206,3 +5206,75 @@
 [2023-07-23 10:22:29] INFO root fetch - processPackages [mplsoccer]: Remove: archive file [/home/abi/fetcher/tmp/mplsoccer-1.2.0.tar.gz]
 [2023-07-23 10:22:29] INFO root fetch - main [MainThread]: End processing [mplsoccer]: success
 [2023-07-23 10:22:29] INFO root fetch - main [MainThread]: Store serial: [19000227]
+[2023-07-23 10:27:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19000227]
+[2023-07-23 10:27:39] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-23 10:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wow-ai-mms
+[2023-07-23 10:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bridgecrew
+[2023-07-23 10:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: myds
+[2023-07-23 10:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swibots
+[2023-07-23 10:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-nightly
+[2023-07-23 10:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot2
+[2023-07-23 10:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: terraform-backend-s3-bucket
+[2023-07-23 10:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: advanced-ta
+[2023-07-23 10:27:39] INFO root fetch - processPackages [wow-ai-mms]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-23 10:27:39] INFO root fetch - processPackages [myds]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-23 10:27:39] INFO root fetch - processPackages [advanced-ta]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-23 10:27:39] INFO root fetch - processPackages [terraform-backend-s3-bucket]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 10:27:39] INFO root fetch - processPackages [swibots]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-23 10:27:39] INFO root fetch - processPackages [nonebot2]: New version: [2.0.1] Old Version: [2.0.0rc4]
+[2023-07-23 10:27:39] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-23 10:27:39] INFO root fetch - processPackages [advanced-ta]: Downloading https://files.pythonhosted.org/packages/4d/52/1713c5773742cdd1d74d900b5f896a9045c860be9706280601164c604a75/advanced-ta-0.1.2.tar.gz
+[2023-07-23 10:27:39] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230723] Old Version: [2.14.0.dev20230722]
+[2023-07-23 10:27:39] INFO root fetch - processPackages [wow-ai-mms]: Downloading https://files.pythonhosted.org/packages/c0/c0/e1fe3e6a4155ca16f99739bbc48b11e878ab3746ae0d7fd085fdc949dc75/wow_ai_mms-0.1.8.tar.gz
+[2023-07-23 10:27:39] INFO root fetch - processPackages [myds]: Downloading https://files.pythonhosted.org/packages/74/72/1aa07245c6c6ddbfafbd16302c8dcb4448547da3f916cd60cde39e80d257/myds-0.1.0.tar.gz
+[2023-07-23 10:27:39] INFO root fetch - processPackages [nonebot2]: Downloading https://files.pythonhosted.org/packages/84/1e/f0aa87695d505f35bc36756f01ab4b2a8f8544a5b004dc53219de179ff5f/nonebot2-2.0.0rc4.tar.gz
+[2023-07-23 10:27:39] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Downloading https://files.pythonhosted.org/packages/c8/d0/f24de56a6375142a732a6a63a2870145dbda0f949c19b7e1b44fe223b748/terraform-backend-s3-bucket-0.0.8.tar.gz
+[2023-07-23 10:27:39] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/82/69/7c0e6ea9131a9e468c1d9c71b81edc9f90b91af4a877dd59319adaf8fd8d/swibots-1.3.8.tar.gz
+[2023-07-23 10:27:39] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-07-23 10:27:39] INFO root fetch - processPackages [advanced-ta]: Downloading https://files.pythonhosted.org/packages/87/bb/07bd257d8db593d36401de5b5439122e6cf0883d4a64dac3b80a3d1db0f4/advanced-ta-0.1.3.tar.gz
+[2023-07-23 10:27:39] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/a8/0e/483f038f52884c31d794e1446411c5787230162219212ff7851bda86dbf8/tf_nightly-2.14.0.dev20230722-cp39-cp39-win_amd64.whl
+[2023-07-23 10:27:40] INFO root fetch - processPackages [advanced-ta]: executing diffoscope
+[2023-07-23 10:27:40] INFO root fetch - processPackages [advanced-ta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advanced-ta-0.1.2.tar.gz tmp/advanced-ta-0.1.3.tar.gz --markdown 20230723/a/advanced-ta/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-23 10:27:40] INFO root fetch - processPackages [myds]: Downloading https://files.pythonhosted.org/packages/79/ae/1147251a1b613e9a06484cdd2b89f254c3596189d914b5476dc6ed5d79a2/myds-0.1.1.tar.gz
+[2023-07-23 10:27:40] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Downloading https://files.pythonhosted.org/packages/cb/5e/264cab254692a82c02a6b4183994138c7fbe1b9f89a8df282e61342ed3ee/terraform-backend-s3-bucket-0.0.9.tar.gz
+[2023-07-23 10:27:40] INFO root fetch - processPackages [wow-ai-mms]: Downloading https://files.pythonhosted.org/packages/cc/2f/cc7606fe678873e4720a1c96a106cc5b40b453e0b7edde14c1b85eb70e02/wow_ai_mms-0.1.9.tar.gz
+[2023-07-23 10:27:40] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-07-23 10:27:40] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/ea/7b/639e8e0d26f49b658d1704d4d37bd38d8c55e1e5eed2f3f38ca390b8aabf/swibots-1.3.9.tar.gz
+[2023-07-23 10:27:40] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/4a/3a/c3f1d9856f2cc9c6e4a7fe4984a312ef11657db25d31045ca778c4464227/tf_nightly-2.14.0.dev20230723-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-23 10:27:40] INFO root fetch - processPackages [myds]: executing diffoscope
+[2023-07-23 10:27:40] INFO root fetch - processPackages [myds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myds-0.1.0.tar.gz tmp/myds-0.1.1.tar.gz --markdown 20230723/m/myds/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-23 10:27:40] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-07-23 10:27:40] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230723/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-23 10:27:40] INFO root fetch - processPackages [swibots]: executing diffoscope
+[2023-07-23 10:27:40] INFO root fetch - processPackages [swibots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swibots-1.3.8.tar.gz tmp/swibots-1.3.9.tar.gz --markdown 20230723/s/swibots/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-23 10:27:40] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 486178212>=10485760
+[2023-07-23 10:27:40] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-07-23 10:27:40] INFO root fetch - processPackages [terraform-backend-s3-bucket]: executing diffoscope
+[2023-07-23 10:27:40] INFO root fetch - processPackages [terraform-backend-s3-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terraform-backend-s3-bucket-0.0.8.tar.gz tmp/terraform-backend-s3-bucket-0.0.9.tar.gz --markdown 20230723/t/terraform-backend-s3-bucket/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 10:27:40] INFO root fetch - processPackages [nonebot2]: Downloading https://files.pythonhosted.org/packages/d3/08/b2457923af16e120857e0ce5f79248a7527160ae5e8884875b8714f56f77/nonebot2-2.0.1.tar.gz
+[2023-07-23 10:27:40] INFO root fetch - processPackages [nonebot2]: executing diffoscope
+[2023-07-23 10:27:40] INFO root fetch - processPackages [nonebot2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot2-2.0.0rc4.tar.gz tmp/nonebot2-2.0.1.tar.gz --markdown 20230723/n/nonebot2/2.0.0rc4-2.0.1/diff.md --exclude *.pyd
+[2023-07-23 10:27:41] INFO root fetch - processPackages [advanced-ta]: Remove: archive file [/home/abi/fetcher/tmp/advanced-ta-0.1.2.tar.gz]
+[2023-07-23 10:27:41] INFO root fetch - processPackages [advanced-ta]: Remove: archive file [/home/abi/fetcher/tmp/advanced-ta-0.1.3.tar.gz]
+[2023-07-23 10:27:41] INFO root fetch - main [MainThread]: End processing [advanced-ta]: success
+[2023-07-23 10:27:41] INFO root fetch - processPackages [myds]: Remove: archive file [/home/abi/fetcher/tmp/myds-0.1.0.tar.gz]
+[2023-07-23 10:27:41] INFO root fetch - processPackages [myds]: Remove: archive file [/home/abi/fetcher/tmp/myds-0.1.1.tar.gz]
+[2023-07-23 10:27:41] INFO root fetch - main [MainThread]: End processing [myds]: success
+[2023-07-23 10:27:41] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Remove: archive file [/home/abi/fetcher/tmp/terraform-backend-s3-bucket-0.0.8.tar.gz]
+[2023-07-23 10:27:41] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Remove: archive file [/home/abi/fetcher/tmp/terraform-backend-s3-bucket-0.0.9.tar.gz]
+[2023-07-23 10:27:41] INFO root fetch - main [MainThread]: End processing [terraform-backend-s3-bucket]: success
+[2023-07-23 10:27:41] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-07-23 10:27:41] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-07-23 10:27:41] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-07-23 10:27:41] INFO root fetch - processPackages [wow-ai-mms]: executing diffoscope
+[2023-07-23 10:27:41] INFO root fetch - processPackages [wow-ai-mms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wow_ai_mms-0.1.8.tar.gz tmp/wow_ai_mms-0.1.9.tar.gz --markdown 20230723/w/wow-ai-mms/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-23 10:27:42] INFO root fetch - processPackages [nonebot2]: Remove: archive file [/home/abi/fetcher/tmp/nonebot2-2.0.0rc4.tar.gz]
+[2023-07-23 10:27:42] INFO root fetch - processPackages [nonebot2]: Remove: archive file [/home/abi/fetcher/tmp/nonebot2-2.0.1.tar.gz]
+[2023-07-23 10:27:42] INFO root fetch - main [MainThread]: End processing [nonebot2]: success
+[2023-07-23 10:27:42] INFO root fetch - processPackages [swibots]: Remove: archive file [/home/abi/fetcher/tmp/swibots-1.3.8.tar.gz]
+[2023-07-23 10:27:42] INFO root fetch - processPackages [swibots]: Remove: archive file [/home/abi/fetcher/tmp/swibots-1.3.9.tar.gz]
+[2023-07-23 10:27:42] INFO root fetch - main [MainThread]: End processing [swibots]: success
+[2023-07-23 10:27:44] INFO root fetch - processPackages [wow-ai-mms]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_mms-0.1.8.tar.gz]
+[2023-07-23 10:27:44] INFO root fetch - processPackages [wow-ai-mms]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_mms-0.1.9.tar.gz]
+[2023-07-23 10:27:44] INFO root fetch - main [MainThread]: End processing [wow-ai-mms]: success
+[2023-07-23 10:27:44] INFO root fetch - main [MainThread]: Store serial: [19000251]
