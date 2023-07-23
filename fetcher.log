@@ -3954,3 +3954,15 @@
 [2023-07-23 07:34:59] INFO root fetch - processPackages [pg-sui]: Remove: archive file [/home/abi/fetcher/tmp/pg-sui-0.2.3.tar.gz]
 [2023-07-23 07:34:59] INFO root fetch - main [MainThread]: End processing [pg-sui]: success
 [2023-07-23 07:34:59] INFO root fetch - main [MainThread]: Store serial: [18999713]
+[2023-07-23 07:40:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999713]
+[2023-07-23 07:40:08] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-23 07:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PhyNetPy
+[2023-07-23 07:40:08] INFO root fetch - processPackages [PhyNetPy]: New version: [0.1.0] Old Version: [0.0.8]
+[2023-07-23 07:40:08] INFO root fetch - processPackages [PhyNetPy]: Downloading https://files.pythonhosted.org/packages/ee/ed/e36b0cbe28e5be4ff209d3761fc9285e484f500538e89d8ef762cdd52f40/PhyNetPy-0.0.8.tar.gz
+[2023-07-23 07:40:09] WARNING root fetch - processPackages [PhyNetPy]: fallback to get urls: [0.1.0]
+[2023-07-23 07:40:09] WARNING root fetch - processPackages [PhyNetPy]: None
+[2023-07-23 07:40:09] WARNING root fetch - processPackages [PhyNetPy]: None
+[2023-07-23 07:40:09] WARNING root fetch - processPackages [PhyNetPy]: unable to get url for both version [0.1.0]
+[2023-07-23 07:40:09] WARNING root fetch - processPackages [PhyNetPy]: None
+[2023-07-23 07:40:09] INFO root fetch - main [MainThread]: End processing [PhyNetPy] error
+[2023-07-23 07:40:09] INFO root fetch - main [MainThread]: Store serial: [18999715]
