@@ -3601,3 +3601,15 @@
 [2023-07-23 06:52:28] INFO root fetch - processPackages [v3io-frames]: Remove: archive file [/home/abi/fetcher/tmp/v3io_frames-0.9.6.tar.gz]
 [2023-07-23 06:52:28] INFO root fetch - main [MainThread]: End processing [v3io-frames]: success
 [2023-07-23 06:52:28] INFO root fetch - main [MainThread]: Store serial: [18999532]
+[2023-07-23 06:57:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999532]
+[2023-07-23 06:57:36] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-23 06:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fogLedger
+[2023-07-23 06:57:37] INFO root fetch - processPackages [fogLedger]: New version: [3.0.2b0] Old Version: [3.0.1b0]
+[2023-07-23 06:57:37] INFO root fetch - processPackages [fogLedger]: Downloading https://files.pythonhosted.org/packages/68/24/525c872be7f521eaaf6eebacd0b5ed433d6466fe9cf18585eddbda19f60a/fogLedger-3.0.1b0.tar.gz
+[2023-07-23 06:57:37] INFO root fetch - processPackages [fogLedger]: Downloading https://files.pythonhosted.org/packages/68/6e/17f6afb5c4a2d912388ca517202b9e6a7098a9bf7b544a2c6aa2b893bbed/fogLedger-3.0.2b0.tar.gz
+[2023-07-23 06:57:37] INFO root fetch - processPackages [fogLedger]: executing diffoscope
+[2023-07-23 06:57:37] INFO root fetch - processPackages [fogLedger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fogLedger-3.0.1b0.tar.gz tmp/fogLedger-3.0.2b0.tar.gz --markdown 20230723/f/fogLedger/3.0.1b0-3.0.2b0/diff.md --exclude *.pyd
+[2023-07-23 06:57:38] INFO root fetch - processPackages [fogLedger]: Remove: archive file [/home/abi/fetcher/tmp/fogLedger-3.0.1b0.tar.gz]
+[2023-07-23 06:57:38] INFO root fetch - processPackages [fogLedger]: Remove: archive file [/home/abi/fetcher/tmp/fogLedger-3.0.2b0.tar.gz]
+[2023-07-23 06:57:38] INFO root fetch - main [MainThread]: End processing [fogLedger]: success
+[2023-07-23 06:57:38] INFO root fetch - main [MainThread]: Store serial: [18999535]
