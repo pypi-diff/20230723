@@ -1666,3 +1666,27 @@
 [2023-07-23 02:39:55] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20230722.tar.gz]
 [2023-07-23 02:39:55] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
 [2023-07-23 02:39:55] INFO root fetch - main [MainThread]: Store serial: [18998661]
+[2023-07-23 02:44:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18998661]
+[2023-07-23 02:45:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-23 02:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: state-machine-semaphore
+[2023-07-23 02:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ktkkt-downloader
+[2023-07-23 02:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybaiduphoto
+[2023-07-23 02:45:04] WARNING root fetch - processPackages [ktkkt-downloader]: Skipping, unable to determine old version
+[2023-07-23 02:45:04] INFO root fetch - main [MainThread]: End processing [ktkkt-downloader] error
+[2023-07-23 02:45:04] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-23 02:45:04] INFO root fetch - processPackages [pybaiduphoto]: New version: [2023.7.23.843] Old Version: [2022.8.4.1750]
+[2023-07-23 02:45:04] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-07-23 02:45:04] INFO root fetch - processPackages [pybaiduphoto]: Downloading https://files.pythonhosted.org/packages/5f/15/79ff31ee19873836375993b5cfd1289af36d0fd23affa44210e601c78cd9/pybaiduphoto-2022.8.4.1750.tar.gz
+[2023-07-23 02:45:04] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-07-23 02:45:04] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-07-23 02:45:04] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230723/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-23 02:45:05] INFO root fetch - processPackages [pybaiduphoto]: Downloading https://files.pythonhosted.org/packages/00/02/356f7b36f01c0e966c77d860c033f163809b531f3823dcab7c36e2056897/pybaiduphoto-2023.7.23.843.tar.gz
+[2023-07-23 02:45:05] INFO root fetch - processPackages [pybaiduphoto]: executing diffoscope
+[2023-07-23 02:45:05] INFO root fetch - processPackages [pybaiduphoto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybaiduphoto-2022.8.4.1750.tar.gz tmp/pybaiduphoto-2023.7.23.843.tar.gz --markdown 20230723/p/pybaiduphoto/2022.8.4.1750-2023.7.23.843/diff.md --exclude *.pyd
+[2023-07-23 02:45:05] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2023-07-23 02:45:05] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2023-07-23 02:45:05] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-07-23 02:45:05] INFO root fetch - processPackages [pybaiduphoto]: Remove: archive file [/home/abi/fetcher/tmp/pybaiduphoto-2022.8.4.1750.tar.gz]
+[2023-07-23 02:45:05] INFO root fetch - processPackages [pybaiduphoto]: Remove: archive file [/home/abi/fetcher/tmp/pybaiduphoto-2023.7.23.843.tar.gz]
+[2023-07-23 02:45:05] INFO root fetch - main [MainThread]: End processing [pybaiduphoto]: success
+[2023-07-23 02:45:05] INFO root fetch - main [MainThread]: Store serial: [18998672]
