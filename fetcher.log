@@ -7074,3 +7074,118 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 13:23:29] INFO root fetch - processPackages [pharmpy-core]: Remove: archive file [/home/abi/fetcher/tmp/pharmpy-core-0.98.2.tar.gz]
 [2023-07-23 13:23:29] INFO root fetch - main [MainThread]: End processing [pharmpy-core]: success
 [2023-07-23 13:23:29] INFO root fetch - main [MainThread]: Store serial: [19001099]
+[2023-07-23 13:28:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19001099]
+[2023-07-23 13:28:38] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-23 13:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ui-booking.com
+[2023-07-23 13:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xython
+[2023-07-23 13:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyquizrd
+[2023-07-23 13:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchserve-nightly
+[2023-07-23 13:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torch-model-archiver-nightly
+[2023-07-23 13:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: checkatlas
+[2023-07-23 13:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torch-workflow-archiver-nightly
+[2023-07-23 13:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: checkatlas
+[2023-07-23 13:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torchrl-nightly
+[2023-07-23 13:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyquizrd
+[2023-07-23 13:28:38] WARNING root fetch - processPackages [ui-booking.com]: Skipping, unable to determine old version
+[2023-07-23 13:28:38] INFO root fetch - processPackages [ui-booking.com]: Start processing: french-cities
+[2023-07-23 13:28:38] INFO root fetch - main [MainThread]: End processing [ui-booking.com] error
+[2023-07-23 13:28:38] INFO root fetch - processPackages [checkatlas]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-23 13:28:38] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-23 13:28:38] INFO root fetch - processPackages [pyquizrd]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-23 13:28:38] INFO root fetch - processPackages [pyquizrd]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-23 13:28:38] INFO root fetch - processPackages [xython]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-07-23 13:28:38] INFO root fetch - processPackages [checkatlas]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-23 13:28:38] INFO root fetch - processPackages [french-cities]: New version: [0.1.0a6] Old Version: [0.1.0a5]
+[2023-07-23 13:28:38] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-23 13:28:38] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-23 13:28:38] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-23 13:28:38] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/44/8a/225f6757d5df77a706853e7f70981e785e26693e9c5529b1725322da94ee/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl
+[2023-07-23 13:28:38] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/51/a7/9c8f313c3b04370e742edd1762034985eea1f24a918183a7084f6eb93e1e/checkatlas-0.3.8.tar.gz
+[2023-07-23 13:28:39] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/51/a7/9c8f313c3b04370e742edd1762034985eea1f24a918183a7084f6eb93e1e/checkatlas-0.3.8.tar.gz
+[2023-07-23 13:28:39] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fc/e9/cb5f596703c31d7f2e9bf2501c71de3a97dd6f54385926ea9d621de36d48/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl
+[2023-07-23 13:28:39] INFO root fetch - processPackages [pyquizrd]: Downloading https://files.pythonhosted.org/packages/69/ed/adcff21a83d2489d35fac8553e94b86effa8b74b0a4d75f116a3355461f9/pyquizrd-0.1.1.tar.gz
+[2023-07-23 13:28:39] INFO root fetch - processPackages [pyquizrd]: Downloading https://files.pythonhosted.org/packages/69/ed/adcff21a83d2489d35fac8553e94b86effa8b74b0a4d75f116a3355461f9/pyquizrd-0.1.1.tar.gz
+[2023-07-23 13:28:39] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/d6/b2/b77948f318b41f4c30bce37021e5eaab04bf7c8abae416af053b02be3370/torchserve_nightly-2023.7.8-py3-none-any.whl
+[2023-07-23 13:28:39] INFO root fetch - processPackages [xython]: Downloading https://files.pythonhosted.org/packages/5a/9a/61a554086bad351dd788eca47c93021fb01586f7e8ce9dfc45b009742815/xython-1.4.0.tar.gz
+[2023-07-23 13:28:39] INFO root fetch - processPackages [french-cities]: Downloading https://files.pythonhosted.org/packages/db/cb/fa3e629880e3b7c718f54e0d63ea379578a02133f8746df74ded23e915ed/french_cities-0.1.0a5.tar.gz
+[2023-07-23 13:28:39] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/38/33/59a88ceafbd8e349b7f261de4859c91912b883bd14249422d344f09ba9ed/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl
+[2023-07-23 13:28:39] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23750079>=10485760
+[2023-07-23 13:28:39] INFO root fetch - processPackages [torchserve-nightly]: Start processing: rico
+[2023-07-23 13:28:39] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-07-23 13:28:39] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fe/e1/e410f517fa560296c172a15440f705636cb42246e81398b27edb5a7c072f/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl
+[2023-07-23 13:28:39] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/01/47/ebbe376d483ba9fd31540dfcf7afc7ebb4936d9f18fbba952eee1303faaa/checkatlas-0.3.9.tar.gz
+[2023-07-23 13:28:39] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fa/aa/2acd3c1df69eef6cb2f42f54b0fd7b1c220c14c65ccebdf7f555bda0304d/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl
+[2023-07-23 13:28:39] INFO root fetch - processPackages [rico]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-07-23 13:28:39] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-07-23 13:28:39] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl.zip --markdown 20230723/t/torch-workflow-archiver-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-23 13:28:39] INFO root fetch - processPackages [french-cities]: Downloading https://files.pythonhosted.org/packages/9c/b3/2f64cff4f0c55f93ca4303a8ab5acde03b879bb9ec3e9f87e03432108266/french_cities-0.1.0a6.tar.gz
+[2023-07-23 13:28:39] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-07-23 13:28:39] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl.zip --markdown 20230723/t/torch-model-archiver-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-23 13:28:39] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/01/47/ebbe376d483ba9fd31540dfcf7afc7ebb4936d9f18fbba952eee1303faaa/checkatlas-0.3.9.tar.gz
+[2023-07-23 13:28:39] INFO root fetch - processPackages [checkatlas]: executing diffoscope
+[2023-07-23 13:28:39] INFO root fetch - processPackages [checkatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkatlas-0.3.8.tar.gz tmp/checkatlas-0.3.9.tar.gz --markdown 20230723/c/checkatlas/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-23 13:28:39] INFO root fetch - processPackages [pyquizrd]: Downloading https://files.pythonhosted.org/packages/8d/50/9f8c0cdc999397b790118d5e934d7bb1afbaaf241b9800f7309834a56ac4/pyquizrd-0.1.2.tar.gz
+[2023-07-23 13:28:39] INFO root fetch - processPackages [pyquizrd]: Downloading https://files.pythonhosted.org/packages/8d/50/9f8c0cdc999397b790118d5e934d7bb1afbaaf241b9800f7309834a56ac4/pyquizrd-0.1.2.tar.gz
+[2023-07-23 13:28:39] INFO root fetch - processPackages [xython]: Downloading https://files.pythonhosted.org/packages/5c/42/54c7b78037075e8d1e4b3b86323e3823dff9ef9794dd085de264260d383b/xython-1.5.0.tar.gz
+[2023-07-23 13:28:39] INFO root fetch - processPackages [rico]: Downloading https://files.pythonhosted.org/packages/3f/c9/ffea48f2f1b6899e6dd1c41f93dc10c9d1ef45c548a13c24daf8212900be/rico-0.3.2.tar.gz
+[2023-07-23 13:28:39] INFO root fetch - processPackages [checkatlas]: executing diffoscope
+[2023-07-23 13:28:39] INFO root fetch - processPackages [checkatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkatlas-0.3.8.tar.gz tmp/checkatlas-0.3.9.tar.gz --markdown 20230723/c/checkatlas/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-23 13:28:39] INFO root fetch - processPackages [french-cities]: executing diffoscope
+[2023-07-23 13:28:39] INFO root fetch - processPackages [french-cities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/french_cities-0.1.0a5.tar.gz tmp/french_cities-0.1.0a6.tar.gz --markdown 20230723/f/french-cities/0.1.0a5-0.1.0a6/diff.md --exclude *.pyd
+[2023-07-23 13:28:39] INFO root fetch - processPackages [pyquizrd]: executing diffoscope
+[2023-07-23 13:28:39] INFO root fetch - processPackages [pyquizrd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquizrd-0.1.1.tar.gz tmp/pyquizrd-0.1.2.tar.gz --markdown 20230723/p/pyquizrd/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-23 13:28:39] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/22/59/298ac6427c9497e554f2b3ba5d253603250fe69672e94a74affda6a5613c/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl
+[2023-07-23 13:28:39] INFO root fetch - processPackages [xython]: executing diffoscope
+[2023-07-23 13:28:39] INFO root fetch - processPackages [xython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xython-1.4.0.tar.gz tmp/xython-1.5.0.tar.gz --markdown 20230723/x/xython/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-07-23 13:28:39] INFO root fetch - processPackages [pyquizrd]: executing diffoscope
+[2023-07-23 13:28:39] INFO root fetch - processPackages [pyquizrd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquizrd-0.1.1.tar.gz tmp/pyquizrd-0.1.2.tar.gz --markdown 20230723/p/pyquizrd/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-23 13:28:40] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-07-23 13:28:40] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20230723/t/torchrl-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-23 13:28:40] INFO root fetch - processPackages [rico]: Downloading https://files.pythonhosted.org/packages/e3/6e/3a5f10ecf2d51d786efacb19245fda21c13950816606f213a5497a920f5c/rico-0.4.0.tar.gz
+[2023-07-23 13:28:40] INFO root fetch - processPackages [rico]: executing diffoscope
+[2023-07-23 13:28:40] INFO root fetch - processPackages [rico]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rico-0.3.2.tar.gz tmp/rico-0.4.0.tar.gz --markdown 20230723/r/rico/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-07-23 13:28:41] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl.zip]
+[2023-07-23 13:28:41] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl.zip]
+[2023-07-23 13:28:41] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Start processing: volvopy
+[2023-07-23 13:28:41] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-07-23 13:28:41] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl.zip]
+[2023-07-23 13:28:41] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl.zip]
+[2023-07-23 13:28:41] INFO root fetch - processPackages [torch-model-archiver-nightly]: Start processing: torchrec-nightly
+[2023-07-23 13:28:41] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-07-23 13:28:41] INFO root fetch - processPackages [volvopy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-23 13:28:41] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.3.8.tar.gz]
+[2023-07-23 13:28:41] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.3.9.tar.gz]
+[2023-07-23 13:28:41] INFO root fetch - main [MainThread]: End processing [checkatlas]: success
+[2023-07-23 13:28:41] INFO root fetch - processPackages [torchrec-nightly]: New version: [2023.7.22] Old Version: [2023.7.21]
+[2023-07-23 13:28:41] INFO root fetch - processPackages [volvopy]: Downloading https://files.pythonhosted.org/packages/09/80/61bd1f4ee62f2d455c9dba78d56bf9ebf309ea5f8732aa5afa30aab6f483/volvopy-0.1.8.tar.gz
+[2023-07-23 13:28:41] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/63/92/d62106c2525a0f199c72ade08c20b1b36fe49d7260a84aa3a44bde992aaf/torchrec_nightly-2023.7.21-py39-none-any.whl
+[2023-07-23 13:28:41] INFO root fetch - processPackages [french-cities]: Remove: archive file [/home/abi/fetcher/tmp/french_cities-0.1.0a5.tar.gz]
+[2023-07-23 13:28:41] INFO root fetch - processPackages [french-cities]: Remove: archive file [/home/abi/fetcher/tmp/french_cities-0.1.0a6.tar.gz]
+[2023-07-23 13:28:41] INFO root fetch - main [MainThread]: End processing [french-cities]: success
+[2023-07-23 13:28:41] INFO root fetch - main [MainThread]: End processing [checkatlas]: success
+[2023-07-23 13:28:41] INFO root fetch - processPackages [volvopy]: Downloading https://files.pythonhosted.org/packages/65/63/ba8ec09cdf10dd66d13c6a803e3c55a019f7c7bff6c588035e14f79f610f/volvopy-0.1.9.tar.gz
+[2023-07-23 13:28:41] INFO root fetch - processPackages [volvopy]: executing diffoscope
+[2023-07-23 13:28:41] INFO root fetch - processPackages [volvopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volvopy-0.1.8.tar.gz tmp/volvopy-0.1.9.tar.gz --markdown 20230723/v/volvopy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-23 13:28:41] INFO root fetch - processPackages [xython]: Remove: archive file [/home/abi/fetcher/tmp/xython-1.4.0.tar.gz]
+[2023-07-23 13:28:41] INFO root fetch - processPackages [xython]: Remove: archive file [/home/abi/fetcher/tmp/xython-1.5.0.tar.gz]
+[2023-07-23 13:28:41] INFO root fetch - main [MainThread]: End processing [xython]: success
+[2023-07-23 13:28:41] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/8c/50/2c63c7f96dbd2b50f3338c35944a3cbd587eef301c8177f21cb8d55889c4/torchrec_nightly-2023.7.22-py39-none-any.whl
+[2023-07-23 13:28:41] INFO root fetch - processPackages [rico]: Remove: archive file [/home/abi/fetcher/tmp/rico-0.3.2.tar.gz]
+[2023-07-23 13:28:41] INFO root fetch - processPackages [rico]: Remove: archive file [/home/abi/fetcher/tmp/rico-0.4.0.tar.gz]
+[2023-07-23 13:28:41] INFO root fetch - main [MainThread]: End processing [rico]: success
+[2023-07-23 13:28:42] INFO root fetch - processPackages [torchrec-nightly]: executing diffoscope
+[2023-07-23 13:28:42] INFO root fetch - processPackages [torchrec-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrec_nightly-2023.7.21-py39-none-any.whl.zip tmp/torchrec_nightly-2023.7.22-py39-none-any.whl.zip --markdown 20230723/t/torchrec-nightly/2023.7.21-2023.7.22/diff.md --exclude *.pyd
+[2023-07-23 13:28:42] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-23 13:28:42] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-23 13:28:42] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-07-23 13:28:42] INFO root fetch - processPackages [pyquizrd]: Remove: archive file [/home/abi/fetcher/tmp/pyquizrd-0.1.1.tar.gz]
+[2023-07-23 13:28:42] INFO root fetch - processPackages [pyquizrd]: Remove: archive file [/home/abi/fetcher/tmp/pyquizrd-0.1.2.tar.gz]
+[2023-07-23 13:28:42] INFO root fetch - main [MainThread]: End processing [pyquizrd]: success
+[2023-07-23 13:28:42] INFO root fetch - main [MainThread]: End processing [pyquizrd]: success
+[2023-07-23 13:28:42] INFO root fetch - processPackages [volvopy]: Remove: archive file [/home/abi/fetcher/tmp/volvopy-0.1.8.tar.gz]
+[2023-07-23 13:28:42] INFO root fetch - processPackages [volvopy]: Remove: archive file [/home/abi/fetcher/tmp/volvopy-0.1.9.tar.gz]
+[2023-07-23 13:28:42] INFO root fetch - main [MainThread]: End processing [volvopy]: success
+[2023-07-23 13:28:43] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.7.21-py39-none-any.whl.zip]
+[2023-07-23 13:28:43] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.7.22-py39-none-any.whl.zip]
+[2023-07-23 13:28:43] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
+[2023-07-23 13:28:43] INFO root fetch - main [MainThread]: Store serial: [19001148]
