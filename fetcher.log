@@ -10509,3 +10509,84 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 17:42:40] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-6.3.35637293861.tar.gz]
 [2023-07-23 17:42:40] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
 [2023-07-23 17:42:40] INFO root fetch - main [MainThread]: Store serial: [19002804]
+[2023-07-23 17:47:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19002804]
+[2023-07-23 17:47:50] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-23 17:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zomboid-rcon
+[2023-07-23 17:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pykeadhcp
+[2023-07-23 17:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: examon-easy-package
+[2023-07-23 17:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: utopya
+[2023-07-23 17:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datahelp
+[2023-07-23 17:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ooo-dev-tools
+[2023-07-23 17:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Pydule
+[2023-07-23 17:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pymangaplus
+[2023-07-23 17:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-passkeys
+[2023-07-23 17:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: seunggabi-core-python
+[2023-07-23 17:47:50] INFO root fetch - processPackages [pykeadhcp]: New version: [0.7.0a2] Old Version: [0.6.0a1]
+[2023-07-23 17:47:50] INFO root fetch - processPackages [Pydule]: New version: [3.3.8] Old Version: [3.3.7]
+[2023-07-23 17:47:50] WARNING root fetch - processPackages [examon-easy-package]: Skipping, unable to determine old version
+[2023-07-23 17:47:50] INFO root fetch - main [MainThread]: End processing [examon-easy-package] error
+[2023-07-23 17:47:50] INFO root fetch - processPackages [zomboid-rcon]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-23 17:47:50] INFO root fetch - processPackages [pymangaplus]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-23 17:47:50] WARNING root fetch - processPackages [datahelp]: Skipping, unable to determine old version
+[2023-07-23 17:47:50] INFO root fetch - main [MainThread]: End processing [datahelp] error
+[2023-07-23 17:47:50] INFO root fetch - processPackages [ooo-dev-tools]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-07-23 17:47:51] INFO root fetch - processPackages [utopya]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-07-23 17:47:51] INFO root fetch - processPackages [seunggabi-core-python]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-23 17:47:51] INFO root fetch - processPackages [django-passkeys]: New version: [1.2.5b1] Old Version: [1.2.4]
+[2023-07-23 17:47:51] INFO root fetch - processPackages [seunggabi-core-python]: Downloading https://files.pythonhosted.org/packages/63/29/afebe64cd0882d776f1432763ac8a3bc55ba7db1adc9dd67145a5901cd8b/seunggabi_core_python-0.8.0.tar.gz
+[2023-07-23 17:47:51] INFO root fetch - processPackages [zomboid-rcon]: Downloading https://files.pythonhosted.org/packages/30/36/9a9b23ba11c18b0dd243ade2f08570551e1403c2cb2176d8c1d4893501ce/zomboid_rcon-0.2.3.tar.gz
+[2023-07-23 17:47:51] INFO root fetch - processPackages [Pydule]: Downloading https://files.pythonhosted.org/packages/8a/cf/e9e9aef7c72cf3bb7280b7efbc0ad75b268b0e11d03c4141d09cdbfb2d01/Pydule-3.3.7.tar.gz
+[2023-07-23 17:47:51] INFO root fetch - processPackages [pykeadhcp]: Downloading https://files.pythonhosted.org/packages/f2/4b/e61aef6d86e2c214c190c702bb2b57c3472d1c0fc8a69d48cbe0e592397c/pykeadhcp-0.6.0a1.tar.gz
+[2023-07-23 17:47:51] INFO root fetch - processPackages [pymangaplus]: Downloading https://files.pythonhosted.org/packages/b6/7b/84817ac7e23f9db6b490c7ef648e6d8aca191087afe58111d96240eafcf3/pymangaplus-1.1.2.tar.gz
+[2023-07-23 17:47:51] INFO root fetch - processPackages [django-passkeys]: Downloading https://files.pythonhosted.org/packages/c6/36/70f905158ca1bb6e3d621c76bede1ef0d9d8d4f9c13b87d04a90034c6d4f/django-passkeys-1.2.4.tar.gz
+[2023-07-23 17:47:51] INFO root fetch - processPackages [ooo-dev-tools]: Downloading https://files.pythonhosted.org/packages/41/44/3184c5212ea19d64e5dcf92dc1f7e0c08bda64a5787bdf62a49038d1b40a/ooo_dev_tools-0.9.7.tar.gz
+[2023-07-23 17:47:51] INFO root fetch - processPackages [utopya]: Downloading https://files.pythonhosted.org/packages/53/72/34720af7aad702c6caaceb50e5b4bbe9b3bcca9d59394e5368965c3908ba/utopya-1.2.7.tar.gz
+[2023-07-23 17:47:51] INFO root fetch - processPackages [seunggabi-core-python]: Downloading https://files.pythonhosted.org/packages/88/df/6de121f176000c375aa2ca25c6b2d525af420c09a38131ffe98aeab2fc63/seunggabi_core_python-0.9.0.tar.gz
+[2023-07-23 17:47:51] INFO root fetch - processPackages [seunggabi-core-python]: executing diffoscope
+[2023-07-23 17:47:51] INFO root fetch - processPackages [seunggabi-core-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seunggabi_core_python-0.8.0.tar.gz tmp/seunggabi_core_python-0.9.0.tar.gz --markdown 20230723/s/seunggabi-core-python/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-23 17:47:51] INFO root fetch - processPackages [Pydule]: Downloading https://files.pythonhosted.org/packages/c0/25/46acec9763806d4aa905031abaa73adde7adf370a4147496e1e83fb75f87/Pydule-3.3.8.tar.gz
+[2023-07-23 17:47:51] INFO root fetch - processPackages [zomboid-rcon]: Downloading https://files.pythonhosted.org/packages/0b/72/d6e0759844cedbe7b96be758ac272f2cd6f6cd7b79fcea2630042d71dcf6/zomboid_rcon-0.2.4.tar.gz
+[2023-07-23 17:47:51] INFO root fetch - processPackages [django-passkeys]: Downloading https://files.pythonhosted.org/packages/6b/d7/47bf2582dfb085aef4c0aaccef719e21ec109dac580913f99ee88cde2bdd/django-passkeys-1.2.5b1.tar.gz
+[2023-07-23 17:47:51] INFO root fetch - processPackages [Pydule]: executing diffoscope
+[2023-07-23 17:47:51] INFO root fetch - processPackages [Pydule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pydule-3.3.7.tar.gz tmp/Pydule-3.3.8.tar.gz --markdown 20230723/P/Pydule/3.3.7-3.3.8/diff.md --exclude *.pyd
+[2023-07-23 17:47:51] INFO root fetch - processPackages [pymangaplus]: Downloading https://files.pythonhosted.org/packages/d8/62/f6ec2e8f068c468cf6c1b825d3f9c6e055a7e9b6b842b9d6ce5cb58b155b/pymangaplus-1.1.3.tar.gz
+[2023-07-23 17:47:51] INFO root fetch - processPackages [zomboid-rcon]: executing diffoscope
+[2023-07-23 17:47:51] INFO root fetch - processPackages [zomboid-rcon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zomboid_rcon-0.2.3.tar.gz tmp/zomboid_rcon-0.2.4.tar.gz --markdown 20230723/z/zomboid-rcon/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-23 17:47:51] INFO root fetch - processPackages [pykeadhcp]: Downloading https://files.pythonhosted.org/packages/5f/ca/7be73ece90e68dd0e7ff2231c75501eb37eeedb3d42b3cba228fcf1c0909/pykeadhcp-0.7.0a2.tar.gz
+[2023-07-23 17:47:51] INFO root fetch - processPackages [utopya]: Downloading https://files.pythonhosted.org/packages/18/5f/e8f4350d03ad389c4984926fb0c6552d1b1a304fea8f575ca5c2fea15eab/utopya-1.2.8.tar.gz
+[2023-07-23 17:47:51] INFO root fetch - processPackages [pymangaplus]: executing diffoscope
+[2023-07-23 17:47:51] INFO root fetch - processPackages [pymangaplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymangaplus-1.1.2.tar.gz tmp/pymangaplus-1.1.3.tar.gz --markdown 20230723/p/pymangaplus/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-23 17:47:51] INFO root fetch - processPackages [django-passkeys]: executing diffoscope
+[2023-07-23 17:47:51] INFO root fetch - processPackages [django-passkeys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-passkeys-1.2.4.tar.gz tmp/django-passkeys-1.2.5b1.tar.gz --markdown 20230723/d/django-passkeys/1.2.4-1.2.5b1/diff.md --exclude *.pyd
+[2023-07-23 17:47:51] INFO root fetch - processPackages [utopya]: executing diffoscope
+[2023-07-23 17:47:51] INFO root fetch - processPackages [utopya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utopya-1.2.7.tar.gz tmp/utopya-1.2.8.tar.gz --markdown 20230723/u/utopya/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-07-23 17:47:52] INFO root fetch - processPackages [pykeadhcp]: executing diffoscope
+[2023-07-23 17:47:52] INFO root fetch - processPackages [pykeadhcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykeadhcp-0.6.0a1.tar.gz tmp/pykeadhcp-0.7.0a2.tar.gz --markdown 20230723/p/pykeadhcp/0.6.0a1-0.7.0a2/diff.md --exclude *.pyd
+[2023-07-23 17:47:52] INFO root fetch - processPackages [seunggabi-core-python]: Remove: archive file [/home/abi/fetcher/tmp/seunggabi_core_python-0.8.0.tar.gz]
+[2023-07-23 17:47:52] INFO root fetch - processPackages [seunggabi-core-python]: Remove: archive file [/home/abi/fetcher/tmp/seunggabi_core_python-0.9.0.tar.gz]
+[2023-07-23 17:47:52] INFO root fetch - main [MainThread]: End processing [seunggabi-core-python]: success
+[2023-07-23 17:47:52] INFO root fetch - processPackages [Pydule]: Remove: archive file [/home/abi/fetcher/tmp/Pydule-3.3.7.tar.gz]
+[2023-07-23 17:47:52] INFO root fetch - processPackages [Pydule]: Remove: archive file [/home/abi/fetcher/tmp/Pydule-3.3.8.tar.gz]
+[2023-07-23 17:47:52] INFO root fetch - main [MainThread]: End processing [Pydule]: success
+[2023-07-23 17:47:52] INFO root fetch - processPackages [ooo-dev-tools]: Downloading https://files.pythonhosted.org/packages/20/e8/b38a2ad24f414b81985e10c35e1192cb22350ca6b0dc68f0104509e3c0bf/ooo_dev_tools-0.9.8.tar.gz
+[2023-07-23 17:47:52] INFO root fetch - processPackages [zomboid-rcon]: Remove: archive file [/home/abi/fetcher/tmp/zomboid_rcon-0.2.3.tar.gz]
+[2023-07-23 17:47:52] INFO root fetch - processPackages [zomboid-rcon]: Remove: archive file [/home/abi/fetcher/tmp/zomboid_rcon-0.2.4.tar.gz]
+[2023-07-23 17:47:52] INFO root fetch - main [MainThread]: End processing [zomboid-rcon]: success
+[2023-07-23 17:47:53] INFO root fetch - processPackages [pymangaplus]: Remove: archive file [/home/abi/fetcher/tmp/pymangaplus-1.1.2.tar.gz]
+[2023-07-23 17:47:53] INFO root fetch - processPackages [pymangaplus]: Remove: archive file [/home/abi/fetcher/tmp/pymangaplus-1.1.3.tar.gz]
+[2023-07-23 17:47:53] INFO root fetch - main [MainThread]: End processing [pymangaplus]: success
+[2023-07-23 17:47:53] INFO root fetch - processPackages [pykeadhcp]: Remove: archive file [/home/abi/fetcher/tmp/pykeadhcp-0.6.0a1.tar.gz]
+[2023-07-23 17:47:53] INFO root fetch - processPackages [pykeadhcp]: Remove: archive file [/home/abi/fetcher/tmp/pykeadhcp-0.7.0a2.tar.gz]
+[2023-07-23 17:47:53] INFO root fetch - main [MainThread]: End processing [pykeadhcp]: success
+[2023-07-23 17:47:53] INFO root fetch - processPackages [django-passkeys]: Remove: archive file [/home/abi/fetcher/tmp/django-passkeys-1.2.4.tar.gz]
+[2023-07-23 17:47:53] INFO root fetch - processPackages [django-passkeys]: Remove: archive file [/home/abi/fetcher/tmp/django-passkeys-1.2.5b1.tar.gz]
+[2023-07-23 17:47:53] INFO root fetch - main [MainThread]: End processing [django-passkeys]: success
+[2023-07-23 17:47:53] INFO root fetch - processPackages [utopya]: Remove: archive file [/home/abi/fetcher/tmp/utopya-1.2.7.tar.gz]
+[2023-07-23 17:47:53] INFO root fetch - processPackages [utopya]: Remove: archive file [/home/abi/fetcher/tmp/utopya-1.2.8.tar.gz]
+[2023-07-23 17:47:53] INFO root fetch - main [MainThread]: End processing [utopya]: success
+[2023-07-23 17:47:53] INFO root fetch - processPackages [ooo-dev-tools]: executing diffoscope
+[2023-07-23 17:47:53] INFO root fetch - processPackages [ooo-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ooo_dev_tools-0.9.7.tar.gz tmp/ooo_dev_tools-0.9.8.tar.gz --markdown 20230723/o/ooo-dev-tools/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-07-23 17:47:58] INFO root fetch - processPackages [ooo-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ooo_dev_tools-0.9.7.tar.gz]
+[2023-07-23 17:47:58] INFO root fetch - processPackages [ooo-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ooo_dev_tools-0.9.8.tar.gz]
+[2023-07-23 17:47:58] INFO root fetch - main [MainThread]: End processing [ooo-dev-tools]: success
+[2023-07-23 17:47:58] INFO root fetch - main [MainThread]: Store serial: [19002838]
