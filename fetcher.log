@@ -2584,3 +2584,27 @@
 [2023-07-23 04:52:51] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
 [2023-07-23 04:52:51] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
 [2023-07-23 04:52:51] INFO root fetch - main [MainThread]: Store serial: [18999106]
+[2023-07-23 04:57:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999106]
+[2023-07-23 04:58:01] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-23 04:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sayhello1979
+[2023-07-23 04:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mypylib
+[2023-07-23 04:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sirtuin
+[2023-07-23 04:58:01] INFO root fetch - processPackages [sirtuin]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-23 04:58:01] WARNING root fetch - processPackages [sayhello1979]: Skipping, unable to determine old version
+[2023-07-23 04:58:01] INFO root fetch - main [MainThread]: End processing [sayhello1979] error
+[2023-07-23 04:58:01] INFO root fetch - processPackages [mypylib]: New version: [0.1.82] Old Version: [0.1.81]
+[2023-07-23 04:58:01] INFO root fetch - processPackages [sirtuin]: Downloading https://files.pythonhosted.org/packages/55/85/c164e90b90478a228a4e5e8e74eb011ab033a2ca3d5038ce229b505733ed/sirtuin-0.1.1.tar.gz
+[2023-07-23 04:58:01] INFO root fetch - processPackages [mypylib]: Downloading https://files.pythonhosted.org/packages/18/7d/d690794850f2cfbf0ed144ac6b76953db0b3afbad34f951725be0b423c86/mypylib-0.1.81.tar.gz
+[2023-07-23 04:58:01] INFO root fetch - processPackages [sirtuin]: Downloading https://files.pythonhosted.org/packages/63/83/935877a2d578fe0d1ce2aa72094321256afab6719af65bee26370a7a0d92/sirtuin-0.1.2.tar.gz
+[2023-07-23 04:58:01] INFO root fetch - processPackages [sirtuin]: executing diffoscope
+[2023-07-23 04:58:01] INFO root fetch - processPackages [sirtuin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirtuin-0.1.1.tar.gz tmp/sirtuin-0.1.2.tar.gz --markdown 20230723/s/sirtuin/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-23 04:58:02] INFO root fetch - processPackages [mypylib]: Downloading https://files.pythonhosted.org/packages/1a/c1/a72ad3d83dca38efa8e49de1eccfbd95859a2ce47753fe069c16de4cb79d/mypylib-0.1.82.tar.gz
+[2023-07-23 04:58:02] INFO root fetch - processPackages [mypylib]: executing diffoscope
+[2023-07-23 04:58:02] INFO root fetch - processPackages [mypylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypylib-0.1.81.tar.gz tmp/mypylib-0.1.82.tar.gz --markdown 20230723/m/mypylib/0.1.81-0.1.82/diff.md --exclude *.pyd
+[2023-07-23 04:58:02] INFO root fetch - processPackages [sirtuin]: Remove: archive file [/home/abi/fetcher/tmp/sirtuin-0.1.1.tar.gz]
+[2023-07-23 04:58:02] INFO root fetch - processPackages [sirtuin]: Remove: archive file [/home/abi/fetcher/tmp/sirtuin-0.1.2.tar.gz]
+[2023-07-23 04:58:02] INFO root fetch - main [MainThread]: End processing [sirtuin]: success
+[2023-07-23 04:58:02] INFO root fetch - processPackages [mypylib]: Remove: archive file [/home/abi/fetcher/tmp/mypylib-0.1.81.tar.gz]
+[2023-07-23 04:58:02] INFO root fetch - processPackages [mypylib]: Remove: archive file [/home/abi/fetcher/tmp/mypylib-0.1.82.tar.gz]
+[2023-07-23 04:58:02] INFO root fetch - main [MainThread]: End processing [mypylib]: success
+[2023-07-23 04:58:02] INFO root fetch - main [MainThread]: Store serial: [18999117]
