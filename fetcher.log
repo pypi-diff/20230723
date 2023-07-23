@@ -14628,3 +14628,24 @@ AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
 [2023-07-23 22:12:27] INFO root fetch - processPackages [aim]: Remove: archive file [/home/abi/fetcher/tmp/aim-4.0.0a9.tar.gz]
 [2023-07-23 22:12:27] INFO root fetch - main [MainThread]: End processing [aim]: success
 [2023-07-23 22:12:27] INFO root fetch - main [MainThread]: Store serial: [19004613]
+[2023-07-23 22:17:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19004613]
+[2023-07-23 22:17:35] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-23 22:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydeps
+[2023-07-23 22:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rsplan
+[2023-07-23 22:17:35] INFO root fetch - processPackages [rsplan]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-23 22:17:35] INFO root fetch - processPackages [pydeps]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-23 22:17:36] INFO root fetch - processPackages [rsplan]: Downloading https://files.pythonhosted.org/packages/6a/7d/422dc5ab7ab1cefd389767a5db3f8c415699da0ac8f55861ccc2a23d2bdc/rsplan-1.0.0.tar.gz
+[2023-07-23 22:17:36] INFO root fetch - processPackages [pydeps]: Downloading https://files.pythonhosted.org/packages/ce/1e/1988b89b44ebad8aa4e95f90570ac9c28954fdda26b8acefa1e013a3fb3f/pydeps-1.9.8.tar.gz
+[2023-07-23 22:17:36] INFO root fetch - processPackages [rsplan]: Downloading https://files.pythonhosted.org/packages/f0/75/8e3bd38f3c4e16c831f09b92f5968c25bfcf7473ca3ece9a4be069c544a1/rsplan-1.0.1.tar.gz
+[2023-07-23 22:17:36] INFO root fetch - processPackages [rsplan]: executing diffoscope
+[2023-07-23 22:17:36] INFO root fetch - processPackages [rsplan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rsplan-1.0.0.tar.gz tmp/rsplan-1.0.1.tar.gz --markdown 20230723/r/rsplan/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-23 22:17:36] INFO root fetch - processPackages [pydeps]: Downloading https://files.pythonhosted.org/packages/54/58/de7146f26af679bee4beb60206ce1b275bad50d608b6895ab83c7b5fdde2/pydeps-1.9.9.tar.gz
+[2023-07-23 22:17:37] INFO root fetch - processPackages [pydeps]: executing diffoscope
+[2023-07-23 22:17:37] INFO root fetch - processPackages [pydeps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydeps-1.9.8.tar.gz tmp/pydeps-1.9.9.tar.gz --markdown 20230723/p/pydeps/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-23 22:17:37] INFO root fetch - processPackages [rsplan]: Remove: archive file [/home/abi/fetcher/tmp/rsplan-1.0.0.tar.gz]
+[2023-07-23 22:17:37] INFO root fetch - processPackages [rsplan]: Remove: archive file [/home/abi/fetcher/tmp/rsplan-1.0.1.tar.gz]
+[2023-07-23 22:17:37] INFO root fetch - main [MainThread]: End processing [rsplan]: success
+[2023-07-23 22:17:37] INFO root fetch - processPackages [pydeps]: Remove: archive file [/home/abi/fetcher/tmp/pydeps-1.9.8.tar.gz]
+[2023-07-23 22:17:37] INFO root fetch - processPackages [pydeps]: Remove: archive file [/home/abi/fetcher/tmp/pydeps-1.9.9.tar.gz]
+[2023-07-23 22:17:37] INFO root fetch - main [MainThread]: End processing [pydeps]: success
+[2023-07-23 22:17:37] INFO root fetch - main [MainThread]: Store serial: [19004622]
