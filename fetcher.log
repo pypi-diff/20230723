@@ -13049,3 +13049,65 @@ AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
 [2023-07-23 20:36:20] INFO root fetch - processPackages [modsys]: Remove: archive file [/home/abi/fetcher/tmp/modsys-0.5.1.tar.gz]
 [2023-07-23 20:36:20] INFO root fetch - main [MainThread]: End processing [modsys]: success
 [2023-07-23 20:36:20] INFO root fetch - main [MainThread]: Store serial: [19004027]
+[2023-07-23 20:41:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19004027]
+[2023-07-23 20:41:28] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-23 20:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: topologicpy
+[2023-07-23 20:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: diagrams-yaml
+[2023-07-23 20:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mpservice
+[2023-07-23 20:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OneOnOne
+[2023-07-23 20:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: steroid
+[2023-07-23 20:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jlrpy
+[2023-07-23 20:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: goecharger-api-lite
+[2023-07-23 20:41:28] INFO root fetch - processPackages [jlrpy]: New version: [1.5.0] Old Version: [1.4.1]
+[2023-07-23 20:41:28] INFO root fetch - processPackages [steroid]: New version: [0.9b0] Old Version: [0.8b0]
+[2023-07-23 20:41:28] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2023-07-23 20:41:28] INFO root fetch - processPackages [OneOnOne]: New version: [0.6944] Old Version: [0.6943]
+[2023-07-23 20:41:28] INFO root fetch - processPackages [diagrams-yaml]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 20:41:28] INFO root fetch - processPackages [topologicpy]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-23 20:41:28] INFO root fetch - processPackages [goecharger-api-lite]: New version: [1.5.0] Old Version: [1.1.1]
+[2023-07-23 20:41:28] INFO root fetch - processPackages [steroid]: Downloading https://files.pythonhosted.org/packages/b5/31/c01ad052c188da63bbf2b6b4c10d7d4cecf2c0b6fa32d0202645183d5a5f/steroid-0.8b0.tar.gz
+[2023-07-23 20:41:28] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/91/32/4f0492cd55b5e4e313a2208d3210d2e722c211ee1da47d87beb733d6d6a7/OneOnOne-0.6943.tar.gz
+[2023-07-23 20:41:29] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/a4/76/0caf3e54fc1b0c685c01abdb7deb283a4e0ab62467df218edf79256efe6d/mpservice-0.9.9.tar.gz
+[2023-07-23 20:41:29] INFO root fetch - processPackages [diagrams-yaml]: Downloading https://files.pythonhosted.org/packages/c4/ea/5e3b353c67fc4618ed5054b9bc3073d07b8547eb862e2c569d1bac930bc1/diagrams-yaml-0.0.8.tar.gz
+[2023-07-23 20:41:29] INFO root fetch - processPackages [jlrpy]: Downloading https://files.pythonhosted.org/packages/3a/cf/b7913a2ab7383171d41ec64b55be70e9dcb727c4ae8f26b7dadb7ed136ec/jlrpy-1.4.1.tar.gz
+[2023-07-23 20:41:29] INFO root fetch - processPackages [goecharger-api-lite]: Downloading https://files.pythonhosted.org/packages/05/67/8a82323f9a10a923cb752f08c9b4e2776ea97d16fa4eb2b22c9f20637bdb/goecharger-api-lite-1.1.1.tar.gz
+[2023-07-23 20:41:29] INFO root fetch - processPackages [steroid]: Downloading https://files.pythonhosted.org/packages/09/5d/e599fab5f65e8a623f377de38a430b5bce56eb5d277b6171645164487830/steroid-0.9b0.tar.gz
+[2023-07-23 20:41:29] INFO root fetch - processPackages [diagrams-yaml]: Downloading https://files.pythonhosted.org/packages/00/0e/19a99adef69387beff8673a0f28ecb82c54badf65941129492ba3ae7c0ac/diagrams-yaml-0.0.9.tar.gz
+[2023-07-23 20:41:29] INFO root fetch - processPackages [steroid]: executing diffoscope
+[2023-07-23 20:41:29] INFO root fetch - processPackages [steroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steroid-0.8b0.tar.gz tmp/steroid-0.9b0.tar.gz --markdown 20230723/s/steroid/0.8b0-0.9b0/diff.md --exclude *.pyd
+[2023-07-23 20:41:29] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/c5/85/1c4479b468dd8447a392da1fb4879881f139f70892e1015a6f377c4cea2b/topologicpy-0.4.9.tar.gz
+[2023-07-23 20:41:29] INFO root fetch - processPackages [diagrams-yaml]: executing diffoscope
+[2023-07-23 20:41:29] INFO root fetch - processPackages [diagrams-yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diagrams-yaml-0.0.8.tar.gz tmp/diagrams-yaml-0.0.9.tar.gz --markdown 20230723/d/diagrams-yaml/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 20:41:29] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/9b/3c/ab8dfc79dee7f9eb0ffc34f64dfde3d25ee67748abeac41b3f512549e949/OneOnOne-0.6944.tar.gz
+[2023-07-23 20:41:29] INFO root fetch - processPackages [jlrpy]: Downloading https://files.pythonhosted.org/packages/d2/81/1babb8edd36ece2d07e084aebf48536ec7af0578d867e4650260ec7c3e7b/jlrpy-1.5.0.tar.gz
+[2023-07-23 20:41:29] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/62/83/992eb812676a1d5b8ffbc5c9ba7e1bd57f82c86ae5c8a0e509834c8df031/mpservice-0.9.9.post1.tar.gz
+[2023-07-23 20:41:29] INFO root fetch - processPackages [goecharger-api-lite]: Downloading https://files.pythonhosted.org/packages/00/72/79fff5c40edd7257efa518eb67ee8f38f5de5ab0c05d496454024f5518ab/goecharger-api-lite-1.5.0.tar.gz
+[2023-07-23 20:41:29] WARNING root fetch - processPackages [topologicpy]: Skipping package: exceeds size limit 34020520>=10485760
+[2023-07-23 20:41:29] INFO root fetch - main [MainThread]: End processing [topologicpy] error
+[2023-07-23 20:41:29] INFO root fetch - processPackages [jlrpy]: executing diffoscope
+[2023-07-23 20:41:29] INFO root fetch - processPackages [jlrpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jlrpy-1.4.1.tar.gz tmp/jlrpy-1.5.0.tar.gz --markdown 20230723/j/jlrpy/1.4.1-1.5.0/diff.md --exclude *.pyd
+[2023-07-23 20:41:29] INFO root fetch - processPackages [goecharger-api-lite]: executing diffoscope
+[2023-07-23 20:41:29] INFO root fetch - processPackages [goecharger-api-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goecharger-api-lite-1.1.1.tar.gz tmp/goecharger-api-lite-1.5.0.tar.gz --markdown 20230723/g/goecharger-api-lite/1.1.1-1.5.0/diff.md --exclude *.pyd
+[2023-07-23 20:41:29] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2023-07-23 20:41:29] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20230723/m/mpservice/0.9.9-0.9.9.post1/diff.md --exclude *.pyd
+[2023-07-23 20:41:29] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-23 20:41:29] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6943.tar.gz tmp/OneOnOne-0.6944.tar.gz --markdown 20230723/O/OneOnOne/0.6943-0.6944/diff.md --exclude *.pyd
+[2023-07-23 20:41:30] INFO root fetch - processPackages [steroid]: Remove: archive file [/home/abi/fetcher/tmp/steroid-0.8b0.tar.gz]
+[2023-07-23 20:41:30] INFO root fetch - processPackages [steroid]: Remove: archive file [/home/abi/fetcher/tmp/steroid-0.9b0.tar.gz]
+[2023-07-23 20:41:30] INFO root fetch - main [MainThread]: End processing [steroid]: success
+[2023-07-23 20:41:30] INFO root fetch - processPackages [diagrams-yaml]: Remove: archive file [/home/abi/fetcher/tmp/diagrams-yaml-0.0.8.tar.gz]
+[2023-07-23 20:41:30] INFO root fetch - processPackages [diagrams-yaml]: Remove: archive file [/home/abi/fetcher/tmp/diagrams-yaml-0.0.9.tar.gz]
+[2023-07-23 20:41:30] INFO root fetch - main [MainThread]: End processing [diagrams-yaml]: success
+[2023-07-23 20:41:30] INFO root fetch - processPackages [goecharger-api-lite]: Remove: archive file [/home/abi/fetcher/tmp/goecharger-api-lite-1.1.1.tar.gz]
+[2023-07-23 20:41:30] INFO root fetch - processPackages [goecharger-api-lite]: Remove: archive file [/home/abi/fetcher/tmp/goecharger-api-lite-1.5.0.tar.gz]
+[2023-07-23 20:41:30] INFO root fetch - main [MainThread]: End processing [goecharger-api-lite]: success
+[2023-07-23 20:41:30] INFO root fetch - processPackages [jlrpy]: Remove: archive file [/home/abi/fetcher/tmp/jlrpy-1.4.1.tar.gz]
+[2023-07-23 20:41:30] INFO root fetch - processPackages [jlrpy]: Remove: archive file [/home/abi/fetcher/tmp/jlrpy-1.5.0.tar.gz]
+[2023-07-23 20:41:30] INFO root fetch - main [MainThread]: End processing [jlrpy]: success
+[2023-07-23 20:41:30] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.tar.gz]
+[2023-07-23 20:41:30] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.post1.tar.gz]
+[2023-07-23 20:41:30] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2023-07-23 20:41:31] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6943.tar.gz]
+[2023-07-23 20:41:31] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6944.tar.gz]
+[2023-07-23 20:41:31] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-23 20:41:31] INFO root fetch - main [MainThread]: Store serial: [19004045]
