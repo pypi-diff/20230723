@@ -15649,3 +15649,24 @@ AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
 [2023-07-23 23:41:07] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.6.8.tar.gz]
 [2023-07-23 23:41:07] INFO root fetch - main [MainThread]: End processing [spotPython]: success
 [2023-07-23 23:41:07] INFO root fetch - main [MainThread]: Store serial: [19005000]
+[2023-07-23 23:46:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19005000]
+[2023-07-23 23:46:16] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-23 23:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Signal8
+[2023-07-23 23:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pg-sui
+[2023-07-23 23:46:16] INFO root fetch - processPackages [pg-sui]: New version: [0.2.4] Old Version: [0.2.3.1]
+[2023-07-23 23:46:16] INFO root fetch - processPackages [Signal8]: New version: [5.0.2] Old Version: [5.0.1]
+[2023-07-23 23:46:16] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/b3/85/9b172fe11b7a05ada61e53b0ae08be5aacdb3449b0dc9afaad2dc283b140/Signal8-5.0.1.tar.gz
+[2023-07-23 23:46:16] INFO root fetch - processPackages [pg-sui]: Downloading https://files.pythonhosted.org/packages/c6/dc/da6a625c1b761a637512c6e681bd7e42a9eca36b8e8c6de334f317c7d53e/pg-sui-0.2.3.1.tar.gz
+[2023-07-23 23:46:16] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/31/73/a0865539f3f20e8be11b7a53290eaef112f4abaeb9d7e19ef42a30f5f724/Signal8-5.0.2.tar.gz
+[2023-07-23 23:46:16] INFO root fetch - processPackages [pg-sui]: Downloading https://files.pythonhosted.org/packages/b6/7a/96974fc9052c5700eb6160c803053e323ed15f5d2904a704fc4e3a6431ba/pg-sui-0.2.4.tar.gz
+[2023-07-23 23:46:16] INFO root fetch - processPackages [Signal8]: executing diffoscope
+[2023-07-23 23:46:16] INFO root fetch - processPackages [Signal8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Signal8-5.0.1.tar.gz tmp/Signal8-5.0.2.tar.gz --markdown 20230723/S/Signal8/5.0.1-5.0.2/diff.md --exclude *.pyd
+[2023-07-23 23:46:17] INFO root fetch - processPackages [pg-sui]: executing diffoscope
+[2023-07-23 23:46:17] INFO root fetch - processPackages [pg-sui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg-sui-0.2.3.1.tar.gz tmp/pg-sui-0.2.4.tar.gz --markdown 20230723/p/pg-sui/0.2.3.1-0.2.4/diff.md --exclude *.pyd
+[2023-07-23 23:46:17] INFO root fetch - processPackages [Signal8]: Remove: archive file [/home/abi/fetcher/tmp/Signal8-5.0.1.tar.gz]
+[2023-07-23 23:46:17] INFO root fetch - processPackages [Signal8]: Remove: archive file [/home/abi/fetcher/tmp/Signal8-5.0.2.tar.gz]
+[2023-07-23 23:46:17] INFO root fetch - main [MainThread]: End processing [Signal8]: success
+[2023-07-23 23:46:18] INFO root fetch - processPackages [pg-sui]: Remove: archive file [/home/abi/fetcher/tmp/pg-sui-0.2.3.1.tar.gz]
+[2023-07-23 23:46:18] INFO root fetch - processPackages [pg-sui]: Remove: archive file [/home/abi/fetcher/tmp/pg-sui-0.2.4.tar.gz]
+[2023-07-23 23:46:18] INFO root fetch - main [MainThread]: End processing [pg-sui]: success
+[2023-07-23 23:46:18] INFO root fetch - main [MainThread]: Store serial: [19005005]
