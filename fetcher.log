@@ -3865,3 +3865,72 @@
 [2023-07-23 07:23:45] INFO root fetch - processPackages [zoish]: Remove: archive file [/home/abi/fetcher/tmp/zoish-4.1.0.tar.gz]
 [2023-07-23 07:23:45] INFO root fetch - main [MainThread]: End processing [zoish]: success
 [2023-07-23 07:23:45] INFO root fetch - main [MainThread]: Store serial: [18999663]
+[2023-07-23 07:28:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999663]
+[2023-07-23 07:28:53] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-23 07:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TiamoTools
+[2023-07-23 07:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: caqui
+[2023-07-23 07:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: poe-api
+[2023-07-23 07:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nmfu
+[2023-07-23 07:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hugedict
+[2023-07-23 07:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyqtclass
+[2023-07-23 07:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crazy-thursday
+[2023-07-23 07:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: weathon
+[2023-07-23 07:28:53] INFO root fetch - processPackages [pyqtclass]: New version: [0.2.3] Old Version: [0.2.0]
+[2023-07-23 07:28:53] INFO root fetch - processPackages [caqui]: New version: [2.0.0rc2] Old Version: [2.0.0rc1]
+[2023-07-23 07:28:53] WARNING root fetch - processPackages [TiamoTools]: Skipping, unable to determine old version
+[2023-07-23 07:28:53] INFO root fetch - main [MainThread]: End processing [TiamoTools] error
+[2023-07-23 07:28:53] INFO root fetch - processPackages [poe-api]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-23 07:28:53] INFO root fetch - processPackages [nmfu]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-23 07:28:54] INFO root fetch - processPackages [hugedict]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-07-23 07:28:54] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.7.9.1] Old Version: [2023.7.9.0]
+[2023-07-23 07:28:54] INFO root fetch - processPackages [weathon]: New version: [0.0.0.18] Old Version: [0.0.0.17]
+[2023-07-23 07:28:54] INFO root fetch - processPackages [pyqtclass]: Downloading https://files.pythonhosted.org/packages/b5/02/cb0bda1afb839848c440fe27d4a3e1cf3215df1d5b7720aa4c88468b1a4d/pyqtclass-0.2.0.tar.gz
+[2023-07-23 07:28:54] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/6a/c9/15f9add630932cf1d361c73bada17a4fe2e962fe6ae5ac9e61297aedec22/crazy-thursday-2023.7.9.0.tar.gz
+[2023-07-23 07:28:54] INFO root fetch - processPackages [poe-api]: Downloading https://files.pythonhosted.org/packages/9c/44/1b1f6d3db05e1fc64e687e10d2c9b41322f4a0c9938af5d147e04ca6c42f/poe_api-0.4.8-py3-none-any.whl
+[2023-07-23 07:28:54] INFO root fetch - processPackages [caqui]: Downloading https://files.pythonhosted.org/packages/53/b0/f0a920e140303ee652c2fa836c47f1842ac608dc089c7de97ffe8f7376d4/caqui-2.0.0rc1.tar.gz
+[2023-07-23 07:28:54] INFO root fetch - processPackages [nmfu]: Downloading https://files.pythonhosted.org/packages/43/f6/d783231fded742de8c3d9302e51f1a7f966e6844f745c8420137eb212689/nmfu-0.5.1.tar.gz
+[2023-07-23 07:28:54] INFO root fetch - processPackages [hugedict]: Downloading https://files.pythonhosted.org/packages/d9/ec/67623f8628a4bcad24dd3709e5b462a7b8edc3186d0970efc26ec8dcfcaa/hugedict-2.9.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-23 07:28:54] INFO root fetch - processPackages [weathon]: Downloading https://files.pythonhosted.org/packages/f3/b1/bc0900bc0df08bbd0897806e2a72bc3b3a829e5466b8305e774c60b04163/weathon-0.0.0.17.tar.gz
+[2023-07-23 07:28:54] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/8d/ea/65adb6d9f2ff058a84add9a25d8423ef870914ed904a071fcd26e8e9ba74/crazy-thursday-2023.7.9.1.tar.gz
+[2023-07-23 07:28:54] INFO root fetch - processPackages [pyqtclass]: Downloading https://files.pythonhosted.org/packages/24/16/97966b59ce3dc88c2239e2af42363193c965ccae354c924f8e5e456a4d5c/pyqtclass-0.2.3.tar.gz
+[2023-07-23 07:28:54] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-07-23 07:28:54] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.7.9.0.tar.gz tmp/crazy-thursday-2023.7.9.1.tar.gz --markdown 20230723/c/crazy-thursday/2023.7.9.0-2023.7.9.1/diff.md --exclude *.pyd
+[2023-07-23 07:28:54] INFO root fetch - processPackages [pyqtclass]: executing diffoscope
+[2023-07-23 07:28:54] INFO root fetch - processPackages [pyqtclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqtclass-0.2.0.tar.gz tmp/pyqtclass-0.2.3.tar.gz --markdown 20230723/p/pyqtclass/0.2.0-0.2.3/diff.md --exclude *.pyd
+[2023-07-23 07:28:54] INFO root fetch - processPackages [poe-api]: Downloading https://files.pythonhosted.org/packages/c3/81/94236c4531a0f89a3f9b95bae87e56444a5729f4adac042f96194dbd706c/poe_api-0.4.9-py3-none-any.whl
+[2023-07-23 07:28:54] INFO root fetch - processPackages [nmfu]: Downloading https://files.pythonhosted.org/packages/b7/bd/f054c04c1f009edbbd61b56a97847456d3bf0a620622aab4a63713e57fb3/nmfu-0.5.2.tar.gz
+[2023-07-23 07:28:54] INFO root fetch - processPackages [weathon]: Downloading https://files.pythonhosted.org/packages/64/7b/391fd2c66ad0444a6e94f869dc58016cdce6eac51ad5a85ec951b955abad/weathon-0.0.0.18.tar.gz
+[2023-07-23 07:28:54] INFO root fetch - processPackages [nmfu]: executing diffoscope
+[2023-07-23 07:28:54] INFO root fetch - processPackages [nmfu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmfu-0.5.1.tar.gz tmp/nmfu-0.5.2.tar.gz --markdown 20230723/n/nmfu/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-23 07:28:54] INFO root fetch - processPackages [poe-api]: executing diffoscope
+[2023-07-23 07:28:54] INFO root fetch - processPackages [poe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poe_api-0.4.8-py3-none-any.whl.zip tmp/poe_api-0.4.9-py3-none-any.whl.zip --markdown 20230723/p/poe-api/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-23 07:28:55] INFO root fetch - processPackages [weathon]: executing diffoscope
+[2023-07-23 07:28:55] INFO root fetch - processPackages [weathon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weathon-0.0.0.17.tar.gz tmp/weathon-0.0.0.18.tar.gz --markdown 20230723/w/weathon/0.0.0.17-0.0.0.18/diff.md --exclude *.pyd
+[2023-07-23 07:28:55] INFO root fetch - processPackages [caqui]: Downloading https://files.pythonhosted.org/packages/fe/ef/4af8dd5a7e86364bfbe3f5a322b13c3e284fef45f34db5f8dba7422bef23/caqui-2.0.0rc2.tar.gz
+[2023-07-23 07:28:55] INFO root fetch - processPackages [hugedict]: Downloading https://files.pythonhosted.org/packages/92/61/4109a9c0c7bb01eefb965b5b386abacc7d6a554e4c79c6de0bdcb1d32d8a/hugedict-2.9.2-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-23 07:28:55] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.0.tar.gz]
+[2023-07-23 07:28:55] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.1.tar.gz]
+[2023-07-23 07:28:55] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-07-23 07:28:55] INFO root fetch - processPackages [pyqtclass]: Remove: archive file [/home/abi/fetcher/tmp/pyqtclass-0.2.0.tar.gz]
+[2023-07-23 07:28:55] INFO root fetch - processPackages [pyqtclass]: Remove: archive file [/home/abi/fetcher/tmp/pyqtclass-0.2.3.tar.gz]
+[2023-07-23 07:28:55] INFO root fetch - main [MainThread]: End processing [pyqtclass]: success
+[2023-07-23 07:28:55] INFO root fetch - processPackages [nmfu]: Remove: archive file [/home/abi/fetcher/tmp/nmfu-0.5.1.tar.gz]
+[2023-07-23 07:28:55] INFO root fetch - processPackages [nmfu]: Remove: archive file [/home/abi/fetcher/tmp/nmfu-0.5.2.tar.gz]
+[2023-07-23 07:28:55] INFO root fetch - main [MainThread]: End processing [nmfu]: success
+[2023-07-23 07:28:55] INFO root fetch - processPackages [poe-api]: Remove: archive file [/home/abi/fetcher/tmp/poe_api-0.4.8-py3-none-any.whl.zip]
+[2023-07-23 07:28:55] INFO root fetch - processPackages [poe-api]: Remove: archive file [/home/abi/fetcher/tmp/poe_api-0.4.9-py3-none-any.whl.zip]
+[2023-07-23 07:28:55] INFO root fetch - main [MainThread]: End processing [poe-api]: success
+[2023-07-23 07:28:55] INFO root fetch - processPackages [caqui]: executing diffoscope
+[2023-07-23 07:28:55] INFO root fetch - processPackages [caqui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caqui-2.0.0rc1.tar.gz tmp/caqui-2.0.0rc2.tar.gz --markdown 20230723/c/caqui/2.0.0rc1-2.0.0rc2/diff.md --exclude *.pyd
+[2023-07-23 07:28:56] INFO root fetch - processPackages [hugedict]: executing diffoscope
+[2023-07-23 07:28:56] INFO root fetch - processPackages [hugedict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugedict-2.9.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/hugedict-2.9.2-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230723/h/hugedict/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-07-23 07:28:57] INFO root fetch - processPackages [caqui]: Remove: archive file [/home/abi/fetcher/tmp/caqui-2.0.0rc1.tar.gz]
+[2023-07-23 07:28:57] INFO root fetch - processPackages [caqui]: Remove: archive file [/home/abi/fetcher/tmp/caqui-2.0.0rc2.tar.gz]
+[2023-07-23 07:28:57] INFO root fetch - main [MainThread]: End processing [caqui]: success
+[2023-07-23 07:29:00] INFO root fetch - processPackages [weathon]: Remove: archive file [/home/abi/fetcher/tmp/weathon-0.0.0.17.tar.gz]
+[2023-07-23 07:29:00] INFO root fetch - processPackages [weathon]: Remove: archive file [/home/abi/fetcher/tmp/weathon-0.0.0.18.tar.gz]
+[2023-07-23 07:29:00] INFO root fetch - main [MainThread]: End processing [weathon]: success
+[2023-07-23 07:29:39] INFO root fetch - processPackages [hugedict]: Remove: archive file [/home/abi/fetcher/tmp/hugedict-2.9.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-23 07:29:39] INFO root fetch - processPackages [hugedict]: Remove: archive file [/home/abi/fetcher/tmp/hugedict-2.9.2-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-23 07:29:39] INFO root fetch - main [MainThread]: End processing [hugedict]: success
+[2023-07-23 07:29:39] INFO root fetch - main [MainThread]: Store serial: [18999704]
