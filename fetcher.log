@@ -1916,3 +1916,21 @@
 [2023-07-23 03:11:06] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2023-07-23 03:11:06] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2023-07-23 03:11:06] INFO root fetch - main [MainThread]: Store serial: [18998828]
+[2023-07-23 03:16:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18998828]
+[2023-07-23 03:16:16] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-23 03:16:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uu2nano
+[2023-07-23 03:16:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ConvinenceTorch
+[2023-07-23 03:16:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: realnet
+[2023-07-23 03:16:16] INFO root fetch - processPackages [realnet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-23 03:16:16] WARNING root fetch - processPackages [ConvinenceTorch]: Skipping, unable to determine old version
+[2023-07-23 03:16:16] INFO root fetch - main [MainThread]: End processing [ConvinenceTorch] error
+[2023-07-23 03:16:16] WARNING root fetch - processPackages [uu2nano]: Skipping, unable to determine old version
+[2023-07-23 03:16:16] INFO root fetch - main [MainThread]: End processing [uu2nano] error
+[2023-07-23 03:16:16] INFO root fetch - processPackages [realnet]: Downloading https://files.pythonhosted.org/packages/14/7a/ce955eb858773e2e56fbb853c0cb11ab4d94c2a8d998a6e3f80bb9a3b262/realnet-0.0.98.tar.gz
+[2023-07-23 03:16:17] INFO root fetch - processPackages [realnet]: Downloading https://files.pythonhosted.org/packages/85/35/57762e774329e2be122468375db18a174af9449878942ce858b59c0aaeae/realnet-0.0.99.tar.gz
+[2023-07-23 03:16:17] INFO root fetch - processPackages [realnet]: executing diffoscope
+[2023-07-23 03:16:17] INFO root fetch - processPackages [realnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/realnet-0.0.98.tar.gz tmp/realnet-0.0.99.tar.gz --markdown 20230723/r/realnet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-23 03:16:19] INFO root fetch - processPackages [realnet]: Remove: archive file [/home/abi/fetcher/tmp/realnet-0.0.98.tar.gz]
+[2023-07-23 03:16:19] INFO root fetch - processPackages [realnet]: Remove: archive file [/home/abi/fetcher/tmp/realnet-0.0.99.tar.gz]
+[2023-07-23 03:16:19] INFO root fetch - main [MainThread]: End processing [realnet]: success
+[2023-07-23 03:16:19] INFO root fetch - main [MainThread]: Store serial: [18998841]
