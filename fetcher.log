@@ -10062,3 +10062,139 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 17:11:26] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.2.9.tar.gz]
 [2023-07-23 17:11:26] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815]: success
 [2023-07-23 17:11:26] INFO root fetch - main [MainThread]: Store serial: [19002650]
+[2023-07-23 17:16:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19002650]
+[2023-07-23 17:16:34] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-23 17:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rpy2-arrow
+[2023-07-23 17:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wat-terminal
+[2023-07-23 17:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: firefish.py
+[2023-07-23 17:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seunggabi-core-python
+[2023-07-23 17:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RelayMe
+[2023-07-23 17:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Telethon
+[2023-07-23 17:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: codeless-django
+[2023-07-23 17:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mintpdf
+[2023-07-23 17:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kuki
+[2023-07-23 17:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: trino-query-parser
+[2023-07-23 17:16:35] INFO root fetch - processPackages [codeless-django]: New version: [0.0.16] Old Version: [0.0.15]
+[2023-07-23 17:16:35] WARNING root fetch - processPackages [wat-terminal]: Skipping, unable to determine old version
+[2023-07-23 17:16:35] INFO root fetch - main [MainThread]: End processing [wat-terminal] error
+[2023-07-23 17:16:35] INFO root fetch - processPackages [seunggabi-core-python]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-23 17:16:35] INFO root fetch - processPackages [mintpdf]: New version: [1.1] Old Version: [1.0]
+[2023-07-23 17:16:35] INFO root fetch - processPackages [rpy2-arrow]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-23 17:16:35] INFO root fetch - processPackages [firefish.py]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-23 17:16:35] INFO root fetch - processPackages [kuki]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-23 17:16:35] INFO root fetch - processPackages [RelayMe]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-23 17:16:35] INFO root fetch - processPackages [Telethon]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-23 17:16:35] INFO root fetch - processPackages [trino-query-parser]: New version: [0.405.5] Old Version: [0.405.4]
+[2023-07-23 17:16:35] INFO root fetch - processPackages [codeless-django]: Downloading https://files.pythonhosted.org/packages/0c/e3/dee290b59f47d371ba3167acc0fc6043fcd89bd1d5a39b4ba7d498d52c7e/codeless-django-0.0.15.tar.gz
+[2023-07-23 17:16:35] INFO root fetch - processPackages [firefish.py]: Downloading https://files.pythonhosted.org/packages/88/f9/0cf76677df50e310654e1130aca05b457bfeb76d1ca7ee5bd76486cfdfbd/firefish_py-0.0.1.tar.gz
+[2023-07-23 17:16:35] INFO root fetch - processPackages [kuki]: Downloading https://files.pythonhosted.org/packages/22/69/7b9fcadeb11fcecaa59466a60f17833eb3aadbd3869017b69d018bf1d70a/kuki-0.9.4.tar.gz
+[2023-07-23 17:16:35] INFO root fetch - processPackages [seunggabi-core-python]: Downloading https://files.pythonhosted.org/packages/63/29/afebe64cd0882d776f1432763ac8a3bc55ba7db1adc9dd67145a5901cd8b/seunggabi_core_python-0.8.0.tar.gz
+[2023-07-23 17:16:35] INFO root fetch - processPackages [mintpdf]: Downloading https://files.pythonhosted.org/packages/1c/f2/bdc49235eea00345759405fd9fc2f344b2ddb41e3049898983a07544db98/mintpdf-1.0.tar.gz
+[2023-07-23 17:16:35] INFO root fetch - processPackages [rpy2-arrow]: Downloading https://files.pythonhosted.org/packages/f6/b2/e920ea8d0678e1d8ec303cb1460e0cc9af089d7f8dbc9e454de7facf168c/rpy2-arrow-0.0.7.tar.gz
+[2023-07-23 17:16:35] INFO root fetch - processPackages [RelayMe]: Downloading https://files.pythonhosted.org/packages/fa/c6/399af990d564917cdd64702d214b2537f7f64690aee3dfa376c5cc5c9756/RelayMe-0.0.6.tar.gz
+[2023-07-23 17:16:35] INFO root fetch - processPackages [Telethon]: executing diffoscope
+[2023-07-23 17:16:35] INFO root fetch - processPackages [Telethon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Telethon-1.8.0.tar.gz tmp/Telethon-1.9.0.tar.gz --markdown 20230723/T/Telethon/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-23 17:16:35] INFO root fetch - processPackages [trino-query-parser]: Downloading https://files.pythonhosted.org/packages/d6/24/5250fc97032c007a7dcc661be476e94fe81d69b64b559775275f5c8ee0c2/trino_query_parser-0.405.4-py3-none-any.whl
+[2023-07-23 17:16:35] INFO root fetch - processPackages [kuki]: Downloading https://files.pythonhosted.org/packages/f0/f6/dd22fe8e821394ac9087a610a27aabe85a53c195ef9b8ad42e0ba7b9ce6a/kuki-0.9.5.tar.gz
+[2023-07-23 17:16:35] INFO root fetch - processPackages [codeless-django]: Downloading https://files.pythonhosted.org/packages/84/d3/f5622d39c6f062835595ae3b8fb2c827acd03c822898c6fcd665ee96b7f8/codeless-django-0.0.16.tar.gz
+[2023-07-23 17:16:35] INFO root fetch - processPackages [firefish.py]: Downloading https://files.pythonhosted.org/packages/21/a6/5592a9adf19647a9177a8affacddd869a0a576eb836eb19c105bdf514fa1/firefish_py-0.0.2.tar.gz
+[2023-07-23 17:16:35] INFO root fetch - processPackages [kuki]: executing diffoscope
+[2023-07-23 17:16:35] INFO root fetch - processPackages [kuki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuki-0.9.4.tar.gz tmp/kuki-0.9.5.tar.gz --markdown 20230723/k/kuki/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-23 17:16:35] INFO root fetch - processPackages [codeless-django]: executing diffoscope
+[2023-07-23 17:16:35] INFO root fetch - processPackages [codeless-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeless-django-0.0.15.tar.gz tmp/codeless-django-0.0.16.tar.gz --markdown 20230723/c/codeless-django/0.0.15-0.0.16/diff.md --exclude *.pyd
+[2023-07-23 17:16:35] INFO root fetch - processPackages [mintpdf]: Downloading https://files.pythonhosted.org/packages/33/14/0b31be178b6cec1d7b81a47c3853ca2eed7f84da04794e5d2724a470f800/mintpdf-1.1.tar.gz
+[2023-07-23 17:16:35] INFO root fetch - processPackages [RelayMe]: Downloading https://files.pythonhosted.org/packages/8a/85/d21193c538810d375cd43ac4290cded20a5a25859a03bf9c678ce9a77594/RelayMe-0.0.7.tar.gz
+[2023-07-23 17:16:36] INFO root fetch - processPackages [seunggabi-core-python]: Downloading https://files.pythonhosted.org/packages/88/df/6de121f176000c375aa2ca25c6b2d525af420c09a38131ffe98aeab2fc63/seunggabi_core_python-0.9.0.tar.gz
+[2023-07-23 17:16:36] INFO root fetch - processPackages [firefish.py]: executing diffoscope
+[2023-07-23 17:16:36] INFO root fetch - processPackages [firefish.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firefish_py-0.0.1.tar.gz tmp/firefish_py-0.0.2.tar.gz --markdown 20230723/f/firefish.py/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-23 17:16:36] INFO root fetch - processPackages [rpy2-arrow]: Downloading https://files.pythonhosted.org/packages/d6/13/266e254d06562f143a57e513fdf862e1097018655936ee5e1820e0583a3d/rpy2-arrow-0.0.8.tar.gz
+[2023-07-23 17:16:36] INFO root fetch - processPackages [RelayMe]: executing diffoscope
+[2023-07-23 17:16:36] INFO root fetch - processPackages [RelayMe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RelayMe-0.0.6.tar.gz tmp/RelayMe-0.0.7.tar.gz --markdown 20230723/R/RelayMe/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-23 17:16:36] INFO root fetch - processPackages [trino-query-parser]: Downloading https://files.pythonhosted.org/packages/07/ec/e6e19d33562762b470889ca5243b93bf4caf6665da46abc31587141e238f/trino_query_parser-0.405.5-py3-none-any.whl
+[2023-07-23 17:16:36] INFO root fetch - processPackages [mintpdf]: executing diffoscope
+[2023-07-23 17:16:36] INFO root fetch - processPackages [mintpdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mintpdf-1.0.tar.gz tmp/mintpdf-1.1.tar.gz --markdown 20230723/m/mintpdf/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-23 17:16:36] INFO root fetch - processPackages [rpy2-arrow]: executing diffoscope
+[2023-07-23 17:16:36] INFO root fetch - processPackages [rpy2-arrow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpy2-arrow-0.0.7.tar.gz tmp/rpy2-arrow-0.0.8.tar.gz --markdown 20230723/r/rpy2-arrow/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-23 17:16:36] INFO root fetch - processPackages [seunggabi-core-python]: executing diffoscope
+[2023-07-23 17:16:36] INFO root fetch - processPackages [seunggabi-core-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seunggabi_core_python-0.8.0.tar.gz tmp/seunggabi_core_python-0.9.0.tar.gz --markdown 20230723/s/seunggabi-core-python/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-23 17:16:36] INFO root fetch - processPackages [trino-query-parser]: executing diffoscope
+[2023-07-23 17:16:36] INFO root fetch - processPackages [trino-query-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trino_query_parser-0.405.4-py3-none-any.whl.zip tmp/trino_query_parser-0.405.5-py3-none-any.whl.zip --markdown 20230723/t/trino-query-parser/0.405.4-0.405.5/diff.md --exclude *.pyd
+[2023-07-23 17:16:37] INFO root fetch - processPackages [kuki]: Remove: archive file [/home/abi/fetcher/tmp/kuki-0.9.4.tar.gz]
+[2023-07-23 17:16:37] INFO root fetch - processPackages [kuki]: Remove: archive file [/home/abi/fetcher/tmp/kuki-0.9.5.tar.gz]
+[2023-07-23 17:16:37] INFO root fetch - main [MainThread]: End processing [kuki]: success
+[2023-07-23 17:16:37] INFO root fetch - processPackages [firefish.py]: Remove: archive file [/home/abi/fetcher/tmp/firefish_py-0.0.1.tar.gz]
+[2023-07-23 17:16:37] INFO root fetch - processPackages [firefish.py]: Remove: archive file [/home/abi/fetcher/tmp/firefish_py-0.0.2.tar.gz]
+[2023-07-23 17:16:37] INFO root fetch - main [MainThread]: End processing [firefish.py]: success
+[2023-07-23 17:16:37] INFO root fetch - processPackages [RelayMe]: Remove: archive file [/home/abi/fetcher/tmp/RelayMe-0.0.6.tar.gz]
+[2023-07-23 17:16:37] INFO root fetch - processPackages [RelayMe]: Remove: archive file [/home/abi/fetcher/tmp/RelayMe-0.0.7.tar.gz]
+[2023-07-23 17:16:37] INFO root fetch - main [MainThread]: End processing [RelayMe]: success
+[2023-07-23 17:16:37] INFO root fetch - processPackages [seunggabi-core-python]: Remove: archive file [/home/abi/fetcher/tmp/seunggabi_core_python-0.8.0.tar.gz]
+[2023-07-23 17:16:37] INFO root fetch - processPackages [seunggabi-core-python]: Remove: archive file [/home/abi/fetcher/tmp/seunggabi_core_python-0.9.0.tar.gz]
+[2023-07-23 17:16:37] INFO root fetch - main [MainThread]: End processing [seunggabi-core-python]: success
+[2023-07-23 17:16:37] INFO root fetch - processPackages [rpy2-arrow]: Remove: archive file [/home/abi/fetcher/tmp/rpy2-arrow-0.0.7.tar.gz]
+[2023-07-23 17:16:37] INFO root fetch - processPackages [rpy2-arrow]: Remove: archive file [/home/abi/fetcher/tmp/rpy2-arrow-0.0.8.tar.gz]
+[2023-07-23 17:16:37] INFO root fetch - main [MainThread]: End processing [rpy2-arrow]: success
+[2023-07-23 17:16:37] INFO root fetch - processPackages [mintpdf]: Remove: archive file [/home/abi/fetcher/tmp/mintpdf-1.0.tar.gz]
+[2023-07-23 17:16:37] INFO root fetch - processPackages [mintpdf]: Remove: archive file [/home/abi/fetcher/tmp/mintpdf-1.1.tar.gz]
+[2023-07-23 17:16:37] INFO root fetch - main [MainThread]: End processing [mintpdf]: success
+[2023-07-23 17:16:37] INFO root fetch - processPackages [trino-query-parser]: Remove: archive file [/home/abi/fetcher/tmp/trino_query_parser-0.405.4-py3-none-any.whl.zip]
+[2023-07-23 17:16:37] INFO root fetch - processPackages [trino-query-parser]: Remove: archive file [/home/abi/fetcher/tmp/trino_query_parser-0.405.5-py3-none-any.whl.zip]
+[2023-07-23 17:16:37] INFO root fetch - main [MainThread]: End processing [trino-query-parser]: success
+[2023-07-23 17:16:38] INFO root fetch - processPackages [codeless-django]: Remove: archive file [/home/abi/fetcher/tmp/codeless-django-0.0.15.tar.gz]
+[2023-07-23 17:16:38] INFO root fetch - processPackages [codeless-django]: Remove: archive file [/home/abi/fetcher/tmp/codeless-django-0.0.16.tar.gz]
+[2023-07-23 17:16:38] INFO root fetch - main [MainThread]: End processing [codeless-django]: success
+[2023-07-23 17:16:40] ERROR root fetch - processPackages [Telethon]: Diffoscope failed: time="2023-07-23T17:16:35+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+SystemError: ../Objects/codeobject.c:250: bad argument to internal function
+
+[2023-07-23 17:16:40] INFO root fetch - main [MainThread]: End processing [Telethon] error
+[2023-07-23 17:16:40] INFO root fetch - main [MainThread]: Store serial: [19002678]
