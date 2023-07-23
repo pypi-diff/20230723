@@ -15327,3 +15327,33 @@ AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
 [2023-07-23 23:09:56] INFO root fetch - processPackages [fennel-ai]: Remove: archive file [/home/abi/fetcher/tmp/fennel_ai-0.8.7.tar.gz]
 [2023-07-23 23:09:56] INFO root fetch - main [MainThread]: End processing [fennel-ai]: success
 [2023-07-23 23:09:56] INFO root fetch - main [MainThread]: Store serial: [19004887]
+[2023-07-23 23:15:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19004887]
+[2023-07-23 23:15:05] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-23 23:15:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: strictdoc
+[2023-07-23 23:15:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: recnetpy
+[2023-07-23 23:15:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autopack-tools
+[2023-07-23 23:15:05] INFO root fetch - processPackages [autopack-tools]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-23 23:15:05] INFO root fetch - processPackages [recnetpy]: New version: [0.1.51] Old Version: [0.1.5]
+[2023-07-23 23:15:05] INFO root fetch - processPackages [strictdoc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 23:15:05] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/e5/ad/0015c677f9fbf3acec57774cf5a7b391a4c148cd821692192e8e547cb958/autopack_tools-0.3.0.tar.gz
+[2023-07-23 23:15:06] INFO root fetch - processPackages [strictdoc]: Downloading https://files.pythonhosted.org/packages/0e/0c/3782c5673a36cda9e2189ef1e7d9661ba2f1e5c9822b736cf2ce0d2545a7/strictdoc-0.0.8.tar.gz
+[2023-07-23 23:15:06] INFO root fetch - processPackages [recnetpy]: Downloading https://files.pythonhosted.org/packages/ab/08/a12ac8cf63d8cbea66d5497f69ff4c676f9b9c429897cbd07a02d43ad801/recnetpy-0.1.5.tar.gz
+[2023-07-23 23:15:06] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/88/7b/1b27efa479f337cd88a336cb1e7cdd18a3c30e9a641c7b629946bef94cbb/autopack_tools-0.3.1.tar.gz
+[2023-07-23 23:15:06] INFO root fetch - processPackages [autopack-tools]: executing diffoscope
+[2023-07-23 23:15:06] INFO root fetch - processPackages [autopack-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopack_tools-0.3.0.tar.gz tmp/autopack_tools-0.3.1.tar.gz --markdown 20230723/a/autopack-tools/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-23 23:15:06] INFO root fetch - processPackages [strictdoc]: Downloading https://files.pythonhosted.org/packages/b6/06/2219b569301c00406d344dca69ac5e31a169bb9529b66ec957609495d940/strictdoc-0.0.9.tar.gz
+[2023-07-23 23:15:06] INFO root fetch - processPackages [recnetpy]: Downloading https://files.pythonhosted.org/packages/b7/04/77295b76cd264d5f9051519305391e0f15845b07d084db20fd401dacb2f9/recnetpy-0.1.51.tar.gz
+[2023-07-23 23:15:06] INFO root fetch - processPackages [strictdoc]: executing diffoscope
+[2023-07-23 23:15:06] INFO root fetch - processPackages [strictdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strictdoc-0.0.8.tar.gz tmp/strictdoc-0.0.9.tar.gz --markdown 20230723/s/strictdoc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 23:15:06] INFO root fetch - processPackages [recnetpy]: executing diffoscope
+[2023-07-23 23:15:06] INFO root fetch - processPackages [recnetpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recnetpy-0.1.5.tar.gz tmp/recnetpy-0.1.51.tar.gz --markdown 20230723/r/recnetpy/0.1.5-0.1.51/diff.md --exclude *.pyd
+[2023-07-23 23:15:07] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.3.0.tar.gz]
+[2023-07-23 23:15:07] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.3.1.tar.gz]
+[2023-07-23 23:15:07] INFO root fetch - main [MainThread]: End processing [autopack-tools]: success
+[2023-07-23 23:15:07] INFO root fetch - processPackages [strictdoc]: Remove: archive file [/home/abi/fetcher/tmp/strictdoc-0.0.8.tar.gz]
+[2023-07-23 23:15:07] INFO root fetch - processPackages [strictdoc]: Remove: archive file [/home/abi/fetcher/tmp/strictdoc-0.0.9.tar.gz]
+[2023-07-23 23:15:07] INFO root fetch - main [MainThread]: End processing [strictdoc]: success
+[2023-07-23 23:15:07] INFO root fetch - processPackages [recnetpy]: Remove: archive file [/home/abi/fetcher/tmp/recnetpy-0.1.5.tar.gz]
+[2023-07-23 23:15:07] INFO root fetch - processPackages [recnetpy]: Remove: archive file [/home/abi/fetcher/tmp/recnetpy-0.1.51.tar.gz]
+[2023-07-23 23:15:07] INFO root fetch - main [MainThread]: End processing [recnetpy]: success
+[2023-07-23 23:15:07] INFO root fetch - main [MainThread]: Store serial: [19004898]
