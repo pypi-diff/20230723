@@ -2773,3 +2773,48 @@
 [2023-07-23 05:29:20] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2697-py3-none-any.whl.zip]
 [2023-07-23 05:29:20] INFO root fetch - main [MainThread]: End processing [modal-client]: success
 [2023-07-23 05:29:20] INFO root fetch - main [MainThread]: Store serial: [18999210]
+[2023-07-23 05:34:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999210]
+[2023-07-23 05:34:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-23 05:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eriparse
+[2023-07-23 05:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eriparse
+[2023-07-23 05:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fdfat
+[2023-07-23 05:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-event-session
+[2023-07-23 05:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-website-event-require-login
+[2023-07-23 05:34:29] INFO root fetch - processPackages [eriparse]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-23 05:34:29] INFO root fetch - processPackages [odoo-addon-website-event-require-login]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2023-07-23 05:34:29] INFO root fetch - processPackages [fdfat]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-23 05:34:29] INFO root fetch - processPackages [eriparse]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-23 05:34:29] INFO root fetch - processPackages [odoo-addon-event-session]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.5]
+[2023-07-23 05:34:29] INFO root fetch - processPackages [eriparse]: Downloading https://files.pythonhosted.org/packages/55/a1/9799502887df22801bfed0af4b9d7f84d0b983eca5a584a82adef96870c3/eriparse-0.0.1.tar.gz
+[2023-07-23 05:34:29] INFO root fetch - processPackages [eriparse]: Downloading https://files.pythonhosted.org/packages/55/a1/9799502887df22801bfed0af4b9d7f84d0b983eca5a584a82adef96870c3/eriparse-0.0.1.tar.gz
+[2023-07-23 05:34:29] INFO root fetch - processPackages [odoo-addon-website-event-require-login]: Downloading https://files.pythonhosted.org/packages/95/06/9a0a05ac133bcd24ee4be6f2d235d6781bb3e7af16a38b43029110cc7b7c/odoo_addon_website_event_require_login-16.0.1.0.0.7-py3-none-any.whl
+[2023-07-23 05:34:29] INFO root fetch - processPackages [odoo-addon-event-session]: Downloading https://files.pythonhosted.org/packages/43/48/67d467755afd4c4a3b37afb86a781c9a0dfccd434a335ac2f1931a63a118/odoo_addon_event_session-16.0.1.0.0.5-py3-none-any.whl
+[2023-07-23 05:34:29] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/e5/f8/528614e099533a513d7aa6b567cbdc25bad3125b658693691a6e8f5809ab/fdfat-0.1.7.tar.gz
+[2023-07-23 05:34:29] INFO root fetch - processPackages [eriparse]: Downloading https://files.pythonhosted.org/packages/a0/92/bbcac765655054c417ec045b311a951bb64720b38a1b9ec355b160f68a0a/eriparse-0.0.2.tar.gz
+[2023-07-23 05:34:29] INFO root fetch - processPackages [eriparse]: Downloading https://files.pythonhosted.org/packages/a0/92/bbcac765655054c417ec045b311a951bb64720b38a1b9ec355b160f68a0a/eriparse-0.0.2.tar.gz
+[2023-07-23 05:34:29] INFO root fetch - processPackages [odoo-addon-website-event-require-login]: Downloading https://files.pythonhosted.org/packages/6c/23/8241376fa7133d0fcac8807c77c487a86fb5410e807203ca1ae48f8add6a/odoo_addon_website_event_require_login-16.0.1.0.0.8-py3-none-any.whl
+[2023-07-23 05:34:29] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/52/42/506d3fba14d58806c280bd41827378afbc8feb465c3c9021fad9db01c7fe/fdfat-0.1.8.tar.gz
+[2023-07-23 05:34:29] INFO root fetch - processPackages [eriparse]: executing diffoscope
+[2023-07-23 05:34:29] INFO root fetch - processPackages [eriparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eriparse-0.0.1.tar.gz tmp/eriparse-0.0.2.tar.gz --markdown 20230723/e/eriparse/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-23 05:34:29] INFO root fetch - processPackages [odoo-addon-event-session]: executing diffoscope
+[2023-07-23 05:34:29] INFO root fetch - processPackages [odoo-addon-event-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_event_session-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_event_session-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230723/o/odoo-addon-event-session/16.0.1.0.0.5-16.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-07-23 05:34:29] INFO root fetch - processPackages [eriparse]: executing diffoscope
+[2023-07-23 05:34:29] INFO root fetch - processPackages [eriparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eriparse-0.0.1.tar.gz tmp/eriparse-0.0.2.tar.gz --markdown 20230723/e/eriparse/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-23 05:34:29] INFO root fetch - processPackages [odoo-addon-website-event-require-login]: executing diffoscope
+[2023-07-23 05:34:29] INFO root fetch - processPackages [odoo-addon-website-event-require-login]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_event_require_login-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_website_event_require_login-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20230723/o/odoo-addon-website-event-require-login/16.0.1.0.0.7-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2023-07-23 05:34:30] INFO root fetch - processPackages [fdfat]: executing diffoscope
+[2023-07-23 05:34:30] INFO root fetch - processPackages [fdfat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdfat-0.1.7.tar.gz tmp/fdfat-0.1.8.tar.gz --markdown 20230723/f/fdfat/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-23 05:34:30] INFO root fetch - processPackages [odoo-addon-website-event-require-login]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_event_require_login-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-07-23 05:34:30] INFO root fetch - processPackages [odoo-addon-website-event-require-login]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_event_require_login-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-07-23 05:34:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-event-require-login]: success
+[2023-07-23 05:34:30] INFO root fetch - processPackages [eriparse]: Remove: archive file [/home/abi/fetcher/tmp/eriparse-0.0.1.tar.gz]
+[2023-07-23 05:34:30] INFO root fetch - processPackages [eriparse]: Remove: archive file [/home/abi/fetcher/tmp/eriparse-0.0.2.tar.gz]
+[2023-07-23 05:34:30] INFO root fetch - main [MainThread]: End processing [eriparse]: success
+[2023-07-23 05:34:31] INFO root fetch - main [MainThread]: End processing [eriparse]: success
+[2023-07-23 05:34:31] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.7.tar.gz]
+[2023-07-23 05:34:31] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.8.tar.gz]
+[2023-07-23 05:34:31] INFO root fetch - main [MainThread]: End processing [fdfat]: success
+[2023-07-23 05:34:31] INFO root fetch - processPackages [odoo-addon-event-session]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_event_session-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-07-23 05:34:31] INFO root fetch - processPackages [odoo-addon-event-session]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_event_session-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-07-23 05:34:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-event-session]: success
+[2023-07-23 05:34:31] INFO root fetch - main [MainThread]: Store serial: [18999224]
