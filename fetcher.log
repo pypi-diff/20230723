@@ -10291,3 +10291,63 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 17:21:52] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
 [2023-07-23 17:21:52] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
 [2023-07-23 17:21:52] INFO root fetch - main [MainThread]: Store serial: [19002710]
+[2023-07-23 17:26:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19002710]
+[2023-07-23 17:27:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-23 17:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysqlx-engine
+[2023-07-23 17:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trino-query-parser
+[2023-07-23 17:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: async-poe-client
+[2023-07-23 17:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kodexa-cli
+[2023-07-23 17:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: GA-kit
+[2023-07-23 17:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ai-automation
+[2023-07-23 17:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: examon-core
+[2023-07-23 17:27:01] INFO root fetch - processPackages [pysqlx-engine]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-23 17:27:01] INFO root fetch - processPackages [trino-query-parser]: New version: [0.422.5] Old Version: [0.405.5]
+[2023-07-23 17:27:01] INFO root fetch - processPackages [kodexa-cli]: New version: [6.3.35637235787] Old Version: [6.3.35637124089]
+[2023-07-23 17:27:01] INFO root fetch - processPackages [ai-automation]: New version: [3.2] Old Version: [3.1]
+[2023-07-23 17:27:01] INFO root fetch - processPackages [examon-core]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-23 17:27:01] WARNING root fetch - processPackages [GA-kit]: Skipping, unable to determine old version
+[2023-07-23 17:27:01] INFO root fetch - main [MainThread]: End processing [GA-kit] error
+[2023-07-23 17:27:01] INFO root fetch - processPackages [async-poe-client]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-23 17:27:01] INFO root fetch - processPackages [examon-core]: Downloading https://files.pythonhosted.org/packages/1f/6c/779170f53559a1731903d960e01d75f379a0caff3ca09499bb24ecc84388/examon_core-1.0.8.tar.gz
+[2023-07-23 17:27:01] INFO root fetch - processPackages [trino-query-parser]: Downloading https://files.pythonhosted.org/packages/07/ec/e6e19d33562762b470889ca5243b93bf4caf6665da46abc31587141e238f/trino_query_parser-0.405.5-py3-none-any.whl
+[2023-07-23 17:27:01] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/7d/48/c747e348cf37ab4cfe6f396953491a57b4616874529d5ec9f84834f50bd2/kodexa_cli-6.3.35637124089.tar.gz
+[2023-07-23 17:27:01] INFO root fetch - processPackages [async-poe-client]: Downloading https://files.pythonhosted.org/packages/13/52/9171a894660735a6eb2abbc0fbbf0d10028ce6c1bff078ee5305eb6aac1a/async_poe_client-0.1.2.tar.gz
+[2023-07-23 17:27:01] INFO root fetch - processPackages [pysqlx-engine]: Downloading https://files.pythonhosted.org/packages/19/f7/17d3cb38fdbdc3da59ba30e1cfd16b450f8dc387d8109c2022d924fac7df/pysqlx_engine-0.2.8.tar.gz
+[2023-07-23 17:27:01] INFO root fetch - processPackages [ai-automation]: Downloading https://files.pythonhosted.org/packages/d3/e8/8d862ac2ef7cf21a405b663df2f00a73708981fd061765b43afca987f780/ai_automation-3.1.tar.gz
+[2023-07-23 17:27:01] INFO root fetch - processPackages [examon-core]: Downloading https://files.pythonhosted.org/packages/07/38/d903ac017957f33e6f4f89d3e4d79b109f3326f211f01c19b1f3d59d579c/examon_core-1.0.9.tar.gz
+[2023-07-23 17:27:01] INFO root fetch - processPackages [examon-core]: executing diffoscope
+[2023-07-23 17:27:01] INFO root fetch - processPackages [examon-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/examon_core-1.0.8.tar.gz tmp/examon_core-1.0.9.tar.gz --markdown 20230723/e/examon-core/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-23 17:27:01] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/9d/e9/58c53275abe46fc5f1d924df8e899940d512253d1512b80ccb67449a1b92/kodexa_cli-6.3.35637235787.tar.gz
+[2023-07-23 17:27:01] INFO root fetch - processPackages [async-poe-client]: Downloading https://files.pythonhosted.org/packages/69/1b/5a7d4d9a16bc8d02d8ff1388f461073b0c34b57dea6ba319fe9c45f69d0d/async_poe_client-0.1.3.tar.gz
+[2023-07-23 17:27:01] INFO root fetch - processPackages [trino-query-parser]: Downloading https://files.pythonhosted.org/packages/c3/5d/e3114a196bdcda814517825b88685d6da6d3700775bdd5e45ddff53089da/trino_query_parser-0.422.5-py3-none-any.whl
+[2023-07-23 17:27:01] INFO root fetch - processPackages [ai-automation]: Downloading https://files.pythonhosted.org/packages/1c/5a/42ed18fa1d52d1e7137d66a7babf7583e77f64471147e7e7bdb8b92efa05/ai_automation-3.2-py3.9.egg
+[2023-07-23 17:27:01] INFO root fetch - processPackages [kodexa-cli]: executing diffoscope
+[2023-07-23 17:27:01] INFO root fetch - processPackages [kodexa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa_cli-6.3.35637124089.tar.gz tmp/kodexa_cli-6.3.35637235787.tar.gz --markdown 20230723/k/kodexa-cli/6.3.35637124089-6.3.35637235787/diff.md --exclude *.pyd
+[2023-07-23 17:27:01] INFO root fetch - processPackages [async-poe-client]: executing diffoscope
+[2023-07-23 17:27:01] INFO root fetch - processPackages [async-poe-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_poe_client-0.1.2.tar.gz tmp/async_poe_client-0.1.3.tar.gz --markdown 20230723/a/async-poe-client/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-23 17:27:01] INFO root fetch - processPackages [pysqlx-engine]: Downloading https://files.pythonhosted.org/packages/68/67/90501dec28862d0f37c95ce4e60fca5cd2c1fd6853314a69c11d89877c3a/pysqlx_engine-0.2.9.tar.gz
+[2023-07-23 17:27:02] INFO root fetch - processPackages [ai-automation]: executing diffoscope
+[2023-07-23 17:27:02] INFO root fetch - processPackages [ai-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_automation-3.1.tar.gz tmp/ai_automation-3.2-py3.9.egg --markdown 20230723/a/ai-automation/3.1-3.2/diff.md --exclude *.pyd
+[2023-07-23 17:27:02] INFO root fetch - processPackages [trino-query-parser]: executing diffoscope
+[2023-07-23 17:27:02] INFO root fetch - processPackages [trino-query-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trino_query_parser-0.405.5-py3-none-any.whl.zip tmp/trino_query_parser-0.422.5-py3-none-any.whl.zip --markdown 20230723/t/trino-query-parser/0.405.5-0.422.5/diff.md --exclude *.pyd
+[2023-07-23 17:27:02] INFO root fetch - processPackages [pysqlx-engine]: executing diffoscope
+[2023-07-23 17:27:02] INFO root fetch - processPackages [pysqlx-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysqlx_engine-0.2.8.tar.gz tmp/pysqlx_engine-0.2.9.tar.gz --markdown 20230723/p/pysqlx-engine/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-23 17:27:02] INFO root fetch - processPackages [examon-core]: Remove: archive file [/home/abi/fetcher/tmp/examon_core-1.0.8.tar.gz]
+[2023-07-23 17:27:02] INFO root fetch - processPackages [examon-core]: Remove: archive file [/home/abi/fetcher/tmp/examon_core-1.0.9.tar.gz]
+[2023-07-23 17:27:02] INFO root fetch - main [MainThread]: End processing [examon-core]: success
+[2023-07-23 17:27:02] INFO root fetch - processPackages [ai-automation]: Remove: archive file [/home/abi/fetcher/tmp/ai_automation-3.1.tar.gz]
+[2023-07-23 17:27:02] INFO root fetch - processPackages [ai-automation]: Remove: archive file [/home/abi/fetcher/tmp/ai_automation-3.2-py3.9.egg]
+[2023-07-23 17:27:02] INFO root fetch - main [MainThread]: End processing [ai-automation]: success
+[2023-07-23 17:27:03] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-6.3.35637124089.tar.gz]
+[2023-07-23 17:27:03] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-6.3.35637235787.tar.gz]
+[2023-07-23 17:27:03] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
+[2023-07-23 17:27:03] INFO root fetch - processPackages [trino-query-parser]: Remove: archive file [/home/abi/fetcher/tmp/trino_query_parser-0.405.5-py3-none-any.whl.zip]
+[2023-07-23 17:27:03] INFO root fetch - processPackages [trino-query-parser]: Remove: archive file [/home/abi/fetcher/tmp/trino_query_parser-0.422.5-py3-none-any.whl.zip]
+[2023-07-23 17:27:03] INFO root fetch - main [MainThread]: End processing [trino-query-parser]: success
+[2023-07-23 17:27:03] INFO root fetch - processPackages [pysqlx-engine]: Remove: archive file [/home/abi/fetcher/tmp/pysqlx_engine-0.2.8.tar.gz]
+[2023-07-23 17:27:03] INFO root fetch - processPackages [pysqlx-engine]: Remove: archive file [/home/abi/fetcher/tmp/pysqlx_engine-0.2.9.tar.gz]
+[2023-07-23 17:27:03] INFO root fetch - main [MainThread]: End processing [pysqlx-engine]: success
+[2023-07-23 17:27:03] INFO root fetch - processPackages [async-poe-client]: Remove: archive file [/home/abi/fetcher/tmp/async_poe_client-0.1.2.tar.gz]
+[2023-07-23 17:27:03] INFO root fetch - processPackages [async-poe-client]: Remove: archive file [/home/abi/fetcher/tmp/async_poe_client-0.1.3.tar.gz]
+[2023-07-23 17:27:03] INFO root fetch - main [MainThread]: End processing [async-poe-client]: success
+[2023-07-23 17:27:03] INFO root fetch - main [MainThread]: Store serial: [19002733]
