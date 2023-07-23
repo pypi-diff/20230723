@@ -3784,3 +3784,36 @@
 [2023-07-23 07:13:25] INFO root fetch - processPackages [pytorch-partial-tagger]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_partial_tagger-0.1.9.tar.gz]
 [2023-07-23 07:13:25] INFO root fetch - main [MainThread]: End processing [pytorch-partial-tagger]: success
 [2023-07-23 07:13:25] INFO root fetch - main [MainThread]: Store serial: [18999624]
+[2023-07-23 07:18:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999624]
+[2023-07-23 07:18:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-23 07:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zoho-analytics-connector
+[2023-07-23 07:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prompt-verse
+[2023-07-23 07:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neuralpit
+[2023-07-23 07:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Flask-SQL-Pro
+[2023-07-23 07:18:33] WARNING root fetch - processPackages [prompt-verse]: Skipping, unable to determine old version
+[2023-07-23 07:18:33] INFO root fetch - main [MainThread]: End processing [prompt-verse] error
+[2023-07-23 07:18:33] INFO root fetch - processPackages [Flask-SQL-Pro]: New version: [2.3] Old Version: [2.2]
+[2023-07-23 07:18:33] INFO root fetch - processPackages [neuralpit]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-23 07:18:33] INFO root fetch - processPackages [zoho-analytics-connector]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-07-23 07:18:33] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/56/58/bb03618390059b6d129f2de5cd391ec42364984c951277841e024e78d46e/neuralpit-2.0.8.tar.gz
+[2023-07-23 07:18:33] INFO root fetch - processPackages [Flask-SQL-Pro]: Downloading https://files.pythonhosted.org/packages/0d/8a/7d1a0f57b307767ca182ed1f3e56add735bd6cfada8cfaef3a347c7d2075/Flask-SQL-Pro-2.2.tar.gz
+[2023-07-23 07:18:33] INFO root fetch - processPackages [zoho-analytics-connector]: Downloading https://files.pythonhosted.org/packages/09/ac/88943d2b7c0f319189c26c74d6f7b3a0757cf98b3a9f2260cf0a2f3605e8/zoho_analytics_connector-1.4.2.tar.gz
+[2023-07-23 07:18:33] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/8d/d4/cdca716e9f1023aaa975149951886336025da24ab787ef5b10e974341df6/neuralpit-2.0.9.tar.gz
+[2023-07-23 07:18:33] INFO root fetch - processPackages [neuralpit]: executing diffoscope
+[2023-07-23 07:18:33] INFO root fetch - processPackages [neuralpit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralpit-2.0.8.tar.gz tmp/neuralpit-2.0.9.tar.gz --markdown 20230723/n/neuralpit/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-23 07:18:33] INFO root fetch - processPackages [Flask-SQL-Pro]: Downloading https://files.pythonhosted.org/packages/b2/01/604257d73c33d29fe15409342e6f770c31970d521816e2429fd70fb3b303/Flask-SQL-Pro-2.3.tar.gz
+[2023-07-23 07:18:33] INFO root fetch - processPackages [Flask-SQL-Pro]: executing diffoscope
+[2023-07-23 07:18:33] INFO root fetch - processPackages [Flask-SQL-Pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-SQL-Pro-2.2.tar.gz tmp/Flask-SQL-Pro-2.3.tar.gz --markdown 20230723/F/Flask-SQL-Pro/2.2-2.3/diff.md --exclude *.pyd
+[2023-07-23 07:18:33] INFO root fetch - processPackages [zoho-analytics-connector]: Downloading https://files.pythonhosted.org/packages/5b/95/7c91ee04adfe8e81faa97f0cc0eb9e36981e683cc8dd0996dea1ac7bc9af/zoho_analytics_connector-1.4.3.tar.gz
+[2023-07-23 07:18:34] INFO root fetch - processPackages [zoho-analytics-connector]: executing diffoscope
+[2023-07-23 07:18:34] INFO root fetch - processPackages [zoho-analytics-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoho_analytics_connector-1.4.2.tar.gz tmp/zoho_analytics_connector-1.4.3.tar.gz --markdown 20230723/z/zoho-analytics-connector/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-07-23 07:18:34] INFO root fetch - processPackages [neuralpit]: Remove: archive file [/home/abi/fetcher/tmp/neuralpit-2.0.8.tar.gz]
+[2023-07-23 07:18:34] INFO root fetch - processPackages [neuralpit]: Remove: archive file [/home/abi/fetcher/tmp/neuralpit-2.0.9.tar.gz]
+[2023-07-23 07:18:34] INFO root fetch - main [MainThread]: End processing [neuralpit]: success
+[2023-07-23 07:18:34] INFO root fetch - processPackages [Flask-SQL-Pro]: Remove: archive file [/home/abi/fetcher/tmp/Flask-SQL-Pro-2.2.tar.gz]
+[2023-07-23 07:18:34] INFO root fetch - processPackages [Flask-SQL-Pro]: Remove: archive file [/home/abi/fetcher/tmp/Flask-SQL-Pro-2.3.tar.gz]
+[2023-07-23 07:18:34] INFO root fetch - main [MainThread]: End processing [Flask-SQL-Pro]: success
+[2023-07-23 07:18:34] INFO root fetch - processPackages [zoho-analytics-connector]: Remove: archive file [/home/abi/fetcher/tmp/zoho_analytics_connector-1.4.2.tar.gz]
+[2023-07-23 07:18:34] INFO root fetch - processPackages [zoho-analytics-connector]: Remove: archive file [/home/abi/fetcher/tmp/zoho_analytics_connector-1.4.3.tar.gz]
+[2023-07-23 07:18:34] INFO root fetch - main [MainThread]: End processing [zoho-analytics-connector]: success
+[2023-07-23 07:18:34] INFO root fetch - main [MainThread]: Store serial: [18999635]
