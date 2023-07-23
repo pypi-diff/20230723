@@ -13015,3 +13015,37 @@ AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
 [2023-07-23 20:31:10] INFO root fetch - processPackages [mystic]: Remove: archive file [/home/abi/fetcher/tmp/mystic-0.4.1.tar.gz]
 [2023-07-23 20:31:10] INFO root fetch - main [MainThread]: End processing [mystic]: success
 [2023-07-23 20:31:10] INFO root fetch - main [MainThread]: Store serial: [19004007]
+[2023-07-23 20:36:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19004007]
+[2023-07-23 20:36:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-23 20:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: creategif
+[2023-07-23 20:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: steroid
+[2023-07-23 20:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rec-spotify
+[2023-07-23 20:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modsys
+[2023-07-23 20:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: steroid
+[2023-07-23 20:36:18] INFO root fetch - processPackages [steroid]: New version: [0.9b0] Old Version: [0.8b0]
+[2023-07-23 20:36:18] INFO root fetch - processPackages [steroid]: New version: [0.9b0] Old Version: [0.8b0]
+[2023-07-23 20:36:18] WARNING root fetch - processPackages [creategif]: Skipping, unable to determine old version
+[2023-07-23 20:36:18] INFO root fetch - main [MainThread]: End processing [creategif] error
+[2023-07-23 20:36:18] INFO root fetch - processPackages [modsys]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-23 20:36:18] WARNING root fetch - processPackages [rec-spotify]: Skipping, unable to determine old version
+[2023-07-23 20:36:18] INFO root fetch - main [MainThread]: End processing [rec-spotify] error
+[2023-07-23 20:36:18] INFO root fetch - processPackages [steroid]: Downloading https://files.pythonhosted.org/packages/b5/31/c01ad052c188da63bbf2b6b4c10d7d4cecf2c0b6fa32d0202645183d5a5f/steroid-0.8b0.tar.gz
+[2023-07-23 20:36:19] INFO root fetch - processPackages [modsys]: Downloading https://files.pythonhosted.org/packages/53/32/0e43067103c4dabc3c668d0ab3b9bf373054b33c9f8045aac793ed0e804d/modsys-0.5.0.tar.gz
+[2023-07-23 20:36:19] INFO root fetch - processPackages [steroid]: Downloading https://files.pythonhosted.org/packages/b5/31/c01ad052c188da63bbf2b6b4c10d7d4cecf2c0b6fa32d0202645183d5a5f/steroid-0.8b0.tar.gz
+[2023-07-23 20:36:19] INFO root fetch - processPackages [steroid]: Downloading https://files.pythonhosted.org/packages/09/5d/e599fab5f65e8a623f377de38a430b5bce56eb5d277b6171645164487830/steroid-0.9b0.tar.gz
+[2023-07-23 20:36:19] INFO root fetch - processPackages [steroid]: Downloading https://files.pythonhosted.org/packages/09/5d/e599fab5f65e8a623f377de38a430b5bce56eb5d277b6171645164487830/steroid-0.9b0.tar.gz
+[2023-07-23 20:36:19] INFO root fetch - processPackages [steroid]: executing diffoscope
+[2023-07-23 20:36:19] INFO root fetch - processPackages [steroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steroid-0.8b0.tar.gz tmp/steroid-0.9b0.tar.gz --markdown 20230723/s/steroid/0.8b0-0.9b0/diff.md --exclude *.pyd
+[2023-07-23 20:36:19] INFO root fetch - processPackages [modsys]: Downloading https://files.pythonhosted.org/packages/0f/23/52cee0329ea2f576762e5804858648398a2b5163c1f716e445a3ef6c10b4/modsys-0.5.1.tar.gz
+[2023-07-23 20:36:19] INFO root fetch - processPackages [steroid]: executing diffoscope
+[2023-07-23 20:36:19] INFO root fetch - processPackages [steroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steroid-0.8b0.tar.gz tmp/steroid-0.9b0.tar.gz --markdown 20230723/s/steroid/0.8b0-0.9b0/diff.md --exclude *.pyd
+[2023-07-23 20:36:19] INFO root fetch - processPackages [modsys]: executing diffoscope
+[2023-07-23 20:36:19] INFO root fetch - processPackages [modsys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modsys-0.5.0.tar.gz tmp/modsys-0.5.1.tar.gz --markdown 20230723/m/modsys/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-23 20:36:20] INFO root fetch - processPackages [steroid]: Remove: archive file [/home/abi/fetcher/tmp/steroid-0.8b0.tar.gz]
+[2023-07-23 20:36:20] INFO root fetch - processPackages [steroid]: Remove: archive file [/home/abi/fetcher/tmp/steroid-0.9b0.tar.gz]
+[2023-07-23 20:36:20] INFO root fetch - main [MainThread]: End processing [steroid]: success
+[2023-07-23 20:36:20] INFO root fetch - main [MainThread]: End processing [steroid]: success
+[2023-07-23 20:36:20] INFO root fetch - processPackages [modsys]: Remove: archive file [/home/abi/fetcher/tmp/modsys-0.5.0.tar.gz]
+[2023-07-23 20:36:20] INFO root fetch - processPackages [modsys]: Remove: archive file [/home/abi/fetcher/tmp/modsys-0.5.1.tar.gz]
+[2023-07-23 20:36:20] INFO root fetch - main [MainThread]: End processing [modsys]: success
+[2023-07-23 20:36:20] INFO root fetch - main [MainThread]: Store serial: [19004027]
