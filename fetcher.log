@@ -2728,3 +2728,48 @@
 [2023-07-23 05:24:09] INFO root fetch - processPackages [cdktf-cdktf-provider-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-gitlab-9.0.2.tar.gz]
 [2023-07-23 05:24:09] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-gitlab]: success
 [2023-07-23 05:24:09] INFO root fetch - main [MainThread]: Store serial: [18999191]
+[2023-07-23 05:29:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999191]
+[2023-07-23 05:29:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-23 05:29:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: terminal-manager
+[2023-07-23 05:29:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-ogp-view
+[2023-07-23 05:29:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: konfuzio-sdk
+[2023-07-23 05:29:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ssh-terminal-manager
+[2023-07-23 05:29:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modal-client
+[2023-07-23 05:29:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modal
+[2023-07-23 05:29:18] INFO root fetch - processPackages [modal]: New version: [0.50.2697] Old Version: [0.50.2691]
+[2023-07-23 05:29:18] WARNING root fetch - processPackages [ssh-terminal-manager]: Skipping, unable to determine old version
+[2023-07-23 05:29:18] INFO root fetch - main [MainThread]: End processing [ssh-terminal-manager] error
+[2023-07-23 05:29:18] INFO root fetch - processPackages [terminal-manager]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-23 05:29:18] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-07-23 05:29:18] INFO root fetch - processPackages [modal-client]: New version: [0.50.2697] Old Version: [0.50.2691]
+[2023-07-23 05:29:18] WARNING root fetch - processPackages [django-ogp-view]: Skipping, unable to determine old version
+[2023-07-23 05:29:18] INFO root fetch - main [MainThread]: End processing [django-ogp-view] error
+[2023-07-23 05:29:18] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/83/11/70e3b7f5eca0444e99997a89ed58da147bd0b6e7c0da8f05ed19d4f4a044/modal-0.50.2691-py3-none-any.whl
+[2023-07-23 05:29:18] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/ac/dc/9465335e6231c486f3c6bdbe6b292085b01976718bb1af6f33d8d890281a/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz
+[2023-07-23 05:29:18] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/04/c9/62ecb1f03d01b4495961a7f2aa85ac0737b21ab9806cd46eacaed95d8035/modal_client-0.50.2691-py3-none-any.whl
+[2023-07-23 05:29:18] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/4a/3b/875a5d1cf74ec597eceaf7095d68ea13e58abb9f095fff321dc0709029f0/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz
+[2023-07-23 05:29:18] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c2/94/7b80dffc59babbc961997c32bfe8a419e14372155c3280c9c96b1ade3818/modal-0.50.2697-py3-none-any.whl
+[2023-07-23 05:29:18] INFO root fetch - processPackages [terminal-manager]: Downloading https://files.pythonhosted.org/packages/86/d1/909ee8004f8a07714ecf51cdcc1d9319f357951ea906978e0a15b2edec74/terminal_manager-0.9.0.tar.gz
+[2023-07-23 05:29:18] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-07-23 05:29:18] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230723/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-07-23 05:29:18] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/f7/ce/31e7a580b02c3de3dcb9304a580c49e5df8ed9c241907d9b17c743ab3d7d/modal_client-0.50.2697-py3-none-any.whl
+[2023-07-23 05:29:19] INFO root fetch - processPackages [modal]: executing diffoscope
+[2023-07-23 05:29:19] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.50.2691-py3-none-any.whl.zip tmp/modal-0.50.2697-py3-none-any.whl.zip --markdown 20230723/m/modal/0.50.2691-0.50.2697/diff.md --exclude *.pyd
+[2023-07-23 05:29:19] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-07-23 05:29:19] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.50.2691-py3-none-any.whl.zip tmp/modal_client-0.50.2697-py3-none-any.whl.zip --markdown 20230723/m/modal-client/0.50.2691-0.50.2697/diff.md --exclude *.pyd
+[2023-07-23 05:29:19] INFO root fetch - processPackages [terminal-manager]: Downloading https://files.pythonhosted.org/packages/95/0e/189bae6608c1cd8874bb4e47aa380c7eb3940c49ac4d28ad2d8270f0872b/terminal_manager-0.9.1.tar.gz
+[2023-07-23 05:29:19] INFO root fetch - processPackages [terminal-manager]: executing diffoscope
+[2023-07-23 05:29:19] INFO root fetch - processPackages [terminal-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terminal_manager-0.9.0.tar.gz tmp/terminal_manager-0.9.1.tar.gz --markdown 20230723/t/terminal-manager/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-23 05:29:19] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz]
+[2023-07-23 05:29:19] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz]
+[2023-07-23 05:29:19] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-07-23 05:29:19] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2691-py3-none-any.whl.zip]
+[2023-07-23 05:29:19] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2697-py3-none-any.whl.zip]
+[2023-07-23 05:29:19] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2023-07-23 05:29:20] INFO root fetch - processPackages [terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/terminal_manager-0.9.0.tar.gz]
+[2023-07-23 05:29:20] INFO root fetch - processPackages [terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/terminal_manager-0.9.1.tar.gz]
+[2023-07-23 05:29:20] INFO root fetch - main [MainThread]: End processing [terminal-manager]: success
+[2023-07-23 05:29:20] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2691-py3-none-any.whl.zip]
+[2023-07-23 05:29:20] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2697-py3-none-any.whl.zip]
+[2023-07-23 05:29:20] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-07-23 05:29:20] INFO root fetch - main [MainThread]: Store serial: [18999210]
