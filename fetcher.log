@@ -9769,3 +9769,48 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 16:55:42] INFO root fetch - processPackages [salabim]: Remove: archive file [/home/abi/fetcher/tmp/salabim-23.3.3.tar.gz]
 [2023-07-23 16:55:42] INFO root fetch - main [MainThread]: End processing [salabim]: success
 [2023-07-23 16:55:42] INFO root fetch - main [MainThread]: Store serial: [19002531]
+[2023-07-23 17:00:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19002531]
+[2023-07-23 17:00:52] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-23 17:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: medipt
+[2023-07-23 17:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Flask-SQL-Pro
+[2023-07-23 17:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-stock-override-procurement
+[2023-07-23 17:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qcfinancial
+[2023-07-23 17:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Flask-SQL-Pro
+[2023-07-23 17:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: onvif-gui
+[2023-07-23 17:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: janus-client
+[2023-07-23 17:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zheinit
+[2023-07-23 17:00:53] WARNING root fetch - processPackages [medipt]: Skipping, unable to determine old version
+[2023-07-23 17:00:53] INFO root fetch - main [MainThread]: End processing [medipt] error
+[2023-07-23 17:00:53] INFO root fetch - processPackages [onvif-gui]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-23 17:00:53] WARNING root fetch - processPackages [odoo-addon-stock-override-procurement]: Skipping, unable to determine old version
+[2023-07-23 17:00:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-override-procurement] error
+[2023-07-23 17:00:53] WARNING root fetch - processPackages [Flask-SQL-Pro]: Skipping, unable to determine old version
+[2023-07-23 17:00:53] INFO root fetch - main [MainThread]: End processing [Flask-SQL-Pro] error
+[2023-07-23 17:00:53] WARNING root fetch - processPackages [qcfinancial]: Skipping, unable to determine old version
+[2023-07-23 17:00:53] INFO root fetch - main [MainThread]: End processing [qcfinancial] error
+[2023-07-23 17:00:53] WARNING root fetch - processPackages [Flask-SQL-Pro]: Skipping, unable to determine old version
+[2023-07-23 17:00:53] INFO root fetch - main [MainThread]: End processing [Flask-SQL-Pro] error
+[2023-07-23 17:00:53] INFO root fetch - processPackages [zheinit]: New version: [0.0.71] Old Version: [0.0.7]
+[2023-07-23 17:00:53] INFO root fetch - processPackages [janus-client]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-23 17:00:53] INFO root fetch - processPackages [zheinit]: Downloading https://files.pythonhosted.org/packages/7d/6c/44846f3802d34a5f84cb08e36975364f14e7ab52507a0ed059e615d0e343/zheinit-0.0.7.tar.gz
+[2023-07-23 17:00:53] INFO root fetch - processPackages [onvif-gui]: Downloading https://files.pythonhosted.org/packages/0b/a1/dfeb4ba2d525bfcd3fe352881a8e7bee0c2a61cbaeafa6b2b6aea7c23bc7/onvif-gui-1.2.8.tar.gz
+[2023-07-23 17:00:53] INFO root fetch - processPackages [zheinit]: Downloading https://files.pythonhosted.org/packages/ed/b6/4a1c81675874addfcc902736c21055cdec026fbbad85d3af9a3ce829c3a3/zheinit-0.0.71.tar.gz
+[2023-07-23 17:00:53] INFO root fetch - processPackages [janus-client]: Downloading https://files.pythonhosted.org/packages/90/ba/acdec9827edafcf80053dc1f23710f05f20bde5a61c1af7f2c79ead120a2/janus-client-0.2.3.tar.gz
+[2023-07-23 17:00:53] INFO root fetch - processPackages [zheinit]: executing diffoscope
+[2023-07-23 17:00:53] INFO root fetch - processPackages [zheinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zheinit-0.0.7.tar.gz tmp/zheinit-0.0.71.tar.gz --markdown 20230723/z/zheinit/0.0.7-0.0.71/diff.md --exclude *.pyd
+[2023-07-23 17:00:53] INFO root fetch - processPackages [janus-client]: Downloading https://files.pythonhosted.org/packages/f5/06/00f352d65f4da37a9b5a9f7315e5707b812b75cb0e2cf001fe35661cd311/janus_client-0.2.4.tar.gz
+[2023-07-23 17:00:53] INFO root fetch - processPackages [onvif-gui]: Downloading https://files.pythonhosted.org/packages/49/81/cfb39dbb9c5d75ef3cac0b0dde45e6a205c99ad6622cc006c5956dd8c284/onvif-gui-1.2.9.tar.gz
+[2023-07-23 17:00:53] INFO root fetch - processPackages [janus-client]: executing diffoscope
+[2023-07-23 17:00:53] INFO root fetch - processPackages [janus-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/janus-client-0.2.3.tar.gz tmp/janus_client-0.2.4.tar.gz --markdown 20230723/j/janus-client/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-23 17:00:53] INFO root fetch - processPackages [onvif-gui]: executing diffoscope
+[2023-07-23 17:00:53] INFO root fetch - processPackages [onvif-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onvif-gui-1.2.8.tar.gz tmp/onvif-gui-1.2.9.tar.gz --markdown 20230723/o/onvif-gui/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-23 17:00:54] INFO root fetch - processPackages [zheinit]: Remove: archive file [/home/abi/fetcher/tmp/zheinit-0.0.7.tar.gz]
+[2023-07-23 17:00:54] INFO root fetch - processPackages [zheinit]: Remove: archive file [/home/abi/fetcher/tmp/zheinit-0.0.71.tar.gz]
+[2023-07-23 17:00:54] INFO root fetch - main [MainThread]: End processing [zheinit]: success
+[2023-07-23 17:00:54] INFO root fetch - processPackages [janus-client]: Remove: archive file [/home/abi/fetcher/tmp/janus-client-0.2.3.tar.gz]
+[2023-07-23 17:00:54] INFO root fetch - processPackages [janus-client]: Remove: archive file [/home/abi/fetcher/tmp/janus_client-0.2.4.tar.gz]
+[2023-07-23 17:00:54] INFO root fetch - main [MainThread]: End processing [janus-client]: success
+[2023-07-23 17:00:55] INFO root fetch - processPackages [onvif-gui]: Remove: archive file [/home/abi/fetcher/tmp/onvif-gui-1.2.8.tar.gz]
+[2023-07-23 17:00:55] INFO root fetch - processPackages [onvif-gui]: Remove: archive file [/home/abi/fetcher/tmp/onvif-gui-1.2.9.tar.gz]
+[2023-07-23 17:00:55] INFO root fetch - main [MainThread]: End processing [onvif-gui]: success
+[2023-07-23 17:00:55] INFO root fetch - main [MainThread]: Store serial: [19002561]
