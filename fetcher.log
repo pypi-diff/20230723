@@ -2349,3 +2349,24 @@
 [2023-07-23 04:16:18] INFO root fetch - processPackages [easy-local-features]: Remove: archive file [/home/abi/fetcher/tmp/easy_local_features-0.3.5.tar.gz]
 [2023-07-23 04:16:18] INFO root fetch - main [MainThread]: End processing [easy-local-features]: success
 [2023-07-23 04:16:18] INFO root fetch - main [MainThread]: Store serial: [18999023]
+[2023-07-23 04:21:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999023]
+[2023-07-23 04:21:28] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-23 04:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AutoQPF
+[2023-07-23 04:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pynamicui
+[2023-07-23 04:21:29] INFO root fetch - processPackages [AutoQPF]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-23 04:21:29] INFO root fetch - processPackages [pynamicui]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 04:21:29] INFO root fetch - processPackages [AutoQPF]: Downloading https://files.pythonhosted.org/packages/f9/95/5966430ed7bb7449ec9816476941e039573bad5653b97fc4ca2e64e253ab/AutoQPF-0.1.1.tar.gz
+[2023-07-23 04:21:29] INFO root fetch - processPackages [pynamicui]: Downloading https://files.pythonhosted.org/packages/3a/20/65dd50354a52cf5a543f98e6da8f01e065821af0b850ca2f342804136f93/pynamicui-0.0.8.tar.gz
+[2023-07-23 04:21:29] INFO root fetch - processPackages [AutoQPF]: Downloading https://files.pythonhosted.org/packages/23/c7/a38e3b15f3c8ae34fdcadcc896506a254dea5a9efb72d4184fa930c34e2a/AutoQPF-0.1.2.tar.gz
+[2023-07-23 04:21:29] INFO root fetch - processPackages [AutoQPF]: executing diffoscope
+[2023-07-23 04:21:29] INFO root fetch - processPackages [AutoQPF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoQPF-0.1.1.tar.gz tmp/AutoQPF-0.1.2.tar.gz --markdown 20230723/A/AutoQPF/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-23 04:21:29] INFO root fetch - processPackages [pynamicui]: Downloading https://files.pythonhosted.org/packages/26/38/8178e3f50275fff66051c0f7f4a9e4b73c06fc64f10ea970211973019d21/pynamicui-0.0.9.tar.gz
+[2023-07-23 04:21:29] INFO root fetch - processPackages [pynamicui]: executing diffoscope
+[2023-07-23 04:21:29] INFO root fetch - processPackages [pynamicui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynamicui-0.0.8.tar.gz tmp/pynamicui-0.0.9.tar.gz --markdown 20230723/p/pynamicui/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 04:21:30] INFO root fetch - processPackages [AutoQPF]: Remove: archive file [/home/abi/fetcher/tmp/AutoQPF-0.1.1.tar.gz]
+[2023-07-23 04:21:30] INFO root fetch - processPackages [AutoQPF]: Remove: archive file [/home/abi/fetcher/tmp/AutoQPF-0.1.2.tar.gz]
+[2023-07-23 04:21:30] INFO root fetch - main [MainThread]: End processing [AutoQPF]: success
+[2023-07-23 04:21:30] INFO root fetch - processPackages [pynamicui]: Remove: archive file [/home/abi/fetcher/tmp/pynamicui-0.0.8.tar.gz]
+[2023-07-23 04:21:30] INFO root fetch - processPackages [pynamicui]: Remove: archive file [/home/abi/fetcher/tmp/pynamicui-0.0.9.tar.gz]
+[2023-07-23 04:21:30] INFO root fetch - main [MainThread]: End processing [pynamicui]: success
+[2023-07-23 04:21:30] INFO root fetch - main [MainThread]: Store serial: [18999028]
