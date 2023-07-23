@@ -12561,3 +12561,88 @@ AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
 [2023-07-23 20:03:43] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.70.2.tar.gz]
 [2023-07-23 20:03:43] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
 [2023-07-23 20:03:43] INFO root fetch - main [MainThread]: Store serial: [19003861]
+[2023-07-23 20:08:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19003861]
+[2023-07-23 20:08:51] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-23 20:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alphawave
+[2023-07-23 20:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gptask-cli
+[2023-07-23 20:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: importer-local
+[2023-07-23 20:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: piperider-nightly
+[2023-07-23 20:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gptask-cli
+[2023-07-23 20:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gogo-cli
+[2023-07-23 20:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spotRiver
+[2023-07-23 20:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: OneOnOne
+[2023-07-23 20:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: slice-to-py-dist
+[2023-07-23 20:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: saic-ismart-client
+[2023-07-23 20:08:51] INFO root fetch - processPackages [alphawave]: New version: [0.3.95] Old Version: [0.3.93]
+[2023-07-23 20:08:51] WARNING root fetch - processPackages [gogo-cli]: Skipping, unable to determine old version
+[2023-07-23 20:08:51] INFO root fetch - main [MainThread]: End processing [gogo-cli] error
+[2023-07-23 20:08:51] INFO root fetch - processPackages [importer-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 20:08:51] INFO root fetch - processPackages [gptask-cli]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-23 20:08:51] INFO root fetch - processPackages [gptask-cli]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-23 20:08:51] INFO root fetch - processPackages [OneOnOne]: New version: [0.6941] Old Version: [0.694]
+[2023-07-23 20:08:51] INFO root fetch - processPackages [spotRiver]: New version: [0.0.98] Old Version: [0.0.97]
+[2023-07-23 20:08:51] INFO root fetch - processPackages [slice-to-py-dist]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-23 20:08:51] INFO root fetch - processPackages [importer-local]: Downloading https://files.pythonhosted.org/packages/3b/68/0b10215ac7859421c193cd0df3aab70a0aef2e2db5f22c14a5a2fd7bd732/importer-local-0.0.8.tar.gz
+[2023-07-23 20:08:51] INFO root fetch - processPackages [spotRiver]: Downloading https://files.pythonhosted.org/packages/92/e3/a7c8751e0f97361d8631f494f4d247598f163be8d185a26f8227ba69cc5d/spotRiver-0.0.97.tar.gz
+[2023-07-23 20:08:51] INFO root fetch - processPackages [piperider-nightly]: New version: [0.9.0.20220921] Old Version: [0.9.0.20220920]
+[2023-07-23 20:08:51] INFO root fetch - processPackages [saic-ismart-client]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-23 20:08:51] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/bb/cd/85c717d9345464d24b35722326abd5f3799a92fdd7fba1cab5a871d59b61/OneOnOne-0.694.tar.gz
+[2023-07-23 20:08:51] INFO root fetch - processPackages [gptask-cli]: Downloading https://files.pythonhosted.org/packages/ba/da/d13c522cb7aef25e4326387f246747984522e138a45f1f09eafab676113f/gptask_cli-0.1.7.tar.gz
+[2023-07-23 20:08:52] INFO root fetch - processPackages [gptask-cli]: Downloading https://files.pythonhosted.org/packages/ba/da/d13c522cb7aef25e4326387f246747984522e138a45f1f09eafab676113f/gptask_cli-0.1.7.tar.gz
+[2023-07-23 20:08:52] INFO root fetch - processPackages [slice-to-py-dist]: Downloading https://files.pythonhosted.org/packages/90/1e/ac5ac5270ba27d19a18efcd5716ec6e6ce55425d87db8ed4becb3faf960c/slice_to_py_dist-0.2.1.tar.gz
+[2023-07-23 20:08:52] INFO root fetch - processPackages [alphawave]: Downloading https://files.pythonhosted.org/packages/4a/17/c9488f8bb66c66f795bc7106e3de4db59f9b63c756ccbedd20309a471900/alphawave-0.3.93.tar.gz
+[2023-07-23 20:08:52] INFO root fetch - processPackages [piperider-nightly]: Downloading https://files.pythonhosted.org/packages/ed/93/38dc4b24d947f1ec271781bdb47a50b77ff762d7a701730c6786ca4ec303/piperider-nightly-0.9.0.20220920.tar.gz
+[2023-07-23 20:08:52] INFO root fetch - processPackages [importer-local]: Downloading https://files.pythonhosted.org/packages/80/33/939765aa01c27931d172ea899fb7307071569b4fc595e6ec107018aabc97/importer-local-0.0.9.tar.gz
+[2023-07-23 20:08:52] INFO root fetch - processPackages [saic-ismart-client]: Downloading https://files.pythonhosted.org/packages/34/04/2c3aba818cf057009ca2e759fe4cb52b1be9accb0af4be844dba18793cf2/saic_ismart_client-1.4.8.tar.gz
+[2023-07-23 20:08:52] INFO root fetch - processPackages [importer-local]: executing diffoscope
+[2023-07-23 20:08:52] INFO root fetch - processPackages [importer-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/importer-local-0.0.8.tar.gz tmp/importer-local-0.0.9.tar.gz --markdown 20230723/i/importer-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 20:08:52] INFO root fetch - processPackages [gptask-cli]: Downloading https://files.pythonhosted.org/packages/72/5a/424f8610cdd28cbcf695f082ff152907ab1eb9f547d23294f21c2c4609f1/gptask_cli-0.1.8.tar.gz
+[2023-07-23 20:08:52] INFO root fetch - processPackages [gptask-cli]: Downloading https://files.pythonhosted.org/packages/72/5a/424f8610cdd28cbcf695f082ff152907ab1eb9f547d23294f21c2c4609f1/gptask_cli-0.1.8.tar.gz
+[2023-07-23 20:08:52] INFO root fetch - processPackages [spotRiver]: Downloading https://files.pythonhosted.org/packages/67/69/d646739daf9e9434499e3cf5d1d62ba2ed86ecd62f113177a90575eb517c/spotRiver-0.0.98.tar.gz
+[2023-07-23 20:08:52] INFO root fetch - processPackages [slice-to-py-dist]: Downloading https://files.pythonhosted.org/packages/fd/72/68a8abb38a7d01774f2ba7b2116727f2cc57e6e626b03af313c03a9f5943/slice_to_py_dist-0.3.0.tar.gz
+[2023-07-23 20:08:52] INFO root fetch - processPackages [gptask-cli]: executing diffoscope
+[2023-07-23 20:08:52] INFO root fetch - processPackages [gptask-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptask_cli-0.1.7.tar.gz tmp/gptask_cli-0.1.8.tar.gz --markdown 20230723/g/gptask-cli/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-23 20:08:52] INFO root fetch - processPackages [gptask-cli]: executing diffoscope
+[2023-07-23 20:08:52] INFO root fetch - processPackages [gptask-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptask_cli-0.1.7.tar.gz tmp/gptask_cli-0.1.8.tar.gz --markdown 20230723/g/gptask-cli/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-23 20:08:52] INFO root fetch - processPackages [alphawave]: Downloading https://files.pythonhosted.org/packages/26/43/0bcb767a37f0f76c30f331c4301bdcd688d7948c672d80656d6e9ea09355/alphawave-0.3.95.tar.gz
+[2023-07-23 20:08:52] INFO root fetch - processPackages [spotRiver]: executing diffoscope
+[2023-07-23 20:08:52] INFO root fetch - processPackages [spotRiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotRiver-0.0.97.tar.gz tmp/spotRiver-0.0.98.tar.gz --markdown 20230723/s/spotRiver/0.0.97-0.0.98/diff.md --exclude *.pyd
+[2023-07-23 20:08:52] INFO root fetch - processPackages [saic-ismart-client]: Downloading https://files.pythonhosted.org/packages/64/2f/9ce81adbaa69869c08b298187f5dd3522888cf5ee3537d50d6b13d80fc6e/saic_ismart_client-1.4.9.tar.gz
+[2023-07-23 20:08:52] INFO root fetch - processPackages [alphawave]: executing diffoscope
+[2023-07-23 20:08:52] INFO root fetch - processPackages [alphawave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphawave-0.3.93.tar.gz tmp/alphawave-0.3.95.tar.gz --markdown 20230723/a/alphawave/0.3.93-0.3.95/diff.md --exclude *.pyd
+[2023-07-23 20:08:52] INFO root fetch - processPackages [slice-to-py-dist]: executing diffoscope
+[2023-07-23 20:08:52] INFO root fetch - processPackages [slice-to-py-dist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slice_to_py_dist-0.2.1.tar.gz tmp/slice_to_py_dist-0.3.0.tar.gz --markdown 20230723/s/slice-to-py-dist/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-23 20:08:52] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/c4/b4/3cea79df96c2a2a15b4477d1851ff5f58676b92dfef93ca493ae2a2bbb90/OneOnOne-0.6941.tar.gz
+[2023-07-23 20:08:52] INFO root fetch - processPackages [piperider-nightly]: Downloading https://files.pythonhosted.org/packages/a4/47/99354233feb8a6a201731f0992c5656ca2eb5728a26eae7fd09fc5e04b4c/piperider-nightly-0.9.0.20220921.tar.gz
+[2023-07-23 20:08:53] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-23 20:08:53] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.694.tar.gz tmp/OneOnOne-0.6941.tar.gz --markdown 20230723/O/OneOnOne/0.694-0.6941/diff.md --exclude *.pyd
+[2023-07-23 20:08:53] INFO root fetch - processPackages [saic-ismart-client]: executing diffoscope
+[2023-07-23 20:08:53] INFO root fetch - processPackages [saic-ismart-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saic_ismart_client-1.4.8.tar.gz tmp/saic_ismart_client-1.4.9.tar.gz --markdown 20230723/s/saic-ismart-client/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-23 20:08:53] INFO root fetch - processPackages [importer-local]: Remove: archive file [/home/abi/fetcher/tmp/importer-local-0.0.8.tar.gz]
+[2023-07-23 20:08:53] INFO root fetch - processPackages [importer-local]: Remove: archive file [/home/abi/fetcher/tmp/importer-local-0.0.9.tar.gz]
+[2023-07-23 20:08:53] INFO root fetch - main [MainThread]: End processing [importer-local]: success
+[2023-07-23 20:08:53] INFO root fetch - processPackages [piperider-nightly]: executing diffoscope
+[2023-07-23 20:08:53] INFO root fetch - processPackages [piperider-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-nightly-0.9.0.20220920.tar.gz tmp/piperider-nightly-0.9.0.20220921.tar.gz --markdown 20230723/p/piperider-nightly/0.9.0.20220920-0.9.0.20220921/diff.md --exclude *.pyd
+[2023-07-23 20:08:53] INFO root fetch - processPackages [gptask-cli]: Remove: archive file [/home/abi/fetcher/tmp/gptask_cli-0.1.7.tar.gz]
+[2023-07-23 20:08:53] INFO root fetch - processPackages [gptask-cli]: Remove: archive file [/home/abi/fetcher/tmp/gptask_cli-0.1.8.tar.gz]
+[2023-07-23 20:08:53] INFO root fetch - main [MainThread]: End processing [gptask-cli]: success
+[2023-07-23 20:08:53] INFO root fetch - main [MainThread]: End processing [gptask-cli]: success
+[2023-07-23 20:08:53] INFO root fetch - processPackages [slice-to-py-dist]: Remove: archive file [/home/abi/fetcher/tmp/slice_to_py_dist-0.2.1.tar.gz]
+[2023-07-23 20:08:53] INFO root fetch - processPackages [slice-to-py-dist]: Remove: archive file [/home/abi/fetcher/tmp/slice_to_py_dist-0.3.0.tar.gz]
+[2023-07-23 20:08:53] INFO root fetch - main [MainThread]: End processing [slice-to-py-dist]: success
+[2023-07-23 20:08:54] INFO root fetch - processPackages [spotRiver]: Remove: archive file [/home/abi/fetcher/tmp/spotRiver-0.0.97.tar.gz]
+[2023-07-23 20:08:54] INFO root fetch - processPackages [spotRiver]: Remove: archive file [/home/abi/fetcher/tmp/spotRiver-0.0.98.tar.gz]
+[2023-07-23 20:08:54] INFO root fetch - main [MainThread]: End processing [spotRiver]: success
+[2023-07-23 20:08:54] INFO root fetch - processPackages [alphawave]: Remove: archive file [/home/abi/fetcher/tmp/alphawave-0.3.93.tar.gz]
+[2023-07-23 20:08:54] INFO root fetch - processPackages [alphawave]: Remove: archive file [/home/abi/fetcher/tmp/alphawave-0.3.95.tar.gz]
+[2023-07-23 20:08:54] INFO root fetch - main [MainThread]: End processing [alphawave]: success
+[2023-07-23 20:08:54] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.694.tar.gz]
+[2023-07-23 20:08:54] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6941.tar.gz]
+[2023-07-23 20:08:54] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-23 20:08:54] INFO root fetch - processPackages [saic-ismart-client]: Remove: archive file [/home/abi/fetcher/tmp/saic_ismart_client-1.4.8.tar.gz]
+[2023-07-23 20:08:54] INFO root fetch - processPackages [saic-ismart-client]: Remove: archive file [/home/abi/fetcher/tmp/saic_ismart_client-1.4.9.tar.gz]
+[2023-07-23 20:08:54] INFO root fetch - main [MainThread]: End processing [saic-ismart-client]: success
+[2023-07-23 20:08:55] INFO root fetch - processPackages [piperider-nightly]: Remove: archive file [/home/abi/fetcher/tmp/piperider-nightly-0.9.0.20220920.tar.gz]
+[2023-07-23 20:08:55] INFO root fetch - processPackages [piperider-nightly]: Remove: archive file [/home/abi/fetcher/tmp/piperider-nightly-0.9.0.20220921.tar.gz]
+[2023-07-23 20:08:55] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
+[2023-07-23 20:08:55] INFO root fetch - main [MainThread]: Store serial: [19003889]
