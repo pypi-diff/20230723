@@ -7732,3 +7732,56 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 14:15:32] INFO root fetch - processPackages [python-univer]: Remove: archive file [/home/abi/fetcher/tmp/python-univer-1.4.4.tar.gz]
 [2023-07-23 14:15:32] INFO root fetch - main [MainThread]: End processing [python-univer]: success
 [2023-07-23 14:15:32] INFO root fetch - main [MainThread]: Store serial: [19001373]
+[2023-07-23 14:20:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19001373]
+[2023-07-23 14:20:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-23 14:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gptcache
+[2023-07-23 14:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: topgrade
+[2023-07-23 14:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchkeras
+[2023-07-23 14:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-lab-inventory
+[2023-07-23 14:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dal-python
+[2023-07-23 14:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: grooveshop-django-api
+[2023-07-23 14:20:40] INFO root fetch - processPackages [django-lab-inventory]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-23 14:20:40] INFO root fetch - processPackages [gptcache]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-23 14:20:40] INFO root fetch - processPackages [grooveshop-django-api]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-07-23 14:20:40] INFO root fetch - processPackages [dal-python]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-23 14:20:40] INFO root fetch - processPackages [topgrade]: New version: [12.0.1] Old Version: [12.0.0]
+[2023-07-23 14:20:40] INFO root fetch - processPackages [torchkeras]: New version: [3.9.2] Old Version: [3.9.1]
+[2023-07-23 14:20:40] INFO root fetch - processPackages [django-lab-inventory]: Downloading https://files.pythonhosted.org/packages/b1/bb/319b44adcb3f47485137b325f9916e3f8180684b791626fa7dc4b4a0ea3c/django-lab-inventory-0.5.0.tar.gz
+[2023-07-23 14:20:40] INFO root fetch - processPackages [topgrade]: Downloading https://files.pythonhosted.org/packages/c3/12/c74770e51c123646258d7a37fe59cf3617ff9adde98de22dce0c416e7947/topgrade-12.0.0.tar.gz
+[2023-07-23 14:20:40] INFO root fetch - processPackages [dal-python]: Downloading https://files.pythonhosted.org/packages/c5/ae/0a2d8a19ef8e962bc4f811d182f03534638038c97bf090ed6789f5354be8/dal_python-0.3.0-cp39-none-any.whl
+[2023-07-23 14:20:40] INFO root fetch - processPackages [gptcache]: Downloading https://files.pythonhosted.org/packages/48/fa/7951cf776b9e50ff1089bfadde7258031a0a38d79998521a48a3c9a40db5/gptcache-0.1.8.tar.gz
+[2023-07-23 14:20:40] INFO root fetch - processPackages [grooveshop-django-api]: Downloading https://files.pythonhosted.org/packages/5d/38/c6fd5b96875dd591f5ebe00037e57ab0581ee7f22d24ddd9edad6a27824b/grooveshop_django_api-0.8.7.tar.gz
+[2023-07-23 14:20:40] WARNING root fetch - processPackages [grooveshop-django-api]: Skipping package: exceeds size limit 13819652>=10485760
+[2023-07-23 14:20:40] INFO root fetch - main [MainThread]: End processing [grooveshop-django-api] error
+[2023-07-23 14:20:40] INFO root fetch - processPackages [torchkeras]: Downloading https://files.pythonhosted.org/packages/0d/17/47f37a8eb81282ff1ff4ce5f27a8e463f55887a1861c4270793de4c3014d/torchkeras-3.9.1.tar.gz
+[2023-07-23 14:20:41] INFO root fetch - processPackages [django-lab-inventory]: Downloading https://files.pythonhosted.org/packages/cc/b3/668af93856d82ec5fc4c26bb88e1e503e712361969cfe1265ca9e2f3242f/django-lab-inventory-0.5.1.tar.gz
+[2023-07-23 14:20:41] INFO root fetch - processPackages [topgrade]: Downloading https://files.pythonhosted.org/packages/fe/62/4861a134752cbf1cfb22c36b6e6e1f40b7d7b085cc386ea4f6415975eaa4/topgrade-12.0.1.tar.gz
+[2023-07-23 14:20:41] INFO root fetch - processPackages [django-lab-inventory]: executing diffoscope
+[2023-07-23 14:20:41] INFO root fetch - processPackages [django-lab-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-lab-inventory-0.5.0.tar.gz tmp/django-lab-inventory-0.5.1.tar.gz --markdown 20230723/d/django-lab-inventory/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-23 14:20:41] INFO root fetch - processPackages [topgrade]: executing diffoscope
+[2023-07-23 14:20:41] INFO root fetch - processPackages [topgrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/topgrade-12.0.0.tar.gz tmp/topgrade-12.0.1.tar.gz --markdown 20230723/t/topgrade/12.0.0-12.0.1/diff.md --exclude *.pyd
+[2023-07-23 14:20:41] INFO root fetch - processPackages [gptcache]: Downloading https://files.pythonhosted.org/packages/0e/bb/72700c82969c8279118015284301ef2a13caa1a56f2533ba0476c955077f/gptcache-0.1.9.tar.gz
+[2023-07-23 14:20:41] INFO root fetch - processPackages [gptcache]: executing diffoscope
+[2023-07-23 14:20:41] INFO root fetch - processPackages [gptcache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptcache-0.1.8.tar.gz tmp/gptcache-0.1.9.tar.gz --markdown 20230723/g/gptcache/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-23 14:20:41] INFO root fetch - processPackages [dal-python]: Downloading https://files.pythonhosted.org/packages/f1/37/1d80a0a8d248b79afe5c74e2c87a2dbebb89aacbd4bdd4dc2376d0b621e6/dal_python-0.3.1-cp39-none-any.whl
+[2023-07-23 14:20:42] INFO root fetch - processPackages [torchkeras]: Downloading https://files.pythonhosted.org/packages/28/92/ea882e286d7b66c15bf06e11afd18e8dd4b137c4d986f3eaeb6c4e31ad0c/torchkeras-3.9.2.tar.gz
+[2023-07-23 14:20:42] INFO root fetch - processPackages [django-lab-inventory]: Remove: archive file [/home/abi/fetcher/tmp/django-lab-inventory-0.5.0.tar.gz]
+[2023-07-23 14:20:42] INFO root fetch - processPackages [django-lab-inventory]: Remove: archive file [/home/abi/fetcher/tmp/django-lab-inventory-0.5.1.tar.gz]
+[2023-07-23 14:20:42] INFO root fetch - main [MainThread]: End processing [django-lab-inventory]: success
+[2023-07-23 14:20:42] INFO root fetch - processPackages [torchkeras]: executing diffoscope
+[2023-07-23 14:20:42] INFO root fetch - processPackages [torchkeras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchkeras-3.9.1.tar.gz tmp/torchkeras-3.9.2.tar.gz --markdown 20230723/t/torchkeras/3.9.1-3.9.2/diff.md --exclude *.pyd
+[2023-07-23 14:20:42] INFO root fetch - processPackages [gptcache]: Remove: archive file [/home/abi/fetcher/tmp/gptcache-0.1.8.tar.gz]
+[2023-07-23 14:20:42] INFO root fetch - processPackages [gptcache]: Remove: archive file [/home/abi/fetcher/tmp/gptcache-0.1.9.tar.gz]
+[2023-07-23 14:20:42] INFO root fetch - main [MainThread]: End processing [gptcache]: success
+[2023-07-23 14:20:42] INFO root fetch - processPackages [dal-python]: executing diffoscope
+[2023-07-23 14:20:42] INFO root fetch - processPackages [dal-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dal_python-0.3.0-cp39-none-any.whl.zip tmp/dal_python-0.3.1-cp39-none-any.whl.zip --markdown 20230723/d/dal-python/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-23 14:20:42] INFO root fetch - processPackages [topgrade]: Remove: archive file [/home/abi/fetcher/tmp/topgrade-12.0.0.tar.gz]
+[2023-07-23 14:20:42] INFO root fetch - processPackages [topgrade]: Remove: archive file [/home/abi/fetcher/tmp/topgrade-12.0.1.tar.gz]
+[2023-07-23 14:20:42] INFO root fetch - main [MainThread]: End processing [topgrade]: success
+[2023-07-23 14:20:43] INFO root fetch - processPackages [torchkeras]: Remove: archive file [/home/abi/fetcher/tmp/torchkeras-3.9.1.tar.gz]
+[2023-07-23 14:20:43] INFO root fetch - processPackages [torchkeras]: Remove: archive file [/home/abi/fetcher/tmp/torchkeras-3.9.2.tar.gz]
+[2023-07-23 14:20:43] INFO root fetch - main [MainThread]: End processing [torchkeras]: success
+[2023-07-23 14:20:52] INFO root fetch - processPackages [dal-python]: Remove: archive file [/home/abi/fetcher/tmp/dal_python-0.3.0-cp39-none-any.whl.zip]
+[2023-07-23 14:20:52] INFO root fetch - processPackages [dal-python]: Remove: archive file [/home/abi/fetcher/tmp/dal_python-0.3.1-cp39-none-any.whl.zip]
+[2023-07-23 14:20:52] INFO root fetch - main [MainThread]: End processing [dal-python]: success
+[2023-07-23 14:20:52] INFO root fetch - main [MainThread]: Store serial: [19001396]
