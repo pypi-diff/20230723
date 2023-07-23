@@ -3966,3 +3966,51 @@
 [2023-07-23 07:40:09] WARNING root fetch - processPackages [PhyNetPy]: None
 [2023-07-23 07:40:09] INFO root fetch - main [MainThread]: End processing [PhyNetPy] error
 [2023-07-23 07:40:09] INFO root fetch - main [MainThread]: Store serial: [18999715]
+[2023-07-23 07:45:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999715]
+[2023-07-23 07:45:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-23 07:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: refnx
+[2023-07-23 07:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: porkbun-ddns
+[2023-07-23 07:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FlaskSimpleAuth
+[2023-07-23 07:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dash-solana-components
+[2023-07-23 07:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lycoris-lora
+[2023-07-23 07:45:17] INFO root fetch - processPackages [porkbun-ddns]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-23 07:45:17] INFO root fetch - processPackages [dash-solana-components]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-23 07:45:17] INFO root fetch - processPackages [lycoris-lora]: New version: [1.8.1.dev3] Old Version: [1.8.1.dev2]
+[2023-07-23 07:45:17] INFO root fetch - processPackages [FlaskSimpleAuth]: New version: [9.0] Old Version: [8.0]
+[2023-07-23 07:45:17] INFO root fetch - processPackages [refnx]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-23 07:45:17] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/a8/46/01b911b62c31345be435ac2dd7b2e6d8b72a37c566c6cdf3fb327e8c97ca/lycoris_lora-1.8.1.dev2.tar.gz
+[2023-07-23 07:45:17] INFO root fetch - processPackages [dash-solana-components]: Downloading https://files.pythonhosted.org/packages/26/e5/7172d681645f4b29f265c69fa0224bb24412d869934a4fbb05a9e0b832d3/dash_solana_components-1.0.0.tar.gz
+[2023-07-23 07:45:18] INFO root fetch - processPackages [porkbun-ddns]: Downloading https://files.pythonhosted.org/packages/94/c6/cb8a36a15061fc0077a973f828a56807fb9bd31e5f3841459d52f0857b8f/porkbun-ddns-0.1.3.tar.gz
+[2023-07-23 07:45:18] INFO root fetch - processPackages [refnx]: Downloading https://files.pythonhosted.org/packages/13/76/d5abf74e726036eff9698aad9d4fc1312f309b9834e5fb78e3c95f05f684/refnx-0.1.8.tar.gz
+[2023-07-23 07:45:18] INFO root fetch - processPackages [FlaskSimpleAuth]: Downloading https://files.pythonhosted.org/packages/5e/71/36ac24a6684ef48f4b4d2b0a4cae846f2a26973c0ed5cbc3df7c076eca36/FlaskSimpleAuth-8.0.tar.gz
+[2023-07-23 07:45:18] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/d6/f2/31aa11032e79d971f1aae3f1ddc718c29cd670719e1c99bd5b235892abd5/lycoris_lora-1.8.1.dev3.tar.gz
+[2023-07-23 07:45:18] INFO root fetch - processPackages [porkbun-ddns]: Downloading https://files.pythonhosted.org/packages/0b/71/286ae1631533eb3cf35e57cfef1d30eff815e0d6efd21ff80e8c3b0e3adb/porkbun_ddns-0.1.4-py3-none-any.whl
+[2023-07-23 07:45:18] INFO root fetch - processPackages [dash-solana-components]: Downloading https://files.pythonhosted.org/packages/55/e0/01d446c1857dc878f2da01104a0db14cfcb34ffa8455ca46e98f6951d9d2/dash_solana_components-1.0.1-py3-none-any.whl
+[2023-07-23 07:45:18] INFO root fetch - processPackages [porkbun-ddns]: executing diffoscope
+[2023-07-23 07:45:18] INFO root fetch - processPackages [porkbun-ddns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/porkbun-ddns-0.1.3.tar.gz tmp/porkbun_ddns-0.1.4-py3-none-any.whl.zip --markdown 20230723/p/porkbun-ddns/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-23 07:45:18] INFO root fetch - processPackages [lycoris-lora]: executing diffoscope
+[2023-07-23 07:45:18] INFO root fetch - processPackages [lycoris-lora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lycoris_lora-1.8.1.dev2.tar.gz tmp/lycoris_lora-1.8.1.dev3.tar.gz --markdown 20230723/l/lycoris-lora/1.8.1.dev2-1.8.1.dev3/diff.md --exclude *.pyd
+[2023-07-23 07:45:18] INFO root fetch - processPackages [FlaskSimpleAuth]: Downloading https://files.pythonhosted.org/packages/cc/e7/22c81b3903a0ec999ac9644c1a3e92fed6bdafa388b1e4fe3bb75dc09485/FlaskSimpleAuth-9.0.tar.gz
+[2023-07-23 07:45:18] INFO root fetch - processPackages [FlaskSimpleAuth]: executing diffoscope
+[2023-07-23 07:45:18] INFO root fetch - processPackages [FlaskSimpleAuth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlaskSimpleAuth-8.0.tar.gz tmp/FlaskSimpleAuth-9.0.tar.gz --markdown 20230723/F/FlaskSimpleAuth/8.0-9.0/diff.md --exclude *.pyd
+[2023-07-23 07:45:18] INFO root fetch - processPackages [dash-solana-components]: executing diffoscope
+[2023-07-23 07:45:18] INFO root fetch - processPackages [dash-solana-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_solana_components-1.0.0.tar.gz tmp/dash_solana_components-1.0.1-py3-none-any.whl.zip --markdown 20230723/d/dash-solana-components/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-23 07:45:19] INFO root fetch - processPackages [porkbun-ddns]: Remove: archive file [/home/abi/fetcher/tmp/porkbun-ddns-0.1.3.tar.gz]
+[2023-07-23 07:45:19] INFO root fetch - processPackages [porkbun-ddns]: Remove: archive file [/home/abi/fetcher/tmp/porkbun_ddns-0.1.4-py3-none-any.whl.zip]
+[2023-07-23 07:45:19] INFO root fetch - main [MainThread]: End processing [porkbun-ddns]: success
+[2023-07-23 07:45:19] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-1.8.1.dev2.tar.gz]
+[2023-07-23 07:45:19] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-1.8.1.dev3.tar.gz]
+[2023-07-23 07:45:19] INFO root fetch - main [MainThread]: End processing [lycoris-lora]: success
+[2023-07-23 07:45:19] INFO root fetch - processPackages [FlaskSimpleAuth]: Remove: archive file [/home/abi/fetcher/tmp/FlaskSimpleAuth-8.0.tar.gz]
+[2023-07-23 07:45:19] INFO root fetch - processPackages [FlaskSimpleAuth]: Remove: archive file [/home/abi/fetcher/tmp/FlaskSimpleAuth-9.0.tar.gz]
+[2023-07-23 07:45:19] INFO root fetch - main [MainThread]: End processing [FlaskSimpleAuth]: success
+[2023-07-23 07:45:20] INFO root fetch - processPackages [dash-solana-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_solana_components-1.0.0.tar.gz]
+[2023-07-23 07:45:20] INFO root fetch - processPackages [dash-solana-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_solana_components-1.0.1-py3-none-any.whl.zip]
+[2023-07-23 07:45:20] INFO root fetch - main [MainThread]: End processing [dash-solana-components]: success
+[2023-07-23 07:45:20] INFO root fetch - processPackages [refnx]: Downloading https://files.pythonhosted.org/packages/00/ea/41c5310e4637fdc34ce783bf02ec315a7590f0dc184dc89291d299fe8857/refnx-0.1.9.tar.gz
+[2023-07-23 07:45:23] INFO root fetch - processPackages [refnx]: executing diffoscope
+[2023-07-23 07:45:23] INFO root fetch - processPackages [refnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refnx-0.1.8.tar.gz tmp/refnx-0.1.9.tar.gz --markdown 20230723/r/refnx/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-23 07:45:26] INFO root fetch - processPackages [refnx]: Remove: archive file [/home/abi/fetcher/tmp/refnx-0.1.8.tar.gz]
+[2023-07-23 07:45:26] INFO root fetch - processPackages [refnx]: Remove: archive file [/home/abi/fetcher/tmp/refnx-0.1.9.tar.gz]
+[2023-07-23 07:45:26] INFO root fetch - main [MainThread]: End processing [refnx]: success
+[2023-07-23 07:45:26] INFO root fetch - main [MainThread]: Store serial: [18999726]
