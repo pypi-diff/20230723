@@ -2615,3 +2615,27 @@
 [2023-07-23 05:03:12] ERROR root fetch - processPackages [ssh-terminal-manager]: Unable to fetch info: No such project/version 'ssh-terminal-manager' 0.8.6
 [2023-07-23 05:03:12] INFO root fetch - main [MainThread]: End processing [ssh-terminal-manager] error
 [2023-07-23 05:03:12] INFO root fetch - main [MainThread]: Store serial: [18999121]
+[2023-07-23 05:08:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999121]
+[2023-07-23 05:08:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-23 05:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vitriolic
+[2023-07-23 05:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: terminal-manager
+[2023-07-23 05:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TreeSAK
+[2023-07-23 05:08:21] WARNING root fetch - processPackages [terminal-manager]: Skipping, unable to determine old version
+[2023-07-23 05:08:21] INFO root fetch - main [MainThread]: End processing [terminal-manager] error
+[2023-07-23 05:08:21] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-23 05:08:21] INFO root fetch - processPackages [vitriolic]: New version: [3.3.2] Old Version: [3.3.1]
+[2023-07-23 05:08:21] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2023-07-23 05:08:21] INFO root fetch - processPackages [vitriolic]: Downloading https://files.pythonhosted.org/packages/ee/64/891c64560a0ef340e7a3497da6e7a74335c16cc8175b593bac8e32504760/vitriolic-3.3.1-py3-none-any.whl
+[2023-07-23 05:08:21] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2023-07-23 05:08:21] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2023-07-23 05:08:21] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20230723/T/TreeSAK/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-23 05:08:21] INFO root fetch - processPackages [vitriolic]: Downloading https://files.pythonhosted.org/packages/e5/41/9fb559bdc8f7eff136ccf18b912b9a379f33521d356fd22420a26ef4e8e3/vitriolic-3.3.2-py3-none-any.whl
+[2023-07-23 05:08:21] INFO root fetch - processPackages [vitriolic]: executing diffoscope
+[2023-07-23 05:08:21] INFO root fetch - processPackages [vitriolic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vitriolic-3.3.1-py3-none-any.whl.zip tmp/vitriolic-3.3.2-py3-none-any.whl.zip --markdown 20230723/v/vitriolic/3.3.1-3.3.2/diff.md --exclude *.pyd
+[2023-07-23 05:08:22] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.1.tar.gz]
+[2023-07-23 05:08:22] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
+[2023-07-23 05:08:22] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2023-07-23 05:08:26] INFO root fetch - processPackages [vitriolic]: Remove: archive file [/home/abi/fetcher/tmp/vitriolic-3.3.1-py3-none-any.whl.zip]
+[2023-07-23 05:08:26] INFO root fetch - processPackages [vitriolic]: Remove: archive file [/home/abi/fetcher/tmp/vitriolic-3.3.2-py3-none-any.whl.zip]
+[2023-07-23 05:08:26] INFO root fetch - main [MainThread]: End processing [vitriolic]: success
+[2023-07-23 05:08:26] INFO root fetch - main [MainThread]: Store serial: [18999131]
