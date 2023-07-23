@@ -4388,3 +4388,27 @@
 [2023-07-23 08:37:49] WARNING root fetch - processPackages [audio-to-animation-video]: Skipping, unable to determine old version
 [2023-07-23 08:37:49] INFO root fetch - main [MainThread]: End processing [audio-to-animation-video] error
 [2023-07-23 08:37:49] INFO root fetch - main [MainThread]: Store serial: [18999882]
+[2023-07-23 08:42:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999882]
+[2023-07-23 08:42:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-23 08:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rest-api-supporter
+[2023-07-23 08:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MOGONET
+[2023-07-23 08:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neuralpit
+[2023-07-23 08:42:57] WARNING root fetch - processPackages [MOGONET]: Skipping, unable to determine old version
+[2023-07-23 08:42:57] INFO root fetch - main [MainThread]: End processing [MOGONET] error
+[2023-07-23 08:42:57] INFO root fetch - processPackages [rest-api-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 08:42:57] INFO root fetch - processPackages [neuralpit]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-23 08:42:57] INFO root fetch - processPackages [rest-api-supporter]: Downloading https://files.pythonhosted.org/packages/f4/16/0c2fc27776d8257953b960eea527e7f83b54019b51fbb132e634d73c5c0e/rest-api-supporter-0.0.8.tar.gz
+[2023-07-23 08:42:57] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/56/58/bb03618390059b6d129f2de5cd391ec42364984c951277841e024e78d46e/neuralpit-2.0.8.tar.gz
+[2023-07-23 08:42:57] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/8d/d4/cdca716e9f1023aaa975149951886336025da24ab787ef5b10e974341df6/neuralpit-2.0.9.tar.gz
+[2023-07-23 08:42:57] INFO root fetch - processPackages [rest-api-supporter]: Downloading https://files.pythonhosted.org/packages/35/47/76da32bcf0507aa9dbf370e1c9e91408c29a80232299067f97883d4ef255/rest-api-supporter-0.0.9.tar.gz
+[2023-07-23 08:42:57] INFO root fetch - processPackages [rest-api-supporter]: executing diffoscope
+[2023-07-23 08:42:57] INFO root fetch - processPackages [rest-api-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rest-api-supporter-0.0.8.tar.gz tmp/rest-api-supporter-0.0.9.tar.gz --markdown 20230723/r/rest-api-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 08:42:57] INFO root fetch - processPackages [neuralpit]: executing diffoscope
+[2023-07-23 08:42:57] INFO root fetch - processPackages [neuralpit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralpit-2.0.8.tar.gz tmp/neuralpit-2.0.9.tar.gz --markdown 20230723/n/neuralpit/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-23 08:42:58] INFO root fetch - processPackages [neuralpit]: Remove: archive file [/home/abi/fetcher/tmp/neuralpit-2.0.8.tar.gz]
+[2023-07-23 08:42:58] INFO root fetch - processPackages [neuralpit]: Remove: archive file [/home/abi/fetcher/tmp/neuralpit-2.0.9.tar.gz]
+[2023-07-23 08:42:58] INFO root fetch - main [MainThread]: End processing [neuralpit]: success
+[2023-07-23 08:42:58] INFO root fetch - processPackages [rest-api-supporter]: Remove: archive file [/home/abi/fetcher/tmp/rest-api-supporter-0.0.8.tar.gz]
+[2023-07-23 08:42:58] INFO root fetch - processPackages [rest-api-supporter]: Remove: archive file [/home/abi/fetcher/tmp/rest-api-supporter-0.0.9.tar.gz]
+[2023-07-23 08:42:58] INFO root fetch - main [MainThread]: End processing [rest-api-supporter]: success
+[2023-07-23 08:42:58] INFO root fetch - main [MainThread]: Store serial: [18999894]
