@@ -9640,3 +9640,90 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 16:45:19] INFO root fetch - processPackages [Fragmenstein]: Remove: archive file [/home/abi/fetcher/tmp/Fragmenstein-0.9.9.tar.gz]
 [2023-07-23 16:45:19] INFO root fetch - main [MainThread]: End processing [Fragmenstein]: success
 [2023-07-23 16:45:19] INFO root fetch - main [MainThread]: Store serial: [19002411]
+[2023-07-23 16:50:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19002411]
+[2023-07-23 16:50:27] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-23 16:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: repvit
+[2023-07-23 16:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: firefish.py
+[2023-07-23 16:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fusion-engine
+[2023-07-23 16:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: antenna-optimizer
+[2023-07-23 16:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytheus-backend-rs
+[2023-07-23 16:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: WorldD
+[2023-07-23 16:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zheinit
+[2023-07-23 16:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wf-cv-utils
+[2023-07-23 16:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: llmrecsys
+[2023-07-23 16:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: glotter2
+[2023-07-23 16:50:28] INFO root fetch - processPackages [zheinit]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-23 16:50:28] WARNING root fetch - processPackages [llmrecsys]: Skipping, unable to determine old version
+[2023-07-23 16:50:28] INFO root fetch - processPackages [llmrecsys]: Start processing: petals
+[2023-07-23 16:50:28] INFO root fetch - main [MainThread]: End processing [llmrecsys] error
+[2023-07-23 16:50:28] WARNING root fetch - processPackages [repvit]: Skipping, unable to determine old version
+[2023-07-23 16:50:28] INFO root fetch - processPackages [repvit]: Start processing: lamin_utils
+[2023-07-23 16:50:28] INFO root fetch - main [MainThread]: End processing [repvit] error
+[2023-07-23 16:50:28] INFO root fetch - processPackages [wf-cv-utils]: New version: [3.6.1] Old Version: [3.6.0]
+[2023-07-23 16:50:28] INFO root fetch - processPackages [antenna-optimizer]: New version: [0.3] Old Version: [0.2]
+[2023-07-23 16:50:28] WARNING root fetch - processPackages [WorldD]: Skipping, unable to determine old version
+[2023-07-23 16:50:28] INFO root fetch - main [MainThread]: End processing [WorldD] error
+[2023-07-23 16:50:28] INFO root fetch - processPackages [fusion-engine]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-23 16:50:28] WARNING root fetch - processPackages [firefish.py]: Skipping, unable to determine old version
+[2023-07-23 16:50:28] INFO root fetch - main [MainThread]: End processing [firefish.py] error
+[2023-07-23 16:50:28] INFO root fetch - processPackages [glotter2]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-23 16:50:28] INFO root fetch - processPackages [pytheus-backend-rs]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-23 16:50:28] INFO root fetch - processPackages [petals]: New version: [2.0.1] Old Version: [2.0.0.post3]
+[2023-07-23 16:50:28] INFO root fetch - processPackages [lamin_utils]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-23 16:50:28] INFO root fetch - processPackages [zheinit]: Downloading https://files.pythonhosted.org/packages/fa/6d/56444cb9ae892738be649afd89d4142f3f01e51ef14f8605bd976e1ff0d0/zheinit-0.0.6.tar.gz
+[2023-07-23 16:50:28] INFO root fetch - processPackages [antenna-optimizer]: Downloading https://files.pythonhosted.org/packages/e6/65/ad69c8e656183c962155fd70e2b4e53f8dc3b6cb07f39f78ccb08a325300/antenna-optimizer-0.2.tar.gz
+[2023-07-23 16:50:28] INFO root fetch - processPackages [wf-cv-utils]: Downloading https://files.pythonhosted.org/packages/27/61/abd48d272799cde43f884ee644f61b432a7f061c31e61aac0b0695844d8f/wf-cv-utils-3.6.0.tar.gz
+[2023-07-23 16:50:28] INFO root fetch - processPackages [fusion-engine]: Downloading https://files.pythonhosted.org/packages/8c/c5/20804aed516f30d90f9f7734ef07a77a34d8b3938b371236855174a9fdcb/fusion-engine-0.2.4.tar.gz
+[2023-07-23 16:50:28] INFO root fetch - processPackages [petals]: Downloading https://files.pythonhosted.org/packages/2a/57/f106d3d364590b3b75f847b124b016d66940872a3926e0b45772790cb1a5/petals-2.0.0.post3.tar.gz
+[2023-07-23 16:50:28] INFO root fetch - processPackages [glotter2]: Downloading https://files.pythonhosted.org/packages/d4/aa/741bdbd7859ba6649653c93be6bce40ad6859e478224987318ac27696c8e/glotter2-0.7.1.tar.gz
+[2023-07-23 16:50:28] INFO root fetch - processPackages [lamin_utils]: Downloading https://files.pythonhosted.org/packages/3f/c6/51840cbceb2cdbe4cee8fc6e1b10ba79a3f378ab4509bed130df44d28549/lamin_utils-0.9.0.tar.gz
+[2023-07-23 16:50:28] INFO root fetch - processPackages [pytheus-backend-rs]: Downloading https://files.pythonhosted.org/packages/a0/fb/fb2f6937f1ee97db3c2907a1e1ce6ecafdd444c9e326da55884119e64dfb/pytheus_backend_rs-0.0.7.tar.gz
+[2023-07-23 16:50:28] INFO root fetch - processPackages [zheinit]: Downloading https://files.pythonhosted.org/packages/7d/6c/44846f3802d34a5f84cb08e36975364f14e7ab52507a0ed059e615d0e343/zheinit-0.0.7.tar.gz
+[2023-07-23 16:50:28] INFO root fetch - processPackages [wf-cv-utils]: Downloading https://files.pythonhosted.org/packages/76/df/6450a0ea2dedf378d7b6c618372fbe941a436fcf80163958ee30ac3c4163/wf-cv-utils-3.6.1.tar.gz
+[2023-07-23 16:50:29] INFO root fetch - processPackages [antenna-optimizer]: Downloading https://files.pythonhosted.org/packages/52/c4/77ec8fe66d96b78dd5ebf99e14c9eb1df625dff149809bb8680a2c042254/antenna-optimizer-0.3.tar.gz
+[2023-07-23 16:50:29] INFO root fetch - processPackages [lamin_utils]: Downloading https://files.pythonhosted.org/packages/c8/a9/239bbbf94050f9654560cf7d143727c81ea4b8d6494a3faad4a6e5e91667/lamin_utils-0.9.1.tar.gz
+[2023-07-23 16:50:29] INFO root fetch - processPackages [zheinit]: executing diffoscope
+[2023-07-23 16:50:29] INFO root fetch - processPackages [zheinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zheinit-0.0.6.tar.gz tmp/zheinit-0.0.7.tar.gz --markdown 20230723/z/zheinit/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-23 16:50:29] INFO root fetch - processPackages [petals]: Downloading https://files.pythonhosted.org/packages/af/d1/39d54b98c089a5f15115c6f4d676461dcf5e666baf5a11a035c10c75021b/petals-2.0.1.tar.gz
+[2023-07-23 16:50:29] INFO root fetch - processPackages [fusion-engine]: Downloading https://files.pythonhosted.org/packages/76/f5/a4dcc4ba38323ec5b22cc6742db4327446e7670e0eafb4566c8b37ebba4d/fusion-engine-0.2.5.tar.gz
+[2023-07-23 16:50:29] INFO root fetch - processPackages [pytheus-backend-rs]: Downloading https://files.pythonhosted.org/packages/91/66/5c60baad30996661af4cf2d3430e5338bfa0372dfab418ceefc111ab56e8/pytheus_backend_rs-0.0.8.tar.gz
+[2023-07-23 16:50:29] INFO root fetch - processPackages [wf-cv-utils]: executing diffoscope
+[2023-07-23 16:50:29] INFO root fetch - processPackages [wf-cv-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wf-cv-utils-3.6.0.tar.gz tmp/wf-cv-utils-3.6.1.tar.gz --markdown 20230723/w/wf-cv-utils/3.6.0-3.6.1/diff.md --exclude *.pyd
+[2023-07-23 16:50:29] INFO root fetch - processPackages [antenna-optimizer]: executing diffoscope
+[2023-07-23 16:50:29] INFO root fetch - processPackages [antenna-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antenna-optimizer-0.2.tar.gz tmp/antenna-optimizer-0.3.tar.gz --markdown 20230723/a/antenna-optimizer/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-23 16:50:29] INFO root fetch - processPackages [lamin_utils]: executing diffoscope
+[2023-07-23 16:50:29] INFO root fetch - processPackages [lamin_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamin_utils-0.9.0.tar.gz tmp/lamin_utils-0.9.1.tar.gz --markdown 20230723/l/lamin_utils/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-23 16:50:29] INFO root fetch - processPackages [fusion-engine]: executing diffoscope
+[2023-07-23 16:50:29] INFO root fetch - processPackages [fusion-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fusion-engine-0.2.4.tar.gz tmp/fusion-engine-0.2.5.tar.gz --markdown 20230723/f/fusion-engine/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-23 16:50:29] INFO root fetch - processPackages [glotter2]: Downloading https://files.pythonhosted.org/packages/ce/b3/1333e389437f2995c5c1ccc400941ada4c18bcf331ce1c2436ae8c197f16/glotter2-0.7.2.tar.gz
+[2023-07-23 16:50:29] INFO root fetch - processPackages [petals]: executing diffoscope
+[2023-07-23 16:50:29] INFO root fetch - processPackages [petals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petals-2.0.0.post3.tar.gz tmp/petals-2.0.1.tar.gz --markdown 20230723/p/petals/2.0.0.post3-2.0.1/diff.md --exclude *.pyd
+[2023-07-23 16:50:29] INFO root fetch - processPackages [pytheus-backend-rs]: executing diffoscope
+[2023-07-23 16:50:29] INFO root fetch - processPackages [pytheus-backend-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytheus_backend_rs-0.0.7.tar.gz tmp/pytheus_backend_rs-0.0.8.tar.gz --markdown 20230723/p/pytheus-backend-rs/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-23 16:50:29] INFO root fetch - processPackages [glotter2]: executing diffoscope
+[2023-07-23 16:50:29] INFO root fetch - processPackages [glotter2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glotter2-0.7.1.tar.gz tmp/glotter2-0.7.2.tar.gz --markdown 20230723/g/glotter2/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-23 16:50:30] INFO root fetch - processPackages [zheinit]: Remove: archive file [/home/abi/fetcher/tmp/zheinit-0.0.6.tar.gz]
+[2023-07-23 16:50:30] INFO root fetch - processPackages [zheinit]: Remove: archive file [/home/abi/fetcher/tmp/zheinit-0.0.7.tar.gz]
+[2023-07-23 16:50:30] INFO root fetch - main [MainThread]: End processing [zheinit]: success
+[2023-07-23 16:50:30] INFO root fetch - processPackages [wf-cv-utils]: Remove: archive file [/home/abi/fetcher/tmp/wf-cv-utils-3.6.0.tar.gz]
+[2023-07-23 16:50:30] INFO root fetch - processPackages [wf-cv-utils]: Remove: archive file [/home/abi/fetcher/tmp/wf-cv-utils-3.6.1.tar.gz]
+[2023-07-23 16:50:30] INFO root fetch - main [MainThread]: End processing [wf-cv-utils]: success
+[2023-07-23 16:50:30] INFO root fetch - processPackages [antenna-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/antenna-optimizer-0.2.tar.gz]
+[2023-07-23 16:50:30] INFO root fetch - processPackages [antenna-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/antenna-optimizer-0.3.tar.gz]
+[2023-07-23 16:50:30] INFO root fetch - main [MainThread]: End processing [antenna-optimizer]: success
+[2023-07-23 16:50:30] INFO root fetch - processPackages [lamin_utils]: Remove: archive file [/home/abi/fetcher/tmp/lamin_utils-0.9.0.tar.gz]
+[2023-07-23 16:50:30] INFO root fetch - processPackages [lamin_utils]: Remove: archive file [/home/abi/fetcher/tmp/lamin_utils-0.9.1.tar.gz]
+[2023-07-23 16:50:30] INFO root fetch - main [MainThread]: End processing [lamin_utils]: success
+[2023-07-23 16:50:30] INFO root fetch - processPackages [pytheus-backend-rs]: Remove: archive file [/home/abi/fetcher/tmp/pytheus_backend_rs-0.0.7.tar.gz]
+[2023-07-23 16:50:30] INFO root fetch - processPackages [pytheus-backend-rs]: Remove: archive file [/home/abi/fetcher/tmp/pytheus_backend_rs-0.0.8.tar.gz]
+[2023-07-23 16:50:30] INFO root fetch - main [MainThread]: End processing [pytheus-backend-rs]: success
+[2023-07-23 16:50:30] INFO root fetch - processPackages [glotter2]: Remove: archive file [/home/abi/fetcher/tmp/glotter2-0.7.1.tar.gz]
+[2023-07-23 16:50:30] INFO root fetch - processPackages [glotter2]: Remove: archive file [/home/abi/fetcher/tmp/glotter2-0.7.2.tar.gz]
+[2023-07-23 16:50:30] INFO root fetch - main [MainThread]: End processing [glotter2]: success
+[2023-07-23 16:50:30] INFO root fetch - processPackages [fusion-engine]: Remove: archive file [/home/abi/fetcher/tmp/fusion-engine-0.2.4.tar.gz]
+[2023-07-23 16:50:30] INFO root fetch - processPackages [fusion-engine]: Remove: archive file [/home/abi/fetcher/tmp/fusion-engine-0.2.5.tar.gz]
+[2023-07-23 16:50:30] INFO root fetch - main [MainThread]: End processing [fusion-engine]: success
+[2023-07-23 16:50:30] INFO root fetch - processPackages [petals]: Remove: archive file [/home/abi/fetcher/tmp/petals-2.0.0.post3.tar.gz]
+[2023-07-23 16:50:30] INFO root fetch - processPackages [petals]: Remove: archive file [/home/abi/fetcher/tmp/petals-2.0.1.tar.gz]
+[2023-07-23 16:50:30] INFO root fetch - main [MainThread]: End processing [petals]: success
+[2023-07-23 16:50:30] INFO root fetch - main [MainThread]: Store serial: [19002512]
