@@ -3544,3 +3544,24 @@
 [2023-07-23 06:42:08] INFO root fetch - processPackages [foliolib]: Remove: archive file [/home/abi/fetcher/tmp/foliolib-0.3.9a2.tar.gz]
 [2023-07-23 06:42:08] INFO root fetch - main [MainThread]: End processing [foliolib]: success
 [2023-07-23 06:42:08] INFO root fetch - main [MainThread]: Store serial: [18999508]
+[2023-07-23 06:47:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999508]
+[2023-07-23 06:47:16] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-23 06:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: factool
+[2023-07-23 06:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AutoQPF
+[2023-07-23 06:47:16] INFO root fetch - processPackages [AutoQPF]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-23 06:47:16] INFO root fetch - processPackages [factool]: New version: [0.1.0] Old Version: [0.0.8]
+[2023-07-23 06:47:16] INFO root fetch - processPackages [AutoQPF]: Downloading https://files.pythonhosted.org/packages/f7/e6/0f9566efff03cbf79e26b33675a1cdb01235f8b7f12446a77c3719b280c2/AutoQPF-0.1.3.tar.gz
+[2023-07-23 06:47:16] INFO root fetch - processPackages [factool]: Downloading https://files.pythonhosted.org/packages/f0/68/cdee055ca6392976d06882e118042095f5bdd2a35baef174438c61ed1348/factool-0.0.8.tar.gz
+[2023-07-23 06:47:17] INFO root fetch - processPackages [AutoQPF]: Downloading https://files.pythonhosted.org/packages/61/d4/11fa6a7135dbc8088f75a3629c52cb3355744ee5b3df9c6c55695e7fc269/AutoQPF-0.1.4.tar.gz
+[2023-07-23 06:47:17] INFO root fetch - processPackages [factool]: Downloading https://files.pythonhosted.org/packages/d1/8c/5ba5b40e48e4644f1277ad095144438e37c74b1e1155fb7b170490e57e9a/factool-0.1.0.tar.gz
+[2023-07-23 06:47:17] INFO root fetch - processPackages [AutoQPF]: executing diffoscope
+[2023-07-23 06:47:17] INFO root fetch - processPackages [AutoQPF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoQPF-0.1.3.tar.gz tmp/AutoQPF-0.1.4.tar.gz --markdown 20230723/A/AutoQPF/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-23 06:47:17] INFO root fetch - processPackages [factool]: executing diffoscope
+[2023-07-23 06:47:17] INFO root fetch - processPackages [factool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/factool-0.0.8.tar.gz tmp/factool-0.1.0.tar.gz --markdown 20230723/f/factool/0.0.8-0.1.0/diff.md --exclude *.pyd
+[2023-07-23 06:47:18] INFO root fetch - processPackages [factool]: Remove: archive file [/home/abi/fetcher/tmp/factool-0.0.8.tar.gz]
+[2023-07-23 06:47:18] INFO root fetch - processPackages [factool]: Remove: archive file [/home/abi/fetcher/tmp/factool-0.1.0.tar.gz]
+[2023-07-23 06:47:18] INFO root fetch - main [MainThread]: End processing [factool]: success
+[2023-07-23 06:47:18] INFO root fetch - processPackages [AutoQPF]: Remove: archive file [/home/abi/fetcher/tmp/AutoQPF-0.1.3.tar.gz]
+[2023-07-23 06:47:18] INFO root fetch - processPackages [AutoQPF]: Remove: archive file [/home/abi/fetcher/tmp/AutoQPF-0.1.4.tar.gz]
+[2023-07-23 06:47:18] INFO root fetch - main [MainThread]: End processing [AutoQPF]: success
+[2023-07-23 06:47:18] INFO root fetch - main [MainThread]: Store serial: [18999513]
