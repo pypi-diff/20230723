@@ -8006,3 +8006,81 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 14:36:47] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
 [2023-07-23 14:36:47] INFO root fetch - main [MainThread]: End processing [projen]: success
 [2023-07-23 14:36:47] INFO root fetch - main [MainThread]: Store serial: [19001480]
+[2023-07-23 14:41:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19001480]
+[2023-07-23 14:41:56] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-23 14:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: selenium-driverless
+[2023-07-23 14:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sphinx-readme
+[2023-07-23 14:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pythonbmp
+[2023-07-23 14:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DuHast
+[2023-07-23 14:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RapidMangaDL
+[2023-07-23 14:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-simplewebsite-deploy
+[2023-07-23 14:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CloudEdgeAssetsOptimizer
+[2023-07-23 14:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SageLogger
+[2023-07-23 14:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: htag
+[2023-07-23 14:41:56] INFO root fetch - processPackages [DuHast]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-23 14:41:56] INFO root fetch - processPackages [SageLogger]: New version: [1.3] Old Version: [1.0]
+[2023-07-23 14:41:56] WARNING root fetch - processPackages [pythonbmp]: Skipping, unable to determine old version
+[2023-07-23 14:41:56] INFO root fetch - main [MainThread]: End processing [pythonbmp] error
+[2023-07-23 14:41:56] INFO root fetch - processPackages [selenium-driverless]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-23 14:41:56] INFO root fetch - processPackages [CloudEdgeAssetsOptimizer]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-23 14:41:56] INFO root fetch - processPackages [RapidMangaDL]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-23 14:41:56] INFO root fetch - processPackages [sphinx-readme]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-23 14:41:56] INFO root fetch - processPackages [htag]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-23 14:41:56] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-23 14:41:56] INFO root fetch - processPackages [SageLogger]: Downloading https://files.pythonhosted.org/packages/ed/ad/81fb4168a674c522bba9f160b5064f42c3c572d5a64671aa4ff0e449d36b/SageLogger-1.0.tar.gz
+[2023-07-23 14:41:56] INFO root fetch - processPackages [sphinx-readme]: Downloading https://files.pythonhosted.org/packages/92/4d/9226b4ee171d93cc5f6c4937572b63d4ef78026b7611577a452521144804/sphinx-readme-0.1.0.tar.gz
+[2023-07-23 14:41:56] INFO root fetch - processPackages [DuHast]: Downloading https://files.pythonhosted.org/packages/7c/b7/56d76bf1356ba62359631efbfc84df3cb83509d41da450237817898b7b21/DuHast-0.0.6.tar.gz
+[2023-07-23 14:41:56] INFO root fetch - processPackages [selenium-driverless]: Downloading https://files.pythonhosted.org/packages/09/92/ace491f8a379ad88fdb99c1813b3a075e8e50fd9f127707413cef4b42679/selenium_driverless-1.0.3.tar.gz
+[2023-07-23 14:41:56] INFO root fetch - processPackages [RapidMangaDL]: Downloading https://files.pythonhosted.org/packages/33/f6/d31899e6a6f69e50d97d2332a1c30d93cf9a58ac7d40bd03891402220984/RapidMangaDL-0.2.1.tar.gz
+[2023-07-23 14:41:56] INFO root fetch - processPackages [CloudEdgeAssetsOptimizer]: Downloading https://files.pythonhosted.org/packages/a0/48/0be073d5c693eeb016cf584113003d2ebfffaf78be8610a7fd26c85b6679/CloudEdgeAssetsOptimizer-0.1.1.tar.gz
+[2023-07-23 14:41:56] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: Downloading https://files.pythonhosted.org/packages/02/09/509568941e2977294b6ec9c2c0e2cac9e1ce7100d236a2d2edb7092f92f6/cdk-simplewebsite-deploy-2.0.8.tar.gz
+[2023-07-23 14:41:56] INFO root fetch - processPackages [htag]: Downloading https://files.pythonhosted.org/packages/1f/49/7ef7457fe0739f49ce1e45659e55602cad7f94e43d3e24f73938ef4de585/htag-0.9.8.tar.gz
+[2023-07-23 14:41:56] INFO root fetch - processPackages [SageLogger]: Downloading https://files.pythonhosted.org/packages/c0/79/502cd2d11c25329443e865e190aa6ef8e849b9cc5de3393599db959720a7/SageLogger-1.3.tar.gz
+[2023-07-23 14:41:56] INFO root fetch - processPackages [sphinx-readme]: Downloading https://files.pythonhosted.org/packages/b8/a6/aa9330c7b7be5312be200c26435495d0020cfa3ce42143e47a9421262762/sphinx-readme-0.2.0.tar.gz
+[2023-07-23 14:41:57] INFO root fetch - processPackages [SageLogger]: executing diffoscope
+[2023-07-23 14:41:57] INFO root fetch - processPackages [SageLogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SageLogger-1.0.tar.gz tmp/SageLogger-1.3.tar.gz --markdown 20230723/S/SageLogger/1.0-1.3/diff.md --exclude *.pyd
+[2023-07-23 14:41:57] INFO root fetch - processPackages [DuHast]: Downloading https://files.pythonhosted.org/packages/b9/4f/eb64ba3b0ce8877c821e62a39ec157408e1099d61ec6476985d53151302a/DuHast-0.0.7.tar.gz
+[2023-07-23 14:41:57] INFO root fetch - processPackages [selenium-driverless]: Downloading https://files.pythonhosted.org/packages/ac/59/8f3dac462a909204baa642a7b60f821c6dbb5480da424497832de812256b/selenium_driverless-1.0.4.tar.gz
+[2023-07-23 14:41:57] INFO root fetch - processPackages [RapidMangaDL]: Downloading https://files.pythonhosted.org/packages/a6/d3/464afb52cebd0856efd4c6bab6a3ffed4ace269d788f7455ede2c6dd2d4b/RapidMangaDL-0.2.2.tar.gz
+[2023-07-23 14:41:57] INFO root fetch - processPackages [DuHast]: executing diffoscope
+[2023-07-23 14:41:57] INFO root fetch - processPackages [DuHast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DuHast-0.0.6.tar.gz tmp/DuHast-0.0.7.tar.gz --markdown 20230723/D/DuHast/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-23 14:41:57] INFO root fetch - processPackages [CloudEdgeAssetsOptimizer]: Downloading https://files.pythonhosted.org/packages/9b/41/d0ffc205f52c843105f0edf35627f091291d077e91a096ff6f30f68d7e62/CloudEdgeAssetsOptimizer-0.1.2.tar.gz
+[2023-07-23 14:41:57] INFO root fetch - processPackages [sphinx-readme]: executing diffoscope
+[2023-07-23 14:41:57] INFO root fetch - processPackages [sphinx-readme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-readme-0.1.0.tar.gz tmp/sphinx-readme-0.2.0.tar.gz --markdown 20230723/s/sphinx-readme/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-23 14:41:57] INFO root fetch - processPackages [htag]: Downloading https://files.pythonhosted.org/packages/3c/57/e3ec31c7a4370e0398973fdc16d97c10b517a8a8c8ab59f3221b4e86189e/htag-0.9.9.tar.gz
+[2023-07-23 14:41:57] INFO root fetch - processPackages [selenium-driverless]: executing diffoscope
+[2023-07-23 14:41:57] INFO root fetch - processPackages [selenium-driverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_driverless-1.0.3.tar.gz tmp/selenium_driverless-1.0.4.tar.gz --markdown 20230723/s/selenium-driverless/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-23 14:41:57] INFO root fetch - processPackages [CloudEdgeAssetsOptimizer]: executing diffoscope
+[2023-07-23 14:41:57] INFO root fetch - processPackages [CloudEdgeAssetsOptimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CloudEdgeAssetsOptimizer-0.1.1.tar.gz tmp/CloudEdgeAssetsOptimizer-0.1.2.tar.gz --markdown 20230723/C/CloudEdgeAssetsOptimizer/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-23 14:41:57] INFO root fetch - processPackages [RapidMangaDL]: executing diffoscope
+[2023-07-23 14:41:57] INFO root fetch - processPackages [RapidMangaDL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RapidMangaDL-0.2.1.tar.gz tmp/RapidMangaDL-0.2.2.tar.gz --markdown 20230723/R/RapidMangaDL/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-23 14:41:57] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: Downloading https://files.pythonhosted.org/packages/a5/35/77391fb27067de60169cb289bd2577928fdd4a47f364673fe38812583ee9/cdk-simplewebsite-deploy-2.0.9.tar.gz
+[2023-07-23 14:41:57] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: executing diffoscope
+[2023-07-23 14:41:57] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-simplewebsite-deploy-2.0.8.tar.gz tmp/cdk-simplewebsite-deploy-2.0.9.tar.gz --markdown 20230723/c/cdk-simplewebsite-deploy/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-23 14:41:57] INFO root fetch - processPackages [htag]: executing diffoscope
+[2023-07-23 14:41:57] INFO root fetch - processPackages [htag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htag-0.9.8.tar.gz tmp/htag-0.9.9.tar.gz --markdown 20230723/h/htag/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-23 14:41:58] INFO root fetch - processPackages [SageLogger]: Remove: archive file [/home/abi/fetcher/tmp/SageLogger-1.0.tar.gz]
+[2023-07-23 14:41:58] INFO root fetch - processPackages [SageLogger]: Remove: archive file [/home/abi/fetcher/tmp/SageLogger-1.3.tar.gz]
+[2023-07-23 14:41:58] INFO root fetch - main [MainThread]: End processing [SageLogger]: success
+[2023-07-23 14:41:58] INFO root fetch - processPackages [CloudEdgeAssetsOptimizer]: Remove: archive file [/home/abi/fetcher/tmp/CloudEdgeAssetsOptimizer-0.1.1.tar.gz]
+[2023-07-23 14:41:58] INFO root fetch - processPackages [CloudEdgeAssetsOptimizer]: Remove: archive file [/home/abi/fetcher/tmp/CloudEdgeAssetsOptimizer-0.1.2.tar.gz]
+[2023-07-23 14:41:58] INFO root fetch - main [MainThread]: End processing [CloudEdgeAssetsOptimizer]: success
+[2023-07-23 14:41:58] INFO root fetch - processPackages [sphinx-readme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-readme-0.1.0.tar.gz]
+[2023-07-23 14:41:58] INFO root fetch - processPackages [sphinx-readme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-readme-0.2.0.tar.gz]
+[2023-07-23 14:41:58] INFO root fetch - main [MainThread]: End processing [sphinx-readme]: success
+[2023-07-23 14:41:58] INFO root fetch - processPackages [selenium-driverless]: Remove: archive file [/home/abi/fetcher/tmp/selenium_driverless-1.0.3.tar.gz]
+[2023-07-23 14:41:58] INFO root fetch - processPackages [selenium-driverless]: Remove: archive file [/home/abi/fetcher/tmp/selenium_driverless-1.0.4.tar.gz]
+[2023-07-23 14:41:58] INFO root fetch - main [MainThread]: End processing [selenium-driverless]: success
+[2023-07-23 14:41:58] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-simplewebsite-deploy-2.0.8.tar.gz]
+[2023-07-23 14:41:58] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-simplewebsite-deploy-2.0.9.tar.gz]
+[2023-07-23 14:41:58] INFO root fetch - main [MainThread]: End processing [cdk-simplewebsite-deploy]: success
+[2023-07-23 14:41:58] INFO root fetch - processPackages [htag]: Remove: archive file [/home/abi/fetcher/tmp/htag-0.9.8.tar.gz]
+[2023-07-23 14:41:58] INFO root fetch - processPackages [htag]: Remove: archive file [/home/abi/fetcher/tmp/htag-0.9.9.tar.gz]
+[2023-07-23 14:41:58] INFO root fetch - main [MainThread]: End processing [htag]: success
+[2023-07-23 14:41:59] INFO root fetch - processPackages [RapidMangaDL]: Remove: archive file [/home/abi/fetcher/tmp/RapidMangaDL-0.2.1.tar.gz]
+[2023-07-23 14:41:59] INFO root fetch - processPackages [RapidMangaDL]: Remove: archive file [/home/abi/fetcher/tmp/RapidMangaDL-0.2.2.tar.gz]
+[2023-07-23 14:41:59] INFO root fetch - main [MainThread]: End processing [RapidMangaDL]: success
+[2023-07-23 14:41:59] INFO root fetch - processPackages [DuHast]: Remove: archive file [/home/abi/fetcher/tmp/DuHast-0.0.6.tar.gz]
+[2023-07-23 14:41:59] INFO root fetch - processPackages [DuHast]: Remove: archive file [/home/abi/fetcher/tmp/DuHast-0.0.7.tar.gz]
+[2023-07-23 14:41:59] INFO root fetch - main [MainThread]: End processing [DuHast]: success
+[2023-07-23 14:41:59] INFO root fetch - main [MainThread]: Store serial: [19001509]
