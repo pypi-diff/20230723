@@ -8612,3 +8612,155 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 15:21:22] ERROR root fetch - processPackages [circt]: Timeout during execution of pkgdiff
 [2023-07-23 15:21:22] INFO root fetch - main [MainThread]: End processing [circt] error
 [2023-07-23 15:21:22] INFO root fetch - main [MainThread]: Store serial: [19001852]
+[2023-07-23 15:26:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19001852]
+[2023-07-23 15:26:30] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-23 15:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alfen-eve-modbus-tcp
+[2023-07-23 15:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: brainchain
+[2023-07-23 15:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyarmor.cli.core.alpine
+[2023-07-23 15:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyarmor.cli.core.android
+[2023-07-23 15:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: IDsys
+[2023-07-23 15:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyarmor.cli.core.darwin
+[2023-07-23 15:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyarmor.cli.core.freebsd
+[2023-07-23 15:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyarmor.cli.core.linux
+[2023-07-23 15:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: external-user-local
+[2023-07-23 15:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyarmor.cli.core.themida
+[2023-07-23 15:26:30] INFO root fetch - processPackages [pyarmor.cli.core.linux]: New version: [4.3.dev1] Old Version: [3.2.9]
+[2023-07-23 15:26:30] INFO root fetch - processPackages [pyarmor.cli.core.android]: New version: [4.3.dev1] Old Version: [3.2.9]
+[2023-07-23 15:26:30] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: New version: [4.3.dev1] Old Version: [3.2.9]
+[2023-07-23 15:26:30] INFO root fetch - processPackages [IDsys]: New version: [0.0.8.9] Old Version: [0.0.8.8]
+[2023-07-23 15:26:30] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: New version: [4.3.dev1] Old Version: [3.2.9]
+[2023-07-23 15:26:30] INFO root fetch - processPackages [alfen-eve-modbus-tcp]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-23 15:26:30] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: New version: [4.3.dev1] Old Version: [3.2.9]
+[2023-07-23 15:26:30] INFO root fetch - processPackages [brainchain]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-23 15:26:30] INFO root fetch - processPackages [external-user-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 15:26:30] INFO root fetch - processPackages [pyarmor.cli.core.themida]: New version: [4.3.dev1] Old Version: [3.2.9]
+[2023-07-23 15:26:31] INFO root fetch - processPackages [external-user-local]: Downloading https://files.pythonhosted.org/packages/86/30/b540313993796f3f2d485b43bfe07512777aa124a848f52f01c45115413f/External-User-Local-0.0.8.tar.gz
+[2023-07-23 15:26:31] INFO root fetch - processPackages [pyarmor.cli.core.android]: Downloading https://files.pythonhosted.org/packages/f6/b1/bf84db24005a637854742e89171222d1a6ea920b032899d346445e7431ff/pyarmor.cli.core.android-3.2.9-cp39-none-any.whl
+[2023-07-23 15:26:31] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Downloading https://files.pythonhosted.org/packages/6f/fa/a98c2d86d0c2d56193e17ba60ef652be47751532a772279685ccf964eefe/pyarmor.cli.core.freebsd-3.2.9-cp39-none-any.whl
+[2023-07-23 15:26:31] INFO root fetch - processPackages [pyarmor.cli.core.linux]: Downloading https://files.pythonhosted.org/packages/c7/62/cc3793f1a7c8bfa7f0d26c95e56f11b5f8bd57b02f7e4c131df2a6b91f54/pyarmor.cli.core.linux-3.2.9-cp39-none-any.whl
+[2023-07-23 15:26:31] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: Downloading https://files.pythonhosted.org/packages/d7/70/9bf521fb2f4058d7e80948ec8b2c8646034a36b02c1dfe3aa7abfedd005e/pyarmor.cli.core.darwin-3.2.9-cp39-none-any.whl
+[2023-07-23 15:26:31] WARNING root fetch - processPackages [pyarmor.cli.core.android]: Skipping package: exceeds size limit 12519454>=10485760
+[2023-07-23 15:26:31] INFO root fetch - processPackages [pyarmor.cli.core.android]: Start processing: pyarmor.cli.core.windows
+[2023-07-23 15:26:31] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.android] error
+[2023-07-23 15:26:31] INFO root fetch - processPackages [IDsys]: Downloading https://files.pythonhosted.org/packages/da/38/4eb52696d76b449d4ce96b0b17d1069f0c304eb43197b99da4f67ec7a67d/IDsys-0.0.8.8.tar.gz
+[2023-07-23 15:26:31] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: Downloading https://files.pythonhosted.org/packages/b1/36/28905a13e43a6f586c2d92ea4eb872629023b75eac829715ad273d16bace/pyarmor.cli.core.alpine-3.2.9-cp39-none-any.whl
+[2023-07-23 15:26:31] INFO root fetch - processPackages [alfen-eve-modbus-tcp]: Downloading https://files.pythonhosted.org/packages/d1/28/db6e6f891c5e6f798cac55bb3c1dfea07699abdb1b2fb5a3a6a67890f147/alfen_eve_modbus_tcp-0.0.5.tar.gz
+[2023-07-23 15:26:31] INFO root fetch - processPackages [pyarmor.cli.core.themida]: Downloading https://files.pythonhosted.org/packages/c7/7f/d1bb578b8a695cae84bbb2a2b207602fc25fc42fb4a0311fbc965074db12/pyarmor.cli.core.themida-3.2.9-cp39-none-any.whl
+[2023-07-23 15:26:31] INFO root fetch - processPackages [brainchain]: Downloading https://files.pythonhosted.org/packages/98/4e/c96007803a5e13791f29ee7f24da0360241da06c358822716f3575d6af93/brainchain-0.4.0.tar.gz
+[2023-07-23 15:26:31] INFO root fetch - processPackages [pyarmor.cli.core.windows]: New version: [4.3.dev1] Old Version: [3.2.9]
+[2023-07-23 15:26:31] INFO root fetch - processPackages [external-user-local]: Downloading https://files.pythonhosted.org/packages/ce/14/fcd112d1522df4a9951f08cb9c7f39637dd2b6ea155db31d46d9df347f21/External-user-local-0.0.9.tar.gz
+[2023-07-23 15:26:31] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Downloading https://files.pythonhosted.org/packages/e5/e9/542d127ef31e79fecc5a362765b864b9b3bf7e7607b57cf31bafbaea754e/pyarmor.cli.core.windows-3.2.9-cp39-none-any.whl
+[2023-07-23 15:26:31] INFO root fetch - processPackages [external-user-local]: executing diffoscope
+[2023-07-23 15:26:31] INFO root fetch - processPackages [external-user-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/External-User-Local-0.0.8.tar.gz tmp/External-user-local-0.0.9.tar.gz --markdown 20230723/e/external-user-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 15:26:31] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Downloading https://files.pythonhosted.org/packages/a2/53/ee14e6f3a54820f61f5e84dae2ef1fa402fde0ccf876328f6c97e9464b8f/pyarmor.cli.core.freebsd-4.3.dev1-cp39-none-any.whl
+[2023-07-23 15:26:31] INFO root fetch - processPackages [IDsys]: Downloading https://files.pythonhosted.org/packages/d2/80/1e6f2b88807cd28fd9ec2dd2473e56f6412eff4751db460a519aa7cb69f2/IDsys-0.0.8.9.tar.gz
+[2023-07-23 15:26:31] INFO root fetch - processPackages [alfen-eve-modbus-tcp]: Downloading https://files.pythonhosted.org/packages/4b/3d/333c61972522ef4b0bedcc217fd7c1ecf0e746b419a34db552697da95995/alfen_eve_modbus_tcp-0.0.6.tar.gz
+[2023-07-23 15:26:31] INFO root fetch - processPackages [brainchain]: Downloading https://files.pythonhosted.org/packages/bb/e2/f5613480c4c5e32aee5ec3cea095d1b9eda0b510653d83cc4eec36ffa599/brainchain-0.4.1.tar.gz
+[2023-07-23 15:26:31] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: Downloading https://files.pythonhosted.org/packages/5a/02/61f7f99345f8dc659adf42ec8c343ed9698c3a7e9a2a01cb8ccb775e4220/pyarmor.cli.core.darwin-4.3.dev1-cp39-none-any.whl
+[2023-07-23 15:26:32] INFO root fetch - processPackages [IDsys]: executing diffoscope
+[2023-07-23 15:26:32] INFO root fetch - processPackages [IDsys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IDsys-0.0.8.8.tar.gz tmp/IDsys-0.0.8.9.tar.gz --markdown 20230723/I/IDsys/0.0.8.8-0.0.8.9/diff.md --exclude *.pyd
+[2023-07-23 15:26:32] INFO root fetch - processPackages [alfen-eve-modbus-tcp]: executing diffoscope
+[2023-07-23 15:26:32] INFO root fetch - processPackages [alfen-eve-modbus-tcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alfen_eve_modbus_tcp-0.0.5.tar.gz tmp/alfen_eve_modbus_tcp-0.0.6.tar.gz --markdown 20230723/a/alfen-eve-modbus-tcp/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-23 15:26:32] INFO root fetch - processPackages [pyarmor.cli.core.linux]: Downloading https://files.pythonhosted.org/packages/5e/5e/30fa5095ec9d6539d99494484d599aaba619d9872266298609be9549024a/pyarmor.cli.core.linux-4.3.dev1-cp39-none-any.whl
+[2023-07-23 15:26:32] INFO root fetch - processPackages [brainchain]: executing diffoscope
+[2023-07-23 15:26:32] INFO root fetch - processPackages [brainchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainchain-0.4.0.tar.gz tmp/brainchain-0.4.1.tar.gz --markdown 20230723/b/brainchain/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-23 15:26:32] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: Downloading https://files.pythonhosted.org/packages/58/6c/3d21df275b61927b14f3c334c613ea6a1500739229d7715cf8694c8ad82c/pyarmor.cli.core.alpine-4.3.dev1-cp39-none-any.whl
+[2023-07-23 15:26:32] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: executing diffoscope
+[2023-07-23 15:26:32] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.freebsd-3.2.9-cp39-none-any.whl.zip tmp/pyarmor.cli.core.freebsd-4.3.dev1-cp39-none-any.whl.zip --markdown 20230723/p/pyarmor.cli.core.freebsd/3.2.9-4.3.dev1/diff.md --exclude *.pyd
+[2023-07-23 15:26:32] INFO root fetch - processPackages [pyarmor.cli.core.themida]: Downloading https://files.pythonhosted.org/packages/60/1a/0c7bd9c0b54dd929397ea0009e06cabc371970164f539a2f229035a1eeb4/pyarmor.cli.core.themida-4.3.dev1-cp39-none-any.whl
+[2023-07-23 15:26:32] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Downloading https://files.pythonhosted.org/packages/a2/bd/ae4a9a70554d004afc1b383346ccb4f8a16b233a9b81e4ba3db50f245426/pyarmor.cli.core.windows-4.3.dev1-cp39-none-any.whl
+[2023-07-23 15:26:32] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: executing diffoscope
+[2023-07-23 15:26:32] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.alpine-3.2.9-cp39-none-any.whl.zip tmp/pyarmor.cli.core.alpine-4.3.dev1-cp39-none-any.whl.zip --markdown 20230723/p/pyarmor.cli.core.alpine/3.2.9-4.3.dev1/diff.md --exclude *.pyd
+[2023-07-23 15:26:32] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: executing diffoscope
+[2023-07-23 15:26:32] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.darwin-3.2.9-cp39-none-any.whl.zip tmp/pyarmor.cli.core.darwin-4.3.dev1-cp39-none-any.whl.zip --markdown 20230723/p/pyarmor.cli.core.darwin/3.2.9-4.3.dev1/diff.md --exclude *.pyd
+[2023-07-23 15:26:32] INFO root fetch - processPackages [pyarmor.cli.core.windows]: executing diffoscope
+[2023-07-23 15:26:32] INFO root fetch - processPackages [pyarmor.cli.core.windows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.windows-3.2.9-cp39-none-any.whl.zip tmp/pyarmor.cli.core.windows-4.3.dev1-cp39-none-any.whl.zip --markdown 20230723/p/pyarmor.cli.core.windows/3.2.9-4.3.dev1/diff.md --exclude *.pyd
+[2023-07-23 15:26:32] INFO root fetch - processPackages [external-user-local]: Remove: archive file [/home/abi/fetcher/tmp/External-User-Local-0.0.8.tar.gz]
+[2023-07-23 15:26:32] INFO root fetch - processPackages [external-user-local]: Remove: archive file [/home/abi/fetcher/tmp/External-user-local-0.0.9.tar.gz]
+[2023-07-23 15:26:32] INFO root fetch - processPackages [external-user-local]: Start processing: pyarmor.cli
+[2023-07-23 15:26:32] INFO root fetch - main [MainThread]: End processing [external-user-local]: success
+[2023-07-23 15:26:32] INFO root fetch - processPackages [pyarmor.cli.core.linux]: executing diffoscope
+[2023-07-23 15:26:32] INFO root fetch - processPackages [pyarmor.cli.core.linux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.linux-3.2.9-cp39-none-any.whl.zip tmp/pyarmor.cli.core.linux-4.3.dev1-cp39-none-any.whl.zip --markdown 20230723/p/pyarmor.cli.core.linux/3.2.9-4.3.dev1/diff.md --exclude *.pyd
+[2023-07-23 15:26:32] INFO root fetch - processPackages [pyarmor.cli]: New version: [8.3.dev1] Old Version: [8.2.dev2]
+[2023-07-23 15:26:33] INFO root fetch - processPackages [pyarmor.cli]: Downloading https://files.pythonhosted.org/packages/58/d6/ac109f3c3337cabe88f01410b858a2020a8f962d90fff6c3cb4d659dab24/pyarmor.cli-8.2.dev2-py2.py3-none-any.whl
+[2023-07-23 15:26:33] INFO root fetch - processPackages [IDsys]: Remove: archive file [/home/abi/fetcher/tmp/IDsys-0.0.8.8.tar.gz]
+[2023-07-23 15:26:33] INFO root fetch - processPackages [IDsys]: Remove: archive file [/home/abi/fetcher/tmp/IDsys-0.0.8.9.tar.gz]
+[2023-07-23 15:26:33] INFO root fetch - processPackages [IDsys]: Start processing: OctoBot-Commons
+[2023-07-23 15:26:33] INFO root fetch - main [MainThread]: End processing [IDsys]: success
+[2023-07-23 15:26:33] INFO root fetch - processPackages [OctoBot-Commons]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-07-23 15:26:33] INFO root fetch - processPackages [brainchain]: Remove: archive file [/home/abi/fetcher/tmp/brainchain-0.4.0.tar.gz]
+[2023-07-23 15:26:33] INFO root fetch - processPackages [brainchain]: Remove: archive file [/home/abi/fetcher/tmp/brainchain-0.4.1.tar.gz]
+[2023-07-23 15:26:33] INFO root fetch - processPackages [brainchain]: Start processing: hivemind
+[2023-07-23 15:26:33] INFO root fetch - main [MainThread]: End processing [brainchain]: success
+[2023-07-23 15:26:33] INFO root fetch - processPackages [alfen-eve-modbus-tcp]: Remove: archive file [/home/abi/fetcher/tmp/alfen_eve_modbus_tcp-0.0.5.tar.gz]
+[2023-07-23 15:26:33] INFO root fetch - processPackages [alfen-eve-modbus-tcp]: Remove: archive file [/home/abi/fetcher/tmp/alfen_eve_modbus_tcp-0.0.6.tar.gz]
+[2023-07-23 15:26:33] INFO root fetch - processPackages [alfen-eve-modbus-tcp]: Start processing: pyarmor
+[2023-07-23 15:26:33] INFO root fetch - main [MainThread]: End processing [alfen-eve-modbus-tcp]: success
+[2023-07-23 15:26:33] INFO root fetch - processPackages [hivemind]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-23 15:26:33] INFO root fetch - processPackages [pyarmor]: New version: [8.3.dev1] Old Version: [8.2.dev2]
+[2023-07-23 15:26:33] INFO root fetch - processPackages [OctoBot-Commons]: Downloading https://files.pythonhosted.org/packages/fd/2d/a7e8d7a42db4a339faaa1a10004e5dafa2f1e9d60c1e0f35d06c23e6e7fd/OctoBot-Commons-1.9.5.tar.gz
+[2023-07-23 15:26:33] INFO root fetch - processPackages [hivemind]: Downloading https://files.pythonhosted.org/packages/59/ce/a284ee6a287ab03968bdbcf212a4aac498cd550f7068e936e261cf0b601c/hivemind-1.1.8.tar.gz
+[2023-07-23 15:26:33] INFO root fetch - processPackages [pyarmor.cli]: Downloading https://files.pythonhosted.org/packages/86/43/e9e561f3226243540c819b18fe5894cf3838d07d59b98f17464452702878/pyarmor.cli-8.3.dev1.zip
+[2023-07-23 15:26:33] INFO root fetch - processPackages [pyarmor]: Downloading https://files.pythonhosted.org/packages/32/cb/ab0b2546de84f234426daaf0c25fc6f42e8534f2b48f2a77db88903e3fd3/pyarmor-8.2.dev2.zip
+[2023-07-23 15:26:33] INFO root fetch - processPackages [pyarmor.cli.core.themida]: executing diffoscope
+[2023-07-23 15:26:33] INFO root fetch - processPackages [pyarmor.cli.core.themida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.themida-3.2.9-cp39-none-any.whl.zip tmp/pyarmor.cli.core.themida-4.3.dev1-cp39-none-any.whl.zip --markdown 20230723/p/pyarmor.cli.core.themida/3.2.9-4.3.dev1/diff.md --exclude *.pyd
+[2023-07-23 15:26:33] INFO root fetch - processPackages [pyarmor.cli]: executing diffoscope
+[2023-07-23 15:26:33] INFO root fetch - processPackages [pyarmor.cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli-8.2.dev2-py2.py3-none-any.whl.zip tmp/pyarmor.cli-8.3.dev1.zip --markdown 20230723/p/pyarmor.cli/8.2.dev2-8.3.dev1/diff.md --exclude *.pyd
+[2023-07-23 15:26:33] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.windows-3.2.9-cp39-none-any.whl.zip]
+[2023-07-23 15:26:33] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.windows-4.3.dev1-cp39-none-any.whl.zip]
+[2023-07-23 15:26:33] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Start processing: scru128
+[2023-07-23 15:26:33] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.windows]: success
+[2023-07-23 15:26:33] INFO root fetch - processPackages [OctoBot-Commons]: Downloading https://files.pythonhosted.org/packages/a8/1d/95bd585c7c8613f2606da6a8c13eec4a631275ccee9e2dae450a9ab2c6bb/OctoBot-Commons-1.9.6.tar.gz
+[2023-07-23 15:26:33] INFO root fetch - processPackages [scru128]: New version: [3.0.1] Old Version: [3.0.0rc1]
+[2023-07-23 15:26:33] INFO root fetch - processPackages [OctoBot-Commons]: executing diffoscope
+[2023-07-23 15:26:33] INFO root fetch - processPackages [OctoBot-Commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoBot-Commons-1.9.5.tar.gz tmp/OctoBot-Commons-1.9.6.tar.gz --markdown 20230723/O/OctoBot-Commons/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-07-23 15:26:34] INFO root fetch - processPackages [scru128]: Downloading https://files.pythonhosted.org/packages/53/a3/ec04ceb8c05bf42c0aec3a56a24bd77d8132a4e1fb50d5c76d757563ee1f/scru128-3.0.0rc1.tar.gz
+[2023-07-23 15:26:34] INFO root fetch - processPackages [scru128]: Downloading https://files.pythonhosted.org/packages/b9/1c/7d2527a817ced7a78454d5ccb02bc7eec0cfcc2e2ea1a4470818899e80be/scru128-3.0.1.tar.gz
+[2023-07-23 15:26:34] INFO root fetch - processPackages [scru128]: executing diffoscope
+[2023-07-23 15:26:34] INFO root fetch - processPackages [scru128]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scru128-3.0.0rc1.tar.gz tmp/scru128-3.0.1.tar.gz --markdown 20230723/s/scru128/3.0.0rc1-3.0.1/diff.md --exclude *.pyd
+[2023-07-23 15:26:34] INFO root fetch - processPackages [hivemind]: Downloading https://files.pythonhosted.org/packages/88/a7/dbd2b70133bd56c8a2445a6f359ce43a15650611e6238f843fb26239d21f/hivemind-1.1.9.tar.gz
+[2023-07-23 15:26:34] INFO root fetch - processPackages [pyarmor.cli.core.themida]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.themida-3.2.9-cp39-none-any.whl.zip]
+[2023-07-23 15:26:34] INFO root fetch - processPackages [pyarmor.cli.core.themida]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.themida-4.3.dev1-cp39-none-any.whl.zip]
+[2023-07-23 15:26:34] INFO root fetch - processPackages [pyarmor.cli.core.themida]: Start processing: CloudEdgeAssetsOptimizer
+[2023-07-23 15:26:34] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.themida]: success
+[2023-07-23 15:26:34] INFO root fetch - processPackages [pyarmor]: Downloading https://files.pythonhosted.org/packages/d9/a1/a81236255b5bf73e9a5f034e82b91e4de9e82e891e245b13b561f836de57/pyarmor-8.3.dev1.zip
+[2023-07-23 15:26:34] INFO root fetch - processPackages [CloudEdgeAssetsOptimizer]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-23 15:26:35] INFO root fetch - processPackages [pyarmor.cli]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli-8.2.dev2-py2.py3-none-any.whl.zip]
+[2023-07-23 15:26:35] INFO root fetch - processPackages [pyarmor.cli]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli-8.3.dev1.zip]
+[2023-07-23 15:26:35] INFO root fetch - main [MainThread]: End processing [pyarmor.cli]: success
+[2023-07-23 15:26:35] INFO root fetch - processPackages [CloudEdgeAssetsOptimizer]: Downloading https://files.pythonhosted.org/packages/63/01/7897bc0b6de6c6d281d3393d049b7e82e3a2052b22b009c60cefdec58172/CloudEdgeAssetsOptimizer-0.1.3.tar.gz
+[2023-07-23 15:26:35] INFO root fetch - processPackages [pyarmor]: executing diffoscope
+[2023-07-23 15:26:35] INFO root fetch - processPackages [pyarmor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor-8.2.dev2.zip tmp/pyarmor-8.3.dev1.zip --markdown 20230723/p/pyarmor/8.2.dev2-8.3.dev1/diff.md --exclude *.pyd
+[2023-07-23 15:26:35] INFO root fetch - processPackages [hivemind]: executing diffoscope
+[2023-07-23 15:26:35] INFO root fetch - processPackages [hivemind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hivemind-1.1.8.tar.gz tmp/hivemind-1.1.9.tar.gz --markdown 20230723/h/hivemind/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-23 15:26:35] INFO root fetch - processPackages [CloudEdgeAssetsOptimizer]: Downloading https://files.pythonhosted.org/packages/44/b3/1766c1c6912e21c6d25a92a2b175acc833396102a31d732318d979a698ec/CloudEdgeAssetsOptimizer-0.1.4.tar.gz
+[2023-07-23 15:26:35] INFO root fetch - processPackages [CloudEdgeAssetsOptimizer]: executing diffoscope
+[2023-07-23 15:26:35] INFO root fetch - processPackages [CloudEdgeAssetsOptimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CloudEdgeAssetsOptimizer-0.1.3.tar.gz tmp/CloudEdgeAssetsOptimizer-0.1.4.tar.gz --markdown 20230723/C/CloudEdgeAssetsOptimizer/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-23 15:26:36] INFO root fetch - processPackages [scru128]: Remove: archive file [/home/abi/fetcher/tmp/scru128-3.0.0rc1.tar.gz]
+[2023-07-23 15:26:36] INFO root fetch - processPackages [scru128]: Remove: archive file [/home/abi/fetcher/tmp/scru128-3.0.1.tar.gz]
+[2023-07-23 15:26:36] INFO root fetch - main [MainThread]: End processing [scru128]: success
+[2023-07-23 15:26:36] INFO root fetch - processPackages [OctoBot-Commons]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Commons-1.9.5.tar.gz]
+[2023-07-23 15:26:36] INFO root fetch - processPackages [OctoBot-Commons]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Commons-1.9.6.tar.gz]
+[2023-07-23 15:26:36] INFO root fetch - main [MainThread]: End processing [OctoBot-Commons]: success
+[2023-07-23 15:26:36] INFO root fetch - processPackages [CloudEdgeAssetsOptimizer]: Remove: archive file [/home/abi/fetcher/tmp/CloudEdgeAssetsOptimizer-0.1.3.tar.gz]
+[2023-07-23 15:26:36] INFO root fetch - processPackages [CloudEdgeAssetsOptimizer]: Remove: archive file [/home/abi/fetcher/tmp/CloudEdgeAssetsOptimizer-0.1.4.tar.gz]
+[2023-07-23 15:26:36] INFO root fetch - main [MainThread]: End processing [CloudEdgeAssetsOptimizer]: success
+[2023-07-23 15:26:37] INFO root fetch - processPackages [pyarmor]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor-8.2.dev2.zip]
+[2023-07-23 15:26:37] INFO root fetch - processPackages [pyarmor]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor-8.3.dev1.zip]
+[2023-07-23 15:26:37] INFO root fetch - main [MainThread]: End processing [pyarmor]: success
+[2023-07-23 15:26:37] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.freebsd-3.2.9-cp39-none-any.whl.zip]
+[2023-07-23 15:26:37] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.freebsd-4.3.dev1-cp39-none-any.whl.zip]
+[2023-07-23 15:26:37] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.freebsd]: success
+[2023-07-23 15:26:37] INFO root fetch - processPackages [hivemind]: Remove: archive file [/home/abi/fetcher/tmp/hivemind-1.1.8.tar.gz]
+[2023-07-23 15:26:37] INFO root fetch - processPackages [hivemind]: Remove: archive file [/home/abi/fetcher/tmp/hivemind-1.1.9.tar.gz]
+[2023-07-23 15:26:37] INFO root fetch - main [MainThread]: End processing [hivemind]: success
+[2023-07-23 15:26:40] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.darwin-3.2.9-cp39-none-any.whl.zip]
+[2023-07-23 15:26:40] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.darwin-4.3.dev1-cp39-none-any.whl.zip]
+[2023-07-23 15:26:40] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.darwin]: success
+[2023-07-23 15:26:41] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.alpine-3.2.9-cp39-none-any.whl.zip]
+[2023-07-23 15:26:41] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.alpine-4.3.dev1-cp39-none-any.whl.zip]
+[2023-07-23 15:26:41] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.alpine]: success
+[2023-07-23 15:26:52] INFO root fetch - processPackages [pyarmor.cli.core.linux]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.linux-3.2.9-cp39-none-any.whl.zip]
+[2023-07-23 15:26:52] INFO root fetch - processPackages [pyarmor.cli.core.linux]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.linux-4.3.dev1-cp39-none-any.whl.zip]
+[2023-07-23 15:26:52] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.linux]: success
+[2023-07-23 15:26:52] INFO root fetch - main [MainThread]: Store serial: [19001930]
