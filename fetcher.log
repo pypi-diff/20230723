@@ -12748,3 +12748,141 @@ AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
 [2023-07-23 20:19:27] INFO root fetch - processPackages [dash-solana-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_solana_components-1.0.6-py3-none-any.whl.zip]
 [2023-07-23 20:19:27] INFO root fetch - main [MainThread]: End processing [dash-solana-components]: success
 [2023-07-23 20:19:27] INFO root fetch - main [MainThread]: Store serial: [19003925]
+[2023-07-23 20:24:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19003925]
+[2023-07-23 20:24:36] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-23 20:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shiny-mdc
+[2023-07-23 20:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dup-hawk
+[2023-07-23 20:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OneOnOne
+[2023-07-23 20:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datahelp
+[2023-07-23 20:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NASTI
+[2023-07-23 20:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-nano
+[2023-07-23 20:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-llm
+[2023-07-23 20:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-chronos
+[2023-07-23 20:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rubpy
+[2023-07-23 20:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-serving
+[2023-07-23 20:24:37] INFO root fetch - processPackages [datahelp]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-23 20:24:37] INFO root fetch - processPackages [rubpy]: New version: [6.3.2] Old Version: [6.3.1]
+[2023-07-23 20:24:37] INFO root fetch - processPackages [NASTI]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-23 20:24:37] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230723] Old Version: [2.4.0b20230722]
+[2023-07-23 20:24:37] INFO root fetch - processPackages [dup-hawk]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-23 20:24:37] INFO root fetch - processPackages [shiny-mdc]: New version: [1.8.0] Old Version: [1.7.1]
+[2023-07-23 20:24:37] INFO root fetch - processPackages [OneOnOne]: New version: [0.6943] Old Version: [0.6942]
+[2023-07-23 20:24:37] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230723] Old Version: [2.4.0b20230722]
+[2023-07-23 20:24:37] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230723] Old Version: [2.4.0b20230722]
+[2023-07-23 20:24:37] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230723] Old Version: [2.4.0b20230722]
+[2023-07-23 20:24:37] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/f8/c8/f23db15b9655e2d4e19f758e93fa2f23326e93e69b66f82c78e8509c7f54/bigdl_chronos-2.4.0b20230722-py3-none-win_amd64.whl
+[2023-07-23 20:24:37] INFO root fetch - processPackages [datahelp]: Downloading https://files.pythonhosted.org/packages/a1/e0/9e96a28b910fac0c8e87653b22f92f2b97ae2f308f8209ad4eed0ee0f0dd/datahelp-0.1.3.tar.gz
+[2023-07-23 20:24:37] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/07/80/4e3769913fc567ad069aff932d28770f02353d6d2dc8d3575e1ec73860d1/OneOnOne-0.6942.tar.gz
+[2023-07-23 20:24:37] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/e5/13/83f06b6ff60e77c4ac6cae5781f554312aa89fb80f68862013d62d123e9e/bigdl_nano-2.4.0b20230722-py3-none-win_amd64.whl
+[2023-07-23 20:24:37] INFO root fetch - processPackages [NASTI]: Downloading https://files.pythonhosted.org/packages/e1/42/0c8e384c03bf35ae94e46f2d1fac966acc1d198fa0d6a332b3d8fcb84da0/NASTI-0.1.0.tar.gz
+[2023-07-23 20:24:37] INFO root fetch - processPackages [rubpy]: Downloading https://files.pythonhosted.org/packages/05/a1/399fd48e21c9740dff9a366d516be93e8ebbdb50f3644fbe6d9dceaa087a/rubpy-6.3.1.tar.gz
+[2023-07-23 20:24:37] INFO root fetch - processPackages [dup-hawk]: Downloading https://files.pythonhosted.org/packages/62/34/52b007a0dfc8f6d7ef89be2bc136607a8c2b391b40cf4c53771e04255a23/dup_hawk-0.0.6.tar.gz
+[2023-07-23 20:24:37] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/06/93/d6975ac2eb91064884c8bcb6e7f264f3e4b05763fee8baa6efd48455cc7a/bigdl_llm-2.4.0b20230722-py3-none-win_amd64.whl
+[2023-07-23 20:24:37] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/0a/5c/d2d3a339cac8df7e9d6c81045228090944e92350d2e4be0601530d278461/bigdl_serving-2.4.0b20230722-py2.py3-none-any.whl
+[2023-07-23 20:24:37] INFO root fetch - processPackages [shiny-mdc]: Downloading https://files.pythonhosted.org/packages/e4/d4/538b67554aeb93085cfe2ca10c00d5fc08a22d50187ceb282c4d617cf5b5/shiny_mdc-1.7.1.tar.gz
+[2023-07-23 20:24:37] INFO root fetch - processPackages [datahelp]: Downloading https://files.pythonhosted.org/packages/a8/02/6e4845520928804d8f4b789b55336a40ee7ec8cab54822561415c6320714/datahelp-0.1.4.tar.gz
+[2023-07-23 20:24:37] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/63/84/817861fbfc4df1be085c9d33ccb01726b3894ef04e79e7b0f87f15af1bf3/bigdl_serving-2.4.0b20230723-py2.py3-none-any.whl
+[2023-07-23 20:24:37] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/62/92/8cdefe7c570bf37f894bada573f201f4b026515a4ead8f6b290db8dee438/bigdl_chronos-2.4.0b20230723-py3-none-win_amd64.whl
+[2023-07-23 20:24:37] INFO root fetch - processPackages [rubpy]: Downloading https://files.pythonhosted.org/packages/01/3b/75791298673946280768136952dcdd558114429291f21e629d8b08315849/rubpy-6.3.2.tar.gz
+[2023-07-23 20:24:37] INFO root fetch - processPackages [NASTI]: Downloading https://files.pythonhosted.org/packages/20/f4/20b37a206312f845d5d3804cd11ddc118a37e92988a4b0554716233e4528/NASTI-0.1.1.tar.gz
+[2023-07-23 20:24:37] INFO root fetch - processPackages [dup-hawk]: Downloading https://files.pythonhosted.org/packages/12/bd/f1ba5018518b74aa44a3d530e376fb7cd1ab567c04fe3facc7d8239df92f/dup_hawk-0.0.7.tar.gz
+[2023-07-23 20:24:38] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/91/32/4f0492cd55b5e4e313a2208d3210d2e722c211ee1da47d87beb733d6d6a7/OneOnOne-0.6943.tar.gz
+[2023-07-23 20:24:38] INFO root fetch - processPackages [datahelp]: executing diffoscope
+[2023-07-23 20:24:38] INFO root fetch - processPackages [datahelp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datahelp-0.1.3.tar.gz tmp/datahelp-0.1.4.tar.gz --markdown 20230723/d/datahelp/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-23 20:24:38] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-07-23 20:24:38] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230722-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230723-py2.py3-none-any.whl.zip --markdown 20230723/b/bigdl-serving/2.4.0b20230722-2.4.0b20230723/diff.md --exclude *.pyd
+[2023-07-23 20:24:38] INFO root fetch - processPackages [rubpy]: executing diffoscope
+[2023-07-23 20:24:38] INFO root fetch - processPackages [rubpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubpy-6.3.1.tar.gz tmp/rubpy-6.3.2.tar.gz --markdown 20230723/r/rubpy/6.3.1-6.3.2/diff.md --exclude *.pyd
+[2023-07-23 20:24:38] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/69/7b/ced5192faed2e6f18ee4c597d5b1d166d7426ee45b9bf571a63479a4844f/bigdl_nano-2.4.0b20230723-py3-none-win_amd64.whl
+[2023-07-23 20:24:38] INFO root fetch - processPackages [NASTI]: executing diffoscope
+[2023-07-23 20:24:38] INFO root fetch - processPackages [NASTI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NASTI-0.1.0.tar.gz tmp/NASTI-0.1.1.tar.gz --markdown 20230723/N/NASTI/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-23 20:24:38] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/a1/10/20f9ee1fcab521a7e258101b07809a17b6ff68255e1b134849d73b06e2b1/bigdl_llm-2.4.0b20230723-py3-none-win_amd64.whl
+[2023-07-23 20:24:38] INFO root fetch - processPackages [dup-hawk]: executing diffoscope
+[2023-07-23 20:24:38] INFO root fetch - processPackages [dup-hawk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dup_hawk-0.0.6.tar.gz tmp/dup_hawk-0.0.7.tar.gz --markdown 20230723/d/dup-hawk/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-23 20:24:38] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-07-23 20:24:38] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230722-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230723-py3-none-win_amd64.whl.zip --markdown 20230723/b/bigdl-chronos/2.4.0b20230722-2.4.0b20230723/diff.md --exclude *.pyd
+[2023-07-23 20:24:38] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-23 20:24:38] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6942.tar.gz tmp/OneOnOne-0.6943.tar.gz --markdown 20230723/O/OneOnOne/0.6942-0.6943/diff.md --exclude *.pyd
+[2023-07-23 20:24:38] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-07-23 20:24:38] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230722-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230723-py3-none-win_amd64.whl.zip --markdown 20230723/b/bigdl-nano/2.4.0b20230722-2.4.0b20230723/diff.md --exclude *.pyd
+[2023-07-23 20:24:38] INFO root fetch - processPackages [shiny-mdc]: Downloading https://files.pythonhosted.org/packages/c2/9e/45505d63360e7dc5fbbc8f1c795066b20116d99ea4689b44c005933563dc/shiny_mdc-1.8.0.tar.gz
+[2023-07-23 20:24:38] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-07-23 20:24:38] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230722-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230723-py3-none-win_amd64.whl.zip --markdown 20230723/b/bigdl-llm/2.4.0b20230722-2.4.0b20230723/diff.md --exclude *.pyd
+[2023-07-23 20:24:38] INFO root fetch - processPackages [shiny-mdc]: executing diffoscope
+[2023-07-23 20:24:38] INFO root fetch - processPackages [shiny-mdc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shiny_mdc-1.7.1.tar.gz tmp/shiny_mdc-1.8.0.tar.gz --markdown 20230723/s/shiny-mdc/1.7.1-1.8.0/diff.md --exclude *.pyd
+[2023-07-23 20:24:39] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230722-py2.py3-none-any.whl.zip]
+[2023-07-23 20:24:39] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230723-py2.py3-none-any.whl.zip]
+[2023-07-23 20:24:39] INFO root fetch - processPackages [bigdl-serving]: Start processing: dup-hawk
+[2023-07-23 20:24:39] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-07-23 20:24:39] INFO root fetch - processPackages [dup-hawk]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-23 20:24:39] INFO root fetch - processPackages [datahelp]: Remove: archive file [/home/abi/fetcher/tmp/datahelp-0.1.3.tar.gz]
+[2023-07-23 20:24:39] INFO root fetch - processPackages [datahelp]: Remove: archive file [/home/abi/fetcher/tmp/datahelp-0.1.4.tar.gz]
+[2023-07-23 20:24:39] INFO root fetch - processPackages [datahelp]: Start processing: gammarer.aws-secure-vpc-bucket
+[2023-07-23 20:24:39] INFO root fetch - main [MainThread]: End processing [datahelp]: success
+[2023-07-23 20:24:39] INFO root fetch - processPackages [rubpy]: Remove: archive file [/home/abi/fetcher/tmp/rubpy-6.3.1.tar.gz]
+[2023-07-23 20:24:39] INFO root fetch - processPackages [rubpy]: Remove: archive file [/home/abi/fetcher/tmp/rubpy-6.3.2.tar.gz]
+[2023-07-23 20:24:39] INFO root fetch - processPackages [rubpy]: Start processing: modsys
+[2023-07-23 20:24:39] INFO root fetch - main [MainThread]: End processing [rubpy]: success
+[2023-07-23 20:24:39] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-23 20:24:39] INFO root fetch - processPackages [dup-hawk]: executing diffoscope
+[2023-07-23 20:24:39] INFO root fetch - processPackages [dup-hawk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dup_hawk-0.0.6.tar.gz tmp/dup_hawk-0.0.7.tar.gz --markdown 20230723/d/dup-hawk/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-23 20:24:39] INFO root fetch - processPackages [modsys]: New version: [0.5.0] Old Version: [0.4.4]
+[2023-07-23 20:24:39] INFO root fetch - processPackages [NASTI]: Remove: archive file [/home/abi/fetcher/tmp/NASTI-0.1.0.tar.gz]
+[2023-07-23 20:24:39] INFO root fetch - processPackages [NASTI]: Remove: archive file [/home/abi/fetcher/tmp/NASTI-0.1.1.tar.gz]
+[2023-07-23 20:24:39] INFO root fetch - processPackages [NASTI]: Start processing: gammarer.aws-ecs-fargate-task-termination-detection-event-rule
+[2023-07-23 20:24:39] INFO root fetch - main [MainThread]: End processing [NASTI]: success
+[2023-07-23 20:24:39] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-23 20:24:39] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: Downloading https://files.pythonhosted.org/packages/9f/a0/bbf2c2b0be7de680eb413bad3269ac1dd9ebe140c56eacdf75a868ec726c/gammarer.aws-secure-vpc-bucket-0.5.3.tar.gz
+[2023-07-23 20:24:39] INFO root fetch - processPackages [dup-hawk]: Remove: archive file [/home/abi/fetcher/tmp/dup_hawk-0.0.6.tar.gz]
+[2023-07-23 20:24:39] INFO root fetch - processPackages [dup-hawk]: Remove: archive file [/home/abi/fetcher/tmp/dup_hawk-0.0.7.tar.gz]
+[2023-07-23 20:24:39] INFO root fetch - processPackages [dup-hawk]: Start processing: chainforge
+[2023-07-23 20:24:39] INFO root fetch - main [MainThread]: End processing [dup-hawk]: success
+[2023-07-23 20:24:39] INFO root fetch - processPackages [modsys]: Downloading https://files.pythonhosted.org/packages/89/49/17bc2123eb39eb79618517636128cf853a28dba065cb4596c29748098fd2/modsys-0.4.4.tar.gz
+[2023-07-23 20:24:39] INFO root fetch - processPackages [chainforge]: New version: [0.2.1.7] Old Version: [0.2.1.6]
+[2023-07-23 20:24:40] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: Downloading https://files.pythonhosted.org/packages/a2/8b/26e6a378b932df94857e5129412b504cdd3bdcd92c35e4d26f972e296bec/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.2.tar.gz
+[2023-07-23 20:24:40] INFO root fetch - processPackages [chainforge]: Downloading https://files.pythonhosted.org/packages/d6/66/6b5eecddcf62e6d98b425fea5aac58143b3e47764e9a28abfa5162cf07a3/chainforge-0.2.1.6.tar.gz
+[2023-07-23 20:24:40] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6942.tar.gz]
+[2023-07-23 20:24:40] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: Downloading https://files.pythonhosted.org/packages/47/a7/db913a9ac9d5e96de14d81811481a224f3aa418263b7073a4b878e46dd7c/gammarer.aws-secure-vpc-bucket-0.5.4.tar.gz
+[2023-07-23 20:24:40] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6943.tar.gz]
+[2023-07-23 20:24:40] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-23 20:24:40] INFO root fetch - processPackages [modsys]: Downloading https://files.pythonhosted.org/packages/53/32/0e43067103c4dabc3c668d0ab3b9bf373054b33c9f8045aac793ed0e804d/modsys-0.5.0.tar.gz
+[2023-07-23 20:24:40] ERROR root fetch - processPackages [dup-hawk]: Diffoscope failed: time="2023-07-23T20:24:39+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/dup_hawk-0.0.6.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/dup_hawk-0.0.7.tar.gz: No such file or directory
+
+[2023-07-23 20:24:40] INFO root fetch - main [MainThread]: End processing [dup-hawk] error
+[2023-07-23 20:24:40] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: Downloading https://files.pythonhosted.org/packages/30/4f/00962727089e1ed3a40e2325820032bee4b86c53338db09c87bbf38c0d9e/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.3.tar.gz
+[2023-07-23 20:24:40] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: executing diffoscope
+[2023-07-23 20:24:40] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-vpc-bucket-0.5.3.tar.gz tmp/gammarer.aws-secure-vpc-bucket-0.5.4.tar.gz --markdown 20230723/g/gammarer.aws-secure-vpc-bucket/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-23 20:24:40] INFO root fetch - processPackages [modsys]: executing diffoscope
+[2023-07-23 20:24:40] INFO root fetch - processPackages [modsys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modsys-0.4.4.tar.gz tmp/modsys-0.5.0.tar.gz --markdown 20230723/m/modsys/0.4.4-0.5.0/diff.md --exclude *.pyd
+[2023-07-23 20:24:40] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: executing diffoscope
+[2023-07-23 20:24:40] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.2.tar.gz tmp/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.3.tar.gz --markdown 20230723/g/gammarer.aws-ecs-fargate-task-termination-detection-event-rule/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-23 20:24:40] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230722-py3-none-win_amd64.whl.zip]
+[2023-07-23 20:24:40] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230723-py3-none-win_amd64.whl.zip]
+[2023-07-23 20:24:40] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-07-23 20:24:40] INFO root fetch - processPackages [chainforge]: Downloading https://files.pythonhosted.org/packages/20/ca/cc20c9ca115cf0396e146b356fe7cdf918116477d2b0a5b606f798b2763d/chainforge-0.2.1.7.tar.gz
+[2023-07-23 20:24:40] INFO root fetch - processPackages [shiny-mdc]: Remove: archive file [/home/abi/fetcher/tmp/shiny_mdc-1.7.1.tar.gz]
+[2023-07-23 20:24:40] INFO root fetch - processPackages [shiny-mdc]: Remove: archive file [/home/abi/fetcher/tmp/shiny_mdc-1.8.0.tar.gz]
+[2023-07-23 20:24:40] INFO root fetch - main [MainThread]: End processing [shiny-mdc]: success
+[2023-07-23 20:24:41] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230722-py3-none-win_amd64.whl.zip]
+[2023-07-23 20:24:41] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230723-py3-none-win_amd64.whl.zip]
+[2023-07-23 20:24:41] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-07-23 20:24:41] INFO root fetch - processPackages [chainforge]: executing diffoscope
+[2023-07-23 20:24:41] INFO root fetch - processPackages [chainforge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainforge-0.2.1.6.tar.gz tmp/chainforge-0.2.1.7.tar.gz --markdown 20230723/c/chainforge/0.2.1.6-0.2.1.7/diff.md --exclude *.pyd
+[2023-07-23 20:24:41] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-vpc-bucket-0.5.3.tar.gz]
+[2023-07-23 20:24:41] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-vpc-bucket-0.5.4.tar.gz]
+[2023-07-23 20:24:41] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-vpc-bucket]: success
+[2023-07-23 20:24:41] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.2.tar.gz]
+[2023-07-23 20:24:41] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.3.tar.gz]
+[2023-07-23 20:24:41] INFO root fetch - main [MainThread]: End processing [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: success
+[2023-07-23 20:24:41] INFO root fetch - processPackages [modsys]: Remove: archive file [/home/abi/fetcher/tmp/modsys-0.4.4.tar.gz]
+[2023-07-23 20:24:41] INFO root fetch - processPackages [modsys]: Remove: archive file [/home/abi/fetcher/tmp/modsys-0.5.0.tar.gz]
+[2023-07-23 20:24:41] INFO root fetch - main [MainThread]: End processing [modsys]: success
+[2023-07-23 20:24:52] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230722-py3-none-win_amd64.whl.zip]
+[2023-07-23 20:24:52] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230723-py3-none-win_amd64.whl.zip]
+[2023-07-23 20:24:52] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-07-23 20:25:45] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.2.1.6.tar.gz]
+[2023-07-23 20:25:45] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.2.1.7.tar.gz]
+[2023-07-23 20:25:45] INFO root fetch - main [MainThread]: End processing [chainforge]: success
+[2023-07-23 20:25:45] INFO root fetch - main [MainThread]: Store serial: [19003965]
