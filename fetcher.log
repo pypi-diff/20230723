@@ -4077,3 +4077,36 @@
 [2023-07-23 07:55:52] INFO root fetch - processPackages [pg-sui]: Remove: archive file [/home/abi/fetcher/tmp/pg-sui-0.2.3.1.tar.gz]
 [2023-07-23 07:55:52] INFO root fetch - main [MainThread]: End processing [pg-sui]: success
 [2023-07-23 07:55:52] INFO root fetch - main [MainThread]: Store serial: [18999747]
+[2023-07-23 08:00:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999747]
+[2023-07-23 08:01:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-23 08:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dtogen
+[2023-07-23 08:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zrouter
+[2023-07-23 08:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: utsav
+[2023-07-23 08:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apysc
+[2023-07-23 08:01:00] INFO root fetch - processPackages [dtogen]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-23 08:01:00] INFO root fetch - processPackages [zrouter]: New version: [0.3.9] Old Version: [0.3.7]
+[2023-07-23 08:01:00] INFO root fetch - processPackages [apysc]: New version: [3.3.1] Old Version: [3.3.0]
+[2023-07-23 08:01:00] WARNING root fetch - processPackages [utsav]: Skipping, unable to determine old version
+[2023-07-23 08:01:00] INFO root fetch - main [MainThread]: End processing [utsav] error
+[2023-07-23 08:01:00] INFO root fetch - processPackages [dtogen]: Downloading https://files.pythonhosted.org/packages/03/3f/249d431be8e81bf85a3967604557911f36166a9c1b502cd5ccdec284abe8/dtogen-0.0.5.tar.gz
+[2023-07-23 08:01:00] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/46/a3/bf22495d758367094fa3f27ee7ffdf71d9ce28530e1cb352bfe50373d0de/apysc-3.3.0.tar.gz
+[2023-07-23 08:01:00] INFO root fetch - processPackages [zrouter]: Downloading https://files.pythonhosted.org/packages/70/b4/46447a98f3cb006818ee7f113c854a34d045c04863a8f8e930387e5fc74f/zrouter-0.3.7.tar.gz
+[2023-07-23 08:01:01] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/0b/b1/151377ab9bf2e0423cf5375ec6e2a89ff113939877cd2b55faa1794cffef/apysc-3.3.1.tar.gz
+[2023-07-23 08:01:01] INFO root fetch - processPackages [dtogen]: Downloading https://files.pythonhosted.org/packages/d1/b5/a7fd76e25cec74670035a06385c2644983d67d34f305741977bda05a9b12/dtogen-0.0.6.tar.gz
+[2023-07-23 08:01:01] INFO root fetch - processPackages [apysc]: executing diffoscope
+[2023-07-23 08:01:01] INFO root fetch - processPackages [apysc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apysc-3.3.0.tar.gz tmp/apysc-3.3.1.tar.gz --markdown 20230723/a/apysc/3.3.0-3.3.1/diff.md --exclude *.pyd
+[2023-07-23 08:01:01] INFO root fetch - processPackages [zrouter]: Downloading https://files.pythonhosted.org/packages/71/fc/cba6114f18dff9831cfb82da9d0b5b5a4b9c14eee9bc1ec0f0e2c9c8383e/zrouter-0.3.9.tar.gz
+[2023-07-23 08:01:01] INFO root fetch - processPackages [zrouter]: executing diffoscope
+[2023-07-23 08:01:01] INFO root fetch - processPackages [zrouter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrouter-0.3.7.tar.gz tmp/zrouter-0.3.9.tar.gz --markdown 20230723/z/zrouter/0.3.7-0.3.9/diff.md --exclude *.pyd
+[2023-07-23 08:01:01] INFO root fetch - processPackages [dtogen]: executing diffoscope
+[2023-07-23 08:01:01] INFO root fetch - processPackages [dtogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtogen-0.0.5.tar.gz tmp/dtogen-0.0.6.tar.gz --markdown 20230723/d/dtogen/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-23 08:01:02] INFO root fetch - processPackages [zrouter]: Remove: archive file [/home/abi/fetcher/tmp/zrouter-0.3.7.tar.gz]
+[2023-07-23 08:01:02] INFO root fetch - processPackages [zrouter]: Remove: archive file [/home/abi/fetcher/tmp/zrouter-0.3.9.tar.gz]
+[2023-07-23 08:01:02] INFO root fetch - main [MainThread]: End processing [zrouter]: success
+[2023-07-23 08:01:02] INFO root fetch - processPackages [dtogen]: Remove: archive file [/home/abi/fetcher/tmp/dtogen-0.0.5.tar.gz]
+[2023-07-23 08:01:02] INFO root fetch - processPackages [dtogen]: Remove: archive file [/home/abi/fetcher/tmp/dtogen-0.0.6.tar.gz]
+[2023-07-23 08:01:02] INFO root fetch - main [MainThread]: End processing [dtogen]: success
+[2023-07-23 08:01:04] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.3.0.tar.gz]
+[2023-07-23 08:01:04] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.3.1.tar.gz]
+[2023-07-23 08:01:04] INFO root fetch - main [MainThread]: End processing [apysc]: success
+[2023-07-23 08:01:04] INFO root fetch - main [MainThread]: Store serial: [18999778]
