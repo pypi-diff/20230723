@@ -9814,3 +9814,148 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 17:00:55] INFO root fetch - processPackages [onvif-gui]: Remove: archive file [/home/abi/fetcher/tmp/onvif-gui-1.2.9.tar.gz]
 [2023-07-23 17:00:55] INFO root fetch - main [MainThread]: End processing [onvif-gui]: success
 [2023-07-23 17:00:55] INFO root fetch - main [MainThread]: Store serial: [19002561]
+[2023-07-23 17:05:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19002561]
+[2023-07-23 17:06:04] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-23 17:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zheinit
+[2023-07-23 17:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smpl-pkg-powly535
+[2023-07-23 17:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kerykeion
+[2023-07-23 17:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: portpy
+[2023-07-23 17:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: diagrams-yaml
+[2023-07-23 17:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-eventmonitor
+[2023-07-23 17:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tokenmonster
+[2023-07-23 17:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: statprocon
+[2023-07-23 17:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kodexa-cli
+[2023-07-23 17:06:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zheinit
+[2023-07-23 17:06:04] INFO root fetch - processPackages [statprocon]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 17:06:04] INFO root fetch - processPackages [zheinit]: New version: [0.0.73] Old Version: [0.0.72]
+[2023-07-23 17:06:04] INFO root fetch - processPackages [portpy]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-07-23 17:06:04] WARNING root fetch - processPackages [smpl-pkg-powly535]: Skipping, unable to determine old version
+[2023-07-23 17:06:04] INFO root fetch - processPackages [smpl-pkg-powly535]: Start processing: google-spreadsheets-exporter
+[2023-07-23 17:06:04] INFO root fetch - main [MainThread]: End processing [smpl-pkg-powly535] error
+[2023-07-23 17:06:04] INFO root fetch - processPackages [nonebot-plugin-eventmonitor]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-23 17:06:04] INFO root fetch - processPackages [diagrams-yaml]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 17:06:04] INFO root fetch - processPackages [tokenmonster]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-23 17:06:04] INFO root fetch - processPackages [zheinit]: New version: [0.0.73] Old Version: [0.0.72]
+[2023-07-23 17:06:04] INFO root fetch - processPackages [kerykeion]: New version: [4.0rc1] Old Version: [4.0a5]
+[2023-07-23 17:06:04] INFO root fetch - processPackages [kodexa-cli]: New version: [6.3.35637124089] Old Version: [6.3.35592191551]
+[2023-07-23 17:06:04] WARNING root fetch - processPackages [google-spreadsheets-exporter]: Skipping, unable to determine old version
+[2023-07-23 17:06:04] INFO root fetch - processPackages [google-spreadsheets-exporter]: Start processing: LordXen
+[2023-07-23 17:06:04] INFO root fetch - main [MainThread]: End processing [google-spreadsheets-exporter] error
+[2023-07-23 17:06:04] INFO root fetch - processPackages [statprocon]: Downloading https://files.pythonhosted.org/packages/90/30/a1a9d8b9388121aaa33318841a20787c7fde7d99a410a75877fb9c2620aa/statprocon-0.0.8.tar.gz
+[2023-07-23 17:06:04] INFO root fetch - processPackages [LordXen]: New version: [2023.7.23] Old Version: [0.0.0.2]
+[2023-07-23 17:06:04] INFO root fetch - processPackages [nonebot-plugin-eventmonitor]: Downloading https://files.pythonhosted.org/packages/ec/84/de1364e4c0eb96e1239a95dfc964a13384f23803a0e98bbe621542771e5c/nonebot_plugin_eventmonitor-0.1.8.tar.gz
+[2023-07-23 17:06:04] INFO root fetch - processPackages [zheinit]: Downloading https://files.pythonhosted.org/packages/5c/ac/7da0e231fac622a49924d33673748ef48a91bbc54b26a4d2e656be9f72ce/zheinit-0.0.72.tar.gz
+[2023-07-23 17:06:04] INFO root fetch - processPackages [zheinit]: Downloading https://files.pythonhosted.org/packages/5c/ac/7da0e231fac622a49924d33673748ef48a91bbc54b26a4d2e656be9f72ce/zheinit-0.0.72.tar.gz
+[2023-07-23 17:06:04] INFO root fetch - processPackages [portpy]: Downloading https://files.pythonhosted.org/packages/72/ae/9428da4dbb136f704a340425c15504c24a1d940f949fe4f09bce87165334/portpy-0.0.6.tar.gz
+[2023-07-23 17:06:04] INFO root fetch - processPackages [diagrams-yaml]: Downloading https://files.pythonhosted.org/packages/c4/ea/5e3b353c67fc4618ed5054b9bc3073d07b8547eb862e2c569d1bac930bc1/diagrams-yaml-0.0.8.tar.gz
+[2023-07-23 17:06:04] INFO root fetch - processPackages [tokenmonster]: Downloading https://files.pythonhosted.org/packages/49/3a/beccf05c96c93fe3f4cfaf075d96aaa4ca5416ea07570da6338012bebd44/tokenmonster-1.1.8.tar.gz
+[2023-07-23 17:06:04] INFO root fetch - processPackages [kerykeion]: Downloading https://files.pythonhosted.org/packages/6f/f1/656b79d8f51f02efebff8222dd0d15d7870f167d7ebabf0fc61103090ec0/kerykeion-4.0a5.tar.gz
+[2023-07-23 17:06:04] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/35/20/25aadb36560db272cc00b5cf0980760fa9de5e2cd6ef1cd67574b1397617/kodexa_cli-6.3.35592191551.tar.gz
+[2023-07-23 17:06:05] INFO root fetch - processPackages [LordXen]: Downloading https://files.pythonhosted.org/packages/a4/55/57ee3524f6dc127578a8ff19d21167991fc0eaccc379beb89392a3a5884b/LordXen-0.0.0.2.tar.gz
+[2023-07-23 17:06:05] INFO root fetch - processPackages [nonebot-plugin-eventmonitor]: Downloading https://files.pythonhosted.org/packages/1b/91/74d43c546279abcb68db9e7520a9d1ad8bb9f57b2c28f424ebf4be89c7ca/nonebot_plugin_eventmonitor-0.1.9.tar.gz
+[2023-07-23 17:06:05] INFO root fetch - processPackages [statprocon]: Downloading https://files.pythonhosted.org/packages/54/13/c79edc431ee0dc272d72c6345f71f32bc71a5628f82cd51c45a544d4e9ff/statprocon-0.0.9.tar.gz
+[2023-07-23 17:06:05] INFO root fetch - processPackages [zheinit]: Downloading https://files.pythonhosted.org/packages/4b/4a/51897240976dcd26fb6d8eadde760440d5d831393ec87a15582b3b63c706/zheinit-0.0.73.tar.gz
+[2023-07-23 17:06:05] INFO root fetch - processPackages [zheinit]: Downloading https://files.pythonhosted.org/packages/4b/4a/51897240976dcd26fb6d8eadde760440d5d831393ec87a15582b3b63c706/zheinit-0.0.73.tar.gz
+[2023-07-23 17:06:05] INFO root fetch - processPackages [diagrams-yaml]: Downloading https://files.pythonhosted.org/packages/00/0e/19a99adef69387beff8673a0f28ecb82c54badf65941129492ba3ae7c0ac/diagrams-yaml-0.0.9.tar.gz
+[2023-07-23 17:06:05] INFO root fetch - processPackages [nonebot-plugin-eventmonitor]: executing diffoscope
+[2023-07-23 17:06:05] INFO root fetch - processPackages [nonebot-plugin-eventmonitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_eventmonitor-0.1.8.tar.gz tmp/nonebot_plugin_eventmonitor-0.1.9.tar.gz --markdown 20230723/n/nonebot-plugin-eventmonitor/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-23 17:06:05] INFO root fetch - processPackages [tokenmonster]: Downloading https://files.pythonhosted.org/packages/de/3e/dd95897fbef8045c52323a2502aa2ddfa92ef61ad5ced051910519f05402/tokenmonster-1.1.9.tar.gz
+[2023-07-23 17:06:05] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/7d/48/c747e348cf37ab4cfe6f396953491a57b4616874529d5ec9f84834f50bd2/kodexa_cli-6.3.35637124089.tar.gz
+[2023-07-23 17:06:05] INFO root fetch - processPackages [zheinit]: executing diffoscope
+[2023-07-23 17:06:05] INFO root fetch - processPackages [zheinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zheinit-0.0.72.tar.gz tmp/zheinit-0.0.73.tar.gz --markdown 20230723/z/zheinit/0.0.72-0.0.73/diff.md --exclude *.pyd
+[2023-07-23 17:06:05] INFO root fetch - processPackages [portpy]: Downloading https://files.pythonhosted.org/packages/61/c8/4c78870debf55cc45e70a861f72310f08a988ad48014c69e10b7cfdee916/portpy-0.1.0.tar.gz
+[2023-07-23 17:06:05] INFO root fetch - processPackages [LordXen]: Downloading https://files.pythonhosted.org/packages/ff/f1/70a953d41ff909a6713004e65382e425551b7b9f42c1bfc17d0afc72f80b/LordXen-2023.7.23.tar.gz
+[2023-07-23 17:06:05] INFO root fetch - processPackages [statprocon]: executing diffoscope
+[2023-07-23 17:06:05] INFO root fetch - processPackages [statprocon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statprocon-0.0.8.tar.gz tmp/statprocon-0.0.9.tar.gz --markdown 20230723/s/statprocon/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 17:06:05] INFO root fetch - processPackages [zheinit]: executing diffoscope
+[2023-07-23 17:06:05] INFO root fetch - processPackages [zheinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zheinit-0.0.72.tar.gz tmp/zheinit-0.0.73.tar.gz --markdown 20230723/z/zheinit/0.0.72-0.0.73/diff.md --exclude *.pyd
+[2023-07-23 17:06:05] INFO root fetch - processPackages [diagrams-yaml]: executing diffoscope
+[2023-07-23 17:06:05] INFO root fetch - processPackages [diagrams-yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diagrams-yaml-0.0.8.tar.gz tmp/diagrams-yaml-0.0.9.tar.gz --markdown 20230723/d/diagrams-yaml/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 17:06:05] INFO root fetch - processPackages [kodexa-cli]: executing diffoscope
+[2023-07-23 17:06:05] INFO root fetch - processPackages [kodexa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa_cli-6.3.35592191551.tar.gz tmp/kodexa_cli-6.3.35637124089.tar.gz --markdown 20230723/k/kodexa-cli/6.3.35592191551-6.3.35637124089/diff.md --exclude *.pyd
+[2023-07-23 17:06:05] INFO root fetch - processPackages [tokenmonster]: executing diffoscope
+[2023-07-23 17:06:05] INFO root fetch - processPackages [tokenmonster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokenmonster-1.1.8.tar.gz tmp/tokenmonster-1.1.9.tar.gz --markdown 20230723/t/tokenmonster/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-23 17:06:05] INFO root fetch - processPackages [LordXen]: executing diffoscope
+[2023-07-23 17:06:05] INFO root fetch - processPackages [LordXen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LordXen-0.0.0.2.tar.gz tmp/LordXen-2023.7.23.tar.gz --markdown 20230723/L/LordXen/0.0.0.2-2023.7.23/diff.md --exclude *.pyd
+[2023-07-23 17:06:05] INFO root fetch - processPackages [portpy]: executing diffoscope
+[2023-07-23 17:06:05] INFO root fetch - processPackages [portpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/portpy-0.0.6.tar.gz tmp/portpy-0.1.0.tar.gz --markdown 20230723/p/portpy/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-07-23 17:06:05] INFO root fetch - processPackages [kerykeion]: Downloading https://files.pythonhosted.org/packages/5a/c8/808bef68527d355b7dc09eaeb7a5c61496b9dea7189377c2487f11580574/kerykeion-4.0rc1.tar.gz
+[2023-07-23 17:06:06] INFO root fetch - processPackages [kerykeion]: executing diffoscope
+[2023-07-23 17:06:06] INFO root fetch - processPackages [kerykeion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kerykeion-4.0a5.tar.gz tmp/kerykeion-4.0rc1.tar.gz --markdown 20230723/k/kerykeion/4.0a5-4.0rc1/diff.md --exclude *.pyd
+[2023-07-23 17:06:06] INFO root fetch - processPackages [nonebot-plugin-eventmonitor]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_eventmonitor-0.1.8.tar.gz]
+[2023-07-23 17:06:06] INFO root fetch - processPackages [nonebot-plugin-eventmonitor]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_eventmonitor-0.1.9.tar.gz]
+[2023-07-23 17:06:06] INFO root fetch - processPackages [nonebot-plugin-eventmonitor]: Start processing: keyrings.envvars
+[2023-07-23 17:06:06] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-eventmonitor]: success
+[2023-07-23 17:06:06] WARNING root fetch - processPackages [keyrings.envvars]: Skipping, unable to determine old version
+[2023-07-23 17:06:06] INFO root fetch - processPackages [keyrings.envvars]: Start processing: klvm-rs
+[2023-07-23 17:06:06] INFO root fetch - main [MainThread]: End processing [keyrings.envvars] error
+[2023-07-23 17:06:06] INFO root fetch - processPackages [zheinit]: Remove: archive file [/home/abi/fetcher/tmp/zheinit-0.0.72.tar.gz]
+[2023-07-23 17:06:06] INFO root fetch - processPackages [zheinit]: Remove: archive file [/home/abi/fetcher/tmp/zheinit-0.0.73.tar.gz]
+[2023-07-23 17:06:06] INFO root fetch - processPackages [zheinit]: Start processing: aliyun-python-sdk-rds
+[2023-07-23 17:06:06] INFO root fetch - main [MainThread]: End processing [zheinit]: success
+[2023-07-23 17:06:06] INFO root fetch - processPackages [klvm-rs]: New version: [0.2.8] Old Version: [0.1.24]
+[2023-07-23 17:06:06] INFO root fetch - processPackages [aliyun-python-sdk-rds]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-07-23 17:06:07] INFO root fetch - processPackages [statprocon]: Remove: archive file [/home/abi/fetcher/tmp/statprocon-0.0.8.tar.gz]
+[2023-07-23 17:06:07] INFO root fetch - processPackages [statprocon]: Remove: archive file [/home/abi/fetcher/tmp/statprocon-0.0.9.tar.gz]
+[2023-07-23 17:06:07] INFO root fetch - processPackages [statprocon]: Start processing: aicoder
+[2023-07-23 17:06:07] INFO root fetch - main [MainThread]: End processing [statprocon]: success
+[2023-07-23 17:06:07] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/86/16/e429481b48c8e39fd99916cf0d5537d596ff8a08c15cde79f3fa9f8b822b/aliyun-python-sdk-rds-2.7.8.tar.gz
+[2023-07-23 17:06:07] INFO root fetch - processPackages [zheinit]: Start processing: mohamedpdfpython
+[2023-07-23 17:06:07] INFO root fetch - main [MainThread]: End processing [zheinit]: success
+[2023-07-23 17:06:07] INFO root fetch - processPackages [aicoder]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-23 17:06:07] INFO root fetch - processPackages [klvm-rs]: Downloading https://files.pythonhosted.org/packages/20/da/e16a1211e7ba446c4c4d12b3b7e257c140ab6f7982e7f7b22d77b27ee460/klvm_rs-0.1.24.tar.gz
+[2023-07-23 17:06:07] INFO root fetch - processPackages [mohamedpdfpython]: New version: [1.1] Old Version: [1.0]
+[2023-07-23 17:06:07] INFO root fetch - processPackages [LordXen]: Remove: archive file [/home/abi/fetcher/tmp/LordXen-0.0.0.2.tar.gz]
+[2023-07-23 17:06:07] INFO root fetch - processPackages [LordXen]: Remove: archive file [/home/abi/fetcher/tmp/LordXen-2023.7.23.tar.gz]
+[2023-07-23 17:06:07] INFO root fetch - processPackages [LordXen]: Start processing: bionty
+[2023-07-23 17:06:07] INFO root fetch - main [MainThread]: End processing [LordXen]: success
+[2023-07-23 17:06:07] INFO root fetch - processPackages [diagrams-yaml]: Remove: archive file [/home/abi/fetcher/tmp/diagrams-yaml-0.0.8.tar.gz]
+[2023-07-23 17:06:07] INFO root fetch - processPackages [diagrams-yaml]: Remove: archive file [/home/abi/fetcher/tmp/diagrams-yaml-0.0.9.tar.gz]
+[2023-07-23 17:06:07] INFO root fetch - main [MainThread]: End processing [diagrams-yaml]: success
+[2023-07-23 17:06:07] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/49/c8/97bd9925e2aab8e2fb90f2bd5952e96c8793dbb73634161c2b81b93690bb/aliyun-python-sdk-rds-2.7.9.tar.gz
+[2023-07-23 17:06:07] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/46/6f/f5c7a769e357b14d9b0906b0f0f1522157660870fc20c391ab294f1db7c6/aicoder-0.4.0-py3-none-any.whl
+[2023-07-23 17:06:07] INFO root fetch - processPackages [bionty]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-07-23 17:06:07] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-6.3.35592191551.tar.gz]
+[2023-07-23 17:06:07] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-6.3.35637124089.tar.gz]
+[2023-07-23 17:06:07] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
+[2023-07-23 17:06:07] INFO root fetch - processPackages [mohamedpdfpython]: Downloading https://files.pythonhosted.org/packages/90/e2/d192bb026e2f267441a47911e2440ab1a0021ca480c1cad22ecf83ad0288/mohamedpdfpython-1.0.tar.gz
+[2023-07-23 17:06:07] INFO root fetch - processPackages [tokenmonster]: Remove: archive file [/home/abi/fetcher/tmp/tokenmonster-1.1.8.tar.gz]
+[2023-07-23 17:06:07] INFO root fetch - processPackages [tokenmonster]: Remove: archive file [/home/abi/fetcher/tmp/tokenmonster-1.1.9.tar.gz]
+[2023-07-23 17:06:07] INFO root fetch - main [MainThread]: End processing [tokenmonster]: success
+[2023-07-23 17:06:07] INFO root fetch - processPackages [aliyun-python-sdk-rds]: executing diffoscope
+[2023-07-23 17:06:07] INFO root fetch - processPackages [aliyun-python-sdk-rds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-rds-2.7.8.tar.gz tmp/aliyun-python-sdk-rds-2.7.9.tar.gz --markdown 20230723/a/aliyun-python-sdk-rds/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-07-23 17:06:07] INFO root fetch - processPackages [portpy]: Remove: archive file [/home/abi/fetcher/tmp/portpy-0.0.6.tar.gz]
+[2023-07-23 17:06:07] INFO root fetch - processPackages [portpy]: Remove: archive file [/home/abi/fetcher/tmp/portpy-0.1.0.tar.gz]
+[2023-07-23 17:06:07] INFO root fetch - main [MainThread]: End processing [portpy]: success
+[2023-07-23 17:06:07] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/99/96/56b5f6e7d406917b173d9b761f4b2ff41b68d375105fe40b9b23131b295d/bionty-0.9.0.tar.gz
+[2023-07-23 17:06:07] INFO root fetch - processPackages [kerykeion]: Remove: archive file [/home/abi/fetcher/tmp/kerykeion-4.0a5.tar.gz]
+[2023-07-23 17:06:07] INFO root fetch - processPackages [kerykeion]: Remove: archive file [/home/abi/fetcher/tmp/kerykeion-4.0rc1.tar.gz]
+[2023-07-23 17:06:07] INFO root fetch - main [MainThread]: End processing [kerykeion]: success
+[2023-07-23 17:06:07] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/19/d8/1fb5eb19f59ea516e4bd069df2bf0c78821dc406b652ace954d40ecc464b/aicoder-0.4.1-py3-none-any.whl
+[2023-07-23 17:06:07] INFO root fetch - processPackages [mohamedpdfpython]: Downloading https://files.pythonhosted.org/packages/08/dc/d0ed3bb09539e30678b11c389a1153076061a95049b9303e0d21cae3c3ce/mohamedpdfpython-1.1.tar.gz
+[2023-07-23 17:06:07] INFO root fetch - processPackages [aicoder]: executing diffoscope
+[2023-07-23 17:06:07] INFO root fetch - processPackages [aicoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicoder-0.4.0-py3-none-any.whl.zip tmp/aicoder-0.4.1-py3-none-any.whl.zip --markdown 20230723/a/aicoder/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-23 17:06:07] INFO root fetch - processPackages [mohamedpdfpython]: executing diffoscope
+[2023-07-23 17:06:07] INFO root fetch - processPackages [mohamedpdfpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mohamedpdfpython-1.0.tar.gz tmp/mohamedpdfpython-1.1.tar.gz --markdown 20230723/m/mohamedpdfpython/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-23 17:06:07] INFO root fetch - processPackages [klvm-rs]: Downloading https://files.pythonhosted.org/packages/7a/02/e751ecfd3a4c3b95bc7254315c9de64dc364aa6c2f9ccb277350279fe693/klvm_rs-0.2.8.tar.gz
+[2023-07-23 17:06:07] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/f4/01/3a99104d9a37cf7fbdae5c733cec97f252f8eb35f5553cd253a05edf8420/bionty-0.9.0rc1.tar.gz
+[2023-07-23 17:06:08] INFO root fetch - processPackages [bionty]: executing diffoscope
+[2023-07-23 17:06:08] INFO root fetch - processPackages [bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bionty-0.9.0.tar.gz tmp/bionty-0.9.0rc1.tar.gz --markdown 20230723/b/bionty/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-07-23 17:06:08] INFO root fetch - processPackages [klvm-rs]: executing diffoscope
+[2023-07-23 17:06:08] INFO root fetch - processPackages [klvm-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klvm_rs-0.1.24.tar.gz tmp/klvm_rs-0.2.8.tar.gz --markdown 20230723/k/klvm-rs/0.1.24-0.2.8/diff.md --exclude *.pyd
+[2023-07-23 17:06:08] INFO root fetch - processPackages [mohamedpdfpython]: Remove: archive file [/home/abi/fetcher/tmp/mohamedpdfpython-1.0.tar.gz]
+[2023-07-23 17:06:08] INFO root fetch - processPackages [mohamedpdfpython]: Remove: archive file [/home/abi/fetcher/tmp/mohamedpdfpython-1.1.tar.gz]
+[2023-07-23 17:06:08] INFO root fetch - main [MainThread]: End processing [mohamedpdfpython]: success
+[2023-07-23 17:06:08] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.4.0-py3-none-any.whl.zip]
+[2023-07-23 17:06:08] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.4.1-py3-none-any.whl.zip]
+[2023-07-23 17:06:08] INFO root fetch - main [MainThread]: End processing [aicoder]: success
+[2023-07-23 17:06:09] INFO root fetch - processPackages [bionty]: Remove: archive file [/home/abi/fetcher/tmp/bionty-0.9.0.tar.gz]
+[2023-07-23 17:06:09] INFO root fetch - processPackages [bionty]: Remove: archive file [/home/abi/fetcher/tmp/bionty-0.9.0rc1.tar.gz]
+[2023-07-23 17:06:09] INFO root fetch - main [MainThread]: End processing [bionty]: success
+[2023-07-23 17:06:09] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.8.tar.gz]
+[2023-07-23 17:06:09] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.9.tar.gz]
+[2023-07-23 17:06:09] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-rds]: success
+[2023-07-23 17:06:12] INFO root fetch - processPackages [klvm-rs]: Remove: archive file [/home/abi/fetcher/tmp/klvm_rs-0.1.24.tar.gz]
+[2023-07-23 17:06:12] INFO root fetch - processPackages [klvm-rs]: Remove: archive file [/home/abi/fetcher/tmp/klvm_rs-0.2.8.tar.gz]
+[2023-07-23 17:06:12] INFO root fetch - main [MainThread]: End processing [klvm-rs]: success
+[2023-07-23 17:06:12] INFO root fetch - main [MainThread]: Store serial: [19002616]
