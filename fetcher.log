@@ -11404,3 +11404,103 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 18:35:02] INFO root fetch - processPackages [sortinghat]: Remove: archive file [/home/abi/fetcher/tmp/sortinghat-0.9.3.tar.gz]
 [2023-07-23 18:35:02] INFO root fetch - main [MainThread]: End processing [sortinghat]: success
 [2023-07-23 18:35:02] INFO root fetch - main [MainThread]: Store serial: [19003281]
+[2023-07-23 18:40:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19003281]
+[2023-07-23 18:40:10] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-23 18:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: commonutility
+[2023-07-23 18:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crypto-screening
+[2023-07-23 18:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kodexa-cli
+[2023-07-23 18:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyimgurapi
+[2023-07-23 18:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ephemeral-sh
+[2023-07-23 18:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kodexa-cli
+[2023-07-23 18:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: easyocr-itgn
+[2023-07-23 18:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Flask-SQL-Pro
+[2023-07-23 18:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: unitauto
+[2023-07-23 18:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: markdown-analysis
+[2023-07-23 18:40:10] INFO root fetch - processPackages [commonutility]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-23 18:40:10] INFO root fetch - processPackages [unitauto]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-23 18:40:10] INFO root fetch - processPackages [Flask-SQL-Pro]: New version: [3.1] Old Version: [3.0]
+[2023-07-23 18:40:10] INFO root fetch - processPackages [markdown-analysis]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-23 18:40:10] INFO root fetch - processPackages [ephemeral-sh]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-23 18:40:10] INFO root fetch - processPackages [pyimgurapi]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-23 18:40:10] INFO root fetch - processPackages [easyocr-itgn]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-23 18:40:10] INFO root fetch - processPackages [crypto-screening]: New version: [8.1.2] Old Version: [8.1.1]
+[2023-07-23 18:40:10] INFO root fetch - processPackages [kodexa-cli]: New version: [6.3.35637531565] Old Version: [6.3.35637529691]
+[2023-07-23 18:40:10] INFO root fetch - processPackages [kodexa-cli]: New version: [6.3.35637531565] Old Version: [6.3.35637529691]
+[2023-07-23 18:40:10] INFO root fetch - processPackages [markdown-analysis]: Downloading https://files.pythonhosted.org/packages/01/f3/5b9c8dfcef6f4b35b199c4f8a99e362c4b258488000b5717b2fa8ca2d9ec/markdown_analysis-0.0.2.tar.gz
+[2023-07-23 18:40:11] INFO root fetch - processPackages [Flask-SQL-Pro]: Downloading https://files.pythonhosted.org/packages/f0/79/4e89aa40e399f1bd13abd6246fc7252f00d0e3eee79252cf18fb92c33c92/Flask-SQL-Pro-3.0.tar.gz
+[2023-07-23 18:40:11] INFO root fetch - processPackages [ephemeral-sh]: Downloading https://files.pythonhosted.org/packages/0c/08/2dd178aca43f3d79b602c5a0a4fe6856bd85db1f652de0f1888878eb7b26/ephemeral_sh-0.2.0-py3-none-any.whl
+[2023-07-23 18:40:11] INFO root fetch - processPackages [unitauto]: Downloading https://files.pythonhosted.org/packages/57/ec/af21cac495c2bae3eeb6a0f713a6e44d7fcac2cb3f069c0a67e348627a2b/unitauto-1.0.2.tar.gz
+[2023-07-23 18:40:11] INFO root fetch - processPackages [commonutility]: Downloading https://files.pythonhosted.org/packages/f6/1a/d031c17c3bc7beb0c3c5332b064a1a9cb75f00016a485bb9f2523620f09a/commonUtility-0.0.3-py3-none-any.whl
+[2023-07-23 18:40:11] INFO root fetch - processPackages [pyimgurapi]: Downloading https://files.pythonhosted.org/packages/38/bb/a0088843ccb68da03e079ffa016b6c698745347aa75b3257a4885e63a536/pyimgurapi-0.4.1.tar.gz
+[2023-07-23 18:40:11] INFO root fetch - processPackages [easyocr-itgn]: Downloading https://files.pythonhosted.org/packages/9d/7c/1a8c236a556b1931a66c0464e939f151ee54c47dac925a5e92c05693af5b/easyocr-itgn-1.0.0.tar.gz
+[2023-07-23 18:40:11] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/93/55/e93775cbcd4587bd9c28ea367560369b004c50e73fdb9506518340effc4c/kodexa_cli-6.3.35637529691.tar.gz
+[2023-07-23 18:40:11] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/93/55/e93775cbcd4587bd9c28ea367560369b004c50e73fdb9506518340effc4c/kodexa_cli-6.3.35637529691.tar.gz
+[2023-07-23 18:40:11] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/fd/45/f22abddfefa33478a41c70731a5ba41b501245992571f57914e7d4c8881f/crypto-screening-8.1.1.tar.gz
+[2023-07-23 18:40:11] INFO root fetch - processPackages [markdown-analysis]: Downloading https://files.pythonhosted.org/packages/db/16/ff203c8831020b2141e339f98b233e36dca96c3f3490536a2b6f694aa2b4/markdown_analysis-0.0.3.tar.gz
+[2023-07-23 18:40:11] INFO root fetch - processPackages [ephemeral-sh]: Downloading https://files.pythonhosted.org/packages/9b/2e/f30515db3f87714df86f15c8b54d9829b2b9fdf1ad3604593cf7eb1963f9/ephemeral_sh-0.2.1-py3-none-any.whl
+[2023-07-23 18:40:11] INFO root fetch - processPackages [Flask-SQL-Pro]: Downloading https://files.pythonhosted.org/packages/d3/9c/d27cd27c3e2f6a985bd5e9506fefa5cdaa45e2a3424a298a9d03fd19a2e7/Flask-SQL-Pro-3.1.tar.gz
+[2023-07-23 18:40:11] INFO root fetch - processPackages [unitauto]: Downloading https://files.pythonhosted.org/packages/40/97/077dc7fb880c81b32eba213500d5d65744b90f42c2507402edd3d33db221/unitauto-1.0.3.tar.gz
+[2023-07-23 18:40:11] INFO root fetch - processPackages [commonutility]: Downloading https://files.pythonhosted.org/packages/4d/4b/66438da6175589d934f30a7eee40d7ff934712612d683d3dd0cccbee7fb7/commonutility-0.0.4-py3-none-any.whl
+[2023-07-23 18:40:11] INFO root fetch - processPackages [easyocr-itgn]: Downloading https://files.pythonhosted.org/packages/9a/69/4c1b924bed999bf438c276643da90da4412ed3226ae93f49db789d1c0b81/easyocr-itgn-1.0.1.tar.gz
+[2023-07-23 18:40:11] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/3e/e3/424948e3badee52e37cb5eba9a2e91fdda54969f6e0417b30dcd36282709/kodexa_cli-6.3.35637531565.tar.gz
+[2023-07-23 18:40:11] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/3e/e3/424948e3badee52e37cb5eba9a2e91fdda54969f6e0417b30dcd36282709/kodexa_cli-6.3.35637531565.tar.gz
+[2023-07-23 18:40:11] INFO root fetch - processPackages [pyimgurapi]: Downloading https://files.pythonhosted.org/packages/2b/d2/aa9444832fb900ce840aed11c88700f34caf825aad5d0fc38f71487b3703/pyimgurapi-0.4.2.tar.gz
+[2023-07-23 18:40:11] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/9e/7b/64b88b1ec277589676979aacd604f8274e5c0ab74f2eb8ee3c8571b51b1e/crypto-screening-8.1.2.tar.gz
+[2023-07-23 18:40:11] INFO root fetch - processPackages [markdown-analysis]: executing diffoscope
+[2023-07-23 18:40:11] INFO root fetch - processPackages [markdown-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdown_analysis-0.0.2.tar.gz tmp/markdown_analysis-0.0.3.tar.gz --markdown 20230723/m/markdown-analysis/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-23 18:40:11] INFO root fetch - processPackages [unitauto]: executing diffoscope
+[2023-07-23 18:40:11] INFO root fetch - processPackages [unitauto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitauto-1.0.2.tar.gz tmp/unitauto-1.0.3.tar.gz --markdown 20230723/u/unitauto/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-23 18:40:12] INFO root fetch - processPackages [commonutility]: executing diffoscope
+[2023-07-23 18:40:12] INFO root fetch - processPackages [ephemeral-sh]: executing diffoscope
+[2023-07-23 18:40:12] INFO root fetch - processPackages [commonutility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commonUtility-0.0.3-py3-none-any.whl.zip tmp/commonutility-0.0.4-py3-none-any.whl.zip --markdown 20230723/c/commonutility/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-23 18:40:12] INFO root fetch - processPackages [ephemeral-sh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ephemeral_sh-0.2.0-py3-none-any.whl.zip tmp/ephemeral_sh-0.2.1-py3-none-any.whl.zip --markdown 20230723/e/ephemeral-sh/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-23 18:40:12] INFO root fetch - processPackages [Flask-SQL-Pro]: executing diffoscope
+[2023-07-23 18:40:12] INFO root fetch - processPackages [Flask-SQL-Pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-SQL-Pro-3.0.tar.gz tmp/Flask-SQL-Pro-3.1.tar.gz --markdown 20230723/F/Flask-SQL-Pro/3.0-3.1/diff.md --exclude *.pyd
+[2023-07-23 18:40:12] INFO root fetch - processPackages [kodexa-cli]: executing diffoscope
+[2023-07-23 18:40:12] INFO root fetch - processPackages [kodexa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa_cli-6.3.35637529691.tar.gz tmp/kodexa_cli-6.3.35637531565.tar.gz --markdown 20230723/k/kodexa-cli/6.3.35637529691-6.3.35637531565/diff.md --exclude *.pyd
+[2023-07-23 18:40:12] INFO root fetch - processPackages [kodexa-cli]: executing diffoscope
+[2023-07-23 18:40:12] INFO root fetch - processPackages [kodexa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa_cli-6.3.35637529691.tar.gz tmp/kodexa_cli-6.3.35637531565.tar.gz --markdown 20230723/k/kodexa-cli/6.3.35637529691-6.3.35637531565/diff.md --exclude *.pyd
+[2023-07-23 18:40:12] INFO root fetch - processPackages [easyocr-itgn]: executing diffoscope
+[2023-07-23 18:40:12] INFO root fetch - processPackages [easyocr-itgn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyocr-itgn-1.0.0.tar.gz tmp/easyocr-itgn-1.0.1.tar.gz --markdown 20230723/e/easyocr-itgn/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-23 18:40:12] INFO root fetch - processPackages [pyimgurapi]: executing diffoscope
+[2023-07-23 18:40:12] INFO root fetch - processPackages [pyimgurapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimgurapi-0.4.1.tar.gz tmp/pyimgurapi-0.4.2.tar.gz --markdown 20230723/p/pyimgurapi/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-23 18:40:12] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-23 18:40:12] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-8.1.1.tar.gz tmp/crypto-screening-8.1.2.tar.gz --markdown 20230723/c/crypto-screening/8.1.1-8.1.2/diff.md --exclude *.pyd
+[2023-07-23 18:40:13] INFO root fetch - processPackages [markdown-analysis]: Remove: archive file [/home/abi/fetcher/tmp/markdown_analysis-0.0.2.tar.gz]
+[2023-07-23 18:40:13] INFO root fetch - processPackages [markdown-analysis]: Remove: archive file [/home/abi/fetcher/tmp/markdown_analysis-0.0.3.tar.gz]
+[2023-07-23 18:40:13] INFO root fetch - processPackages [markdown-analysis]: Start processing: neuralpit
+[2023-07-23 18:40:13] INFO root fetch - main [MainThread]: End processing [markdown-analysis]: success
+[2023-07-23 18:40:13] INFO root fetch - processPackages [neuralpit]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-23 18:40:13] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/56/58/bb03618390059b6d129f2de5cd391ec42364984c951277841e024e78d46e/neuralpit-2.0.8.tar.gz
+[2023-07-23 18:40:13] INFO root fetch - processPackages [commonutility]: Remove: archive file [/home/abi/fetcher/tmp/commonUtility-0.0.3-py3-none-any.whl.zip]
+[2023-07-23 18:40:13] INFO root fetch - processPackages [commonutility]: Remove: archive file [/home/abi/fetcher/tmp/commonutility-0.0.4-py3-none-any.whl.zip]
+[2023-07-23 18:40:13] INFO root fetch - main [MainThread]: End processing [commonutility]: success
+[2023-07-23 18:40:13] INFO root fetch - processPackages [unitauto]: Remove: archive file [/home/abi/fetcher/tmp/unitauto-1.0.2.tar.gz]
+[2023-07-23 18:40:13] INFO root fetch - processPackages [unitauto]: Remove: archive file [/home/abi/fetcher/tmp/unitauto-1.0.3.tar.gz]
+[2023-07-23 18:40:13] INFO root fetch - main [MainThread]: End processing [unitauto]: success
+[2023-07-23 18:40:13] INFO root fetch - processPackages [ephemeral-sh]: Remove: archive file [/home/abi/fetcher/tmp/ephemeral_sh-0.2.0-py3-none-any.whl.zip]
+[2023-07-23 18:40:13] INFO root fetch - processPackages [ephemeral-sh]: Remove: archive file [/home/abi/fetcher/tmp/ephemeral_sh-0.2.1-py3-none-any.whl.zip]
+[2023-07-23 18:40:13] INFO root fetch - main [MainThread]: End processing [ephemeral-sh]: success
+[2023-07-23 18:40:13] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/8d/d4/cdca716e9f1023aaa975149951886336025da24ab787ef5b10e974341df6/neuralpit-2.0.9.tar.gz
+[2023-07-23 18:40:13] INFO root fetch - processPackages [Flask-SQL-Pro]: Remove: archive file [/home/abi/fetcher/tmp/Flask-SQL-Pro-3.0.tar.gz]
+[2023-07-23 18:40:13] INFO root fetch - processPackages [Flask-SQL-Pro]: Remove: archive file [/home/abi/fetcher/tmp/Flask-SQL-Pro-3.1.tar.gz]
+[2023-07-23 18:40:13] INFO root fetch - main [MainThread]: End processing [Flask-SQL-Pro]: success
+[2023-07-23 18:40:13] INFO root fetch - processPackages [pyimgurapi]: Remove: archive file [/home/abi/fetcher/tmp/pyimgurapi-0.4.1.tar.gz]
+[2023-07-23 18:40:13] INFO root fetch - processPackages [pyimgurapi]: Remove: archive file [/home/abi/fetcher/tmp/pyimgurapi-0.4.2.tar.gz]
+[2023-07-23 18:40:13] INFO root fetch - main [MainThread]: End processing [pyimgurapi]: success
+[2023-07-23 18:40:13] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-6.3.35637529691.tar.gz]
+[2023-07-23 18:40:13] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-6.3.35637531565.tar.gz]
+[2023-07-23 18:40:13] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
+[2023-07-23 18:40:13] INFO root fetch - processPackages [neuralpit]: executing diffoscope
+[2023-07-23 18:40:13] INFO root fetch - processPackages [neuralpit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralpit-2.0.8.tar.gz tmp/neuralpit-2.0.9.tar.gz --markdown 20230723/n/neuralpit/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-23 18:40:13] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
+[2023-07-23 18:40:14] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-8.1.1.tar.gz]
+[2023-07-23 18:40:14] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-8.1.2.tar.gz]
+[2023-07-23 18:40:14] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-23 18:40:14] INFO root fetch - processPackages [easyocr-itgn]: Remove: archive file [/home/abi/fetcher/tmp/easyocr-itgn-1.0.0.tar.gz]
+[2023-07-23 18:40:14] INFO root fetch - processPackages [easyocr-itgn]: Remove: archive file [/home/abi/fetcher/tmp/easyocr-itgn-1.0.1.tar.gz]
+[2023-07-23 18:40:14] INFO root fetch - main [MainThread]: End processing [easyocr-itgn]: success
+[2023-07-23 18:40:14] INFO root fetch - processPackages [neuralpit]: Remove: archive file [/home/abi/fetcher/tmp/neuralpit-2.0.8.tar.gz]
+[2023-07-23 18:40:14] INFO root fetch - processPackages [neuralpit]: Remove: archive file [/home/abi/fetcher/tmp/neuralpit-2.0.9.tar.gz]
+[2023-07-23 18:40:14] INFO root fetch - main [MainThread]: End processing [neuralpit]: success
+[2023-07-23 18:40:14] INFO root fetch - main [MainThread]: Store serial: [19003310]
