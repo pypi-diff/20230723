@@ -3613,3 +3613,57 @@
 [2023-07-23 06:57:38] INFO root fetch - processPackages [fogLedger]: Remove: archive file [/home/abi/fetcher/tmp/fogLedger-3.0.2b0.tar.gz]
 [2023-07-23 06:57:38] INFO root fetch - main [MainThread]: End processing [fogLedger]: success
 [2023-07-23 06:57:38] INFO root fetch - main [MainThread]: Store serial: [18999535]
+[2023-07-23 07:02:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999535]
+[2023-07-23 07:02:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-23 07:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pg-alchemy-kit
+[2023-07-23 07:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyqtclass
+[2023-07-23 07:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rest-api-supporter
+[2023-07-23 07:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hassfeld
+[2023-07-23 07:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tablate
+[2023-07-23 07:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hades-bot
+[2023-07-23 07:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: prompt-verse
+[2023-07-23 07:02:47] INFO root fetch - processPackages [pg-alchemy-kit]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-23 07:02:47] INFO root fetch - processPackages [pyqtclass]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-23 07:02:47] INFO root fetch - processPackages [tablate]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-23 07:02:47] INFO root fetch - processPackages [rest-api-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 07:02:47] WARNING root fetch - processPackages [hades-bot]: Skipping, unable to determine old version
+[2023-07-23 07:02:47] INFO root fetch - main [MainThread]: End processing [hades-bot] error
+[2023-07-23 07:02:47] INFO root fetch - processPackages [hassfeld]: New version: [0.3.9a1] Old Version: [0.3.8a1]
+[2023-07-23 07:02:47] WARNING root fetch - processPackages [prompt-verse]: Skipping, unable to determine old version
+[2023-07-23 07:02:47] INFO root fetch - main [MainThread]: End processing [prompt-verse] error
+[2023-07-23 07:02:47] INFO root fetch - processPackages [pg-alchemy-kit]: Downloading https://files.pythonhosted.org/packages/67/a1/2efc32baa5d359a8e5870469e6062095febbd53d9508ff52acfe74784b2e/pg_alchemy_kit-0.1.0.tar.gz
+[2023-07-23 07:02:47] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/d6/10/19e3a28877152c00438a31a543e3a70574e0e30aa0d776717d8d6eef6a0d/tablate-0.0.6.tar.gz
+[2023-07-23 07:02:47] INFO root fetch - processPackages [rest-api-supporter]: Downloading https://files.pythonhosted.org/packages/f4/16/0c2fc27776d8257953b960eea527e7f83b54019b51fbb132e634d73c5c0e/rest-api-supporter-0.0.8.tar.gz
+[2023-07-23 07:02:47] INFO root fetch - processPackages [pyqtclass]: Downloading https://files.pythonhosted.org/packages/56/19/0fd1849fe08c533324144117132def81346f7c7723cfae8975096e174dec/pyqtclass-0.1.0.tar.gz
+[2023-07-23 07:02:47] INFO root fetch - processPackages [hassfeld]: Downloading https://files.pythonhosted.org/packages/66/fd/fbd8e0a077b19f27446b9f404ee0630e10e9622df598b6027f7349fa4625/hassfeld-0.3.8a1.tar.gz
+[2023-07-23 07:02:47] INFO root fetch - processPackages [rest-api-supporter]: Downloading https://files.pythonhosted.org/packages/35/47/76da32bcf0507aa9dbf370e1c9e91408c29a80232299067f97883d4ef255/rest-api-supporter-0.0.9.tar.gz
+[2023-07-23 07:02:48] INFO root fetch - processPackages [pg-alchemy-kit]: Downloading https://files.pythonhosted.org/packages/99/01/1b1023809cb8d6c3d1739a7a6f6746a488b3c30d523296fe3634afc70607/pg_alchemy_kit-0.1.1.tar.gz
+[2023-07-23 07:02:48] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/7d/1d/ad908adae35b8d7ffd7e154ce3aa84aeb8e2ddd929168b1705127a32369e/tablate-0.0.7.tar.gz
+[2023-07-23 07:02:48] INFO root fetch - processPackages [rest-api-supporter]: executing diffoscope
+[2023-07-23 07:02:48] INFO root fetch - processPackages [rest-api-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rest-api-supporter-0.0.8.tar.gz tmp/rest-api-supporter-0.0.9.tar.gz --markdown 20230723/r/rest-api-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 07:02:48] INFO root fetch - processPackages [pyqtclass]: Downloading https://files.pythonhosted.org/packages/b5/02/cb0bda1afb839848c440fe27d4a3e1cf3215df1d5b7720aa4c88468b1a4d/pyqtclass-0.2.0.tar.gz
+[2023-07-23 07:02:48] INFO root fetch - processPackages [hassfeld]: Downloading https://files.pythonhosted.org/packages/f1/0a/45cd6e93141b1803bbf3553160db58082b92c9732f824e8f4dedaf59654c/hassfeld-0.3.9a1.tar.gz
+[2023-07-23 07:02:48] INFO root fetch - processPackages [pyqtclass]: executing diffoscope
+[2023-07-23 07:02:48] INFO root fetch - processPackages [pyqtclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqtclass-0.1.0.tar.gz tmp/pyqtclass-0.2.0.tar.gz --markdown 20230723/p/pyqtclass/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-23 07:02:48] INFO root fetch - processPackages [pg-alchemy-kit]: executing diffoscope
+[2023-07-23 07:02:48] INFO root fetch - processPackages [pg-alchemy-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_alchemy_kit-0.1.0.tar.gz tmp/pg_alchemy_kit-0.1.1.tar.gz --markdown 20230723/p/pg-alchemy-kit/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-23 07:02:48] INFO root fetch - processPackages [tablate]: executing diffoscope
+[2023-07-23 07:02:48] INFO root fetch - processPackages [tablate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablate-0.0.6.tar.gz tmp/tablate-0.0.7.tar.gz --markdown 20230723/t/tablate/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-23 07:02:48] INFO root fetch - processPackages [hassfeld]: executing diffoscope
+[2023-07-23 07:02:48] INFO root fetch - processPackages [hassfeld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hassfeld-0.3.8a1.tar.gz tmp/hassfeld-0.3.9a1.tar.gz --markdown 20230723/h/hassfeld/0.3.8a1-0.3.9a1/diff.md --exclude *.pyd
+[2023-07-23 07:02:49] INFO root fetch - processPackages [rest-api-supporter]: Remove: archive file [/home/abi/fetcher/tmp/rest-api-supporter-0.0.8.tar.gz]
+[2023-07-23 07:02:49] INFO root fetch - processPackages [rest-api-supporter]: Remove: archive file [/home/abi/fetcher/tmp/rest-api-supporter-0.0.9.tar.gz]
+[2023-07-23 07:02:49] INFO root fetch - main [MainThread]: End processing [rest-api-supporter]: success
+[2023-07-23 07:02:49] INFO root fetch - processPackages [pg-alchemy-kit]: Remove: archive file [/home/abi/fetcher/tmp/pg_alchemy_kit-0.1.0.tar.gz]
+[2023-07-23 07:02:49] INFO root fetch - processPackages [pg-alchemy-kit]: Remove: archive file [/home/abi/fetcher/tmp/pg_alchemy_kit-0.1.1.tar.gz]
+[2023-07-23 07:02:49] INFO root fetch - main [MainThread]: End processing [pg-alchemy-kit]: success
+[2023-07-23 07:02:49] INFO root fetch - processPackages [pyqtclass]: Remove: archive file [/home/abi/fetcher/tmp/pyqtclass-0.1.0.tar.gz]
+[2023-07-23 07:02:49] INFO root fetch - processPackages [pyqtclass]: Remove: archive file [/home/abi/fetcher/tmp/pyqtclass-0.2.0.tar.gz]
+[2023-07-23 07:02:49] INFO root fetch - main [MainThread]: End processing [pyqtclass]: success
+[2023-07-23 07:02:49] INFO root fetch - processPackages [hassfeld]: Remove: archive file [/home/abi/fetcher/tmp/hassfeld-0.3.8a1.tar.gz]
+[2023-07-23 07:02:49] INFO root fetch - processPackages [hassfeld]: Remove: archive file [/home/abi/fetcher/tmp/hassfeld-0.3.9a1.tar.gz]
+[2023-07-23 07:02:49] INFO root fetch - main [MainThread]: End processing [hassfeld]: success
+[2023-07-23 07:02:49] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.6.tar.gz]
+[2023-07-23 07:02:49] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.7.tar.gz]
+[2023-07-23 07:02:49] INFO root fetch - main [MainThread]: End processing [tablate]: success
+[2023-07-23 07:02:49] INFO root fetch - main [MainThread]: Store serial: [18999560]
