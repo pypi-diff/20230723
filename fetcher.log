@@ -8832,3 +8832,56 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 15:32:08] INFO root fetch - processPackages [mash-shell]: Remove: archive file [/home/abi/fetcher/tmp/mash-shell-0.2.6.tar.gz]
 [2023-07-23 15:32:08] INFO root fetch - main [MainThread]: End processing [mash-shell]: success
 [2023-07-23 15:32:08] INFO root fetch - main [MainThread]: Store serial: [19001957]
+[2023-07-23 15:37:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19001957]
+[2023-07-23 15:37:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-23 15:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spacer
+[2023-07-23 15:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: volvopy
+[2023-07-23 15:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: srt-fuzzy-sync
+[2023-07-23 15:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aio-request
+[2023-07-23 15:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quantflow
+[2023-07-23 15:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lifegu42d
+[2023-07-23 15:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fbgemm-gpu-nightly
+[2023-07-23 15:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gridkit
+[2023-07-23 15:37:17] WARNING root fetch - processPackages [srt-fuzzy-sync]: Skipping, unable to determine old version
+[2023-07-23 15:37:17] INFO root fetch - main [MainThread]: End processing [srt-fuzzy-sync] error
+[2023-07-23 15:37:17] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.7.22] Old Version: [2023.7.21]
+[2023-07-23 15:37:17] WARNING root fetch - processPackages [spacer]: Skipping, unable to determine old version
+[2023-07-23 15:37:17] INFO root fetch - main [MainThread]: End processing [spacer] error
+[2023-07-23 15:37:17] INFO root fetch - processPackages [volvopy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-23 15:37:17] INFO root fetch - processPackages [quantflow]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-23 15:37:17] WARNING root fetch - processPackages [lifegu42d]: Skipping, unable to determine old version
+[2023-07-23 15:37:17] INFO root fetch - main [MainThread]: End processing [lifegu42d] error
+[2023-07-23 15:37:17] INFO root fetch - processPackages [aio-request]: New version: [0.1.9a4] Old Version: [0.1.9a3]
+[2023-07-23 15:37:17] INFO root fetch - processPackages [gridkit]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-23 15:37:17] INFO root fetch - processPackages [volvopy]: Downloading https://files.pythonhosted.org/packages/09/80/61bd1f4ee62f2d455c9dba78d56bf9ebf309ea5f8732aa5afa30aab6f483/volvopy-0.1.8.tar.gz
+[2023-07-23 15:37:17] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/2b/6e/0ba237748a7716c5bde12e7fd0190403590f6b9cd1f211c80eed2bfbadba/fbgemm_gpu_nightly-2023.7.21-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-23 15:37:17] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 217854848>=10485760
+[2023-07-23 15:37:17] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-07-23 15:37:17] INFO root fetch - processPackages [quantflow]: Downloading https://files.pythonhosted.org/packages/9a/a3/df8e5b9d031ab53095dd5bdc069cd97948fb305f3a549a27809dedd0d83c/quantflow-0.2.3.tar.gz
+[2023-07-23 15:37:18] INFO root fetch - processPackages [gridkit]: Downloading https://files.pythonhosted.org/packages/6d/dd/2eccb77bbc0f325941b4b8a743242c3a3bb5224af8617db8125e78e80f92/gridkit-0.3.0.tar.gz
+[2023-07-23 15:37:18] INFO root fetch - processPackages [volvopy]: Downloading https://files.pythonhosted.org/packages/65/63/ba8ec09cdf10dd66d13c6a803e3c55a019f7c7bff6c588035e14f79f610f/volvopy-0.1.9.tar.gz
+[2023-07-23 15:37:18] INFO root fetch - processPackages [aio-request]: Downloading https://files.pythonhosted.org/packages/4d/ae/a45d7d5c8d087556193ca748769c04843a6c622b8c0a62985f1aab23e2a4/aio-request-0.1.9a3.tar.gz
+[2023-07-23 15:37:18] INFO root fetch - processPackages [volvopy]: executing diffoscope
+[2023-07-23 15:37:18] INFO root fetch - processPackages [volvopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volvopy-0.1.8.tar.gz tmp/volvopy-0.1.9.tar.gz --markdown 20230723/v/volvopy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-23 15:37:18] INFO root fetch - processPackages [gridkit]: Downloading https://files.pythonhosted.org/packages/7a/14/1923c01744a4cf6b94ccb70b60ea7b648d71ebfaabbb68805c3594bfe094/gridkit-0.3.1.tar.gz
+[2023-07-23 15:37:18] INFO root fetch - processPackages [quantflow]: Downloading https://files.pythonhosted.org/packages/21/1f/01d0d56b4f368860c93e5dd6eb916814dee961790711f0ead81efb9541fa/quantflow-0.2.4.tar.gz
+[2023-07-23 15:37:18] INFO root fetch - processPackages [aio-request]: Downloading https://files.pythonhosted.org/packages/be/ff/b7ababdcafd59771de50bd755a85d794a76b9053f9365fcfd654c812a02d/aio-request-0.1.9a4.tar.gz
+[2023-07-23 15:37:18] INFO root fetch - processPackages [quantflow]: executing diffoscope
+[2023-07-23 15:37:18] INFO root fetch - processPackages [quantflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantflow-0.2.3.tar.gz tmp/quantflow-0.2.4.tar.gz --markdown 20230723/q/quantflow/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-23 15:37:18] INFO root fetch - processPackages [aio-request]: executing diffoscope
+[2023-07-23 15:37:18] INFO root fetch - processPackages [aio-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aio-request-0.1.9a3.tar.gz tmp/aio-request-0.1.9a4.tar.gz --markdown 20230723/a/aio-request/0.1.9a3-0.1.9a4/diff.md --exclude *.pyd
+[2023-07-23 15:37:18] INFO root fetch - processPackages [gridkit]: executing diffoscope
+[2023-07-23 15:37:18] INFO root fetch - processPackages [gridkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridkit-0.3.0.tar.gz tmp/gridkit-0.3.1.tar.gz --markdown 20230723/g/gridkit/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-23 15:37:19] INFO root fetch - processPackages [volvopy]: Remove: archive file [/home/abi/fetcher/tmp/volvopy-0.1.8.tar.gz]
+[2023-07-23 15:37:19] INFO root fetch - processPackages [volvopy]: Remove: archive file [/home/abi/fetcher/tmp/volvopy-0.1.9.tar.gz]
+[2023-07-23 15:37:19] INFO root fetch - main [MainThread]: End processing [volvopy]: success
+[2023-07-23 15:37:19] INFO root fetch - processPackages [gridkit]: Remove: archive file [/home/abi/fetcher/tmp/gridkit-0.3.0.tar.gz]
+[2023-07-23 15:37:19] INFO root fetch - processPackages [gridkit]: Remove: archive file [/home/abi/fetcher/tmp/gridkit-0.3.1.tar.gz]
+[2023-07-23 15:37:19] INFO root fetch - main [MainThread]: End processing [gridkit]: success
+[2023-07-23 15:37:19] INFO root fetch - processPackages [aio-request]: Remove: archive file [/home/abi/fetcher/tmp/aio-request-0.1.9a3.tar.gz]
+[2023-07-23 15:37:19] INFO root fetch - processPackages [aio-request]: Remove: archive file [/home/abi/fetcher/tmp/aio-request-0.1.9a4.tar.gz]
+[2023-07-23 15:37:19] INFO root fetch - main [MainThread]: End processing [aio-request]: success
+[2023-07-23 15:37:19] INFO root fetch - processPackages [quantflow]: Remove: archive file [/home/abi/fetcher/tmp/quantflow-0.2.3.tar.gz]
+[2023-07-23 15:37:19] INFO root fetch - processPackages [quantflow]: Remove: archive file [/home/abi/fetcher/tmp/quantflow-0.2.4.tar.gz]
+[2023-07-23 15:37:19] INFO root fetch - main [MainThread]: End processing [quantflow]: success
+[2023-07-23 15:37:19] INFO root fetch - main [MainThread]: Store serial: [19001992]
