@@ -4493,3 +4493,42 @@
 [2023-07-23 08:58:28] INFO root fetch - processPackages [codeless-django]: Remove: archive file [/home/abi/fetcher/tmp/codeless-django-0.0.14.tar.gz]
 [2023-07-23 08:58:28] INFO root fetch - main [MainThread]: End processing [codeless-django]: success
 [2023-07-23 08:58:28] INFO root fetch - main [MainThread]: Store serial: [18999924]
+[2023-07-23 09:03:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999924]
+[2023-07-23 09:03:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-23 09:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: httprunner
+[2023-07-23 09:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: krxreader
+[2023-07-23 09:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mohou
+[2023-07-23 09:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seqio-nightly
+[2023-07-23 09:03:37] INFO root fetch - processPackages [krxreader]: New version: [0.0.dev3] Old Version: [0.0.dev2]
+[2023-07-23 09:03:37] INFO root fetch - processPackages [mohou]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-07-23 09:03:37] INFO root fetch - processPackages [httprunner]: New version: [4.3.5] Old Version: [4.3.0]
+[2023-07-23 09:03:37] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-07-23 09:03:37] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-07-23 09:03:37] INFO root fetch - processPackages [krxreader]: Downloading https://files.pythonhosted.org/packages/c9/e1/8c75395d2da33bed53d16b76d99ebdf571a979a52167c61774c9b1b6f5fc/krxreader-0.0.dev2.tar.gz
+[2023-07-23 09:03:37] INFO root fetch - processPackages [httprunner]: Downloading https://files.pythonhosted.org/packages/b5/6f/60613d268b4c5e9901151badef7788bca316584f18eb56021c0acca01e01/httprunner-4.3.0.tar.gz
+[2023-07-23 09:03:37] INFO root fetch - processPackages [mohou]: Downloading https://files.pythonhosted.org/packages/ca/e9/1c1103703e1a629c7a609293db84f7dc4dc029354e72d50657a955a09154/mohou-0.5.6.tar.gz
+[2023-07-23 09:03:38] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-07-23 09:03:38] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-07-23 09:03:38] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230723/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-07-23 09:03:38] INFO root fetch - processPackages [krxreader]: Downloading https://files.pythonhosted.org/packages/d7/17/da7ab0de8049c5cb8d874f282a27c4eb2d09d9c469437c0edcf7283ac5de/krxreader-0.0.dev3.tar.gz
+[2023-07-23 09:03:38] INFO root fetch - processPackages [mohou]: Downloading https://files.pythonhosted.org/packages/63/d4/6dc7492c07c07fe82897f008b1615958e4169053b578baf2ff3dea38696c/mohou-0.5.7.tar.gz
+[2023-07-23 09:03:38] INFO root fetch - processPackages [httprunner]: Downloading https://files.pythonhosted.org/packages/ea/2b/b930d89e447f7ebdd7b04c864dfc4365d6e29c91ffaf40643227f9e8add3/httprunner-4.3.5.tar.gz
+[2023-07-23 09:03:38] INFO root fetch - processPackages [mohou]: executing diffoscope
+[2023-07-23 09:03:38] INFO root fetch - processPackages [mohou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mohou-0.5.6.tar.gz tmp/mohou-0.5.7.tar.gz --markdown 20230723/m/mohou/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-07-23 09:03:38] INFO root fetch - processPackages [krxreader]: executing diffoscope
+[2023-07-23 09:03:38] INFO root fetch - processPackages [krxreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krxreader-0.0.dev2.tar.gz tmp/krxreader-0.0.dev3.tar.gz --markdown 20230723/k/krxreader/0.0.dev2-0.0.dev3/diff.md --exclude *.pyd
+[2023-07-23 09:03:38] INFO root fetch - processPackages [httprunner]: executing diffoscope
+[2023-07-23 09:03:38] INFO root fetch - processPackages [httprunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httprunner-4.3.0.tar.gz tmp/httprunner-4.3.5.tar.gz --markdown 20230723/h/httprunner/4.3.0-4.3.5/diff.md --exclude *.pyd
+[2023-07-23 09:03:39] INFO root fetch - processPackages [krxreader]: Remove: archive file [/home/abi/fetcher/tmp/krxreader-0.0.dev2.tar.gz]
+[2023-07-23 09:03:39] INFO root fetch - processPackages [krxreader]: Remove: archive file [/home/abi/fetcher/tmp/krxreader-0.0.dev3.tar.gz]
+[2023-07-23 09:03:39] INFO root fetch - main [MainThread]: End processing [krxreader]: success
+[2023-07-23 09:03:39] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-07-23 09:03:39] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-07-23 09:03:39] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-07-23 09:03:39] INFO root fetch - processPackages [httprunner]: Remove: archive file [/home/abi/fetcher/tmp/httprunner-4.3.0.tar.gz]
+[2023-07-23 09:03:39] INFO root fetch - processPackages [httprunner]: Remove: archive file [/home/abi/fetcher/tmp/httprunner-4.3.5.tar.gz]
+[2023-07-23 09:03:39] INFO root fetch - main [MainThread]: End processing [httprunner]: success
+[2023-07-23 09:03:39] INFO root fetch - processPackages [mohou]: Remove: archive file [/home/abi/fetcher/tmp/mohou-0.5.6.tar.gz]
+[2023-07-23 09:03:39] INFO root fetch - processPackages [mohou]: Remove: archive file [/home/abi/fetcher/tmp/mohou-0.5.7.tar.gz]
+[2023-07-23 09:03:39] INFO root fetch - main [MainThread]: End processing [mohou]: success
+[2023-07-23 09:03:39] INFO root fetch - main [MainThread]: Store serial: [18999938]
