@@ -4014,3 +4014,45 @@
 [2023-07-23 07:45:26] INFO root fetch - processPackages [refnx]: Remove: archive file [/home/abi/fetcher/tmp/refnx-0.1.9.tar.gz]
 [2023-07-23 07:45:26] INFO root fetch - main [MainThread]: End processing [refnx]: success
 [2023-07-23 07:45:26] INFO root fetch - main [MainThread]: Store serial: [18999726]
+[2023-07-23 07:50:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999726]
+[2023-07-23 07:50:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-23 07:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MedicalImageConverter
+[2023-07-23 07:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plutous-trade-crypto
+[2023-07-23 07:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autopack-tools
+[2023-07-23 07:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyiaacsync
+[2023-07-23 07:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: musicpy
+[2023-07-23 07:50:38] INFO root fetch - processPackages [MedicalImageConverter]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-23 07:50:38] WARNING root fetch - processPackages [musicpy]: Skipping, unable to determine old version
+[2023-07-23 07:50:38] INFO root fetch - main [MainThread]: End processing [musicpy] error
+[2023-07-23 07:50:38] INFO root fetch - processPackages [autopack-tools]: New version: [0.3.0] Old Version: [0.2.8]
+[2023-07-23 07:50:38] INFO root fetch - processPackages [pyiaacsync]: New version: [0.6] Old Version: [0.5]
+[2023-07-23 07:50:38] INFO root fetch - processPackages [plutous-trade-crypto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 07:50:38] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/e3/db/d32a1544d7f944ad8af411383551ea4aa42adfdd0f238ff44a5a3edaa00e/plutous_trade_crypto-0.0.8.tar.gz
+[2023-07-23 07:50:39] INFO root fetch - processPackages [MedicalImageConverter]: Downloading https://files.pythonhosted.org/packages/29/76/7e2c338c0d1e2e704998771a1d2ae587e2b6e3d682dc5af08cd4ab3fdb23/MedicalImageConverter-1.0.0.tar.gz
+[2023-07-23 07:50:39] INFO root fetch - processPackages [pyiaacsync]: Downloading https://files.pythonhosted.org/packages/93/55/a8262648b430bde6e26ecf9456137fc4cef7a4811b3519768b286f035f52/pyiaacsync-0.5.tar.gz
+[2023-07-23 07:50:39] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/35/02/42d7c3074507fae6c4253a83bcaeee76965f536a3853128e9dfc31d65c66/autopack_tools-0.2.8.tar.gz
+[2023-07-23 07:50:39] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/b4/a4/200ca398a36203e8bd51a034e50c51963506316cbf5e7a47866700accaee/plutous_trade_crypto-0.0.9.tar.gz
+[2023-07-23 07:50:39] INFO root fetch - processPackages [plutous-trade-crypto]: executing diffoscope
+[2023-07-23 07:50:39] INFO root fetch - processPackages [plutous-trade-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous_trade_crypto-0.0.8.tar.gz tmp/plutous_trade_crypto-0.0.9.tar.gz --markdown 20230723/p/plutous-trade-crypto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 07:50:39] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/e5/ad/0015c677f9fbf3acec57774cf5a7b391a4c148cd821692192e8e547cb958/autopack_tools-0.3.0.tar.gz
+[2023-07-23 07:50:39] INFO root fetch - processPackages [MedicalImageConverter]: Downloading https://files.pythonhosted.org/packages/43/a2/fcc6b7f7267a2a0b78d7a8d5788eeb711ffdd12b619c76513d225cf75238/MedicalImageConverter-1.0.1.tar.gz
+[2023-07-23 07:50:39] INFO root fetch - processPackages [pyiaacsync]: Downloading https://files.pythonhosted.org/packages/39/7e/e2969855f65c23cf911b4eeee828a54c4e1747c8eacad72355ffcf98c7ae/pyiaacsync-0.6.tar.gz
+[2023-07-23 07:50:39] INFO root fetch - processPackages [autopack-tools]: executing diffoscope
+[2023-07-23 07:50:39] INFO root fetch - processPackages [autopack-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopack_tools-0.2.8.tar.gz tmp/autopack_tools-0.3.0.tar.gz --markdown 20230723/a/autopack-tools/0.2.8-0.3.0/diff.md --exclude *.pyd
+[2023-07-23 07:50:39] INFO root fetch - processPackages [MedicalImageConverter]: executing diffoscope
+[2023-07-23 07:50:39] INFO root fetch - processPackages [MedicalImageConverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MedicalImageConverter-1.0.0.tar.gz tmp/MedicalImageConverter-1.0.1.tar.gz --markdown 20230723/M/MedicalImageConverter/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-23 07:50:39] INFO root fetch - processPackages [pyiaacsync]: executing diffoscope
+[2023-07-23 07:50:39] INFO root fetch - processPackages [pyiaacsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiaacsync-0.5.tar.gz tmp/pyiaacsync-0.6.tar.gz --markdown 20230723/p/pyiaacsync/0.5-0.6/diff.md --exclude *.pyd
+[2023-07-23 07:50:40] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.8.tar.gz]
+[2023-07-23 07:50:40] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.9.tar.gz]
+[2023-07-23 07:50:40] INFO root fetch - main [MainThread]: End processing [plutous-trade-crypto]: success
+[2023-07-23 07:50:40] INFO root fetch - processPackages [pyiaacsync]: Remove: archive file [/home/abi/fetcher/tmp/pyiaacsync-0.5.tar.gz]
+[2023-07-23 07:50:40] INFO root fetch - processPackages [pyiaacsync]: Remove: archive file [/home/abi/fetcher/tmp/pyiaacsync-0.6.tar.gz]
+[2023-07-23 07:50:40] INFO root fetch - main [MainThread]: End processing [pyiaacsync]: success
+[2023-07-23 07:50:40] INFO root fetch - processPackages [MedicalImageConverter]: Remove: archive file [/home/abi/fetcher/tmp/MedicalImageConverter-1.0.0.tar.gz]
+[2023-07-23 07:50:40] INFO root fetch - processPackages [MedicalImageConverter]: Remove: archive file [/home/abi/fetcher/tmp/MedicalImageConverter-1.0.1.tar.gz]
+[2023-07-23 07:50:40] INFO root fetch - main [MainThread]: End processing [MedicalImageConverter]: success
+[2023-07-23 07:50:40] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.2.8.tar.gz]
+[2023-07-23 07:50:40] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.3.0.tar.gz]
+[2023-07-23 07:50:40] INFO root fetch - main [MainThread]: End processing [autopack-tools]: success
+[2023-07-23 07:50:40] INFO root fetch - main [MainThread]: Store serial: [18999741]
