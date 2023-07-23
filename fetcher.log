@@ -8084,3 +8084,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 14:41:59] INFO root fetch - processPackages [DuHast]: Remove: archive file [/home/abi/fetcher/tmp/DuHast-0.0.7.tar.gz]
 [2023-07-23 14:41:59] INFO root fetch - main [MainThread]: End processing [DuHast]: success
 [2023-07-23 14:41:59] INFO root fetch - main [MainThread]: Store serial: [19001509]
+[2023-07-23 14:47:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19001509]
+[2023-07-23 14:47:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-23 14:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: threads-py-wrapper
+[2023-07-23 14:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ns-asphalt9
+[2023-07-23 14:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorcircuit-nightly
+[2023-07-23 14:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zzq-string-sum
+[2023-07-23 14:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RapidMangaDL
+[2023-07-23 14:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: threads-py-wrapper
+[2023-07-23 14:47:08] INFO root fetch - processPackages [ns-asphalt9]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-23 14:47:08] WARNING root fetch - processPackages [threads-py-wrapper]: Skipping, unable to determine old version
+[2023-07-23 14:47:08] INFO root fetch - main [MainThread]: End processing [threads-py-wrapper] error
+[2023-07-23 14:47:08] INFO root fetch - processPackages [RapidMangaDL]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-23 14:47:08] WARNING root fetch - processPackages [threads-py-wrapper]: Skipping, unable to determine old version
+[2023-07-23 14:47:08] INFO root fetch - main [MainThread]: End processing [threads-py-wrapper] error
+[2023-07-23 14:47:08] WARNING root fetch - processPackages [zzq-string-sum]: Skipping, unable to determine old version
+[2023-07-23 14:47:08] INFO root fetch - main [MainThread]: End processing [zzq-string-sum] error
+[2023-07-23 14:47:08] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2023-07-23 14:47:08] INFO root fetch - processPackages [RapidMangaDL]: Downloading https://files.pythonhosted.org/packages/33/f6/d31899e6a6f69e50d97d2332a1c30d93cf9a58ac7d40bd03891402220984/RapidMangaDL-0.2.1.tar.gz
+[2023-07-23 14:47:08] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2023-07-23 14:47:08] INFO root fetch - processPackages [ns-asphalt9]: Downloading https://files.pythonhosted.org/packages/f2/f9/b7530db177b2685423581efcf5cae728661dce18698ff7fa03bb60f55516/ns_asphalt9-0.1.5.tar.gz
+[2023-07-23 14:47:09] INFO root fetch - processPackages [RapidMangaDL]: Downloading https://files.pythonhosted.org/packages/a6/d3/464afb52cebd0856efd4c6bab6a3ffed4ace269d788f7455ede2c6dd2d4b/RapidMangaDL-0.2.2.tar.gz
+[2023-07-23 14:47:09] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2023-07-23 14:47:09] INFO root fetch - processPackages [RapidMangaDL]: executing diffoscope
+[2023-07-23 14:47:09] INFO root fetch - processPackages [RapidMangaDL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RapidMangaDL-0.2.1.tar.gz tmp/RapidMangaDL-0.2.2.tar.gz --markdown 20230723/R/RapidMangaDL/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-23 14:47:09] INFO root fetch - processPackages [ns-asphalt9]: Downloading https://files.pythonhosted.org/packages/40/4a/e64655f532d5572f467f56fc63abe6a97476f65d1348d28b36b725d071e3/ns_asphalt9-0.1.6.tar.gz
+[2023-07-23 14:47:09] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-07-23 14:47:09] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20230723/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/diff.md --exclude *.pyd
+[2023-07-23 14:47:09] INFO root fetch - processPackages [ns-asphalt9]: executing diffoscope
+[2023-07-23 14:47:09] INFO root fetch - processPackages [ns-asphalt9]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ns_asphalt9-0.1.5.tar.gz tmp/ns_asphalt9-0.1.6.tar.gz --markdown 20230723/n/ns-asphalt9/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-23 14:47:10] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-0.1.5.tar.gz]
+[2023-07-23 14:47:10] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-0.1.6.tar.gz]
+[2023-07-23 14:47:10] INFO root fetch - main [MainThread]: End processing [ns-asphalt9]: success
+[2023-07-23 14:47:10] INFO root fetch - processPackages [RapidMangaDL]: Remove: archive file [/home/abi/fetcher/tmp/RapidMangaDL-0.2.1.tar.gz]
+[2023-07-23 14:47:10] INFO root fetch - processPackages [RapidMangaDL]: Remove: archive file [/home/abi/fetcher/tmp/RapidMangaDL-0.2.2.tar.gz]
+[2023-07-23 14:47:10] INFO root fetch - main [MainThread]: End processing [RapidMangaDL]: success
+[2023-07-23 14:47:10] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2023-07-23 14:47:10] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2023-07-23 14:47:10] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-07-23 14:47:10] INFO root fetch - main [MainThread]: Store serial: [19001580]
