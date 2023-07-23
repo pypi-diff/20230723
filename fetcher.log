@@ -5013,3 +5013,99 @@
 [2023-07-23 10:06:43] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.1.dev20230722.tar.gz]
 [2023-07-23 10:06:43] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2023-07-23 10:06:43] INFO root fetch - main [MainThread]: Store serial: [19000164]
+[2023-07-23 10:11:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19000164]
+[2023-07-23 10:11:51] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-23 10:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bagbag
+[2023-07-23 10:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dd8
+[2023-07-23 10:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wow-ai-mms
+[2023-07-23 10:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: multicloud-diagrams
+[2023-07-23 10:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ontogpt
+[2023-07-23 10:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: discoger
+[2023-07-23 10:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jsodb
+[2023-07-23 10:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rsa-encryptor
+[2023-07-23 10:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ssh-terminal-manager
+[2023-07-23 10:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: suanpan-sprt
+[2023-07-23 10:11:51] INFO root fetch - processPackages [ssh-terminal-manager]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-23 10:11:51] INFO root fetch - processPackages [multicloud-diagrams]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-23 10:11:51] WARNING root fetch - processPackages [rsa-encryptor]: Skipping, unable to determine old version
+[2023-07-23 10:11:51] INFO root fetch - processPackages [rsa-encryptor]: Start processing: Print-Tricks-And-More-Alpha
+[2023-07-23 10:11:51] INFO root fetch - main [MainThread]: End processing [rsa-encryptor] error
+[2023-07-23 10:11:52] INFO root fetch - processPackages [wow-ai-mms]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-23 10:11:52] INFO root fetch - processPackages [dd8]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 10:11:52] INFO root fetch - processPackages [bagbag]: New version: [0.61.4] Old Version: [0.61.3]
+[2023-07-23 10:11:52] INFO root fetch - processPackages [jsodb]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-23 10:11:52] INFO root fetch - processPackages [ontogpt]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-23 10:11:52] INFO root fetch - processPackages [suanpan-sprt]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-07-23 10:11:52] INFO root fetch - processPackages [discoger]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-07-23 10:11:52] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: New version: [0.3.82] Old Version: [0.3.80]
+[2023-07-23 10:11:52] INFO root fetch - processPackages [wow-ai-mms]: Downloading https://files.pythonhosted.org/packages/f2/3b/fc089c70354adad648a0b237831ea88c4c6b7b8e161e16ebc53569e66f80/wow_ai_mms-0.1.7.tar.gz
+[2023-07-23 10:11:52] INFO root fetch - processPackages [dd8]: Downloading https://files.pythonhosted.org/packages/90/22/61643b792c55a61680e4f212b8ac0a05fb4a9e38c45307f97737c57df0e1/dd8-0.0.8.tar.gz
+[2023-07-23 10:11:52] INFO root fetch - processPackages [jsodb]: Downloading https://files.pythonhosted.org/packages/97/84/94e0d6c498b4c77ca203c2beb9d12898b70912b1fe5476dad9d20396ca1c/jsodb-1.0.0.tar.gz
+[2023-07-23 10:11:52] INFO root fetch - processPackages [ssh-terminal-manager]: Downloading https://files.pythonhosted.org/packages/0b/74/93d4ba7b571dc6f3e054391f36abfb10be3f002cfb0210b70445ffe983db/ssh_terminal_manager-0.9.1.tar.gz
+[2023-07-23 10:11:52] INFO root fetch - processPackages [multicloud-diagrams]: Downloading https://files.pythonhosted.org/packages/d2/30/06780293f7bdd42d4592888df59b94e3b83ffed9daa37b97bfc06a46e5f5/multicloud_diagrams-0.3.3.tar.gz
+[2023-07-23 10:11:52] INFO root fetch - processPackages [discoger]: Downloading https://files.pythonhosted.org/packages/6c/89/badd85ca9540d5cbe2d1be387fdc36d2d5781da9e3b9960eba28fa82fd3d/discoger-2.1.0.tar.gz
+[2023-07-23 10:11:52] INFO root fetch - processPackages [suanpan-sprt]: Downloading https://files.pythonhosted.org/packages/71/be/61e5808f273eff77e5c36acf34ac66a36fcb965f4203193b70cc2935384c/suanpan-sprt-0.6.6.tar.gz
+[2023-07-23 10:11:52] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/df/2c/54416e2c9a28a3d2187c3e9177b1234c04d7ebde884322002084aa4c8506/bagbag-0.61.3.tar.gz
+[2023-07-23 10:11:52] INFO root fetch - processPackages [ontogpt]: Downloading https://files.pythonhosted.org/packages/93/6e/b67b71573793ffac0eff9bbe757d402a6168f681aa53e1953ea9d7976f94/ontogpt-0.2.8.tar.gz
+[2023-07-23 10:11:52] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Downloading https://files.pythonhosted.org/packages/05/47/96b735439b837bb33541260e0ab716b852589e9c514942968923d6f3d1fc/Print_Tricks_And_More_Alpha-0.3.80-py3-none-any.whl
+[2023-07-23 10:11:52] INFO root fetch - processPackages [wow-ai-mms]: Downloading https://files.pythonhosted.org/packages/c0/c0/e1fe3e6a4155ca16f99739bbc48b11e878ab3746ae0d7fd085fdc949dc75/wow_ai_mms-0.1.8.tar.gz
+[2023-07-23 10:11:52] INFO root fetch - processPackages [dd8]: Downloading https://files.pythonhosted.org/packages/d4/b4/e348d6b4bac1a04838f7530033ea58b4f1b7612caeb5f5fde2086227eae2/dd8-0.0.9.tar.gz
+[2023-07-23 10:11:52] INFO root fetch - processPackages [jsodb]: Downloading https://files.pythonhosted.org/packages/93/da/28f2c7d843113756aca84f3b6f00aae4f1b596fd7be36c0ee17f9c12ed5c/jsodb-1.0.1.tar.gz
+[2023-07-23 10:11:52] INFO root fetch - processPackages [ssh-terminal-manager]: Downloading https://files.pythonhosted.org/packages/51/79/62090e09d3a26a18eb4b0eefc00ce8e254a921d3d24cc0bfd04e103af6ff/ssh_terminal_manager-0.9.2.tar.gz
+[2023-07-23 10:11:52] INFO root fetch - processPackages [discoger]: Downloading https://files.pythonhosted.org/packages/03/2e/735d9aa0813d3998bac43b4a6cb202349b908f3c5d54fa4345d551719418/discoger-2.1.1.tar.gz
+[2023-07-23 10:11:52] INFO root fetch - processPackages [multicloud-diagrams]: Downloading https://files.pythonhosted.org/packages/3c/4a/c1c90b979197b50186b6e451cdf12bc80d0d2b8aa061ae3cd9f00aa8180b/multicloud_diagrams-0.3.4.tar.gz
+[2023-07-23 10:11:52] INFO root fetch - processPackages [jsodb]: executing diffoscope
+[2023-07-23 10:11:52] INFO root fetch - processPackages [jsodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsodb-1.0.0.tar.gz tmp/jsodb-1.0.1.tar.gz --markdown 20230723/j/jsodb/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-23 10:11:52] INFO root fetch - processPackages [suanpan-sprt]: Downloading https://files.pythonhosted.org/packages/9b/bb/7032c17a82b0381a5659fdfb3f20b69ad2f7a8e45fb358232a962cf32201/suanpan-sprt-0.6.7.tar.gz
+[2023-07-23 10:11:52] INFO root fetch - processPackages [ssh-terminal-manager]: executing diffoscope
+[2023-07-23 10:11:52] INFO root fetch - processPackages [ssh-terminal-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_terminal_manager-0.9.1.tar.gz tmp/ssh_terminal_manager-0.9.2.tar.gz --markdown 20230723/s/ssh-terminal-manager/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-23 10:11:52] INFO root fetch - processPackages [dd8]: executing diffoscope
+[2023-07-23 10:11:52] INFO root fetch - processPackages [dd8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dd8-0.0.8.tar.gz tmp/dd8-0.0.9.tar.gz --markdown 20230723/d/dd8/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 10:11:52] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/f3/b7/b666ed9489228b63ad159c0eb795dd0857c83bef3f43cc4517b3eac2c6b8/bagbag-0.61.4.tar.gz
+[2023-07-23 10:11:52] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Downloading https://files.pythonhosted.org/packages/f7/33/c3054b8f202466e272d996cf45e456c296dd13f9cefacfcc24eb9eaf46a5/Print_Tricks_And_More_Alpha-0.3.82-py3-none-any.whl
+[2023-07-23 10:11:52] INFO root fetch - processPackages [wow-ai-mms]: executing diffoscope
+[2023-07-23 10:11:52] INFO root fetch - processPackages [wow-ai-mms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wow_ai_mms-0.1.7.tar.gz tmp/wow_ai_mms-0.1.8.tar.gz --markdown 20230723/w/wow-ai-mms/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-23 10:11:52] INFO root fetch - processPackages [multicloud-diagrams]: executing diffoscope
+[2023-07-23 10:11:52] INFO root fetch - processPackages [multicloud-diagrams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multicloud_diagrams-0.3.3.tar.gz tmp/multicloud_diagrams-0.3.4.tar.gz --markdown 20230723/m/multicloud-diagrams/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-23 10:11:52] INFO root fetch - processPackages [discoger]: executing diffoscope
+[2023-07-23 10:11:52] INFO root fetch - processPackages [discoger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discoger-2.1.0.tar.gz tmp/discoger-2.1.1.tar.gz --markdown 20230723/d/discoger/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-07-23 10:11:53] INFO root fetch - processPackages [suanpan-sprt]: executing diffoscope
+[2023-07-23 10:11:53] INFO root fetch - processPackages [suanpan-sprt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suanpan-sprt-0.6.6.tar.gz tmp/suanpan-sprt-0.6.7.tar.gz --markdown 20230723/s/suanpan-sprt/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-07-23 10:11:53] INFO root fetch - processPackages [ontogpt]: Downloading https://files.pythonhosted.org/packages/76/97/20927cd6c95752eaa4be62169ed08f9373edbac66e16a1511d7cf2273976/ontogpt-0.2.9.tar.gz
+[2023-07-23 10:11:53] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-07-23 10:11:53] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.61.3.tar.gz tmp/bagbag-0.61.4.tar.gz --markdown 20230723/b/bagbag/0.61.3-0.61.4/diff.md --exclude *.pyd
+[2023-07-23 10:11:53] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: executing diffoscope
+[2023-07-23 10:11:53] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Print_Tricks_And_More_Alpha-0.3.80-py3-none-any.whl.zip tmp/Print_Tricks_And_More_Alpha-0.3.82-py3-none-any.whl.zip --markdown 20230723/P/Print-Tricks-And-More-Alpha/0.3.80-0.3.82/diff.md --exclude *.pyd
+[2023-07-23 10:11:53] INFO root fetch - processPackages [ontogpt]: executing diffoscope
+[2023-07-23 10:11:53] INFO root fetch - processPackages [ontogpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ontogpt-0.2.8.tar.gz tmp/ontogpt-0.2.9.tar.gz --markdown 20230723/o/ontogpt/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-23 10:11:54] INFO root fetch - processPackages [jsodb]: Remove: archive file [/home/abi/fetcher/tmp/jsodb-1.0.0.tar.gz]
+[2023-07-23 10:11:54] INFO root fetch - processPackages [jsodb]: Remove: archive file [/home/abi/fetcher/tmp/jsodb-1.0.1.tar.gz]
+[2023-07-23 10:11:54] INFO root fetch - main [MainThread]: End processing [jsodb]: success
+[2023-07-23 10:11:54] INFO root fetch - processPackages [ssh-terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/ssh_terminal_manager-0.9.1.tar.gz]
+[2023-07-23 10:11:54] INFO root fetch - processPackages [ssh-terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/ssh_terminal_manager-0.9.2.tar.gz]
+[2023-07-23 10:11:54] INFO root fetch - main [MainThread]: End processing [ssh-terminal-manager]: success
+[2023-07-23 10:11:54] INFO root fetch - processPackages [discoger]: Remove: archive file [/home/abi/fetcher/tmp/discoger-2.1.0.tar.gz]
+[2023-07-23 10:11:54] INFO root fetch - processPackages [discoger]: Remove: archive file [/home/abi/fetcher/tmp/discoger-2.1.1.tar.gz]
+[2023-07-23 10:11:54] INFO root fetch - main [MainThread]: End processing [discoger]: success
+[2023-07-23 10:11:54] INFO root fetch - processPackages [dd8]: Remove: archive file [/home/abi/fetcher/tmp/dd8-0.0.8.tar.gz]
+[2023-07-23 10:11:54] INFO root fetch - processPackages [dd8]: Remove: archive file [/home/abi/fetcher/tmp/dd8-0.0.9.tar.gz]
+[2023-07-23 10:11:54] INFO root fetch - main [MainThread]: End processing [dd8]: success
+[2023-07-23 10:11:54] INFO root fetch - processPackages [suanpan-sprt]: Remove: archive file [/home/abi/fetcher/tmp/suanpan-sprt-0.6.6.tar.gz]
+[2023-07-23 10:11:54] INFO root fetch - processPackages [suanpan-sprt]: Remove: archive file [/home/abi/fetcher/tmp/suanpan-sprt-0.6.7.tar.gz]
+[2023-07-23 10:11:54] INFO root fetch - main [MainThread]: End processing [suanpan-sprt]: success
+[2023-07-23 10:11:54] INFO root fetch - processPackages [multicloud-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/multicloud_diagrams-0.3.3.tar.gz]
+[2023-07-23 10:11:54] INFO root fetch - processPackages [multicloud-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/multicloud_diagrams-0.3.4.tar.gz]
+[2023-07-23 10:11:54] INFO root fetch - main [MainThread]: End processing [multicloud-diagrams]: success
+[2023-07-23 10:11:54] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Remove: archive file [/home/abi/fetcher/tmp/Print_Tricks_And_More_Alpha-0.3.80-py3-none-any.whl.zip]
+[2023-07-23 10:11:54] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Remove: archive file [/home/abi/fetcher/tmp/Print_Tricks_And_More_Alpha-0.3.82-py3-none-any.whl.zip]
+[2023-07-23 10:11:54] INFO root fetch - main [MainThread]: End processing [Print-Tricks-And-More-Alpha]: success
+[2023-07-23 10:11:55] INFO root fetch - processPackages [ontogpt]: Remove: archive file [/home/abi/fetcher/tmp/ontogpt-0.2.8.tar.gz]
+[2023-07-23 10:11:55] INFO root fetch - processPackages [ontogpt]: Remove: archive file [/home/abi/fetcher/tmp/ontogpt-0.2.9.tar.gz]
+[2023-07-23 10:11:55] INFO root fetch - main [MainThread]: End processing [ontogpt]: success
+[2023-07-23 10:11:55] INFO root fetch - processPackages [wow-ai-mms]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_mms-0.1.7.tar.gz]
+[2023-07-23 10:11:55] INFO root fetch - processPackages [wow-ai-mms]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_mms-0.1.8.tar.gz]
+[2023-07-23 10:11:55] INFO root fetch - main [MainThread]: End processing [wow-ai-mms]: success
+[2023-07-23 10:11:55] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.3.tar.gz]
+[2023-07-23 10:11:55] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.4.tar.gz]
+[2023-07-23 10:11:55] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-07-23 10:11:55] INFO root fetch - main [MainThread]: Store serial: [19000198]
