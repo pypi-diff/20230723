@@ -6323,3 +6323,66 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 12:08:50] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-07-23 12:08:50] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-07-23 12:08:50] INFO root fetch - main [MainThread]: Store serial: [19000649]
+[2023-07-23 12:13:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19000649]
+[2023-07-23 12:13:58] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-23 12:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jsodb
+[2023-07-23 12:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vyxal
+[2023-07-23 12:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adafri
+[2023-07-23 12:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-l10n-es-aeat
+[2023-07-23 12:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edist
+[2023-07-23 12:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yabci
+[2023-07-23 12:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py-newcalls
+[2023-07-23 12:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kube-ops
+[2023-07-23 12:13:59] INFO root fetch - processPackages [jsodb]: New version: [1.5.0] Old Version: [1.0.1]
+[2023-07-23 12:13:59] INFO root fetch - processPackages [adafri]: New version: [0.0.51] Old Version: [0.0.50]
+[2023-07-23 12:13:59] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat]: New version: [14.0.3.0.2.dev5] Old Version: [14.0.3.0.2.dev4]
+[2023-07-23 12:13:59] INFO root fetch - processPackages [edist]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-23 12:13:59] WARNING root fetch - processPackages [kube-ops]: Skipping, unable to determine old version
+[2023-07-23 12:13:59] INFO root fetch - main [MainThread]: End processing [kube-ops] error
+[2023-07-23 12:13:59] WARNING root fetch - processPackages [py-newcalls]: Skipping, unable to determine old version
+[2023-07-23 12:13:59] INFO root fetch - main [MainThread]: End processing [py-newcalls] error
+[2023-07-23 12:13:59] INFO root fetch - processPackages [vyxal]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-07-23 12:13:59] INFO root fetch - processPackages [yabci]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-23 12:13:59] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/03/e0/f4f904da14c7cbdbd2f442967d5ec8815dd7cd3c82de061be9b0f7e8628a/adafri-0.0.50.tar.gz
+[2023-07-23 12:13:59] INFO root fetch - processPackages [jsodb]: Downloading https://files.pythonhosted.org/packages/93/da/28f2c7d843113756aca84f3b6f00aae4f1b596fd7be36c0ee17f9c12ed5c/jsodb-1.0.1.tar.gz
+[2023-07-23 12:13:59] INFO root fetch - processPackages [edist]: Downloading https://files.pythonhosted.org/packages/84/76/52651ebb3b0fffec613457a8412cb0aec793c9b2ab5924898f710bb1f057/edist-1.2.0.tar.gz
+[2023-07-23 12:13:59] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat]: Downloading https://files.pythonhosted.org/packages/58/eb/b9a37595f63940113bf043c6071992d6ee45f57456732c02841541358864/odoo14_addon_l10n_es_aeat-14.0.3.0.2.dev4-py3-none-any.whl
+[2023-07-23 12:13:59] INFO root fetch - processPackages [vyxal]: Downloading https://files.pythonhosted.org/packages/df/34/a9313887f0e45965697911af82da491ce6ab3d9b9692419bc9d28e55edae/vyxal-2.9.0.tar.gz
+[2023-07-23 12:13:59] INFO root fetch - processPackages [yabci]: Downloading https://files.pythonhosted.org/packages/f0/b0/347e96a4adbd67a2673affb0817e7d90f907be9a1f39488f66af8e454477/yabci-0.1.1.tar.gz
+[2023-07-23 12:13:59] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/bc/39/345be5d686a509b1981269c2a9c721d780a61e193a2ad5c20d99cb310d64/adafri-0.0.51.tar.gz
+[2023-07-23 12:13:59] INFO root fetch - processPackages [jsodb]: Downloading https://files.pythonhosted.org/packages/00/9c/38f02b70fb40e08b26a505dbad2a7486894c40429663bb042bc62ff261d5/jsodb-1.5.0.tar.gz
+[2023-07-23 12:13:59] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-23 12:13:59] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.50.tar.gz tmp/adafri-0.0.51.tar.gz --markdown 20230723/a/adafri/0.0.50-0.0.51/diff.md --exclude *.pyd
+[2023-07-23 12:14:00] INFO root fetch - processPackages [vyxal]: Downloading https://files.pythonhosted.org/packages/50/63/1746c2cccb187042ae5cc09caa52fd1fb83b4e37b2533d5d7dbcf041841a/vyxal-2.9.1.tar.gz
+[2023-07-23 12:14:00] INFO root fetch - processPackages [yabci]: Downloading https://files.pythonhosted.org/packages/2b/ec/7f76317f5e7c90610001032b0d929d03a35891f03d9c74290669c89dd304/yabci-0.2.0.tar.gz
+[2023-07-23 12:14:00] INFO root fetch - processPackages [jsodb]: executing diffoscope
+[2023-07-23 12:14:00] INFO root fetch - processPackages [jsodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsodb-1.0.1.tar.gz tmp/jsodb-1.5.0.tar.gz --markdown 20230723/j/jsodb/1.0.1-1.5.0/diff.md --exclude *.pyd
+[2023-07-23 12:14:00] INFO root fetch - processPackages [edist]: Downloading https://files.pythonhosted.org/packages/83/b6/5fdf4d6221afeea9d68101b94b8c51807fd585a5910bcb79418c63b7f0b3/edist-1.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl
+[2023-07-23 12:14:00] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat]: Downloading https://files.pythonhosted.org/packages/09/e4/8d7e32da8c2db251a57968aa993d04308778e1138930b19d23b500bb87af/odoo14_addon_l10n_es_aeat-14.0.3.0.2.dev5-py3-none-any.whl
+[2023-07-23 12:14:00] INFO root fetch - processPackages [vyxal]: executing diffoscope
+[2023-07-23 12:14:00] INFO root fetch - processPackages [vyxal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vyxal-2.9.0.tar.gz tmp/vyxal-2.9.1.tar.gz --markdown 20230723/v/vyxal/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-07-23 12:14:00] INFO root fetch - processPackages [yabci]: executing diffoscope
+[2023-07-23 12:14:00] INFO root fetch - processPackages [yabci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yabci-0.1.1.tar.gz tmp/yabci-0.2.0.tar.gz --markdown 20230723/y/yabci/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-23 12:14:00] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat]: executing diffoscope
+[2023-07-23 12:14:00] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_es_aeat-14.0.3.0.2.dev4-py3-none-any.whl.zip tmp/odoo14_addon_l10n_es_aeat-14.0.3.0.2.dev5-py3-none-any.whl.zip --markdown 20230723/o/odoo14-addon-l10n-es-aeat/14.0.3.0.2.dev4-14.0.3.0.2.dev5/diff.md --exclude *.pyd
+[2023-07-23 12:14:00] INFO root fetch - processPackages [edist]: executing diffoscope
+[2023-07-23 12:14:00] INFO root fetch - processPackages [edist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edist-1.2.0.tar.gz tmp/edist-1.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl.zip --markdown 20230723/e/edist/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-23 12:14:00] INFO root fetch - processPackages [jsodb]: Remove: archive file [/home/abi/fetcher/tmp/jsodb-1.0.1.tar.gz]
+[2023-07-23 12:14:00] INFO root fetch - processPackages [jsodb]: Remove: archive file [/home/abi/fetcher/tmp/jsodb-1.5.0.tar.gz]
+[2023-07-23 12:14:00] INFO root fetch - main [MainThread]: End processing [jsodb]: success
+[2023-07-23 12:14:01] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.50.tar.gz]
+[2023-07-23 12:14:01] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.51.tar.gz]
+[2023-07-23 12:14:01] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-23 12:14:01] INFO root fetch - processPackages [yabci]: Remove: archive file [/home/abi/fetcher/tmp/yabci-0.1.1.tar.gz]
+[2023-07-23 12:14:01] INFO root fetch - processPackages [yabci]: Remove: archive file [/home/abi/fetcher/tmp/yabci-0.2.0.tar.gz]
+[2023-07-23 12:14:01] INFO root fetch - main [MainThread]: End processing [yabci]: success
+[2023-07-23 12:14:01] INFO root fetch - processPackages [vyxal]: Remove: archive file [/home/abi/fetcher/tmp/vyxal-2.9.0.tar.gz]
+[2023-07-23 12:14:01] INFO root fetch - processPackages [vyxal]: Remove: archive file [/home/abi/fetcher/tmp/vyxal-2.9.1.tar.gz]
+[2023-07-23 12:14:01] INFO root fetch - main [MainThread]: End processing [vyxal]: success
+[2023-07-23 12:14:01] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_aeat-14.0.3.0.2.dev4-py3-none-any.whl.zip]
+[2023-07-23 12:14:01] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_aeat-14.0.3.0.2.dev5-py3-none-any.whl.zip]
+[2023-07-23 12:14:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-es-aeat]: success
+[2023-07-23 12:14:02] INFO root fetch - processPackages [edist]: Remove: archive file [/home/abi/fetcher/tmp/edist-1.2.0.tar.gz]
+[2023-07-23 12:14:02] INFO root fetch - processPackages [edist]: Remove: archive file [/home/abi/fetcher/tmp/edist-1.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl.zip]
+[2023-07-23 12:14:02] INFO root fetch - main [MainThread]: End processing [edist]: success
+[2023-07-23 12:14:02] INFO root fetch - main [MainThread]: Store serial: [19000694]
