@@ -9199,3 +9199,78 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 16:08:49] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-07-23 16:08:49] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-07-23 16:08:49] INFO root fetch - main [MainThread]: Store serial: [19002208]
+[2023-07-23 16:13:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19002208]
+[2023-07-23 16:13:58] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-23 16:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: studentanalysis-pckg
+[2023-07-23 16:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: drmeter
+[2023-07-23 16:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MarsGT
+[2023-07-23 16:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bisectlib
+[2023-07-23 16:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlx-batis
+[2023-07-23 16:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zhei-init
+[2023-07-23 16:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vision-models-playground
+[2023-07-23 16:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eo-styleguide
+[2023-07-23 16:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bridgecrew
+[2023-07-23 16:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mohamedpdfpython
+[2023-07-23 16:13:58] INFO root fetch - processPackages [vision-models-playground]: New version: [0.2.2] Old Version: [0.2.0]
+[2023-07-23 16:13:58] INFO root fetch - processPackages [studentanalysis-pckg]: New version: [1.0.0] Old Version: [0.1.2]
+[2023-07-23 16:13:58] INFO root fetch - processPackages [MarsGT]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-23 16:13:58] WARNING root fetch - processPackages [bisectlib]: Skipping, unable to determine old version
+[2023-07-23 16:13:58] INFO root fetch - main [MainThread]: End processing [bisectlib] error
+[2023-07-23 16:13:58] WARNING root fetch - processPackages [zhei-init]: Skipping, unable to determine old version
+[2023-07-23 16:13:58] INFO root fetch - main [MainThread]: End processing [zhei-init] error
+[2023-07-23 16:13:58] INFO root fetch - processPackages [sqlx-batis]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-23 16:13:58] INFO root fetch - processPackages [drmeter]: New version: [0.2.0a1] Old Version: [0.2.0a0]
+[2023-07-23 16:13:58] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-23 16:13:58] INFO root fetch - processPackages [eo-styleguide]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2023-07-23 16:13:58] INFO root fetch - processPackages [vision-models-playground]: Downloading https://files.pythonhosted.org/packages/15/14/eb3d21b162fdfb9e799b8e9317c60bfc9879d7f43f503555e66cfd956e37/vision_models_playground-0.2.0.tar.gz
+[2023-07-23 16:13:58] WARNING root fetch - processPackages [mohamedpdfpython]: Skipping, unable to determine old version
+[2023-07-23 16:13:58] INFO root fetch - main [MainThread]: End processing [mohamedpdfpython] error
+[2023-07-23 16:13:58] INFO root fetch - processPackages [sqlx-batis]: Downloading https://files.pythonhosted.org/packages/de/56/ffb0b36de13efd7cae21faf906be843d1cfaaec5b949ff19df9dfc2a2689/sqlx-batis-0.0.5.tar.gz
+[2023-07-23 16:13:58] INFO root fetch - processPackages [studentanalysis-pckg]: Downloading https://files.pythonhosted.org/packages/a9/60/da46fa1db8e47855e9bf0344c30ddbefa345f64f025ffd5de881a1f3830c/studentanalysis_pckg-0.1.2.tar.gz
+[2023-07-23 16:13:58] INFO root fetch - processPackages [MarsGT]: Downloading https://files.pythonhosted.org/packages/5d/4e/c372800fc0433d7818d58c36c2e525a360db0cf338a619809471403f3fc5/MarsGT-0.1.8.tar.gz
+[2023-07-23 16:13:58] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-07-23 16:13:58] INFO root fetch - processPackages [drmeter]: Downloading https://files.pythonhosted.org/packages/93/2d/74ae46a4995012c3df9d83150bd192a351dd4cb8101015ac1a1b0d8b603a/drmeter-0.2.0a0.tar.gz
+[2023-07-23 16:13:58] INFO root fetch - processPackages [eo-styleguide]: Downloading https://files.pythonhosted.org/packages/4e/d1/35d528da09b46926d984289d4dccfc88810beeb25d0cbe75ea19d0c28731/eo_styleguide-0.0.1a1.tar.gz
+[2023-07-23 16:13:59] INFO root fetch - processPackages [vision-models-playground]: Downloading https://files.pythonhosted.org/packages/2b/59/df93547917b9045aa460a283eba987156eec0b82bf92fc0175737d2c48c9/vision_models_playground-0.2.2.tar.gz
+[2023-07-23 16:13:59] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-07-23 16:13:59] INFO root fetch - processPackages [sqlx-batis]: Downloading https://files.pythonhosted.org/packages/57/38/3fdf6e61ad46c8e8f255cd72c7749b2af971b47a3d25c9f4779be43172b7/sqlx-batis-0.0.6.tar.gz
+[2023-07-23 16:13:59] INFO root fetch - processPackages [studentanalysis-pckg]: Downloading https://files.pythonhosted.org/packages/d8/8e/9f8a33db319ddb95d6e3c7971707d00c65d8ed2c4a80a0d7908d8159673c/studentanalysis_pckg-1.0.0.tar.gz
+[2023-07-23 16:13:59] INFO root fetch - processPackages [MarsGT]: Downloading https://files.pythonhosted.org/packages/aa/98/8e52b3bc9c7173c75f95512f33b20298ff871829319a6d56a73324c205fd/MarsGT-0.1.9.tar.gz
+[2023-07-23 16:13:59] INFO root fetch - processPackages [vision-models-playground]: executing diffoscope
+[2023-07-23 16:13:59] INFO root fetch - processPackages [vision-models-playground]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision_models_playground-0.2.0.tar.gz tmp/vision_models_playground-0.2.2.tar.gz --markdown 20230723/v/vision-models-playground/0.2.0-0.2.2/diff.md --exclude *.pyd
+[2023-07-23 16:13:59] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-07-23 16:13:59] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230723/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-23 16:13:59] INFO root fetch - processPackages [drmeter]: Downloading https://files.pythonhosted.org/packages/23/2f/1e43d1dcde083964370fc069f299480f2c4cd974cb5f46200edf1f226395/drmeter-0.2.0a1.tar.gz
+[2023-07-23 16:13:59] INFO root fetch - processPackages [eo-styleguide]: Downloading https://files.pythonhosted.org/packages/27/b1/69389d87d27ab55b30802c6453cc3fd3ee67a011668cf96d2c1e97e72c6d/eo_styleguide-0.0.1a2.tar.gz
+[2023-07-23 16:13:59] INFO root fetch - processPackages [sqlx-batis]: executing diffoscope
+[2023-07-23 16:13:59] INFO root fetch - processPackages [sqlx-batis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-batis-0.0.5.tar.gz tmp/sqlx-batis-0.0.6.tar.gz --markdown 20230723/s/sqlx-batis/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-23 16:13:59] INFO root fetch - processPackages [studentanalysis-pckg]: executing diffoscope
+[2023-07-23 16:13:59] INFO root fetch - processPackages [studentanalysis-pckg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/studentanalysis_pckg-0.1.2.tar.gz tmp/studentanalysis_pckg-1.0.0.tar.gz --markdown 20230723/s/studentanalysis-pckg/0.1.2-1.0.0/diff.md --exclude *.pyd
+[2023-07-23 16:13:59] INFO root fetch - processPackages [MarsGT]: executing diffoscope
+[2023-07-23 16:13:59] INFO root fetch - processPackages [MarsGT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MarsGT-0.1.8.tar.gz tmp/MarsGT-0.1.9.tar.gz --markdown 20230723/M/MarsGT/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-23 16:13:59] INFO root fetch - processPackages [drmeter]: executing diffoscope
+[2023-07-23 16:13:59] INFO root fetch - processPackages [drmeter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drmeter-0.2.0a0.tar.gz tmp/drmeter-0.2.0a1.tar.gz --markdown 20230723/d/drmeter/0.2.0a0-0.2.0a1/diff.md --exclude *.pyd
+[2023-07-23 16:13:59] INFO root fetch - processPackages [eo-styleguide]: executing diffoscope
+[2023-07-23 16:13:59] INFO root fetch - processPackages [eo-styleguide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eo_styleguide-0.0.1a1.tar.gz tmp/eo_styleguide-0.0.1a2.tar.gz --markdown 20230723/e/eo-styleguide/0.0.1a1-0.0.1a2/diff.md --exclude *.pyd
+[2023-07-23 16:14:00] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-07-23 16:14:00] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-07-23 16:14:00] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-07-23 16:14:00] INFO root fetch - processPackages [MarsGT]: Remove: archive file [/home/abi/fetcher/tmp/MarsGT-0.1.8.tar.gz]
+[2023-07-23 16:14:00] INFO root fetch - processPackages [MarsGT]: Remove: archive file [/home/abi/fetcher/tmp/MarsGT-0.1.9.tar.gz]
+[2023-07-23 16:14:00] INFO root fetch - main [MainThread]: End processing [MarsGT]: success
+[2023-07-23 16:14:00] INFO root fetch - processPackages [studentanalysis-pckg]: Remove: archive file [/home/abi/fetcher/tmp/studentanalysis_pckg-0.1.2.tar.gz]
+[2023-07-23 16:14:00] INFO root fetch - processPackages [studentanalysis-pckg]: Remove: archive file [/home/abi/fetcher/tmp/studentanalysis_pckg-1.0.0.tar.gz]
+[2023-07-23 16:14:00] INFO root fetch - main [MainThread]: End processing [studentanalysis-pckg]: success
+[2023-07-23 16:14:00] INFO root fetch - processPackages [sqlx-batis]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-batis-0.0.5.tar.gz]
+[2023-07-23 16:14:00] INFO root fetch - processPackages [sqlx-batis]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-batis-0.0.6.tar.gz]
+[2023-07-23 16:14:00] INFO root fetch - main [MainThread]: End processing [sqlx-batis]: success
+[2023-07-23 16:14:00] INFO root fetch - processPackages [eo-styleguide]: Remove: archive file [/home/abi/fetcher/tmp/eo_styleguide-0.0.1a1.tar.gz]
+[2023-07-23 16:14:00] INFO root fetch - processPackages [eo-styleguide]: Remove: archive file [/home/abi/fetcher/tmp/eo_styleguide-0.0.1a2.tar.gz]
+[2023-07-23 16:14:00] INFO root fetch - main [MainThread]: End processing [eo-styleguide]: success
+[2023-07-23 16:14:00] INFO root fetch - processPackages [drmeter]: Remove: archive file [/home/abi/fetcher/tmp/drmeter-0.2.0a0.tar.gz]
+[2023-07-23 16:14:00] INFO root fetch - processPackages [drmeter]: Remove: archive file [/home/abi/fetcher/tmp/drmeter-0.2.0a1.tar.gz]
+[2023-07-23 16:14:00] INFO root fetch - main [MainThread]: End processing [drmeter]: success
+[2023-07-23 16:14:00] INFO root fetch - processPackages [vision-models-playground]: Remove: archive file [/home/abi/fetcher/tmp/vision_models_playground-0.2.0.tar.gz]
+[2023-07-23 16:14:00] INFO root fetch - processPackages [vision-models-playground]: Remove: archive file [/home/abi/fetcher/tmp/vision_models_playground-0.2.2.tar.gz]
+[2023-07-23 16:14:00] INFO root fetch - main [MainThread]: End processing [vision-models-playground]: success
+[2023-07-23 16:14:00] INFO root fetch - main [MainThread]: Store serial: [19002248]
