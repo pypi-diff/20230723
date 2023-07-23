@@ -3207,3 +3207,9 @@
 [2023-07-23 06:05:50] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.8.2.tar.gz]
 [2023-07-23 06:05:50] INFO root fetch - main [MainThread]: End processing [hyfi]: success
 [2023-07-23 06:05:50] INFO root fetch - main [MainThread]: Store serial: [18999394]
+[2023-07-23 06:10:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999394]
+[2023-07-23 06:10:58] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-23 06:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MedicalImageConverter
+[2023-07-23 06:10:58] WARNING root fetch - processPackages [MedicalImageConverter]: Skipping, unable to determine old version
+[2023-07-23 06:10:58] INFO root fetch - main [MainThread]: End processing [MedicalImageConverter] error
+[2023-07-23 06:10:58] INFO root fetch - main [MainThread]: Store serial: [18999398]
