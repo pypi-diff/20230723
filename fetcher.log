@@ -7857,3 +7857,92 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 14:26:24] INFO root fetch - processPackages [leap-model-parser]: Remove: archive file [/home/abi/fetcher/tmp/leap_model_parser-0.1.99.tar.gz]
 [2023-07-23 14:26:24] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
 [2023-07-23 14:26:24] INFO root fetch - main [MainThread]: Store serial: [19001422]
+[2023-07-23 14:31:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19001422]
+[2023-07-23 14:31:33] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-23 14:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metacat
+[2023-07-23 14:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: IDsys
+[2023-07-23 14:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyntweb
+[2023-07-23 14:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wodoo
+[2023-07-23 14:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omgpt
+[2023-07-23 14:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ipc-worker
+[2023-07-23 14:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dl2050utils
+[2023-07-23 14:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spotRiver
+[2023-07-23 14:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-supporter
+[2023-07-23 14:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tf-nightly-intel
+[2023-07-23 14:31:33] INFO root fetch - processPackages [pyntweb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-23 14:31:33] INFO root fetch - processPackages [ipc-worker]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 14:31:33] INFO root fetch - processPackages [IDsys]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-23 14:31:33] INFO root fetch - processPackages [omgpt]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 14:31:33] INFO root fetch - processPackages [wodoo]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-23 14:31:33] INFO root fetch - processPackages [metacat]: New version: [3.9.7] Old Version: [3.9.3]
+[2023-07-23 14:31:33] INFO root fetch - processPackages [dl2050utils]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-23 14:31:33] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.14.0.dev20230722] Old Version: [2.14.0.dev20230721]
+[2023-07-23 14:31:33] INFO root fetch - processPackages [spotRiver]: New version: [0.0.96] Old Version: [0.0.95]
+[2023-07-23 14:31:33] INFO root fetch - processPackages [python-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 14:31:33] INFO root fetch - processPackages [pyntweb]: Downloading https://files.pythonhosted.org/packages/2e/55/9fdd0c128f6126b0e1fb8dd2733eec6f7d04710d7d70ee998115c2fa03ef/pyntweb-0.2.8.tar.gz
+[2023-07-23 14:31:33] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/d1/0d/40fcbb95a79ffeb1feeec49c437ef8c17cf84cb0dc069bd7f6480caabb1c/tf_nightly_intel-2.14.0.dev20230721-cp39-cp39-win_amd64.whl
+[2023-07-23 14:31:33] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c2/11/20896420a2b6842cdae9b98b4642b86f62277734141db689849e79713875/dl2050utils-1.0.98.tar.gz
+[2023-07-23 14:31:33] INFO root fetch - processPackages [IDsys]: Downloading https://files.pythonhosted.org/packages/33/9f/a35031340039d2a505be60982994bb75258c18e0ac0f687c36eb39bc6312/IDsys-0.0.6.tar.gz
+[2023-07-23 14:31:33] INFO root fetch - processPackages [omgpt]: Downloading https://files.pythonhosted.org/packages/95/9b/1f4bcb2ba7c25dcf306fda6c086584232a3f7ab060058477dbe21ed0663e/omgpt-0.0.8.tar.gz
+[2023-07-23 14:31:33] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 183383848>=10485760
+[2023-07-23 14:31:33] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-07-23 14:31:33] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/f1/e5/4eaf4bac81e606caa8deb3d95f64c8de95dc532f6bd16aef12de595f56cc/wodoo-0.4.8.tar.gz
+[2023-07-23 14:31:33] INFO root fetch - processPackages [ipc-worker]: Downloading https://files.pythonhosted.org/packages/dc/d0/e7ffca827f728ce00fa2fadde8662e61f3a5673ea48298f919f2fcdb2e23/ipc_worker-0.0.8-py3-none-any.whl
+[2023-07-23 14:31:33] INFO root fetch - processPackages [spotRiver]: Downloading https://files.pythonhosted.org/packages/38/7d/fce421b2af327293b2489e5e97b84c0397eb7606f7fa0ca76c2cc655c8df/spotRiver-0.0.95.tar.gz
+[2023-07-23 14:31:33] INFO root fetch - processPackages [metacat]: Downloading https://files.pythonhosted.org/packages/4a/31/d019768326dd3b2718563959b56741b78fd0b15812f494a3112dc44da9f8/metacat-3.9.3.tar.gz
+[2023-07-23 14:31:33] INFO root fetch - processPackages [python-supporter]: Downloading https://files.pythonhosted.org/packages/7b/6f/98c23a37675c8704d9b0b2bb757ff68a237bf1233e54456d2f47b8f60fc5/python-supporter-0.0.8.tar.gz
+[2023-07-23 14:31:34] INFO root fetch - processPackages [IDsys]: Downloading https://files.pythonhosted.org/packages/37/b9/307f0ba6ac3aeed0db7064aa3f8612b9122793ede834d0602056bd4b5ae2/IDsys-0.0.7.tar.gz
+[2023-07-23 14:31:34] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c9/17/6752cfb2e56bf2902e5a751d8b67ff3c1642fb0d69b3207b81fb5c311ea5/dl2050utils-1.0.99.tar.gz
+[2023-07-23 14:31:34] INFO root fetch - processPackages [omgpt]: Downloading https://files.pythonhosted.org/packages/36/eb/1b49802490ac705759227f8e6b347150ec116fa24ee9361cac7fee64566a/omgpt-0.0.9.tar.gz
+[2023-07-23 14:31:34] INFO root fetch - processPackages [IDsys]: executing diffoscope
+[2023-07-23 14:31:34] INFO root fetch - processPackages [IDsys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IDsys-0.0.6.tar.gz tmp/IDsys-0.0.7.tar.gz --markdown 20230723/I/IDsys/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-23 14:31:34] INFO root fetch - processPackages [ipc-worker]: Downloading https://files.pythonhosted.org/packages/24/2a/e820f8e6e4b69f029d773ec6775f9a54e5178c2b7cf2f633a3a4e7f8599f/ipc_worker-0.0.9-py3-none-any.whl
+[2023-07-23 14:31:34] INFO root fetch - processPackages [dl2050utils]: executing diffoscope
+[2023-07-23 14:31:34] INFO root fetch - processPackages [dl2050utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl2050utils-1.0.98.tar.gz tmp/dl2050utils-1.0.99.tar.gz --markdown 20230723/d/dl2050utils/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-23 14:31:34] INFO root fetch - processPackages [spotRiver]: Downloading https://files.pythonhosted.org/packages/d0/d0/3f35da51ecfbe749802ee51ab36c5300680ee335e7b62e5a8d29746df388/spotRiver-0.0.96.tar.gz
+[2023-07-23 14:31:34] INFO root fetch - processPackages [metacat]: Downloading https://files.pythonhosted.org/packages/a9/23/e6deadccc70eaf893a8122c1353cfe96a594314c27fefbae9ca3b880279e/metacat-3.9.7.tar.gz
+[2023-07-23 14:31:34] INFO root fetch - processPackages [pyntweb]: Downloading https://files.pythonhosted.org/packages/68/76/9710407be69a495a5e8f803078c9a0974413ebeb4f49e1bf7b63684a43bd/pyntweb-0.2.9.tar.gz
+[2023-07-23 14:31:34] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/34/e8/81686b3a77a0edae554159a95e4782f911bd4ea59a2990954162a6b1e97e/wodoo-0.4.9.tar.gz
+[2023-07-23 14:31:34] INFO root fetch - processPackages [omgpt]: executing diffoscope
+[2023-07-23 14:31:34] INFO root fetch - processPackages [omgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omgpt-0.0.8.tar.gz tmp/omgpt-0.0.9.tar.gz --markdown 20230723/o/omgpt/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 14:31:34] INFO root fetch - processPackages [ipc-worker]: executing diffoscope
+[2023-07-23 14:31:34] INFO root fetch - processPackages [ipc-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipc_worker-0.0.8-py3-none-any.whl.zip tmp/ipc_worker-0.0.9-py3-none-any.whl.zip --markdown 20230723/i/ipc-worker/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 14:31:34] INFO root fetch - processPackages [pyntweb]: executing diffoscope
+[2023-07-23 14:31:34] INFO root fetch - processPackages [pyntweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyntweb-0.2.8.tar.gz tmp/pyntweb-0.2.9.tar.gz --markdown 20230723/p/pyntweb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-23 14:31:34] INFO root fetch - processPackages [metacat]: executing diffoscope
+[2023-07-23 14:31:34] INFO root fetch - processPackages [metacat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metacat-3.9.3.tar.gz tmp/metacat-3.9.7.tar.gz --markdown 20230723/m/metacat/3.9.3-3.9.7/diff.md --exclude *.pyd
+[2023-07-23 14:31:34] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-07-23 14:31:34] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.4.8.tar.gz tmp/wodoo-0.4.9.tar.gz --markdown 20230723/w/wodoo/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-23 14:31:34] INFO root fetch - processPackages [spotRiver]: executing diffoscope
+[2023-07-23 14:31:34] INFO root fetch - processPackages [spotRiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotRiver-0.0.95.tar.gz tmp/spotRiver-0.0.96.tar.gz --markdown 20230723/s/spotRiver/0.0.95-0.0.96/diff.md --exclude *.pyd
+[2023-07-23 14:31:34] INFO root fetch - processPackages [python-supporter]: Downloading https://files.pythonhosted.org/packages/46/5a/b86299eadff25b47d4094f9437467e39ed8b1b422fdc8c0b0bfcd6f5770e/python-supporter-0.0.9.tar.gz
+[2023-07-23 14:31:35] INFO root fetch - processPackages [python-supporter]: executing diffoscope
+[2023-07-23 14:31:35] INFO root fetch - processPackages [python-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-supporter-0.0.8.tar.gz tmp/python-supporter-0.0.9.tar.gz --markdown 20230723/p/python-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 14:31:35] INFO root fetch - processPackages [IDsys]: Remove: archive file [/home/abi/fetcher/tmp/IDsys-0.0.6.tar.gz]
+[2023-07-23 14:31:35] INFO root fetch - processPackages [IDsys]: Remove: archive file [/home/abi/fetcher/tmp/IDsys-0.0.7.tar.gz]
+[2023-07-23 14:31:35] INFO root fetch - main [MainThread]: End processing [IDsys]: success
+[2023-07-23 14:31:35] INFO root fetch - processPackages [dl2050utils]: Remove: archive file [/home/abi/fetcher/tmp/dl2050utils-1.0.98.tar.gz]
+[2023-07-23 14:31:35] INFO root fetch - processPackages [dl2050utils]: Remove: archive file [/home/abi/fetcher/tmp/dl2050utils-1.0.99.tar.gz]
+[2023-07-23 14:31:35] INFO root fetch - main [MainThread]: End processing [dl2050utils]: success
+[2023-07-23 14:31:35] INFO root fetch - processPackages [omgpt]: Remove: archive file [/home/abi/fetcher/tmp/omgpt-0.0.8.tar.gz]
+[2023-07-23 14:31:35] INFO root fetch - processPackages [omgpt]: Remove: archive file [/home/abi/fetcher/tmp/omgpt-0.0.9.tar.gz]
+[2023-07-23 14:31:35] INFO root fetch - main [MainThread]: End processing [omgpt]: success
+[2023-07-23 14:31:35] INFO root fetch - processPackages [ipc-worker]: Remove: archive file [/home/abi/fetcher/tmp/ipc_worker-0.0.8-py3-none-any.whl.zip]
+[2023-07-23 14:31:35] INFO root fetch - processPackages [ipc-worker]: Remove: archive file [/home/abi/fetcher/tmp/ipc_worker-0.0.9-py3-none-any.whl.zip]
+[2023-07-23 14:31:35] INFO root fetch - main [MainThread]: End processing [ipc-worker]: success
+[2023-07-23 14:31:35] INFO root fetch - processPackages [pyntweb]: Remove: archive file [/home/abi/fetcher/tmp/pyntweb-0.2.8.tar.gz]
+[2023-07-23 14:31:35] INFO root fetch - processPackages [pyntweb]: Remove: archive file [/home/abi/fetcher/tmp/pyntweb-0.2.9.tar.gz]
+[2023-07-23 14:31:35] INFO root fetch - main [MainThread]: End processing [pyntweb]: success
+[2023-07-23 14:31:35] INFO root fetch - processPackages [spotRiver]: Remove: archive file [/home/abi/fetcher/tmp/spotRiver-0.0.95.tar.gz]
+[2023-07-23 14:31:35] INFO root fetch - processPackages [spotRiver]: Remove: archive file [/home/abi/fetcher/tmp/spotRiver-0.0.96.tar.gz]
+[2023-07-23 14:31:35] INFO root fetch - main [MainThread]: End processing [spotRiver]: success
+[2023-07-23 14:31:36] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.8.tar.gz]
+[2023-07-23 14:31:36] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.9.tar.gz]
+[2023-07-23 14:31:36] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-07-23 14:31:36] INFO root fetch - processPackages [metacat]: Remove: archive file [/home/abi/fetcher/tmp/metacat-3.9.3.tar.gz]
+[2023-07-23 14:31:36] INFO root fetch - processPackages [metacat]: Remove: archive file [/home/abi/fetcher/tmp/metacat-3.9.7.tar.gz]
+[2023-07-23 14:31:36] INFO root fetch - main [MainThread]: End processing [metacat]: success
+[2023-07-23 14:31:36] INFO root fetch - processPackages [python-supporter]: Remove: archive file [/home/abi/fetcher/tmp/python-supporter-0.0.8.tar.gz]
+[2023-07-23 14:31:36] INFO root fetch - processPackages [python-supporter]: Remove: archive file [/home/abi/fetcher/tmp/python-supporter-0.0.9.tar.gz]
+[2023-07-23 14:31:36] INFO root fetch - main [MainThread]: End processing [python-supporter]: success
+[2023-07-23 14:31:36] INFO root fetch - main [MainThread]: Store serial: [19001447]
