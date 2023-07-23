@@ -2406,3 +2406,60 @@
 [2023-07-23 04:31:56] INFO root fetch - processPackages [AutoQPF]: Remove: archive file [/home/abi/fetcher/tmp/AutoQPF-0.1.3.tar.gz]
 [2023-07-23 04:31:56] INFO root fetch - main [MainThread]: End processing [AutoQPF]: success
 [2023-07-23 04:31:56] INFO root fetch - main [MainThread]: Store serial: [18999043]
+[2023-07-23 04:36:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999043]
+[2023-07-23 04:37:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-23 04:37:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: naif-eop-high-prec
+[2023-07-23 04:37:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coola
+[2023-07-23 04:37:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easy-local-features
+[2023-07-23 04:37:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: brainpy
+[2023-07-23 04:37:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iam-actions
+[2023-07-23 04:37:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: monailabel-weekly
+[2023-07-23 04:37:04] INFO root fetch - processPackages [coola]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 04:37:04] INFO root fetch - processPackages [brainpy]: New version: [2.4.3] Old Version: [2.4.2]
+[2023-07-23 04:37:04] INFO root fetch - processPackages [easy-local-features]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-23 04:37:04] INFO root fetch - processPackages [monailabel-weekly]: New version: [0.5.dev2330] Old Version: [0.5.dev2329]
+[2023-07-23 04:37:04] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-23 04:37:04] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230723] Old Version: [1.2.20230722]
+[2023-07-23 04:37:05] INFO root fetch - processPackages [coola]: Downloading https://files.pythonhosted.org/packages/ca/0c/e47f7fdc6f34e79ff4ab3b21c0ef7b7f32f62be0255411f914475666fb8c/coola-0.0.8.tar.gz
+[2023-07-23 04:37:05] INFO root fetch - processPackages [easy-local-features]: Downloading https://files.pythonhosted.org/packages/8d/43/7147717997176c6f667cd421730459add7a8f0cc9b127c1199925be25ba5/easy_local_features-0.3.5.tar.gz
+[2023-07-23 04:37:05] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/09/ed/7488d5d961ce08546f5ee7ced9b28382ede88767e23d898f7a089dbd5065/naif_eop_high_prec-2023.7.8.tar.gz
+[2023-07-23 04:37:05] INFO root fetch - processPackages [brainpy]: Downloading https://files.pythonhosted.org/packages/bd/eb/a0fc22fd116f201259e551b4aafc6ae5336d05a156a9fae77f59ff24c21d/brainpy-2.4.2-py3-none-any.whl
+[2023-07-23 04:37:05] INFO root fetch - processPackages [monailabel-weekly]: Downloading https://files.pythonhosted.org/packages/46/f5/fb069a77360150212d04ba2f29dfed4b1826bb718c154d11292c94134488/monailabel_weekly-0.5.dev2329-py3-none-any.whl
+[2023-07-23 04:37:05] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/a5/33/2d8552a6f949ab795eda309a43de94060250d3f1c65ca852a4f29e9917de/iam_actions-1.2.20230722.tar.gz
+[2023-07-23 04:37:05] INFO root fetch - processPackages [coola]: Downloading https://files.pythonhosted.org/packages/67/49/16dce5b5e529dd9625489d79e8f5d3f192bb6a514bfb92247ce5198fda1a/coola-0.0.9.tar.gz
+[2023-07-23 04:37:05] INFO root fetch - processPackages [coola]: executing diffoscope
+[2023-07-23 04:37:05] INFO root fetch - processPackages [coola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coola-0.0.8.tar.gz tmp/coola-0.0.9.tar.gz --markdown 20230723/c/coola/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 04:37:05] INFO root fetch - processPackages [easy-local-features]: Downloading https://files.pythonhosted.org/packages/e7/94/43fcff7793089c97d2ed5732781500df6f830fb7ec202cc91c698589d837/easy_local_features-0.3.6.tar.gz
+[2023-07-23 04:37:05] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/a2/f8/57853410d5affd1adacbfb12a5d90596ba94081ec97e3ffc215261ba9fea/naif_eop_high_prec-2023.7.9.tar.gz
+[2023-07-23 04:37:05] INFO root fetch - processPackages [brainpy]: Downloading https://files.pythonhosted.org/packages/9b/83/0a883827a6eb8a7dd2e37d54323cf83ce7bbc89f9a923b24ff6e265f6423/brainpy-2.4.3-py3-none-any.whl
+[2023-07-23 04:37:05] INFO root fetch - processPackages [easy-local-features]: executing diffoscope
+[2023-07-23 04:37:05] INFO root fetch - processPackages [easy-local-features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_local_features-0.3.5.tar.gz tmp/easy_local_features-0.3.6.tar.gz --markdown 20230723/e/easy-local-features/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-23 04:37:05] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/96/85/7f8163ac3c0f73e900af86162d998908be57a58e90192030f2a7d968698c/iam_actions-1.2.20230723.tar.gz
+[2023-07-23 04:37:05] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-07-23 04:37:05] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.7.8.tar.gz tmp/naif_eop_high_prec-2023.7.9.tar.gz --markdown 20230723/n/naif-eop-high-prec/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-23 04:37:05] INFO root fetch - processPackages [brainpy]: executing diffoscope
+[2023-07-23 04:37:05] INFO root fetch - processPackages [brainpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainpy-2.4.2-py3-none-any.whl.zip tmp/brainpy-2.4.3-py3-none-any.whl.zip --markdown 20230723/b/brainpy/2.4.2-2.4.3/diff.md --exclude *.pyd
+[2023-07-23 04:37:05] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-07-23 04:37:05] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230722.tar.gz tmp/iam_actions-1.2.20230723.tar.gz --markdown 20230723/i/iam-actions/1.2.20230722-1.2.20230723/diff.md --exclude *.pyd
+[2023-07-23 04:37:06] INFO root fetch - processPackages [coola]: Remove: archive file [/home/abi/fetcher/tmp/coola-0.0.8.tar.gz]
+[2023-07-23 04:37:06] INFO root fetch - processPackages [coola]: Remove: archive file [/home/abi/fetcher/tmp/coola-0.0.9.tar.gz]
+[2023-07-23 04:37:06] INFO root fetch - main [MainThread]: End processing [coola]: success
+[2023-07-23 04:37:06] INFO root fetch - processPackages [easy-local-features]: Remove: archive file [/home/abi/fetcher/tmp/easy_local_features-0.3.5.tar.gz]
+[2023-07-23 04:37:06] INFO root fetch - processPackages [easy-local-features]: Remove: archive file [/home/abi/fetcher/tmp/easy_local_features-0.3.6.tar.gz]
+[2023-07-23 04:37:06] INFO root fetch - main [MainThread]: End processing [easy-local-features]: success
+[2023-07-23 04:37:06] INFO root fetch - processPackages [monailabel-weekly]: Downloading https://files.pythonhosted.org/packages/54/7a/39e67e681140433726668f7b27cec878f667c19500f6cc885da55690f035/monailabel_weekly-0.5.dev2330-py3-none-any.whl
+[2023-07-23 04:37:07] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230722.tar.gz]
+[2023-07-23 04:37:07] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230723.tar.gz]
+[2023-07-23 04:37:07] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-07-23 04:37:08] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.8.tar.gz]
+[2023-07-23 04:37:08] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.9.tar.gz]
+[2023-07-23 04:37:08] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-07-23 04:37:08] INFO root fetch - processPackages [brainpy]: Remove: archive file [/home/abi/fetcher/tmp/brainpy-2.4.2-py3-none-any.whl.zip]
+[2023-07-23 04:37:08] INFO root fetch - processPackages [brainpy]: Remove: archive file [/home/abi/fetcher/tmp/brainpy-2.4.3-py3-none-any.whl.zip]
+[2023-07-23 04:37:08] INFO root fetch - main [MainThread]: End processing [brainpy]: success
+[2023-07-23 04:37:09] INFO root fetch - processPackages [monailabel-weekly]: executing diffoscope
+[2023-07-23 04:37:09] INFO root fetch - processPackages [monailabel-weekly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monailabel_weekly-0.5.dev2329-py3-none-any.whl.zip tmp/monailabel_weekly-0.5.dev2330-py3-none-any.whl.zip --markdown 20230723/m/monailabel-weekly/0.5.dev2329-0.5.dev2330/diff.md --exclude *.pyd
+[2023-07-23 04:37:12] INFO root fetch - processPackages [monailabel-weekly]: Remove: archive file [/home/abi/fetcher/tmp/monailabel_weekly-0.5.dev2329-py3-none-any.whl.zip]
+[2023-07-23 04:37:12] INFO root fetch - processPackages [monailabel-weekly]: Remove: archive file [/home/abi/fetcher/tmp/monailabel_weekly-0.5.dev2330-py3-none-any.whl.zip]
+[2023-07-23 04:37:12] INFO root fetch - main [MainThread]: End processing [monailabel-weekly]: success
+[2023-07-23 04:37:12] INFO root fetch - main [MainThread]: Store serial: [18999061]
