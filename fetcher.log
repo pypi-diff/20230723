@@ -1988,3 +1988,66 @@
 [2023-07-23 03:26:41] INFO root fetch - processPackages [django-outbox-menu]: Remove: archive file [/home/abi/fetcher/tmp/django-outbox-menu-1.0.9.tar.gz]
 [2023-07-23 03:26:41] INFO root fetch - main [MainThread]: End processing [django-outbox-menu]: success
 [2023-07-23 03:26:41] INFO root fetch - main [MainThread]: Store serial: [18998860]
+[2023-07-23 03:31:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18998860]
+[2023-07-23 03:31:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-23 03:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: say-hello1979
+[2023-07-23 03:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: volworld-aws-api-common
+[2023-07-23 03:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-layer-curl
+[2023-07-23 03:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ktkkt-downloader
+[2023-07-23 03:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyagrum-nightly
+[2023-07-23 03:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llamabot
+[2023-07-23 03:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scotthsieh-projen-statemachine
+[2023-07-23 03:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PG-SUI
+[2023-07-23 03:31:49] WARNING root fetch - processPackages [PG-SUI]: Skipping, unable to determine old version
+[2023-07-23 03:31:49] INFO root fetch - main [MainThread]: End processing [PG-SUI] error
+[2023-07-23 03:31:49] INFO root fetch - processPackages [ktkkt-downloader]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-23 03:31:49] INFO root fetch - processPackages [volworld-aws-api-common]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-23 03:31:49] WARNING root fetch - processPackages [say-hello1979]: Skipping, unable to determine old version
+[2023-07-23 03:31:49] INFO root fetch - main [MainThread]: End processing [say-hello1979] error
+[2023-07-23 03:31:49] INFO root fetch - processPackages [llamabot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 03:31:49] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-23 03:31:49] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-23 03:31:49] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.8.3.dev202306121686326557] Old Version: [1.8.3.dev202306111686326557]
+[2023-07-23 03:31:49] INFO root fetch - processPackages [ktkkt-downloader]: Downloading https://files.pythonhosted.org/packages/94/40/1bd18cc9e923318f39866cea95fde1660e6b2b3b612ec7ecd6c721b588e5/ktkkt-downloader-1.0.0.tar.gz
+[2023-07-23 03:31:49] INFO root fetch - processPackages [volworld-aws-api-common]: Downloading https://files.pythonhosted.org/packages/c7/82/7aefcc55e9d34309e43a1c4f62f535a10cbf84c23f14b0b54efb88505de6/volworld_aws_api_common-0.1.98.tar.gz
+[2023-07-23 03:31:49] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-07-23 03:31:49] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/75/2e/d50f8b081603ac850ec9b5d5d5206498a7d302b7a6ea31adbd59cb01a4ae/scotthsieh_projen_statemachine-2.0.98.tar.gz
+[2023-07-23 03:31:49] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/07/46/270b8b245feb59d5f249e10ced72a02b0db3ac8b574dbdc1c90e197d19b0/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl
+[2023-07-23 03:31:50] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/31/05/7d4721877f2dde80d5bd40c84773d24b5486a794e78758d5c6c51a0e0ee0/llamabot-0.0.8.tar.gz
+[2023-07-23 03:31:50] INFO root fetch - processPackages [ktkkt-downloader]: Downloading https://files.pythonhosted.org/packages/a9/90/bb05f56e780e07c5c51c204e4983ab00895813e6064b91fcb3813ee5134f/ktkkt-downloader-1.0.1.tar.gz
+[2023-07-23 03:31:50] INFO root fetch - processPackages [volworld-aws-api-common]: Downloading https://files.pythonhosted.org/packages/85/c0/0151fa36df35a94f04ec24e70e3a88eb186696b9f9258ee1d18d894c66d6/volworld_aws_api_common-0.1.99.tar.gz
+[2023-07-23 03:31:50] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/8d/5b/2a5beec8e0ad27c9cbe9feb5d73fadf98cf28ce1a01ad03f7abb00f14071/scotthsieh_projen_statemachine-2.0.99.tar.gz
+[2023-07-23 03:31:50] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-07-23 03:31:50] INFO root fetch - processPackages [volworld-aws-api-common]: executing diffoscope
+[2023-07-23 03:31:50] INFO root fetch - processPackages [volworld-aws-api-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volworld_aws_api_common-0.1.98.tar.gz tmp/volworld_aws_api_common-0.1.99.tar.gz --markdown 20230723/v/volworld-aws-api-common/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-23 03:31:50] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/8c/77/360013b912689bcadc9699ffbfd0c59717ab5c032c425ce8f661e39484f5/llamabot-0.0.9.tar.gz
+[2023-07-23 03:31:50] INFO root fetch - processPackages [ktkkt-downloader]: executing diffoscope
+[2023-07-23 03:31:50] INFO root fetch - processPackages [ktkkt-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ktkkt-downloader-1.0.0.tar.gz tmp/ktkkt-downloader-1.0.1.tar.gz --markdown 20230723/k/ktkkt-downloader/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-23 03:31:50] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/c0/d4/20a48d2f9b4e252fe76b5a7e22de84caa21e8f08934645676fb47376de73/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl
+[2023-07-23 03:31:50] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: executing diffoscope
+[2023-07-23 03:31:50] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz --markdown 20230723/s/scotthsieh-projen-statemachine/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-23 03:31:50] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-07-23 03:31:50] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230723/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-23 03:31:50] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-07-23 03:31:50] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip --markdown 20230723/p/pyagrum-nightly/1.8.3.dev202306111686326557-1.8.3.dev202306121686326557/diff.md --exclude *.pyd
+[2023-07-23 03:31:50] INFO root fetch - processPackages [llamabot]: executing diffoscope
+[2023-07-23 03:31:50] INFO root fetch - processPackages [llamabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamabot-0.0.8.tar.gz tmp/llamabot-0.0.9.tar.gz --markdown 20230723/l/llamabot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 03:31:51] INFO root fetch - processPackages [ktkkt-downloader]: Remove: archive file [/home/abi/fetcher/tmp/ktkkt-downloader-1.0.0.tar.gz]
+[2023-07-23 03:31:51] INFO root fetch - processPackages [ktkkt-downloader]: Remove: archive file [/home/abi/fetcher/tmp/ktkkt-downloader-1.0.1.tar.gz]
+[2023-07-23 03:31:51] INFO root fetch - main [MainThread]: End processing [ktkkt-downloader]: success
+[2023-07-23 03:31:51] INFO root fetch - processPackages [volworld-aws-api-common]: Remove: archive file [/home/abi/fetcher/tmp/volworld_aws_api_common-0.1.98.tar.gz]
+[2023-07-23 03:31:51] INFO root fetch - processPackages [volworld-aws-api-common]: Remove: archive file [/home/abi/fetcher/tmp/volworld_aws_api_common-0.1.99.tar.gz]
+[2023-07-23 03:31:51] INFO root fetch - main [MainThread]: End processing [volworld-aws-api-common]: success
+[2023-07-23 03:31:51] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.8.tar.gz]
+[2023-07-23 03:31:51] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.0.9.tar.gz]
+[2023-07-23 03:31:51] INFO root fetch - main [MainThread]: End processing [llamabot]: success
+[2023-07-23 03:31:51] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz]
+[2023-07-23 03:31:51] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz]
+[2023-07-23 03:31:51] INFO root fetch - main [MainThread]: End processing [scotthsieh-projen-statemachine]: success
+[2023-07-23 03:31:52] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-07-23 03:31:52] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-07-23 03:31:52] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-07-23 03:31:52] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-07-23 03:31:52] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-07-23 03:31:52] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-07-23 03:31:52] INFO root fetch - main [MainThread]: Store serial: [18998906]
