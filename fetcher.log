@@ -3083,3 +3083,24 @@
 [2023-07-23 05:50:17] INFO root fetch - processPackages [odoo-addon-intrastat-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_intrastat_product-16.0.1.1.0.1-py3-none-any.whl.zip]
 [2023-07-23 05:50:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-intrastat-product]: success
 [2023-07-23 05:50:17] INFO root fetch - main [MainThread]: Store serial: [18999320]
+[2023-07-23 05:55:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999320]
+[2023-07-23 05:55:26] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-23 05:55:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phylotrackpy
+[2023-07-23 05:55:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spiritlong
+[2023-07-23 05:55:26] INFO root fetch - processPackages [spiritlong]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 05:55:26] INFO root fetch - processPackages [phylotrackpy]: New version: [0.1.5] Old Version: [0.1.16]
+[2023-07-23 05:55:26] INFO root fetch - processPackages [phylotrackpy]: Downloading https://files.pythonhosted.org/packages/0a/58/8167337fde4abd584cb4dcba7764c5b384c8361d7fc6d0e4a59a290adeb9/phylotrackpy-0.1.16.tar.gz
+[2023-07-23 05:55:26] INFO root fetch - processPackages [spiritlong]: Downloading https://files.pythonhosted.org/packages/5e/d8/143d2ed94f71c39fb927d0d25ed1317ebd1a296f2a08fe7afc6bbe7a3421/spiritlong-0.0.8.tar.gz
+[2023-07-23 05:55:27] INFO root fetch - processPackages [phylotrackpy]: Downloading https://files.pythonhosted.org/packages/2f/73/f4e4b62711fd3e384d6b8314a0fff16b6c0b38790d464d8b7c4a110bd3e5/phylotrackpy-0.1.5.tar.gz
+[2023-07-23 05:55:27] INFO root fetch - processPackages [spiritlong]: Downloading https://files.pythonhosted.org/packages/69/03/0a73ef95ca97480a75a1e73ef622a4e6470aede2a9778b93c73b0020bd62/spiritlong-0.0.9.tar.gz
+[2023-07-23 05:55:27] INFO root fetch - processPackages [phylotrackpy]: executing diffoscope
+[2023-07-23 05:55:27] INFO root fetch - processPackages [phylotrackpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phylotrackpy-0.1.16.tar.gz tmp/phylotrackpy-0.1.5.tar.gz --markdown 20230723/p/phylotrackpy/0.1.16-0.1.5/diff.md --exclude *.pyd
+[2023-07-23 05:55:27] INFO root fetch - processPackages [spiritlong]: executing diffoscope
+[2023-07-23 05:55:27] INFO root fetch - processPackages [spiritlong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiritlong-0.0.8.tar.gz tmp/spiritlong-0.0.9.tar.gz --markdown 20230723/s/spiritlong/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 05:55:27] INFO root fetch - processPackages [phylotrackpy]: Remove: archive file [/home/abi/fetcher/tmp/phylotrackpy-0.1.16.tar.gz]
+[2023-07-23 05:55:27] INFO root fetch - processPackages [phylotrackpy]: Remove: archive file [/home/abi/fetcher/tmp/phylotrackpy-0.1.5.tar.gz]
+[2023-07-23 05:55:27] INFO root fetch - main [MainThread]: End processing [phylotrackpy]: success
+[2023-07-23 05:55:28] INFO root fetch - processPackages [spiritlong]: Remove: archive file [/home/abi/fetcher/tmp/spiritlong-0.0.8.tar.gz]
+[2023-07-23 05:55:28] INFO root fetch - processPackages [spiritlong]: Remove: archive file [/home/abi/fetcher/tmp/spiritlong-0.0.9.tar.gz]
+[2023-07-23 05:55:28] INFO root fetch - main [MainThread]: End processing [spiritlong]: success
+[2023-07-23 05:55:28] INFO root fetch - main [MainThread]: Store serial: [18999367]
