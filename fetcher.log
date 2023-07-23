@@ -6804,3 +6804,54 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 12:52:16] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-0.9.1.tar.gz]
 [2023-07-23 12:52:16] INFO root fetch - main [MainThread]: End processing [fastlane-bot]: success
 [2023-07-23 12:52:16] INFO root fetch - main [MainThread]: Store serial: [19000956]
+[2023-07-23 12:57:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19000956]
+[2023-07-23 12:57:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-23 12:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ovos-classifiers
+[2023-07-23 12:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bridgeapi
+[2023-07-23 12:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yolov8face
+[2023-07-23 12:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchhandy
+[2023-07-23 12:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rest-api-supporter
+[2023-07-23 12:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastlane-bot
+[2023-07-23 12:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: customs-tax
+[2023-07-23 12:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py-exec-wrapper
+[2023-07-23 12:57:25] WARNING root fetch - processPackages [bridgeapi]: Skipping, unable to determine old version
+[2023-07-23 12:57:25] INFO root fetch - main [MainThread]: End processing [bridgeapi] error
+[2023-07-23 12:57:25] WARNING root fetch - processPackages [yolov8face]: Skipping, unable to determine old version
+[2023-07-23 12:57:25] INFO root fetch - main [MainThread]: End processing [yolov8face] error
+[2023-07-23 12:57:25] INFO root fetch - processPackages [ovos-classifiers]: New version: [0.0.0a9] Old Version: [0.0.0a8]
+[2023-07-23 12:57:25] INFO root fetch - processPackages [torchhandy]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-23 12:57:25] INFO root fetch - processPackages [rest-api-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 12:57:25] INFO root fetch - processPackages [fastlane-bot]: New version: [0.9.1] Old Version: [0.8.1]
+[2023-07-23 12:57:25] WARNING root fetch - processPackages [customs-tax]: Skipping, unable to determine old version
+[2023-07-23 12:57:25] INFO root fetch - main [MainThread]: End processing [customs-tax] error
+[2023-07-23 12:57:25] WARNING root fetch - processPackages [py-exec-wrapper]: Skipping, unable to determine old version
+[2023-07-23 12:57:25] INFO root fetch - main [MainThread]: End processing [py-exec-wrapper] error
+[2023-07-23 12:57:25] INFO root fetch - processPackages [torchhandy]: Downloading https://files.pythonhosted.org/packages/c9/6a/56c1ad198ec3abf4aec7a88fdea3f9995a58a44fdc3ea32ba9af4e8a0952/torchhandy-0.0.5.tar.gz
+[2023-07-23 12:57:25] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/fa/07/1798ef60626da5772756f77a180b4a336563075959eb311df2cf4d7fa53d/fastlane_bot-0.8.1.tar.gz
+[2023-07-23 12:57:25] INFO root fetch - processPackages [rest-api-supporter]: Downloading https://files.pythonhosted.org/packages/f4/16/0c2fc27776d8257953b960eea527e7f83b54019b51fbb132e634d73c5c0e/rest-api-supporter-0.0.8.tar.gz
+[2023-07-23 12:57:25] INFO root fetch - processPackages [ovos-classifiers]: Downloading https://files.pythonhosted.org/packages/3d/bf/d7564ff0e1f7e3f0fb7eac8019535b1448a1007b085b5a972d8a879bcda5/ovos_classifiers-0.0.0a8-py3-none-any.whl
+[2023-07-23 12:57:25] INFO root fetch - processPackages [rest-api-supporter]: Downloading https://files.pythonhosted.org/packages/35/47/76da32bcf0507aa9dbf370e1c9e91408c29a80232299067f97883d4ef255/rest-api-supporter-0.0.9.tar.gz
+[2023-07-23 12:57:25] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/9d/66/79e822b1bdec857d9f5f826f119690d1215b832e32058c86e65fab6651c5/fastlane_bot-0.9.1.tar.gz
+[2023-07-23 12:57:25] INFO root fetch - processPackages [torchhandy]: Downloading https://files.pythonhosted.org/packages/ea/b2/d721725c742311b2173e31a7f0b3e3f7b24186de4905828d116db61c38c0/torchhandy-0.0.6.tar.gz
+[2023-07-23 12:57:25] INFO root fetch - processPackages [rest-api-supporter]: executing diffoscope
+[2023-07-23 12:57:25] INFO root fetch - processPackages [rest-api-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rest-api-supporter-0.0.8.tar.gz tmp/rest-api-supporter-0.0.9.tar.gz --markdown 20230723/r/rest-api-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 12:57:25] INFO root fetch - processPackages [fastlane-bot]: executing diffoscope
+[2023-07-23 12:57:25] INFO root fetch - processPackages [fastlane-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlane_bot-0.8.1.tar.gz tmp/fastlane_bot-0.9.1.tar.gz --markdown 20230723/f/fastlane-bot/0.8.1-0.9.1/diff.md --exclude *.pyd
+[2023-07-23 12:57:25] INFO root fetch - processPackages [torchhandy]: executing diffoscope
+[2023-07-23 12:57:25] INFO root fetch - processPackages [torchhandy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchhandy-0.0.5.tar.gz tmp/torchhandy-0.0.6.tar.gz --markdown 20230723/t/torchhandy/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-23 12:57:25] INFO root fetch - processPackages [ovos-classifiers]: Downloading https://files.pythonhosted.org/packages/de/c2/a7611d4080a75efee622171a47f6d2c86828139a54f8559166765f73f7de/ovos_classifiers-0.0.0a9-py3-none-any.whl
+[2023-07-23 12:57:26] INFO root fetch - processPackages [ovos-classifiers]: executing diffoscope
+[2023-07-23 12:57:26] INFO root fetch - processPackages [ovos-classifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_classifiers-0.0.0a8-py3-none-any.whl.zip tmp/ovos_classifiers-0.0.0a9-py3-none-any.whl.zip --markdown 20230723/o/ovos-classifiers/0.0.0a8-0.0.0a9/diff.md --exclude *.pyd
+[2023-07-23 12:57:26] INFO root fetch - processPackages [rest-api-supporter]: Remove: archive file [/home/abi/fetcher/tmp/rest-api-supporter-0.0.8.tar.gz]
+[2023-07-23 12:57:26] INFO root fetch - processPackages [rest-api-supporter]: Remove: archive file [/home/abi/fetcher/tmp/rest-api-supporter-0.0.9.tar.gz]
+[2023-07-23 12:57:26] INFO root fetch - main [MainThread]: End processing [rest-api-supporter]: success
+[2023-07-23 12:57:26] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-0.8.1.tar.gz]
+[2023-07-23 12:57:26] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-0.9.1.tar.gz]
+[2023-07-23 12:57:26] INFO root fetch - main [MainThread]: End processing [fastlane-bot]: success
+[2023-07-23 12:57:26] INFO root fetch - processPackages [torchhandy]: Remove: archive file [/home/abi/fetcher/tmp/torchhandy-0.0.5.tar.gz]
+[2023-07-23 12:57:26] INFO root fetch - processPackages [torchhandy]: Remove: archive file [/home/abi/fetcher/tmp/torchhandy-0.0.6.tar.gz]
+[2023-07-23 12:57:26] INFO root fetch - main [MainThread]: End processing [torchhandy]: success
+[2023-07-23 12:57:26] INFO root fetch - processPackages [ovos-classifiers]: Remove: archive file [/home/abi/fetcher/tmp/ovos_classifiers-0.0.0a8-py3-none-any.whl.zip]
+[2023-07-23 12:57:26] INFO root fetch - processPackages [ovos-classifiers]: Remove: archive file [/home/abi/fetcher/tmp/ovos_classifiers-0.0.0a9-py3-none-any.whl.zip]
+[2023-07-23 12:57:26] INFO root fetch - main [MainThread]: End processing [ovos-classifiers]: success
+[2023-07-23 12:57:26] INFO root fetch - main [MainThread]: Store serial: [19000985]
