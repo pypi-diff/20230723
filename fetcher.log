@@ -9331,3 +9331,65 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 16:19:13] INFO root fetch - processPackages [OctoBot-Trading]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Trading-2.4.9.tar.gz]
 [2023-07-23 16:19:13] INFO root fetch - main [MainThread]: End processing [OctoBot-Trading]: success
 [2023-07-23 16:19:13] INFO root fetch - main [MainThread]: Store serial: [19002269]
+[2023-07-23 16:24:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19002269]
+[2023-07-23 16:24:22] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-23 16:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2023-07-23 16:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2023-07-23 16:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zhei-init
+[2023-07-23 16:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dagshub
+[2023-07-23 16:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: my-ui-booking.com
+[2023-07-23 16:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zhei-init
+[2023-07-23 16:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: addonethousend
+[2023-07-23 16:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: punwrap
+[2023-07-23 16:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: my-ui-booking.com
+[2023-07-23 16:24:22] INFO root fetch - processPackages [my-ui-booking.com]: New version: [0.2] Old Version: [0.1]
+[2023-07-23 16:24:22] WARNING root fetch - processPackages [zhei-init]: Skipping, unable to determine old version
+[2023-07-23 16:24:22] WARNING root fetch - processPackages [zhei-init]: Skipping, unable to determine old version
+[2023-07-23 16:24:22] INFO root fetch - main [MainThread]: End processing [zhei-init] error
+[2023-07-23 16:24:22] INFO root fetch - main [MainThread]: End processing [zhei-init] error
+[2023-07-23 16:24:22] INFO root fetch - processPackages [my-ui-booking.com]: New version: [0.2] Old Version: [0.1]
+[2023-07-23 16:24:22] WARNING root fetch - processPackages [addonethousend]: Skipping, unable to determine old version
+[2023-07-23 16:24:22] INFO root fetch - main [MainThread]: End processing [addonethousend] error
+[2023-07-23 16:24:22] INFO root fetch - processPackages [punwrap]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-23 16:24:22] INFO root fetch - processPackages [dagshub]: New version: [0.2.9.post1] Old Version: [0.2.9]
+[2023-07-23 16:24:22] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-23 16:24:22] INFO root fetch - processPackages [my-ui-booking.com]: Downloading https://files.pythonhosted.org/packages/bf/0c/29551febd7cd7a42c0e4451b89878141a3d179d01f6bb5587a7b728ec8ab/my_ui_booking.com-0.1.tar.gz
+[2023-07-23 16:24:22] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-23 16:24:23] INFO root fetch - processPackages [my-ui-booking.com]: Downloading https://files.pythonhosted.org/packages/bf/0c/29551febd7cd7a42c0e4451b89878141a3d179d01f6bb5587a7b728ec8ab/my_ui_booking.com-0.1.tar.gz
+[2023-07-23 16:24:23] INFO root fetch - processPackages [punwrap]: Downloading https://files.pythonhosted.org/packages/46/9b/b38cfcbe40800dd5763d6ebdd8abc9c8b6ccb88911f25144a2c4f0ea422e/punwrap-0.2.1.tar.gz
+[2023-07-23 16:24:23] INFO root fetch - processPackages [dagshub]: Downloading https://files.pythonhosted.org/packages/0d/f8/a9f96c11255f07e3c042b56ad482d8facb9a0cbe224405ae2e237631c637/dagshub-0.2.9.tar.gz
+[2023-07-23 16:24:23] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-23 16:24:23] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-23 16:24:23] INFO root fetch - processPackages [my-ui-booking.com]: Downloading https://files.pythonhosted.org/packages/d7/8c/f689b30adb3477ac1a7b47225c2dab16870e844410a576fdd48a9bcdfd2d/my_ui_booking.com-0.2.tar.gz
+[2023-07-23 16:24:23] INFO root fetch - processPackages [my-ui-booking.com]: Downloading https://files.pythonhosted.org/packages/d7/8c/f689b30adb3477ac1a7b47225c2dab16870e844410a576fdd48a9bcdfd2d/my_ui_booking.com-0.2.tar.gz
+[2023-07-23 16:24:23] INFO root fetch - processPackages [my-ui-booking.com]: executing diffoscope
+[2023-07-23 16:24:23] INFO root fetch - processPackages [my-ui-booking.com]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my_ui_booking.com-0.1.tar.gz tmp/my_ui_booking.com-0.2.tar.gz --markdown 20230723/m/my-ui-booking.com/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-23 16:24:23] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-23 16:24:23] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-23 16:24:23] INFO root fetch - processPackages [punwrap]: Downloading https://files.pythonhosted.org/packages/28/d7/f552bf80bab3de37cae1a7ccaef2b82cf327db6beee320e8cf26d8e38498/punwrap-0.2.2.tar.gz
+[2023-07-23 16:24:23] INFO root fetch - processPackages [my-ui-booking.com]: executing diffoscope
+[2023-07-23 16:24:23] INFO root fetch - processPackages [my-ui-booking.com]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my_ui_booking.com-0.1.tar.gz tmp/my_ui_booking.com-0.2.tar.gz --markdown 20230723/m/my-ui-booking.com/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-23 16:24:23] INFO root fetch - processPackages [dagshub]: Downloading https://files.pythonhosted.org/packages/72/6a/c087876d5854a64299ca4ff5af3363883236b89d4e6d16b482cd5797d6ce/dagshub-0.2.9.post1-py3-none-any.whl
+[2023-07-23 16:24:23] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-23 16:24:23] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230723/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-23 16:24:23] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-23 16:24:23] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230723/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-23 16:24:23] INFO root fetch - processPackages [punwrap]: executing diffoscope
+[2023-07-23 16:24:23] INFO root fetch - processPackages [punwrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/punwrap-0.2.1.tar.gz tmp/punwrap-0.2.2.tar.gz --markdown 20230723/p/punwrap/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-23 16:24:23] INFO root fetch - processPackages [dagshub]: executing diffoscope
+[2023-07-23 16:24:23] INFO root fetch - processPackages [dagshub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagshub-0.2.9.tar.gz tmp/dagshub-0.2.9.post1-py3-none-any.whl.zip --markdown 20230723/d/dagshub/0.2.9-0.2.9.post1/diff.md --exclude *.pyd
+[2023-07-23 16:24:24] INFO root fetch - processPackages [my-ui-booking.com]: Remove: archive file [/home/abi/fetcher/tmp/my_ui_booking.com-0.1.tar.gz]
+[2023-07-23 16:24:24] INFO root fetch - processPackages [my-ui-booking.com]: Remove: archive file [/home/abi/fetcher/tmp/my_ui_booking.com-0.2.tar.gz]
+[2023-07-23 16:24:24] INFO root fetch - main [MainThread]: End processing [my-ui-booking.com]: success
+[2023-07-23 16:24:24] INFO root fetch - main [MainThread]: End processing [my-ui-booking.com]: success
+[2023-07-23 16:24:24] INFO root fetch - processPackages [dagshub]: Remove: archive file [/home/abi/fetcher/tmp/dagshub-0.2.9.tar.gz]
+[2023-07-23 16:24:24] INFO root fetch - processPackages [dagshub]: Remove: archive file [/home/abi/fetcher/tmp/dagshub-0.2.9.post1-py3-none-any.whl.zip]
+[2023-07-23 16:24:24] INFO root fetch - main [MainThread]: End processing [dagshub]: success
+[2023-07-23 16:24:24] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-23 16:24:24] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-23 16:24:24] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-23 16:24:24] INFO root fetch - processPackages [punwrap]: Remove: archive file [/home/abi/fetcher/tmp/punwrap-0.2.1.tar.gz]
+[2023-07-23 16:24:24] INFO root fetch - processPackages [punwrap]: Remove: archive file [/home/abi/fetcher/tmp/punwrap-0.2.2.tar.gz]
+[2023-07-23 16:24:24] INFO root fetch - main [MainThread]: End processing [punwrap]: success
+[2023-07-23 16:24:24] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-23 16:24:24] INFO root fetch - main [MainThread]: Store serial: [19002305]
