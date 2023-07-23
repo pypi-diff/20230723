@@ -3104,3 +3104,42 @@
 [2023-07-23 05:55:28] INFO root fetch - processPackages [spiritlong]: Remove: archive file [/home/abi/fetcher/tmp/spiritlong-0.0.9.tar.gz]
 [2023-07-23 05:55:28] INFO root fetch - main [MainThread]: End processing [spiritlong]: success
 [2023-07-23 05:55:28] INFO root fetch - main [MainThread]: Store serial: [18999367]
+[2023-07-23 06:00:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999367]
+[2023-07-23 06:00:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-23 06:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addons-oca-l10n-france
+[2023-07-23 06:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-fr-pos-caisse-ap-ip
+[2023-07-23 06:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-l10n-france
+[2023-07-23 06:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: evals-nightly
+[2023-07-23 06:00:36] INFO root fetch - processPackages [odoo14-addons-oca-l10n-france]: New version: [14.0.20230722.0] Old Version: [14.0.20230504.0]
+[2023-07-23 06:00:36] INFO root fetch - processPackages [odoo-addons-oca-l10n-france]: New version: [16.0.20230722.0] Old Version: [16.0.20230627.0]
+[2023-07-23 06:00:36] INFO root fetch - processPackages [odoo-addon-l10n-fr-pos-caisse-ap-ip]: New version: [16.0.1.0.0.15] Old Version: [16.0.1.0.0.14]
+[2023-07-23 06:00:36] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230721] Old Version: [1.0.3.dev20230720]
+[2023-07-23 06:00:36] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/94/e4/dc33e5009c82c26463d897279e9ab315d11e8a80f61f68c97383f8ee5a5b/evals-nightly-1.0.3.dev20230720.tar.gz
+[2023-07-23 06:00:36] INFO root fetch - processPackages [odoo14-addons-oca-l10n-france]: Downloading https://files.pythonhosted.org/packages/b5/29/51c84e990bf529101ffd5881540dd841b900c077d3efca108033ce36f302/odoo14_addons_oca_l10n_france-14.0.20230504.0-py3-none-any.whl
+[2023-07-23 06:00:36] INFO root fetch - processPackages [odoo-addons-oca-l10n-france]: Downloading https://files.pythonhosted.org/packages/0a/37/b4636919c5f4cda79e67ffcdbab4e85150ba44a0b061b990ff4a7381f0ac/odoo_addons_oca_l10n_france-16.0.20230627.0-py3-none-any.whl
+[2023-07-23 06:00:36] INFO root fetch - processPackages [odoo-addon-l10n-fr-pos-caisse-ap-ip]: Downloading https://files.pythonhosted.org/packages/e8/52/36cc3d1464d89a6f6de6606fab95804f06a79e76b75c236c7647bb4609c5/odoo_addon_l10n_fr_pos_caisse_ap_ip-16.0.1.0.0.14-py3-none-any.whl
+[2023-07-23 06:00:37] INFO root fetch - processPackages [odoo-addons-oca-l10n-france]: Downloading https://files.pythonhosted.org/packages/2c/8d/332646b505247e460082392df92f7ecc8d65d6f857267a1078fec6027e87/odoo_addons_oca_l10n_france-16.0.20230722.0-py3-none-any.whl
+[2023-07-23 06:00:37] INFO root fetch - processPackages [odoo14-addons-oca-l10n-france]: Downloading https://files.pythonhosted.org/packages/64/f2/19a0dcd90cd6ef0b243eda162df2e56ae460ba2f0d1eabd40e1310a6b088/odoo14_addons_oca_l10n_france-14.0.20230722.0-py3-none-any.whl
+[2023-07-23 06:00:37] INFO root fetch - processPackages [odoo-addon-l10n-fr-pos-caisse-ap-ip]: Downloading https://files.pythonhosted.org/packages/a1/07/14484ae3f74f12f22623bc44a990c910e4ae386ef060cbfd505ecad91a7f/odoo_addon_l10n_fr_pos_caisse_ap_ip-16.0.1.0.0.15-py3-none-any.whl
+[2023-07-23 06:00:37] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/06/09/0326f981373db0eeaa86605c46c822912238b5223d69fd56938c418e7e18/evals-nightly-1.0.3.dev20230721.tar.gz
+[2023-07-23 06:00:37] INFO root fetch - processPackages [odoo14-addons-oca-l10n-france]: executing diffoscope
+[2023-07-23 06:00:37] INFO root fetch - processPackages [odoo14-addons-oca-l10n-france]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_l10n_france-14.0.20230504.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_l10n_france-14.0.20230722.0-py3-none-any.whl.zip --markdown 20230723/o/odoo14-addons-oca-l10n-france/14.0.20230504.0-14.0.20230722.0/diff.md --exclude *.pyd
+[2023-07-23 06:00:37] INFO root fetch - processPackages [odoo-addons-oca-l10n-france]: executing diffoscope
+[2023-07-23 06:00:37] INFO root fetch - processPackages [odoo-addons-oca-l10n-france]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_france-16.0.20230627.0-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_france-16.0.20230722.0-py3-none-any.whl.zip --markdown 20230723/o/odoo-addons-oca-l10n-france/16.0.20230627.0-16.0.20230722.0/diff.md --exclude *.pyd
+[2023-07-23 06:00:37] INFO root fetch - processPackages [odoo-addon-l10n-fr-pos-caisse-ap-ip]: executing diffoscope
+[2023-07-23 06:00:37] INFO root fetch - processPackages [odoo-addon-l10n-fr-pos-caisse-ap-ip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_fr_pos_caisse_ap_ip-16.0.1.0.0.14-py3-none-any.whl.zip tmp/odoo_addon_l10n_fr_pos_caisse_ap_ip-16.0.1.0.0.15-py3-none-any.whl.zip --markdown 20230723/o/odoo-addon-l10n-fr-pos-caisse-ap-ip/16.0.1.0.0.14-16.0.1.0.0.15/diff.md --exclude *.pyd
+[2023-07-23 06:00:37] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-07-23 06:00:37] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230720.tar.gz tmp/evals-nightly-1.0.3.dev20230721.tar.gz --markdown 20230723/e/evals-nightly/1.0.3.dev20230720-1.0.3.dev20230721/diff.md --exclude *.pyd
+[2023-07-23 06:00:38] INFO root fetch - processPackages [odoo-addons-oca-l10n-france]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_france-16.0.20230627.0-py3-none-any.whl.zip]
+[2023-07-23 06:00:38] INFO root fetch - processPackages [odoo-addons-oca-l10n-france]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_france-16.0.20230722.0-py3-none-any.whl.zip]
+[2023-07-23 06:00:38] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-france]: success
+[2023-07-23 06:00:38] INFO root fetch - processPackages [odoo14-addons-oca-l10n-france]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_l10n_france-14.0.20230504.0-py3-none-any.whl.zip]
+[2023-07-23 06:00:38] INFO root fetch - processPackages [odoo14-addons-oca-l10n-france]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_l10n_france-14.0.20230722.0-py3-none-any.whl.zip]
+[2023-07-23 06:00:38] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-l10n-france]: success
+[2023-07-23 06:00:38] INFO root fetch - processPackages [odoo-addon-l10n-fr-pos-caisse-ap-ip]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_fr_pos_caisse_ap_ip-16.0.1.0.0.14-py3-none-any.whl.zip]
+[2023-07-23 06:00:38] INFO root fetch - processPackages [odoo-addon-l10n-fr-pos-caisse-ap-ip]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_fr_pos_caisse_ap_ip-16.0.1.0.0.15-py3-none-any.whl.zip]
+[2023-07-23 06:00:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-fr-pos-caisse-ap-ip]: success
+[2023-07-23 06:00:39] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230720.tar.gz]
+[2023-07-23 06:00:39] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230721.tar.gz]
+[2023-07-23 06:00:39] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-07-23 06:00:39] INFO root fetch - main [MainThread]: Store serial: [18999376]
