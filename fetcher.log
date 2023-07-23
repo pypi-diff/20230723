@@ -7622,3 +7622,113 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 14:10:19] INFO root fetch - main [MainThread]: End processing [django-lab-inventory]: success
 [2023-07-23 14:10:19] INFO root fetch - main [MainThread]: End processing [SageLogger]: success
 [2023-07-23 14:10:19] INFO root fetch - main [MainThread]: Store serial: [19001335]
+[2023-07-23 14:15:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19001335]
+[2023-07-23 14:15:28] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-23 14:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastdup
+[2023-07-23 14:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easyliftover
+[2023-07-23 14:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: universi
+[2023-07-23 14:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-l10n-ro-stock-account-notice
+[2023-07-23 14:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-l10n-ro-config
+[2023-07-23 14:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-l10n-ro-stock-account
+[2023-07-23 14:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-l10n-ro-stock-report
+[2023-07-23 14:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SageLogger
+[2023-07-23 14:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: IDsys
+[2023-07-23 14:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flake8-numba
+[2023-07-23 14:15:28] INFO root fetch - processPackages [easyliftover]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-23 14:15:28] INFO root fetch - processPackages [universi]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-23 14:15:28] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.0.1]
+[2023-07-23 14:15:28] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: New version: [16.0.6.10.0] Old Version: [15.0.6.9.0.1]
+[2023-07-23 14:15:28] INFO root fetch - processPackages [SageLogger]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-07-23 14:15:28] INFO root fetch - processPackages [IDsys]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-23 14:15:28] INFO root fetch - processPackages [flake8-numba]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-23 14:15:28] INFO root fetch - processPackages [fastdup]: New version: [1.29] Old Version: [1.28]
+[2023-07-23 14:15:28] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.0.1]
+[2023-07-23 14:15:28] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-notice]: New version: [16.0.4.3.0] Old Version: [15.0.4.2.1]
+[2023-07-23 14:15:28] INFO root fetch - processPackages [universi]: Downloading https://files.pythonhosted.org/packages/80/b5/6c8cb569f1e989b817368d384cdd18140943c1c4b5f10c5ffe1aef80a6d8/universi-1.0.0.tar.gz
+[2023-07-23 14:15:28] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: Downloading https://files.pythonhosted.org/packages/4a/84/3ecc380778adae0d3778c684fe5d47e5f3fd9912b1801987cd3d19fb2199/odoo_addon_l10n_ro_stock_report-15.0.6.9.0.1-py3-none-any.whl
+[2023-07-23 14:15:28] INFO root fetch - processPackages [flake8-numba]: Downloading https://files.pythonhosted.org/packages/ff/19/e319cca95aca6af4ebc8482855df5290eea91062e9d82bb8dc0ef7acd7ab/flake8_numba-0.2.0.tar.gz
+[2023-07-23 14:15:28] INFO root fetch - processPackages [SageLogger]: Downloading https://files.pythonhosted.org/packages/32/df/54bc8cd88cd39e05f2e8db83477ea3bf4849abdf1dfa8777eaa4ae0d91bb/SageLogger-1.3.7.tar.gz
+[2023-07-23 14:15:28] INFO root fetch - processPackages [IDsys]: Downloading https://files.pythonhosted.org/packages/81/7c/1f54e0692291eb6f49689fec89ee66c826b88a6f41791bb6883efbaba084/IDsys-0.0.4.tar.gz
+[2023-07-23 14:15:28] INFO root fetch - processPackages [easyliftover]: Downloading https://files.pythonhosted.org/packages/36/7d/fab30c71fdfe0cc88cd62f7406360567633e20d6bfac3f30d54db50b4177/easyliftover-0.0.1.tar.gz
+[2023-07-23 14:15:28] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: Downloading https://files.pythonhosted.org/packages/59/c7/92b9170cfa30043c9dab0594f9a1e23655030a06d0214b3d29cefa561def/odoo_addon_l10n_ro_config-16.0.1.1.0.1-py3-none-any.whl
+[2023-07-23 14:15:28] INFO root fetch - processPackages [fastdup]: Downloading https://files.pythonhosted.org/packages/de/c1/b836cc61a2a89a67ac9c1f9e874e03fc352fb120fdf16c8636c988789789/fastdup-1.28-cp39-cp39-win_amd64.whl
+[2023-07-23 14:15:28] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-notice]: Downloading https://files.pythonhosted.org/packages/91/21/7c45636098da235315f420404d4c0f83b90564fb320d943c7896c5886a87/odoo_addon_l10n_ro_stock_account_notice-15.0.4.2.1-py3-none-any.whl
+[2023-07-23 14:15:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/4c/78/a09ef295a4750d2883f2b42309d1a24d0453bd4c619466028d61cbb1b79c/odoo_addon_l10n_ro_stock_account-16.0.1.1.0.1-py3-none-any.whl
+[2023-07-23 14:15:29] INFO root fetch - processPackages [universi]: Downloading https://files.pythonhosted.org/packages/20/86/d8505113e662e11b85b49c83654ba36df9af71625bc5845f00ff780f6da0/universi-1.0.1.tar.gz
+[2023-07-23 14:15:29] INFO root fetch - processPackages [flake8-numba]: Downloading https://files.pythonhosted.org/packages/e4/c5/5f520f62ff828373afcc55db93f494c9d6621130589cd34e0f0345f54c38/flake8_numba-0.3.0.tar.gz
+[2023-07-23 14:15:29] INFO root fetch - processPackages [IDsys]: Downloading https://files.pythonhosted.org/packages/80/3b/b54e5e1bf19b76ce7eeb5bf735fe172e8889ce774d9322230f93b4a56bab/IDsys-0.0.5.tar.gz
+[2023-07-23 14:15:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: Downloading https://files.pythonhosted.org/packages/7d/d8/2f9131195b8539fc2e21143bb324f69e66eca0616f80ad64ceea7811bbd2/odoo_addon_l10n_ro_stock_report-16.0.6.10.0-py3-none-any.whl
+[2023-07-23 14:15:29] WARNING root fetch - processPackages [fastdup]: Skipping package: exceeds size limit 35423499>=10485760
+[2023-07-23 14:15:29] INFO root fetch - processPackages [fastdup]: Start processing: checkatlas
+[2023-07-23 14:15:29] INFO root fetch - main [MainThread]: End processing [fastdup] error
+[2023-07-23 14:15:29] INFO root fetch - processPackages [SageLogger]: Downloading https://files.pythonhosted.org/packages/16/6b/8a13035a3098ad099b8ec3d6b2b5c70662af5259a95dc3def31fdf8671e6/SageLogger-1.3.8.tar.gz
+[2023-07-23 14:15:29] INFO root fetch - processPackages [checkatlas]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-23 14:15:29] INFO root fetch - processPackages [flake8-numba]: executing diffoscope
+[2023-07-23 14:15:29] INFO root fetch - processPackages [flake8-numba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8_numba-0.2.0.tar.gz tmp/flake8_numba-0.3.0.tar.gz --markdown 20230723/f/flake8-numba/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-23 14:15:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-notice]: Downloading https://files.pythonhosted.org/packages/da/29/76b979c4a0c1636cc836ef9476242208df14c7c22f9c03411957bcaec4bb/odoo_addon_l10n_ro_stock_account_notice-16.0.4.3.0-py3-none-any.whl
+[2023-07-23 14:15:29] INFO root fetch - processPackages [IDsys]: executing diffoscope
+[2023-07-23 14:15:29] INFO root fetch - processPackages [IDsys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IDsys-0.0.4.tar.gz tmp/IDsys-0.0.5.tar.gz --markdown 20230723/I/IDsys/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-23 14:15:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: executing diffoscope
+[2023-07-23 14:15:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_stock_report-15.0.6.9.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_stock_report-16.0.6.10.0-py3-none-any.whl.zip --markdown 20230723/o/odoo-addon-l10n-ro-stock-report/15.0.6.9.0.1-16.0.6.10.0/diff.md --exclude *.pyd
+[2023-07-23 14:15:29] INFO root fetch - processPackages [easyliftover]: Downloading https://files.pythonhosted.org/packages/60/b0/b9a3715ca7f1611c819f0b98f949fb1550cb83647530a906496e148336d0/easyliftover-0.0.2.tar.gz
+[2023-07-23 14:15:29] INFO root fetch - processPackages [universi]: executing diffoscope
+[2023-07-23 14:15:29] INFO root fetch - processPackages [universi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/universi-1.0.0.tar.gz tmp/universi-1.0.1.tar.gz --markdown 20230723/u/universi/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-23 14:15:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: Downloading https://files.pythonhosted.org/packages/71/41/58e6d4135733b8e8ebef0ab38a44087d036cd91d428bffedfc438776d8ad/odoo_addon_l10n_ro_config-16.0.1.2.0-py3-none-any.whl
+[2023-07-23 14:15:29] INFO root fetch - processPackages [SageLogger]: executing diffoscope
+[2023-07-23 14:15:29] INFO root fetch - processPackages [SageLogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SageLogger-1.3.7.tar.gz tmp/SageLogger-1.3.8.tar.gz --markdown 20230723/S/SageLogger/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-07-23 14:15:29] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/51/a7/9c8f313c3b04370e742edd1762034985eea1f24a918183a7084f6eb93e1e/checkatlas-0.3.8.tar.gz
+[2023-07-23 14:15:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-notice]: executing diffoscope
+[2023-07-23 14:15:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-notice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_stock_account_notice-15.0.4.2.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_stock_account_notice-16.0.4.3.0-py3-none-any.whl.zip --markdown 20230723/o/odoo-addon-l10n-ro-stock-account-notice/15.0.4.2.1-16.0.4.3.0/diff.md --exclude *.pyd
+[2023-07-23 14:15:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: executing diffoscope
+[2023-07-23 14:15:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_config-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_config-16.0.1.2.0-py3-none-any.whl.zip --markdown 20230723/o/odoo-addon-l10n-ro-config/16.0.1.1.0.1-16.0.1.2.0/diff.md --exclude *.pyd
+[2023-07-23 14:15:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/61/6b/f4e32bdd4f4fb3607fdb26d32bf8b73c6e67d09a29dba77e5eb4ebf07909/odoo_addon_l10n_ro_stock_account-16.0.1.2.0-py3-none-any.whl
+[2023-07-23 14:15:29] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/01/47/ebbe376d483ba9fd31540dfcf7afc7ebb4936d9f18fbba952eee1303faaa/checkatlas-0.3.9.tar.gz
+[2023-07-23 14:15:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: executing diffoscope
+[2023-07-23 14:15:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_stock_account-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_stock_account-16.0.1.2.0-py3-none-any.whl.zip --markdown 20230723/o/odoo-addon-l10n-ro-stock-account/16.0.1.1.0.1-16.0.1.2.0/diff.md --exclude *.pyd
+[2023-07-23 14:15:29] INFO root fetch - processPackages [easyliftover]: executing diffoscope
+[2023-07-23 14:15:29] INFO root fetch - processPackages [easyliftover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyliftover-0.0.1.tar.gz tmp/easyliftover-0.0.2.tar.gz --markdown 20230723/e/easyliftover/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-23 14:15:30] INFO root fetch - processPackages [checkatlas]: executing diffoscope
+[2023-07-23 14:15:30] INFO root fetch - processPackages [checkatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkatlas-0.3.8.tar.gz tmp/checkatlas-0.3.9.tar.gz --markdown 20230723/c/checkatlas/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-23 14:15:30] INFO root fetch - processPackages [IDsys]: Remove: archive file [/home/abi/fetcher/tmp/IDsys-0.0.4.tar.gz]
+[2023-07-23 14:15:30] INFO root fetch - processPackages [IDsys]: Remove: archive file [/home/abi/fetcher/tmp/IDsys-0.0.5.tar.gz]
+[2023-07-23 14:15:30] INFO root fetch - processPackages [IDsys]: Start processing: python-univer
+[2023-07-23 14:15:30] INFO root fetch - main [MainThread]: End processing [IDsys]: success
+[2023-07-23 14:15:30] INFO root fetch - processPackages [python-univer]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-07-23 14:15:31] INFO root fetch - processPackages [flake8-numba]: Remove: archive file [/home/abi/fetcher/tmp/flake8_numba-0.2.0.tar.gz]
+[2023-07-23 14:15:31] INFO root fetch - processPackages [flake8-numba]: Remove: archive file [/home/abi/fetcher/tmp/flake8_numba-0.3.0.tar.gz]
+[2023-07-23 14:15:31] INFO root fetch - processPackages [flake8-numba]: Start processing: localeet
+[2023-07-23 14:15:31] INFO root fetch - main [MainThread]: End processing [flake8-numba]: success
+[2023-07-23 14:15:31] INFO root fetch - processPackages [SageLogger]: Remove: archive file [/home/abi/fetcher/tmp/SageLogger-1.3.7.tar.gz]
+[2023-07-23 14:15:31] INFO root fetch - processPackages [SageLogger]: Remove: archive file [/home/abi/fetcher/tmp/SageLogger-1.3.8.tar.gz]
+[2023-07-23 14:15:31] INFO root fetch - main [MainThread]: End processing [SageLogger]: success
+[2023-07-23 14:15:31] INFO root fetch - processPackages [python-univer]: Downloading https://files.pythonhosted.org/packages/f8/b4/a9aae9c6f2746cf5698ec495eecb0b00aa67a8eb96218480a4e7cc6ba351/python-univer-1.4.3.tar.gz
+[2023-07-23 14:15:31] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_report-15.0.6.9.0.1-py3-none-any.whl.zip]
+[2023-07-23 14:15:31] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_report-16.0.6.10.0-py3-none-any.whl.zip]
+[2023-07-23 14:15:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-report]: success
+[2023-07-23 14:15:31] INFO root fetch - processPackages [universi]: Remove: archive file [/home/abi/fetcher/tmp/universi-1.0.0.tar.gz]
+[2023-07-23 14:15:31] INFO root fetch - processPackages [universi]: Remove: archive file [/home/abi/fetcher/tmp/universi-1.0.1.tar.gz]
+[2023-07-23 14:15:31] INFO root fetch - main [MainThread]: End processing [universi]: success
+[2023-07-23 14:15:31] WARNING root fetch - processPackages [localeet]: Skipping, unable to determine old version
+[2023-07-23 14:15:31] INFO root fetch - main [MainThread]: End processing [localeet] error
+[2023-07-23 14:15:31] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-notice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_account_notice-15.0.4.2.1-py3-none-any.whl.zip]
+[2023-07-23 14:15:31] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-notice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_account_notice-16.0.4.3.0-py3-none-any.whl.zip]
+[2023-07-23 14:15:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-account-notice]: success
+[2023-07-23 14:15:31] INFO root fetch - processPackages [python-univer]: Downloading https://files.pythonhosted.org/packages/a5/48/6884fe5eefde3023d98b0e3563fa8edeb47d87b84ab3234338bc8d2d0228/python-univer-1.4.4.tar.gz
+[2023-07-23 14:15:31] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.3.8.tar.gz]
+[2023-07-23 14:15:31] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.3.9.tar.gz]
+[2023-07-23 14:15:31] INFO root fetch - main [MainThread]: End processing [checkatlas]: success
+[2023-07-23 14:15:31] INFO root fetch - processPackages [python-univer]: executing diffoscope
+[2023-07-23 14:15:31] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_config-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-07-23 14:15:31] INFO root fetch - processPackages [python-univer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-univer-1.4.3.tar.gz tmp/python-univer-1.4.4.tar.gz --markdown 20230723/p/python-univer/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-07-23 14:15:31] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_config-16.0.1.2.0-py3-none-any.whl.zip]
+[2023-07-23 14:15:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-config]: success
+[2023-07-23 14:15:31] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_account-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-07-23 14:15:31] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_account-16.0.1.2.0-py3-none-any.whl.zip]
+[2023-07-23 14:15:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-account]: success
+[2023-07-23 14:15:31] INFO root fetch - processPackages [easyliftover]: Remove: archive file [/home/abi/fetcher/tmp/easyliftover-0.0.1.tar.gz]
+[2023-07-23 14:15:31] INFO root fetch - processPackages [easyliftover]: Remove: archive file [/home/abi/fetcher/tmp/easyliftover-0.0.2.tar.gz]
+[2023-07-23 14:15:31] INFO root fetch - main [MainThread]: End processing [easyliftover]: success
+[2023-07-23 14:15:32] INFO root fetch - processPackages [python-univer]: Remove: archive file [/home/abi/fetcher/tmp/python-univer-1.4.3.tar.gz]
+[2023-07-23 14:15:32] INFO root fetch - processPackages [python-univer]: Remove: archive file [/home/abi/fetcher/tmp/python-univer-1.4.4.tar.gz]
+[2023-07-23 14:15:32] INFO root fetch - main [MainThread]: End processing [python-univer]: success
+[2023-07-23 14:15:32] INFO root fetch - main [MainThread]: Store serial: [19001373]
