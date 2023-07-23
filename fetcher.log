@@ -4804,3 +4804,45 @@
 [2023-07-23 09:40:11] INFO root fetch - processPackages [xsdata]: Remove: archive file [/home/abi/fetcher/tmp/xsdata-23.7.tar.gz]
 [2023-07-23 09:40:11] INFO root fetch - main [MainThread]: End processing [xsdata]: success
 [2023-07-23 09:40:11] INFO root fetch - main [MainThread]: Store serial: [19000089]
+[2023-07-23 09:45:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19000089]
+[2023-07-23 09:45:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-23 09:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: advanced-ta
+[2023-07-23 09:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yowasp-runtime
+[2023-07-23 09:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: brainpy
+[2023-07-23 09:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quadpy
+[2023-07-23 09:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: accelerated-sequence-clustering
+[2023-07-23 09:45:21] INFO root fetch - processPackages [yowasp-runtime]: New version: [1.7] Old Version: [1.6]
+[2023-07-23 09:45:21] INFO root fetch - processPackages [brainpy]: New version: [2.4.3.1] Old Version: [2.4.3]
+[2023-07-23 09:45:21] INFO root fetch - processPackages [quadpy]: New version: [0.17.7] Old Version: [0.17.12]
+[2023-07-23 09:45:21] INFO root fetch - processPackages [advanced-ta]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-23 09:45:21] INFO root fetch - processPackages [yowasp-runtime]: Downloading https://files.pythonhosted.org/packages/e7/a1/907e6e8a79a56a85a8042c852e6071070625366072275b2f016b73f070ad/yowasp_runtime-1.6-py3-none-any.whl
+[2023-07-23 09:45:21] INFO root fetch - processPackages [brainpy]: Downloading https://files.pythonhosted.org/packages/9b/83/0a883827a6eb8a7dd2e37d54323cf83ce7bbc89f9a923b24ff6e265f6423/brainpy-2.4.3-py3-none-any.whl
+[2023-07-23 09:45:21] WARNING root fetch - processPackages [accelerated-sequence-clustering]: Skipping, unable to determine old version
+[2023-07-23 09:45:21] INFO root fetch - main [MainThread]: End processing [accelerated-sequence-clustering] error
+[2023-07-23 09:45:21] INFO root fetch - processPackages [quadpy]: Downloading https://files.pythonhosted.org/packages/df/1a/07b73958c04a314e6443a69a76af1f4af1eb57d2d7b727ba06db594b11dc/quadpy-0.17.12-py3-none-any.whl
+[2023-07-23 09:45:21] INFO root fetch - processPackages [advanced-ta]: Downloading https://files.pythonhosted.org/packages/4d/52/1713c5773742cdd1d74d900b5f896a9045c860be9706280601164c604a75/advanced-ta-0.1.2.tar.gz
+[2023-07-23 09:45:21] INFO root fetch - processPackages [yowasp-runtime]: Downloading https://files.pythonhosted.org/packages/3f/e9/90cb3e0e2773737c930d8192b0232e03eee71f9ae918620a47be7815f379/yowasp_runtime-1.7-py3-none-any.whl
+[2023-07-23 09:45:21] INFO root fetch - processPackages [brainpy]: Downloading https://files.pythonhosted.org/packages/bf/2d/1cb44452e28de2468dc234da6c804b77d4e98edeed4cb4e09363474cb76a/brainpy-2.4.3.1-py3-none-any.whl
+[2023-07-23 09:45:21] INFO root fetch - processPackages [quadpy]: Downloading https://files.pythonhosted.org/packages/a3/f5/7206901faab68416851c774822ca35ddd05916aad148ebc209646b7b957f/quadpy-0.17.7-py3-none-any.whl
+[2023-07-23 09:45:21] INFO root fetch - processPackages [brainpy]: executing diffoscope
+[2023-07-23 09:45:21] INFO root fetch - processPackages [brainpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainpy-2.4.3-py3-none-any.whl.zip tmp/brainpy-2.4.3.1-py3-none-any.whl.zip --markdown 20230723/b/brainpy/2.4.3-2.4.3.1/diff.md --exclude *.pyd
+[2023-07-23 09:45:21] INFO root fetch - processPackages [yowasp-runtime]: executing diffoscope
+[2023-07-23 09:45:21] INFO root fetch - processPackages [yowasp-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yowasp_runtime-1.6-py3-none-any.whl.zip tmp/yowasp_runtime-1.7-py3-none-any.whl.zip --markdown 20230723/y/yowasp-runtime/1.6-1.7/diff.md --exclude *.pyd
+[2023-07-23 09:45:21] INFO root fetch - processPackages [advanced-ta]: Downloading https://files.pythonhosted.org/packages/87/bb/07bd257d8db593d36401de5b5439122e6cf0883d4a64dac3b80a3d1db0f4/advanced-ta-0.1.3.tar.gz
+[2023-07-23 09:45:21] INFO root fetch - processPackages [quadpy]: executing diffoscope
+[2023-07-23 09:45:21] INFO root fetch - processPackages [quadpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quadpy-0.17.12-py3-none-any.whl.zip tmp/quadpy-0.17.7-py3-none-any.whl.zip --markdown 20230723/q/quadpy/0.17.12-0.17.7/diff.md --exclude *.pyd
+[2023-07-23 09:45:21] INFO root fetch - processPackages [advanced-ta]: executing diffoscope
+[2023-07-23 09:45:21] INFO root fetch - processPackages [advanced-ta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advanced-ta-0.1.2.tar.gz tmp/advanced-ta-0.1.3.tar.gz --markdown 20230723/a/advanced-ta/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-23 09:45:22] INFO root fetch - processPackages [yowasp-runtime]: Remove: archive file [/home/abi/fetcher/tmp/yowasp_runtime-1.6-py3-none-any.whl.zip]
+[2023-07-23 09:45:22] INFO root fetch - processPackages [yowasp-runtime]: Remove: archive file [/home/abi/fetcher/tmp/yowasp_runtime-1.7-py3-none-any.whl.zip]
+[2023-07-23 09:45:22] INFO root fetch - main [MainThread]: End processing [yowasp-runtime]: success
+[2023-07-23 09:45:22] INFO root fetch - processPackages [advanced-ta]: Remove: archive file [/home/abi/fetcher/tmp/advanced-ta-0.1.2.tar.gz]
+[2023-07-23 09:45:22] INFO root fetch - processPackages [advanced-ta]: Remove: archive file [/home/abi/fetcher/tmp/advanced-ta-0.1.3.tar.gz]
+[2023-07-23 09:45:22] INFO root fetch - main [MainThread]: End processing [advanced-ta]: success
+[2023-07-23 09:45:24] INFO root fetch - processPackages [quadpy]: Remove: archive file [/home/abi/fetcher/tmp/quadpy-0.17.12-py3-none-any.whl.zip]
+[2023-07-23 09:45:24] INFO root fetch - processPackages [quadpy]: Remove: archive file [/home/abi/fetcher/tmp/quadpy-0.17.7-py3-none-any.whl.zip]
+[2023-07-23 09:45:24] INFO root fetch - main [MainThread]: End processing [quadpy]: success
+[2023-07-23 09:45:25] INFO root fetch - processPackages [brainpy]: Remove: archive file [/home/abi/fetcher/tmp/brainpy-2.4.3-py3-none-any.whl.zip]
+[2023-07-23 09:45:25] INFO root fetch - processPackages [brainpy]: Remove: archive file [/home/abi/fetcher/tmp/brainpy-2.4.3.1-py3-none-any.whl.zip]
+[2023-07-23 09:45:25] INFO root fetch - main [MainThread]: End processing [brainpy]: success
+[2023-07-23 09:45:25] INFO root fetch - main [MainThread]: Store serial: [19000105]
