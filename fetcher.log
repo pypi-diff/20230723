@@ -13111,3 +13111,42 @@ AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
 [2023-07-23 20:41:31] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6944.tar.gz]
 [2023-07-23 20:41:31] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
 [2023-07-23 20:41:31] INFO root fetch - main [MainThread]: Store serial: [19004045]
+[2023-07-23 20:46:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19004045]
+[2023-07-23 20:46:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-23 20:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: steroid
+[2023-07-23 20:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: viresclient
+[2023-07-23 20:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ephemeral-sh
+[2023-07-23 20:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepseqcoverageqc
+[2023-07-23 20:46:40] INFO root fetch - processPackages [steroid]: New version: [0.9b0] Old Version: [0.8b0]
+[2023-07-23 20:46:40] INFO root fetch - processPackages [deepseqcoverageqc]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-23 20:46:40] INFO root fetch - processPackages [viresclient]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-23 20:46:40] INFO root fetch - processPackages [ephemeral-sh]: New version: [0.3.1] Old Version: [0.2.1]
+[2023-07-23 20:46:40] INFO root fetch - processPackages [deepseqcoverageqc]: Downloading https://files.pythonhosted.org/packages/c2/44/e1650b4cf92786f1d75c8bb33aad76de0b5a455475a03d2592d8f9a1070a/deepseqcoverageqc-0.3.2.tar.gz
+[2023-07-23 20:46:40] INFO root fetch - processPackages [steroid]: Downloading https://files.pythonhosted.org/packages/b5/31/c01ad052c188da63bbf2b6b4c10d7d4cecf2c0b6fa32d0202645183d5a5f/steroid-0.8b0.tar.gz
+[2023-07-23 20:46:40] INFO root fetch - processPackages [ephemeral-sh]: Downloading https://files.pythonhosted.org/packages/9b/2e/f30515db3f87714df86f15c8b54d9829b2b9fdf1ad3604593cf7eb1963f9/ephemeral_sh-0.2.1-py3-none-any.whl
+[2023-07-23 20:46:40] INFO root fetch - processPackages [viresclient]: Downloading https://files.pythonhosted.org/packages/81/d0/b2b5afeb4e1de8e0c34f08e03574216463094b0f6d1dde49fa67ea390a1d/viresclient-0.9.0.tar.gz
+[2023-07-23 20:46:40] INFO root fetch - processPackages [steroid]: Downloading https://files.pythonhosted.org/packages/09/5d/e599fab5f65e8a623f377de38a430b5bce56eb5d277b6171645164487830/steroid-0.9b0.tar.gz
+[2023-07-23 20:46:40] INFO root fetch - processPackages [steroid]: executing diffoscope
+[2023-07-23 20:46:40] INFO root fetch - processPackages [steroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steroid-0.8b0.tar.gz tmp/steroid-0.9b0.tar.gz --markdown 20230723/s/steroid/0.8b0-0.9b0/diff.md --exclude *.pyd
+[2023-07-23 20:46:40] INFO root fetch - processPackages [deepseqcoverageqc]: Downloading https://files.pythonhosted.org/packages/e9/19/47ed98460c6be56446e87e92d01801be2fb7327e1cc229f188908fd8938d/deepseqcoverageqc-0.3.3.tar.gz
+[2023-07-23 20:46:40] INFO root fetch - processPackages [ephemeral-sh]: Downloading https://files.pythonhosted.org/packages/59/99/77c4d89fbc88a1c63e50e988a971a35ad6b6fd3f44b500a378ceb74643c3/ephemeral_sh-0.3.1-py3-none-any.whl
+[2023-07-23 20:46:40] INFO root fetch - processPackages [ephemeral-sh]: executing diffoscope
+[2023-07-23 20:46:40] INFO root fetch - processPackages [ephemeral-sh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ephemeral_sh-0.2.1-py3-none-any.whl.zip tmp/ephemeral_sh-0.3.1-py3-none-any.whl.zip --markdown 20230723/e/ephemeral-sh/0.2.1-0.3.1/diff.md --exclude *.pyd
+[2023-07-23 20:46:40] INFO root fetch - processPackages [deepseqcoverageqc]: executing diffoscope
+[2023-07-23 20:46:40] INFO root fetch - processPackages [deepseqcoverageqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepseqcoverageqc-0.3.2.tar.gz tmp/deepseqcoverageqc-0.3.3.tar.gz --markdown 20230723/d/deepseqcoverageqc/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-23 20:46:40] INFO root fetch - processPackages [viresclient]: Downloading https://files.pythonhosted.org/packages/61/a3/5a849ee035493b64f1f3f8aaeee80078682877e82c0aa5f126a75e7ec796/viresclient-0.9.1.tar.gz
+[2023-07-23 20:46:41] INFO root fetch - processPackages [viresclient]: executing diffoscope
+[2023-07-23 20:46:41] INFO root fetch - processPackages [viresclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viresclient-0.9.0.tar.gz tmp/viresclient-0.9.1.tar.gz --markdown 20230723/v/viresclient/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-23 20:46:41] INFO root fetch - processPackages [steroid]: Remove: archive file [/home/abi/fetcher/tmp/steroid-0.8b0.tar.gz]
+[2023-07-23 20:46:41] INFO root fetch - processPackages [steroid]: Remove: archive file [/home/abi/fetcher/tmp/steroid-0.9b0.tar.gz]
+[2023-07-23 20:46:41] INFO root fetch - main [MainThread]: End processing [steroid]: success
+[2023-07-23 20:46:41] INFO root fetch - processPackages [deepseqcoverageqc]: Remove: archive file [/home/abi/fetcher/tmp/deepseqcoverageqc-0.3.2.tar.gz]
+[2023-07-23 20:46:41] INFO root fetch - processPackages [deepseqcoverageqc]: Remove: archive file [/home/abi/fetcher/tmp/deepseqcoverageqc-0.3.3.tar.gz]
+[2023-07-23 20:46:41] INFO root fetch - main [MainThread]: End processing [deepseqcoverageqc]: success
+[2023-07-23 20:46:41] INFO root fetch - processPackages [ephemeral-sh]: Remove: archive file [/home/abi/fetcher/tmp/ephemeral_sh-0.2.1-py3-none-any.whl.zip]
+[2023-07-23 20:46:41] INFO root fetch - processPackages [ephemeral-sh]: Remove: archive file [/home/abi/fetcher/tmp/ephemeral_sh-0.3.1-py3-none-any.whl.zip]
+[2023-07-23 20:46:41] INFO root fetch - main [MainThread]: End processing [ephemeral-sh]: success
+[2023-07-23 20:46:41] INFO root fetch - processPackages [viresclient]: Remove: archive file [/home/abi/fetcher/tmp/viresclient-0.9.0.tar.gz]
+[2023-07-23 20:46:41] INFO root fetch - processPackages [viresclient]: Remove: archive file [/home/abi/fetcher/tmp/viresclient-0.9.1.tar.gz]
+[2023-07-23 20:46:41] INFO root fetch - main [MainThread]: End processing [viresclient]: success
+[2023-07-23 20:46:41] INFO root fetch - main [MainThread]: Store serial: [19004061]
