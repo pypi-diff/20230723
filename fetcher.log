@@ -11720,3 +11720,39 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 18:55:50] INFO root fetch - processPackages [mytimer]: Remove: archive file [/home/abi/fetcher/tmp/mytimer-0.7.tar.gz]
 [2023-07-23 18:55:50] INFO root fetch - main [MainThread]: End processing [mytimer]: success
 [2023-07-23 18:55:50] INFO root fetch - main [MainThread]: Store serial: [19003433]
+[2023-07-23 19:00:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19003433]
+[2023-07-23 19:00:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-23 19:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localeet
+[2023-07-23 19:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finemotion
+[2023-07-23 19:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tgpy
+[2023-07-23 19:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Flask-SQL-Pro
+[2023-07-23 19:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyImageJGui
+[2023-07-23 19:00:59] INFO root fetch - processPackages [tgpy]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-07-23 19:00:59] INFO root fetch - processPackages [localeet]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-23 19:00:59] INFO root fetch - processPackages [Flask-SQL-Pro]: New version: [3.4] Old Version: [3.3]
+[2023-07-23 19:00:59] WARNING root fetch - processPackages [finemotion]: Skipping, unable to determine old version
+[2023-07-23 19:00:59] INFO root fetch - main [MainThread]: End processing [finemotion] error
+[2023-07-23 19:00:59] INFO root fetch - processPackages [Flask-SQL-Pro]: Downloading https://files.pythonhosted.org/packages/c2/8d/650bff51a67992197a5511686255d819019bb51b32b9d733d0ff29a25da3/Flask-SQL-Pro-3.3.tar.gz
+[2023-07-23 19:00:59] WARNING root fetch - processPackages [pyImageJGui]: Skipping, unable to determine old version
+[2023-07-23 19:00:59] INFO root fetch - main [MainThread]: End processing [pyImageJGui] error
+[2023-07-23 19:00:59] INFO root fetch - processPackages [localeet]: Downloading https://files.pythonhosted.org/packages/d5/b1/4b8a39124d6259a29135d2c41969f3caf04802df053b1b934e97e8fee515/localeet-0.0.4.tar.gz
+[2023-07-23 19:00:59] INFO root fetch - processPackages [tgpy]: Downloading https://files.pythonhosted.org/packages/75/de/461b0c673ba64deffd6666743a7e6c42579daa5368d7edfe79bc3ef18768/tgpy-0.9.6.tar.gz
+[2023-07-23 19:00:59] INFO root fetch - processPackages [Flask-SQL-Pro]: Downloading https://files.pythonhosted.org/packages/6b/f4/833602ecb11e658b634f1717a8f8d34ffc8b13d3684005a149791f4cbfea/Flask-SQL-Pro-3.4.tar.gz
+[2023-07-23 19:00:59] INFO root fetch - processPackages [localeet]: Downloading https://files.pythonhosted.org/packages/4f/aa/cc1c21806e527badf87042e461053ba4df0b956b2078b86f4a19cac63ab4/localeet-0.0.5.tar.gz
+[2023-07-23 19:00:59] INFO root fetch - processPackages [Flask-SQL-Pro]: executing diffoscope
+[2023-07-23 19:00:59] INFO root fetch - processPackages [Flask-SQL-Pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-SQL-Pro-3.3.tar.gz tmp/Flask-SQL-Pro-3.4.tar.gz --markdown 20230723/F/Flask-SQL-Pro/3.3-3.4/diff.md --exclude *.pyd
+[2023-07-23 19:00:59] INFO root fetch - processPackages [tgpy]: Downloading https://files.pythonhosted.org/packages/b4/b9/a4550a3bd318f228d572a7ef78e10af3769fbe5ea7805099b38b95d24f86/tgpy-0.9.7.tar.gz
+[2023-07-23 19:00:59] INFO root fetch - processPackages [localeet]: executing diffoscope
+[2023-07-23 19:00:59] INFO root fetch - processPackages [localeet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localeet-0.0.4.tar.gz tmp/localeet-0.0.5.tar.gz --markdown 20230723/l/localeet/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-23 19:00:59] INFO root fetch - processPackages [tgpy]: executing diffoscope
+[2023-07-23 19:00:59] INFO root fetch - processPackages [tgpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgpy-0.9.6.tar.gz tmp/tgpy-0.9.7.tar.gz --markdown 20230723/t/tgpy/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-07-23 19:01:00] INFO root fetch - processPackages [Flask-SQL-Pro]: Remove: archive file [/home/abi/fetcher/tmp/Flask-SQL-Pro-3.3.tar.gz]
+[2023-07-23 19:01:00] INFO root fetch - processPackages [Flask-SQL-Pro]: Remove: archive file [/home/abi/fetcher/tmp/Flask-SQL-Pro-3.4.tar.gz]
+[2023-07-23 19:01:00] INFO root fetch - main [MainThread]: End processing [Flask-SQL-Pro]: success
+[2023-07-23 19:01:00] INFO root fetch - processPackages [tgpy]: Remove: archive file [/home/abi/fetcher/tmp/tgpy-0.9.6.tar.gz]
+[2023-07-23 19:01:00] INFO root fetch - processPackages [tgpy]: Remove: archive file [/home/abi/fetcher/tmp/tgpy-0.9.7.tar.gz]
+[2023-07-23 19:01:00] INFO root fetch - main [MainThread]: End processing [tgpy]: success
+[2023-07-23 19:01:00] INFO root fetch - processPackages [localeet]: Remove: archive file [/home/abi/fetcher/tmp/localeet-0.0.4.tar.gz]
+[2023-07-23 19:01:00] INFO root fetch - processPackages [localeet]: Remove: archive file [/home/abi/fetcher/tmp/localeet-0.0.5.tar.gz]
+[2023-07-23 19:01:00] INFO root fetch - main [MainThread]: End processing [localeet]: success
+[2023-07-23 19:01:00] INFO root fetch - main [MainThread]: Store serial: [19003451]
