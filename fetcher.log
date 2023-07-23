@@ -5863,3 +5863,49 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 11:16:04] INFO root fetch - processPackages [Fragmenstein]: Remove: archive file [/home/abi/fetcher/tmp/Fragmenstein-0.9.9.tar.gz]
 [2023-07-23 11:16:04] INFO root fetch - main [MainThread]: End processing [Fragmenstein]: success
 [2023-07-23 11:16:04] INFO root fetch - main [MainThread]: Store serial: [19000445]
+[2023-07-23 11:21:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19000445]
+[2023-07-23 11:21:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-23 11:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xyz-auth
+[2023-07-23 11:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2023-07-23 11:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spanishconjugator
+[2023-07-23 11:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autoapi-django
+[2023-07-23 11:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastapi-template
+[2023-07-23 11:21:13] INFO root fetch - processPackages [xyz-auth]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-23 11:21:13] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-23 11:21:13] INFO root fetch - processPackages [fastapi-template]: New version: [5.0.2] Old Version: [5.0.1]
+[2023-07-23 11:21:13] INFO root fetch - processPackages [autoapi-django]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-23 11:21:13] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-23 11:21:13] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-23 11:21:13] INFO root fetch - processPackages [xyz-auth]: Downloading https://files.pythonhosted.org/packages/81/2e/19d61a71b331c7aefd80ae1d97d1eb77f29a883477a7b78fdb99b5e2001f/xyz_auth-0.1.8-py3-none-any.whl
+[2023-07-23 11:21:13] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-23 11:21:13] INFO root fetch - processPackages [fastapi-template]: Downloading https://files.pythonhosted.org/packages/82/fb/ae474488c950ad8172b6d71f3ffa56a2a27f93bd04cacc4ceba51c8eb01a/fastapi_template-5.0.1.tar.gz
+[2023-07-23 11:21:13] INFO root fetch - processPackages [autoapi-django]: Downloading https://files.pythonhosted.org/packages/33/37/fdee8136fc0237aea9075a557a730240a9f626eff149eb5e8328776b4321/autoapi-django-0.9.1.tar.gz
+[2023-07-23 11:21:13] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-23 11:21:14] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-23 11:21:14] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-23 11:21:14] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230723/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-23 11:21:14] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-23 11:21:14] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230723/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-23 11:21:14] INFO root fetch - processPackages [fastapi-template]: Downloading https://files.pythonhosted.org/packages/1f/d3/7d09fb1bc65087d1a919a69c708a3e2b625ebf072429e171853745d19cec/fastapi_template-5.0.2.tar.gz
+[2023-07-23 11:21:14] INFO root fetch - processPackages [xyz-auth]: Downloading https://files.pythonhosted.org/packages/df/63/b167bd702d32d05030e85fa49f12efd4a2bd7baffbb7c4131856b9684670/xyz_auth-0.1.9-py3-none-any.whl
+[2023-07-23 11:21:14] INFO root fetch - processPackages [autoapi-django]: Downloading https://files.pythonhosted.org/packages/4a/c8/e5fbd22789d51741011533765bab6db3930f338c9225d61686e4dec24027/autoapi-django-0.9.2.tar.gz
+[2023-07-23 11:21:14] INFO root fetch - processPackages [autoapi-django]: executing diffoscope
+[2023-07-23 11:21:14] INFO root fetch - processPackages [autoapi-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoapi-django-0.9.1.tar.gz tmp/autoapi-django-0.9.2.tar.gz --markdown 20230723/a/autoapi-django/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-23 11:21:14] INFO root fetch - processPackages [fastapi-template]: executing diffoscope
+[2023-07-23 11:21:14] INFO root fetch - processPackages [fastapi-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_template-5.0.1.tar.gz tmp/fastapi_template-5.0.2.tar.gz --markdown 20230723/f/fastapi-template/5.0.1-5.0.2/diff.md --exclude *.pyd
+[2023-07-23 11:21:14] INFO root fetch - processPackages [xyz-auth]: executing diffoscope
+[2023-07-23 11:21:14] INFO root fetch - processPackages [xyz-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xyz_auth-0.1.8-py3-none-any.whl.zip tmp/xyz_auth-0.1.9-py3-none-any.whl.zip --markdown 20230723/x/xyz-auth/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-23 11:21:15] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-23 11:21:15] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-23 11:21:15] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-23 11:21:15] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-23 11:21:15] INFO root fetch - processPackages [autoapi-django]: Remove: archive file [/home/abi/fetcher/tmp/autoapi-django-0.9.1.tar.gz]
+[2023-07-23 11:21:15] INFO root fetch - processPackages [autoapi-django]: Remove: archive file [/home/abi/fetcher/tmp/autoapi-django-0.9.2.tar.gz]
+[2023-07-23 11:21:15] INFO root fetch - main [MainThread]: End processing [autoapi-django]: success
+[2023-07-23 11:21:15] INFO root fetch - processPackages [xyz-auth]: Remove: archive file [/home/abi/fetcher/tmp/xyz_auth-0.1.8-py3-none-any.whl.zip]
+[2023-07-23 11:21:15] INFO root fetch - processPackages [xyz-auth]: Remove: archive file [/home/abi/fetcher/tmp/xyz_auth-0.1.9-py3-none-any.whl.zip]
+[2023-07-23 11:21:15] INFO root fetch - main [MainThread]: End processing [xyz-auth]: success
+[2023-07-23 11:21:26] INFO root fetch - processPackages [fastapi-template]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_template-5.0.1.tar.gz]
+[2023-07-23 11:21:26] INFO root fetch - processPackages [fastapi-template]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_template-5.0.2.tar.gz]
+[2023-07-23 11:21:26] INFO root fetch - main [MainThread]: End processing [fastapi-template]: success
+[2023-07-23 11:21:26] INFO root fetch - main [MainThread]: Store serial: [19000469]
