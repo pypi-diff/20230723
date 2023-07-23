@@ -5404,3 +5404,60 @@
 [2023-07-23 10:39:03] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
 [2023-07-23 10:39:03] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
 [2023-07-23 10:39:03] INFO root fetch - main [MainThread]: Store serial: [19000304]
+[2023-07-23 10:44:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19000304]
+[2023-07-23 10:44:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-23 10:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: madcat
+[2023-07-23 10:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openai-functools
+[2023-07-23 10:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: confattr
+[2023-07-23 10:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: biliarchiver
+[2023-07-23 10:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fedml
+[2023-07-23 10:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: telebot-constructor
+[2023-07-23 10:44:12] INFO root fetch - processPackages [openai-functools]: New version: [0.2.33] Old Version: [0.2.30]
+[2023-07-23 10:44:12] INFO root fetch - processPackages [biliarchiver]: New version: [0.0.9] Old Version: [0.0.26]
+[2023-07-23 10:44:12] INFO root fetch - processPackages [telebot-constructor]: New version: [0.0.6] Old Version: [0.0.4]
+[2023-07-23 10:44:12] INFO root fetch - processPackages [confattr]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-23 10:44:12] INFO root fetch - processPackages [fedml]: New version: [0.8.7a5] Old Version: [0.8.7a4]
+[2023-07-23 10:44:12] INFO root fetch - processPackages [madcat]: New version: [7.3] Old Version: [7.2]
+[2023-07-23 10:44:12] INFO root fetch - processPackages [biliarchiver]: Downloading https://files.pythonhosted.org/packages/f3/78/61cda24b0e7670e39e30e015a0336559de82931e2fc29587e7de52f15a8c/biliarchiver-0.0.26.tar.gz
+[2023-07-23 10:44:12] INFO root fetch - processPackages [telebot-constructor]: Downloading https://files.pythonhosted.org/packages/e4/c9/72d28d898eb8b288b649b464548ac7b50ff34d6f544a5a776cfec16c8e5a/telebot_constructor-0.0.4.tar.gz
+[2023-07-23 10:44:12] INFO root fetch - processPackages [openai-functools]: Downloading https://files.pythonhosted.org/packages/00/35/dabafe69326a82d640f529d9b939f22bf8de24953e64db3ba2cfd95fc861/openai_functools-0.2.30.tar.gz
+[2023-07-23 10:44:12] INFO root fetch - processPackages [madcat]: Downloading https://files.pythonhosted.org/packages/d6/cf/5c400a468b3c48afbd13dcb8774548295ce1af79f94917bef5290a268445/madcat-7.2.tar.gz
+[2023-07-23 10:44:12] INFO root fetch - processPackages [confattr]: Downloading https://files.pythonhosted.org/packages/e0/3d/676c9829500ccdbc350423ed2b5e28aba80e42d64a6226d75cca28e78178/confattr-0.9.0.tar.gz
+[2023-07-23 10:44:12] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/86/4e/36f432cddb80cf14b268eb9124f2665709988a4a3419c32c67ce465df22e/fedml-0.8.7a4.tar.gz
+[2023-07-23 10:44:13] INFO root fetch - processPackages [telebot-constructor]: Downloading https://files.pythonhosted.org/packages/aa/51/706283ef9fe6c7be063fe399a96efe39ddefb5f061f0efc62c51cefd67a2/telebot_constructor-0.0.6.tar.gz
+[2023-07-23 10:44:13] INFO root fetch - processPackages [openai-functools]: Downloading https://files.pythonhosted.org/packages/b0/88/42e8e0b946eb5cfeb3f0013a4e195d4bf55a116653504e55a94bc7f50042/openai_functools-0.2.33.tar.gz
+[2023-07-23 10:44:13] INFO root fetch - processPackages [biliarchiver]: Downloading https://files.pythonhosted.org/packages/75/6f/a07bee6d23ed240047e737c1e393aadca816e9e1cc7c1aaa81457a4885da/biliarchiver-0.0.9.tar.gz
+[2023-07-23 10:44:13] INFO root fetch - processPackages [telebot-constructor]: executing diffoscope
+[2023-07-23 10:44:13] INFO root fetch - processPackages [telebot-constructor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telebot_constructor-0.0.4.tar.gz tmp/telebot_constructor-0.0.6.tar.gz --markdown 20230723/t/telebot-constructor/0.0.4-0.0.6/diff.md --exclude *.pyd
+[2023-07-23 10:44:13] INFO root fetch - processPackages [madcat]: Downloading https://files.pythonhosted.org/packages/ab/15/1ddd95c2a0c5524ec631ab7d09887ecc2442b59a98ec11ff36e53f925bf9/madcat-7.3.tar.gz
+[2023-07-23 10:44:13] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/bd/e1/aadcab0f7b75ceec4b2724efdafeb112a6fe0bb552abbb5b31092954063c/fedml-0.8.7a5.tar.gz
+[2023-07-23 10:44:13] INFO root fetch - processPackages [openai-functools]: executing diffoscope
+[2023-07-23 10:44:13] INFO root fetch - processPackages [openai-functools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_functools-0.2.30.tar.gz tmp/openai_functools-0.2.33.tar.gz --markdown 20230723/o/openai-functools/0.2.30-0.2.33/diff.md --exclude *.pyd
+[2023-07-23 10:44:13] INFO root fetch - processPackages [biliarchiver]: executing diffoscope
+[2023-07-23 10:44:13] INFO root fetch - processPackages [biliarchiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biliarchiver-0.0.26.tar.gz tmp/biliarchiver-0.0.9.tar.gz --markdown 20230723/b/biliarchiver/0.0.26-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 10:44:13] INFO root fetch - processPackages [madcat]: executing diffoscope
+[2023-07-23 10:44:13] INFO root fetch - processPackages [madcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/madcat-7.2.tar.gz tmp/madcat-7.3.tar.gz --markdown 20230723/m/madcat/7.2-7.3/diff.md --exclude *.pyd
+[2023-07-23 10:44:13] INFO root fetch - processPackages [confattr]: Downloading https://files.pythonhosted.org/packages/a6/17/73ce7e383a16ae83a2768ebc6e64315ac4a7ece6c6cd12952e99e107efe8/confattr-0.9.1.tar.gz
+[2023-07-23 10:44:13] INFO root fetch - processPackages [fedml]: executing diffoscope
+[2023-07-23 10:44:13] INFO root fetch - processPackages [fedml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedml-0.8.7a4.tar.gz tmp/fedml-0.8.7a5.tar.gz --markdown 20230723/f/fedml/0.8.7a4-0.8.7a5/diff.md --exclude *.pyd
+[2023-07-23 10:44:14] INFO root fetch - processPackages [confattr]: executing diffoscope
+[2023-07-23 10:44:14] INFO root fetch - processPackages [confattr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confattr-0.9.0.tar.gz tmp/confattr-0.9.1.tar.gz --markdown 20230723/c/confattr/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-23 10:44:14] INFO root fetch - processPackages [telebot-constructor]: Remove: archive file [/home/abi/fetcher/tmp/telebot_constructor-0.0.4.tar.gz]
+[2023-07-23 10:44:14] INFO root fetch - processPackages [telebot-constructor]: Remove: archive file [/home/abi/fetcher/tmp/telebot_constructor-0.0.6.tar.gz]
+[2023-07-23 10:44:14] INFO root fetch - main [MainThread]: End processing [telebot-constructor]: success
+[2023-07-23 10:44:14] INFO root fetch - processPackages [openai-functools]: Remove: archive file [/home/abi/fetcher/tmp/openai_functools-0.2.30.tar.gz]
+[2023-07-23 10:44:14] INFO root fetch - processPackages [openai-functools]: Remove: archive file [/home/abi/fetcher/tmp/openai_functools-0.2.33.tar.gz]
+[2023-07-23 10:44:14] INFO root fetch - main [MainThread]: End processing [openai-functools]: success
+[2023-07-23 10:44:14] INFO root fetch - processPackages [biliarchiver]: Remove: archive file [/home/abi/fetcher/tmp/biliarchiver-0.0.26.tar.gz]
+[2023-07-23 10:44:14] INFO root fetch - processPackages [biliarchiver]: Remove: archive file [/home/abi/fetcher/tmp/biliarchiver-0.0.9.tar.gz]
+[2023-07-23 10:44:14] INFO root fetch - main [MainThread]: End processing [biliarchiver]: success
+[2023-07-23 10:44:14] INFO root fetch - processPackages [madcat]: Remove: archive file [/home/abi/fetcher/tmp/madcat-7.2.tar.gz]
+[2023-07-23 10:44:14] INFO root fetch - processPackages [madcat]: Remove: archive file [/home/abi/fetcher/tmp/madcat-7.3.tar.gz]
+[2023-07-23 10:44:14] INFO root fetch - main [MainThread]: End processing [madcat]: success
+[2023-07-23 10:44:16] INFO root fetch - processPackages [confattr]: Remove: archive file [/home/abi/fetcher/tmp/confattr-0.9.0.tar.gz]
+[2023-07-23 10:44:16] INFO root fetch - processPackages [confattr]: Remove: archive file [/home/abi/fetcher/tmp/confattr-0.9.1.tar.gz]
+[2023-07-23 10:44:16] INFO root fetch - main [MainThread]: End processing [confattr]: success
+[2023-07-23 10:44:20] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.7a4.tar.gz]
+[2023-07-23 10:44:20] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.7a5.tar.gz]
+[2023-07-23 10:44:20] INFO root fetch - main [MainThread]: End processing [fedml]: success
+[2023-07-23 10:44:20] INFO root fetch - main [MainThread]: Store serial: [19000322]
