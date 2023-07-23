@@ -10467,3 +10467,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 17:37:30] INFO root fetch - processPackages [pex]: Remove: archive file [/home/abi/fetcher/tmp/pex-2.1.99.tar.gz]
 [2023-07-23 17:37:30] INFO root fetch - main [MainThread]: End processing [pex]: success
 [2023-07-23 17:37:30] INFO root fetch - main [MainThread]: Store serial: [19002778]
+[2023-07-23 17:42:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19002778]
+[2023-07-23 17:42:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-23 17:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlalchemy-orm-manager
+[2023-07-23 17:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finanalysis
+[2023-07-23 17:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kodexa-cli
+[2023-07-23 17:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: examon-beginners-package
+[2023-07-23 17:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trino-query-parser
+[2023-07-23 17:42:39] INFO root fetch - processPackages [finanalysis]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-23 17:42:39] WARNING root fetch - processPackages [sqlalchemy-orm-manager]: Skipping, unable to determine old version
+[2023-07-23 17:42:39] INFO root fetch - main [MainThread]: End processing [sqlalchemy-orm-manager] error
+[2023-07-23 17:42:39] INFO root fetch - processPackages [trino-query-parser]: New version: [0.515.6] Old Version: [0.405.5]
+[2023-07-23 17:42:39] INFO root fetch - processPackages [kodexa-cli]: New version: [6.3.35637293861] Old Version: [6.3.35637235787]
+[2023-07-23 17:42:39] INFO root fetch - processPackages [examon-beginners-package]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 17:42:39] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/9d/e9/58c53275abe46fc5f1d924df8e899940d512253d1512b80ccb67449a1b92/kodexa_cli-6.3.35637235787.tar.gz
+[2023-07-23 17:42:39] INFO root fetch - processPackages [trino-query-parser]: Downloading https://files.pythonhosted.org/packages/07/ec/e6e19d33562762b470889ca5243b93bf4caf6665da46abc31587141e238f/trino_query_parser-0.405.5-py3-none-any.whl
+[2023-07-23 17:42:39] INFO root fetch - processPackages [finanalysis]: Downloading https://files.pythonhosted.org/packages/d5/59/b41523da59accdc391e6b8343d40f254aaa523aa92dc9841963f0987212d/finanalysis-0.1.0.tar.gz
+[2023-07-23 17:42:39] INFO root fetch - processPackages [examon-beginners-package]: Downloading https://files.pythonhosted.org/packages/54/b2/19d320cd46ecaa9277572a72d62dfa3f72f5fc2a52a18fb590f0a7f9a5db/examon_beginners_package-0.0.8.tar.gz
+[2023-07-23 17:42:39] INFO root fetch - processPackages [trino-query-parser]: Downloading https://files.pythonhosted.org/packages/06/73/d28c0f346db28ea3ba6b4b2a4581dfb3febcfbf6884b0bcab44287f4ad3a/trino_query_parser-0.515.6-py3-none-any.whl
+[2023-07-23 17:42:39] INFO root fetch - processPackages [finanalysis]: Downloading https://files.pythonhosted.org/packages/0a/43/e6fe884c0d0b6e8d7bed815198e30823dbf255a2a7801184b6fa0d1b9bdf/finanalysis-0.2.0.tar.gz
+[2023-07-23 17:42:39] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/95/a0/6603dc7a78d6a98d92ddaf634985b1e00c3074b2b9a29b9707149f2fd035/kodexa_cli-6.3.35637293861.tar.gz
+[2023-07-23 17:42:39] INFO root fetch - processPackages [trino-query-parser]: executing diffoscope
+[2023-07-23 17:42:39] INFO root fetch - processPackages [trino-query-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trino_query_parser-0.405.5-py3-none-any.whl.zip tmp/trino_query_parser-0.515.6-py3-none-any.whl.zip --markdown 20230723/t/trino-query-parser/0.405.5-0.515.6/diff.md --exclude *.pyd
+[2023-07-23 17:42:39] INFO root fetch - processPackages [finanalysis]: executing diffoscope
+[2023-07-23 17:42:39] INFO root fetch - processPackages [finanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finanalysis-0.1.0.tar.gz tmp/finanalysis-0.2.0.tar.gz --markdown 20230723/f/finanalysis/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-23 17:42:39] INFO root fetch - processPackages [kodexa-cli]: executing diffoscope
+[2023-07-23 17:42:39] INFO root fetch - processPackages [kodexa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa_cli-6.3.35637235787.tar.gz tmp/kodexa_cli-6.3.35637293861.tar.gz --markdown 20230723/k/kodexa-cli/6.3.35637235787-6.3.35637293861/diff.md --exclude *.pyd
+[2023-07-23 17:42:39] INFO root fetch - processPackages [examon-beginners-package]: Downloading https://files.pythonhosted.org/packages/b1/5c/bb51ad01796abf4a5a1d03b1169e5a511a116f2a6255d0b82fafc32da719/examon_beginners_package-0.0.9.tar.gz
+[2023-07-23 17:42:39] INFO root fetch - processPackages [examon-beginners-package]: executing diffoscope
+[2023-07-23 17:42:39] INFO root fetch - processPackages [examon-beginners-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/examon_beginners_package-0.0.8.tar.gz tmp/examon_beginners_package-0.0.9.tar.gz --markdown 20230723/e/examon-beginners-package/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 17:42:40] INFO root fetch - processPackages [finanalysis]: Remove: archive file [/home/abi/fetcher/tmp/finanalysis-0.1.0.tar.gz]
+[2023-07-23 17:42:40] INFO root fetch - processPackages [finanalysis]: Remove: archive file [/home/abi/fetcher/tmp/finanalysis-0.2.0.tar.gz]
+[2023-07-23 17:42:40] INFO root fetch - main [MainThread]: End processing [finanalysis]: success
+[2023-07-23 17:42:40] INFO root fetch - processPackages [trino-query-parser]: Remove: archive file [/home/abi/fetcher/tmp/trino_query_parser-0.405.5-py3-none-any.whl.zip]
+[2023-07-23 17:42:40] INFO root fetch - processPackages [trino-query-parser]: Remove: archive file [/home/abi/fetcher/tmp/trino_query_parser-0.515.6-py3-none-any.whl.zip]
+[2023-07-23 17:42:40] INFO root fetch - main [MainThread]: End processing [trino-query-parser]: success
+[2023-07-23 17:42:40] INFO root fetch - processPackages [examon-beginners-package]: Remove: archive file [/home/abi/fetcher/tmp/examon_beginners_package-0.0.8.tar.gz]
+[2023-07-23 17:42:40] INFO root fetch - processPackages [examon-beginners-package]: Remove: archive file [/home/abi/fetcher/tmp/examon_beginners_package-0.0.9.tar.gz]
+[2023-07-23 17:42:40] INFO root fetch - main [MainThread]: End processing [examon-beginners-package]: success
+[2023-07-23 17:42:40] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-6.3.35637235787.tar.gz]
+[2023-07-23 17:42:40] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-6.3.35637293861.tar.gz]
+[2023-07-23 17:42:40] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
+[2023-07-23 17:42:40] INFO root fetch - main [MainThread]: Store serial: [19002804]
