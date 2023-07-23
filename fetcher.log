@@ -4928,3 +4928,33 @@
 [2023-07-23 09:56:22] INFO root fetch - processPackages [ptb-state-handler]: Remove: archive file [/home/abi/fetcher/tmp/ptb_state_handler-0.2.0.tar.gz]
 [2023-07-23 09:56:22] INFO root fetch - main [MainThread]: End processing [ptb-state-handler]: success
 [2023-07-23 09:56:22] INFO root fetch - main [MainThread]: Store serial: [19000137]
+[2023-07-23 10:01:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19000137]
+[2023-07-23 10:01:30] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-23 10:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: id2xml
+[2023-07-23 10:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: terminal-manager
+[2023-07-23 10:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-tortoise-crud
+[2023-07-23 10:01:30] INFO root fetch - processPackages [id2xml]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-07-23 10:01:30] INFO root fetch - processPackages [fastapi-tortoise-crud]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-23 10:01:30] INFO root fetch - processPackages [terminal-manager]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-23 10:01:30] INFO root fetch - processPackages [id2xml]: Downloading https://files.pythonhosted.org/packages/57/cf/079944ac0e4b7affd9ceb0c69204b7d57b7bda12ff2ab86d53c3d5aac916/id2xml-1.5.1.tar.gz
+[2023-07-23 10:01:30] INFO root fetch - processPackages [fastapi-tortoise-crud]: Downloading https://files.pythonhosted.org/packages/f2/f2/75ed55cdc5e56febe78a78e171ce63b80e055cf3aee7322422f8fda3571d/fastapi-tortoise-crud-0.1.7.tar.gz
+[2023-07-23 10:01:30] INFO root fetch - processPackages [terminal-manager]: Downloading https://files.pythonhosted.org/packages/95/0e/189bae6608c1cd8874bb4e47aa380c7eb3940c49ac4d28ad2d8270f0872b/terminal_manager-0.9.1.tar.gz
+[2023-07-23 10:01:30] INFO root fetch - processPackages [terminal-manager]: Downloading https://files.pythonhosted.org/packages/3c/ab/6da4e084520739c6d2616d1ca90c064951519b3c6ec43b53f06b4c76cd97/terminal_manager-0.9.2.tar.gz
+[2023-07-23 10:01:30] INFO root fetch - processPackages [id2xml]: Downloading https://files.pythonhosted.org/packages/69/a4/23f9448ddff3a93df2348515ced6474751b59c192df426ce930e80a33732/id2xml-1.5.2.tar.gz
+[2023-07-23 10:01:31] INFO root fetch - processPackages [fastapi-tortoise-crud]: Downloading https://files.pythonhosted.org/packages/58/50/aa41b76ca873253462b94931c5396dd9ff786c7ae4d0d8916b30ec60aaa0/fastapi-tortoise-crud-0.1.8.tar.gz
+[2023-07-23 10:01:31] INFO root fetch - processPackages [terminal-manager]: executing diffoscope
+[2023-07-23 10:01:31] INFO root fetch - processPackages [terminal-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terminal_manager-0.9.1.tar.gz tmp/terminal_manager-0.9.2.tar.gz --markdown 20230723/t/terminal-manager/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-23 10:01:31] INFO root fetch - processPackages [fastapi-tortoise-crud]: executing diffoscope
+[2023-07-23 10:01:31] INFO root fetch - processPackages [fastapi-tortoise-crud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-tortoise-crud-0.1.7.tar.gz tmp/fastapi-tortoise-crud-0.1.8.tar.gz --markdown 20230723/f/fastapi-tortoise-crud/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-23 10:01:31] INFO root fetch - processPackages [id2xml]: executing diffoscope
+[2023-07-23 10:01:31] INFO root fetch - processPackages [id2xml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/id2xml-1.5.1.tar.gz tmp/id2xml-1.5.2.tar.gz --markdown 20230723/i/id2xml/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-07-23 10:01:31] INFO root fetch - processPackages [fastapi-tortoise-crud]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-tortoise-crud-0.1.7.tar.gz]
+[2023-07-23 10:01:31] INFO root fetch - processPackages [fastapi-tortoise-crud]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-tortoise-crud-0.1.8.tar.gz]
+[2023-07-23 10:01:31] INFO root fetch - main [MainThread]: End processing [fastapi-tortoise-crud]: success
+[2023-07-23 10:01:32] INFO root fetch - processPackages [terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/terminal_manager-0.9.1.tar.gz]
+[2023-07-23 10:01:32] INFO root fetch - processPackages [terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/terminal_manager-0.9.2.tar.gz]
+[2023-07-23 10:01:32] INFO root fetch - main [MainThread]: End processing [terminal-manager]: success
+[2023-07-23 10:01:32] INFO root fetch - processPackages [id2xml]: Remove: archive file [/home/abi/fetcher/tmp/id2xml-1.5.1.tar.gz]
+[2023-07-23 10:01:32] INFO root fetch - processPackages [id2xml]: Remove: archive file [/home/abi/fetcher/tmp/id2xml-1.5.2.tar.gz]
+[2023-07-23 10:01:32] INFO root fetch - main [MainThread]: End processing [id2xml]: success
+[2023-07-23 10:01:32] INFO root fetch - main [MainThread]: Store serial: [19000146]
