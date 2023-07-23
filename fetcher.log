@@ -6284,3 +6284,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 12:03:06] INFO root fetch - processPackages [biolink-model]: Remove: archive file [/home/abi/fetcher/tmp/biolink-model-3.5.2.tar.gz]
 [2023-07-23 12:03:06] INFO root fetch - main [MainThread]: End processing [biolink-model]: success
 [2023-07-23 12:03:06] INFO root fetch - main [MainThread]: Store serial: [19000626]
+[2023-07-23 12:08:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19000626]
+[2023-07-23 12:08:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-23 12:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dumbo-asp
+[2023-07-23 12:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dm-reverb-nightly
+[2023-07-23 12:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mysql-replication
+[2023-07-23 12:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydiverse-pipedag
+[2023-07-23 12:08:14] INFO root fetch - processPackages [dumbo-asp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 12:08:14] INFO root fetch - processPackages [pydiverse-pipedag]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-23 12:08:14] INFO root fetch - processPackages [mysql-replication]: New version: [0.9] Old Version: [0.8]
+[2023-07-23 12:08:14] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-07-23 12:08:15] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-23 12:08:15] INFO root fetch - processPackages [mysql-replication]: Downloading https://files.pythonhosted.org/packages/6e/e0/cea8648ecf06e88aa0c894b32751513dd26d00434017a2a5cec1c3d95c83/mysql-replication-0.8.tar.gz
+[2023-07-23 12:08:15] INFO root fetch - processPackages [dumbo-asp]: Downloading https://files.pythonhosted.org/packages/2a/14/8a28611790b56516b229c885b5ef77983affbb331ff5b0958db582192c24/dumbo_asp-0.0.8.tar.gz
+[2023-07-23 12:08:15] INFO root fetch - processPackages [pydiverse-pipedag]: Downloading https://files.pythonhosted.org/packages/94/50/f51ac20e84896c0aea4e64864a3ca5fc7185bb918bb2ff3a9966c979abb1/pydiverse_pipedag-0.6.1.tar.gz
+[2023-07-23 12:08:15] INFO root fetch - processPackages [pydiverse-pipedag]: Downloading https://files.pythonhosted.org/packages/5d/b8/96c24a4fa9bf2e4eb9dfadd2f4efbd830362451de3c59ea6dd1aad14c35b/pydiverse_pipedag-0.6.2.tar.gz
+[2023-07-23 12:08:15] INFO root fetch - processPackages [mysql-replication]: Downloading https://files.pythonhosted.org/packages/d6/e8/7c4105691668684e3f94cdd223a8f6fa31af67e90092ddee835e4a7d69a1/mysql-replication-0.9.tar.gz
+[2023-07-23 12:08:15] INFO root fetch - processPackages [pydiverse-pipedag]: executing diffoscope
+[2023-07-23 12:08:15] INFO root fetch - processPackages [pydiverse-pipedag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydiverse_pipedag-0.6.1.tar.gz tmp/pydiverse_pipedag-0.6.2.tar.gz --markdown 20230723/p/pydiverse-pipedag/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-23 12:08:16] INFO root fetch - processPackages [dumbo-asp]: Downloading https://files.pythonhosted.org/packages/76/f9/caa8b424408e3ec56d9ac024882116380e06ddb9b675de285ac93b89b659/dumbo_asp-0.0.9.tar.gz
+[2023-07-23 12:08:16] INFO root fetch - processPackages [mysql-replication]: executing diffoscope
+[2023-07-23 12:08:16] INFO root fetch - processPackages [mysql-replication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysql-replication-0.8.tar.gz tmp/mysql-replication-0.9.tar.gz --markdown 20230723/m/mysql-replication/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-23 12:08:16] INFO root fetch - processPackages [dumbo-asp]: executing diffoscope
+[2023-07-23 12:08:16] INFO root fetch - processPackages [dumbo-asp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dumbo_asp-0.0.8.tar.gz tmp/dumbo_asp-0.0.9.tar.gz --markdown 20230723/d/dumbo-asp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 12:08:16] INFO root fetch - processPackages [pydiverse-pipedag]: Remove: archive file [/home/abi/fetcher/tmp/pydiverse_pipedag-0.6.1.tar.gz]
+[2023-07-23 12:08:16] INFO root fetch - processPackages [pydiverse-pipedag]: Remove: archive file [/home/abi/fetcher/tmp/pydiverse_pipedag-0.6.2.tar.gz]
+[2023-07-23 12:08:16] INFO root fetch - main [MainThread]: End processing [pydiverse-pipedag]: success
+[2023-07-23 12:08:16] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-23 12:08:16] INFO root fetch - processPackages [mysql-replication]: Remove: archive file [/home/abi/fetcher/tmp/mysql-replication-0.8.tar.gz]
+[2023-07-23 12:08:16] INFO root fetch - processPackages [mysql-replication]: Remove: archive file [/home/abi/fetcher/tmp/mysql-replication-0.9.tar.gz]
+[2023-07-23 12:08:16] INFO root fetch - main [MainThread]: End processing [mysql-replication]: success
+[2023-07-23 12:08:17] INFO root fetch - processPackages [dumbo-asp]: Remove: archive file [/home/abi/fetcher/tmp/dumbo_asp-0.0.8.tar.gz]
+[2023-07-23 12:08:17] INFO root fetch - processPackages [dumbo-asp]: Remove: archive file [/home/abi/fetcher/tmp/dumbo_asp-0.0.9.tar.gz]
+[2023-07-23 12:08:17] INFO root fetch - main [MainThread]: End processing [dumbo-asp]: success
+[2023-07-23 12:08:18] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-07-23 12:08:18] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230723/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-07-23 12:08:50] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-23 12:08:50] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-23 12:08:50] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-07-23 12:08:50] INFO root fetch - main [MainThread]: Store serial: [19000649]
