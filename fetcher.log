@@ -852,3 +852,33 @@
 [2023-07-23 01:57:29] INFO root fetch - processPackages [matan]: Remove: archive file [/home/abi/fetcher/tmp/matan-0.1.5.2.9.tar.gz]
 [2023-07-23 01:57:29] INFO root fetch - main [MainThread]: End processing [matan]: success
 [2023-07-23 01:57:29] INFO root fetch - main [MainThread]: Store serial: [18998391]
+[2023-07-23 02:02:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18998391]
+[2023-07-23 02:02:39] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-23 02:02:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: responsecurve
+[2023-07-23 02:02:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hyfi-template
+[2023-07-23 02:02:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arrow-odbc
+[2023-07-23 02:02:39] INFO root fetch - processPackages [responsecurve]: New version: [0.0.9.1] Old Version: [0.0.9]
+[2023-07-23 02:02:39] INFO root fetch - processPackages [hyfi-template]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-23 02:02:39] INFO root fetch - processPackages [arrow-odbc]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-23 02:02:39] INFO root fetch - processPackages [responsecurve]: Downloading https://files.pythonhosted.org/packages/ad/77/8b87f9012cd97eb90743830de99b898bdc97610504dbcfeec075bc330c5a/responsecurve-0.0.9.tar.gz
+[2023-07-23 02:02:39] INFO root fetch - processPackages [arrow-odbc]: Downloading https://files.pythonhosted.org/packages/7c/56/16749e53b67bc1f3a7fadc89047ed67f4e427c291f7d1eb2691ac4448c79/arrow_odbc-1.1.1.tar.gz
+[2023-07-23 02:02:39] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/e2/89/153d32cd3785d120db2a6b62e2ae05863c1be436b5eb1aeb03134354255a/hyfi_template-0.6.0.tar.gz
+[2023-07-23 02:02:39] INFO root fetch - processPackages [arrow-odbc]: Downloading https://files.pythonhosted.org/packages/61/8c/be5bef796dfbae7ff1a8764e7555c9048bf09ab31c7fdbc1bf5330d742b4/arrow_odbc-1.1.2.tar.gz
+[2023-07-23 02:02:39] INFO root fetch - processPackages [responsecurve]: Downloading https://files.pythonhosted.org/packages/5b/7f/55db97b834d015e370d00183148c6f78459c9a690d5eec734914a0dce09b/responsecurve-0.0.9.1.tar.gz
+[2023-07-23 02:02:39] INFO root fetch - processPackages [arrow-odbc]: executing diffoscope
+[2023-07-23 02:02:39] INFO root fetch - processPackages [arrow-odbc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arrow_odbc-1.1.1.tar.gz tmp/arrow_odbc-1.1.2.tar.gz --markdown 20230723/a/arrow-odbc/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-23 02:02:39] INFO root fetch - processPackages [responsecurve]: executing diffoscope
+[2023-07-23 02:02:39] INFO root fetch - processPackages [responsecurve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/responsecurve-0.0.9.tar.gz tmp/responsecurve-0.0.9.1.tar.gz --markdown 20230723/r/responsecurve/0.0.9-0.0.9.1/diff.md --exclude *.pyd
+[2023-07-23 02:02:39] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/34/7c/bb394341dbb31186ced62bb7f6f44854bcda47b6575aaa3b070248050cc7/hyfi_template-0.6.1.tar.gz
+[2023-07-23 02:02:39] INFO root fetch - processPackages [hyfi-template]: executing diffoscope
+[2023-07-23 02:02:39] INFO root fetch - processPackages [hyfi-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi_template-0.6.0.tar.gz tmp/hyfi_template-0.6.1.tar.gz --markdown 20230723/h/hyfi-template/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-23 02:02:40] INFO root fetch - processPackages [responsecurve]: Remove: archive file [/home/abi/fetcher/tmp/responsecurve-0.0.9.tar.gz]
+[2023-07-23 02:02:40] INFO root fetch - processPackages [responsecurve]: Remove: archive file [/home/abi/fetcher/tmp/responsecurve-0.0.9.1.tar.gz]
+[2023-07-23 02:02:40] INFO root fetch - main [MainThread]: End processing [responsecurve]: success
+[2023-07-23 02:02:40] INFO root fetch - processPackages [arrow-odbc]: Remove: archive file [/home/abi/fetcher/tmp/arrow_odbc-1.1.1.tar.gz]
+[2023-07-23 02:02:40] INFO root fetch - processPackages [arrow-odbc]: Remove: archive file [/home/abi/fetcher/tmp/arrow_odbc-1.1.2.tar.gz]
+[2023-07-23 02:02:40] INFO root fetch - main [MainThread]: End processing [arrow-odbc]: success
+[2023-07-23 02:02:40] INFO root fetch - processPackages [hyfi-template]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_template-0.6.0.tar.gz]
+[2023-07-23 02:02:40] INFO root fetch - processPackages [hyfi-template]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_template-0.6.1.tar.gz]
+[2023-07-23 02:02:40] INFO root fetch - main [MainThread]: End processing [hyfi-template]: success
+[2023-07-23 02:02:40] INFO root fetch - main [MainThread]: Store serial: [18998400]
