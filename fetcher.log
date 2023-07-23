@@ -8396,3 +8396,103 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 15:07:55] INFO root fetch - processPackages [artistml-sdk]: Remove: archive file [/home/abi/fetcher/tmp/artistml-sdk-0.2.1.dev9751808.tar.gz]
 [2023-07-23 15:07:55] INFO root fetch - main [MainThread]: End processing [artistml-sdk]: success
 [2023-07-23 15:07:55] INFO root fetch - main [MainThread]: Store serial: [19001706]
+[2023-07-23 15:12:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19001706]
+[2023-07-23 15:13:04] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-23 15:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: comex
+[2023-07-23 15:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: liburlparser
+[2023-07-23 15:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bs-python-utils
+[2023-07-23 15:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-pandas
+[2023-07-23 15:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: IDsys
+[2023-07-23 15:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qwak-core
+[2023-07-23 15:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: omgpt
+[2023-07-23 15:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-pytorch
+[2023-07-23 15:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: IDsys
+[2023-07-23 15:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-scipy
+[2023-07-23 15:13:04] INFO root fetch - processPackages [IDsys]: New version: [0.0.8.7] Old Version: [0.0.8.6]
+[2023-07-23 15:13:04] INFO root fetch - processPackages [comex]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-23 15:13:04] INFO root fetch - processPackages [bs-python-utils]: New version: [0.4.1] Old Version: [0.4]
+[2023-07-23 15:13:04] INFO root fetch - processPackages [IDsys]: New version: [0.0.8.7] Old Version: [0.0.8.6]
+[2023-07-23 15:13:04] INFO root fetch - processPackages [omgpt]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 15:13:04] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-23 15:13:04] INFO root fetch - processPackages [liburlparser]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-07-23 15:13:04] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-23 15:13:04] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-23 15:13:04] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-23 15:13:04] INFO root fetch - processPackages [bs-python-utils]: Downloading https://files.pythonhosted.org/packages/78/78/275b9a7fcb9f82e1a9ec60fc1904a0970fad05f45587a7157aa6bf4e563f/bs_python_utils-0.4.tar.gz
+[2023-07-23 15:13:04] INFO root fetch - processPackages [IDsys]: Downloading https://files.pythonhosted.org/packages/2a/80/88cf41be700f7bb80a8ae6dcd0a72edb5f93ef6703c49ccd70d424f3262e/IDsys-0.0.8.6.tar.gz
+[2023-07-23 15:13:04] INFO root fetch - processPackages [IDsys]: Downloading https://files.pythonhosted.org/packages/2a/80/88cf41be700f7bb80a8ae6dcd0a72edb5f93ef6703c49ccd70d424f3262e/IDsys-0.0.8.6.tar.gz
+[2023-07-23 15:13:04] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-07-23 15:13:04] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-07-23 15:13:05] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-07-23 15:13:05] INFO root fetch - processPackages [omgpt]: Downloading https://files.pythonhosted.org/packages/95/9b/1f4bcb2ba7c25dcf306fda6c086584232a3f7ab060058477dbe21ed0663e/omgpt-0.0.8.tar.gz
+[2023-07-23 15:13:05] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-07-23 15:13:05] INFO root fetch - processPackages [comex]: Downloading https://files.pythonhosted.org/packages/69/c4/fe4c25c55131b8a1e27429ef7a8cec61ce6798eec89c10ddaf6a52dc0d6a/comex-0.1.4.tar.gz
+[2023-07-23 15:13:05] INFO root fetch - processPackages [liburlparser]: Downloading https://files.pythonhosted.org/packages/49/f6/683c34f9b78f211856d84fe047f35acb65093714ccb722e776f0c25f4891/liburlparser-1.0.2.tar.gz
+[2023-07-23 15:13:05] INFO root fetch - processPackages [omgpt]: Downloading https://files.pythonhosted.org/packages/36/eb/1b49802490ac705759227f8e6b347150ec116fa24ee9361cac7fee64566a/omgpt-0.0.9.tar.gz
+[2023-07-23 15:13:05] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-07-23 15:13:05] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-07-23 15:13:05] INFO root fetch - processPackages [bs-python-utils]: Downloading https://files.pythonhosted.org/packages/ec/ed/6a710ccf0021dec20a3a120c7e8968ea6e8739e5b3988db155f88e0fc78b/bs_python_utils-0.4.1.tar.gz
+[2023-07-23 15:13:05] INFO root fetch - processPackages [IDsys]: Downloading https://files.pythonhosted.org/packages/e8/b8/eeb6ae1618aaa97a701d2620a6e6a87efeeab303d818a93ed4925ae3eef6/IDsys-0.0.8.7.tar.gz
+[2023-07-23 15:13:05] INFO root fetch - processPackages [IDsys]: Downloading https://files.pythonhosted.org/packages/e8/b8/eeb6ae1618aaa97a701d2620a6e6a87efeeab303d818a93ed4925ae3eef6/IDsys-0.0.8.7.tar.gz
+[2023-07-23 15:13:05] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-07-23 15:13:05] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-07-23 15:13:05] INFO root fetch - processPackages [comex]: Downloading https://files.pythonhosted.org/packages/7f/7a/6b56e9f10a2a4d4d66a2ff45326020affa3d77ee089e1bafaf567bb76e0f/comex-0.1.5.tar.gz
+[2023-07-23 15:13:05] INFO root fetch - processPackages [liburlparser]: Downloading https://files.pythonhosted.org/packages/af/a8/e4ad0ccaa41d9ba5061bf6a966eb4e7241246e2d0760624e9a7a0c516e10/liburlparser-1.1.0.tar.gz
+[2023-07-23 15:13:05] INFO root fetch - processPackages [omgpt]: executing diffoscope
+[2023-07-23 15:13:05] INFO root fetch - processPackages [omgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omgpt-0.0.8.tar.gz tmp/omgpt-0.0.9.tar.gz --markdown 20230723/o/omgpt/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 15:13:05] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-07-23 15:13:05] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230723/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-23 15:13:05] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-07-23 15:13:05] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230723/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-23 15:13:05] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-07-23 15:13:05] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230723/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-23 15:13:05] INFO root fetch - processPackages [bs-python-utils]: executing diffoscope
+[2023-07-23 15:13:05] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-07-23 15:13:05] INFO root fetch - processPackages [bs-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bs_python_utils-0.4.tar.gz tmp/bs_python_utils-0.4.1.tar.gz --markdown 20230723/b/bs-python-utils/0.4-0.4.1/diff.md --exclude *.pyd
+[2023-07-23 15:13:05] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230723/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-23 15:13:05] INFO root fetch - processPackages [IDsys]: executing diffoscope
+[2023-07-23 15:13:05] INFO root fetch - processPackages [IDsys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IDsys-0.0.8.6.tar.gz tmp/IDsys-0.0.8.7.tar.gz --markdown 20230723/I/IDsys/0.0.8.6-0.0.8.7/diff.md --exclude *.pyd
+[2023-07-23 15:13:05] INFO root fetch - processPackages [IDsys]: executing diffoscope
+[2023-07-23 15:13:05] INFO root fetch - processPackages [IDsys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IDsys-0.0.8.6.tar.gz tmp/IDsys-0.0.8.7.tar.gz --markdown 20230723/I/IDsys/0.0.8.6-0.0.8.7/diff.md --exclude *.pyd
+[2023-07-23 15:13:05] INFO root fetch - processPackages [liburlparser]: executing diffoscope
+[2023-07-23 15:13:05] INFO root fetch - processPackages [liburlparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liburlparser-1.0.2.tar.gz tmp/liburlparser-1.1.0.tar.gz --markdown 20230723/l/liburlparser/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-07-23 15:13:05] INFO root fetch - processPackages [comex]: executing diffoscope
+[2023-07-23 15:13:05] INFO root fetch - processPackages [comex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comex-0.1.4.tar.gz tmp/comex-0.1.5.tar.gz --markdown 20230723/c/comex/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-23 15:13:07] INFO root fetch - processPackages [omgpt]: Remove: archive file [/home/abi/fetcher/tmp/omgpt-0.0.8.tar.gz]
+[2023-07-23 15:13:07] INFO root fetch - processPackages [omgpt]: Remove: archive file [/home/abi/fetcher/tmp/omgpt-0.0.9.tar.gz]
+[2023-07-23 15:13:07] INFO root fetch - processPackages [omgpt]: Start processing: hassfeld
+[2023-07-23 15:13:07] INFO root fetch - main [MainThread]: End processing [omgpt]: success
+[2023-07-23 15:13:07] INFO root fetch - processPackages [hassfeld]: New version: [0.3.9a1] Old Version: [0.3.8a1]
+[2023-07-23 15:13:07] INFO root fetch - processPackages [hassfeld]: Downloading https://files.pythonhosted.org/packages/66/fd/fbd8e0a077b19f27446b9f404ee0630e10e9622df598b6027f7349fa4625/hassfeld-0.3.8a1.tar.gz
+[2023-07-23 15:13:07] INFO root fetch - processPackages [IDsys]: Remove: archive file [/home/abi/fetcher/tmp/IDsys-0.0.8.6.tar.gz]
+[2023-07-23 15:13:07] INFO root fetch - processPackages [IDsys]: Remove: archive file [/home/abi/fetcher/tmp/IDsys-0.0.8.7.tar.gz]
+[2023-07-23 15:13:07] INFO root fetch - main [MainThread]: End processing [IDsys]: success
+[2023-07-23 15:13:07] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-07-23 15:13:07] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-07-23 15:13:07] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-07-23 15:13:07] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-07-23 15:13:07] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-07-23 15:13:07] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-07-23 15:13:07] INFO root fetch - processPackages [hassfeld]: Downloading https://files.pythonhosted.org/packages/f1/0a/45cd6e93141b1803bbf3553160db58082b92c9732f824e8f4dedaf59654c/hassfeld-0.3.9a1.tar.gz
+[2023-07-23 15:13:07] INFO root fetch - processPackages [bs-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/bs_python_utils-0.4.tar.gz]
+[2023-07-23 15:13:07] INFO root fetch - processPackages [bs-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/bs_python_utils-0.4.1.tar.gz]
+[2023-07-23 15:13:07] INFO root fetch - main [MainThread]: End processing [bs-python-utils]: success
+[2023-07-23 15:13:07] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-07-23 15:13:07] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-07-23 15:13:07] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-07-23 15:13:07] INFO root fetch - processPackages [hassfeld]: executing diffoscope
+[2023-07-23 15:13:07] INFO root fetch - processPackages [hassfeld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hassfeld-0.3.8a1.tar.gz tmp/hassfeld-0.3.9a1.tar.gz --markdown 20230723/h/hassfeld/0.3.8a1-0.3.9a1/diff.md --exclude *.pyd
+[2023-07-23 15:13:07] INFO root fetch - processPackages [comex]: Remove: archive file [/home/abi/fetcher/tmp/comex-0.1.4.tar.gz]
+[2023-07-23 15:13:07] INFO root fetch - processPackages [comex]: Remove: archive file [/home/abi/fetcher/tmp/comex-0.1.5.tar.gz]
+[2023-07-23 15:13:07] INFO root fetch - main [MainThread]: End processing [comex]: success
+[2023-07-23 15:13:07] INFO root fetch - main [MainThread]: End processing [IDsys]: success
+[2023-07-23 15:13:07] INFO root fetch - processPackages [liburlparser]: Remove: archive file [/home/abi/fetcher/tmp/liburlparser-1.0.2.tar.gz]
+[2023-07-23 15:13:07] INFO root fetch - processPackages [liburlparser]: Remove: archive file [/home/abi/fetcher/tmp/liburlparser-1.1.0.tar.gz]
+[2023-07-23 15:13:07] INFO root fetch - main [MainThread]: End processing [liburlparser]: success
+[2023-07-23 15:13:08] INFO root fetch - processPackages [hassfeld]: Remove: archive file [/home/abi/fetcher/tmp/hassfeld-0.3.8a1.tar.gz]
+[2023-07-23 15:13:08] INFO root fetch - processPackages [hassfeld]: Remove: archive file [/home/abi/fetcher/tmp/hassfeld-0.3.9a1.tar.gz]
+[2023-07-23 15:13:08] INFO root fetch - main [MainThread]: End processing [hassfeld]: success
+[2023-07-23 15:13:09] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-07-23 15:13:09] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-07-23 15:13:09] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-07-23 15:13:09] INFO root fetch - main [MainThread]: Store serial: [19001763]
