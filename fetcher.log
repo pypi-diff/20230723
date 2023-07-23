@@ -11206,3 +11206,106 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 18:24:35] INFO root fetch - processPackages [pyft]: Remove: archive file [/home/abi/fetcher/tmp/pyft-0.1.6.tar.gz]
 [2023-07-23 18:24:35] INFO root fetch - main [MainThread]: End processing [pyft]: success
 [2023-07-23 18:24:35] INFO root fetch - main [MainThread]: Store serial: [19003208]
+[2023-07-23 18:29:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19003208]
+[2023-07-23 18:29:44] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-23 18:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain-experimental
+[2023-07-23 18:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grrif-tools
+[2023-07-23 18:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: garth
+[2023-07-23 18:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tortoise-api
+[2023-07-23 18:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stigg-api-client
+[2023-07-23 18:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: perceval
+[2023-07-23 18:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kodexa-cli
+[2023-07-23 18:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stigg-api-client-v2
+[2023-07-23 18:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: easyocr-itgn
+[2023-07-23 18:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: documentdataextraction
+[2023-07-23 18:29:44] INFO root fetch - processPackages [grrif-tools]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-23 18:29:44] INFO root fetch - processPackages [stigg-api-client]: New version: [0.502.0] Old Version: [0.501.0]
+[2023-07-23 18:29:44] INFO root fetch - processPackages [garth]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-23 18:29:44] INFO root fetch - processPackages [tortoise-api]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-23 18:29:44] INFO root fetch - processPackages [documentdataextraction]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 18:29:44] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [0.502.0] Old Version: [0.501.0]
+[2023-07-23 18:29:44] WARNING root fetch - processPackages [easyocr-itgn]: Skipping, unable to determine old version
+[2023-07-23 18:29:44] INFO root fetch - processPackages [easyocr-itgn]: Start processing: garth
+[2023-07-23 18:29:44] INFO root fetch - main [MainThread]: End processing [easyocr-itgn] error
+[2023-07-23 18:29:44] INFO root fetch - processPackages [langchain-experimental]: New version: [0.0.2] Old Version: [0.0.1rc4]
+[2023-07-23 18:29:44] INFO root fetch - processPackages [kodexa-cli]: New version: [6.3.35637480910] Old Version: [6.3.35637293861]
+[2023-07-23 18:29:44] INFO root fetch - processPackages [perceval]: New version: [0.9.9] Old Version: [0.9.6]
+[2023-07-23 18:29:44] INFO root fetch - processPackages [garth]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-23 18:29:44] INFO root fetch - processPackages [grrif-tools]: Downloading https://files.pythonhosted.org/packages/00/bf/389901e655eb37fc7176b883000011ff2150ab4c9213b86fdfc99ca5cdc1/grrif_tools-0.8.0.tar.gz
+[2023-07-23 18:29:44] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/1a/e4/1e85519ce247c6ed7c20e6c47ef38f5c09cf919ff231bf453cc23a1f0ba0/documentdataextraction-0.0.8-py3-none-any.whl
+[2023-07-23 18:29:44] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/4a/87/bcab476a6e9a66adb59cef87b1f564f3c0e7cb49c01e70d0dfd3387673bb/stigg_api_client-0.501.0.tar.gz
+[2023-07-23 18:29:44] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/6c/ad/a2380be9ea58db31ae122493588c712d5b64810a463fdf7f5387ae764fcf/garth-0.2.0.tar.gz
+[2023-07-23 18:29:45] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/6c/ad/a2380be9ea58db31ae122493588c712d5b64810a463fdf7f5387ae764fcf/garth-0.2.0.tar.gz
+[2023-07-23 18:29:45] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/95/a0/6603dc7a78d6a98d92ddaf634985b1e00c3074b2b9a29b9707149f2fd035/kodexa_cli-6.3.35637293861.tar.gz
+[2023-07-23 18:29:45] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/83/ca/5db2635ddc8a3539af4bc25f7e8d13ffa220cbf3e077e751e2068d02dc18/stigg_api_client_v2-0.501.0.tar.gz
+[2023-07-23 18:29:45] INFO root fetch - processPackages [tortoise-api]: Downloading https://files.pythonhosted.org/packages/1b/07/005c94bfdfabc48bbaaa2801c7f25dc77cdf45647db42c4b6d7d0560fdbf/tortoise-api-0.1.1.tar.gz
+[2023-07-23 18:29:45] INFO root fetch - processPackages [perceval]: Downloading https://files.pythonhosted.org/packages/d7/90/1bc49292ae0ff57deb9e110f70d4e23657da2094a72223ea201da14c223b/perceval-0.9.6.tar.gz
+[2023-07-23 18:29:45] INFO root fetch - processPackages [langchain-experimental]: Downloading https://files.pythonhosted.org/packages/48/74/4b05a97151a8468f5d1b01a3f78e1a351316e91a472e7154955c876a4c0c/langchain_experimental-0.0.1rc4.tar.gz
+[2023-07-23 18:29:45] INFO root fetch - processPackages [grrif-tools]: Downloading https://files.pythonhosted.org/packages/4f/76/6babbb81f10723a4ba98c039b6670983c22e8d60c4bffc2e780ffc0970a4/grrif_tools-0.8.1.tar.gz
+[2023-07-23 18:29:45] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/b3/ec/eb9901e48d02bee04847cd1afe0c6b8ca7231d1a8b133261a63ae052f777/documentdataextraction-0.0.9-py3-none-any.whl
+[2023-07-23 18:29:45] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/18/cb/7d74fffa2e35acea39884f443f2a0ce070efe3767feaec5cafad53b55475/garth-0.2.1.tar.gz
+[2023-07-23 18:29:45] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/18/cb/7d74fffa2e35acea39884f443f2a0ce070efe3767feaec5cafad53b55475/garth-0.2.1.tar.gz
+[2023-07-23 18:29:45] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/b0/c6/35c12acdd349e7d73efd312c269273469b18101ba848a697953decd5b1bd/stigg_api_client-0.502.0.tar.gz
+[2023-07-23 18:29:45] INFO root fetch - processPackages [tortoise-api]: Downloading https://files.pythonhosted.org/packages/23/c7/63ad6b989f161f16d2ce4f8348c9b683dc4499c319178b5e3871423c273b/tortoise-api-0.2.0.tar.gz
+[2023-07-23 18:29:45] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/63/76/92f101623b14a823bbe8f83674141d05c5929ea631b938f128338ba6d366/stigg_api_client_v2-0.502.0.tar.gz
+[2023-07-23 18:29:45] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/11/e0/9303aee2d9fd6b1717ff85bc05408b35e46ea717b094c53be198e3bd0dac/kodexa_cli-6.3.35637480910.tar.gz
+[2023-07-23 18:29:45] INFO root fetch - processPackages [documentdataextraction]: executing diffoscope
+[2023-07-23 18:29:45] INFO root fetch - processPackages [documentdataextraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip --markdown 20230723/d/documentdataextraction/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 18:29:45] INFO root fetch - processPackages [langchain-experimental]: Downloading https://files.pythonhosted.org/packages/cd/40/ec091e7d476a460b133c7bb4e8b4cb84aa4f70c43d76097b8a5e1ccc4fae/langchain_experimental-0.0.2.tar.gz
+[2023-07-23 18:29:45] INFO root fetch - processPackages [grrif-tools]: executing diffoscope
+[2023-07-23 18:29:45] INFO root fetch - processPackages [grrif-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grrif_tools-0.8.0.tar.gz tmp/grrif_tools-0.8.1.tar.gz --markdown 20230723/g/grrif-tools/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-23 18:29:45] INFO root fetch - processPackages [tortoise-api]: executing diffoscope
+[2023-07-23 18:29:45] INFO root fetch - processPackages [tortoise-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tortoise-api-0.1.1.tar.gz tmp/tortoise-api-0.2.0.tar.gz --markdown 20230723/t/tortoise-api/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-23 18:29:45] INFO root fetch - processPackages [garth]: executing diffoscope
+[2023-07-23 18:29:45] INFO root fetch - processPackages [garth]: executing diffoscope
+[2023-07-23 18:29:45] INFO root fetch - processPackages [garth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garth-0.2.0.tar.gz tmp/garth-0.2.1.tar.gz --markdown 20230723/g/garth/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-23 18:29:45] INFO root fetch - processPackages [garth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garth-0.2.0.tar.gz tmp/garth-0.2.1.tar.gz --markdown 20230723/g/garth/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-23 18:29:45] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-07-23 18:29:45] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.501.0.tar.gz tmp/stigg_api_client-0.502.0.tar.gz --markdown 20230723/s/stigg-api-client/0.501.0-0.502.0/diff.md --exclude *.pyd
+[2023-07-23 18:29:45] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2023-07-23 18:29:45] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-0.501.0.tar.gz tmp/stigg_api_client_v2-0.502.0.tar.gz --markdown 20230723/s/stigg-api-client-v2/0.501.0-0.502.0/diff.md --exclude *.pyd
+[2023-07-23 18:29:45] INFO root fetch - processPackages [langchain-experimental]: executing diffoscope
+[2023-07-23 18:29:45] INFO root fetch - processPackages [langchain-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_experimental-0.0.1rc4.tar.gz tmp/langchain_experimental-0.0.2.tar.gz --markdown 20230723/l/langchain-experimental/0.0.1rc4-0.0.2/diff.md --exclude *.pyd
+[2023-07-23 18:29:45] INFO root fetch - processPackages [kodexa-cli]: executing diffoscope
+[2023-07-23 18:29:45] INFO root fetch - processPackages [kodexa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa_cli-6.3.35637293861.tar.gz tmp/kodexa_cli-6.3.35637480910.tar.gz --markdown 20230723/k/kodexa-cli/6.3.35637293861-6.3.35637480910/diff.md --exclude *.pyd
+[2023-07-23 18:29:45] INFO root fetch - processPackages [perceval]: Downloading https://files.pythonhosted.org/packages/dc/90/58dacc04ea0df998da783850425882982c9710d459b2cba75540de045a50/perceval-0.9.9.tar.gz
+[2023-07-23 18:29:46] INFO root fetch - processPackages [perceval]: executing diffoscope
+[2023-07-23 18:29:46] INFO root fetch - processPackages [perceval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval-0.9.6.tar.gz tmp/perceval-0.9.9.tar.gz --markdown 20230723/p/perceval/0.9.6-0.9.9/diff.md --exclude *.pyd
+[2023-07-23 18:29:46] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip]
+[2023-07-23 18:29:46] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip]
+[2023-07-23 18:29:46] INFO root fetch - processPackages [documentdataextraction]: Start processing: nwebclient
+[2023-07-23 18:29:46] INFO root fetch - main [MainThread]: End processing [documentdataextraction]: success
+[2023-07-23 18:29:46] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-23 18:29:47] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-23 18:29:47] INFO root fetch - processPackages [tortoise-api]: Remove: archive file [/home/abi/fetcher/tmp/tortoise-api-0.1.1.tar.gz]
+[2023-07-23 18:29:47] INFO root fetch - processPackages [tortoise-api]: Remove: archive file [/home/abi/fetcher/tmp/tortoise-api-0.2.0.tar.gz]
+[2023-07-23 18:29:47] INFO root fetch - main [MainThread]: End processing [tortoise-api]: success
+[2023-07-23 18:29:47] INFO root fetch - processPackages [grrif-tools]: Remove: archive file [/home/abi/fetcher/tmp/grrif_tools-0.8.0.tar.gz]
+[2023-07-23 18:29:47] INFO root fetch - processPackages [grrif-tools]: Remove: archive file [/home/abi/fetcher/tmp/grrif_tools-0.8.1.tar.gz]
+[2023-07-23 18:29:47] INFO root fetch - main [MainThread]: End processing [grrif-tools]: success
+[2023-07-23 18:29:47] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.2.0.tar.gz]
+[2023-07-23 18:29:47] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.2.1.tar.gz]
+[2023-07-23 18:29:47] INFO root fetch - main [MainThread]: End processing [garth]: success
+[2023-07-23 18:29:47] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-23 18:29:47] INFO root fetch - main [MainThread]: End processing [garth]: success
+[2023-07-23 18:29:47] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-23 18:29:47] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230723/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-23 18:29:47] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.501.0.tar.gz]
+[2023-07-23 18:29:47] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.502.0.tar.gz]
+[2023-07-23 18:29:47] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-07-23 18:29:47] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-6.3.35637293861.tar.gz]
+[2023-07-23 18:29:47] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-6.3.35637480910.tar.gz]
+[2023-07-23 18:29:47] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
+[2023-07-23 18:29:47] INFO root fetch - processPackages [langchain-experimental]: Remove: archive file [/home/abi/fetcher/tmp/langchain_experimental-0.0.1rc4.tar.gz]
+[2023-07-23 18:29:47] INFO root fetch - processPackages [langchain-experimental]: Remove: archive file [/home/abi/fetcher/tmp/langchain_experimental-0.0.2.tar.gz]
+[2023-07-23 18:29:47] INFO root fetch - main [MainThread]: End processing [langchain-experimental]: success
+[2023-07-23 18:29:47] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.501.0.tar.gz]
+[2023-07-23 18:29:47] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.502.0.tar.gz]
+[2023-07-23 18:29:47] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2023-07-23 18:29:48] INFO root fetch - processPackages [perceval]: Remove: archive file [/home/abi/fetcher/tmp/perceval-0.9.6.tar.gz]
+[2023-07-23 18:29:48] INFO root fetch - processPackages [perceval]: Remove: archive file [/home/abi/fetcher/tmp/perceval-0.9.9.tar.gz]
+[2023-07-23 18:29:48] INFO root fetch - main [MainThread]: End processing [perceval]: success
+[2023-07-23 18:29:48] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-23 18:29:48] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-23 18:29:48] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-23 18:29:48] INFO root fetch - main [MainThread]: Store serial: [19003251]
