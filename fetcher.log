@@ -6245,3 +6245,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 11:57:54] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-23 11:57:54] INFO root fetch - main [MainThread]: End processing [nvfuser-cu117]: success
 [2023-07-23 11:57:54] INFO root fetch - main [MainThread]: Store serial: [19000598]
+[2023-07-23 12:02:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19000598]
+[2023-07-23 12:03:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-23 12:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fasttextsearch
+[2023-07-23 12:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: biolink-model
+[2023-07-23 12:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyroostermoney
+[2023-07-23 12:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nicescad
+[2023-07-23 12:03:04] INFO root fetch - processPackages [pyroostermoney]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-23 12:03:04] INFO root fetch - processPackages [fasttextsearch]: New version: [0.6] Old Version: [0.51]
+[2023-07-23 12:03:04] INFO root fetch - processPackages [biolink-model]: New version: [3.5.2] Old Version: [3.5.1]
+[2023-07-23 12:03:04] INFO root fetch - processPackages [pyroostermoney]: Downloading https://files.pythonhosted.org/packages/fe/02/0a3483afe7136a7f5a7c4cf7a36d4f66e1baddef5f128ada98f236e06961/pyroostermoney-0.2.3.tar.gz
+[2023-07-23 12:03:04] INFO root fetch - processPackages [nicescad]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-23 12:03:04] INFO root fetch - processPackages [fasttextsearch]: Downloading https://files.pythonhosted.org/packages/14/f9/53b730f00b50570995f155b92ad862bdbf230205426461f5062fda05737a/fasttextsearch-0.51.tar.gz
+[2023-07-23 12:03:04] INFO root fetch - processPackages [biolink-model]: Downloading https://files.pythonhosted.org/packages/d5/8a/16801a505ea18e22dc1cd796b9f587e0f6f064d36bdd5ea0d84f2a2d0082/biolink-model-3.5.1.tar.gz
+[2023-07-23 12:03:04] INFO root fetch - processPackages [nicescad]: Downloading https://files.pythonhosted.org/packages/6f/10/d27c10a1566f774a765d4788849ab3f4c595d4e22bd981c5b36cd1ff10b9/nicescad-0.0.2.tar.gz
+[2023-07-23 12:03:04] INFO root fetch - processPackages [pyroostermoney]: Downloading https://files.pythonhosted.org/packages/78/90/c5ff8d53c352e3cbcce9368ea49f77ca0e767a0be682115b656140da998e/pyroostermoney-0.2.4.tar.gz
+[2023-07-23 12:03:04] INFO root fetch - processPackages [fasttextsearch]: Downloading https://files.pythonhosted.org/packages/31/9a/5cca62578003c02178cf5ef6940faa8c9fd9f15d373824f2b55a6241444b/fasttextsearch-0.6.tar.gz
+[2023-07-23 12:03:05] INFO root fetch - processPackages [biolink-model]: Downloading https://files.pythonhosted.org/packages/a6/6b/64c13009c459242a370910b325d08d69882b7828b34883d57160f0f00b3f/biolink-model-3.5.2.tar.gz
+[2023-07-23 12:03:05] INFO root fetch - processPackages [pyroostermoney]: executing diffoscope
+[2023-07-23 12:03:05] INFO root fetch - processPackages [pyroostermoney]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroostermoney-0.2.3.tar.gz tmp/pyroostermoney-0.2.4.tar.gz --markdown 20230723/p/pyroostermoney/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-23 12:03:05] INFO root fetch - processPackages [fasttextsearch]: executing diffoscope
+[2023-07-23 12:03:05] INFO root fetch - processPackages [fasttextsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fasttextsearch-0.51.tar.gz tmp/fasttextsearch-0.6.tar.gz --markdown 20230723/f/fasttextsearch/0.51-0.6/diff.md --exclude *.pyd
+[2023-07-23 12:03:05] INFO root fetch - processPackages [nicescad]: Downloading https://files.pythonhosted.org/packages/21/19/9a3fa8bf3b69e059f97ce533c64284f5a98e68635e8ed118355ea7a022c7/nicescad-0.0.3.tar.gz
+[2023-07-23 12:03:05] INFO root fetch - processPackages [biolink-model]: executing diffoscope
+[2023-07-23 12:03:05] INFO root fetch - processPackages [biolink-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biolink-model-3.5.1.tar.gz tmp/biolink-model-3.5.2.tar.gz --markdown 20230723/b/biolink-model/3.5.1-3.5.2/diff.md --exclude *.pyd
+[2023-07-23 12:03:05] INFO root fetch - processPackages [nicescad]: executing diffoscope
+[2023-07-23 12:03:05] INFO root fetch - processPackages [nicescad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nicescad-0.0.2.tar.gz tmp/nicescad-0.0.3.tar.gz --markdown 20230723/n/nicescad/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-23 12:03:06] INFO root fetch - processPackages [pyroostermoney]: Remove: archive file [/home/abi/fetcher/tmp/pyroostermoney-0.2.3.tar.gz]
+[2023-07-23 12:03:06] INFO root fetch - processPackages [pyroostermoney]: Remove: archive file [/home/abi/fetcher/tmp/pyroostermoney-0.2.4.tar.gz]
+[2023-07-23 12:03:06] INFO root fetch - main [MainThread]: End processing [pyroostermoney]: success
+[2023-07-23 12:03:06] INFO root fetch - processPackages [fasttextsearch]: Remove: archive file [/home/abi/fetcher/tmp/fasttextsearch-0.51.tar.gz]
+[2023-07-23 12:03:06] INFO root fetch - processPackages [fasttextsearch]: Remove: archive file [/home/abi/fetcher/tmp/fasttextsearch-0.6.tar.gz]
+[2023-07-23 12:03:06] INFO root fetch - main [MainThread]: End processing [fasttextsearch]: success
+[2023-07-23 12:03:06] INFO root fetch - processPackages [nicescad]: Remove: archive file [/home/abi/fetcher/tmp/nicescad-0.0.2.tar.gz]
+[2023-07-23 12:03:06] INFO root fetch - processPackages [nicescad]: Remove: archive file [/home/abi/fetcher/tmp/nicescad-0.0.3.tar.gz]
+[2023-07-23 12:03:06] INFO root fetch - main [MainThread]: End processing [nicescad]: success
+[2023-07-23 12:03:06] INFO root fetch - processPackages [biolink-model]: Remove: archive file [/home/abi/fetcher/tmp/biolink-model-3.5.1.tar.gz]
+[2023-07-23 12:03:06] INFO root fetch - processPackages [biolink-model]: Remove: archive file [/home/abi/fetcher/tmp/biolink-model-3.5.2.tar.gz]
+[2023-07-23 12:03:06] INFO root fetch - main [MainThread]: End processing [biolink-model]: success
+[2023-07-23 12:03:06] INFO root fetch - main [MainThread]: Store serial: [19000626]
