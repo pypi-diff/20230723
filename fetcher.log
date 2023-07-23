@@ -11504,3 +11504,43 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 18:40:14] INFO root fetch - processPackages [neuralpit]: Remove: archive file [/home/abi/fetcher/tmp/neuralpit-2.0.9.tar.gz]
 [2023-07-23 18:40:14] INFO root fetch - main [MainThread]: End processing [neuralpit]: success
 [2023-07-23 18:40:14] INFO root fetch - main [MainThread]: Store serial: [19003310]
+[2023-07-23 18:45:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19003310]
+[2023-07-23 18:45:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-23 18:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stc-geck
+[2023-07-23 18:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: examon-easy-package
+[2023-07-23 18:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: covxnet
+[2023-07-23 18:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zzq-string-sum
+[2023-07-23 18:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stc-geck
+[2023-07-23 18:45:23] INFO root fetch - processPackages [examon-easy-package]: New version: [0.0.11] Old Version: [0.0.10]
+[2023-07-23 18:45:23] INFO root fetch - processPackages [stc-geck]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-23 18:45:23] WARNING root fetch - processPackages [covxnet]: Skipping, unable to determine old version
+[2023-07-23 18:45:23] INFO root fetch - processPackages [stc-geck]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-23 18:45:23] INFO root fetch - main [MainThread]: End processing [covxnet] error
+[2023-07-23 18:45:23] INFO root fetch - processPackages [zzq-string-sum]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-23 18:45:23] INFO root fetch - processPackages [zzq-string-sum]: Downloading https://files.pythonhosted.org/packages/46/cc/550e8fad7d4df643a86c801e78ff8a4d44d80787ac012d3086e5d3700b2c/zzq_string_sum-0.3.0.tar.gz
+[2023-07-23 18:45:23] INFO root fetch - processPackages [examon-easy-package]: Downloading https://files.pythonhosted.org/packages/05/b8/730f4cf7e8272538b1090901d18cebf67abfe40f44c6226dcce2ef664528/examon_easy_package-0.0.10.tar.gz
+[2023-07-23 18:45:23] INFO root fetch - processPackages [stc-geck]: Downloading https://files.pythonhosted.org/packages/8d/03/994a72992652eefd77f119e8a785d7e084468dfcc82afc33c45a3c642406/stc-geck-1.3.1.tar.gz
+[2023-07-23 18:45:23] INFO root fetch - processPackages [stc-geck]: Downloading https://files.pythonhosted.org/packages/8d/03/994a72992652eefd77f119e8a785d7e084468dfcc82afc33c45a3c642406/stc-geck-1.3.1.tar.gz
+[2023-07-23 18:45:23] INFO root fetch - processPackages [examon-easy-package]: Downloading https://files.pythonhosted.org/packages/c2/94/c7f236f5639f289bdbaa28d201f15e0423a156dd67064df8c92616f90647/examon_easy_package-0.0.11.tar.gz
+[2023-07-23 18:45:23] INFO root fetch - processPackages [zzq-string-sum]: Downloading https://files.pythonhosted.org/packages/1a/3a/3202da99b54b7e74cee6531f3531340b0616900ae2380173939bbe88844d/zzq_string_sum-0.4.0-cp312-cp312-manylinux_2_12_i686.manylinux2010_i686.whl
+[2023-07-23 18:45:23] INFO root fetch - processPackages [examon-easy-package]: executing diffoscope
+[2023-07-23 18:45:23] INFO root fetch - processPackages [examon-easy-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/examon_easy_package-0.0.10.tar.gz tmp/examon_easy_package-0.0.11.tar.gz --markdown 20230723/e/examon-easy-package/0.0.10-0.0.11/diff.md --exclude *.pyd
+[2023-07-23 18:45:23] INFO root fetch - processPackages [stc-geck]: Downloading https://files.pythonhosted.org/packages/36/0e/29359562bbdf1bfc27e8cea1d558d51fb1655200c18c88e49f849c005074/stc-geck-1.3.2.tar.gz
+[2023-07-23 18:45:23] INFO root fetch - processPackages [stc-geck]: Downloading https://files.pythonhosted.org/packages/36/0e/29359562bbdf1bfc27e8cea1d558d51fb1655200c18c88e49f849c005074/stc-geck-1.3.2.tar.gz
+[2023-07-23 18:45:24] INFO root fetch - processPackages [stc-geck]: executing diffoscope
+[2023-07-23 18:45:24] INFO root fetch - processPackages [stc-geck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stc-geck-1.3.1.tar.gz tmp/stc-geck-1.3.2.tar.gz --markdown 20230723/s/stc-geck/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-23 18:45:24] INFO root fetch - processPackages [stc-geck]: executing diffoscope
+[2023-07-23 18:45:24] INFO root fetch - processPackages [stc-geck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stc-geck-1.3.1.tar.gz tmp/stc-geck-1.3.2.tar.gz --markdown 20230723/s/stc-geck/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-23 18:45:24] INFO root fetch - processPackages [examon-easy-package]: Remove: archive file [/home/abi/fetcher/tmp/examon_easy_package-0.0.10.tar.gz]
+[2023-07-23 18:45:24] INFO root fetch - processPackages [examon-easy-package]: Remove: archive file [/home/abi/fetcher/tmp/examon_easy_package-0.0.11.tar.gz]
+[2023-07-23 18:45:24] INFO root fetch - main [MainThread]: End processing [examon-easy-package]: success
+[2023-07-23 18:45:24] INFO root fetch - processPackages [stc-geck]: Remove: archive file [/home/abi/fetcher/tmp/stc-geck-1.3.1.tar.gz]
+[2023-07-23 18:45:24] INFO root fetch - processPackages [stc-geck]: Remove: archive file [/home/abi/fetcher/tmp/stc-geck-1.3.2.tar.gz]
+[2023-07-23 18:45:24] INFO root fetch - main [MainThread]: End processing [stc-geck]: success
+[2023-07-23 18:45:24] INFO root fetch - main [MainThread]: End processing [stc-geck]: success
+[2023-07-23 18:45:25] INFO root fetch - processPackages [zzq-string-sum]: executing diffoscope
+[2023-07-23 18:45:25] INFO root fetch - processPackages [zzq-string-sum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zzq_string_sum-0.3.0.tar.gz tmp/zzq_string_sum-0.4.0-cp312-cp312-manylinux_2_12_i686.manylinux2010_i686.whl.zip --markdown 20230723/z/zzq-string-sum/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-23 18:45:26] INFO root fetch - processPackages [zzq-string-sum]: Remove: archive file [/home/abi/fetcher/tmp/zzq_string_sum-0.3.0.tar.gz]
+[2023-07-23 18:45:26] INFO root fetch - processPackages [zzq-string-sum]: Remove: archive file [/home/abi/fetcher/tmp/zzq_string_sum-0.4.0-cp312-cp312-manylinux_2_12_i686.manylinux2010_i686.whl.zip]
+[2023-07-23 18:45:26] INFO root fetch - main [MainThread]: End processing [zzq-string-sum]: success
+[2023-07-23 18:45:26] INFO root fetch - main [MainThread]: Store serial: [19003338]
