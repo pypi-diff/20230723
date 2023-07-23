@@ -5347,3 +5347,60 @@
 [2023-07-23 10:33:50] INFO root fetch - processPackages [nonebot-plugin-docs]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_docs-2.0.1.tar.gz]
 [2023-07-23 10:33:50] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-docs]: success
 [2023-07-23 10:33:50] INFO root fetch - main [MainThread]: Store serial: [19000282]
+[2023-07-23 10:38:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19000282]
+[2023-07-23 10:39:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-23 10:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: multicloud-diagrams
+[2023-07-23 10:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-debug-toolbar
+[2023-07-23 10:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-ro-stock-report
+[2023-07-23 10:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: HawaData
+[2023-07-23 10:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-estimator-nightly
+[2023-07-23 10:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: htagweb
+[2023-07-23 10:39:01] INFO root fetch - processPackages [multicloud-diagrams]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-23 10:39:01] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: New version: [16.0.6.10.0] Old Version: [15.0.6.9.0.1]
+[2023-07-23 10:39:01] INFO root fetch - processPackages [HawaData]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-23 10:39:01] INFO root fetch - processPackages [htagweb]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-23 10:39:01] INFO root fetch - processPackages [fastapi-debug-toolbar]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-23 10:39:01] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-07-23 10:39:01] INFO root fetch - processPackages [multicloud-diagrams]: Downloading https://files.pythonhosted.org/packages/3c/4a/c1c90b979197b50186b6e451cdf12bc80d0d2b8aa061ae3cd9f00aa8180b/multicloud_diagrams-0.3.4.tar.gz
+[2023-07-23 10:39:01] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-07-23 10:39:02] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/6b/1f/4352181f9a57a978832691453516cf740659930fd82c3edb6e84cd6fe897/HawaData-0.7.8.tar.gz
+[2023-07-23 10:39:02] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: Downloading https://files.pythonhosted.org/packages/4a/84/3ecc380778adae0d3778c684fe5d47e5f3fd9912b1801987cd3d19fb2199/odoo_addon_l10n_ro_stock_report-15.0.6.9.0.1-py3-none-any.whl
+[2023-07-23 10:39:02] INFO root fetch - processPackages [htagweb]: Downloading https://files.pythonhosted.org/packages/91/5f/63d53b0b0477e784a5dac84de951b1e7a9eea8ddd3f0918c0a145d9d9b9c/htagweb-0.4.1.tar.gz
+[2023-07-23 10:39:02] INFO root fetch - processPackages [fastapi-debug-toolbar]: Downloading https://files.pythonhosted.org/packages/09/a5/2c8b7552420a784cd7e69f083153b734558142d86291beef8d322a868191/fastapi_debug_toolbar-0.4.0.tar.gz
+[2023-07-23 10:39:02] INFO root fetch - processPackages [multicloud-diagrams]: Downloading https://files.pythonhosted.org/packages/f9/89/5cd7d284b773854ed49fe47121445d78a3ffcb0a5f9da37a46fdbfcf5afa/multicloud_diagrams-0.3.5.tar.gz
+[2023-07-23 10:39:02] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-07-23 10:39:02] INFO root fetch - processPackages [multicloud-diagrams]: executing diffoscope
+[2023-07-23 10:39:02] INFO root fetch - processPackages [multicloud-diagrams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multicloud_diagrams-0.3.4.tar.gz tmp/multicloud_diagrams-0.3.5.tar.gz --markdown 20230723/m/multicloud-diagrams/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-23 10:39:02] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-07-23 10:39:02] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230723/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-07-23 10:39:02] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/e4/e6/e658232ba030cc4fb795ad4454f7fe651acf3f22dd7b5a7e8cf96146ab37/HawaData-0.7.9.tar.gz
+[2023-07-23 10:39:02] INFO root fetch - processPackages [htagweb]: Downloading https://files.pythonhosted.org/packages/88/7f/8ea7e951cb8838d9f76b6006ef5ca19fd22435a3b16706cb06c90bb5df22/htagweb-0.4.2.tar.gz
+[2023-07-23 10:39:02] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: Downloading https://files.pythonhosted.org/packages/7d/d8/2f9131195b8539fc2e21143bb324f69e66eca0616f80ad64ceea7811bbd2/odoo_addon_l10n_ro_stock_report-16.0.6.10.0-py3-none-any.whl
+[2023-07-23 10:39:02] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2023-07-23 10:39:02] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.7.8.tar.gz tmp/HawaData-0.7.9.tar.gz --markdown 20230723/H/HawaData/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-23 10:39:02] INFO root fetch - processPackages [fastapi-debug-toolbar]: Downloading https://files.pythonhosted.org/packages/49/9d/cd363bed635e0e0183b8a3b062cdb334c3822760e024d5aad08c7f8041e3/fastapi_debug_toolbar-0.5.0.tar.gz
+[2023-07-23 10:39:02] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: executing diffoscope
+[2023-07-23 10:39:02] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_stock_report-15.0.6.9.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_stock_report-16.0.6.10.0-py3-none-any.whl.zip --markdown 20230723/o/odoo-addon-l10n-ro-stock-report/15.0.6.9.0.1-16.0.6.10.0/diff.md --exclude *.pyd
+[2023-07-23 10:39:02] INFO root fetch - processPackages [htagweb]: executing diffoscope
+[2023-07-23 10:39:02] INFO root fetch - processPackages [htagweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htagweb-0.4.1.tar.gz tmp/htagweb-0.4.2.tar.gz --markdown 20230723/h/htagweb/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-23 10:39:02] INFO root fetch - processPackages [fastapi-debug-toolbar]: executing diffoscope
+[2023-07-23 10:39:02] INFO root fetch - processPackages [fastapi-debug-toolbar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_debug_toolbar-0.4.0.tar.gz tmp/fastapi_debug_toolbar-0.5.0.tar.gz --markdown 20230723/f/fastapi-debug-toolbar/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-23 10:39:03] INFO root fetch - processPackages [multicloud-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/multicloud_diagrams-0.3.4.tar.gz]
+[2023-07-23 10:39:03] INFO root fetch - processPackages [multicloud-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/multicloud_diagrams-0.3.5.tar.gz]
+[2023-07-23 10:39:03] INFO root fetch - main [MainThread]: End processing [multicloud-diagrams]: success
+[2023-07-23 10:39:03] INFO root fetch - processPackages [htagweb]: Remove: archive file [/home/abi/fetcher/tmp/htagweb-0.4.1.tar.gz]
+[2023-07-23 10:39:03] INFO root fetch - processPackages [htagweb]: Remove: archive file [/home/abi/fetcher/tmp/htagweb-0.4.2.tar.gz]
+[2023-07-23 10:39:03] INFO root fetch - main [MainThread]: End processing [htagweb]: success
+[2023-07-23 10:39:03] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.7.8.tar.gz]
+[2023-07-23 10:39:03] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.7.9.tar.gz]
+[2023-07-23 10:39:03] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2023-07-23 10:39:03] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_report-15.0.6.9.0.1-py3-none-any.whl.zip]
+[2023-07-23 10:39:03] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_report-16.0.6.10.0-py3-none-any.whl.zip]
+[2023-07-23 10:39:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-report]: success
+[2023-07-23 10:39:03] INFO root fetch - processPackages [fastapi-debug-toolbar]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_debug_toolbar-0.4.0.tar.gz]
+[2023-07-23 10:39:03] INFO root fetch - processPackages [fastapi-debug-toolbar]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_debug_toolbar-0.5.0.tar.gz]
+[2023-07-23 10:39:03] INFO root fetch - main [MainThread]: End processing [fastapi-debug-toolbar]: success
+[2023-07-23 10:39:03] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-07-23 10:39:03] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-07-23 10:39:03] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-07-23 10:39:03] INFO root fetch - main [MainThread]: Store serial: [19000304]
