@@ -6984,3 +6984,27 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 13:13:02] INFO root fetch - processPackages [easy-liftover]: Remove: archive file [/home/abi/fetcher/tmp/easy_liftover-0.0.2.tar.gz]
 [2023-07-23 13:13:02] INFO root fetch - main [MainThread]: End processing [easy-liftover]: success
 [2023-07-23 13:13:02] INFO root fetch - main [MainThread]: Store serial: [19001068]
+[2023-07-23 13:18:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19001068]
+[2023-07-23 13:18:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-23 13:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: translate-shell
+[2023-07-23 13:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: monkeywork
+[2023-07-23 13:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easy-liftover
+[2023-07-23 13:18:11] WARNING root fetch - processPackages [monkeywork]: Skipping, unable to determine old version
+[2023-07-23 13:18:11] INFO root fetch - main [MainThread]: End processing [monkeywork] error
+[2023-07-23 13:18:11] INFO root fetch - processPackages [easy-liftover]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-23 13:18:11] INFO root fetch - processPackages [translate-shell]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 13:18:11] INFO root fetch - processPackages [easy-liftover]: Downloading https://files.pythonhosted.org/packages/3c/b2/0030b237c6bb41d92ecd69d895c3ee6046ade340d20607dfa8aa999a3fd1/easy_liftover-0.0.2.tar.gz
+[2023-07-23 13:18:11] INFO root fetch - processPackages [translate-shell]: Downloading https://files.pythonhosted.org/packages/aa/ed/e25a7c89f8e66c89b4f998bd2f4280d8a427b319670e155b018f04adf8d8/translate-shell-0.0.8.tar.gz
+[2023-07-23 13:18:11] INFO root fetch - processPackages [easy-liftover]: Downloading https://files.pythonhosted.org/packages/23/b3/ecfc2363f20d984aa0b9171bd8f77d9974ba9d2b2d7db90273da58483042/easy_liftover-0.0.3.tar.gz
+[2023-07-23 13:18:11] INFO root fetch - processPackages [easy-liftover]: executing diffoscope
+[2023-07-23 13:18:11] INFO root fetch - processPackages [easy-liftover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_liftover-0.0.2.tar.gz tmp/easy_liftover-0.0.3.tar.gz --markdown 20230723/e/easy-liftover/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-23 13:18:11] INFO root fetch - processPackages [translate-shell]: Downloading https://files.pythonhosted.org/packages/10/53/d1b2622fd5860f8b6f36dbdd934c30d2e357cd577f74de20d18e020079f4/translate-shell-0.0.9.tar.gz
+[2023-07-23 13:18:12] INFO root fetch - processPackages [translate-shell]: executing diffoscope
+[2023-07-23 13:18:12] INFO root fetch - processPackages [translate-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/translate-shell-0.0.8.tar.gz tmp/translate-shell-0.0.9.tar.gz --markdown 20230723/t/translate-shell/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 13:18:12] INFO root fetch - processPackages [easy-liftover]: Remove: archive file [/home/abi/fetcher/tmp/easy_liftover-0.0.2.tar.gz]
+[2023-07-23 13:18:12] INFO root fetch - processPackages [easy-liftover]: Remove: archive file [/home/abi/fetcher/tmp/easy_liftover-0.0.3.tar.gz]
+[2023-07-23 13:18:12] INFO root fetch - main [MainThread]: End processing [easy-liftover]: success
+[2023-07-23 13:18:13] INFO root fetch - processPackages [translate-shell]: Remove: archive file [/home/abi/fetcher/tmp/translate-shell-0.0.8.tar.gz]
+[2023-07-23 13:18:13] INFO root fetch - processPackages [translate-shell]: Remove: archive file [/home/abi/fetcher/tmp/translate-shell-0.0.9.tar.gz]
+[2023-07-23 13:18:13] INFO root fetch - main [MainThread]: End processing [translate-shell]: success
+[2023-07-23 13:18:13] INFO root fetch - main [MainThread]: Store serial: [19001080]
