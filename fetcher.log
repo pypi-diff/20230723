@@ -6855,3 +6855,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 12:57:26] INFO root fetch - processPackages [ovos-classifiers]: Remove: archive file [/home/abi/fetcher/tmp/ovos_classifiers-0.0.0a9-py3-none-any.whl.zip]
 [2023-07-23 12:57:26] INFO root fetch - main [MainThread]: End processing [ovos-classifiers]: success
 [2023-07-23 12:57:26] INFO root fetch - main [MainThread]: Store serial: [19000985]
+[2023-07-23 13:02:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19000985]
+[2023-07-23 13:02:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-23 13:02:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-exec-wrapper
+[2023-07-23 13:02:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qwak-core
+[2023-07-23 13:02:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: monobit
+[2023-07-23 13:02:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jageocoder
+[2023-07-23 13:02:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: divideandscan
+[2023-07-23 13:02:35] INFO root fetch - processPackages [divideandscan]: New version: [1.0.0] Old Version: [0.3.8]
+[2023-07-23 13:02:35] WARNING root fetch - processPackages [py-exec-wrapper]: Skipping, unable to determine old version
+[2023-07-23 13:02:35] INFO root fetch - main [MainThread]: End processing [py-exec-wrapper] error
+[2023-07-23 13:02:35] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-23 13:02:35] INFO root fetch - processPackages [monobit]: New version: [0.42.1] Old Version: [0.42.0]
+[2023-07-23 13:02:35] INFO root fetch - processPackages [jageocoder]: New version: [2.0.3rc2] Old Version: [2.0.3rc1]
+[2023-07-23 13:02:35] INFO root fetch - processPackages [divideandscan]: Downloading https://files.pythonhosted.org/packages/4d/e8/3f74fd21bde52d5bfce47e54429ce31959dffe9e7fe7d51ebd7c3fb0ef4d/divideandscan-0.3.8.tar.gz
+[2023-07-23 13:02:35] INFO root fetch - processPackages [monobit]: Downloading https://files.pythonhosted.org/packages/77/9b/856931e156edb3e680e12fe94f86ce2be8e0b8a2fae6c4b068738847099b/monobit-0.42.0.tar.gz
+[2023-07-23 13:02:35] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-07-23 13:02:35] INFO root fetch - processPackages [jageocoder]: Downloading https://files.pythonhosted.org/packages/6f/e1/ec22664a37c33af2daf8e619964e57a519e1351ffa8db1dbffdcf278195d/jageocoder-2.0.3rc1.tar.gz
+[2023-07-23 13:02:36] INFO root fetch - processPackages [divideandscan]: Downloading https://files.pythonhosted.org/packages/29/12/9b10611c31bf1443410db707f209a40b76f5652e35e4f4117b954cdd7f5c/divideandscan-1.0.0.tar.gz
+[2023-07-23 13:02:36] INFO root fetch - processPackages [jageocoder]: Downloading https://files.pythonhosted.org/packages/4a/df/89805850339da46ba326c59f434498a932c382594d7cb44ff8988991412c/jageocoder-2.0.3rc2.tar.gz
+[2023-07-23 13:02:36] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-07-23 13:02:36] INFO root fetch - processPackages [divideandscan]: executing diffoscope
+[2023-07-23 13:02:36] INFO root fetch - processPackages [divideandscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/divideandscan-0.3.8.tar.gz tmp/divideandscan-1.0.0.tar.gz --markdown 20230723/d/divideandscan/0.3.8-1.0.0/diff.md --exclude *.pyd
+[2023-07-23 13:02:36] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-07-23 13:02:36] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230723/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-23 13:02:36] INFO root fetch - processPackages [jageocoder]: executing diffoscope
+[2023-07-23 13:02:36] INFO root fetch - processPackages [jageocoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jageocoder-2.0.3rc1.tar.gz tmp/jageocoder-2.0.3rc2.tar.gz --markdown 20230723/j/jageocoder/2.0.3rc1-2.0.3rc2/diff.md --exclude *.pyd
+[2023-07-23 13:02:36] INFO root fetch - processPackages [monobit]: Downloading https://files.pythonhosted.org/packages/f5/4c/68a2f875e64434453a0e14a29c23daeaa4022cf61364e4239d9ee165943a/monobit-0.42.1.tar.gz
+[2023-07-23 13:02:36] INFO root fetch - processPackages [monobit]: executing diffoscope
+[2023-07-23 13:02:36] INFO root fetch - processPackages [monobit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monobit-0.42.0.tar.gz tmp/monobit-0.42.1.tar.gz --markdown 20230723/m/monobit/0.42.0-0.42.1/diff.md --exclude *.pyd
+[2023-07-23 13:02:37] INFO root fetch - processPackages [divideandscan]: Remove: archive file [/home/abi/fetcher/tmp/divideandscan-0.3.8.tar.gz]
+[2023-07-23 13:02:37] INFO root fetch - processPackages [divideandscan]: Remove: archive file [/home/abi/fetcher/tmp/divideandscan-1.0.0.tar.gz]
+[2023-07-23 13:02:37] INFO root fetch - main [MainThread]: End processing [divideandscan]: success
+[2023-07-23 13:02:37] INFO root fetch - processPackages [jageocoder]: Remove: archive file [/home/abi/fetcher/tmp/jageocoder-2.0.3rc1.tar.gz]
+[2023-07-23 13:02:37] INFO root fetch - processPackages [jageocoder]: Remove: archive file [/home/abi/fetcher/tmp/jageocoder-2.0.3rc2.tar.gz]
+[2023-07-23 13:02:37] INFO root fetch - main [MainThread]: End processing [jageocoder]: success
+[2023-07-23 13:02:39] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-07-23 13:02:39] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-07-23 13:02:39] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-07-23 13:02:41] INFO root fetch - processPackages [monobit]: Remove: archive file [/home/abi/fetcher/tmp/monobit-0.42.0.tar.gz]
+[2023-07-23 13:02:41] INFO root fetch - processPackages [monobit]: Remove: archive file [/home/abi/fetcher/tmp/monobit-0.42.1.tar.gz]
+[2023-07-23 13:02:41] INFO root fetch - main [MainThread]: End processing [monobit]: success
+[2023-07-23 13:02:41] INFO root fetch - main [MainThread]: Store serial: [19001009]
