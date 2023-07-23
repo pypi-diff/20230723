@@ -13448,3 +13448,108 @@ AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
 [2023-07-23 21:07:30] INFO root fetch - processPackages [sqlite-hello]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_hello-0.1.0a52-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
 [2023-07-23 21:07:30] INFO root fetch - main [MainThread]: End processing [sqlite-hello]: success
 [2023-07-23 21:07:30] INFO root fetch - main [MainThread]: Store serial: [19004174]
+[2023-07-23 21:12:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19004174]
+[2023-07-23 21:12:38] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-23 21:12:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apixdev
+[2023-07-23 21:12:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mystbin-py
+[2023-07-23 21:12:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ediri-scaleway
+[2023-07-23 21:12:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chromedriver-auto
+[2023-07-23 21:12:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qtgql
+[2023-07-23 21:12:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: markdown-analysis
+[2023-07-23 21:12:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: localeet
+[2023-07-23 21:12:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: retentive-network
+[2023-07-23 21:12:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: guify
+[2023-07-23 21:12:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: datasette-sqlite-hello
+[2023-07-23 21:12:39] INFO root fetch - processPackages [markdown-analysis]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-23 21:12:39] INFO root fetch - processPackages [datasette-sqlite-hello]: New version: [0.1.0a52] Old Version: [0.1.0a50]
+[2023-07-23 21:12:39] INFO root fetch - processPackages [mystbin-py]: New version: [6.0.0] Old Version: [5.1.0]
+[2023-07-23 21:12:39] INFO root fetch - processPackages [apixdev]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-23 21:12:39] INFO root fetch - processPackages [localeet]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-07-23 21:12:39] INFO root fetch - processPackages [guify]: New version: [0.3.2a0] Old Version: [0.3.1]
+[2023-07-23 21:12:39] INFO root fetch - processPackages [chromedriver-auto]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-23 21:12:39] INFO root fetch - processPackages [retentive-network]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-23 21:12:39] INFO root fetch - processPackages [qtgql]: New version: [0.130.4] Old Version: [0.130.3]
+[2023-07-23 21:12:39] INFO root fetch - processPackages [ediri-scaleway]: New version: [2.25.1] Old Version: [2.24.0]
+[2023-07-23 21:12:39] INFO root fetch - processPackages [markdown-analysis]: Downloading https://files.pythonhosted.org/packages/db/16/ff203c8831020b2141e339f98b233e36dca96c3f3490536a2b6f694aa2b4/markdown_analysis-0.0.3.tar.gz
+[2023-07-23 21:12:39] INFO root fetch - processPackages [datasette-sqlite-hello]: Downloading https://files.pythonhosted.org/packages/79/40/06ea6a169e5f4691cc4a4956aad73004582c4c754716c4d60a05b27b7fe4/datasette_sqlite_hello-0.1.0a50-py3-none-any.whl
+[2023-07-23 21:12:39] INFO root fetch - processPackages [localeet]: Downloading https://files.pythonhosted.org/packages/4f/aa/cc1c21806e527badf87042e461053ba4df0b956b2078b86f4a19cac63ab4/localeet-0.0.5.tar.gz
+[2023-07-23 21:12:39] INFO root fetch - processPackages [apixdev]: Downloading https://files.pythonhosted.org/packages/8a/98/789687063800d47be29ae7c08fd90655d1896e214c15fdba6d42b3b5e76a/apixdev-0.2.1.tar.gz
+[2023-07-23 21:12:39] INFO root fetch - processPackages [guify]: Downloading https://files.pythonhosted.org/packages/86/c2/1cf2b0a54a00a09a688cd2e971b8ccc13d19316bfef4c108d050236da46a/guify-0.3.1.tar.gz
+[2023-07-23 21:12:39] INFO root fetch - processPackages [retentive-network]: Downloading https://files.pythonhosted.org/packages/6c/fb/217ba72ea26f441290666a29387db265a30d81b6f7533622f575e549c0e5/retentive_network-0.0.1.tar.gz
+[2023-07-23 21:12:39] INFO root fetch - processPackages [chromedriver-auto]: Downloading https://files.pythonhosted.org/packages/ae/ad/be66fc97397403d1e6e94ead38e18a114087e0a2b784eb4403ba3dd575ba/chromedriver_auto-1.0.4.tar.gz
+[2023-07-23 21:12:39] INFO root fetch - processPackages [mystbin-py]: Downloading https://files.pythonhosted.org/packages/71/03/75fd9500e2445d1f70bfea1bc60094bfe149f415c9c4ac0c81dd4b1b83ea/mystbin_py-5.1.0.tar.gz
+[2023-07-23 21:12:39] INFO root fetch - processPackages [ediri-scaleway]: Downloading https://files.pythonhosted.org/packages/e4/f2/a695974190db055361c5b4baf50b5a661a377c59314726e9e5ceac76db98/ediri_scaleway-2.24.0.tar.gz
+[2023-07-23 21:12:39] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/2c/97/e14b133264d4319a4ac179783ea98908b78aac0bc9965c744a5114c68965/qtgql-0.130.3.tar.gz
+[2023-07-23 21:12:39] INFO root fetch - processPackages [datasette-sqlite-hello]: Downloading https://files.pythonhosted.org/packages/85/1a/728b8e56047a244208c1726d220d7c7ea701b80f20f9ca9bb317746d24bd/datasette_sqlite_hello-0.1.0a52-py3-none-any.whl
+[2023-07-23 21:12:39] INFO root fetch - processPackages [markdown-analysis]: Downloading https://files.pythonhosted.org/packages/7d/71/ac21db96ac3f0454a18a34eac1a9eb7769d9085a3b5013ca2a60ad51e372/markdown_analysis-0.0.4.tar.gz
+[2023-07-23 21:12:40] INFO root fetch - processPackages [localeet]: Downloading https://files.pythonhosted.org/packages/42/6d/71bd23e7a96baa87943d0f187f1726e897a05ccf94edc67401b50c59df33/localeet-0.1.0.tar.gz
+[2023-07-23 21:12:40] INFO root fetch - processPackages [apixdev]: Downloading https://files.pythonhosted.org/packages/62/5c/056624912c8a7c75eb7c80c5409557196f1a6a30fe70055af5a56fa17545/apixdev-0.2.2.tar.gz
+[2023-07-23 21:12:40] INFO root fetch - processPackages [retentive-network]: Downloading https://files.pythonhosted.org/packages/5b/04/9e0b623e62d7690a287666040b2b2f3d262dfd9caad2722f047ff5a4c8db/retentive_network-0.1.0.tar.gz
+[2023-07-23 21:12:40] INFO root fetch - processPackages [chromedriver-auto]: Downloading https://files.pythonhosted.org/packages/8d/ca/e4acad78c8b975544da08d14237114d2cccea055c15f16d158897e5fb1df/chromedriver_auto-1.0.5.tar.gz
+[2023-07-23 21:12:40] INFO root fetch - processPackages [ediri-scaleway]: Downloading https://files.pythonhosted.org/packages/41/9d/50e0fed2b7a12d2bae24b59406d2bf842b68a2f6d0c4480054fab544bbbb/ediri_scaleway-2.25.1.tar.gz
+[2023-07-23 21:12:40] INFO root fetch - processPackages [markdown-analysis]: executing diffoscope
+[2023-07-23 21:12:40] INFO root fetch - processPackages [markdown-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdown_analysis-0.0.3.tar.gz tmp/markdown_analysis-0.0.4.tar.gz --markdown 20230723/m/markdown-analysis/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-23 21:12:40] INFO root fetch - processPackages [datasette-sqlite-hello]: executing diffoscope
+[2023-07-23 21:12:40] INFO root fetch - processPackages [datasette-sqlite-hello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_hello-0.1.0a50-py3-none-any.whl.zip tmp/datasette_sqlite_hello-0.1.0a52-py3-none-any.whl.zip --markdown 20230723/d/datasette-sqlite-hello/0.1.0a50-0.1.0a52/diff.md --exclude *.pyd
+[2023-07-23 21:12:40] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/3e/ab/da2a926fdfbdd4dff4ea4e378bc1b4a63e26222c3ddf7170a0059e49ccf5/qtgql-0.130.4.tar.gz
+[2023-07-23 21:12:40] INFO root fetch - processPackages [guify]: Downloading https://files.pythonhosted.org/packages/c5/45/0d8fa06582db3f549806457e30bdc46a75287d47caec5532a75571abfde4/guify-0.3.2a0.tar.gz
+[2023-07-23 21:12:40] INFO root fetch - processPackages [retentive-network]: executing diffoscope
+[2023-07-23 21:12:40] INFO root fetch - processPackages [retentive-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retentive_network-0.0.1.tar.gz tmp/retentive_network-0.1.0.tar.gz --markdown 20230723/r/retentive-network/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-23 21:12:40] INFO root fetch - processPackages [mystbin-py]: Downloading https://files.pythonhosted.org/packages/99/ae/26782efb2debac898d9da909def1d47e493b8082ccee739ace898905aeaa/mystbin_py-6.0.0.tar.gz
+[2023-07-23 21:12:40] INFO root fetch - processPackages [chromedriver-auto]: executing diffoscope
+[2023-07-23 21:12:40] INFO root fetch - processPackages [chromedriver-auto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver_auto-1.0.4.tar.gz tmp/chromedriver_auto-1.0.5.tar.gz --markdown 20230723/c/chromedriver-auto/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-23 21:12:40] INFO root fetch - processPackages [localeet]: executing diffoscope
+[2023-07-23 21:12:40] INFO root fetch - processPackages [localeet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localeet-0.0.5.tar.gz tmp/localeet-0.1.0.tar.gz --markdown 20230723/l/localeet/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-07-23 21:12:40] INFO root fetch - processPackages [apixdev]: executing diffoscope
+[2023-07-23 21:12:40] INFO root fetch - processPackages [apixdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apixdev-0.2.1.tar.gz tmp/apixdev-0.2.2.tar.gz --markdown 20230723/a/apixdev/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-23 21:12:40] INFO root fetch - processPackages [ediri-scaleway]: executing diffoscope
+[2023-07-23 21:12:40] INFO root fetch - processPackages [ediri-scaleway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ediri_scaleway-2.24.0.tar.gz tmp/ediri_scaleway-2.25.1.tar.gz --markdown 20230723/e/ediri-scaleway/2.24.0-2.25.1/diff.md --exclude *.pyd
+[2023-07-23 21:12:40] INFO root fetch - processPackages [mystbin-py]: executing diffoscope
+[2023-07-23 21:12:40] INFO root fetch - processPackages [mystbin-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystbin_py-5.1.0.tar.gz tmp/mystbin_py-6.0.0.tar.gz --markdown 20230723/m/mystbin-py/5.1.0-6.0.0/diff.md --exclude *.pyd
+[2023-07-23 21:12:40] INFO root fetch - processPackages [qtgql]: executing diffoscope
+[2023-07-23 21:12:40] INFO root fetch - processPackages [qtgql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtgql-0.130.3.tar.gz tmp/qtgql-0.130.4.tar.gz --markdown 20230723/q/qtgql/0.130.3-0.130.4/diff.md --exclude *.pyd
+[2023-07-23 21:12:40] INFO root fetch - processPackages [guify]: executing diffoscope
+[2023-07-23 21:12:40] INFO root fetch - processPackages [guify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guify-0.3.1.tar.gz tmp/guify-0.3.2a0.tar.gz --markdown 20230723/g/guify/0.3.1-0.3.2a0/diff.md --exclude *.pyd
+[2023-07-23 21:12:41] INFO root fetch - processPackages [datasette-sqlite-hello]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_hello-0.1.0a50-py3-none-any.whl.zip]
+[2023-07-23 21:12:41] INFO root fetch - processPackages [datasette-sqlite-hello]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_hello-0.1.0a52-py3-none-any.whl.zip]
+[2023-07-23 21:12:41] INFO root fetch - processPackages [datasette-sqlite-hello]: Start processing: sqlite-hello
+[2023-07-23 21:12:41] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-hello]: success
+[2023-07-23 21:12:41] INFO root fetch - processPackages [markdown-analysis]: Remove: archive file [/home/abi/fetcher/tmp/markdown_analysis-0.0.3.tar.gz]
+[2023-07-23 21:12:41] INFO root fetch - processPackages [markdown-analysis]: Remove: archive file [/home/abi/fetcher/tmp/markdown_analysis-0.0.4.tar.gz]
+[2023-07-23 21:12:41] INFO root fetch - processPackages [markdown-analysis]: Start processing: sqlite-utils-sqlite-hello
+[2023-07-23 21:12:41] INFO root fetch - main [MainThread]: End processing [markdown-analysis]: success
+[2023-07-23 21:12:41] INFO root fetch - processPackages [sqlite-hello]: New version: [0.1.0a52] Old Version: [0.1.0a50]
+[2023-07-23 21:12:41] WARNING root fetch - processPackages [sqlite-utils-sqlite-hello]: Skipping, unable to determine old version
+[2023-07-23 21:12:41] INFO root fetch - main [MainThread]: End processing [sqlite-utils-sqlite-hello] error
+[2023-07-23 21:12:41] INFO root fetch - processPackages [retentive-network]: Remove: archive file [/home/abi/fetcher/tmp/retentive_network-0.0.1.tar.gz]
+[2023-07-23 21:12:41] INFO root fetch - processPackages [retentive-network]: Remove: archive file [/home/abi/fetcher/tmp/retentive_network-0.1.0.tar.gz]
+[2023-07-23 21:12:41] INFO root fetch - main [MainThread]: End processing [retentive-network]: success
+[2023-07-23 21:12:41] INFO root fetch - processPackages [apixdev]: Remove: archive file [/home/abi/fetcher/tmp/apixdev-0.2.1.tar.gz]
+[2023-07-23 21:12:41] INFO root fetch - processPackages [apixdev]: Remove: archive file [/home/abi/fetcher/tmp/apixdev-0.2.2.tar.gz]
+[2023-07-23 21:12:41] INFO root fetch - main [MainThread]: End processing [apixdev]: success
+[2023-07-23 21:12:42] INFO root fetch - processPackages [chromedriver-auto]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver_auto-1.0.4.tar.gz]
+[2023-07-23 21:12:42] INFO root fetch - processPackages [chromedriver-auto]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver_auto-1.0.5.tar.gz]
+[2023-07-23 21:12:42] INFO root fetch - main [MainThread]: End processing [chromedriver-auto]: success
+[2023-07-23 21:12:42] INFO root fetch - processPackages [sqlite-hello]: Downloading https://files.pythonhosted.org/packages/98/3c/eca07f9e6d8cbdbd8955c28640d38f641ce8c959bf3cd2e516c97669d6a7/sqlite_hello-0.1.0a50-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-07-23 21:12:42] INFO root fetch - processPackages [localeet]: Remove: archive file [/home/abi/fetcher/tmp/localeet-0.0.5.tar.gz]
+[2023-07-23 21:12:42] INFO root fetch - processPackages [localeet]: Remove: archive file [/home/abi/fetcher/tmp/localeet-0.1.0.tar.gz]
+[2023-07-23 21:12:42] INFO root fetch - main [MainThread]: End processing [localeet]: success
+[2023-07-23 21:12:42] INFO root fetch - processPackages [mystbin-py]: Remove: archive file [/home/abi/fetcher/tmp/mystbin_py-5.1.0.tar.gz]
+[2023-07-23 21:12:42] INFO root fetch - processPackages [mystbin-py]: Remove: archive file [/home/abi/fetcher/tmp/mystbin_py-6.0.0.tar.gz]
+[2023-07-23 21:12:42] INFO root fetch - main [MainThread]: End processing [mystbin-py]: success
+[2023-07-23 21:12:42] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.130.3.tar.gz]
+[2023-07-23 21:12:42] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.130.4.tar.gz]
+[2023-07-23 21:12:42] INFO root fetch - main [MainThread]: End processing [qtgql]: success
+[2023-07-23 21:12:42] INFO root fetch - processPackages [sqlite-hello]: Downloading https://files.pythonhosted.org/packages/ed/f2/f10cad937c7e8f5c9a3a4353945f6bbd05fbbd49ef8e3b8cede6bb7b3005/sqlite_hello-0.1.0a52-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-07-23 21:12:42] INFO root fetch - processPackages [sqlite-hello]: executing diffoscope
+[2023-07-23 21:12:42] INFO root fetch - processPackages [sqlite-hello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_hello-0.1.0a50-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip tmp/sqlite_hello-0.1.0a52-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip --markdown 20230723/s/sqlite-hello/0.1.0a50-0.1.0a52/diff.md --exclude *.pyd
+[2023-07-23 21:12:42] INFO root fetch - processPackages [ediri-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/ediri_scaleway-2.24.0.tar.gz]
+[2023-07-23 21:12:42] INFO root fetch - processPackages [ediri-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/ediri_scaleway-2.25.1.tar.gz]
+[2023-07-23 21:12:43] INFO root fetch - main [MainThread]: End processing [ediri-scaleway]: success
+[2023-07-23 21:12:43] INFO root fetch - processPackages [sqlite-hello]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_hello-0.1.0a50-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
+[2023-07-23 21:12:43] INFO root fetch - processPackages [sqlite-hello]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_hello-0.1.0a52-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
+[2023-07-23 21:12:43] INFO root fetch - main [MainThread]: End processing [sqlite-hello]: success
+[2023-07-23 21:13:11] INFO root fetch - processPackages [guify]: Remove: archive file [/home/abi/fetcher/tmp/guify-0.3.1.tar.gz]
+[2023-07-23 21:13:11] INFO root fetch - processPackages [guify]: Remove: archive file [/home/abi/fetcher/tmp/guify-0.3.2a0.tar.gz]
+[2023-07-23 21:13:11] INFO root fetch - main [MainThread]: End processing [guify]: success
+[2023-07-23 21:13:11] INFO root fetch - main [MainThread]: Store serial: [19004205]
