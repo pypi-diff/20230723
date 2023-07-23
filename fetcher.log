@@ -14912,3 +14912,114 @@ AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
 [2023-07-23 22:38:28] INFO root fetch - processPackages [spotRiver]: Remove: archive file [/home/abi/fetcher/tmp/spotRiver-0.0.99.tar.gz]
 [2023-07-23 22:38:28] INFO root fetch - main [MainThread]: End processing [spotRiver]: success
 [2023-07-23 22:38:28] INFO root fetch - main [MainThread]: Store serial: [19004723]
+[2023-07-23 22:43:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19004723]
+[2023-07-23 22:43:36] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-23 22:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FinQuant
+[2023-07-23 22:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: feynml
+[2023-07-23 22:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crowdstrike-falconpy-dev
+[2023-07-23 22:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: griptape
+[2023-07-23 22:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: youtubeaio
+[2023-07-23 22:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mdgpt
+[2023-07-23 22:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crowdstrike-falconpy
+[2023-07-23 22:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ak_selenium
+[2023-07-23 22:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: code-loader
+[2023-07-23 22:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: purplecaffeine
+[2023-07-23 22:43:37] INFO root fetch - processPackages [feynml]: New version: [0.2.8] Old Version: [0.2.6]
+[2023-07-23 22:43:37] INFO root fetch - processPackages [mdgpt]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-23 22:43:37] INFO root fetch - processPackages [youtubeaio]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-23 22:43:37] INFO root fetch - processPackages [crowdstrike-falconpy]: New version: [1.3.0.dev9] Old Version: [1.3.0.dev8]
+[2023-07-23 22:43:37] INFO root fetch - processPackages [FinQuant]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-07-23 22:43:37] INFO root fetch - processPackages [griptape]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-23 22:43:37] INFO root fetch - processPackages [code-loader]: New version: [0.2.9] Old Version: [0.2.84.dev3]
+[2023-07-23 22:43:37] INFO root fetch - processPackages [purplecaffeine]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-23 22:43:37] INFO root fetch - processPackages [ak_selenium]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-23 22:43:37] INFO root fetch - processPackages [crowdstrike-falconpy-dev]: New version: [1.3.0.dev9] Old Version: [1.3.0.dev8]
+[2023-07-23 22:43:37] INFO root fetch - processPackages [youtubeaio]: Downloading https://files.pythonhosted.org/packages/21/22/dbf8edd033a586945dd5b2dee2aafd6eb576ccbdc79b98d715c9018cbb63/youtubeaio-1.1.2.tar.gz
+[2023-07-23 22:43:37] INFO root fetch - processPackages [feynml]: Downloading https://files.pythonhosted.org/packages/74/14/9a6e718425bdea7af7c8eacd7b63c7adbc92872991b2c56fe3acb26cc4ee/feynml-0.2.6.tar.gz
+[2023-07-23 22:43:37] INFO root fetch - processPackages [mdgpt]: Downloading https://files.pythonhosted.org/packages/83/66/57dffdd1eb5f31a8d942f5cf2fa27611d54c0e9d08ce432511b605d46012/mdgpt-0.1.0.tar.gz
+[2023-07-23 22:43:37] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/ae/d6/c2ffed0368c5f9f5800f9f486967c51df4df1924824cb07fe09f11c3afaf/code_loader-0.2.84.dev3.tar.gz
+[2023-07-23 22:43:37] INFO root fetch - processPackages [crowdstrike-falconpy]: Downloading https://files.pythonhosted.org/packages/6c/9d/acd40e5101c06e2c54a073c8816a0ebe4ce64cbd5f2d2493c9544b91ac27/crowdstrike-falconpy-1.3.0.dev8.tar.gz
+[2023-07-23 22:43:37] INFO root fetch - processPackages [griptape]: Downloading https://files.pythonhosted.org/packages/61/6a/bcf2cf6048e3abdc73de35cbae9b02a4d5a43d68bdd51e246ecddb0472b1/griptape-0.9.0.tar.gz
+[2023-07-23 22:43:37] INFO root fetch - processPackages [purplecaffeine]: Downloading https://files.pythonhosted.org/packages/e1/98/9227c61957a259ab4b8748b238854c719ed234870b653021c40571aee5e0/purplecaffeine-0.2.0.tar.gz
+[2023-07-23 22:43:37] INFO root fetch - processPackages [FinQuant]: Downloading https://files.pythonhosted.org/packages/37/c3/dad2247548bf5029bdfdb3e6edc645ea7e882a32d913d7cf1c76064c0b99/FinQuant-0.3.2.tar.gz
+[2023-07-23 22:43:37] INFO root fetch - processPackages [crowdstrike-falconpy-dev]: Downloading https://files.pythonhosted.org/packages/d3/e3/aa5caca48a284a07ac45acedf3e238f998ad869638bbd63f9aabed03dfbc/crowdstrike-falconpy-dev-1.3.0.dev8.tar.gz
+[2023-07-23 22:43:37] INFO root fetch - processPackages [ak_selenium]: Downloading https://files.pythonhosted.org/packages/06/76/84681f4452d0dbfe3a184113005f95b7b7944fe89a57dbdc1728e10a7883/ak_selenium-0.0.3.tar.gz
+[2023-07-23 22:43:37] INFO root fetch - processPackages [youtubeaio]: Downloading https://files.pythonhosted.org/packages/8e/0b/82da7d8eb8c4d7c349fadda43d13bc65fe653f067be68a7935fa9b7ce491/youtubeaio-1.1.3.tar.gz
+[2023-07-23 22:43:37] INFO root fetch - processPackages [feynml]: Downloading https://files.pythonhosted.org/packages/2a/97/95a57cfde98ef210e97b99ffe528bf29d20e6e3f384c3196a7f2b9b6c145/feynml-0.2.8.tar.gz
+[2023-07-23 22:43:37] INFO root fetch - processPackages [youtubeaio]: executing diffoscope
+[2023-07-23 22:43:37] INFO root fetch - processPackages [youtubeaio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youtubeaio-1.1.2.tar.gz tmp/youtubeaio-1.1.3.tar.gz --markdown 20230723/y/youtubeaio/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-23 22:43:38] INFO root fetch - processPackages [mdgpt]: Downloading https://files.pythonhosted.org/packages/c6/19/3fc4c66f82132e8d4aa936f67fd9785460a42cffd5f243f9c3482456ce95/mdgpt-0.1.1.tar.gz
+[2023-07-23 22:43:38] INFO root fetch - processPackages [crowdstrike-falconpy]: Downloading https://files.pythonhosted.org/packages/5f/2a/73dd58f917a7ba78ee7e4cb6e74934e1c81d0e876269158258b5ee5bc36c/crowdstrike-falconpy-1.3.0.dev9.tar.gz
+[2023-07-23 22:43:38] INFO root fetch - processPackages [feynml]: executing diffoscope
+[2023-07-23 22:43:38] INFO root fetch - processPackages [feynml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feynml-0.2.6.tar.gz tmp/feynml-0.2.8.tar.gz --markdown 20230723/f/feynml/0.2.6-0.2.8/diff.md --exclude *.pyd
+[2023-07-23 22:43:38] INFO root fetch - processPackages [FinQuant]: Downloading https://files.pythonhosted.org/packages/27/d4/1c4e00464cb653033b7995b7650b75292a4ccb7fe21d72e52647a3602d19/FinQuant-0.4.0.tar.gz
+[2023-07-23 22:43:38] INFO root fetch - processPackages [mdgpt]: executing diffoscope
+[2023-07-23 22:43:38] INFO root fetch - processPackages [mdgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdgpt-0.1.0.tar.gz tmp/mdgpt-0.1.1.tar.gz --markdown 20230723/m/mdgpt/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-23 22:43:38] INFO root fetch - processPackages [ak_selenium]: Downloading https://files.pythonhosted.org/packages/31/29/3f91e3c7bff1571c73eef1dcc7080559cef63a7a3fe1cfd1c062742f7592/ak_selenium-0.0.4.tar.gz
+[2023-07-23 22:43:38] INFO root fetch - processPackages [crowdstrike-falconpy-dev]: Downloading https://files.pythonhosted.org/packages/1b/70/e0719f1c4f4bcd38de9d58266b5c54ee2b434635a2bc48f7f3ae93198e98/crowdstrike-falconpy-dev-1.3.0.dev9.tar.gz
+[2023-07-23 22:43:38] INFO root fetch - processPackages [purplecaffeine]: Downloading https://files.pythonhosted.org/packages/37/f6/b74bc01ed3eddfbeff0d7ded965efd48338ddbc9e97da15f58f428ff06a0/purplecaffeine-0.2.1.tar.gz
+[2023-07-23 22:43:38] INFO root fetch - processPackages [griptape]: Downloading https://files.pythonhosted.org/packages/d3/e7/7c06c5c2173f5e68123d3bdeb9f89c59f9548675ab8e244c9a62bd4cf34d/griptape-0.9.1.tar.gz
+[2023-07-23 22:43:38] INFO root fetch - processPackages [FinQuant]: executing diffoscope
+[2023-07-23 22:43:38] INFO root fetch - processPackages [FinQuant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FinQuant-0.3.2.tar.gz tmp/FinQuant-0.4.0.tar.gz --markdown 20230723/F/FinQuant/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-07-23 22:43:38] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/23/3d/c50351675c5df1eec25c494b3e7b9f9b516c43bd5d3db8cc4447604a8f74/code-loader-0.2.9.tar.gz
+[2023-07-23 22:43:38] INFO root fetch - processPackages [crowdstrike-falconpy]: executing diffoscope
+[2023-07-23 22:43:38] INFO root fetch - processPackages [crowdstrike-falconpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crowdstrike-falconpy-1.3.0.dev8.tar.gz tmp/crowdstrike-falconpy-1.3.0.dev9.tar.gz --markdown 20230723/c/crowdstrike-falconpy/1.3.0.dev8-1.3.0.dev9/diff.md --exclude *.pyd
+[2023-07-23 22:43:38] INFO root fetch - processPackages [ak_selenium]: executing diffoscope
+[2023-07-23 22:43:38] INFO root fetch - processPackages [ak_selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ak_selenium-0.0.3.tar.gz tmp/ak_selenium-0.0.4.tar.gz --markdown 20230723/a/ak_selenium/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-23 22:43:38] INFO root fetch - processPackages [purplecaffeine]: executing diffoscope
+[2023-07-23 22:43:38] INFO root fetch - processPackages [purplecaffeine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/purplecaffeine-0.2.0.tar.gz tmp/purplecaffeine-0.2.1.tar.gz --markdown 20230723/p/purplecaffeine/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-23 22:43:38] INFO root fetch - processPackages [code-loader]: executing diffoscope
+[2023-07-23 22:43:38] INFO root fetch - processPackages [code-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code_loader-0.2.84.dev3.tar.gz tmp/code-loader-0.2.9.tar.gz --markdown 20230723/c/code-loader/0.2.84.dev3-0.2.9/diff.md --exclude *.pyd
+[2023-07-23 22:43:38] INFO root fetch - processPackages [griptape]: executing diffoscope
+[2023-07-23 22:43:38] INFO root fetch - processPackages [griptape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griptape-0.9.0.tar.gz tmp/griptape-0.9.1.tar.gz --markdown 20230723/g/griptape/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-23 22:43:38] INFO root fetch - processPackages [crowdstrike-falconpy-dev]: executing diffoscope
+[2023-07-23 22:43:38] INFO root fetch - processPackages [crowdstrike-falconpy-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crowdstrike-falconpy-dev-1.3.0.dev8.tar.gz tmp/crowdstrike-falconpy-dev-1.3.0.dev9.tar.gz --markdown 20230723/c/crowdstrike-falconpy-dev/1.3.0.dev8-1.3.0.dev9/diff.md --exclude *.pyd
+[2023-07-23 22:43:39] INFO root fetch - processPackages [youtubeaio]: Remove: archive file [/home/abi/fetcher/tmp/youtubeaio-1.1.2.tar.gz]
+[2023-07-23 22:43:39] INFO root fetch - processPackages [youtubeaio]: Remove: archive file [/home/abi/fetcher/tmp/youtubeaio-1.1.3.tar.gz]
+[2023-07-23 22:43:39] INFO root fetch - processPackages [youtubeaio]: Start processing: xso
+[2023-07-23 22:43:39] INFO root fetch - main [MainThread]: End processing [youtubeaio]: success
+[2023-07-23 22:43:39] INFO root fetch - processPackages [xso]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-23 22:43:39] INFO root fetch - processPackages [mdgpt]: Remove: archive file [/home/abi/fetcher/tmp/mdgpt-0.1.0.tar.gz]
+[2023-07-23 22:43:39] INFO root fetch - processPackages [mdgpt]: Remove: archive file [/home/abi/fetcher/tmp/mdgpt-0.1.1.tar.gz]
+[2023-07-23 22:43:39] INFO root fetch - processPackages [mdgpt]: Start processing: mdgpt
+[2023-07-23 22:43:39] INFO root fetch - main [MainThread]: End processing [mdgpt]: success
+[2023-07-23 22:43:39] INFO root fetch - processPackages [mdgpt]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-23 22:43:39] INFO root fetch - processPackages [xso]: Downloading https://files.pythonhosted.org/packages/4a/8f/0c55c8e216e86827bb0998a601dd9fc853a310c04396a371ed955da04772/xso-0.0.3.tar.gz
+[2023-07-23 22:43:39] INFO root fetch - processPackages [mdgpt]: Downloading https://files.pythonhosted.org/packages/83/66/57dffdd1eb5f31a8d942f5cf2fa27611d54c0e9d08ce432511b605d46012/mdgpt-0.1.0.tar.gz
+[2023-07-23 22:43:39] INFO root fetch - processPackages [feynml]: Remove: archive file [/home/abi/fetcher/tmp/feynml-0.2.6.tar.gz]
+[2023-07-23 22:43:39] INFO root fetch - processPackages [feynml]: Remove: archive file [/home/abi/fetcher/tmp/feynml-0.2.8.tar.gz]
+[2023-07-23 22:43:39] INFO root fetch - main [MainThread]: End processing [feynml]: success
+[2023-07-23 22:43:39] INFO root fetch - processPackages [mdgpt]: Downloading https://files.pythonhosted.org/packages/c6/19/3fc4c66f82132e8d4aa936f67fd9785460a42cffd5f243f9c3482456ce95/mdgpt-0.1.1.tar.gz
+[2023-07-23 22:43:39] INFO root fetch - processPackages [xso]: Downloading https://files.pythonhosted.org/packages/19/7c/7c5e67828767c48158060a165326b4ef89b57c5fe29c5ad61f0b8b56771e/xso-0.0.4.tar.gz
+[2023-07-23 22:43:39] INFO root fetch - processPackages [mdgpt]: executing diffoscope
+[2023-07-23 22:43:39] INFO root fetch - processPackages [mdgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdgpt-0.1.0.tar.gz tmp/mdgpt-0.1.1.tar.gz --markdown 20230723/m/mdgpt/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-23 22:43:40] INFO root fetch - processPackages [xso]: executing diffoscope
+[2023-07-23 22:43:40] INFO root fetch - processPackages [xso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xso-0.0.3.tar.gz tmp/xso-0.0.4.tar.gz --markdown 20230723/x/xso/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-23 22:43:40] INFO root fetch - processPackages [purplecaffeine]: Remove: archive file [/home/abi/fetcher/tmp/purplecaffeine-0.2.0.tar.gz]
+[2023-07-23 22:43:40] INFO root fetch - processPackages [purplecaffeine]: Remove: archive file [/home/abi/fetcher/tmp/purplecaffeine-0.2.1.tar.gz]
+[2023-07-23 22:43:40] INFO root fetch - main [MainThread]: End processing [purplecaffeine]: success
+[2023-07-23 22:43:40] INFO root fetch - processPackages [ak_selenium]: Remove: archive file [/home/abi/fetcher/tmp/ak_selenium-0.0.3.tar.gz]
+[2023-07-23 22:43:40] INFO root fetch - processPackages [ak_selenium]: Remove: archive file [/home/abi/fetcher/tmp/ak_selenium-0.0.4.tar.gz]
+[2023-07-23 22:43:40] INFO root fetch - main [MainThread]: End processing [ak_selenium]: success
+[2023-07-23 22:43:40] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code_loader-0.2.84.dev3.tar.gz]
+[2023-07-23 22:43:40] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code-loader-0.2.9.tar.gz]
+[2023-07-23 22:43:40] INFO root fetch - main [MainThread]: End processing [code-loader]: success
+[2023-07-23 22:43:40] INFO root fetch - processPackages [FinQuant]: Remove: archive file [/home/abi/fetcher/tmp/FinQuant-0.3.2.tar.gz]
+[2023-07-23 22:43:40] INFO root fetch - processPackages [FinQuant]: Remove: archive file [/home/abi/fetcher/tmp/FinQuant-0.4.0.tar.gz]
+[2023-07-23 22:43:40] INFO root fetch - main [MainThread]: End processing [FinQuant]: success
+[2023-07-23 22:43:40] INFO root fetch - processPackages [griptape]: Remove: archive file [/home/abi/fetcher/tmp/griptape-0.9.0.tar.gz]
+[2023-07-23 22:43:40] INFO root fetch - processPackages [griptape]: Remove: archive file [/home/abi/fetcher/tmp/griptape-0.9.1.tar.gz]
+[2023-07-23 22:43:40] INFO root fetch - main [MainThread]: End processing [griptape]: success
+[2023-07-23 22:43:40] INFO root fetch - processPackages [mdgpt]: Remove: archive file [/home/abi/fetcher/tmp/mdgpt-0.1.0.tar.gz]
+[2023-07-23 22:43:40] INFO root fetch - processPackages [mdgpt]: Remove: archive file [/home/abi/fetcher/tmp/mdgpt-0.1.1.tar.gz]
+[2023-07-23 22:43:40] INFO root fetch - main [MainThread]: End processing [mdgpt]: success
+[2023-07-23 22:43:41] INFO root fetch - processPackages [crowdstrike-falconpy-dev]: Remove: archive file [/home/abi/fetcher/tmp/crowdstrike-falconpy-dev-1.3.0.dev8.tar.gz]
+[2023-07-23 22:43:41] INFO root fetch - processPackages [crowdstrike-falconpy-dev]: Remove: archive file [/home/abi/fetcher/tmp/crowdstrike-falconpy-dev-1.3.0.dev9.tar.gz]
+[2023-07-23 22:43:41] INFO root fetch - main [MainThread]: End processing [crowdstrike-falconpy-dev]: success
+[2023-07-23 22:43:41] INFO root fetch - processPackages [xso]: Remove: archive file [/home/abi/fetcher/tmp/xso-0.0.3.tar.gz]
+[2023-07-23 22:43:41] INFO root fetch - processPackages [xso]: Remove: archive file [/home/abi/fetcher/tmp/xso-0.0.4.tar.gz]
+[2023-07-23 22:43:41] INFO root fetch - main [MainThread]: End processing [xso]: success
+[2023-07-23 22:43:41] INFO root fetch - processPackages [crowdstrike-falconpy]: Remove: archive file [/home/abi/fetcher/tmp/crowdstrike-falconpy-1.3.0.dev8.tar.gz]
+[2023-07-23 22:43:41] INFO root fetch - processPackages [crowdstrike-falconpy]: Remove: archive file [/home/abi/fetcher/tmp/crowdstrike-falconpy-1.3.0.dev9.tar.gz]
+[2023-07-23 22:43:41] INFO root fetch - main [MainThread]: End processing [crowdstrike-falconpy]: success
+[2023-07-23 22:43:41] INFO root fetch - main [MainThread]: Store serial: [19004762]
