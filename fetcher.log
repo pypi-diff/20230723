@@ -5930,3 +5930,24 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 11:26:37] INFO root fetch - processPackages [robocad-py]: Remove: archive file [/home/abi/fetcher/tmp/robocad-py-0.0.1.1.tar.gz]
 [2023-07-23 11:26:37] INFO root fetch - main [MainThread]: End processing [robocad-py]: success
 [2023-07-23 11:26:37] INFO root fetch - main [MainThread]: Store serial: [19000473]
+[2023-07-23 11:31:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19000473]
+[2023-07-23 11:31:47] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-23 11:31:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: recompose
+[2023-07-23 11:31:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: suanpan-sprt
+[2023-07-23 11:31:47] INFO root fetch - processPackages [recompose]: New version: [1.0.0b0] Old Version: [1.0.0a1]
+[2023-07-23 11:31:47] INFO root fetch - processPackages [suanpan-sprt]: New version: [0.7.0] Old Version: [0.6.7]
+[2023-07-23 11:31:47] INFO root fetch - processPackages [recompose]: Downloading https://files.pythonhosted.org/packages/06/25/68b8a5165a67d004387d8718d06e12f808623ed7f383a8df9d49e4a086da/recompose-1.0.0a1-py3-none-any.whl
+[2023-07-23 11:31:47] INFO root fetch - processPackages [suanpan-sprt]: Downloading https://files.pythonhosted.org/packages/9b/bb/7032c17a82b0381a5659fdfb3f20b69ad2f7a8e45fb358232a962cf32201/suanpan-sprt-0.6.7.tar.gz
+[2023-07-23 11:31:47] INFO root fetch - processPackages [suanpan-sprt]: Downloading https://files.pythonhosted.org/packages/17/eb/f0554abe349e6eb81acdf7a0201745ab766e2d92e763189f12bb18a86de9/suanpan-sprt-0.7.0.tar.gz
+[2023-07-23 11:31:47] INFO root fetch - processPackages [recompose]: Downloading https://files.pythonhosted.org/packages/08/fe/d903de3c81763b76e10ad2f81aea5879bfba8c90c47c11635dbb9023482c/recompose-1.0.0b0-py3-none-any.whl
+[2023-07-23 11:31:47] INFO root fetch - processPackages [suanpan-sprt]: executing diffoscope
+[2023-07-23 11:31:47] INFO root fetch - processPackages [suanpan-sprt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suanpan-sprt-0.6.7.tar.gz tmp/suanpan-sprt-0.7.0.tar.gz --markdown 20230723/s/suanpan-sprt/0.6.7-0.7.0/diff.md --exclude *.pyd
+[2023-07-23 11:31:48] INFO root fetch - processPackages [recompose]: executing diffoscope
+[2023-07-23 11:31:48] INFO root fetch - processPackages [recompose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recompose-1.0.0a1-py3-none-any.whl.zip tmp/recompose-1.0.0b0-py3-none-any.whl.zip --markdown 20230723/r/recompose/1.0.0a1-1.0.0b0/diff.md --exclude *.pyd
+[2023-07-23 11:31:48] INFO root fetch - processPackages [suanpan-sprt]: Remove: archive file [/home/abi/fetcher/tmp/suanpan-sprt-0.6.7.tar.gz]
+[2023-07-23 11:31:48] INFO root fetch - processPackages [suanpan-sprt]: Remove: archive file [/home/abi/fetcher/tmp/suanpan-sprt-0.7.0.tar.gz]
+[2023-07-23 11:31:48] INFO root fetch - main [MainThread]: End processing [suanpan-sprt]: success
+[2023-07-23 11:31:48] INFO root fetch - processPackages [recompose]: Remove: archive file [/home/abi/fetcher/tmp/recompose-1.0.0a1-py3-none-any.whl.zip]
+[2023-07-23 11:31:48] INFO root fetch - processPackages [recompose]: Remove: archive file [/home/abi/fetcher/tmp/recompose-1.0.0b0-py3-none-any.whl.zip]
+[2023-07-23 11:31:48] INFO root fetch - main [MainThread]: End processing [recompose]: success
+[2023-07-23 11:31:48] INFO root fetch - main [MainThread]: Store serial: [19000478]
