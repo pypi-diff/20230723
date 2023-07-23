@@ -13553,3 +13553,81 @@ AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
 [2023-07-23 21:13:11] INFO root fetch - processPackages [guify]: Remove: archive file [/home/abi/fetcher/tmp/guify-0.3.2a0.tar.gz]
 [2023-07-23 21:13:11] INFO root fetch - main [MainThread]: End processing [guify]: success
 [2023-07-23 21:13:11] INFO root fetch - main [MainThread]: Store serial: [19004205]
+[2023-07-23 21:18:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19004205]
+[2023-07-23 21:18:20] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-23 21:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MedicalImageConverter
+[2023-07-23 21:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gammarer.aws-frontend-web-app-deploy-stack
+[2023-07-23 21:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ipyniivue
+[2023-07-23 21:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OneOnOne
+[2023-07-23 21:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gammarer.aws-rds-database-running-scheduler
+[2023-07-23 21:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: peviitor-pyscraper
+[2023-07-23 21:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gammarer.aws-ec2-auto-scaling-instance-running-scheduler
+[2023-07-23 21:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qtgql
+[2023-07-23 21:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: photondemo
+[2023-07-23 21:18:21] INFO root fetch - processPackages [OneOnOne]: New version: [0.6946] Old Version: [0.6945]
+[2023-07-23 21:18:21] INFO root fetch - processPackages [gammarer.aws-frontend-web-app-deploy-stack]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-07-23 21:18:21] WARNING root fetch - processPackages [peviitor-pyscraper]: Skipping, unable to determine old version
+[2023-07-23 21:18:21] INFO root fetch - main [MainThread]: End processing [peviitor-pyscraper] error
+[2023-07-23 21:18:21] INFO root fetch - processPackages [photondemo]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-23 21:18:21] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-23 21:18:21] INFO root fetch - processPackages [qtgql]: New version: [0.130.5] Old Version: [0.130.4]
+[2023-07-23 21:18:21] INFO root fetch - processPackages [MedicalImageConverter]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-23 21:18:21] INFO root fetch - processPackages [ipyniivue]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-07-23 21:18:21] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-23 21:18:21] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/78/88/2e42b72947f143f7b0d30b4bb20d2b61fc20382731a178a590dec9fd322a/OneOnOne-0.6945.tar.gz
+[2023-07-23 21:18:21] INFO root fetch - processPackages [gammarer.aws-frontend-web-app-deploy-stack]: Downloading https://files.pythonhosted.org/packages/56/0f/18429343fd6dbe56172a2d0be74325788f452c26652df00bccf46708aba7/gammarer.aws-frontend-web-app-deploy-stack-0.5.4.tar.gz
+[2023-07-23 21:18:21] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: Downloading https://files.pythonhosted.org/packages/5f/48/3abc2210bc6de8610de2ec67621b8e7ac9d54901ec128418946678a9f5ab/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.5.tar.gz
+[2023-07-23 21:18:21] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: Downloading https://files.pythonhosted.org/packages/8c/ab/dc4df425b5751376819ea16a9b0771bcea2d7723bc20264c101b962ae6f1/gammarer.aws-rds-database-running-scheduler-0.3.8.tar.gz
+[2023-07-23 21:18:21] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/3e/ab/da2a926fdfbdd4dff4ea4e378bc1b4a63e26222c3ddf7170a0059e49ccf5/qtgql-0.130.4.tar.gz
+[2023-07-23 21:18:21] INFO root fetch - processPackages [MedicalImageConverter]: Downloading https://files.pythonhosted.org/packages/54/e9/f4c9d105336163cf5d509c8e05ea952405ed8342302ebb8176f760a0f025/MedicalImageConverter-1.0.4-py3-none-any.whl
+[2023-07-23 21:18:21] INFO root fetch - processPackages [ipyniivue]: Downloading https://files.pythonhosted.org/packages/8f/cf/1cf432440b0a5eddb7847d09dccceb7bc6dca7ec3eef78b6ace534ba521a/ipyniivue-1.0.2.tar.gz
+[2023-07-23 21:18:21] INFO root fetch - processPackages [photondemo]: Downloading https://files.pythonhosted.org/packages/c2/cc/f51404f54a79b601befd1626c81209219e217d3bdafde4be70a10c491a08/photondemo-0.0.4.tar.gz
+[2023-07-23 21:18:21] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: Downloading https://files.pythonhosted.org/packages/61/fb/1a21bbd4fe2f6693f9d1694588ab1d6a4656ab1fac2a80264522212067e2/gammarer.aws-rds-database-running-scheduler-0.3.9.tar.gz
+[2023-07-23 21:18:21] INFO root fetch - processPackages [gammarer.aws-frontend-web-app-deploy-stack]: Downloading https://files.pythonhosted.org/packages/6a/d4/ba05d53e5779b8904f4f9f7698f7e758dbf730e368739860fcd893b9b0fe/gammarer.aws-frontend-web-app-deploy-stack-0.5.5.tar.gz
+[2023-07-23 21:18:21] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: Downloading https://files.pythonhosted.org/packages/7d/28/68f3282dc0588ae424061db47291a13688b3428ed43d39f65d05488eab7c/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.6.tar.gz
+[2023-07-23 21:18:21] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/80/8b/1b8d2e0f22d9ba3ca3b281ccea1da199edc2911d5f7f9f9ed041dcb3498a/qtgql-0.130.5.tar.gz
+[2023-07-23 21:18:21] INFO root fetch - processPackages [MedicalImageConverter]: Downloading https://files.pythonhosted.org/packages/6c/7f/3e5f29a9ea87ff54771751e2dca90b88e1043f0ea1e3060db9615a181d99/MedicalImageConverter-1.0.5.tar.gz
+[2023-07-23 21:18:22] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/41/f1/83d105a91a34f3e51b057f856cff1da71d8dd8bdd67c857da973aeb99873/OneOnOne-0.6946.tar.gz
+[2023-07-23 21:18:22] INFO root fetch - processPackages [photondemo]: Downloading https://files.pythonhosted.org/packages/3d/d9/1446c0e183c941c5f6149762f8680c598de7e069fcaf9e3048e973a45a81/photondemo-0.0.5.tar.gz
+[2023-07-23 21:18:22] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: executing diffoscope
+[2023-07-23 21:18:22] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-rds-database-running-scheduler-0.3.8.tar.gz tmp/gammarer.aws-rds-database-running-scheduler-0.3.9.tar.gz --markdown 20230723/g/gammarer.aws-rds-database-running-scheduler/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-23 21:18:22] INFO root fetch - processPackages [MedicalImageConverter]: executing diffoscope
+[2023-07-23 21:18:22] INFO root fetch - processPackages [MedicalImageConverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MedicalImageConverter-1.0.4-py3-none-any.whl.zip tmp/MedicalImageConverter-1.0.5.tar.gz --markdown 20230723/M/MedicalImageConverter/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-23 21:18:22] INFO root fetch - processPackages [photondemo]: executing diffoscope
+[2023-07-23 21:18:22] INFO root fetch - processPackages [photondemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/photondemo-0.0.4.tar.gz tmp/photondemo-0.0.5.tar.gz --markdown 20230723/p/photondemo/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-23 21:18:22] INFO root fetch - processPackages [gammarer.aws-frontend-web-app-deploy-stack]: executing diffoscope
+[2023-07-23 21:18:22] INFO root fetch - processPackages [gammarer.aws-frontend-web-app-deploy-stack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-frontend-web-app-deploy-stack-0.5.4.tar.gz tmp/gammarer.aws-frontend-web-app-deploy-stack-0.5.5.tar.gz --markdown 20230723/g/gammarer.aws-frontend-web-app-deploy-stack/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-07-23 21:18:22] INFO root fetch - processPackages [qtgql]: executing diffoscope
+[2023-07-23 21:18:22] INFO root fetch - processPackages [qtgql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtgql-0.130.4.tar.gz tmp/qtgql-0.130.5.tar.gz --markdown 20230723/q/qtgql/0.130.4-0.130.5/diff.md --exclude *.pyd
+[2023-07-23 21:18:22] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: executing diffoscope
+[2023-07-23 21:18:22] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.5.tar.gz tmp/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.6.tar.gz --markdown 20230723/g/gammarer.aws-ec2-auto-scaling-instance-running-scheduler/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-23 21:18:22] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-23 21:18:22] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6945.tar.gz tmp/OneOnOne-0.6946.tar.gz --markdown 20230723/O/OneOnOne/0.6945-0.6946/diff.md --exclude *.pyd
+[2023-07-23 21:18:23] INFO root fetch - processPackages [ipyniivue]: Downloading https://files.pythonhosted.org/packages/03/bd/ecc09a27b38e55a3edb0d2443c02d183095ac009dfd81a29401510e87f90/ipyniivue-1.1.0.tar.gz
+[2023-07-23 21:18:23] INFO root fetch - processPackages [MedicalImageConverter]: Remove: archive file [/home/abi/fetcher/tmp/MedicalImageConverter-1.0.4-py3-none-any.whl.zip]
+[2023-07-23 21:18:23] INFO root fetch - processPackages [MedicalImageConverter]: Remove: archive file [/home/abi/fetcher/tmp/MedicalImageConverter-1.0.5.tar.gz]
+[2023-07-23 21:18:23] INFO root fetch - main [MainThread]: End processing [MedicalImageConverter]: success
+[2023-07-23 21:18:23] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-rds-database-running-scheduler-0.3.8.tar.gz]
+[2023-07-23 21:18:23] INFO root fetch - processPackages [gammarer.aws-rds-database-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-rds-database-running-scheduler-0.3.9.tar.gz]
+[2023-07-23 21:18:23] INFO root fetch - main [MainThread]: End processing [gammarer.aws-rds-database-running-scheduler]: success
+[2023-07-23 21:18:23] INFO root fetch - processPackages [photondemo]: Remove: archive file [/home/abi/fetcher/tmp/photondemo-0.0.4.tar.gz]
+[2023-07-23 21:18:23] INFO root fetch - processPackages [photondemo]: Remove: archive file [/home/abi/fetcher/tmp/photondemo-0.0.5.tar.gz]
+[2023-07-23 21:18:23] INFO root fetch - main [MainThread]: End processing [photondemo]: success
+[2023-07-23 21:18:23] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.130.4.tar.gz]
+[2023-07-23 21:18:23] INFO root fetch - processPackages [gammarer.aws-frontend-web-app-deploy-stack]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-frontend-web-app-deploy-stack-0.5.4.tar.gz]
+[2023-07-23 21:18:23] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.130.5.tar.gz]
+[2023-07-23 21:18:23] INFO root fetch - processPackages [gammarer.aws-frontend-web-app-deploy-stack]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-frontend-web-app-deploy-stack-0.5.5.tar.gz]
+[2023-07-23 21:18:23] INFO root fetch - main [MainThread]: End processing [qtgql]: success
+[2023-07-23 21:18:23] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.5.tar.gz]
+[2023-07-23 21:18:23] INFO root fetch - main [MainThread]: End processing [gammarer.aws-frontend-web-app-deploy-stack]: success
+[2023-07-23 21:18:23] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.6.tar.gz]
+[2023-07-23 21:18:23] INFO root fetch - main [MainThread]: End processing [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: success
+[2023-07-23 21:18:23] INFO root fetch - processPackages [ipyniivue]: executing diffoscope
+[2023-07-23 21:18:23] INFO root fetch - processPackages [ipyniivue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyniivue-1.0.2.tar.gz tmp/ipyniivue-1.1.0.tar.gz --markdown 20230723/i/ipyniivue/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-07-23 21:18:23] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6945.tar.gz]
+[2023-07-23 21:18:23] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6946.tar.gz]
+[2023-07-23 21:18:23] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-23 21:18:44] INFO root fetch - processPackages [ipyniivue]: Remove: archive file [/home/abi/fetcher/tmp/ipyniivue-1.0.2.tar.gz]
+[2023-07-23 21:18:44] INFO root fetch - processPackages [ipyniivue]: Remove: archive file [/home/abi/fetcher/tmp/ipyniivue-1.1.0.tar.gz]
+[2023-07-23 21:18:44] INFO root fetch - main [MainThread]: End processing [ipyniivue]: success
+[2023-07-23 21:18:44] INFO root fetch - main [MainThread]: Store serial: [19004232]
