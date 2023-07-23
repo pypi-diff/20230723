@@ -2278,3 +2278,20 @@
 [2023-07-23 03:55:42] INFO root fetch - processPackages [ykdl]: Remove: archive file [/home/abi/fetcher/tmp/ykdl-1.8.2.tar.gz]
 [2023-07-23 03:55:42] INFO root fetch - main [MainThread]: End processing [ykdl]: success
 [2023-07-23 03:55:42] INFO root fetch - main [MainThread]: Store serial: [18998991]
+[2023-07-23 04:00:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18998991]
+[2023-07-23 04:00:50] INFO root fetch - main [MainThread]: No changed packages found
+[2023-07-23 04:05:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18998991]
+[2023-07-23 04:05:57] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-23 04:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pg-sui
+[2023-07-23 04:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: text-det-metric
+[2023-07-23 04:05:57] INFO root fetch - processPackages [pg-sui]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-23 04:05:57] WARNING root fetch - processPackages [text-det-metric]: Skipping, unable to determine old version
+[2023-07-23 04:05:57] INFO root fetch - main [MainThread]: End processing [text-det-metric] error
+[2023-07-23 04:05:57] INFO root fetch - processPackages [pg-sui]: Downloading https://files.pythonhosted.org/packages/26/a8/c07e127838518e6d5dcb0582a7bb774614c51b3cb2c2fe2eeba134df7675/pg-sui-0.2.1.tar.gz
+[2023-07-23 04:05:57] INFO root fetch - processPackages [pg-sui]: Downloading https://files.pythonhosted.org/packages/a9/fb/44d1701a45dc4a00221c776942edfb32f0379b3b1f8b76f33ffffab8cbdd/pg-sui-0.2.2.tar.gz
+[2023-07-23 04:05:57] INFO root fetch - processPackages [pg-sui]: executing diffoscope
+[2023-07-23 04:05:57] INFO root fetch - processPackages [pg-sui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg-sui-0.2.1.tar.gz tmp/pg-sui-0.2.2.tar.gz --markdown 20230723/p/pg-sui/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-23 04:05:58] INFO root fetch - processPackages [pg-sui]: Remove: archive file [/home/abi/fetcher/tmp/pg-sui-0.2.1.tar.gz]
+[2023-07-23 04:05:58] INFO root fetch - processPackages [pg-sui]: Remove: archive file [/home/abi/fetcher/tmp/pg-sui-0.2.2.tar.gz]
+[2023-07-23 04:05:58] INFO root fetch - main [MainThread]: End processing [pg-sui]: success
+[2023-07-23 04:05:58] INFO root fetch - main [MainThread]: Store serial: [18999000]
