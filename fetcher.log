@@ -6197,3 +6197,51 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 11:52:42] INFO root fetch - processPackages [anchovy]: Remove: archive file [/home/abi/fetcher/tmp/anchovy-0.8.0.tar.gz]
 [2023-07-23 11:52:42] INFO root fetch - main [MainThread]: End processing [anchovy]: success
 [2023-07-23 11:52:42] INFO root fetch - main [MainThread]: Store serial: [19000578]
+[2023-07-23 11:57:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19000578]
+[2023-07-23 11:57:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-23 11:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BobBuildTool
+[2023-07-23 11:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nvfuser-cu121
+[2023-07-23 11:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: duckdb-engine
+[2023-07-23 11:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nvfuser-cu118
+[2023-07-23 11:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvfuser-cu117
+[2023-07-23 11:57:51] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-23 11:57:51] INFO root fetch - processPackages [BobBuildTool]: New version: [0.23.0rc1] Old Version: [0.23.0]
+[2023-07-23 11:57:51] INFO root fetch - processPackages [nvfuser-cu117]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-23 11:57:51] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-23 11:57:51] INFO root fetch - processPackages [duckdb-engine]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-23 11:57:51] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/97/5f/a04da4d60f1816efafaa93531502bc7956df43f23ed210d62d175d8ae006/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-23 11:57:51] INFO root fetch - processPackages [BobBuildTool]: Downloading https://files.pythonhosted.org/packages/64/37/7d91f9728526c866c2d77fdbd0ed7100a881de35226bd3f61779fa652209/BobBuildTool-0.23.0.tar.gz
+[2023-07-23 11:57:51] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/4b/cd/4c428ce97d9be97932eb85eb49ce89f8833a6daf4081080607d7a4dd07d9/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-23 11:57:51] INFO root fetch - processPackages [duckdb-engine]: Downloading https://files.pythonhosted.org/packages/9b/66/055e9e10ea0605016ab188d26ebb75b529e92eddb9d35ad114e48fc16bbd/duckdb_engine-0.9.1.tar.gz
+[2023-07-23 11:57:51] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/b3/bf/667bd4aad6c776a5e62ad2f63da6dd5bb51f013f1ff3284d04efbf109991/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-23 11:57:51] INFO root fetch - processPackages [duckdb-engine]: Downloading https://files.pythonhosted.org/packages/82/69/2d6ff3e0a02003585c7f81b20e44ec16aeddc2431d7373d1c507c272c233/duckdb_engine-0.9.2.tar.gz
+[2023-07-23 11:57:51] INFO root fetch - processPackages [BobBuildTool]: Downloading https://files.pythonhosted.org/packages/7c/b1/6f878cc63b0a091e7fc17c6a070d157294543a74e4eeb0dea33300633ad4/BobBuildTool-0.23.0rc1.tar.gz
+[2023-07-23 11:57:51] INFO root fetch - processPackages [duckdb-engine]: executing diffoscope
+[2023-07-23 11:57:51] INFO root fetch - processPackages [duckdb-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckdb_engine-0.9.1.tar.gz tmp/duckdb_engine-0.9.2.tar.gz --markdown 20230723/d/duckdb-engine/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-23 11:57:51] INFO root fetch - processPackages [BobBuildTool]: executing diffoscope
+[2023-07-23 11:57:51] INFO root fetch - processPackages [BobBuildTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BobBuildTool-0.23.0.tar.gz tmp/BobBuildTool-0.23.0rc1.tar.gz --markdown 20230723/B/BobBuildTool/0.23.0-0.23.0rc1/diff.md --exclude *.pyd
+[2023-07-23 11:57:51] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/b4/43/b31a00b4452d0b5904b6a1613a4dc7aa7a262ccdc4d4f61614f466008980/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-23 11:57:52] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/05/3d/6c84b5f07a9f69349df1b20f64065b4cbd84158521710f47bb31051a8ee9/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-23 11:57:52] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2023-07-23 11:57:52] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230723/n/nvfuser-cu118/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-23 11:57:52] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/74/50/be3d462491ae9f70d80293010b36c2a163fbf4cce3cab00d4fd749c345ce/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-23 11:57:52] INFO root fetch - processPackages [duckdb-engine]: Remove: archive file [/home/abi/fetcher/tmp/duckdb_engine-0.9.1.tar.gz]
+[2023-07-23 11:57:52] INFO root fetch - processPackages [duckdb-engine]: Remove: archive file [/home/abi/fetcher/tmp/duckdb_engine-0.9.2.tar.gz]
+[2023-07-23 11:57:52] INFO root fetch - main [MainThread]: End processing [duckdb-engine]: success
+[2023-07-23 11:57:53] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2023-07-23 11:57:53] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230723/n/nvfuser-cu121/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-23 11:57:53] INFO root fetch - processPackages [BobBuildTool]: Remove: archive file [/home/abi/fetcher/tmp/BobBuildTool-0.23.0.tar.gz]
+[2023-07-23 11:57:53] INFO root fetch - processPackages [BobBuildTool]: Remove: archive file [/home/abi/fetcher/tmp/BobBuildTool-0.23.0rc1.tar.gz]
+[2023-07-23 11:57:53] INFO root fetch - main [MainThread]: End processing [BobBuildTool]: success
+[2023-07-23 11:57:53] INFO root fetch - processPackages [nvfuser-cu117]: executing diffoscope
+[2023-07-23 11:57:53] INFO root fetch - processPackages [nvfuser-cu117]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230723/n/nvfuser-cu117/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-23 11:57:53] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-23 11:57:53] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-23 11:57:53] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2023-07-23 11:57:54] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-23 11:57:54] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-23 11:57:54] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2023-07-23 11:57:54] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-23 11:57:54] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-23 11:57:54] INFO root fetch - main [MainThread]: End processing [nvfuser-cu117]: success
+[2023-07-23 11:57:54] INFO root fetch - main [MainThread]: Store serial: [19000598]
