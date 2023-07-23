@@ -6733,3 +6733,41 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 12:41:53] INFO root fetch - processPackages [moptipyapps]: Remove: archive file [/home/abi/fetcher/tmp/moptipyapps-0.8.9.tar.gz]
 [2023-07-23 12:41:53] INFO root fetch - main [MainThread]: End processing [moptipyapps]: success
 [2023-07-23 12:41:53] INFO root fetch - main [MainThread]: Store serial: [19000925]
+[2023-07-23 12:46:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19000925]
+[2023-07-23 12:47:02] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-23 12:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: markdown-analysis
+[2023-07-23 12:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SageLogger
+[2023-07-23 12:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: keepassxc-proxy-client
+[2023-07-23 12:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-alconna
+[2023-07-23 12:47:02] INFO root fetch - processPackages [keepassxc-proxy-client]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-23 12:47:02] INFO root fetch - processPackages [SageLogger]: New version: [1.1.1] Old Version: [1.0]
+[2023-07-23 12:47:02] INFO root fetch - processPackages [markdown-analysis]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-23 12:47:02] INFO root fetch - processPackages [nonebot-plugin-alconna]: New version: [0.9.3] Old Version: [0.9.0]
+[2023-07-23 12:47:03] INFO root fetch - processPackages [nonebot-plugin-alconna]: Downloading https://files.pythonhosted.org/packages/c8/67/1065373af14f845f6112a3d2cb8d6187d838b4c0d90d89282ccef9f5133d/nonebot-plugin-alconna-0.9.0.tar.gz
+[2023-07-23 12:47:03] INFO root fetch - processPackages [keepassxc-proxy-client]: Downloading https://files.pythonhosted.org/packages/b0/f2/43c84b5ae3f437e1cd844de263ba042e87a025a87a9e14251afd45513466/keepassxc-proxy-client-0.1.6.tar.gz
+[2023-07-23 12:47:03] INFO root fetch - processPackages [markdown-analysis]: Downloading https://files.pythonhosted.org/packages/61/f3/65593ba7142db561ccafdc1ac1cb336819c9d4de0c1eb1e68f52941d926f/markdown_analysis-0.0.1.tar.gz
+[2023-07-23 12:47:03] INFO root fetch - processPackages [SageLogger]: Downloading https://files.pythonhosted.org/packages/37/d3/01d3833c24d99d754e74c8ec7b840303b1401b25c753822c787050ea4f6f/SageLogger-1.1.1.tar.gz
+[2023-07-23 12:47:03] INFO root fetch - processPackages [SageLogger]: executing diffoscope
+[2023-07-23 12:47:03] INFO root fetch - processPackages [SageLogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SageLogger-1.0.tar.gz tmp/SageLogger-1.1.1.tar.gz --markdown 20230723/S/SageLogger/1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-23 12:47:03] INFO root fetch - processPackages [keepassxc-proxy-client]: Downloading https://files.pythonhosted.org/packages/36/91/df71c65fc069ca654aee719464662c1de93a4132e145fd2dd9d51e270201/keepassxc-proxy-client-0.1.7.tar.gz
+[2023-07-23 12:47:03] INFO root fetch - processPackages [markdown-analysis]: Downloading https://files.pythonhosted.org/packages/01/f3/5b9c8dfcef6f4b35b199c4f8a99e362c4b258488000b5717b2fa8ca2d9ec/markdown_analysis-0.0.2.tar.gz
+[2023-07-23 12:47:03] INFO root fetch - processPackages [nonebot-plugin-alconna]: Downloading https://files.pythonhosted.org/packages/f4/fd/830dd6604cd5dc44a467d959ff595e8da0a087d9b75368acaecfc83c3417/nonebot_plugin_alconna-0.9.3.tar.gz
+[2023-07-23 12:47:03] INFO root fetch - processPackages [keepassxc-proxy-client]: executing diffoscope
+[2023-07-23 12:47:03] INFO root fetch - processPackages [keepassxc-proxy-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keepassxc-proxy-client-0.1.6.tar.gz tmp/keepassxc-proxy-client-0.1.7.tar.gz --markdown 20230723/k/keepassxc-proxy-client/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-23 12:47:03] INFO root fetch - processPackages [markdown-analysis]: executing diffoscope
+[2023-07-23 12:47:03] INFO root fetch - processPackages [markdown-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdown_analysis-0.0.1.tar.gz tmp/markdown_analysis-0.0.2.tar.gz --markdown 20230723/m/markdown-analysis/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-23 12:47:03] INFO root fetch - processPackages [nonebot-plugin-alconna]: executing diffoscope
+[2023-07-23 12:47:03] INFO root fetch - processPackages [nonebot-plugin-alconna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-alconna-0.9.0.tar.gz tmp/nonebot_plugin_alconna-0.9.3.tar.gz --markdown 20230723/n/nonebot-plugin-alconna/0.9.0-0.9.3/diff.md --exclude *.pyd
+[2023-07-23 12:47:04] INFO root fetch - processPackages [SageLogger]: Remove: archive file [/home/abi/fetcher/tmp/SageLogger-1.0.tar.gz]
+[2023-07-23 12:47:04] INFO root fetch - processPackages [SageLogger]: Remove: archive file [/home/abi/fetcher/tmp/SageLogger-1.1.1.tar.gz]
+[2023-07-23 12:47:04] INFO root fetch - main [MainThread]: End processing [SageLogger]: success
+[2023-07-23 12:47:04] INFO root fetch - processPackages [keepassxc-proxy-client]: Remove: archive file [/home/abi/fetcher/tmp/keepassxc-proxy-client-0.1.6.tar.gz]
+[2023-07-23 12:47:04] INFO root fetch - processPackages [keepassxc-proxy-client]: Remove: archive file [/home/abi/fetcher/tmp/keepassxc-proxy-client-0.1.7.tar.gz]
+[2023-07-23 12:47:04] INFO root fetch - main [MainThread]: End processing [keepassxc-proxy-client]: success
+[2023-07-23 12:47:04] INFO root fetch - processPackages [markdown-analysis]: Remove: archive file [/home/abi/fetcher/tmp/markdown_analysis-0.0.1.tar.gz]
+[2023-07-23 12:47:04] INFO root fetch - processPackages [markdown-analysis]: Remove: archive file [/home/abi/fetcher/tmp/markdown_analysis-0.0.2.tar.gz]
+[2023-07-23 12:47:04] INFO root fetch - main [MainThread]: End processing [markdown-analysis]: success
+[2023-07-23 12:47:04] INFO root fetch - processPackages [nonebot-plugin-alconna]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-alconna-0.9.0.tar.gz]
+[2023-07-23 12:47:04] INFO root fetch - processPackages [nonebot-plugin-alconna]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_alconna-0.9.3.tar.gz]
+[2023-07-23 12:47:04] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-alconna]: success
+[2023-07-23 12:47:04] INFO root fetch - main [MainThread]: Store serial: [19000937]
