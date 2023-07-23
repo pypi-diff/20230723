@@ -15561,3 +15561,33 @@ AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
 [2023-07-23 23:30:42] INFO root fetch - processPackages [grimoire-elk]: Remove: archive file [/home/abi/fetcher/tmp/grimoire-elk-0.99.0.tar.gz]
 [2023-07-23 23:30:42] INFO root fetch - main [MainThread]: End processing [grimoire-elk]: success
 [2023-07-23 23:30:42] INFO root fetch - main [MainThread]: Store serial: [19004972]
+[2023-07-23 23:35:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19004972]
+[2023-07-23 23:35:50] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-23 23:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlitopencvplayer
+[2023-07-23 23:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pillar1
+[2023-07-23 23:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kcli
+[2023-07-23 23:35:51] INFO root fetch - processPackages [streamlitopencvplayer]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-07-23 23:35:51] INFO root fetch - processPackages [pillar1]: New version: [0.1.9.9] Old Version: [0.1.9.8]
+[2023-07-23 23:35:51] INFO root fetch - processPackages [kcli]: New version: [99.0.202307222245] Old Version: [99.0.202307221945]
+[2023-07-23 23:35:51] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/fd/c8/dc894f4393d99c54f62ae98519892157e6b0e0327ac1f0b1a261450e9868/pillar1-0.1.9.8.tar.gz
+[2023-07-23 23:35:51] INFO root fetch - processPackages [streamlitopencvplayer]: Downloading https://files.pythonhosted.org/packages/30/69/eff58fe2e88b459397adb9a34130f3cc5fc65facb54941f480baccecb71f/streamlitopencvplayer-1.5.5.tar.gz
+[2023-07-23 23:35:51] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/42/fd/3dd0383982a666ab4fcab064a0405a0db46321990516e6bb7a312309fd27/kcli-99.0.202307221945-py3-none-any.whl
+[2023-07-23 23:35:51] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/92/8d/efcf5703708adcc432230e0d510fec42756434d28ae2e4b4348f30be2eef/pillar1-0.1.9.9.tar.gz
+[2023-07-23 23:35:51] INFO root fetch - processPackages [streamlitopencvplayer]: Downloading https://files.pythonhosted.org/packages/a4/ab/cbeba7f4bf223dca02609ba709ea48e72221ac2233971362a7cc6658e19e/streamlitopencvplayer-1.5.6.tar.gz
+[2023-07-23 23:35:51] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-07-23 23:35:51] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.9.8.tar.gz tmp/pillar1-0.1.9.9.tar.gz --markdown 20230723/p/pillar1/0.1.9.8-0.1.9.9/diff.md --exclude *.pyd
+[2023-07-23 23:35:51] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/77/d2/1f37a9947c2dc512fcc402d56ce5cb6e406a3084ca7c12a24cd9b55d9031/kcli-99.0.202307222245-py3-none-any.whl
+[2023-07-23 23:35:51] INFO root fetch - processPackages [streamlitopencvplayer]: executing diffoscope
+[2023-07-23 23:35:51] INFO root fetch - processPackages [streamlitopencvplayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlitopencvplayer-1.5.5.tar.gz tmp/streamlitopencvplayer-1.5.6.tar.gz --markdown 20230723/s/streamlitopencvplayer/1.5.5-1.5.6/diff.md --exclude *.pyd
+[2023-07-23 23:35:51] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-23 23:35:51] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307221945-py3-none-any.whl.zip tmp/kcli-99.0.202307222245-py3-none-any.whl.zip --markdown 20230723/k/kcli/99.0.202307221945-99.0.202307222245/diff.md --exclude *.pyd
+[2023-07-23 23:35:52] INFO root fetch - processPackages [streamlitopencvplayer]: Remove: archive file [/home/abi/fetcher/tmp/streamlitopencvplayer-1.5.5.tar.gz]
+[2023-07-23 23:35:52] INFO root fetch - processPackages [streamlitopencvplayer]: Remove: archive file [/home/abi/fetcher/tmp/streamlitopencvplayer-1.5.6.tar.gz]
+[2023-07-23 23:35:52] INFO root fetch - main [MainThread]: End processing [streamlitopencvplayer]: success
+[2023-07-23 23:35:52] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.9.8.tar.gz]
+[2023-07-23 23:35:52] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.9.9.tar.gz]
+[2023-07-23 23:35:52] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-07-23 23:35:54] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307221945-py3-none-any.whl.zip]
+[2023-07-23 23:35:54] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307222245-py3-none-any.whl.zip]
+[2023-07-23 23:35:54] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-23 23:35:54] INFO root fetch - main [MainThread]: Store serial: [19004980]
