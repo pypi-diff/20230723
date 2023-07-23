@@ -6623,3 +6623,35 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 12:31:28] INFO root fetch - processPackages [pikepdf]: Remove: archive file [/home/abi/fetcher/tmp/pikepdf-8.2.1.tar.gz]
 [2023-07-23 12:31:28] INFO root fetch - main [MainThread]: End processing [pikepdf]: success
 [2023-07-23 12:31:28] INFO root fetch - main [MainThread]: Store serial: [19000873]
+[2023-07-23 12:36:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19000873]
+[2023-07-23 12:36:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-23 12:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tomodachi-testcontainers
+[2023-07-23 12:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SageLogger
+[2023-07-23 12:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adafri
+[2023-07-23 12:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-github
+[2023-07-23 12:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyquizrd
+[2023-07-23 12:36:38] WARNING root fetch - processPackages [pyquizrd]: Skipping, unable to determine old version
+[2023-07-23 12:36:38] INFO root fetch - main [MainThread]: End processing [pyquizrd] error
+[2023-07-23 12:36:38] INFO root fetch - processPackages [adafri]: New version: [0.0.52] Old Version: [0.0.51]
+[2023-07-23 12:36:38] INFO root fetch - processPackages [cdk-github]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 12:36:38] WARNING root fetch - processPackages [tomodachi-testcontainers]: Skipping, unable to determine old version
+[2023-07-23 12:36:38] INFO root fetch - main [MainThread]: End processing [tomodachi-testcontainers] error
+[2023-07-23 12:36:38] INFO root fetch - processPackages [SageLogger]: New version: [1.1] Old Version: [1.0]
+[2023-07-23 12:36:38] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/bc/39/345be5d686a509b1981269c2a9c721d780a61e193a2ad5c20d99cb310d64/adafri-0.0.51.tar.gz
+[2023-07-23 12:36:38] INFO root fetch - processPackages [cdk-github]: Downloading https://files.pythonhosted.org/packages/8f/02/dac3653f8b767f0b6512d33c39c769caaa6a87117d9b9e4a5662dceadc26/cdk-github-0.0.8.tar.gz
+[2023-07-23 12:36:39] INFO root fetch - processPackages [SageLogger]: Downloading https://files.pythonhosted.org/packages/ed/ad/81fb4168a674c522bba9f160b5064f42c3c572d5a64671aa4ff0e449d36b/SageLogger-1.0.tar.gz
+[2023-07-23 12:36:39] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/51/1a/9b6b87b98cd40598c940ff750522ca1ceb049f27d3c1bdae8d1380c1f26d/adafri-0.0.52.tar.gz
+[2023-07-23 12:36:39] ERROR root fetch - processPackages [SageLogger]: Unable to fetch info: No such project/version 'SageLogger' 1.1
+[2023-07-23 12:36:39] INFO root fetch - main [MainThread]: End processing [SageLogger] error
+[2023-07-23 12:36:39] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-23 12:36:39] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.51.tar.gz tmp/adafri-0.0.52.tar.gz --markdown 20230723/a/adafri/0.0.51-0.0.52/diff.md --exclude *.pyd
+[2023-07-23 12:36:39] INFO root fetch - processPackages [cdk-github]: Downloading https://files.pythonhosted.org/packages/b0/c1/5a91171b5da3e631cbe4f6db5c98753ed9264deda14b972e57cffa4fdf63/cdk-github-0.0.9.tar.gz
+[2023-07-23 12:36:39] INFO root fetch - processPackages [cdk-github]: executing diffoscope
+[2023-07-23 12:36:39] INFO root fetch - processPackages [cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-github-0.0.8.tar.gz tmp/cdk-github-0.0.9.tar.gz --markdown 20230723/c/cdk-github/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 12:36:40] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.51.tar.gz]
+[2023-07-23 12:36:40] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.52.tar.gz]
+[2023-07-23 12:36:40] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-23 12:36:40] INFO root fetch - processPackages [cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/cdk-github-0.0.8.tar.gz]
+[2023-07-23 12:36:40] INFO root fetch - processPackages [cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/cdk-github-0.0.9.tar.gz]
+[2023-07-23 12:36:40] INFO root fetch - main [MainThread]: End processing [cdk-github]: success
+[2023-07-23 12:36:40] INFO root fetch - main [MainThread]: Store serial: [19000896]
