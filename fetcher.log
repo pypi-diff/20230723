@@ -7410,3 +7410,96 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 13:49:32] INFO root fetch - processPackages [hstrat]: Remove: archive file [/home/abi/fetcher/tmp/hstrat-1.8.0.tar.gz]
 [2023-07-23 13:49:32] INFO root fetch - main [MainThread]: End processing [hstrat]: success
 [2023-07-23 13:49:32] INFO root fetch - main [MainThread]: Store serial: [19001257]
+[2023-07-23 13:54:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19001257]
+[2023-07-23 13:54:42] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-23 13:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyquizrd
+[2023-07-23 13:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: universi
+[2023-07-23 13:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: firefox-bookmarks
+[2023-07-23 13:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastlane-bot
+[2023-07-23 13:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rblx-open-cloud
+[2023-07-23 13:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SageLogger
+[2023-07-23 13:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: metricserverremote
+[2023-07-23 13:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: agent-protocol
+[2023-07-23 13:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: monkeywork
+[2023-07-23 13:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kube-ops
+[2023-07-23 13:54:43] INFO root fetch - processPackages [kube-ops]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-23 13:54:43] INFO root fetch - processPackages [agent-protocol]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-23 13:54:43] INFO root fetch - processPackages [monkeywork]: New version: [0.1.1] Old Version: [0.1]
+[2023-07-23 13:54:43] INFO root fetch - processPackages [SageLogger]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-07-23 13:54:43] INFO root fetch - processPackages [pyquizrd]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-23 13:54:43] INFO root fetch - processPackages [metricserverremote]: New version: [1.9] Old Version: [1.8]
+[2023-07-23 13:54:43] INFO root fetch - processPackages [firefox-bookmarks]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-23 13:54:43] INFO root fetch - processPackages [universi]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-23 13:54:43] INFO root fetch - processPackages [rblx-open-cloud]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-07-23 13:54:43] INFO root fetch - processPackages [fastlane-bot]: New version: [0.9.1] Old Version: [0.8.1]
+[2023-07-23 13:54:43] INFO root fetch - processPackages [pyquizrd]: Downloading https://files.pythonhosted.org/packages/47/aa/e7c4e310879222cc77a9e3131a7ac9219f24976527d60c6fa44c5f75f5e7/pyquizrd-0.1.4.tar.gz
+[2023-07-23 13:54:43] INFO root fetch - processPackages [SageLogger]: Downloading https://files.pythonhosted.org/packages/0d/29/0d34bb99ca18adbfc7ecb5eb03eaec5cfdae6c6ee01f72237a365b2677ee/SageLogger-1.3.3.tar.gz
+[2023-07-23 13:54:43] INFO root fetch - processPackages [firefox-bookmarks]: Downloading https://files.pythonhosted.org/packages/3b/e0/7f48f9abeba1a8840fb770336d13e47756557e6226d6ed01d50fbe382463/firefox_bookmarks-0.1.0.tar.gz
+[2023-07-23 13:54:43] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/fa/07/1798ef60626da5772756f77a180b4a336563075959eb311df2cf4d7fa53d/fastlane_bot-0.8.1.tar.gz
+[2023-07-23 13:54:43] INFO root fetch - processPackages [universi]: Downloading https://files.pythonhosted.org/packages/80/b5/6c8cb569f1e989b817368d384cdd18140943c1c4b5f10c5ffe1aef80a6d8/universi-1.0.0.tar.gz
+[2023-07-23 13:54:43] INFO root fetch - processPackages [monkeywork]: Downloading https://files.pythonhosted.org/packages/6b/db/d6ebff9e30f787c3d3059577feef5e7d288a4cb7b0ff8af3abfd2be2d3cb/monkeywork-0.1.tar.gz
+[2023-07-23 13:54:43] INFO root fetch - processPackages [agent-protocol]: Downloading https://files.pythonhosted.org/packages/63/5a/7d12da7a41e73956bc13e8f094054680ed695b735ab22fd8ebfd6b59e33b/agent_protocol-0.1.0.tar.gz
+[2023-07-23 13:54:43] INFO root fetch - processPackages [kube-ops]: Downloading https://files.pythonhosted.org/packages/8e/05/ac2eeccb5ce89dcb0b128707fcb982dba5ec607f5038d811755e2ee6d8e5/kube_ops-1.0.1-py3-none-any.whl
+[2023-07-23 13:54:43] INFO root fetch - processPackages [rblx-open-cloud]: Downloading https://files.pythonhosted.org/packages/a1/1f/f6416c24c8a6159152eaad82aee586a3e3f2a989c6ead9b604c614a39fef/rblx-open-cloud-1.3.1.tar.gz
+[2023-07-23 13:54:43] INFO root fetch - processPackages [metricserverremote]: Downloading https://files.pythonhosted.org/packages/26/89/ac1fe84317261cb1fee34ba39c21e55b15db99ed5f0cf7894f66fe3e3789/metricserverremote-1.8.tar.gz
+[2023-07-23 13:54:43] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/9d/66/79e822b1bdec857d9f5f826f119690d1215b832e32058c86e65fab6651c5/fastlane_bot-0.9.1.tar.gz
+[2023-07-23 13:54:43] INFO root fetch - processPackages [firefox-bookmarks]: Downloading https://files.pythonhosted.org/packages/f5/c8/74a78a704165412b135d6653da0e768ea32f4824dc1fc3c01f6e7abe89ef/firefox_bookmarks-0.2.0.tar.gz
+[2023-07-23 13:54:43] INFO root fetch - processPackages [pyquizrd]: Downloading https://files.pythonhosted.org/packages/0f/69/fef97d45fd73ab3680915c109560ac0220cddb6191d80cb38b49f102f366/pyquizrd-0.1.5.tar.gz
+[2023-07-23 13:54:43] INFO root fetch - processPackages [SageLogger]: Downloading https://files.pythonhosted.org/packages/ae/20/eb352894c0ea39c352ae1e68415fbd15391b10aad82bd8f3c952eced2f8a/SageLogger-1.3.4.tar.gz
+[2023-07-23 13:54:43] INFO root fetch - processPackages [universi]: Downloading https://files.pythonhosted.org/packages/20/86/d8505113e662e11b85b49c83654ba36df9af71625bc5845f00ff780f6da0/universi-1.0.1.tar.gz
+[2023-07-23 13:54:43] INFO root fetch - processPackages [monkeywork]: Downloading https://files.pythonhosted.org/packages/90/59/3c8442df692b855e9a989c6111bb693c36616f1d701dc98214037942c471/monkeywork-0.1.1.tar.gz
+[2023-07-23 13:54:43] INFO root fetch - processPackages [agent-protocol]: Downloading https://files.pythonhosted.org/packages/0b/f7/8ef7d6c0f95aa87efbfc7cf3d6ec1179c22e078eb0045b7f71ae6f2f277e/agent_protocol-0.1.1.tar.gz
+[2023-07-23 13:54:44] INFO root fetch - processPackages [kube-ops]: Downloading https://files.pythonhosted.org/packages/de/97/aec4957fef380f0fd99efcf5165c7e8aa2c4486d73bd9a25b33464f356d1/kube_ops-1.0.2-py3-none-any.whl
+[2023-07-23 13:54:44] INFO root fetch - processPackages [fastlane-bot]: executing diffoscope
+[2023-07-23 13:54:44] INFO root fetch - processPackages [fastlane-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlane_bot-0.8.1.tar.gz tmp/fastlane_bot-0.9.1.tar.gz --markdown 20230723/f/fastlane-bot/0.8.1-0.9.1/diff.md --exclude *.pyd
+[2023-07-23 13:54:44] INFO root fetch - processPackages [firefox-bookmarks]: executing diffoscope
+[2023-07-23 13:54:44] INFO root fetch - processPackages [firefox-bookmarks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firefox_bookmarks-0.1.0.tar.gz tmp/firefox_bookmarks-0.2.0.tar.gz --markdown 20230723/f/firefox-bookmarks/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-23 13:54:44] INFO root fetch - processPackages [metricserverremote]: Downloading https://files.pythonhosted.org/packages/54/26/18a97e8067da7bef8d959ef79fe667641cd0c16ea60686231debaabcc6b7/metricserverremote-1.9.tar.gz
+[2023-07-23 13:54:44] INFO root fetch - processPackages [SageLogger]: executing diffoscope
+[2023-07-23 13:54:44] INFO root fetch - processPackages [SageLogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SageLogger-1.3.3.tar.gz tmp/SageLogger-1.3.4.tar.gz --markdown 20230723/S/SageLogger/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-07-23 13:54:44] INFO root fetch - processPackages [rblx-open-cloud]: Downloading https://files.pythonhosted.org/packages/da/a2/63b85b68e0e4148517d5249cbc1e5fa2fe5ad03eff99ae887d724f0f8618/rblx-open-cloud-1.4.0.tar.gz
+[2023-07-23 13:54:44] INFO root fetch - processPackages [universi]: executing diffoscope
+[2023-07-23 13:54:44] INFO root fetch - processPackages [universi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/universi-1.0.0.tar.gz tmp/universi-1.0.1.tar.gz --markdown 20230723/u/universi/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-23 13:54:44] INFO root fetch - processPackages [agent-protocol]: executing diffoscope
+[2023-07-23 13:54:44] INFO root fetch - processPackages [monkeywork]: executing diffoscope
+[2023-07-23 13:54:44] INFO root fetch - processPackages [agent-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agent_protocol-0.1.0.tar.gz tmp/agent_protocol-0.1.1.tar.gz --markdown 20230723/a/agent-protocol/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-23 13:54:44] INFO root fetch - processPackages [monkeywork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monkeywork-0.1.tar.gz tmp/monkeywork-0.1.1.tar.gz --markdown 20230723/m/monkeywork/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-23 13:54:44] INFO root fetch - processPackages [pyquizrd]: executing diffoscope
+[2023-07-23 13:54:44] INFO root fetch - processPackages [pyquizrd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquizrd-0.1.4.tar.gz tmp/pyquizrd-0.1.5.tar.gz --markdown 20230723/p/pyquizrd/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-23 13:54:44] INFO root fetch - processPackages [kube-ops]: executing diffoscope
+[2023-07-23 13:54:44] INFO root fetch - processPackages [kube-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kube_ops-1.0.1-py3-none-any.whl.zip tmp/kube_ops-1.0.2-py3-none-any.whl.zip --markdown 20230723/k/kube-ops/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-23 13:54:44] INFO root fetch - processPackages [metricserverremote]: executing diffoscope
+[2023-07-23 13:54:44] INFO root fetch - processPackages [metricserverremote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metricserverremote-1.8.tar.gz tmp/metricserverremote-1.9.tar.gz --markdown 20230723/m/metricserverremote/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-23 13:54:44] INFO root fetch - processPackages [rblx-open-cloud]: executing diffoscope
+[2023-07-23 13:54:44] INFO root fetch - processPackages [rblx-open-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rblx-open-cloud-1.3.1.tar.gz tmp/rblx-open-cloud-1.4.0.tar.gz --markdown 20230723/r/rblx-open-cloud/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-07-23 13:54:45] INFO root fetch - processPackages [firefox-bookmarks]: Remove: archive file [/home/abi/fetcher/tmp/firefox_bookmarks-0.1.0.tar.gz]
+[2023-07-23 13:54:45] INFO root fetch - processPackages [firefox-bookmarks]: Remove: archive file [/home/abi/fetcher/tmp/firefox_bookmarks-0.2.0.tar.gz]
+[2023-07-23 13:54:45] INFO root fetch - main [MainThread]: End processing [firefox-bookmarks]: success
+[2023-07-23 13:54:45] INFO root fetch - processPackages [universi]: Remove: archive file [/home/abi/fetcher/tmp/universi-1.0.0.tar.gz]
+[2023-07-23 13:54:45] INFO root fetch - processPackages [universi]: Remove: archive file [/home/abi/fetcher/tmp/universi-1.0.1.tar.gz]
+[2023-07-23 13:54:45] INFO root fetch - main [MainThread]: End processing [universi]: success
+[2023-07-23 13:54:46] INFO root fetch - processPackages [kube-ops]: Remove: archive file [/home/abi/fetcher/tmp/kube_ops-1.0.1-py3-none-any.whl.zip]
+[2023-07-23 13:54:46] INFO root fetch - processPackages [kube-ops]: Remove: archive file [/home/abi/fetcher/tmp/kube_ops-1.0.2-py3-none-any.whl.zip]
+[2023-07-23 13:54:46] INFO root fetch - main [MainThread]: End processing [kube-ops]: success
+[2023-07-23 13:54:46] INFO root fetch - processPackages [SageLogger]: Remove: archive file [/home/abi/fetcher/tmp/SageLogger-1.3.3.tar.gz]
+[2023-07-23 13:54:46] INFO root fetch - processPackages [SageLogger]: Remove: archive file [/home/abi/fetcher/tmp/SageLogger-1.3.4.tar.gz]
+[2023-07-23 13:54:46] INFO root fetch - main [MainThread]: End processing [SageLogger]: success
+[2023-07-23 13:54:46] INFO root fetch - processPackages [monkeywork]: Remove: archive file [/home/abi/fetcher/tmp/monkeywork-0.1.tar.gz]
+[2023-07-23 13:54:46] INFO root fetch - processPackages [monkeywork]: Remove: archive file [/home/abi/fetcher/tmp/monkeywork-0.1.1.tar.gz]
+[2023-07-23 13:54:46] INFO root fetch - main [MainThread]: End processing [monkeywork]: success
+[2023-07-23 13:54:46] INFO root fetch - processPackages [agent-protocol]: Remove: archive file [/home/abi/fetcher/tmp/agent_protocol-0.1.0.tar.gz]
+[2023-07-23 13:54:46] INFO root fetch - processPackages [agent-protocol]: Remove: archive file [/home/abi/fetcher/tmp/agent_protocol-0.1.1.tar.gz]
+[2023-07-23 13:54:46] INFO root fetch - main [MainThread]: End processing [agent-protocol]: success
+[2023-07-23 13:54:46] INFO root fetch - processPackages [rblx-open-cloud]: Remove: archive file [/home/abi/fetcher/tmp/rblx-open-cloud-1.3.1.tar.gz]
+[2023-07-23 13:54:46] INFO root fetch - processPackages [rblx-open-cloud]: Remove: archive file [/home/abi/fetcher/tmp/rblx-open-cloud-1.4.0.tar.gz]
+[2023-07-23 13:54:46] INFO root fetch - main [MainThread]: End processing [rblx-open-cloud]: success
+[2023-07-23 13:54:46] INFO root fetch - processPackages [metricserverremote]: Remove: archive file [/home/abi/fetcher/tmp/metricserverremote-1.8.tar.gz]
+[2023-07-23 13:54:46] INFO root fetch - processPackages [metricserverremote]: Remove: archive file [/home/abi/fetcher/tmp/metricserverremote-1.9.tar.gz]
+[2023-07-23 13:54:46] INFO root fetch - main [MainThread]: End processing [metricserverremote]: success
+[2023-07-23 13:54:46] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-0.8.1.tar.gz]
+[2023-07-23 13:54:46] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-0.9.1.tar.gz]
+[2023-07-23 13:54:46] INFO root fetch - main [MainThread]: End processing [fastlane-bot]: success
+[2023-07-23 13:54:46] INFO root fetch - processPackages [pyquizrd]: Remove: archive file [/home/abi/fetcher/tmp/pyquizrd-0.1.4.tar.gz]
+[2023-07-23 13:54:46] INFO root fetch - processPackages [pyquizrd]: Remove: archive file [/home/abi/fetcher/tmp/pyquizrd-0.1.5.tar.gz]
+[2023-07-23 13:54:46] INFO root fetch - main [MainThread]: End processing [pyquizrd]: success
+[2023-07-23 13:54:46] INFO root fetch - main [MainThread]: Store serial: [19001289]
