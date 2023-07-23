@@ -10855,3 +10855,117 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 18:03:38] INFO root fetch - processPackages [experimaestro]: Remove: archive file [/home/abi/fetcher/tmp/experimaestro-1.0.0.zip]
 [2023-07-23 18:03:38] INFO root fetch - main [MainThread]: End processing [experimaestro]: success
 [2023-07-23 18:03:38] INFO root fetch - main [MainThread]: Store serial: [19003000]
+[2023-07-23 18:08:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19003000]
+[2023-07-23 18:08:47] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-23 18:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: posaydones-material-theming
+[2023-07-23 18:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: green-box
+[2023-07-23 18:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: diffsptk
+[2023-07-23 18:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trino-query-parser
+[2023-07-23 18:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trino-query-parser
+[2023-07-23 18:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trino-query-parser
+[2023-07-23 18:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trino-query-parser
+[2023-07-23 18:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trino-query-parser
+[2023-07-23 18:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: trino-query-parser
+[2023-07-23 18:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: copyparty
+[2023-07-23 18:08:47] INFO root fetch - processPackages [trino-query-parser]: New version: [0.422.7] Old Version: [0.421.7]
+[2023-07-23 18:08:47] INFO root fetch - processPackages [posaydones-material-theming]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-23 18:08:47] INFO root fetch - processPackages [diffsptk]: New version: [1.0.0] Old Version: [0.6.0]
+[2023-07-23 18:08:47] INFO root fetch - processPackages [trino-query-parser]: New version: [0.422.7] Old Version: [0.421.7]
+[2023-07-23 18:08:47] INFO root fetch - processPackages [trino-query-parser]: New version: [0.422.7] Old Version: [0.421.7]
+[2023-07-23 18:08:47] INFO root fetch - processPackages [trino-query-parser]: New version: [0.422.7] Old Version: [0.421.7]
+[2023-07-23 18:08:47] INFO root fetch - processPackages [trino-query-parser]: New version: [0.422.7] Old Version: [0.421.7]
+[2023-07-23 18:08:47] INFO root fetch - processPackages [trino-query-parser]: New version: [0.422.7] Old Version: [0.421.7]
+[2023-07-23 18:08:47] WARNING root fetch - processPackages [green-box]: Skipping, unable to determine old version
+[2023-07-23 18:08:47] INFO root fetch - processPackages [green-box]: Start processing: easyocr-pil-fix
+[2023-07-23 18:08:47] INFO root fetch - main [MainThread]: End processing [green-box] error
+[2023-07-23 18:08:47] INFO root fetch - processPackages [copyparty]: New version: [1.8.7] Old Version: [1.8.6]
+[2023-07-23 18:08:47] ERROR root fetch - processPackages [easyocr-pil-fix]: Unable to get metadata: No such project 'easyocr-pil-fix'
+[2023-07-23 18:08:47] INFO root fetch - processPackages [easyocr-pil-fix]: Start processing: trino-query-parser
+[2023-07-23 18:08:47] INFO root fetch - main [MainThread]: End processing [easyocr-pil-fix] error
+[2023-07-23 18:08:47] INFO root fetch - processPackages [trino-query-parser]: Downloading https://files.pythonhosted.org/packages/ea/80/a6fef9066d7f3f8b83cf7d3cc5cf96147474add08a928f700f91fc13e5d4/trino_query_parser-0.421.7-py3-none-any.whl
+[2023-07-23 18:08:47] INFO root fetch - processPackages [trino-query-parser]: New version: [0.422.7] Old Version: [0.421.7]
+[2023-07-23 18:08:47] INFO root fetch - processPackages [trino-query-parser]: Downloading https://files.pythonhosted.org/packages/ea/80/a6fef9066d7f3f8b83cf7d3cc5cf96147474add08a928f700f91fc13e5d4/trino_query_parser-0.421.7-py3-none-any.whl
+[2023-07-23 18:08:47] INFO root fetch - processPackages [trino-query-parser]: Downloading https://files.pythonhosted.org/packages/ea/80/a6fef9066d7f3f8b83cf7d3cc5cf96147474add08a928f700f91fc13e5d4/trino_query_parser-0.421.7-py3-none-any.whl
+[2023-07-23 18:08:47] INFO root fetch - processPackages [trino-query-parser]: Downloading https://files.pythonhosted.org/packages/ea/80/a6fef9066d7f3f8b83cf7d3cc5cf96147474add08a928f700f91fc13e5d4/trino_query_parser-0.421.7-py3-none-any.whl
+[2023-07-23 18:08:47] INFO root fetch - processPackages [trino-query-parser]: Downloading https://files.pythonhosted.org/packages/ea/80/a6fef9066d7f3f8b83cf7d3cc5cf96147474add08a928f700f91fc13e5d4/trino_query_parser-0.421.7-py3-none-any.whl
+[2023-07-23 18:08:47] INFO root fetch - processPackages [trino-query-parser]: Downloading https://files.pythonhosted.org/packages/ea/80/a6fef9066d7f3f8b83cf7d3cc5cf96147474add08a928f700f91fc13e5d4/trino_query_parser-0.421.7-py3-none-any.whl
+[2023-07-23 18:08:47] INFO root fetch - processPackages [diffsptk]: Downloading https://files.pythonhosted.org/packages/c3/c7/ac71e44334b1dc3b50b643055f8f5355f80717fdc7c7cb8f3191263fbba2/diffsptk-0.6.0-py3-none-any.whl
+[2023-07-23 18:08:47] INFO root fetch - processPackages [posaydones-material-theming]: Downloading https://files.pythonhosted.org/packages/00/a0/99a2d5b446e8e90b1e2ae43ec244bc2a99ffcc35766d50c2e13ca122b8ff/posaydones-material-theming-1.0.4.tar.gz
+[2023-07-23 18:08:47] INFO root fetch - processPackages [trino-query-parser]: Downloading https://files.pythonhosted.org/packages/ea/80/a6fef9066d7f3f8b83cf7d3cc5cf96147474add08a928f700f91fc13e5d4/trino_query_parser-0.421.7-py3-none-any.whl
+[2023-07-23 18:08:47] INFO root fetch - processPackages [copyparty]: Downloading https://files.pythonhosted.org/packages/e5/09/2be06d56ee3caf3c9a81efc25e14fd948b6f970f84e3559e55b6c3f068b4/copyparty-1.8.6.tar.gz
+[2023-07-23 18:08:48] INFO root fetch - processPackages [trino-query-parser]: Downloading https://files.pythonhosted.org/packages/e7/85/b105e71b69be56df0202cc65f1411e3cbac7ba4d1db982d0e2246c758188/trino_query_parser-0.422.7-py3-none-any.whl
+[2023-07-23 18:08:48] INFO root fetch - processPackages [trino-query-parser]: Downloading https://files.pythonhosted.org/packages/e7/85/b105e71b69be56df0202cc65f1411e3cbac7ba4d1db982d0e2246c758188/trino_query_parser-0.422.7-py3-none-any.whl
+[2023-07-23 18:08:48] INFO root fetch - processPackages [trino-query-parser]: Downloading https://files.pythonhosted.org/packages/e7/85/b105e71b69be56df0202cc65f1411e3cbac7ba4d1db982d0e2246c758188/trino_query_parser-0.422.7-py3-none-any.whl
+[2023-07-23 18:08:48] INFO root fetch - processPackages [trino-query-parser]: Downloading https://files.pythonhosted.org/packages/e7/85/b105e71b69be56df0202cc65f1411e3cbac7ba4d1db982d0e2246c758188/trino_query_parser-0.422.7-py3-none-any.whl
+[2023-07-23 18:08:48] INFO root fetch - processPackages [trino-query-parser]: Downloading https://files.pythonhosted.org/packages/e7/85/b105e71b69be56df0202cc65f1411e3cbac7ba4d1db982d0e2246c758188/trino_query_parser-0.422.7-py3-none-any.whl
+[2023-07-23 18:08:48] INFO root fetch - processPackages [trino-query-parser]: Downloading https://files.pythonhosted.org/packages/e7/85/b105e71b69be56df0202cc65f1411e3cbac7ba4d1db982d0e2246c758188/trino_query_parser-0.422.7-py3-none-any.whl
+[2023-07-23 18:08:48] INFO root fetch - processPackages [diffsptk]: Downloading https://files.pythonhosted.org/packages/e7/13/3aa4958307146a2bcf5567927313e41a0e3399b877761e24ef0a97d9fcbc/diffsptk-1.0.0-py3-none-any.whl
+[2023-07-23 18:08:48] INFO root fetch - processPackages [posaydones-material-theming]: Downloading https://files.pythonhosted.org/packages/e7/b7/1ecab15fbd741810a2fe4089ea7ce0fbf9b255904a18887e1a590079b230/posaydones-material-theming-1.0.5.tar.gz
+[2023-07-23 18:08:48] INFO root fetch - processPackages [trino-query-parser]: Downloading https://files.pythonhosted.org/packages/e7/85/b105e71b69be56df0202cc65f1411e3cbac7ba4d1db982d0e2246c758188/trino_query_parser-0.422.7-py3-none-any.whl
+[2023-07-23 18:08:48] INFO root fetch - processPackages [trino-query-parser]: executing diffoscope
+[2023-07-23 18:08:48] INFO root fetch - processPackages [trino-query-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trino_query_parser-0.421.7-py3-none-any.whl.zip tmp/trino_query_parser-0.422.7-py3-none-any.whl.zip --markdown 20230723/t/trino-query-parser/0.421.7-0.422.7/diff.md --exclude *.pyd
+[2023-07-23 18:08:48] INFO root fetch - processPackages [trino-query-parser]: executing diffoscope
+[2023-07-23 18:08:48] INFO root fetch - processPackages [trino-query-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trino_query_parser-0.421.7-py3-none-any.whl.zip tmp/trino_query_parser-0.422.7-py3-none-any.whl.zip --markdown 20230723/t/trino-query-parser/0.421.7-0.422.7/diff.md --exclude *.pyd
+[2023-07-23 18:08:48] INFO root fetch - processPackages [copyparty]: Downloading https://files.pythonhosted.org/packages/3a/e7/bd09862ac86256e51471286e7818731c059b70abbf4a0b71d40d749efcc4/copyparty-1.8.7.tar.gz
+[2023-07-23 18:08:48] INFO root fetch - processPackages [trino-query-parser]: executing diffoscope
+[2023-07-23 18:08:48] INFO root fetch - processPackages [trino-query-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trino_query_parser-0.421.7-py3-none-any.whl.zip tmp/trino_query_parser-0.422.7-py3-none-any.whl.zip --markdown 20230723/t/trino-query-parser/0.421.7-0.422.7/diff.md --exclude *.pyd
+[2023-07-23 18:08:48] INFO root fetch - processPackages [trino-query-parser]: executing diffoscope
+[2023-07-23 18:08:48] INFO root fetch - processPackages [trino-query-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trino_query_parser-0.421.7-py3-none-any.whl.zip tmp/trino_query_parser-0.422.7-py3-none-any.whl.zip --markdown 20230723/t/trino-query-parser/0.421.7-0.422.7/diff.md --exclude *.pyd
+[2023-07-23 18:08:48] INFO root fetch - processPackages [trino-query-parser]: executing diffoscope
+[2023-07-23 18:08:48] INFO root fetch - processPackages [trino-query-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trino_query_parser-0.421.7-py3-none-any.whl.zip tmp/trino_query_parser-0.422.7-py3-none-any.whl.zip --markdown 20230723/t/trino-query-parser/0.421.7-0.422.7/diff.md --exclude *.pyd
+[2023-07-23 18:08:48] INFO root fetch - processPackages [diffsptk]: executing diffoscope
+[2023-07-23 18:08:48] INFO root fetch - processPackages [diffsptk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffsptk-0.6.0-py3-none-any.whl.zip tmp/diffsptk-1.0.0-py3-none-any.whl.zip --markdown 20230723/d/diffsptk/0.6.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-23 18:08:48] INFO root fetch - processPackages [trino-query-parser]: executing diffoscope
+[2023-07-23 18:08:48] INFO root fetch - processPackages [trino-query-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trino_query_parser-0.421.7-py3-none-any.whl.zip tmp/trino_query_parser-0.422.7-py3-none-any.whl.zip --markdown 20230723/t/trino-query-parser/0.421.7-0.422.7/diff.md --exclude *.pyd
+[2023-07-23 18:08:48] INFO root fetch - processPackages [trino-query-parser]: executing diffoscope
+[2023-07-23 18:08:48] INFO root fetch - processPackages [trino-query-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trino_query_parser-0.421.7-py3-none-any.whl.zip tmp/trino_query_parser-0.422.7-py3-none-any.whl.zip --markdown 20230723/t/trino-query-parser/0.421.7-0.422.7/diff.md --exclude *.pyd
+[2023-07-23 18:08:48] INFO root fetch - processPackages [posaydones-material-theming]: executing diffoscope
+[2023-07-23 18:08:48] INFO root fetch - processPackages [posaydones-material-theming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/posaydones-material-theming-1.0.4.tar.gz tmp/posaydones-material-theming-1.0.5.tar.gz --markdown 20230723/p/posaydones-material-theming/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-23 18:08:48] INFO root fetch - processPackages [copyparty]: executing diffoscope
+[2023-07-23 18:08:48] INFO root fetch - processPackages [copyparty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copyparty-1.8.6.tar.gz tmp/copyparty-1.8.7.tar.gz --markdown 20230723/c/copyparty/1.8.6-1.8.7/diff.md --exclude *.pyd
+[2023-07-23 18:08:50] INFO root fetch - processPackages [trino-query-parser]: Remove: archive file [/home/abi/fetcher/tmp/trino_query_parser-0.421.7-py3-none-any.whl.zip]
+[2023-07-23 18:08:50] INFO root fetch - processPackages [trino-query-parser]: Remove: archive file [/home/abi/fetcher/tmp/trino_query_parser-0.422.7-py3-none-any.whl.zip]
+[2023-07-23 18:08:50] INFO root fetch - processPackages [trino-query-parser]: Start processing: notification-service-nightly
+[2023-07-23 18:08:50] INFO root fetch - main [MainThread]: End processing [trino-query-parser]: success
+[2023-07-23 18:08:50] INFO root fetch - processPackages [posaydones-material-theming]: Remove: archive file [/home/abi/fetcher/tmp/posaydones-material-theming-1.0.4.tar.gz]
+[2023-07-23 18:08:50] INFO root fetch - processPackages [posaydones-material-theming]: Remove: archive file [/home/abi/fetcher/tmp/posaydones-material-theming-1.0.5.tar.gz]
+[2023-07-23 18:08:50] INFO root fetch - processPackages [posaydones-material-theming]: Start processing: ai-flow-nightly
+[2023-07-23 18:08:50] INFO root fetch - main [MainThread]: End processing [posaydones-material-theming]: success
+[2023-07-23 18:08:50] INFO root fetch - processPackages [trino-query-parser]: Start processing: telnetlib3
+[2023-07-23 18:08:50] INFO root fetch - main [MainThread]: End processing [trino-query-parser]: success
+[2023-07-23 18:08:50] INFO root fetch - processPackages [notification-service-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-23 18:08:50] INFO root fetch - main [MainThread]: End processing [trino-query-parser]: success
+[2023-07-23 18:08:50] INFO root fetch - processPackages [ai-flow-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-23 18:08:50] INFO root fetch - processPackages [telnetlib3]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-07-23 18:08:50] INFO root fetch - main [MainThread]: End processing [trino-query-parser]: success
+[2023-07-23 18:08:50] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/65/1e/184f8ca7fea0333def3590be1e6ae93ecab708b7db224f287099c81829a3/notification_service_nightly-2023.7.8.tar.gz
+[2023-07-23 18:08:50] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/a1/d9/ddd063ea869d5052ce371cc02a1b34d4989fa5c798eb88f04b3631d5ac24/ai_flow_nightly-2023.7.8.tar.gz
+[2023-07-23 18:08:50] INFO root fetch - main [MainThread]: End processing [trino-query-parser]: success
+[2023-07-23 18:08:50] INFO root fetch - main [MainThread]: End processing [trino-query-parser]: success
+[2023-07-23 18:08:50] INFO root fetch - main [MainThread]: End processing [trino-query-parser]: success
+[2023-07-23 18:08:50] INFO root fetch - processPackages [diffsptk]: Remove: archive file [/home/abi/fetcher/tmp/diffsptk-0.6.0-py3-none-any.whl.zip]
+[2023-07-23 18:08:50] INFO root fetch - processPackages [diffsptk]: Remove: archive file [/home/abi/fetcher/tmp/diffsptk-1.0.0-py3-none-any.whl.zip]
+[2023-07-23 18:08:50] INFO root fetch - main [MainThread]: End processing [diffsptk]: success
+[2023-07-23 18:08:50] INFO root fetch - processPackages [telnetlib3]: Downloading https://files.pythonhosted.org/packages/eb/3b/d8e388820f4f3b74901e75e6509a09333f7a26b931082fa70ad7f2cea804/telnetlib3-2.0.3.tar.gz
+[2023-07-23 18:08:50] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/c7/4b/124fc5261f6060915e47111ca32199af3db938323021c15e986ffd6c0801/notification_service_nightly-2023.7.9.tar.gz
+[2023-07-23 18:08:50] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/99/90/4b39e8ebed6b96e9b48be05151c4f1796979ff1689ad51452e0257bd3913/ai_flow_nightly-2023.7.9.tar.gz
+[2023-07-23 18:08:50] INFO root fetch - processPackages [notification-service-nightly]: executing diffoscope
+[2023-07-23 18:08:50] INFO root fetch - processPackages [notification-service-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_service_nightly-2023.7.8.tar.gz tmp/notification_service_nightly-2023.7.9.tar.gz --markdown 20230723/n/notification-service-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-23 18:08:50] INFO root fetch - processPackages [ai-flow-nightly]: executing diffoscope
+[2023-07-23 18:08:50] INFO root fetch - processPackages [ai-flow-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_flow_nightly-2023.7.8.tar.gz tmp/ai_flow_nightly-2023.7.9.tar.gz --markdown 20230723/a/ai-flow-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-23 18:08:51] INFO root fetch - processPackages [copyparty]: Remove: archive file [/home/abi/fetcher/tmp/copyparty-1.8.6.tar.gz]
+[2023-07-23 18:08:51] INFO root fetch - processPackages [copyparty]: Remove: archive file [/home/abi/fetcher/tmp/copyparty-1.8.7.tar.gz]
+[2023-07-23 18:08:51] INFO root fetch - main [MainThread]: End processing [copyparty]: success
+[2023-07-23 18:08:51] INFO root fetch - processPackages [telnetlib3]: Downloading https://files.pythonhosted.org/packages/ef/af/0fadfddd1764e627f4ba9c7381caaf121795ed459a1cc3d0fbb89a187954/telnetlib3-2.0.4.tar.gz
+[2023-07-23 18:08:51] INFO root fetch - processPackages [telnetlib3]: executing diffoscope
+[2023-07-23 18:08:51] INFO root fetch - processPackages [telnetlib3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telnetlib3-2.0.3.tar.gz tmp/telnetlib3-2.0.4.tar.gz --markdown 20230723/t/telnetlib3/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-07-23 18:08:51] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.7.8.tar.gz]
+[2023-07-23 18:08:51] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.7.9.tar.gz]
+[2023-07-23 18:08:51] INFO root fetch - main [MainThread]: End processing [notification-service-nightly]: success
+[2023-07-23 18:08:52] INFO root fetch - processPackages [telnetlib3]: Remove: archive file [/home/abi/fetcher/tmp/telnetlib3-2.0.3.tar.gz]
+[2023-07-23 18:08:52] INFO root fetch - processPackages [telnetlib3]: Remove: archive file [/home/abi/fetcher/tmp/telnetlib3-2.0.4.tar.gz]
+[2023-07-23 18:08:52] INFO root fetch - main [MainThread]: End processing [telnetlib3]: success
+[2023-07-23 18:08:52] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.7.8.tar.gz]
+[2023-07-23 18:08:52] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.7.9.tar.gz]
+[2023-07-23 18:08:52] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
+[2023-07-23 18:08:52] INFO root fetch - main [MainThread]: Store serial: [19003049]
