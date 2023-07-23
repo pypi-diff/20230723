@@ -4532,3 +4532,45 @@
 [2023-07-23 09:03:39] INFO root fetch - processPackages [mohou]: Remove: archive file [/home/abi/fetcher/tmp/mohou-0.5.7.tar.gz]
 [2023-07-23 09:03:39] INFO root fetch - main [MainThread]: End processing [mohou]: success
 [2023-07-23 09:03:39] INFO root fetch - main [MainThread]: Store serial: [18999938]
+[2023-07-23 09:08:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999938]
+[2023-07-23 09:08:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-23 09:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: afterglow
+[2023-07-23 09:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vinhvh-package
+[2023-07-23 09:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-adapter-villa
+[2023-07-23 09:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-hub-nightly
+[2023-07-23 09:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TiamoTools
+[2023-07-23 09:08:47] INFO root fetch - processPackages [TiamoTools]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-23 09:08:47] INFO root fetch - processPackages [nonebot-adapter-villa]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-23 09:08:47] INFO root fetch - processPackages [vinhvh-package]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-07-23 09:08:47] WARNING root fetch - processPackages [afterglow]: Skipping, unable to determine old version
+[2023-07-23 09:08:47] INFO root fetch - main [MainThread]: End processing [afterglow] error
+[2023-07-23 09:08:47] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-07-23 09:08:48] INFO root fetch - processPackages [vinhvh-package]: Downloading https://files.pythonhosted.org/packages/24/48/ca4f4b429aff43c521d9885d8658ccad137420e50987beb426252eef7b93/vinhvh_package-0.0.3.tar.gz
+[2023-07-23 09:08:48] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-07-23 09:08:48] INFO root fetch - processPackages [TiamoTools]: Downloading https://files.pythonhosted.org/packages/8f/d9/c284896edea1c7332a424a8e48229a3918e181a1f10865f13347c012c6d9/TiamoTools-1.0.1.tar.gz
+[2023-07-23 09:08:48] INFO root fetch - processPackages [nonebot-adapter-villa]: Downloading https://files.pythonhosted.org/packages/67/3e/3016924738f72222ef2d180b3af5f2d90bccd528cb2f401fa820c374309e/nonebot_adapter_villa-0.6.2.tar.gz
+[2023-07-23 09:08:48] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-07-23 09:08:48] INFO root fetch - processPackages [vinhvh-package]: Downloading https://files.pythonhosted.org/packages/ae/f0/d732a65d6a4358008b5019273d0012196a87cf3da5670876c1b92f9c164e/vinhvh_package-0.0.5.tar.gz
+[2023-07-23 09:08:48] INFO root fetch - processPackages [TiamoTools]: Downloading https://files.pythonhosted.org/packages/ab/c6/7e384eecdb589b64ccda40ebb97b07b562a1abee24f2696da8da1b7fb10c/TiamoTools-1.0.2.tar.gz
+[2023-07-23 09:08:48] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-07-23 09:08:48] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230723/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-07-23 09:08:48] INFO root fetch - processPackages [nonebot-adapter-villa]: Downloading https://files.pythonhosted.org/packages/11/09/87259832bb80991c78ca27dd4040f7de1ca12f40df0951d63c87aa0cec28/nonebot_adapter_villa-0.6.3.tar.gz
+[2023-07-23 09:08:48] INFO root fetch - processPackages [vinhvh-package]: executing diffoscope
+[2023-07-23 09:08:48] INFO root fetch - processPackages [vinhvh-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vinhvh_package-0.0.3.tar.gz tmp/vinhvh_package-0.0.5.tar.gz --markdown 20230723/v/vinhvh-package/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-07-23 09:08:48] INFO root fetch - processPackages [TiamoTools]: executing diffoscope
+[2023-07-23 09:08:48] INFO root fetch - processPackages [TiamoTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TiamoTools-1.0.1.tar.gz tmp/TiamoTools-1.0.2.tar.gz --markdown 20230723/T/TiamoTools/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-23 09:08:48] INFO root fetch - processPackages [nonebot-adapter-villa]: executing diffoscope
+[2023-07-23 09:08:48] INFO root fetch - processPackages [nonebot-adapter-villa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_villa-0.6.2.tar.gz tmp/nonebot_adapter_villa-0.6.3.tar.gz --markdown 20230723/n/nonebot-adapter-villa/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-23 09:08:49] INFO root fetch - processPackages [vinhvh-package]: Remove: archive file [/home/abi/fetcher/tmp/vinhvh_package-0.0.3.tar.gz]
+[2023-07-23 09:08:49] INFO root fetch - processPackages [vinhvh-package]: Remove: archive file [/home/abi/fetcher/tmp/vinhvh_package-0.0.5.tar.gz]
+[2023-07-23 09:08:49] INFO root fetch - main [MainThread]: End processing [vinhvh-package]: success
+[2023-07-23 09:08:49] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-07-23 09:08:49] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-07-23 09:08:49] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-07-23 09:08:49] INFO root fetch - processPackages [TiamoTools]: Remove: archive file [/home/abi/fetcher/tmp/TiamoTools-1.0.1.tar.gz]
+[2023-07-23 09:08:49] INFO root fetch - processPackages [TiamoTools]: Remove: archive file [/home/abi/fetcher/tmp/TiamoTools-1.0.2.tar.gz]
+[2023-07-23 09:08:49] INFO root fetch - main [MainThread]: End processing [TiamoTools]: success
+[2023-07-23 09:08:49] INFO root fetch - processPackages [nonebot-adapter-villa]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_villa-0.6.2.tar.gz]
+[2023-07-23 09:08:49] INFO root fetch - processPackages [nonebot-adapter-villa]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_villa-0.6.3.tar.gz]
+[2023-07-23 09:08:49] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-villa]: success
+[2023-07-23 09:08:49] INFO root fetch - main [MainThread]: Store serial: [18999956]
