@@ -2487,3 +2487,67 @@
 [2023-07-23 04:42:28] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
 [2023-07-23 04:42:28] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
 [2023-07-23 04:42:28] INFO root fetch - main [MainThread]: Store serial: [18999071]
+[2023-07-23 04:47:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999071]
+[2023-07-23 04:47:37] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-23 04:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sirtuin
+[2023-07-23 04:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deformable-attention
+[2023-07-23 04:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BERTSimilar
+[2023-07-23 04:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TreeSAK
+[2023-07-23 04:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mojo-interop
+[2023-07-23 04:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: BERTSimilar
+[2023-07-23 04:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nids-transformers
+[2023-07-23 04:47:37] INFO root fetch - processPackages [sirtuin]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-23 04:47:37] INFO root fetch - processPackages [mojo-interop]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 04:47:37] INFO root fetch - processPackages [BERTSimilar]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-23 04:47:37] INFO root fetch - processPackages [deformable-attention]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 04:47:37] INFO root fetch - processPackages [BERTSimilar]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-23 04:47:37] INFO root fetch - processPackages [nids-transformers]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-23 04:47:37] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-23 04:47:37] INFO root fetch - processPackages [mojo-interop]: Downloading https://files.pythonhosted.org/packages/55/36/9f539ca328591858e08e09e01710b5923e4b5fe2e60213684f9eb88bbee1/mojo_interop-0.0.8.tar.gz
+[2023-07-23 04:47:37] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2023-07-23 04:47:37] INFO root fetch - processPackages [sirtuin]: Downloading https://files.pythonhosted.org/packages/f6/32/17b704406940e7e8c48e119c06601e26e0acf7b24d83f3d25363918aad20/sirtuin-0.1.0.tar.gz
+[2023-07-23 04:47:37] INFO root fetch - processPackages [nids-transformers]: Downloading https://files.pythonhosted.org/packages/02/a5/369ba7d7f833330bfef4b7001c2572f3136713ed718614bbee3c936626a6/nids_transformers-0.1.0.tar.gz
+[2023-07-23 04:47:37] INFO root fetch - processPackages [BERTSimilar]: Downloading https://files.pythonhosted.org/packages/97/e2/ec4a9b819de283795bd2f1b677b6d44439d87bccb43d2d22e99a090ae024/BERTSimilar-0.2.2.tar.gz
+[2023-07-23 04:47:37] INFO root fetch - processPackages [BERTSimilar]: Downloading https://files.pythonhosted.org/packages/97/e2/ec4a9b819de283795bd2f1b677b6d44439d87bccb43d2d22e99a090ae024/BERTSimilar-0.2.2.tar.gz
+[2023-07-23 04:47:37] INFO root fetch - processPackages [deformable-attention]: Downloading https://files.pythonhosted.org/packages/45/2f/fd26786a83cfd097f3899fa62552028f39840151cdd5c38389c86b2b6283/deformable-attention-0.0.8.tar.gz
+[2023-07-23 04:47:37] INFO root fetch - processPackages [mojo-interop]: Downloading https://files.pythonhosted.org/packages/ea/70/9e09838bffe5311c4accab6c3c9f2293ee5a591bd45e9bf64ebb9a01b20d/mojo_interop-0.0.9.tar.gz
+[2023-07-23 04:47:37] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2023-07-23 04:47:37] INFO root fetch - processPackages [sirtuin]: Downloading https://files.pythonhosted.org/packages/55/85/c164e90b90478a228a4e5e8e74eb011ab033a2ca3d5038ce229b505733ed/sirtuin-0.1.1.tar.gz
+[2023-07-23 04:47:37] INFO root fetch - processPackages [mojo-interop]: executing diffoscope
+[2023-07-23 04:47:37] INFO root fetch - processPackages [mojo-interop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_interop-0.0.8.tar.gz tmp/mojo_interop-0.0.9.tar.gz --markdown 20230723/m/mojo-interop/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 04:47:37] INFO root fetch - processPackages [BERTSimilar]: Downloading https://files.pythonhosted.org/packages/1c/29/cea2ec46fbc3141050e631ad7e8762a4f3ed6c0241a72f2b9cf82cb20550/BERTSimilar-0.2.3.tar.gz
+[2023-07-23 04:47:37] INFO root fetch - processPackages [BERTSimilar]: Downloading https://files.pythonhosted.org/packages/1c/29/cea2ec46fbc3141050e631ad7e8762a4f3ed6c0241a72f2b9cf82cb20550/BERTSimilar-0.2.3.tar.gz
+[2023-07-23 04:47:37] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2023-07-23 04:47:37] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20230723/T/TreeSAK/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-23 04:47:38] INFO root fetch - processPackages [nids-transformers]: Downloading https://files.pythonhosted.org/packages/46/f7/2edb8adefa0ade73659f938e225e3e069016e29045b96f6f538cb33cf61c/nids_transformers-0.1.1.tar.gz
+[2023-07-23 04:47:38] INFO root fetch - processPackages [sirtuin]: executing diffoscope
+[2023-07-23 04:47:38] INFO root fetch - processPackages [sirtuin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirtuin-0.1.0.tar.gz tmp/sirtuin-0.1.1.tar.gz --markdown 20230723/s/sirtuin/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-23 04:47:38] INFO root fetch - processPackages [deformable-attention]: Downloading https://files.pythonhosted.org/packages/c4/4f/2e242a27554663c241fa0f4a9757bbf73ea85f5a39d7f0fe2dceaf95f367/deformable-attention-0.0.9.tar.gz
+[2023-07-23 04:47:38] INFO root fetch - processPackages [BERTSimilar]: executing diffoscope
+[2023-07-23 04:47:38] INFO root fetch - processPackages [BERTSimilar]: executing diffoscope
+[2023-07-23 04:47:38] INFO root fetch - processPackages [BERTSimilar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BERTSimilar-0.2.2.tar.gz tmp/BERTSimilar-0.2.3.tar.gz --markdown 20230723/B/BERTSimilar/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-23 04:47:38] INFO root fetch - processPackages [BERTSimilar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BERTSimilar-0.2.2.tar.gz tmp/BERTSimilar-0.2.3.tar.gz --markdown 20230723/B/BERTSimilar/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-23 04:47:38] INFO root fetch - processPackages [deformable-attention]: executing diffoscope
+[2023-07-23 04:47:38] INFO root fetch - processPackages [deformable-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deformable-attention-0.0.8.tar.gz tmp/deformable-attention-0.0.9.tar.gz --markdown 20230723/d/deformable-attention/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 04:47:38] INFO root fetch - processPackages [nids-transformers]: executing diffoscope
+[2023-07-23 04:47:38] INFO root fetch - processPackages [nids-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nids_transformers-0.1.0.tar.gz tmp/nids_transformers-0.1.1.tar.gz --markdown 20230723/n/nids-transformers/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-23 04:47:39] INFO root fetch - processPackages [BERTSimilar]: Remove: archive file [/home/abi/fetcher/tmp/BERTSimilar-0.2.2.tar.gz]
+[2023-07-23 04:47:39] INFO root fetch - processPackages [BERTSimilar]: Remove: archive file [/home/abi/fetcher/tmp/BERTSimilar-0.2.3.tar.gz]
+[2023-07-23 04:47:39] INFO root fetch - main [MainThread]: End processing [BERTSimilar]: success
+[2023-07-23 04:47:39] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.1.tar.gz]
+[2023-07-23 04:47:39] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
+[2023-07-23 04:47:39] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2023-07-23 04:47:39] INFO root fetch - main [MainThread]: End processing [BERTSimilar]: success
+[2023-07-23 04:47:39] INFO root fetch - processPackages [deformable-attention]: Remove: archive file [/home/abi/fetcher/tmp/deformable-attention-0.0.8.tar.gz]
+[2023-07-23 04:47:39] INFO root fetch - processPackages [deformable-attention]: Remove: archive file [/home/abi/fetcher/tmp/deformable-attention-0.0.9.tar.gz]
+[2023-07-23 04:47:39] INFO root fetch - main [MainThread]: End processing [deformable-attention]: success
+[2023-07-23 04:47:39] INFO root fetch - processPackages [sirtuin]: Remove: archive file [/home/abi/fetcher/tmp/sirtuin-0.1.0.tar.gz]
+[2023-07-23 04:47:39] INFO root fetch - processPackages [sirtuin]: Remove: archive file [/home/abi/fetcher/tmp/sirtuin-0.1.1.tar.gz]
+[2023-07-23 04:47:39] INFO root fetch - main [MainThread]: End processing [sirtuin]: success
+[2023-07-23 04:47:40] INFO root fetch - processPackages [nids-transformers]: Remove: archive file [/home/abi/fetcher/tmp/nids_transformers-0.1.0.tar.gz]
+[2023-07-23 04:47:40] INFO root fetch - processPackages [nids-transformers]: Remove: archive file [/home/abi/fetcher/tmp/nids_transformers-0.1.1.tar.gz]
+[2023-07-23 04:47:40] INFO root fetch - main [MainThread]: End processing [nids-transformers]: success
+[2023-07-23 04:47:40] INFO root fetch - processPackages [mojo-interop]: Remove: archive file [/home/abi/fetcher/tmp/mojo_interop-0.0.8.tar.gz]
+[2023-07-23 04:47:40] INFO root fetch - processPackages [mojo-interop]: Remove: archive file [/home/abi/fetcher/tmp/mojo_interop-0.0.9.tar.gz]
+[2023-07-23 04:47:40] INFO root fetch - main [MainThread]: End processing [mojo-interop]: success
+[2023-07-23 04:47:40] INFO root fetch - main [MainThread]: Store serial: [18999092]
