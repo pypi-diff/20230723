@@ -6557,3 +6557,69 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 12:26:16] INFO root fetch - processPackages [mkdocs-swagger-ui-tag]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-swagger-ui-tag-0.6.3.tar.gz]
 [2023-07-23 12:26:16] INFO root fetch - main [MainThread]: End processing [mkdocs-swagger-ui-tag]: success
 [2023-07-23 12:26:16] INFO root fetch - main [MainThread]: Store serial: [19000813]
+[2023-07-23 12:31:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19000813]
+[2023-07-23 12:31:25] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-23 12:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aify
+[2023-07-23 12:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: svg2gcode
+[2023-07-23 12:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: markdown-analysis
+[2023-07-23 12:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tcod-ecs
+[2023-07-23 12:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iitkgp-erp-login
+[2023-07-23 12:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rest-api-supporter
+[2023-07-23 12:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pikepdf
+[2023-07-23 12:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytdxattest
+[2023-07-23 12:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyquizgen
+[2023-07-23 12:31:26] WARNING root fetch - processPackages [pytdxattest]: Skipping, unable to determine old version
+[2023-07-23 12:31:26] INFO root fetch - main [MainThread]: End processing [pytdxattest] error
+[2023-07-23 12:31:26] INFO root fetch - processPackages [rest-api-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 12:31:26] INFO root fetch - processPackages [svg2gcode]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-23 12:31:26] WARNING root fetch - processPackages [pyquizgen]: Skipping, unable to determine old version
+[2023-07-23 12:31:26] INFO root fetch - main [MainThread]: End processing [pyquizgen] error
+[2023-07-23 12:31:26] INFO root fetch - processPackages [tcod-ecs]: New version: [3.5.0] Old Version: [3.4.0]
+[2023-07-23 12:31:26] WARNING root fetch - processPackages [markdown-analysis]: Skipping, unable to determine old version
+[2023-07-23 12:31:26] INFO root fetch - main [MainThread]: End processing [markdown-analysis] error
+[2023-07-23 12:31:26] INFO root fetch - processPackages [aify]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-23 12:31:26] INFO root fetch - processPackages [iitkgp-erp-login]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-07-23 12:31:26] INFO root fetch - processPackages [pikepdf]: New version: [8.2.1] Old Version: [8.2.0]
+[2023-07-23 12:31:26] INFO root fetch - processPackages [rest-api-supporter]: Downloading https://files.pythonhosted.org/packages/f4/16/0c2fc27776d8257953b960eea527e7f83b54019b51fbb132e634d73c5c0e/rest-api-supporter-0.0.8.tar.gz
+[2023-07-23 12:31:26] INFO root fetch - processPackages [iitkgp-erp-login]: Downloading https://files.pythonhosted.org/packages/a5/93/5fdeff2641743ed9441603273704f5833702f41b9e4c3ee02657a6c60c3c/iitkgp_erp_login-2.1.2.tar.gz
+[2023-07-23 12:31:26] INFO root fetch - processPackages [tcod-ecs]: Downloading https://files.pythonhosted.org/packages/29/04/6e878f12b1d187c1c4efab4dc0b4495f240a1d39b781da7218332af10f9a/tcod_ecs-3.4.0.tar.gz
+[2023-07-23 12:31:26] INFO root fetch - processPackages [aify]: Downloading https://files.pythonhosted.org/packages/48/70/7dc6a7b7c76ac97a5d112fca94e641d9dade27cf0708bdb0162e5ee3edae/aify-0.1.8-py3-none-any.whl
+[2023-07-23 12:31:26] INFO root fetch - processPackages [svg2gcode]: Downloading https://files.pythonhosted.org/packages/0f/da/8c7739408198dd889a04cce19b9af4d23964eeb572d25fe9b053929e2eb2/svg2gcode-1.0.0.tar.gz
+[2023-07-23 12:31:26] INFO root fetch - processPackages [pikepdf]: Downloading https://files.pythonhosted.org/packages/02/73/3340986fb17c97e52d149e6088ce45d0207c61a19d8ffbc63dfe0bea9707/pikepdf-8.2.0.tar.gz
+[2023-07-23 12:31:26] INFO root fetch - processPackages [rest-api-supporter]: Downloading https://files.pythonhosted.org/packages/35/47/76da32bcf0507aa9dbf370e1c9e91408c29a80232299067f97883d4ef255/rest-api-supporter-0.0.9.tar.gz
+[2023-07-23 12:31:26] INFO root fetch - processPackages [rest-api-supporter]: executing diffoscope
+[2023-07-23 12:31:26] INFO root fetch - processPackages [rest-api-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rest-api-supporter-0.0.8.tar.gz tmp/rest-api-supporter-0.0.9.tar.gz --markdown 20230723/r/rest-api-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 12:31:26] INFO root fetch - processPackages [iitkgp-erp-login]: Downloading https://files.pythonhosted.org/packages/7d/bd/cd4a574e7953417610b2247e6c4afb032e749bf4b5733740801bea5a7f71/iitkgp_erp_login-2.1.3.tar.gz
+[2023-07-23 12:31:26] INFO root fetch - processPackages [tcod-ecs]: Downloading https://files.pythonhosted.org/packages/8b/8a/d8242880cada6ab5cea609263b165e3d1098c2d6abf6a100b67c5224693e/tcod_ecs-3.5.0.tar.gz
+[2023-07-23 12:31:26] INFO root fetch - processPackages [aify]: Downloading https://files.pythonhosted.org/packages/fd/27/98c9c823adfd16bc8457703aeb9c4cd06bd5c233cfed754ef7389629a3af/aify-0.1.9-py3-none-any.whl
+[2023-07-23 12:31:26] INFO root fetch - processPackages [iitkgp-erp-login]: executing diffoscope
+[2023-07-23 12:31:26] INFO root fetch - processPackages [iitkgp-erp-login]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iitkgp_erp_login-2.1.2.tar.gz tmp/iitkgp_erp_login-2.1.3.tar.gz --markdown 20230723/i/iitkgp-erp-login/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-07-23 12:31:26] INFO root fetch - processPackages [tcod-ecs]: executing diffoscope
+[2023-07-23 12:31:26] INFO root fetch - processPackages [tcod-ecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcod_ecs-3.4.0.tar.gz tmp/tcod_ecs-3.5.0.tar.gz --markdown 20230723/t/tcod-ecs/3.4.0-3.5.0/diff.md --exclude *.pyd
+[2023-07-23 12:31:26] INFO root fetch - processPackages [svg2gcode]: Downloading https://files.pythonhosted.org/packages/cc/5b/64b04efacb8d1ce07384942c2c0457566af7460943d0de2ea3b2898f19c3/svg2gcode-1.1.0.tar.gz
+[2023-07-23 12:31:26] INFO root fetch - processPackages [pikepdf]: Downloading https://files.pythonhosted.org/packages/03/24/026a6a5ad3de3cff81b7b0b68d78f2d1495cbcd926a7bc7ceb439f9bd6b4/pikepdf-8.2.1.tar.gz
+[2023-07-23 12:31:26] INFO root fetch - processPackages [aify]: executing diffoscope
+[2023-07-23 12:31:26] INFO root fetch - processPackages [aify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aify-0.1.8-py3-none-any.whl.zip tmp/aify-0.1.9-py3-none-any.whl.zip --markdown 20230723/a/aify/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-23 12:31:26] INFO root fetch - processPackages [svg2gcode]: executing diffoscope
+[2023-07-23 12:31:26] INFO root fetch - processPackages [svg2gcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svg2gcode-1.0.0.tar.gz tmp/svg2gcode-1.1.0.tar.gz --markdown 20230723/s/svg2gcode/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-23 12:31:27] INFO root fetch - processPackages [pikepdf]: executing diffoscope
+[2023-07-23 12:31:27] INFO root fetch - processPackages [pikepdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pikepdf-8.2.0.tar.gz tmp/pikepdf-8.2.1.tar.gz --markdown 20230723/p/pikepdf/8.2.0-8.2.1/diff.md --exclude *.pyd
+[2023-07-23 12:31:27] INFO root fetch - processPackages [rest-api-supporter]: Remove: archive file [/home/abi/fetcher/tmp/rest-api-supporter-0.0.8.tar.gz]
+[2023-07-23 12:31:27] INFO root fetch - processPackages [rest-api-supporter]: Remove: archive file [/home/abi/fetcher/tmp/rest-api-supporter-0.0.9.tar.gz]
+[2023-07-23 12:31:27] INFO root fetch - main [MainThread]: End processing [rest-api-supporter]: success
+[2023-07-23 12:31:27] INFO root fetch - processPackages [tcod-ecs]: Remove: archive file [/home/abi/fetcher/tmp/tcod_ecs-3.4.0.tar.gz]
+[2023-07-23 12:31:27] INFO root fetch - processPackages [tcod-ecs]: Remove: archive file [/home/abi/fetcher/tmp/tcod_ecs-3.5.0.tar.gz]
+[2023-07-23 12:31:27] INFO root fetch - main [MainThread]: End processing [tcod-ecs]: success
+[2023-07-23 12:31:27] INFO root fetch - processPackages [iitkgp-erp-login]: Remove: archive file [/home/abi/fetcher/tmp/iitkgp_erp_login-2.1.2.tar.gz]
+[2023-07-23 12:31:27] INFO root fetch - processPackages [iitkgp-erp-login]: Remove: archive file [/home/abi/fetcher/tmp/iitkgp_erp_login-2.1.3.tar.gz]
+[2023-07-23 12:31:27] INFO root fetch - main [MainThread]: End processing [iitkgp-erp-login]: success
+[2023-07-23 12:31:28] INFO root fetch - processPackages [aify]: Remove: archive file [/home/abi/fetcher/tmp/aify-0.1.8-py3-none-any.whl.zip]
+[2023-07-23 12:31:28] INFO root fetch - processPackages [aify]: Remove: archive file [/home/abi/fetcher/tmp/aify-0.1.9-py3-none-any.whl.zip]
+[2023-07-23 12:31:28] INFO root fetch - main [MainThread]: End processing [aify]: success
+[2023-07-23 12:31:28] INFO root fetch - processPackages [svg2gcode]: Remove: archive file [/home/abi/fetcher/tmp/svg2gcode-1.0.0.tar.gz]
+[2023-07-23 12:31:28] INFO root fetch - processPackages [svg2gcode]: Remove: archive file [/home/abi/fetcher/tmp/svg2gcode-1.1.0.tar.gz]
+[2023-07-23 12:31:28] INFO root fetch - main [MainThread]: End processing [svg2gcode]: success
+[2023-07-23 12:31:28] INFO root fetch - processPackages [pikepdf]: Remove: archive file [/home/abi/fetcher/tmp/pikepdf-8.2.0.tar.gz]
+[2023-07-23 12:31:28] INFO root fetch - processPackages [pikepdf]: Remove: archive file [/home/abi/fetcher/tmp/pikepdf-8.2.1.tar.gz]
+[2023-07-23 12:31:28] INFO root fetch - main [MainThread]: End processing [pikepdf]: success
+[2023-07-23 12:31:28] INFO root fetch - main [MainThread]: Store serial: [19000873]
