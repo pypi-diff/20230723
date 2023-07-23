@@ -11935,3 +11935,64 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 19:16:33] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ec2-instance-connect-custom-resource-0.4.6.tar.gz]
 [2023-07-23 19:16:33] INFO root fetch - main [MainThread]: End processing [gammarer.aws-ec2-instance-connect-custom-resource]: success
 [2023-07-23 19:16:33] INFO root fetch - main [MainThread]: Store serial: [19003523]
+[2023-07-23 19:21:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19003523]
+[2023-07-23 19:21:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-23 19:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: devpm
+[2023-07-23 19:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lassen
+[2023-07-23 19:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langcraft
+[2023-07-23 19:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vegas
+[2023-07-23 19:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agenta
+[2023-07-23 19:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spanishconjugator
+[2023-07-23 19:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spanishconjugator
+[2023-07-23 19:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sqlite-utils-ml
+[2023-07-23 19:21:41] INFO root fetch - processPackages [devpm]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-07-23 19:21:41] WARNING root fetch - processPackages [langcraft]: Skipping, unable to determine old version
+[2023-07-23 19:21:41] INFO root fetch - main [MainThread]: End processing [langcraft] error
+[2023-07-23 19:21:41] WARNING root fetch - processPackages [sqlite-utils-ml]: Skipping, unable to determine old version
+[2023-07-23 19:21:41] INFO root fetch - processPackages [lassen]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-23 19:21:41] INFO root fetch - main [MainThread]: End processing [sqlite-utils-ml] error
+[2023-07-23 19:21:41] INFO root fetch - processPackages [vegas]: New version: [5.4.2] Old Version: [5.4.1]
+[2023-07-23 19:21:41] INFO root fetch - processPackages [agenta]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-23 19:21:41] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-23 19:21:42] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-23 19:21:42] INFO root fetch - processPackages [devpm]: Downloading https://files.pythonhosted.org/packages/dc/e6/ab8551dd0f55cd20b1a19c9287891c81430050b4f1e3b4a420e9b7587979/devpm-1.1.1.tar.gz
+[2023-07-23 19:21:42] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-23 19:21:42] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-23 19:21:42] INFO root fetch - processPackages [vegas]: Downloading https://files.pythonhosted.org/packages/b1/de/0a760f56485e2ea8ad648b1aa6c198f0c7d25da8caa176669edfd2f7a477/vegas-5.4.1.tar.gz
+[2023-07-23 19:21:42] INFO root fetch - processPackages [lassen]: Downloading https://files.pythonhosted.org/packages/ef/3c/dabc9cdcd3c14d9e10bb45449c744c9ff51201b4adced855300e48f9da7b/lassen-0.2.2.tar.gz
+[2023-07-23 19:21:42] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/a1/3b/53962d2540ae69229bd38185a0220af1a6e92b246d8c7d05ad9885e8322d/agenta-0.1.8.tar.gz
+[2023-07-23 19:21:42] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-23 19:21:42] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-23 19:21:42] INFO root fetch - processPackages [devpm]: Downloading https://files.pythonhosted.org/packages/0b/18/ca2d6ecac860984410c70cab3e8b7ef62b19d7044797776f79d8a4bbc12c/devpm-1.2.0.tar.gz
+[2023-07-23 19:21:42] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-23 19:21:42] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230723/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-23 19:21:42] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-23 19:21:42] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230723/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-23 19:21:42] INFO root fetch - processPackages [lassen]: Downloading https://files.pythonhosted.org/packages/b9/c7/06a6224e64bf97af0b8e8b1d794b3709cf59d14143660fade5551ebb8eab/lassen-0.2.3.tar.gz
+[2023-07-23 19:21:42] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/98/a1/f5c1eb9f8187ae9a764509b4089ac6ed188c31a48d597c870666d26d0c6f/agenta-0.1.9.tar.gz
+[2023-07-23 19:21:42] INFO root fetch - processPackages [vegas]: Downloading https://files.pythonhosted.org/packages/f1/e4/c117309872da092df81d3c282e2d27176d643761d99af4d8c97ad276ed3b/vegas-5.4.2.tar.gz
+[2023-07-23 19:21:42] INFO root fetch - processPackages [devpm]: executing diffoscope
+[2023-07-23 19:21:42] INFO root fetch - processPackages [devpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devpm-1.1.1.tar.gz tmp/devpm-1.2.0.tar.gz --markdown 20230723/d/devpm/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-07-23 19:21:42] INFO root fetch - processPackages [agenta]: executing diffoscope
+[2023-07-23 19:21:42] INFO root fetch - processPackages [agenta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agenta-0.1.8.tar.gz tmp/agenta-0.1.9.tar.gz --markdown 20230723/a/agenta/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-23 19:21:42] INFO root fetch - processPackages [lassen]: executing diffoscope
+[2023-07-23 19:21:42] INFO root fetch - processPackages [lassen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lassen-0.2.2.tar.gz tmp/lassen-0.2.3.tar.gz --markdown 20230723/l/lassen/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-23 19:21:42] INFO root fetch - processPackages [vegas]: executing diffoscope
+[2023-07-23 19:21:42] INFO root fetch - processPackages [vegas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vegas-5.4.1.tar.gz tmp/vegas-5.4.2.tar.gz --markdown 20230723/v/vegas/5.4.1-5.4.2/diff.md --exclude *.pyd
+[2023-07-23 19:21:43] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-23 19:21:43] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-23 19:21:43] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-23 19:21:43] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-23 19:21:43] INFO root fetch - processPackages [devpm]: Remove: archive file [/home/abi/fetcher/tmp/devpm-1.1.1.tar.gz]
+[2023-07-23 19:21:43] INFO root fetch - processPackages [devpm]: Remove: archive file [/home/abi/fetcher/tmp/devpm-1.2.0.tar.gz]
+[2023-07-23 19:21:43] INFO root fetch - main [MainThread]: End processing [devpm]: success
+[2023-07-23 19:21:43] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.1.8.tar.gz]
+[2023-07-23 19:21:43] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.1.9.tar.gz]
+[2023-07-23 19:21:43] INFO root fetch - main [MainThread]: End processing [agenta]: success
+[2023-07-23 19:21:44] INFO root fetch - processPackages [lassen]: Remove: archive file [/home/abi/fetcher/tmp/lassen-0.2.2.tar.gz]
+[2023-07-23 19:21:44] INFO root fetch - processPackages [lassen]: Remove: archive file [/home/abi/fetcher/tmp/lassen-0.2.3.tar.gz]
+[2023-07-23 19:21:44] INFO root fetch - main [MainThread]: End processing [lassen]: success
+[2023-07-23 19:21:47] INFO root fetch - processPackages [vegas]: Remove: archive file [/home/abi/fetcher/tmp/vegas-5.4.1.tar.gz]
+[2023-07-23 19:21:47] INFO root fetch - processPackages [vegas]: Remove: archive file [/home/abi/fetcher/tmp/vegas-5.4.2.tar.gz]
+[2023-07-23 19:21:47] INFO root fetch - main [MainThread]: End processing [vegas]: success
+[2023-07-23 19:21:47] INFO root fetch - main [MainThread]: Store serial: [19003551]
