@@ -5461,3 +5461,123 @@
 [2023-07-23 10:44:20] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.7a5.tar.gz]
 [2023-07-23 10:44:20] INFO root fetch - main [MainThread]: End processing [fedml]: success
 [2023-07-23 10:44:20] INFO root fetch - main [MainThread]: Store serial: [19000322]
+[2023-07-23 10:49:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19000322]
+[2023-07-23 10:49:31] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-23 10:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfp-nightly
+[2023-07-23 10:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nice-logging
+[2023-07-23 10:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tff-nightly
+[2023-07-23 10:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: HawaData
+[2023-07-23 10:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytorch-partial-tagger
+[2023-07-23 10:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agent-protocol
+[2023-07-23 10:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moosez
+[2023-07-23 10:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Telethon
+[2023-07-23 10:49:31] WARNING root fetch - processPackages [nice-logging]: Skipping, unable to determine old version
+[2023-07-23 10:49:31] INFO root fetch - main [MainThread]: End processing [nice-logging] error
+[2023-07-23 10:49:31] INFO root fetch - processPackages [moosez]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-07-23 10:49:31] INFO root fetch - processPackages [agent-protocol]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-07-23 10:49:31] INFO root fetch - processPackages [pytorch-partial-tagger]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-23 10:49:31] INFO root fetch - processPackages [HawaData]: New version: [0.8.0] Old Version: [0.7.9]
+[2023-07-23 10:49:31] INFO root fetch - processPackages [Telethon]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-23 10:49:31] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-07-23 10:49:31] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/36/cd/bd150ceb1a6fe569ee3ed04413bc93a28e8902efded1bb14285565d22be7/moosez-2.2.0.tar.gz
+[2023-07-23 10:49:31] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230723] Old Version: [0.0.1.dev20230722]
+[2023-07-23 10:49:31] INFO root fetch - processPackages [pytorch-partial-tagger]: Downloading https://files.pythonhosted.org/packages/7e/6b/8561317788fc781412ab58417fb7bf871bd1e912c27d44fce5274dca36a5/pytorch_partial_tagger-0.1.8.tar.gz
+[2023-07-23 10:49:31] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/e4/e6/e658232ba030cc4fb795ad4454f7fe651acf3f22dd7b5a7e8cf96146ab37/HawaData-0.7.9.tar.gz
+[2023-07-23 10:49:31] INFO root fetch - processPackages [agent-protocol]: Downloading https://files.pythonhosted.org/packages/b5/0d/95d23baa9426ee3dc8744669709975f161c83741d31760620e832de97bb8/agent_protocol-0.0.3.tar.gz
+[2023-07-23 10:49:31] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-07-23 10:49:31] INFO root fetch - processPackages [Telethon]: Downloading https://files.pythonhosted.org/packages/16/d8/92e73957a71aeb79623aa820709d79e5c3681881c7f26dafaff7bb01bc41/Telethon-1.8.0.tar.gz
+[2023-07-23 10:49:31] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/7e/99/6ea2320fe59f7defe8497a9d55cff21dc668006a830607a885c50871a23e/tff_nightly-0.0.1.dev20230722-py2.py3-none-any.whl
+[2023-07-23 10:49:31] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/fd/fc/70ee2307339e8da99b2cb1424151c81d5f4f01eb5ca8ecf1e00a50aabdae/moosez-2.2.1.tar.gz
+[2023-07-23 10:49:32] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/21/87/86f334f47f19be6974f682659cda878b7720816bfe346b262d767adf02bc/HawaData-0.8.0.tar.gz
+[2023-07-23 10:49:32] INFO root fetch - processPackages [moosez]: executing diffoscope
+[2023-07-23 10:49:32] INFO root fetch - processPackages [moosez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moosez-2.2.0.tar.gz tmp/moosez-2.2.1.tar.gz --markdown 20230723/m/moosez/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-07-23 10:49:32] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-07-23 10:49:32] INFO root fetch - processPackages [agent-protocol]: Downloading https://files.pythonhosted.org/packages/63/5a/7d12da7a41e73956bc13e8f094054680ed695b735ab22fd8ebfd6b59e33b/agent_protocol-0.1.0.tar.gz
+[2023-07-23 10:49:32] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2023-07-23 10:49:32] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.7.9.tar.gz tmp/HawaData-0.8.0.tar.gz --markdown 20230723/H/HawaData/0.7.9-0.8.0/diff.md --exclude *.pyd
+[2023-07-23 10:49:32] INFO root fetch - processPackages [pytorch-partial-tagger]: Downloading https://files.pythonhosted.org/packages/08/d7/0f085c0799a05d076d4b7e0bada51e7b26039693b77577c29c1afae45260/pytorch_partial_tagger-0.1.9.tar.gz
+[2023-07-23 10:49:32] INFO root fetch - processPackages [agent-protocol]: executing diffoscope
+[2023-07-23 10:49:32] INFO root fetch - processPackages [agent-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agent_protocol-0.0.3.tar.gz tmp/agent_protocol-0.1.0.tar.gz --markdown 20230723/a/agent-protocol/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-07-23 10:49:32] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-07-23 10:49:32] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230723/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-07-23 10:49:32] INFO root fetch - processPackages [pytorch-partial-tagger]: executing diffoscope
+[2023-07-23 10:49:32] INFO root fetch - processPackages [pytorch-partial-tagger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch_partial_tagger-0.1.8.tar.gz tmp/pytorch_partial_tagger-0.1.9.tar.gz --markdown 20230723/p/pytorch-partial-tagger/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-23 10:49:32] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/5d/e1/683849c6f9e0ff3cb48f9ea986ee1dbec57aa6f6af5a24097d511ef2edfb/tff_nightly-0.0.1.dev20230723-py2.py3-none-any.whl
+[2023-07-23 10:49:32] INFO root fetch - processPackages [Telethon]: Downloading https://files.pythonhosted.org/packages/6c/9b/8668c74decf4c5e8cec3d73794f89947842a39b9e127bf7e7dfeddd8ca5b/Telethon-1.9.0.tar.gz
+[2023-07-23 10:49:32] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-07-23 10:49:32] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230722-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230723-py2.py3-none-any.whl.zip --markdown 20230723/t/tff-nightly/0.0.1.dev20230722-0.0.1.dev20230723/diff.md --exclude *.pyd
+[2023-07-23 10:49:33] INFO root fetch - processPackages [agent-protocol]: Remove: archive file [/home/abi/fetcher/tmp/agent_protocol-0.0.3.tar.gz]
+[2023-07-23 10:49:33] INFO root fetch - processPackages [agent-protocol]: Remove: archive file [/home/abi/fetcher/tmp/agent_protocol-0.1.0.tar.gz]
+[2023-07-23 10:49:33] INFO root fetch - main [MainThread]: End processing [agent-protocol]: success
+[2023-07-23 10:49:33] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.2.0.tar.gz]
+[2023-07-23 10:49:33] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.2.1.tar.gz]
+[2023-07-23 10:49:33] INFO root fetch - main [MainThread]: End processing [moosez]: success
+[2023-07-23 10:49:33] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.7.9.tar.gz]
+[2023-07-23 10:49:33] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.8.0.tar.gz]
+[2023-07-23 10:49:33] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2023-07-23 10:49:33] INFO root fetch - processPackages [Telethon]: executing diffoscope
+[2023-07-23 10:49:33] INFO root fetch - processPackages [Telethon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Telethon-1.8.0.tar.gz tmp/Telethon-1.9.0.tar.gz --markdown 20230723/T/Telethon/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-23 10:49:34] INFO root fetch - processPackages [pytorch-partial-tagger]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_partial_tagger-0.1.8.tar.gz]
+[2023-07-23 10:49:34] INFO root fetch - processPackages [pytorch-partial-tagger]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_partial_tagger-0.1.9.tar.gz]
+[2023-07-23 10:49:34] INFO root fetch - main [MainThread]: End processing [pytorch-partial-tagger]: success
+[2023-07-23 10:49:34] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230722-py2.py3-none-any.whl.zip]
+[2023-07-23 10:49:34] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230723-py2.py3-none-any.whl.zip]
+[2023-07-23 10:49:34] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-07-23 10:49:37] ERROR root fetch - processPackages [Telethon]: Diffoscope failed: time="2023-07-23T10:49:33+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+SystemError: ../Objects/codeobject.c:250: bad argument to internal function
+
+[2023-07-23 10:49:37] INFO root fetch - main [MainThread]: End processing [Telethon] error
+[2023-07-23 10:49:37] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-07-23 10:49:37] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-07-23 10:49:37] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-07-23 10:49:37] INFO root fetch - main [MainThread]: Store serial: [19000346]
