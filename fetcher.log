@@ -13965,3 +13965,48 @@ AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
 [2023-07-23 21:34:27] INFO root fetch - processPackages [pyntweb]: Remove: archive file [/home/abi/fetcher/tmp/pyntweb-0.2.9.tar.gz]
 [2023-07-23 21:34:27] INFO root fetch - main [MainThread]: End processing [pyntweb]: success
 [2023-07-23 21:34:27] INFO root fetch - main [MainThread]: Store serial: [19004366]
+[2023-07-23 21:39:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19004366]
+[2023-07-23 21:39:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-23 21:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: music-assistant-frontend
+[2023-07-23 21:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iamlistening
+[2023-07-23 21:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openapi-python-client
+[2023-07-23 21:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pybsky
+[2023-07-23 21:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ipfsclient
+[2023-07-23 21:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kv-deta
+[2023-07-23 21:39:36] INFO root fetch - processPackages [ipfsclient]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-23 21:39:36] INFO root fetch - processPackages [iamlistening]: New version: [2.0.0] Old Version: [1.1.7]
+[2023-07-23 21:39:36] WARNING root fetch - processPackages [pybsky]: Skipping, unable to determine old version
+[2023-07-23 21:39:36] INFO root fetch - main [MainThread]: End processing [pybsky] error
+[2023-07-23 21:39:36] INFO root fetch - processPackages [music-assistant-frontend]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-07-23 21:39:36] WARNING root fetch - processPackages [kv-deta]: Skipping, unable to determine old version
+[2023-07-23 21:39:36] INFO root fetch - main [MainThread]: End processing [kv-deta] error
+[2023-07-23 21:39:36] INFO root fetch - processPackages [openapi-python-client]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-23 21:39:36] INFO root fetch - processPackages [ipfsclient]: Downloading https://files.pythonhosted.org/packages/80/7f/86798c504779c6e241ad22e774d91195d5b3998d8e17e0f7796e8bc149f2/ipfsclient-0.1.0.tar.gz
+[2023-07-23 21:39:36] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/ed/1c/951feb434de8989dc01ca921b7ef1268f22b27b7ae51cd77aa5f43127238/iamlistening-1.1.7.tar.gz
+[2023-07-23 21:39:36] INFO root fetch - processPackages [music-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/9a/b8/c7cc56b49b54e07b8b31f95ffe338df2b6db9e302fc80dd9979d9bc5796f/music-assistant-frontend-2.0.5.tar.gz
+[2023-07-23 21:39:36] INFO root fetch - processPackages [openapi-python-client]: Downloading https://files.pythonhosted.org/packages/6d/81/a16696f6f341ef2b9872d69c8b9c5016abb1bc93edd4ba73c66adf26c1c3/openapi-python-client-0.9.1.tar.gz
+[2023-07-23 21:39:36] INFO root fetch - processPackages [ipfsclient]: Downloading https://files.pythonhosted.org/packages/21/48/7f2c19af3dc95fde12276cd7a0cdaa469e214c381b174353dace1d92a94e/ipfsclient-0.1.1.tar.gz
+[2023-07-23 21:39:37] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/ab/2e/32eff64ce22888afcae34a60519a040393007523da4d8ec28f3ed3b38841/iamlistening-2.0.0.tar.gz
+[2023-07-23 21:39:37] INFO root fetch - processPackages [ipfsclient]: executing diffoscope
+[2023-07-23 21:39:37] INFO root fetch - processPackages [ipfsclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfsclient-0.1.0.tar.gz tmp/ipfsclient-0.1.1.tar.gz --markdown 20230723/i/ipfsclient/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-23 21:39:37] INFO root fetch - processPackages [iamlistening]: executing diffoscope
+[2023-07-23 21:39:37] INFO root fetch - processPackages [iamlistening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iamlistening-1.1.7.tar.gz tmp/iamlistening-2.0.0.tar.gz --markdown 20230723/i/iamlistening/1.1.7-2.0.0/diff.md --exclude *.pyd
+[2023-07-23 21:39:37] INFO root fetch - processPackages [openapi-python-client]: Downloading https://files.pythonhosted.org/packages/4a/de/95e3c3a2a0b3b1e23b0a640e8c7751a17201bd319a98e3a1ab72cc101d34/openapi-python-client-0.9.2.tar.gz
+[2023-07-23 21:39:37] INFO root fetch - processPackages [music-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/80/19/760713972b116a5e3b27ecb1594c615212fe91436a1013c3f2262dbb55c9/music-assistant-frontend-2.0.6.tar.gz
+[2023-07-23 21:39:37] INFO root fetch - processPackages [openapi-python-client]: executing diffoscope
+[2023-07-23 21:39:37] INFO root fetch - processPackages [openapi-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi-python-client-0.9.1.tar.gz tmp/openapi-python-client-0.9.2.tar.gz --markdown 20230723/o/openapi-python-client/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-23 21:39:37] INFO root fetch - processPackages [music-assistant-frontend]: executing diffoscope
+[2023-07-23 21:39:37] INFO root fetch - processPackages [music-assistant-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music-assistant-frontend-2.0.5.tar.gz tmp/music-assistant-frontend-2.0.6.tar.gz --markdown 20230723/m/music-assistant-frontend/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-07-23 21:39:37] INFO root fetch - processPackages [ipfsclient]: Remove: archive file [/home/abi/fetcher/tmp/ipfsclient-0.1.0.tar.gz]
+[2023-07-23 21:39:37] INFO root fetch - processPackages [ipfsclient]: Remove: archive file [/home/abi/fetcher/tmp/ipfsclient-0.1.1.tar.gz]
+[2023-07-23 21:39:37] INFO root fetch - main [MainThread]: End processing [ipfsclient]: success
+[2023-07-23 21:39:38] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-1.1.7.tar.gz]
+[2023-07-23 21:39:38] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-2.0.0.tar.gz]
+[2023-07-23 21:39:38] INFO root fetch - main [MainThread]: End processing [iamlistening]: success
+[2023-07-23 21:39:38] INFO root fetch - processPackages [openapi-python-client]: Remove: archive file [/home/abi/fetcher/tmp/openapi-python-client-0.9.1.tar.gz]
+[2023-07-23 21:39:38] INFO root fetch - processPackages [openapi-python-client]: Remove: archive file [/home/abi/fetcher/tmp/openapi-python-client-0.9.2.tar.gz]
+[2023-07-23 21:39:38] INFO root fetch - main [MainThread]: End processing [openapi-python-client]: success
+[2023-07-23 21:39:51] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music-assistant-frontend-2.0.5.tar.gz]
+[2023-07-23 21:39:51] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music-assistant-frontend-2.0.6.tar.gz]
+[2023-07-23 21:39:51] INFO root fetch - main [MainThread]: End processing [music-assistant-frontend]: success
+[2023-07-23 21:39:51] INFO root fetch - main [MainThread]: Store serial: [19004388]
