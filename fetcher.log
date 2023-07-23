@@ -3934,3 +3934,23 @@
 [2023-07-23 07:29:39] INFO root fetch - processPackages [hugedict]: Remove: archive file [/home/abi/fetcher/tmp/hugedict-2.9.2-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-23 07:29:39] INFO root fetch - main [MainThread]: End processing [hugedict]: success
 [2023-07-23 07:29:39] INFO root fetch - main [MainThread]: Store serial: [18999704]
+[2023-07-23 07:34:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999704]
+[2023-07-23 07:34:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-23 07:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-macos
+[2023-07-23 07:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TiamoTools
+[2023-07-23 07:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pg-sui
+[2023-07-23 07:34:58] WARNING root fetch - processPackages [TiamoTools]: Skipping, unable to determine old version
+[2023-07-23 07:34:58] INFO root fetch - main [MainThread]: End processing [TiamoTools] error
+[2023-07-23 07:34:58] INFO root fetch - processPackages [pg-sui]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-23 07:34:58] INFO root fetch - processPackages [pg-sui]: Downloading https://files.pythonhosted.org/packages/a9/fb/44d1701a45dc4a00221c776942edfb32f0379b3b1f8b76f33ffffab8cbdd/pg-sui-0.2.2.tar.gz
+[2023-07-23 07:34:58] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.14.0.dev20230722] Old Version: [2.14.0.dev20230720]
+[2023-07-23 07:34:58] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/76/83/4f773072bfa917c68f2d79cd6479976eae23cd6febdebe957fe7958f531b/tf_nightly_macos-2.14.0.dev20230720-cp310-cp310-macosx_11_0_arm64.whl
+[2023-07-23 07:34:58] INFO root fetch - processPackages [pg-sui]: Downloading https://files.pythonhosted.org/packages/6f/cc/f57729ffa1ea71f6d06ed8c5d839dd2bca677b45c09eb0fa36b5cabed37b/pg-sui-0.2.3.tar.gz
+[2023-07-23 07:34:58] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 198947359>=10485760
+[2023-07-23 07:34:58] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-07-23 07:34:58] INFO root fetch - processPackages [pg-sui]: executing diffoscope
+[2023-07-23 07:34:58] INFO root fetch - processPackages [pg-sui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg-sui-0.2.2.tar.gz tmp/pg-sui-0.2.3.tar.gz --markdown 20230723/p/pg-sui/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-23 07:34:59] INFO root fetch - processPackages [pg-sui]: Remove: archive file [/home/abi/fetcher/tmp/pg-sui-0.2.2.tar.gz]
+[2023-07-23 07:34:59] INFO root fetch - processPackages [pg-sui]: Remove: archive file [/home/abi/fetcher/tmp/pg-sui-0.2.3.tar.gz]
+[2023-07-23 07:34:59] INFO root fetch - main [MainThread]: End processing [pg-sui]: success
+[2023-07-23 07:34:59] INFO root fetch - main [MainThread]: Store serial: [18999713]
