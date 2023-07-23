@@ -6107,3 +6107,54 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 11:42:14] INFO root fetch - processPackages [wow-ai-mms]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_mms-0.2.0.tar.gz]
 [2023-07-23 11:42:14] INFO root fetch - main [MainThread]: End processing [wow-ai-mms]: success
 [2023-07-23 11:42:14] INFO root fetch - main [MainThread]: Store serial: [19000544]
+[2023-07-23 11:47:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19000544]
+[2023-07-23 11:47:24] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-23 11:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ckanext-admin-panel
+[2023-07-23 11:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-ro-account-anaf-sync
+[2023-07-23 11:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fedml
+[2023-07-23 11:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-ipghrms-employee
+[2023-07-23 11:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tootbot
+[2023-07-23 11:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: artifacts
+[2023-07-23 11:47:24] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-anaf-sync]: New version: [16.0.1.2.0] Old Version: [15.0.1.1.0.2]
+[2023-07-23 11:47:24] INFO root fetch - processPackages [tootbot]: New version: [8.0.0] Old Version: [7.3.0]
+[2023-07-23 11:47:24] WARNING root fetch - processPackages [ckanext-admin-panel]: Skipping, unable to determine old version
+[2023-07-23 11:47:24] INFO root fetch - main [MainThread]: End processing [ckanext-admin-panel] error
+[2023-07-23 11:47:24] INFO root fetch - processPackages [django-ipghrms-employee]: New version: [1.9] Old Version: [1.8]
+[2023-07-23 11:47:24] INFO root fetch - processPackages [fedml]: New version: [0.8.7a5] Old Version: [0.8.7a4]
+[2023-07-23 11:47:24] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/86/4e/36f432cddb80cf14b268eb9124f2665709988a4a3419c32c67ce465df22e/fedml-0.8.7a4.tar.gz
+[2023-07-23 11:47:24] INFO root fetch - processPackages [artifacts]: New version: [20230723] Old Version: [20230413]
+[2023-07-23 11:47:24] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-anaf-sync]: Downloading https://files.pythonhosted.org/packages/bd/cb/4c3063b361333a7dc87d4733eb96219e9be29fc27ac3217da0d73e0692db/odoo_addon_l10n_ro_account_anaf_sync-15.0.1.1.0.2-py3-none-any.whl
+[2023-07-23 11:47:24] INFO root fetch - processPackages [tootbot]: Downloading https://files.pythonhosted.org/packages/0a/6f/a7a7e493ce897b5c2ae67655d2b6d9785d2b8674b359045557b1c6adf92a/tootbot-7.3.0.tar.gz
+[2023-07-23 11:47:24] INFO root fetch - processPackages [django-ipghrms-employee]: Downloading https://files.pythonhosted.org/packages/1c/e5/9a6fb04055451e40b69d37d8787f853843a3cf2e7d6794f99f8ca7880c98/django-ipghrms-employee-1.8.tar.gz
+[2023-07-23 11:47:24] INFO root fetch - processPackages [artifacts]: Downloading https://files.pythonhosted.org/packages/70/46/b9a3ea84161f26c12e6f1ffca8c46a392e54595509a703b00f84ff2d2255/artifacts-20230413.tar.gz
+[2023-07-23 11:47:24] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/bd/e1/aadcab0f7b75ceec4b2724efdafeb112a6fe0bb552abbb5b31092954063c/fedml-0.8.7a5.tar.gz
+[2023-07-23 11:47:24] INFO root fetch - processPackages [fedml]: executing diffoscope
+[2023-07-23 11:47:24] INFO root fetch - processPackages [fedml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedml-0.8.7a4.tar.gz tmp/fedml-0.8.7a5.tar.gz --markdown 20230723/f/fedml/0.8.7a4-0.8.7a5/diff.md --exclude *.pyd
+[2023-07-23 11:47:24] INFO root fetch - processPackages [django-ipghrms-employee]: Downloading https://files.pythonhosted.org/packages/d6/b8/46e1013d04ed020b8340e6530e41ecaf8531f796a68610ca25730ab57b9f/django-ipghrms-employee-1.9.tar.gz
+[2023-07-23 11:47:24] INFO root fetch - processPackages [tootbot]: Downloading https://files.pythonhosted.org/packages/09/cc/621bebfed33ae8719b9b85212fcb5c848157e222c4552a03de1813bca08d/tootbot-8.0.0.tar.gz
+[2023-07-23 11:47:24] INFO root fetch - processPackages [artifacts]: Downloading https://files.pythonhosted.org/packages/75/fc/5a070daae8a464d996d1add548ece4db9a3e64ddd5cc5c7fbb870351572e/artifacts-20230723.tar.gz
+[2023-07-23 11:47:25] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-anaf-sync]: Downloading https://files.pythonhosted.org/packages/7a/29/270aa58a2778bbf06e485a04c7f5a9213b9eba6bff2f9a064f9cd4f9323d/odoo_addon_l10n_ro_account_anaf_sync-16.0.1.2.0-py3-none-any.whl
+[2023-07-23 11:47:25] INFO root fetch - processPackages [tootbot]: executing diffoscope
+[2023-07-23 11:47:25] INFO root fetch - processPackages [tootbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tootbot-7.3.0.tar.gz tmp/tootbot-8.0.0.tar.gz --markdown 20230723/t/tootbot/7.3.0-8.0.0/diff.md --exclude *.pyd
+[2023-07-23 11:47:25] INFO root fetch - processPackages [artifacts]: executing diffoscope
+[2023-07-23 11:47:25] INFO root fetch - processPackages [artifacts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artifacts-20230413.tar.gz tmp/artifacts-20230723.tar.gz --markdown 20230723/a/artifacts/20230413-20230723/diff.md --exclude *.pyd
+[2023-07-23 11:47:25] INFO root fetch - processPackages [django-ipghrms-employee]: executing diffoscope
+[2023-07-23 11:47:25] INFO root fetch - processPackages [django-ipghrms-employee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-employee-1.8.tar.gz tmp/django-ipghrms-employee-1.9.tar.gz --markdown 20230723/d/django-ipghrms-employee/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-23 11:47:25] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-anaf-sync]: executing diffoscope
+[2023-07-23 11:47:25] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-anaf-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_account_anaf_sync-15.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_account_anaf_sync-16.0.1.2.0-py3-none-any.whl.zip --markdown 20230723/o/odoo-addon-l10n-ro-account-anaf-sync/15.0.1.1.0.2-16.0.1.2.0/diff.md --exclude *.pyd
+[2023-07-23 11:47:26] INFO root fetch - processPackages [tootbot]: Remove: archive file [/home/abi/fetcher/tmp/tootbot-7.3.0.tar.gz]
+[2023-07-23 11:47:26] INFO root fetch - processPackages [tootbot]: Remove: archive file [/home/abi/fetcher/tmp/tootbot-8.0.0.tar.gz]
+[2023-07-23 11:47:26] INFO root fetch - main [MainThread]: End processing [tootbot]: success
+[2023-07-23 11:47:26] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-anaf-sync]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_account_anaf_sync-15.0.1.1.0.2-py3-none-any.whl.zip]
+[2023-07-23 11:47:26] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-anaf-sync]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_account_anaf_sync-16.0.1.2.0-py3-none-any.whl.zip]
+[2023-07-23 11:47:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-account-anaf-sync]: success
+[2023-07-23 11:47:26] INFO root fetch - processPackages [artifacts]: Remove: archive file [/home/abi/fetcher/tmp/artifacts-20230413.tar.gz]
+[2023-07-23 11:47:26] INFO root fetch - processPackages [artifacts]: Remove: archive file [/home/abi/fetcher/tmp/artifacts-20230723.tar.gz]
+[2023-07-23 11:47:26] INFO root fetch - main [MainThread]: End processing [artifacts]: success
+[2023-07-23 11:47:27] INFO root fetch - processPackages [django-ipghrms-employee]: Remove: archive file [/home/abi/fetcher/tmp/django-ipghrms-employee-1.8.tar.gz]
+[2023-07-23 11:47:27] INFO root fetch - processPackages [django-ipghrms-employee]: Remove: archive file [/home/abi/fetcher/tmp/django-ipghrms-employee-1.9.tar.gz]
+[2023-07-23 11:47:27] INFO root fetch - main [MainThread]: End processing [django-ipghrms-employee]: success
+[2023-07-23 11:47:31] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.7a4.tar.gz]
+[2023-07-23 11:47:31] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.7a5.tar.gz]
+[2023-07-23 11:47:31] INFO root fetch - main [MainThread]: End processing [fedml]: success
+[2023-07-23 11:47:31] INFO root fetch - main [MainThread]: Store serial: [19000562]
