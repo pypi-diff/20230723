@@ -14083,3 +14083,141 @@ AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
 [2023-07-23 21:45:18] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music-assistant-frontend-2.0.7.tar.gz]
 [2023-07-23 21:45:18] INFO root fetch - main [MainThread]: End processing [music-assistant-frontend]: success
 [2023-07-23 21:45:18] INFO root fetch - main [MainThread]: Store serial: [19004409]
+[2023-07-23 21:50:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19004409]
+[2023-07-23 21:50:26] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-23 21:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datasette-sqlite-hello
+[2023-07-23 21:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlite-hello
+[2023-07-23 21:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlite-utils-sqlite-hello
+[2023-07-23 21:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MedicalImageConverter
+[2023-07-23 21:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-randomprime
+[2023-07-23 21:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spackle-python
+[2023-07-23 21:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: multicloud-diagrams
+[2023-07-23 21:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: atro-pylog
+[2023-07-23 21:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chromedriver-auto
+[2023-07-23 21:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: photondemo
+[2023-07-23 21:50:26] INFO root fetch - processPackages [datasette-sqlite-hello]: New version: [0.1.0a55] Old Version: [0.1.0a54]
+[2023-07-23 21:50:26] INFO root fetch - processPackages [photondemo]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-23 21:50:26] INFO root fetch - processPackages [MedicalImageConverter]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-23 21:50:27] INFO root fetch - processPackages [sqlite-utils-sqlite-hello]: New version: [0.1.0a55] Old Version: [0.1.0a54]
+[2023-07-23 21:50:27] INFO root fetch - processPackages [chromedriver-auto]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-23 21:50:27] INFO root fetch - processPackages [sqlite-hello]: New version: [0.1.0a55] Old Version: [0.1.0a54]
+[2023-07-23 21:50:27] INFO root fetch - processPackages [atro-pylog]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-23 21:50:27] INFO root fetch - processPackages [multicloud-diagrams]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-07-23 21:50:27] INFO root fetch - processPackages [spackle-python]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 21:50:27] INFO root fetch - processPackages [py-randomprime]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-07-23 21:50:27] INFO root fetch - processPackages [MedicalImageConverter]: Downloading https://files.pythonhosted.org/packages/b2/72/a9109696a75a32f467ad0a8a741a6188fdeed3096759cff627213a52adc4/MedicalImageConverter-1.0.6.tar.gz
+[2023-07-23 21:50:27] INFO root fetch - processPackages [photondemo]: Downloading https://files.pythonhosted.org/packages/3d/d9/1446c0e183c941c5f6149762f8680c598de7e069fcaf9e3048e973a45a81/photondemo-0.0.5.tar.gz
+[2023-07-23 21:50:27] INFO root fetch - processPackages [chromedriver-auto]: Downloading https://files.pythonhosted.org/packages/77/3a/82a0007b772937da17273a53f0cbabe2a538fbfa515e3a12225e29183a76/chromedriver_auto-1.0.8.tar.gz
+[2023-07-23 21:50:27] INFO root fetch - processPackages [multicloud-diagrams]: Downloading https://files.pythonhosted.org/packages/7b/aa/2fa85fa376214597de339e757bec6c567a4d5e102bbf0421914667f7e2a6/multicloud_diagrams-0.3.6.tar.gz
+[2023-07-23 21:50:27] INFO root fetch - processPackages [datasette-sqlite-hello]: Downloading https://files.pythonhosted.org/packages/1c/82/3f53df0240cc6530d0c0b42f83fa2c9d6c47815949207a6e504291f1efba/datasette_sqlite_hello-0.1.0a54-py3-none-any.whl
+[2023-07-23 21:50:27] INFO root fetch - processPackages [spackle-python]: Downloading https://files.pythonhosted.org/packages/57/88/4023c9855de01dc879534c23667e591ffe69724097b1d9fb6e2e8ee94603/spackle-python-0.0.8.tar.gz
+[2023-07-23 21:50:27] INFO root fetch - processPackages [sqlite-utils-sqlite-hello]: Downloading https://files.pythonhosted.org/packages/f4/7b/7b30f79cee1184c59856ab96940295d4893a66011e16b92032e7a2a7f294/sqlite_utils_sqlite_hello-0.1.0a54-py3-none-any.whl
+[2023-07-23 21:50:27] INFO root fetch - processPackages [sqlite-hello]: Downloading https://files.pythonhosted.org/packages/17/0e/0fa20125a93911f7cef761c489f38ee2b65c9c4920480e7e1eca50d8bd0d/sqlite_hello-0.1.0a54-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-07-23 21:50:27] INFO root fetch - processPackages [atro-pylog]: Downloading https://files.pythonhosted.org/packages/67/c0/bad53e42cce8cd0cadc4747d4ef18e212eb75ceaff86771d210dd01393f3/atro_pylog-0.3.0.tar.gz
+[2023-07-23 21:50:27] INFO root fetch - processPackages [py-randomprime]: Downloading https://files.pythonhosted.org/packages/a1/c2/9f63a80aa15c105bf618f0737e83a193079aeedd84344cd8bde9e895eb12/py-randomprime-1.9.5.tar.gz
+[2023-07-23 21:50:27] INFO root fetch - processPackages [chromedriver-auto]: Downloading https://files.pythonhosted.org/packages/09/55/69e53f65150687c8f6b53394c618bc059a720d4ee0d30ccf3dc281c23c7f/chromedriver_auto-1.0.9.tar.gz
+[2023-07-23 21:50:27] INFO root fetch - processPackages [spackle-python]: Downloading https://files.pythonhosted.org/packages/f0/2d/52773c91a5eb9ccc9fb565d2125cb5f794cec46c1c7750cf4b0fb9df94ad/spackle-python-0.0.9.tar.gz
+[2023-07-23 21:50:27] INFO root fetch - processPackages [MedicalImageConverter]: Downloading https://files.pythonhosted.org/packages/06/ac/40b8ac6c44d924595e7fe7c1f1699b66fc7c9ceee074e08821eab43737cb/MedicalImageConverter-1.0.7.tar.gz
+[2023-07-23 21:50:27] INFO root fetch - processPackages [photondemo]: Downloading https://files.pythonhosted.org/packages/45/1d/b38ddd5d99aa7770c56139606ad2c68b1ea742faf3d9cbf6a7ee64fe9e45/photondemo-0.0.6.tar.gz
+[2023-07-23 21:50:27] INFO root fetch - processPackages [multicloud-diagrams]: Downloading https://files.pythonhosted.org/packages/c4/64/590ad29727f95514117c1ec7beabd95cc8a0056eed62de4c8c73f1455133/multicloud_diagrams-0.3.7.tar.gz
+[2023-07-23 21:50:27] INFO root fetch - processPackages [sqlite-utils-sqlite-hello]: Downloading https://files.pythonhosted.org/packages/65/28/6f2aadda2a7f6ab83e8ba2da7b8ace1fa929ff50006074e36cb0d25e4eaf/sqlite_utils_sqlite_hello-0.1.0a55-py3-none-any.whl
+[2023-07-23 21:50:27] INFO root fetch - processPackages [chromedriver-auto]: executing diffoscope
+[2023-07-23 21:50:27] INFO root fetch - processPackages [chromedriver-auto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver_auto-1.0.8.tar.gz tmp/chromedriver_auto-1.0.9.tar.gz --markdown 20230723/c/chromedriver-auto/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-23 21:50:27] INFO root fetch - processPackages [datasette-sqlite-hello]: Downloading https://files.pythonhosted.org/packages/4b/a1/aec26db7336b59bc83c6cec75c59086300de4df2976645cb6948ffb38180/datasette_sqlite_hello-0.1.0a55-py3-none-any.whl
+[2023-07-23 21:50:28] INFO root fetch - processPackages [atro-pylog]: Downloading https://files.pythonhosted.org/packages/fe/3d/c9f2f7e3c7750dde7629ce7496550e90b70dabdcd174ac1ba0408eb71514/atro_pylog-0.4.0.tar.gz
+[2023-07-23 21:50:28] INFO root fetch - processPackages [py-randomprime]: Downloading https://files.pythonhosted.org/packages/6a/a6/30f067323fda064fe22f5ce375f9f91e615acab8985915b93ce4839b3fd9/py-randomprime-1.9.6.tar.gz
+[2023-07-23 21:50:28] INFO root fetch - processPackages [spackle-python]: executing diffoscope
+[2023-07-23 21:50:28] INFO root fetch - processPackages [spackle-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spackle-python-0.0.8.tar.gz tmp/spackle-python-0.0.9.tar.gz --markdown 20230723/s/spackle-python/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 21:50:28] INFO root fetch - processPackages [MedicalImageConverter]: executing diffoscope
+[2023-07-23 21:50:28] INFO root fetch - processPackages [MedicalImageConverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MedicalImageConverter-1.0.6.tar.gz tmp/MedicalImageConverter-1.0.7.tar.gz --markdown 20230723/M/MedicalImageConverter/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-23 21:50:28] INFO root fetch - processPackages [multicloud-diagrams]: executing diffoscope
+[2023-07-23 21:50:28] INFO root fetch - processPackages [multicloud-diagrams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multicloud_diagrams-0.3.6.tar.gz tmp/multicloud_diagrams-0.3.7.tar.gz --markdown 20230723/m/multicloud-diagrams/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-07-23 21:50:28] INFO root fetch - processPackages [photondemo]: executing diffoscope
+[2023-07-23 21:50:28] INFO root fetch - processPackages [sqlite-hello]: Downloading https://files.pythonhosted.org/packages/44/d3/e67c3f833b151247f59847c1d518777cdf91ac70274d1a64e81ba0fb8b4b/sqlite_hello-0.1.0a55-py3-none-win_amd64.whl
+[2023-07-23 21:50:28] INFO root fetch - processPackages [photondemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/photondemo-0.0.5.tar.gz tmp/photondemo-0.0.6.tar.gz --markdown 20230723/p/photondemo/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-23 21:50:28] INFO root fetch - processPackages [atro-pylog]: executing diffoscope
+[2023-07-23 21:50:28] INFO root fetch - processPackages [atro-pylog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atro_pylog-0.3.0.tar.gz tmp/atro_pylog-0.4.0.tar.gz --markdown 20230723/a/atro-pylog/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-23 21:50:28] INFO root fetch - processPackages [sqlite-utils-sqlite-hello]: executing diffoscope
+[2023-07-23 21:50:28] INFO root fetch - processPackages [sqlite-utils-sqlite-hello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_utils_sqlite_hello-0.1.0a54-py3-none-any.whl.zip tmp/sqlite_utils_sqlite_hello-0.1.0a55-py3-none-any.whl.zip --markdown 20230723/s/sqlite-utils-sqlite-hello/0.1.0a54-0.1.0a55/diff.md --exclude *.pyd
+[2023-07-23 21:50:28] INFO root fetch - processPackages [datasette-sqlite-hello]: executing diffoscope
+[2023-07-23 21:50:28] INFO root fetch - processPackages [datasette-sqlite-hello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_hello-0.1.0a54-py3-none-any.whl.zip tmp/datasette_sqlite_hello-0.1.0a55-py3-none-any.whl.zip --markdown 20230723/d/datasette-sqlite-hello/0.1.0a54-0.1.0a55/diff.md --exclude *.pyd
+[2023-07-23 21:50:28] INFO root fetch - processPackages [py-randomprime]: executing diffoscope
+[2023-07-23 21:50:28] INFO root fetch - processPackages [py-randomprime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-randomprime-1.9.5.tar.gz tmp/py-randomprime-1.9.6.tar.gz --markdown 20230723/p/py-randomprime/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-07-23 21:50:28] INFO root fetch - processPackages [sqlite-hello]: executing diffoscope
+[2023-07-23 21:50:28] INFO root fetch - processPackages [sqlite-hello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_hello-0.1.0a54-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip tmp/sqlite_hello-0.1.0a55-py3-none-win_amd64.whl.zip --markdown 20230723/s/sqlite-hello/0.1.0a54-0.1.0a55/diff.md --exclude *.pyd
+[2023-07-23 21:50:29] INFO root fetch - processPackages [chromedriver-auto]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver_auto-1.0.8.tar.gz]
+[2023-07-23 21:50:29] INFO root fetch - processPackages [chromedriver-auto]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver_auto-1.0.9.tar.gz]
+[2023-07-23 21:50:29] INFO root fetch - processPackages [chromedriver-auto]: Start processing: kidash
+[2023-07-23 21:50:29] INFO root fetch - main [MainThread]: End processing [chromedriver-auto]: success
+[2023-07-23 21:50:29] INFO root fetch - processPackages [kidash]: New version: [0.5.9rc1] Old Version: [0.5.9]
+[2023-07-23 21:50:29] INFO root fetch - processPackages [spackle-python]: Remove: archive file [/home/abi/fetcher/tmp/spackle-python-0.0.8.tar.gz]
+[2023-07-23 21:50:29] INFO root fetch - processPackages [spackle-python]: Remove: archive file [/home/abi/fetcher/tmp/spackle-python-0.0.9.tar.gz]
+[2023-07-23 21:50:29] INFO root fetch - processPackages [spackle-python]: Start processing: pyntweb
+[2023-07-23 21:50:29] INFO root fetch - main [MainThread]: End processing [spackle-python]: success
+[2023-07-23 21:50:29] INFO root fetch - processPackages [kidash]: Downloading https://files.pythonhosted.org/packages/0f/58/b29b1a2e94fa69670b4c38e77ab78af9be0b9e17e654184745d11a2c5ea2/kidash-0.5.9.tar.gz
+[2023-07-23 21:50:29] INFO root fetch - processPackages [MedicalImageConverter]: Remove: archive file [/home/abi/fetcher/tmp/MedicalImageConverter-1.0.6.tar.gz]
+[2023-07-23 21:50:29] INFO root fetch - processPackages [MedicalImageConverter]: Remove: archive file [/home/abi/fetcher/tmp/MedicalImageConverter-1.0.7.tar.gz]
+[2023-07-23 21:50:29] INFO root fetch - processPackages [MedicalImageConverter]: Start processing: vedro-advanced-tags
+[2023-07-23 21:50:29] INFO root fetch - main [MainThread]: End processing [MedicalImageConverter]: success
+[2023-07-23 21:50:29] INFO root fetch - processPackages [pyntweb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-23 21:50:29] INFO root fetch - processPackages [multicloud-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/multicloud_diagrams-0.3.6.tar.gz]
+[2023-07-23 21:50:29] INFO root fetch - processPackages [multicloud-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/multicloud_diagrams-0.3.7.tar.gz]
+[2023-07-23 21:50:29] INFO root fetch - processPackages [multicloud-diagrams]: Start processing: peviitor-pyscraper
+[2023-07-23 21:50:29] INFO root fetch - main [MainThread]: End processing [multicloud-diagrams]: success
+[2023-07-23 21:50:29] INFO root fetch - processPackages [pyntweb]: Downloading https://files.pythonhosted.org/packages/2e/55/9fdd0c128f6126b0e1fb8dd2733eec6f7d04710d7d70ee998115c2fa03ef/pyntweb-0.2.8.tar.gz
+[2023-07-23 21:50:29] WARNING root fetch - processPackages [peviitor-pyscraper]: Skipping, unable to determine old version
+[2023-07-23 21:50:29] INFO root fetch - processPackages [peviitor-pyscraper]: Start processing: spackle-python
+[2023-07-23 21:50:29] INFO root fetch - main [MainThread]: End processing [peviitor-pyscraper] error
+[2023-07-23 21:50:29] INFO root fetch - processPackages [vedro-advanced-tags]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-23 21:50:29] INFO root fetch - processPackages [photondemo]: Remove: archive file [/home/abi/fetcher/tmp/photondemo-0.0.5.tar.gz]
+[2023-07-23 21:50:29] INFO root fetch - processPackages [photondemo]: Remove: archive file [/home/abi/fetcher/tmp/photondemo-0.0.6.tar.gz]
+[2023-07-23 21:50:29] INFO root fetch - processPackages [photondemo]: Start processing: pyntweb
+[2023-07-23 21:50:29] INFO root fetch - main [MainThread]: End processing [photondemo]: success
+[2023-07-23 21:50:29] INFO root fetch - processPackages [sqlite-utils-sqlite-hello]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_utils_sqlite_hello-0.1.0a54-py3-none-any.whl.zip]
+[2023-07-23 21:50:29] INFO root fetch - processPackages [spackle-python]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 21:50:29] INFO root fetch - processPackages [sqlite-utils-sqlite-hello]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_utils_sqlite_hello-0.1.0a55-py3-none-any.whl.zip]
+[2023-07-23 21:50:29] INFO root fetch - main [MainThread]: End processing [sqlite-utils-sqlite-hello]: success
+[2023-07-23 21:50:29] INFO root fetch - processPackages [sqlite-hello]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_hello-0.1.0a54-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
+[2023-07-23 21:50:29] INFO root fetch - processPackages [sqlite-hello]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_hello-0.1.0a55-py3-none-win_amd64.whl.zip]
+[2023-07-23 21:50:29] INFO root fetch - main [MainThread]: End processing [sqlite-hello]: success
+[2023-07-23 21:50:29] INFO root fetch - processPackages [atro-pylog]: Remove: archive file [/home/abi/fetcher/tmp/atro_pylog-0.3.0.tar.gz]
+[2023-07-23 21:50:29] INFO root fetch - processPackages [pyntweb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-23 21:50:29] INFO root fetch - processPackages [atro-pylog]: Remove: archive file [/home/abi/fetcher/tmp/atro_pylog-0.4.0.tar.gz]
+[2023-07-23 21:50:29] INFO root fetch - main [MainThread]: End processing [atro-pylog]: success
+[2023-07-23 21:50:29] INFO root fetch - processPackages [spackle-python]: Downloading https://files.pythonhosted.org/packages/57/88/4023c9855de01dc879534c23667e591ffe69724097b1d9fb6e2e8ee94603/spackle-python-0.0.8.tar.gz
+[2023-07-23 21:50:29] INFO root fetch - processPackages [kidash]: Downloading https://files.pythonhosted.org/packages/05/27/3a5af6d37a7bd5aca57c918ef8390f461f882f60e072aebf0fcf70edb441/kidash-0.5.9rc1.tar.gz
+[2023-07-23 21:50:29] INFO root fetch - processPackages [py-randomprime]: Remove: archive file [/home/abi/fetcher/tmp/py-randomprime-1.9.5.tar.gz]
+[2023-07-23 21:50:29] INFO root fetch - processPackages [py-randomprime]: Remove: archive file [/home/abi/fetcher/tmp/py-randomprime-1.9.6.tar.gz]
+[2023-07-23 21:50:29] INFO root fetch - main [MainThread]: End processing [py-randomprime]: success
+[2023-07-23 21:50:30] INFO root fetch - processPackages [datasette-sqlite-hello]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_hello-0.1.0a54-py3-none-any.whl.zip]
+[2023-07-23 21:50:30] INFO root fetch - processPackages [datasette-sqlite-hello]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_hello-0.1.0a55-py3-none-any.whl.zip]
+[2023-07-23 21:50:30] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-hello]: success
+[2023-07-23 21:50:30] INFO root fetch - processPackages [vedro-advanced-tags]: Downloading https://files.pythonhosted.org/packages/6a/8b/bd16bc9992559c29c4723bd79492752f694118e7e34f45cba16bc716616d/vedro-advanced-tags-0.1.0.tar.gz
+[2023-07-23 21:50:30] INFO root fetch - processPackages [pyntweb]: Downloading https://files.pythonhosted.org/packages/68/76/9710407be69a495a5e8f803078c9a0974413ebeb4f49e1bf7b63684a43bd/pyntweb-0.2.9.tar.gz
+[2023-07-23 21:50:30] INFO root fetch - processPackages [pyntweb]: Downloading https://files.pythonhosted.org/packages/68/76/9710407be69a495a5e8f803078c9a0974413ebeb4f49e1bf7b63684a43bd/pyntweb-0.2.9.tar.gz
+[2023-07-23 21:50:30] INFO root fetch - processPackages [kidash]: executing diffoscope
+[2023-07-23 21:50:30] INFO root fetch - processPackages [kidash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kidash-0.5.9.tar.gz tmp/kidash-0.5.9rc1.tar.gz --markdown 20230723/k/kidash/0.5.9-0.5.9rc1/diff.md --exclude *.pyd
+[2023-07-23 21:50:30] INFO root fetch - processPackages [spackle-python]: Downloading https://files.pythonhosted.org/packages/f0/2d/52773c91a5eb9ccc9fb565d2125cb5f794cec46c1c7750cf4b0fb9df94ad/spackle-python-0.0.9.tar.gz
+[2023-07-23 21:50:30] INFO root fetch - processPackages [pyntweb]: executing diffoscope
+[2023-07-23 21:50:30] INFO root fetch - processPackages [pyntweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyntweb-0.2.8.tar.gz tmp/pyntweb-0.2.9.tar.gz --markdown 20230723/p/pyntweb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-23 21:50:30] INFO root fetch - processPackages [pyntweb]: executing diffoscope
+[2023-07-23 21:50:30] INFO root fetch - processPackages [pyntweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyntweb-0.2.8.tar.gz tmp/pyntweb-0.2.9.tar.gz --markdown 20230723/p/pyntweb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-23 21:50:30] INFO root fetch - processPackages [spackle-python]: executing diffoscope
+[2023-07-23 21:50:30] INFO root fetch - processPackages [spackle-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spackle-python-0.0.8.tar.gz tmp/spackle-python-0.0.9.tar.gz --markdown 20230723/s/spackle-python/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 21:50:30] INFO root fetch - processPackages [vedro-advanced-tags]: Downloading https://files.pythonhosted.org/packages/72/1c/e9694246b353827b88ba07f667db70426b19f88f6cb840e35fce889a4e3c/vedro-advanced-tags-0.2.0.tar.gz
+[2023-07-23 21:50:30] INFO root fetch - processPackages [vedro-advanced-tags]: executing diffoscope
+[2023-07-23 21:50:30] INFO root fetch - processPackages [vedro-advanced-tags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vedro-advanced-tags-0.1.0.tar.gz tmp/vedro-advanced-tags-0.2.0.tar.gz --markdown 20230723/v/vedro-advanced-tags/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-23 21:50:31] INFO root fetch - processPackages [kidash]: Remove: archive file [/home/abi/fetcher/tmp/kidash-0.5.9.tar.gz]
+[2023-07-23 21:50:31] INFO root fetch - processPackages [kidash]: Remove: archive file [/home/abi/fetcher/tmp/kidash-0.5.9rc1.tar.gz]
+[2023-07-23 21:50:31] INFO root fetch - main [MainThread]: End processing [kidash]: success
+[2023-07-23 21:50:31] INFO root fetch - processPackages [pyntweb]: Remove: archive file [/home/abi/fetcher/tmp/pyntweb-0.2.8.tar.gz]
+[2023-07-23 21:50:31] INFO root fetch - processPackages [pyntweb]: Remove: archive file [/home/abi/fetcher/tmp/pyntweb-0.2.9.tar.gz]
+[2023-07-23 21:50:31] INFO root fetch - main [MainThread]: End processing [pyntweb]: success
+[2023-07-23 21:50:31] INFO root fetch - processPackages [spackle-python]: Remove: archive file [/home/abi/fetcher/tmp/spackle-python-0.0.8.tar.gz]
+[2023-07-23 21:50:31] INFO root fetch - processPackages [spackle-python]: Remove: archive file [/home/abi/fetcher/tmp/spackle-python-0.0.9.tar.gz]
+[2023-07-23 21:50:31] INFO root fetch - main [MainThread]: End processing [spackle-python]: success
+[2023-07-23 21:50:31] INFO root fetch - main [MainThread]: End processing [pyntweb]: success
+[2023-07-23 21:50:31] INFO root fetch - processPackages [vedro-advanced-tags]: Remove: archive file [/home/abi/fetcher/tmp/vedro-advanced-tags-0.1.0.tar.gz]
+[2023-07-23 21:50:31] INFO root fetch - processPackages [vedro-advanced-tags]: Remove: archive file [/home/abi/fetcher/tmp/vedro-advanced-tags-0.2.0.tar.gz]
+[2023-07-23 21:50:31] INFO root fetch - main [MainThread]: End processing [vedro-advanced-tags]: success
+[2023-07-23 21:50:31] INFO root fetch - main [MainThread]: Store serial: [19004458]
