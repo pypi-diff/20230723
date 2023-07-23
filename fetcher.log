@@ -2463,3 +2463,27 @@
 [2023-07-23 04:37:12] INFO root fetch - processPackages [monailabel-weekly]: Remove: archive file [/home/abi/fetcher/tmp/monailabel_weekly-0.5.dev2330-py3-none-any.whl.zip]
 [2023-07-23 04:37:12] INFO root fetch - main [MainThread]: End processing [monailabel-weekly]: success
 [2023-07-23 04:37:12] INFO root fetch - main [MainThread]: Store serial: [18999061]
+[2023-07-23 04:42:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999061]
+[2023-07-23 04:42:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-23 04:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sirtuin
+[2023-07-23 04:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-ndev-blizzardapi
+[2023-07-23 04:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TreeSAK
+[2023-07-23 04:42:26] WARNING root fetch - processPackages [sirtuin]: Skipping, unable to determine old version
+[2023-07-23 04:42:26] INFO root fetch - processPackages [python-ndev-blizzardapi]: New version: [0.1.0] Old Version: [0.0.5a0]
+[2023-07-23 04:42:26] INFO root fetch - main [MainThread]: End processing [sirtuin] error
+[2023-07-23 04:42:26] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-23 04:42:27] INFO root fetch - processPackages [python-ndev-blizzardapi]: Downloading https://files.pythonhosted.org/packages/9d/7a/30999a6f58b9a69c2fb9ed6c0b0e6808e404946a69f23d4fb63f9525104b/python-ndev-blizzardapi-0.0.5a0.tar.gz
+[2023-07-23 04:42:27] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2023-07-23 04:42:27] INFO root fetch - processPackages [python-ndev-blizzardapi]: Downloading https://files.pythonhosted.org/packages/1c/a8/eb8a172b23acf0e45cc1059920beb39e942eb53ab339e2f072ea4b41196c/python-ndev-blizzardapi-0.1.0.tar.gz
+[2023-07-23 04:42:27] INFO root fetch - processPackages [python-ndev-blizzardapi]: executing diffoscope
+[2023-07-23 04:42:27] INFO root fetch - processPackages [python-ndev-blizzardapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-ndev-blizzardapi-0.0.5a0.tar.gz tmp/python-ndev-blizzardapi-0.1.0.tar.gz --markdown 20230723/p/python-ndev-blizzardapi/0.0.5a0-0.1.0/diff.md --exclude *.pyd
+[2023-07-23 04:42:27] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2023-07-23 04:42:27] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2023-07-23 04:42:27] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20230723/T/TreeSAK/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-23 04:42:28] INFO root fetch - processPackages [python-ndev-blizzardapi]: Remove: archive file [/home/abi/fetcher/tmp/python-ndev-blizzardapi-0.0.5a0.tar.gz]
+[2023-07-23 04:42:28] INFO root fetch - processPackages [python-ndev-blizzardapi]: Remove: archive file [/home/abi/fetcher/tmp/python-ndev-blizzardapi-0.1.0.tar.gz]
+[2023-07-23 04:42:28] INFO root fetch - main [MainThread]: End processing [python-ndev-blizzardapi]: success
+[2023-07-23 04:42:28] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.1.tar.gz]
+[2023-07-23 04:42:28] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
+[2023-07-23 04:42:28] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2023-07-23 04:42:28] INFO root fetch - main [MainThread]: Store serial: [18999071]
