@@ -12519,3 +12519,45 @@ AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
 [2023-07-23 19:58:29] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6939.tar.gz]
 [2023-07-23 19:58:29] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
 [2023-07-23 19:58:29] INFO root fetch - main [MainThread]: Store serial: [19003845]
+[2023-07-23 20:03:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19003845]
+[2023-07-23 20:03:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-23 20:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Simba-UW-tf-dev
+[2023-07-23 20:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dup-hawk
+[2023-07-23 20:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gymnasium-connect-four
+[2023-07-23 20:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hdmf-zarr
+[2023-07-23 20:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: GA-kit
+[2023-07-23 20:03:38] INFO root fetch - processPackages [hdmf-zarr]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-23 20:03:38] WARNING root fetch - processPackages [dup-hawk]: Skipping, unable to determine old version
+[2023-07-23 20:03:38] INFO root fetch - main [MainThread]: End processing [dup-hawk] error
+[2023-07-23 20:03:38] INFO root fetch - processPackages [gymnasium-connect-four]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-23 20:03:38] INFO root fetch - processPackages [GA-kit]: New version: [0.2.1] Old Version: [0.2]
+[2023-07-23 20:03:38] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.70.2] Old Version: [1.70.1]
+[2023-07-23 20:03:39] INFO root fetch - processPackages [gymnasium-connect-four]: Downloading https://files.pythonhosted.org/packages/26/02/1d62cf34bd66440285f538c6c401b304c4e45588e253e8b2f6641487303a/gymnasium_connect_four-1.0.1.tar.gz
+[2023-07-23 20:03:39] INFO root fetch - processPackages [hdmf-zarr]: Downloading https://files.pythonhosted.org/packages/44/f1/f9fc9a02b8b71d7c59842e661305782d4e20505596bb3712e812bd7132a8/hdmf_zarr-0.2.0.tar.gz
+[2023-07-23 20:03:39] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/9b/b2/e0849ed601626fe4cd6c7e0d19eb53d3aec44a8c8f527ec35632bea67499/Simba-UW-tf-dev-1.70.1.tar.gz
+[2023-07-23 20:03:39] INFO root fetch - processPackages [GA-kit]: Downloading https://files.pythonhosted.org/packages/ee/5d/9dcc05a28a793fe3af142e1644fe3f4db378960b058d1ef45b4372419a25/GA_kit-0.2.tar.gz
+[2023-07-23 20:03:39] INFO root fetch - processPackages [gymnasium-connect-four]: Downloading https://files.pythonhosted.org/packages/66/e0/ac74d2fef3cf79fef7422052819eb0be235f9c3bd4691ede79143292ab67/gymnasium_connect_four-1.0.2.tar.gz
+[2023-07-23 20:03:39] INFO root fetch - processPackages [gymnasium-connect-four]: executing diffoscope
+[2023-07-23 20:03:39] INFO root fetch - processPackages [gymnasium-connect-four]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gymnasium_connect_four-1.0.1.tar.gz tmp/gymnasium_connect_four-1.0.2.tar.gz --markdown 20230723/g/gymnasium-connect-four/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-23 20:03:39] INFO root fetch - processPackages [GA-kit]: Downloading https://files.pythonhosted.org/packages/e3/5b/b64ac018de2d1b68522b4a9cd06c367c1f4f2fd44393367f78a0a5e716d7/GA_kit-0.2.1.tar.gz
+[2023-07-23 20:03:39] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/a1/d4/aae3098f06e1c3fc38035d87f29527ffcf3dc3934fc463d6a5088d35bcdc/Simba-UW-tf-dev-1.70.2.tar.gz
+[2023-07-23 20:03:39] INFO root fetch - processPackages [hdmf-zarr]: Downloading https://files.pythonhosted.org/packages/e3/3b/5df0b0913420d69ef6674ccc3f53c357238178de08f68680bd9543692586/hdmf_zarr-0.3.0.tar.gz
+[2023-07-23 20:03:39] INFO root fetch - processPackages [hdmf-zarr]: executing diffoscope
+[2023-07-23 20:03:39] INFO root fetch - processPackages [hdmf-zarr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdmf_zarr-0.2.0.tar.gz tmp/hdmf_zarr-0.3.0.tar.gz --markdown 20230723/h/hdmf-zarr/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-23 20:03:39] INFO root fetch - processPackages [GA-kit]: executing diffoscope
+[2023-07-23 20:03:39] INFO root fetch - processPackages [GA-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GA_kit-0.2.tar.gz tmp/GA_kit-0.2.1.tar.gz --markdown 20230723/G/GA-kit/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-07-23 20:03:39] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2023-07-23 20:03:39] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.70.1.tar.gz tmp/Simba-UW-tf-dev-1.70.2.tar.gz --markdown 20230723/S/Simba-UW-tf-dev/1.70.1-1.70.2/diff.md --exclude *.pyd
+[2023-07-23 20:03:40] INFO root fetch - processPackages [gymnasium-connect-four]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_connect_four-1.0.1.tar.gz]
+[2023-07-23 20:03:40] INFO root fetch - processPackages [gymnasium-connect-four]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_connect_four-1.0.2.tar.gz]
+[2023-07-23 20:03:40] INFO root fetch - main [MainThread]: End processing [gymnasium-connect-four]: success
+[2023-07-23 20:03:40] INFO root fetch - processPackages [GA-kit]: Remove: archive file [/home/abi/fetcher/tmp/GA_kit-0.2.tar.gz]
+[2023-07-23 20:03:40] INFO root fetch - processPackages [GA-kit]: Remove: archive file [/home/abi/fetcher/tmp/GA_kit-0.2.1.tar.gz]
+[2023-07-23 20:03:40] INFO root fetch - main [MainThread]: End processing [GA-kit]: success
+[2023-07-23 20:03:40] INFO root fetch - processPackages [hdmf-zarr]: Remove: archive file [/home/abi/fetcher/tmp/hdmf_zarr-0.2.0.tar.gz]
+[2023-07-23 20:03:40] INFO root fetch - processPackages [hdmf-zarr]: Remove: archive file [/home/abi/fetcher/tmp/hdmf_zarr-0.3.0.tar.gz]
+[2023-07-23 20:03:40] INFO root fetch - main [MainThread]: End processing [hdmf-zarr]: success
+[2023-07-23 20:03:43] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.70.1.tar.gz]
+[2023-07-23 20:03:43] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.70.2.tar.gz]
+[2023-07-23 20:03:43] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2023-07-23 20:03:43] INFO root fetch - main [MainThread]: Store serial: [19003861]
