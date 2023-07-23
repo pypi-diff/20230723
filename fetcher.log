@@ -14221,3 +14221,149 @@ AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
 [2023-07-23 21:50:31] INFO root fetch - processPackages [vedro-advanced-tags]: Remove: archive file [/home/abi/fetcher/tmp/vedro-advanced-tags-0.2.0.tar.gz]
 [2023-07-23 21:50:31] INFO root fetch - main [MainThread]: End processing [vedro-advanced-tags]: success
 [2023-07-23 21:50:31] INFO root fetch - main [MainThread]: Store serial: [19004458]
+[2023-07-23 21:55:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19004458]
+[2023-07-23 21:55:40] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-23 21:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chromedriver-auto
+[2023-07-23 21:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aa-example-plugin
+[2023-07-23 21:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyntweb
+[2023-07-23 21:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: perceval
+[2023-07-23 21:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: atro-rsync
+[2023-07-23 21:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyGameLab
+[2023-07-23 21:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coola
+[2023-07-23 21:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mobsf
+[2023-07-23 21:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyntweb
+[2023-07-23 21:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spackle-python
+[2023-07-23 21:55:40] INFO root fetch - processPackages [chromedriver-auto]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-23 21:55:40] INFO root fetch - processPackages [pyntweb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-23 21:55:40] INFO root fetch - processPackages [coola]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 21:55:40] INFO root fetch - processPackages [aa-example-plugin]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-23 21:55:40] INFO root fetch - processPackages [pyntweb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-23 21:55:40] INFO root fetch - processPackages [mobsf]: New version: [3.6.9] Old Version: [3.6.0]
+[2023-07-23 21:55:40] INFO root fetch - processPackages [atro-rsync]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-23 21:55:40] INFO root fetch - processPackages [PyGameLab]: New version: [3.2.7] Old Version: [3.2.6]
+[2023-07-23 21:55:40] INFO root fetch - processPackages [spackle-python]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 21:55:40] INFO root fetch - processPackages [pyntweb]: Downloading https://files.pythonhosted.org/packages/2e/55/9fdd0c128f6126b0e1fb8dd2733eec6f7d04710d7d70ee998115c2fa03ef/pyntweb-0.2.8.tar.gz
+[2023-07-23 21:55:40] INFO root fetch - processPackages [perceval]: New version: [0.9.9] Old Version: [0.9.6]
+[2023-07-23 21:55:40] INFO root fetch - processPackages [chromedriver-auto]: Downloading https://files.pythonhosted.org/packages/77/3a/82a0007b772937da17273a53f0cbabe2a538fbfa515e3a12225e29183a76/chromedriver_auto-1.0.8.tar.gz
+[2023-07-23 21:55:40] INFO root fetch - processPackages [pyntweb]: Downloading https://files.pythonhosted.org/packages/2e/55/9fdd0c128f6126b0e1fb8dd2733eec6f7d04710d7d70ee998115c2fa03ef/pyntweb-0.2.8.tar.gz
+[2023-07-23 21:55:40] INFO root fetch - processPackages [coola]: Downloading https://files.pythonhosted.org/packages/ca/0c/e47f7fdc6f34e79ff4ab3b21c0ef7b7f32f62be0255411f914475666fb8c/coola-0.0.8.tar.gz
+[2023-07-23 21:55:40] INFO root fetch - processPackages [perceval]: Downloading https://files.pythonhosted.org/packages/d7/90/1bc49292ae0ff57deb9e110f70d4e23657da2094a72223ea201da14c223b/perceval-0.9.6.tar.gz
+[2023-07-23 21:55:40] INFO root fetch - processPackages [spackle-python]: Downloading https://files.pythonhosted.org/packages/57/88/4023c9855de01dc879534c23667e591ffe69724097b1d9fb6e2e8ee94603/spackle-python-0.0.8.tar.gz
+[2023-07-23 21:55:40] INFO root fetch - processPackages [aa-example-plugin]: Downloading https://files.pythonhosted.org/packages/65/6e/bd5b33414f8fbdd97923ff8256f1a0e2685516dc4c968454482065b40457/aa_example_plugin-0.0.5.tar.gz
+[2023-07-23 21:55:40] INFO root fetch - processPackages [PyGameLab]: Downloading https://files.pythonhosted.org/packages/25/21/638a00a6794324e4f4b0bdffdf5d88ec9d76dd331366fe8ff99a29e02c37/PyGameLab-3.2.6.tar.gz
+[2023-07-23 21:55:40] INFO root fetch - processPackages [atro-rsync]: Downloading https://files.pythonhosted.org/packages/0b/c1/c66e784ce06a07d5c71dea846d3394a788ab2d6148bdaae823ff3f62b409/atro_rsync-0.1.0.tar.gz
+[2023-07-23 21:55:41] INFO root fetch - processPackages [mobsf]: Downloading https://files.pythonhosted.org/packages/e5/b7/250c90d745cbf0ba2b58a1d6edcb0594e3bbc6fd0b63352ab8199eff5b77/mobsf-3.6.0.tar.gz
+[2023-07-23 21:55:41] INFO root fetch - processPackages [chromedriver-auto]: Downloading https://files.pythonhosted.org/packages/09/55/69e53f65150687c8f6b53394c618bc059a720d4ee0d30ccf3dc281c23c7f/chromedriver_auto-1.0.9.tar.gz
+[2023-07-23 21:55:41] INFO root fetch - processPackages [coola]: Downloading https://files.pythonhosted.org/packages/67/49/16dce5b5e529dd9625489d79e8f5d3f192bb6a514bfb92247ce5198fda1a/coola-0.0.9.tar.gz
+[2023-07-23 21:55:41] INFO root fetch - processPackages [pyntweb]: Downloading https://files.pythonhosted.org/packages/68/76/9710407be69a495a5e8f803078c9a0974413ebeb4f49e1bf7b63684a43bd/pyntweb-0.2.9.tar.gz
+[2023-07-23 21:55:41] INFO root fetch - processPackages [pyntweb]: Downloading https://files.pythonhosted.org/packages/68/76/9710407be69a495a5e8f803078c9a0974413ebeb4f49e1bf7b63684a43bd/pyntweb-0.2.9.tar.gz
+[2023-07-23 21:55:41] INFO root fetch - processPackages [chromedriver-auto]: executing diffoscope
+[2023-07-23 21:55:41] INFO root fetch - processPackages [chromedriver-auto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver_auto-1.0.8.tar.gz tmp/chromedriver_auto-1.0.9.tar.gz --markdown 20230723/c/chromedriver-auto/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-23 21:55:41] INFO root fetch - processPackages [spackle-python]: Downloading https://files.pythonhosted.org/packages/f0/2d/52773c91a5eb9ccc9fb565d2125cb5f794cec46c1c7750cf4b0fb9df94ad/spackle-python-0.0.9.tar.gz
+[2023-07-23 21:55:41] INFO root fetch - processPackages [perceval]: Downloading https://files.pythonhosted.org/packages/dc/90/58dacc04ea0df998da783850425882982c9710d459b2cba75540de045a50/perceval-0.9.9.tar.gz
+[2023-07-23 21:55:41] INFO root fetch - processPackages [coola]: executing diffoscope
+[2023-07-23 21:55:41] INFO root fetch - processPackages [coola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coola-0.0.8.tar.gz tmp/coola-0.0.9.tar.gz --markdown 20230723/c/coola/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 21:55:41] INFO root fetch - processPackages [pyntweb]: executing diffoscope
+[2023-07-23 21:55:41] INFO root fetch - processPackages [pyntweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyntweb-0.2.8.tar.gz tmp/pyntweb-0.2.9.tar.gz --markdown 20230723/p/pyntweb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-23 21:55:41] INFO root fetch - processPackages [PyGameLab]: Downloading https://files.pythonhosted.org/packages/1e/aa/5f5eb2c14f44debdda80792dba1c7334e265c0a71cf7d91a05e94b3945db/PyGameLab-3.2.7.tar.gz
+[2023-07-23 21:55:41] INFO root fetch - processPackages [aa-example-plugin]: Downloading https://files.pythonhosted.org/packages/ea/9a/62bd310c7940f46b2ff8c06ad5a35e796876d648473d37899e0983bd5eb1/aa_example_plugin-0.0.6.tar.gz
+[2023-07-23 21:55:41] INFO root fetch - processPackages [pyntweb]: executing diffoscope
+[2023-07-23 21:55:41] INFO root fetch - processPackages [atro-rsync]: Downloading https://files.pythonhosted.org/packages/60/ec/1762c58dd3fc95067d8989d13ac11c90816237b90cf89ff5a6b94ddcf223/atro_rsync-0.2.0.tar.gz
+[2023-07-23 21:55:41] INFO root fetch - processPackages [pyntweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyntweb-0.2.8.tar.gz tmp/pyntweb-0.2.9.tar.gz --markdown 20230723/p/pyntweb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-23 21:55:41] INFO root fetch - processPackages [PyGameLab]: executing diffoscope
+[2023-07-23 21:55:41] INFO root fetch - processPackages [PyGameLab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyGameLab-3.2.6.tar.gz tmp/PyGameLab-3.2.7.tar.gz --markdown 20230723/P/PyGameLab/3.2.6-3.2.7/diff.md --exclude *.pyd
+[2023-07-23 21:55:41] INFO root fetch - processPackages [atro-rsync]: executing diffoscope
+[2023-07-23 21:55:41] INFO root fetch - processPackages [atro-rsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atro_rsync-0.1.0.tar.gz tmp/atro_rsync-0.2.0.tar.gz --markdown 20230723/a/atro-rsync/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-23 21:55:41] INFO root fetch - processPackages [aa-example-plugin]: executing diffoscope
+[2023-07-23 21:55:41] INFO root fetch - processPackages [aa-example-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa_example_plugin-0.0.5.tar.gz tmp/aa_example_plugin-0.0.6.tar.gz --markdown 20230723/a/aa-example-plugin/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-23 21:55:41] INFO root fetch - processPackages [spackle-python]: executing diffoscope
+[2023-07-23 21:55:41] INFO root fetch - processPackages [spackle-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spackle-python-0.0.8.tar.gz tmp/spackle-python-0.0.9.tar.gz --markdown 20230723/s/spackle-python/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 21:55:41] INFO root fetch - processPackages [perceval]: executing diffoscope
+[2023-07-23 21:55:41] INFO root fetch - processPackages [perceval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval-0.9.6.tar.gz tmp/perceval-0.9.9.tar.gz --markdown 20230723/p/perceval/0.9.6-0.9.9/diff.md --exclude *.pyd
+[2023-07-23 21:55:41] WARNING root fetch - processPackages [mobsf]: Skipping package: exceeds size limit 84259675>=10485760
+[2023-07-23 21:55:41] INFO root fetch - processPackages [mobsf]: Start processing: fastdup
+[2023-07-23 21:55:41] INFO root fetch - main [MainThread]: End processing [mobsf] error
+[2023-07-23 21:55:41] INFO root fetch - processPackages [fastdup]: New version: [1.30] Old Version: [1.29]
+[2023-07-23 21:55:42] INFO root fetch - processPackages [fastdup]: Downloading https://files.pythonhosted.org/packages/52/4a/10d019752a7e7dda9220f2f0eb63bd1617932e1b3880763803cc514149a4/fastdup-1.29-cp39-cp39-manylinux_2_31_x86_64.whl
+[2023-07-23 21:55:42] WARNING root fetch - processPackages [fastdup]: Skipping package: exceeds size limit 75144075>=10485760
+[2023-07-23 21:55:42] INFO root fetch - processPackages [fastdup]: Start processing: getajob
+[2023-07-23 21:55:42] INFO root fetch - main [MainThread]: End processing [fastdup] error
+[2023-07-23 21:55:42] INFO root fetch - processPackages [getajob]: New version: [0.4.0] Old Version: [0.3.5]
+[2023-07-23 21:55:42] INFO root fetch - processPackages [getajob]: Downloading https://files.pythonhosted.org/packages/16/fc/b955eb9700b2ed272321c76e083c95cb1fa9e04441608449bcfaa4abb85c/getajob-0.3.5.tar.gz
+[2023-07-23 21:55:42] INFO root fetch - processPackages [chromedriver-auto]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver_auto-1.0.8.tar.gz]
+[2023-07-23 21:55:42] INFO root fetch - processPackages [chromedriver-auto]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver_auto-1.0.9.tar.gz]
+[2023-07-23 21:55:42] INFO root fetch - processPackages [chromedriver-auto]: Start processing: atro-args
+[2023-07-23 21:55:42] INFO root fetch - main [MainThread]: End processing [chromedriver-auto]: success
+[2023-07-23 21:55:42] INFO root fetch - processPackages [atro-args]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-23 21:55:42] INFO root fetch - processPackages [atro-args]: Downloading https://files.pythonhosted.org/packages/45/9c/ff85530fb6b4f41561e20250cf885dc4ec228676302edb9092311675844b/atro_args-0.2.0.tar.gz
+[2023-07-23 21:55:42] INFO root fetch - processPackages [getajob]: Downloading https://files.pythonhosted.org/packages/e9/1a/39a276812417b6ea5eef3540d91daecc8080b84019013afdb9cb7f7e70a4/getajob-0.4.0.tar.gz
+[2023-07-23 21:55:42] INFO root fetch - processPackages [coola]: Remove: archive file [/home/abi/fetcher/tmp/coola-0.0.8.tar.gz]
+[2023-07-23 21:55:42] INFO root fetch - processPackages [coola]: Remove: archive file [/home/abi/fetcher/tmp/coola-0.0.9.tar.gz]
+[2023-07-23 21:55:42] INFO root fetch - processPackages [coola]: Start processing: sortinghat
+[2023-07-23 21:55:42] INFO root fetch - main [MainThread]: End processing [coola]: success
+[2023-07-23 21:55:42] INFO root fetch - processPackages [spackle-python]: Remove: archive file [/home/abi/fetcher/tmp/spackle-python-0.0.8.tar.gz]
+[2023-07-23 21:55:42] INFO root fetch - processPackages [spackle-python]: Remove: archive file [/home/abi/fetcher/tmp/spackle-python-0.0.9.tar.gz]
+[2023-07-23 21:55:42] INFO root fetch - processPackages [spackle-python]: Start processing: pyntweb
+[2023-07-23 21:55:42] INFO root fetch - main [MainThread]: End processing [spackle-python]: success
+[2023-07-23 21:55:43] INFO root fetch - processPackages [sortinghat]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-23 21:55:43] INFO root fetch - processPackages [getajob]: executing diffoscope
+[2023-07-23 21:55:43] INFO root fetch - processPackages [getajob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getajob-0.3.5.tar.gz tmp/getajob-0.4.0.tar.gz --markdown 20230723/g/getajob/0.3.5-0.4.0/diff.md --exclude *.pyd
+[2023-07-23 21:55:43] INFO root fetch - processPackages [pyntweb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-23 21:55:43] INFO root fetch - processPackages [sortinghat]: Downloading https://files.pythonhosted.org/packages/bc/5f/6c2f1cc8dbcea9a7a68f7df7943d4f8d673c667918c3c1482666d9d63d5b/sortinghat-0.9.2.tar.gz
+[2023-07-23 21:55:43] INFO root fetch - processPackages [atro-rsync]: Remove: archive file [/home/abi/fetcher/tmp/atro_rsync-0.1.0.tar.gz]
+[2023-07-23 21:55:43] INFO root fetch - processPackages [atro-rsync]: Remove: archive file [/home/abi/fetcher/tmp/atro_rsync-0.2.0.tar.gz]
+[2023-07-23 21:55:43] INFO root fetch - processPackages [atro-rsync]: Start processing: photondemo
+[2023-07-23 21:55:43] INFO root fetch - main [MainThread]: End processing [atro-rsync]: success
+[2023-07-23 21:55:43] INFO root fetch - processPackages [pyntweb]: Remove: archive file [/home/abi/fetcher/tmp/pyntweb-0.2.8.tar.gz]
+[2023-07-23 21:55:43] INFO root fetch - processPackages [pyntweb]: Remove: archive file [/home/abi/fetcher/tmp/pyntweb-0.2.9.tar.gz]
+[2023-07-23 21:55:43] INFO root fetch - processPackages [pyntweb]: Start processing: perceval-puppet
+[2023-07-23 21:55:43] INFO root fetch - main [MainThread]: End processing [pyntweb]: success
+[2023-07-23 21:55:43] INFO root fetch - processPackages [photondemo]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-23 21:55:43] INFO root fetch - processPackages [aa-example-plugin]: Remove: archive file [/home/abi/fetcher/tmp/aa_example_plugin-0.0.5.tar.gz]
+[2023-07-23 21:55:43] INFO root fetch - processPackages [aa-example-plugin]: Remove: archive file [/home/abi/fetcher/tmp/aa_example_plugin-0.0.6.tar.gz]
+[2023-07-23 21:55:43] INFO root fetch - main [MainThread]: End processing [aa-example-plugin]: success
+[2023-07-23 21:55:43] INFO root fetch - processPackages [perceval-puppet]: New version: [0.2.9] Old Version: [0.2.8rc2]
+[2023-07-23 21:55:43] INFO root fetch - processPackages [pyntweb]: Downloading https://files.pythonhosted.org/packages/2e/55/9fdd0c128f6126b0e1fb8dd2733eec6f7d04710d7d70ee998115c2fa03ef/pyntweb-0.2.8.tar.gz
+[2023-07-23 21:55:43] INFO root fetch - processPackages [atro-args]: Downloading https://files.pythonhosted.org/packages/fb/b4/4131fb11d0e8d8f0ab29253067ef3fa213e8aac081edb311b6ede129f79a/atro_args-0.2.1.tar.gz
+[2023-07-23 21:55:43] INFO root fetch - main [MainThread]: End processing [pyntweb]: success
+[2023-07-23 21:55:43] INFO root fetch - processPackages [PyGameLab]: Remove: archive file [/home/abi/fetcher/tmp/PyGameLab-3.2.6.tar.gz]
+[2023-07-23 21:55:43] INFO root fetch - processPackages [PyGameLab]: Remove: archive file [/home/abi/fetcher/tmp/PyGameLab-3.2.7.tar.gz]
+[2023-07-23 21:55:43] INFO root fetch - main [MainThread]: End processing [PyGameLab]: success
+[2023-07-23 21:55:43] INFO root fetch - processPackages [photondemo]: Downloading https://files.pythonhosted.org/packages/3d/d9/1446c0e183c941c5f6149762f8680c598de7e069fcaf9e3048e973a45a81/photondemo-0.0.5.tar.gz
+[2023-07-23 21:55:43] INFO root fetch - processPackages [perceval-puppet]: Downloading https://files.pythonhosted.org/packages/4c/a1/f3ab5541113a366757b9481d62f38c8459015a3fa1e025fa1e0b6bf53ab0/perceval_puppet-0.2.8rc2.tar.gz
+[2023-07-23 21:55:43] INFO root fetch - processPackages [atro-args]: executing diffoscope
+[2023-07-23 21:55:43] INFO root fetch - processPackages [atro-args]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atro_args-0.2.0.tar.gz tmp/atro_args-0.2.1.tar.gz --markdown 20230723/a/atro-args/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-23 21:55:43] INFO root fetch - processPackages [pyntweb]: Downloading https://files.pythonhosted.org/packages/68/76/9710407be69a495a5e8f803078c9a0974413ebeb4f49e1bf7b63684a43bd/pyntweb-0.2.9.tar.gz
+[2023-07-23 21:55:43] INFO root fetch - processPackages [photondemo]: Downloading https://files.pythonhosted.org/packages/45/1d/b38ddd5d99aa7770c56139606ad2c68b1ea742faf3d9cbf6a7ee64fe9e45/photondemo-0.0.6.tar.gz
+[2023-07-23 21:55:43] INFO root fetch - processPackages [pyntweb]: executing diffoscope
+[2023-07-23 21:55:43] INFO root fetch - processPackages [pyntweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyntweb-0.2.8.tar.gz tmp/pyntweb-0.2.9.tar.gz --markdown 20230723/p/pyntweb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-23 21:55:43] INFO root fetch - processPackages [perceval]: Remove: archive file [/home/abi/fetcher/tmp/perceval-0.9.6.tar.gz]
+[2023-07-23 21:55:43] INFO root fetch - processPackages [perceval]: Remove: archive file [/home/abi/fetcher/tmp/perceval-0.9.9.tar.gz]
+[2023-07-23 21:55:43] INFO root fetch - main [MainThread]: End processing [perceval]: success
+[2023-07-23 21:55:43] INFO root fetch - processPackages [photondemo]: executing diffoscope
+[2023-07-23 21:55:43] INFO root fetch - processPackages [photondemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/photondemo-0.0.5.tar.gz tmp/photondemo-0.0.6.tar.gz --markdown 20230723/p/photondemo/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-23 21:55:43] INFO root fetch - processPackages [perceval-puppet]: Downloading https://files.pythonhosted.org/packages/5e/01/7e3d38cb76bd0ac44b7a8512c358c5013e08d53e48fee4ace851c4c95fd8/perceval_puppet-0.2.9.tar.gz
+[2023-07-23 21:55:44] INFO root fetch - processPackages [sortinghat]: Downloading https://files.pythonhosted.org/packages/d5/20/61bac871c1af5992b72b2ccd716054e7fd78f48a47b85864f1d48aca3e26/sortinghat-0.9.3.tar.gz
+[2023-07-23 21:55:44] INFO root fetch - processPackages [perceval-puppet]: executing diffoscope
+[2023-07-23 21:55:44] INFO root fetch - processPackages [perceval-puppet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_puppet-0.2.8rc2.tar.gz tmp/perceval_puppet-0.2.9.tar.gz --markdown 20230723/p/perceval-puppet/0.2.8rc2-0.2.9/diff.md --exclude *.pyd
+[2023-07-23 21:55:44] INFO root fetch - processPackages [atro-args]: Remove: archive file [/home/abi/fetcher/tmp/atro_args-0.2.0.tar.gz]
+[2023-07-23 21:55:44] INFO root fetch - processPackages [atro-args]: Remove: archive file [/home/abi/fetcher/tmp/atro_args-0.2.1.tar.gz]
+[2023-07-23 21:55:44] INFO root fetch - main [MainThread]: End processing [atro-args]: success
+[2023-07-23 21:55:44] INFO root fetch - processPackages [pyntweb]: Remove: archive file [/home/abi/fetcher/tmp/pyntweb-0.2.8.tar.gz]
+[2023-07-23 21:55:44] INFO root fetch - processPackages [pyntweb]: Remove: archive file [/home/abi/fetcher/tmp/pyntweb-0.2.9.tar.gz]
+[2023-07-23 21:55:44] INFO root fetch - main [MainThread]: End processing [pyntweb]: success
+[2023-07-23 21:55:44] INFO root fetch - processPackages [getajob]: Remove: archive file [/home/abi/fetcher/tmp/getajob-0.3.5.tar.gz]
+[2023-07-23 21:55:44] INFO root fetch - processPackages [getajob]: Remove: archive file [/home/abi/fetcher/tmp/getajob-0.4.0.tar.gz]
+[2023-07-23 21:55:44] INFO root fetch - main [MainThread]: End processing [getajob]: success
+[2023-07-23 21:55:44] INFO root fetch - processPackages [photondemo]: Remove: archive file [/home/abi/fetcher/tmp/photondemo-0.0.5.tar.gz]
+[2023-07-23 21:55:44] INFO root fetch - processPackages [photondemo]: Remove: archive file [/home/abi/fetcher/tmp/photondemo-0.0.6.tar.gz]
+[2023-07-23 21:55:44] INFO root fetch - main [MainThread]: End processing [photondemo]: success
+[2023-07-23 21:55:44] INFO root fetch - processPackages [sortinghat]: executing diffoscope
+[2023-07-23 21:55:44] INFO root fetch - processPackages [sortinghat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sortinghat-0.9.2.tar.gz tmp/sortinghat-0.9.3.tar.gz --markdown 20230723/s/sortinghat/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-23 21:55:44] INFO root fetch - processPackages [perceval-puppet]: Remove: archive file [/home/abi/fetcher/tmp/perceval_puppet-0.2.8rc2.tar.gz]
+[2023-07-23 21:55:44] INFO root fetch - processPackages [perceval-puppet]: Remove: archive file [/home/abi/fetcher/tmp/perceval_puppet-0.2.9.tar.gz]
+[2023-07-23 21:55:44] INFO root fetch - main [MainThread]: End processing [perceval-puppet]: success
+[2023-07-23 21:55:46] INFO root fetch - processPackages [sortinghat]: Remove: archive file [/home/abi/fetcher/tmp/sortinghat-0.9.2.tar.gz]
+[2023-07-23 21:55:46] INFO root fetch - processPackages [sortinghat]: Remove: archive file [/home/abi/fetcher/tmp/sortinghat-0.9.3.tar.gz]
+[2023-07-23 21:55:46] INFO root fetch - main [MainThread]: End processing [sortinghat]: success
+[2023-07-23 21:55:46] INFO root fetch - main [MainThread]: Store serial: [19004507]
