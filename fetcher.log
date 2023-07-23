@@ -7518,3 +7518,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 13:59:57] INFO root fetch - processPackages [SageLogger]: Remove: archive file [/home/abi/fetcher/tmp/SageLogger-1.3.5.tar.gz]
 [2023-07-23 13:59:57] INFO root fetch - main [MainThread]: End processing [SageLogger]: success
 [2023-07-23 13:59:57] INFO root fetch - main [MainThread]: Store serial: [19001298]
+[2023-07-23 14:05:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19001298]
+[2023-07-23 14:05:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-23 14:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-univer
+[2023-07-23 14:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: palmers-agents-general
+[2023-07-23 14:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: investor8-sdk
+[2023-07-23 14:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bridgeapi
+[2023-07-23 14:05:06] INFO root fetch - processPackages [bridgeapi]: New version: [1.0.0b1] Old Version: [1.0.0b0]
+[2023-07-23 14:05:06] INFO root fetch - processPackages [palmers-agents-general]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 14:05:06] INFO root fetch - processPackages [python-univer]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-07-23 14:05:06] INFO root fetch - processPackages [investor8-sdk]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-23 14:05:06] INFO root fetch - processPackages [python-univer]: Downloading https://files.pythonhosted.org/packages/f8/b4/a9aae9c6f2746cf5698ec495eecb0b00aa67a8eb96218480a4e7cc6ba351/python-univer-1.4.3.tar.gz
+[2023-07-23 14:05:06] INFO root fetch - processPackages [bridgeapi]: Downloading https://files.pythonhosted.org/packages/97/7f/8ba03a0cfde7b0a79c9f91e30b474e8589d152de534d9286b49796aac1e2/bridgeapi-1.0.0b0.tar.gz
+[2023-07-23 14:05:06] INFO root fetch - processPackages [palmers-agents-general]: Downloading https://files.pythonhosted.org/packages/a0/ba/bb9972f2c344a2bfc6289bc81301dc0b876b6cc6c50834a9b71e5b5ffdf4/palmers_agents_general-0.0.8.tar.gz
+[2023-07-23 14:05:06] INFO root fetch - processPackages [investor8-sdk]: Downloading https://files.pythonhosted.org/packages/4f/93/4f42e795761f44181b9a34e8c48115e09ffff0e01e7cf36f9f87b23e3794/investor8-sdk-1.1.98.tar.gz
+[2023-07-23 14:05:06] INFO root fetch - processPackages [python-univer]: Downloading https://files.pythonhosted.org/packages/a5/48/6884fe5eefde3023d98b0e3563fa8edeb47d87b84ab3234338bc8d2d0228/python-univer-1.4.4.tar.gz
+[2023-07-23 14:05:06] INFO root fetch - processPackages [bridgeapi]: Downloading https://files.pythonhosted.org/packages/90/5e/f7066fee6b849de9a78fc04a19aab9f62bebec6eabfe02ac38a7c58b1a16/bridgeapi-1.0.0b1.tar.gz
+[2023-07-23 14:05:06] INFO root fetch - processPackages [python-univer]: executing diffoscope
+[2023-07-23 14:05:06] INFO root fetch - processPackages [python-univer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-univer-1.4.3.tar.gz tmp/python-univer-1.4.4.tar.gz --markdown 20230723/p/python-univer/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-07-23 14:05:06] INFO root fetch - processPackages [investor8-sdk]: Downloading https://files.pythonhosted.org/packages/4b/48/32c4091653e24da2784aed9598743cf6cb3ede09684ee47fa8586b0873df/investor8-sdk-1.1.99.tar.gz
+[2023-07-23 14:05:06] INFO root fetch - processPackages [palmers-agents-general]: Downloading https://files.pythonhosted.org/packages/61/cd/e3e3e79d25eaa13474a77df36729a9c49c52bf78a9aabee81eb71e0e9622/palmers_agents_general-0.0.9.tar.gz
+[2023-07-23 14:05:06] INFO root fetch - processPackages [bridgeapi]: executing diffoscope
+[2023-07-23 14:05:06] INFO root fetch - processPackages [bridgeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgeapi-1.0.0b0.tar.gz tmp/bridgeapi-1.0.0b1.tar.gz --markdown 20230723/b/bridgeapi/1.0.0b0-1.0.0b1/diff.md --exclude *.pyd
+[2023-07-23 14:05:06] INFO root fetch - processPackages [palmers-agents-general]: executing diffoscope
+[2023-07-23 14:05:06] INFO root fetch - processPackages [palmers-agents-general]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palmers_agents_general-0.0.8.tar.gz tmp/palmers_agents_general-0.0.9.tar.gz --markdown 20230723/p/palmers-agents-general/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 14:05:06] INFO root fetch - processPackages [investor8-sdk]: executing diffoscope
+[2023-07-23 14:05:06] INFO root fetch - processPackages [investor8-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/investor8-sdk-1.1.98.tar.gz tmp/investor8-sdk-1.1.99.tar.gz --markdown 20230723/i/investor8-sdk/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-23 14:05:07] INFO root fetch - processPackages [palmers-agents-general]: Remove: archive file [/home/abi/fetcher/tmp/palmers_agents_general-0.0.8.tar.gz]
+[2023-07-23 14:05:07] INFO root fetch - processPackages [palmers-agents-general]: Remove: archive file [/home/abi/fetcher/tmp/palmers_agents_general-0.0.9.tar.gz]
+[2023-07-23 14:05:07] INFO root fetch - main [MainThread]: End processing [palmers-agents-general]: success
+[2023-07-23 14:05:07] INFO root fetch - processPackages [python-univer]: Remove: archive file [/home/abi/fetcher/tmp/python-univer-1.4.3.tar.gz]
+[2023-07-23 14:05:07] INFO root fetch - processPackages [python-univer]: Remove: archive file [/home/abi/fetcher/tmp/python-univer-1.4.4.tar.gz]
+[2023-07-23 14:05:07] INFO root fetch - main [MainThread]: End processing [python-univer]: success
+[2023-07-23 14:05:07] INFO root fetch - processPackages [bridgeapi]: Remove: archive file [/home/abi/fetcher/tmp/bridgeapi-1.0.0b0.tar.gz]
+[2023-07-23 14:05:07] INFO root fetch - processPackages [bridgeapi]: Remove: archive file [/home/abi/fetcher/tmp/bridgeapi-1.0.0b1.tar.gz]
+[2023-07-23 14:05:07] INFO root fetch - main [MainThread]: End processing [bridgeapi]: success
+[2023-07-23 14:05:08] INFO root fetch - processPackages [investor8-sdk]: Remove: archive file [/home/abi/fetcher/tmp/investor8-sdk-1.1.98.tar.gz]
+[2023-07-23 14:05:08] INFO root fetch - processPackages [investor8-sdk]: Remove: archive file [/home/abi/fetcher/tmp/investor8-sdk-1.1.99.tar.gz]
+[2023-07-23 14:05:08] INFO root fetch - main [MainThread]: End processing [investor8-sdk]: success
+[2023-07-23 14:05:08] INFO root fetch - main [MainThread]: Store serial: [19001308]
