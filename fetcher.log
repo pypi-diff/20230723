@@ -14649,3 +14649,102 @@ AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
 [2023-07-23 22:17:37] INFO root fetch - processPackages [pydeps]: Remove: archive file [/home/abi/fetcher/tmp/pydeps-1.9.9.tar.gz]
 [2023-07-23 22:17:37] INFO root fetch - main [MainThread]: End processing [pydeps]: success
 [2023-07-23 22:17:37] INFO root fetch - main [MainThread]: Store serial: [19004622]
+[2023-07-23 22:22:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19004622]
+[2023-07-23 22:22:46] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-23 22:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MedicalImageConverter
+[2023-07-23 22:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hedges
+[2023-07-23 22:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sphinx-readme
+[2023-07-23 22:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zomboid-rcon
+[2023-07-23 22:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spanishconjugator
+[2023-07-23 22:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mynacode
+[2023-07-23 22:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: photondemo
+[2023-07-23 22:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spanishconjugator
+[2023-07-23 22:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: utilki
+[2023-07-23 22:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: feynml
+[2023-07-23 22:22:46] INFO root fetch - processPackages [photondemo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 22:22:46] INFO root fetch - processPackages [MedicalImageConverter]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-23 22:22:46] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-23 22:22:46] INFO root fetch - processPackages [hedges]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2023-07-23 22:22:46] INFO root fetch - processPackages [sphinx-readme]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-23 22:22:46] INFO root fetch - processPackages [feynml]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-23 22:22:46] INFO root fetch - processPackages [zomboid-rcon]: New version: [1.0.0] Old Version: [0.2.4]
+[2023-07-23 22:22:46] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-23 22:22:46] INFO root fetch - processPackages [utilki]: New version: [0.6.4] Old Version: [0.6.2]
+[2023-07-23 22:22:46] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-23 22:22:46] INFO root fetch - processPackages [sphinx-readme]: Downloading https://files.pythonhosted.org/packages/b8/a6/aa9330c7b7be5312be200c26435495d0020cfa3ce42143e47a9421262762/sphinx-readme-0.2.0.tar.gz
+[2023-07-23 22:22:46] INFO root fetch - processPackages [photondemo]: Downloading https://files.pythonhosted.org/packages/0a/6d/7932cd610a0541b76d781bb7f7bdd31d7a2f5dd2384d1eac4c2f87af88f3/photondemo-0.0.8.tar.gz
+[2023-07-23 22:22:46] INFO root fetch - processPackages [MedicalImageConverter]: Downloading https://files.pythonhosted.org/packages/a4/dd/4e376a4dc92164d5ac4448c1af559ac91a390bc12475a1fb79f050582769/MedicalImageConverter-1.0.8.tar.gz
+[2023-07-23 22:22:46] INFO root fetch - processPackages [zomboid-rcon]: Downloading https://files.pythonhosted.org/packages/0b/72/d6e0759844cedbe7b96be758ac272f2cd6f6cd7b79fcea2630042d71dcf6/zomboid_rcon-0.2.4.tar.gz
+[2023-07-23 22:22:46] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-23 22:22:46] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-23 22:22:47] INFO root fetch - processPackages [feynml]: Downloading https://files.pythonhosted.org/packages/16/ae/d0c1c7a3f447c7b4a5d5fbc47cd9f619fefe33452e5415b6fb4fc28270d4/feynml-0.2.4.tar.gz
+[2023-07-23 22:22:47] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-23 22:22:47] INFO root fetch - processPackages [utilki]: Downloading https://files.pythonhosted.org/packages/d5/e8/d04fe2e3d99facf78ccce159d5a5a58a166e31eebe85c19aea7f3885993d/utilki-0.6.2.tar.gz
+[2023-07-23 22:22:47] INFO root fetch - processPackages [hedges]: Downloading https://files.pythonhosted.org/packages/c8/ac/954196d46e76686302502e24d235796cca6723c6ead400405f3354227e5e/hedges-0.0.1a2.tar.gz
+[2023-07-23 22:22:47] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-23 22:22:47] INFO root fetch - processPackages [photondemo]: Downloading https://files.pythonhosted.org/packages/2f/9e/40812f7ad1e8f5454f4c951d1ed05c6cb8c153661e3ca9c0592c6603a2e0/photondemo-0.0.9.tar.gz
+[2023-07-23 22:22:47] INFO root fetch - processPackages [hedges]: executing diffoscope
+[2023-07-23 22:22:47] INFO root fetch - processPackages [hedges]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hedges-0.0.1a1.tar.gz tmp/hedges-0.0.1a2.tar.gz --markdown 20230723/h/hedges/0.0.1a1-0.0.1a2/diff.md --exclude *.pyd
+[2023-07-23 22:22:47] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-23 22:22:47] INFO root fetch - processPackages [MedicalImageConverter]: Downloading https://files.pythonhosted.org/packages/d4/80/a3104beef80de222a39f2f2c007cae8e672e149ca8e35218e5f32c1ef42a/MedicalImageConverter-1.0.9.tar.gz
+[2023-07-23 22:22:47] INFO root fetch - processPackages [sphinx-readme]: Downloading https://files.pythonhosted.org/packages/f5/91/052ded97dc284700adeaf962a5321c6e8c3c23d9ce55d06af875dbbdea37/sphinx-readme-0.2.1.tar.gz
+[2023-07-23 22:22:47] INFO root fetch - processPackages [zomboid-rcon]: Downloading https://files.pythonhosted.org/packages/2c/0c/23fb90079b7b3059811be6628970bef6079133b9c608d6552dcb7ddf4792/zomboid_rcon-1.0.0.tar.gz
+[2023-07-23 22:22:47] INFO root fetch - processPackages [feynml]: Downloading https://files.pythonhosted.org/packages/b9/2c/d65b670c258eaafca65b69c5e3883120b45ca0053a1fee731923a5acfd4b/feynml-0.2.5.tar.gz
+[2023-07-23 22:22:47] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-23 22:22:47] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230723/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-23 22:22:47] INFO root fetch - processPackages [utilki]: Downloading https://files.pythonhosted.org/packages/c0/fc/4c00196ab285a9c99d71ae47fc4073d82c110e59cc634d169694df03fd2f/utilki-0.6.4.tar.gz
+[2023-07-23 22:22:47] INFO root fetch - processPackages [photondemo]: executing diffoscope
+[2023-07-23 22:22:47] INFO root fetch - processPackages [photondemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/photondemo-0.0.8.tar.gz tmp/photondemo-0.0.9.tar.gz --markdown 20230723/p/photondemo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 22:22:47] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-23 22:22:47] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230723/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-23 22:22:47] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-23 22:22:47] INFO root fetch - processPackages [sphinx-readme]: executing diffoscope
+[2023-07-23 22:22:47] INFO root fetch - processPackages [sphinx-readme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-readme-0.2.0.tar.gz tmp/sphinx-readme-0.2.1.tar.gz --markdown 20230723/s/sphinx-readme/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-23 22:22:47] INFO root fetch - processPackages [MedicalImageConverter]: executing diffoscope
+[2023-07-23 22:22:47] INFO root fetch - processPackages [MedicalImageConverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MedicalImageConverter-1.0.8.tar.gz tmp/MedicalImageConverter-1.0.9.tar.gz --markdown 20230723/M/MedicalImageConverter/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-23 22:22:47] INFO root fetch - processPackages [utilki]: executing diffoscope
+[2023-07-23 22:22:47] INFO root fetch - processPackages [utilki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utilki-0.6.2.tar.gz tmp/utilki-0.6.4.tar.gz --markdown 20230723/u/utilki/0.6.2-0.6.4/diff.md --exclude *.pyd
+[2023-07-23 22:22:47] INFO root fetch - processPackages [zomboid-rcon]: executing diffoscope
+[2023-07-23 22:22:47] INFO root fetch - processPackages [zomboid-rcon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zomboid_rcon-0.2.4.tar.gz tmp/zomboid_rcon-1.0.0.tar.gz --markdown 20230723/z/zomboid-rcon/0.2.4-1.0.0/diff.md --exclude *.pyd
+[2023-07-23 22:22:47] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-23 22:22:47] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230723/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-23 22:22:47] INFO root fetch - processPackages [feynml]: executing diffoscope
+[2023-07-23 22:22:47] INFO root fetch - processPackages [feynml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feynml-0.2.4.tar.gz tmp/feynml-0.2.5.tar.gz --markdown 20230723/f/feynml/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-23 22:22:48] INFO root fetch - processPackages [hedges]: Remove: archive file [/home/abi/fetcher/tmp/hedges-0.0.1a1.tar.gz]
+[2023-07-23 22:22:48] INFO root fetch - processPackages [hedges]: Remove: archive file [/home/abi/fetcher/tmp/hedges-0.0.1a2.tar.gz]
+[2023-07-23 22:22:48] INFO root fetch - processPackages [hedges]: Start processing: gandai
+[2023-07-23 22:22:48] INFO root fetch - main [MainThread]: End processing [hedges]: success
+[2023-07-23 22:22:48] INFO root fetch - processPackages [gandai]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-07-23 22:22:48] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/f2/96/bb2ba0b436ed442fb5cfdc3375ae397c22412ef992d35981d8abb04d2b3e/gandai-1.2.0.tar.gz
+[2023-07-23 22:22:49] INFO root fetch - processPackages [photondemo]: Remove: archive file [/home/abi/fetcher/tmp/photondemo-0.0.8.tar.gz]
+[2023-07-23 22:22:49] INFO root fetch - processPackages [photondemo]: Remove: archive file [/home/abi/fetcher/tmp/photondemo-0.0.9.tar.gz]
+[2023-07-23 22:22:49] INFO root fetch - main [MainThread]: End processing [photondemo]: success
+[2023-07-23 22:22:49] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/f1/4c/d15d7f8348b868edb3037c6c01cf9f56c9416a7bf94b286e0d95779c95ed/gandai-1.3.0.tar.gz
+[2023-07-23 22:22:49] INFO root fetch - processPackages [gandai]: executing diffoscope
+[2023-07-23 22:22:49] INFO root fetch - processPackages [gandai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gandai-1.2.0.tar.gz tmp/gandai-1.3.0.tar.gz --markdown 20230723/g/gandai/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-07-23 22:22:49] INFO root fetch - processPackages [utilki]: Remove: archive file [/home/abi/fetcher/tmp/utilki-0.6.2.tar.gz]
+[2023-07-23 22:22:49] INFO root fetch - processPackages [utilki]: Remove: archive file [/home/abi/fetcher/tmp/utilki-0.6.4.tar.gz]
+[2023-07-23 22:22:49] INFO root fetch - main [MainThread]: End processing [utilki]: success
+[2023-07-23 22:22:49] INFO root fetch - processPackages [sphinx-readme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-readme-0.2.0.tar.gz]
+[2023-07-23 22:22:49] INFO root fetch - processPackages [sphinx-readme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-readme-0.2.1.tar.gz]
+[2023-07-23 22:22:49] INFO root fetch - main [MainThread]: End processing [sphinx-readme]: success
+[2023-07-23 22:22:49] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-23 22:22:49] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-23 22:22:49] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-23 22:22:49] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-07-23 22:22:49] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-23 22:22:49] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-07-23 22:22:49] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-23 22:22:49] INFO root fetch - processPackages [MedicalImageConverter]: Remove: archive file [/home/abi/fetcher/tmp/MedicalImageConverter-1.0.8.tar.gz]
+[2023-07-23 22:22:49] INFO root fetch - processPackages [MedicalImageConverter]: Remove: archive file [/home/abi/fetcher/tmp/MedicalImageConverter-1.0.9.tar.gz]
+[2023-07-23 22:22:49] INFO root fetch - main [MainThread]: End processing [MedicalImageConverter]: success
+[2023-07-23 22:22:49] INFO root fetch - processPackages [feynml]: Remove: archive file [/home/abi/fetcher/tmp/feynml-0.2.4.tar.gz]
+[2023-07-23 22:22:49] INFO root fetch - processPackages [feynml]: Remove: archive file [/home/abi/fetcher/tmp/feynml-0.2.5.tar.gz]
+[2023-07-23 22:22:49] INFO root fetch - main [MainThread]: End processing [feynml]: success
+[2023-07-23 22:22:49] INFO root fetch - processPackages [zomboid-rcon]: Remove: archive file [/home/abi/fetcher/tmp/zomboid_rcon-0.2.4.tar.gz]
+[2023-07-23 22:22:49] INFO root fetch - processPackages [zomboid-rcon]: Remove: archive file [/home/abi/fetcher/tmp/zomboid_rcon-1.0.0.tar.gz]
+[2023-07-23 22:22:49] INFO root fetch - main [MainThread]: End processing [zomboid-rcon]: success
+[2023-07-23 22:22:50] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.2.0.tar.gz]
+[2023-07-23 22:22:50] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.3.0.tar.gz]
+[2023-07-23 22:22:50] INFO root fetch - main [MainThread]: End processing [gandai]: success
+[2023-07-23 22:22:50] INFO root fetch - main [MainThread]: Store serial: [19004660]
