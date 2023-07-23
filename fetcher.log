@@ -8885,3 +8885,30 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 15:37:19] INFO root fetch - processPackages [quantflow]: Remove: archive file [/home/abi/fetcher/tmp/quantflow-0.2.4.tar.gz]
 [2023-07-23 15:37:19] INFO root fetch - main [MainThread]: End processing [quantflow]: success
 [2023-07-23 15:37:19] INFO root fetch - main [MainThread]: Store serial: [19001992]
+[2023-07-23 15:42:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19001992]
+[2023-07-23 15:42:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-23 15:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tightbinder
+[2023-07-23 15:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tightbinder
+[2023-07-23 15:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stigg-api-client
+[2023-07-23 15:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stigg-api-client-v2
+[2023-07-23 15:42:28] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.499.0]
+[2023-07-23 15:42:28] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [0.499.0] Old Version: [0.496.0]
+[2023-07-23 15:42:28] WARNING root fetch - processPackages [tightbinder]: Skipping, unable to determine old version
+[2023-07-23 15:42:28] INFO root fetch - main [MainThread]: End processing [tightbinder] error
+[2023-07-23 15:42:28] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/e2/69/ac230affc44a7aee6b5c2c189c9c9251feba17cef543e219d1db0bd17846/stigg_api_client-0.499.0.tar.gz
+[2023-07-23 15:42:28] WARNING root fetch - processPackages [tightbinder]: Skipping, unable to determine old version
+[2023-07-23 15:42:28] INFO root fetch - main [MainThread]: End processing [tightbinder] error
+[2023-07-23 15:42:28] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/2d/2a/13396681ef34516a2bd7bfd5ebad19ee66311d903adc01607c5271d73e09/stigg_api_client_v2-0.496.0.tar.gz
+[2023-07-23 15:42:28] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/6f/d2/ae3138d8e73b06a33bdd8d29d234ac4387d7bf23217c13b557d497089bbf/stigg_api_client-0.5.0.tar.gz
+[2023-07-23 15:42:28] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/8f/e3/dd787891ca23b128a2f419549349030edea426495c1ec21b01106df7d7ae/stigg_api_client_v2-0.499.0.tar.gz
+[2023-07-23 15:42:28] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-07-23 15:42:28] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.499.0.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230723/s/stigg-api-client/0.499.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-23 15:42:28] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2023-07-23 15:42:28] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-0.496.0.tar.gz tmp/stigg_api_client_v2-0.499.0.tar.gz --markdown 20230723/s/stigg-api-client-v2/0.496.0-0.499.0/diff.md --exclude *.pyd
+[2023-07-23 15:42:29] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.499.0.tar.gz]
+[2023-07-23 15:42:29] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.5.0.tar.gz]
+[2023-07-23 15:42:29] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-07-23 15:42:29] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.496.0.tar.gz]
+[2023-07-23 15:42:29] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.499.0.tar.gz]
+[2023-07-23 15:42:29] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2023-07-23 15:42:29] INFO root fetch - main [MainThread]: Store serial: [19002011]
