@@ -7189,3 +7189,60 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 13:28:43] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.7.22-py39-none-any.whl.zip]
 [2023-07-23 13:28:43] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
 [2023-07-23 13:28:43] INFO root fetch - main [MainThread]: Store serial: [19001148]
+[2023-07-23 13:33:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19001148]
+[2023-07-23 13:33:51] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-23 13:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: redsession
+[2023-07-23 13:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easy-liftover
+[2023-07-23 13:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omnata-plugin-runtime
+[2023-07-23 13:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SageLogger
+[2023-07-23 13:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: universi
+[2023-07-23 13:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyquizrd
+[2023-07-23 13:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: seagoat
+[2023-07-23 13:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: global-inflation-analyser
+[2023-07-23 13:33:52] INFO root fetch - processPackages [redsession]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-23 13:33:52] INFO root fetch - processPackages [universi]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-07-23 13:33:52] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-23 13:33:52] ERROR root fetch - processPackages [easy-liftover]: Unable to get metadata: No such project 'easy-liftover'
+[2023-07-23 13:33:52] INFO root fetch - main [MainThread]: End processing [easy-liftover] error
+[2023-07-23 13:33:52] INFO root fetch - processPackages [pyquizrd]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-23 13:33:52] WARNING root fetch - processPackages [SageLogger]: Skipping, unable to determine old version
+[2023-07-23 13:33:52] WARNING root fetch - processPackages [global-inflation-analyser]: Skipping, unable to determine old version
+[2023-07-23 13:33:52] INFO root fetch - main [MainThread]: End processing [SageLogger] error
+[2023-07-23 13:33:52] INFO root fetch - main [MainThread]: End processing [global-inflation-analyser] error
+[2023-07-23 13:33:52] INFO root fetch - processPackages [seagoat]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-07-23 13:33:52] INFO root fetch - processPackages [pyquizrd]: Downloading https://files.pythonhosted.org/packages/8d/50/9f8c0cdc999397b790118d5e934d7bb1afbaaf241b9800f7309834a56ac4/pyquizrd-0.1.2.tar.gz
+[2023-07-23 13:33:52] INFO root fetch - processPackages [redsession]: Downloading https://files.pythonhosted.org/packages/93/c5/a0135e03720ff117fa35a4035625bcab89d37e04576becf959a304f252da/redsession-1.0.0.tar.gz
+[2023-07-23 13:33:52] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-07-23 13:33:52] INFO root fetch - processPackages [universi]: Downloading https://files.pythonhosted.org/packages/46/c1/04244c3cf4bc7801254cba710f94c4c5365e891ea79c175e0e643779287b/universi-0.9.0.tar.gz
+[2023-07-23 13:33:52] INFO root fetch - processPackages [seagoat]: Downloading https://files.pythonhosted.org/packages/c9/ea/22c3e16fe0eae798c8268bd6f4dc5fc30afb9f94ad548f9a22c4e88d142a/seagoat-0.5.4.tar.gz
+[2023-07-23 13:33:52] INFO root fetch - processPackages [pyquizrd]: Downloading https://files.pythonhosted.org/packages/e9/63/8d7bd23a97c7d01a4db91dcfcfc5a1dcda250802814221afd95924e6c139/pyquizrd-0.1.3.tar.gz
+[2023-07-23 13:33:52] INFO root fetch - processPackages [redsession]: Downloading https://files.pythonhosted.org/packages/a6/ba/3d23f5c76910694bbea91aa6b222620188f7a9a0226dbe72182bbaee4239/redsession-1.0.1.tar.gz
+[2023-07-23 13:33:52] INFO root fetch - processPackages [seagoat]: Downloading https://files.pythonhosted.org/packages/9b/52/ae9c2d54367e287e7a0d9dc525257faa2f86915c2c18da0eb7df2946bc78/seagoat-0.5.5.tar.gz
+[2023-07-23 13:33:52] INFO root fetch - processPackages [redsession]: executing diffoscope
+[2023-07-23 13:33:52] INFO root fetch - processPackages [redsession]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redsession-1.0.0.tar.gz tmp/redsession-1.0.1.tar.gz --markdown 20230723/r/redsession/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-23 13:33:52] INFO root fetch - processPackages [pyquizrd]: executing diffoscope
+[2023-07-23 13:33:52] INFO root fetch - processPackages [pyquizrd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquizrd-0.1.2.tar.gz tmp/pyquizrd-0.1.3.tar.gz --markdown 20230723/p/pyquizrd/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-23 13:33:52] INFO root fetch - processPackages [universi]: Downloading https://files.pythonhosted.org/packages/80/b5/6c8cb569f1e989b817368d384cdd18140943c1c4b5f10c5ffe1aef80a6d8/universi-1.0.0.tar.gz
+[2023-07-23 13:33:52] INFO root fetch - processPackages [seagoat]: executing diffoscope
+[2023-07-23 13:33:52] INFO root fetch - processPackages [seagoat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seagoat-0.5.4.tar.gz tmp/seagoat-0.5.5.tar.gz --markdown 20230723/s/seagoat/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-07-23 13:33:52] INFO root fetch - processPackages [universi]: executing diffoscope
+[2023-07-23 13:33:52] INFO root fetch - processPackages [universi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/universi-0.9.0.tar.gz tmp/universi-1.0.0.tar.gz --markdown 20230723/u/universi/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-23 13:33:52] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/cf/ef/88a357f5f8f3b7c775ede6822e6617364cfdcf04a79bca1e74d50ae0aae1/omnata_plugin_runtime-0.1.9.tar.gz
+[2023-07-23 13:33:53] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-07-23 13:33:53] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230723/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-23 13:33:53] INFO root fetch - processPackages [redsession]: Remove: archive file [/home/abi/fetcher/tmp/redsession-1.0.0.tar.gz]
+[2023-07-23 13:33:53] INFO root fetch - processPackages [redsession]: Remove: archive file [/home/abi/fetcher/tmp/redsession-1.0.1.tar.gz]
+[2023-07-23 13:33:53] INFO root fetch - main [MainThread]: End processing [redsession]: success
+[2023-07-23 13:33:53] INFO root fetch - processPackages [seagoat]: Remove: archive file [/home/abi/fetcher/tmp/seagoat-0.5.4.tar.gz]
+[2023-07-23 13:33:53] INFO root fetch - processPackages [seagoat]: Remove: archive file [/home/abi/fetcher/tmp/seagoat-0.5.5.tar.gz]
+[2023-07-23 13:33:53] INFO root fetch - main [MainThread]: End processing [seagoat]: success
+[2023-07-23 13:33:53] INFO root fetch - processPackages [universi]: Remove: archive file [/home/abi/fetcher/tmp/universi-0.9.0.tar.gz]
+[2023-07-23 13:33:53] INFO root fetch - processPackages [universi]: Remove: archive file [/home/abi/fetcher/tmp/universi-1.0.0.tar.gz]
+[2023-07-23 13:33:53] INFO root fetch - main [MainThread]: End processing [universi]: success
+[2023-07-23 13:33:54] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.8.tar.gz]
+[2023-07-23 13:33:54] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
+[2023-07-23 13:33:54] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-07-23 13:33:54] INFO root fetch - processPackages [pyquizrd]: Remove: archive file [/home/abi/fetcher/tmp/pyquizrd-0.1.2.tar.gz]
+[2023-07-23 13:33:54] INFO root fetch - processPackages [pyquizrd]: Remove: archive file [/home/abi/fetcher/tmp/pyquizrd-0.1.3.tar.gz]
+[2023-07-23 13:33:54] INFO root fetch - main [MainThread]: End processing [pyquizrd]: success
+[2023-07-23 13:33:54] INFO root fetch - main [MainThread]: Store serial: [19001187]
