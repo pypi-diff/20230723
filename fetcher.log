@@ -12269,3 +12269,63 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 19:42:37] INFO root fetch - processPackages [nuad]: Remove: archive file [/home/abi/fetcher/tmp/nuad-0.4.3.tar.gz]
 [2023-07-23 19:42:37] INFO root fetch - main [MainThread]: End processing [nuad]: success
 [2023-07-23 19:42:37] INFO root fetch - main [MainThread]: Store serial: [19003753]
+[2023-07-23 19:47:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19003753]
+[2023-07-23 19:47:46] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-23 19:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: awyes
+[2023-07-23 19:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deepseqcoverageqc
+[2023-07-23 19:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: okserve
+[2023-07-23 19:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ebtorch
+[2023-07-23 19:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: terraform-backend-s3-bucket
+[2023-07-23 19:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: NASTI
+[2023-07-23 19:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: HPO
+[2023-07-23 19:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: OneOnOne
+[2023-07-23 19:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dpmkit
+[2023-07-23 19:47:46] INFO root fetch - processPackages [terraform-backend-s3-bucket]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 19:47:46] INFO root fetch - processPackages [deepseqcoverageqc]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-23 19:47:46] WARNING root fetch - processPackages [okserve]: Skipping, unable to determine old version
+[2023-07-23 19:47:46] INFO root fetch - main [MainThread]: End processing [okserve] error
+[2023-07-23 19:47:46] INFO root fetch - processPackages [ebtorch]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-23 19:47:46] INFO root fetch - processPackages [HPO]: New version: [0.3] Old Version: [0.2]
+[2023-07-23 19:47:46] WARNING root fetch - processPackages [NASTI]: Skipping, unable to determine old version
+[2023-07-23 19:47:46] INFO root fetch - main [MainThread]: End processing [NASTI] error
+[2023-07-23 19:47:46] WARNING root fetch - processPackages [awyes]: Skipping, unable to determine old version
+[2023-07-23 19:47:46] INFO root fetch - main [MainThread]: End processing [awyes] error
+[2023-07-23 19:47:46] INFO root fetch - processPackages [OneOnOne]: New version: [0.6938] Old Version: [0.6937]
+[2023-07-23 19:47:47] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Downloading https://files.pythonhosted.org/packages/c8/d0/f24de56a6375142a732a6a63a2870145dbda0f949c19b7e1b44fe223b748/terraform-backend-s3-bucket-0.0.8.tar.gz
+[2023-07-23 19:47:47] INFO root fetch - processPackages [HPO]: Downloading https://files.pythonhosted.org/packages/31/e5/66a2ec2d4ff50ed0a648df4e9f1865f5aa2d78fa8572adb3cd5eb0639327/HPO-0.2.tar.gz
+[2023-07-23 19:47:47] WARNING root fetch - processPackages [dpmkit]: Skipping, unable to determine old version
+[2023-07-23 19:47:47] INFO root fetch - main [MainThread]: End processing [dpmkit] error
+[2023-07-23 19:47:47] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/e4/68/330532e3a160d4de645643a82eb6ae39a6cbd7c0140f1f9622b38a243512/OneOnOne-0.6937.tar.gz
+[2023-07-23 19:47:47] INFO root fetch - processPackages [deepseqcoverageqc]: Downloading https://files.pythonhosted.org/packages/75/fc/ff832fba20143c76b7cf46bca350adeda25ccba9ab22f331007d2d8dd116/deepseqcoverageqc-0.3.1.tar.gz
+[2023-07-23 19:47:47] INFO root fetch - processPackages [ebtorch]: Downloading https://files.pythonhosted.org/packages/1d/e0/ca813e61fb98a7aababc471d3cf7112a13f8abc19c12311bab65cecf11a8/ebtorch-0.9.2.tar.gz
+[2023-07-23 19:47:47] INFO root fetch - processPackages [HPO]: Downloading https://files.pythonhosted.org/packages/6b/61/b3a562b649624c67817bfd10394c0261ac1170fa9d2169173c76b6df6d6e/HPO-0.3.tar.gz
+[2023-07-23 19:47:47] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Downloading https://files.pythonhosted.org/packages/cb/5e/264cab254692a82c02a6b4183994138c7fbe1b9f89a8df282e61342ed3ee/terraform-backend-s3-bucket-0.0.9.tar.gz
+[2023-07-23 19:47:47] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/5b/8f/2e86c2ce05862386139efd1ff9bcb4872408d436cf6fc83776935bc3be6a/OneOnOne-0.6938.tar.gz
+[2023-07-23 19:47:47] INFO root fetch - processPackages [HPO]: executing diffoscope
+[2023-07-23 19:47:47] INFO root fetch - processPackages [HPO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HPO-0.2.tar.gz tmp/HPO-0.3.tar.gz --markdown 20230723/H/HPO/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-23 19:47:47] INFO root fetch - processPackages [terraform-backend-s3-bucket]: executing diffoscope
+[2023-07-23 19:47:47] INFO root fetch - processPackages [terraform-backend-s3-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terraform-backend-s3-bucket-0.0.8.tar.gz tmp/terraform-backend-s3-bucket-0.0.9.tar.gz --markdown 20230723/t/terraform-backend-s3-bucket/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 19:47:47] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-23 19:47:47] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6937.tar.gz tmp/OneOnOne-0.6938.tar.gz --markdown 20230723/O/OneOnOne/0.6937-0.6938/diff.md --exclude *.pyd
+[2023-07-23 19:47:47] INFO root fetch - processPackages [deepseqcoverageqc]: Downloading https://files.pythonhosted.org/packages/c2/44/e1650b4cf92786f1d75c8bb33aad76de0b5a455475a03d2592d8f9a1070a/deepseqcoverageqc-0.3.2.tar.gz
+[2023-07-23 19:47:47] INFO root fetch - processPackages [ebtorch]: Downloading https://files.pythonhosted.org/packages/08/c9/ae9c0ba8f0ff46db78f6fc76858ee845a3a615602c629519c51ae587bda7/ebtorch-0.9.3.tar.gz
+[2023-07-23 19:47:47] INFO root fetch - processPackages [deepseqcoverageqc]: executing diffoscope
+[2023-07-23 19:47:47] INFO root fetch - processPackages [deepseqcoverageqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepseqcoverageqc-0.3.1.tar.gz tmp/deepseqcoverageqc-0.3.2.tar.gz --markdown 20230723/d/deepseqcoverageqc/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-23 19:47:47] INFO root fetch - processPackages [ebtorch]: executing diffoscope
+[2023-07-23 19:47:47] INFO root fetch - processPackages [ebtorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebtorch-0.9.2.tar.gz tmp/ebtorch-0.9.3.tar.gz --markdown 20230723/e/ebtorch/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-23 19:47:48] INFO root fetch - processPackages [HPO]: Remove: archive file [/home/abi/fetcher/tmp/HPO-0.2.tar.gz]
+[2023-07-23 19:47:48] INFO root fetch - processPackages [HPO]: Remove: archive file [/home/abi/fetcher/tmp/HPO-0.3.tar.gz]
+[2023-07-23 19:47:48] INFO root fetch - main [MainThread]: End processing [HPO]: success
+[2023-07-23 19:47:48] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Remove: archive file [/home/abi/fetcher/tmp/terraform-backend-s3-bucket-0.0.8.tar.gz]
+[2023-07-23 19:47:48] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Remove: archive file [/home/abi/fetcher/tmp/terraform-backend-s3-bucket-0.0.9.tar.gz]
+[2023-07-23 19:47:48] INFO root fetch - main [MainThread]: End processing [terraform-backend-s3-bucket]: success
+[2023-07-23 19:47:48] INFO root fetch - processPackages [deepseqcoverageqc]: Remove: archive file [/home/abi/fetcher/tmp/deepseqcoverageqc-0.3.1.tar.gz]
+[2023-07-23 19:47:48] INFO root fetch - processPackages [deepseqcoverageqc]: Remove: archive file [/home/abi/fetcher/tmp/deepseqcoverageqc-0.3.2.tar.gz]
+[2023-07-23 19:47:48] INFO root fetch - main [MainThread]: End processing [deepseqcoverageqc]: success
+[2023-07-23 19:47:48] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6937.tar.gz]
+[2023-07-23 19:47:48] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6938.tar.gz]
+[2023-07-23 19:47:48] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-23 19:47:48] INFO root fetch - processPackages [ebtorch]: Remove: archive file [/home/abi/fetcher/tmp/ebtorch-0.9.2.tar.gz]
+[2023-07-23 19:47:48] INFO root fetch - processPackages [ebtorch]: Remove: archive file [/home/abi/fetcher/tmp/ebtorch-0.9.3.tar.gz]
+[2023-07-23 19:47:48] INFO root fetch - main [MainThread]: End processing [ebtorch]: success
+[2023-07-23 19:47:48] INFO root fetch - main [MainThread]: Store serial: [19003788]
