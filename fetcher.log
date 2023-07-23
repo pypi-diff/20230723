@@ -2295,3 +2295,18 @@
 [2023-07-23 04:05:58] INFO root fetch - processPackages [pg-sui]: Remove: archive file [/home/abi/fetcher/tmp/pg-sui-0.2.2.tar.gz]
 [2023-07-23 04:05:58] INFO root fetch - main [MainThread]: End processing [pg-sui]: success
 [2023-07-23 04:05:58] INFO root fetch - main [MainThread]: Store serial: [18999000]
+[2023-07-23 04:11:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999000]
+[2023-07-23 04:11:07] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-23 04:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: useful-types
+[2023-07-23 04:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: text-det-metric
+[2023-07-23 04:11:07] WARNING root fetch - processPackages [useful-types]: Skipping, unable to determine old version
+[2023-07-23 04:11:07] INFO root fetch - main [MainThread]: End processing [useful-types] error
+[2023-07-23 04:11:07] INFO root fetch - processPackages [text-det-metric]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-23 04:11:07] INFO root fetch - processPackages [text-det-metric]: Downloading https://files.pythonhosted.org/packages/cc/8a/5841b786d7481fb9e62b8f750269cac88959a36ea9a367b70504fb43cd25/text_det_metric-0.0.2-py3-none-any.whl
+[2023-07-23 04:11:07] INFO root fetch - processPackages [text-det-metric]: Downloading https://files.pythonhosted.org/packages/bc/60/e0ee69184dd6495262840466d6278cbb66e2fc76c015388d0693f3a23e3e/text_det_metric-0.0.3-py3-none-any.whl
+[2023-07-23 04:11:07] INFO root fetch - processPackages [text-det-metric]: executing diffoscope
+[2023-07-23 04:11:07] INFO root fetch - processPackages [text-det-metric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_det_metric-0.0.2-py3-none-any.whl.zip tmp/text_det_metric-0.0.3-py3-none-any.whl.zip --markdown 20230723/t/text-det-metric/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-23 04:11:08] INFO root fetch - processPackages [text-det-metric]: Remove: archive file [/home/abi/fetcher/tmp/text_det_metric-0.0.2-py3-none-any.whl.zip]
+[2023-07-23 04:11:08] INFO root fetch - processPackages [text-det-metric]: Remove: archive file [/home/abi/fetcher/tmp/text_det_metric-0.0.3-py3-none-any.whl.zip]
+[2023-07-23 04:11:08] INFO root fetch - main [MainThread]: End processing [text-det-metric]: success
+[2023-07-23 04:11:08] INFO root fetch - main [MainThread]: Store serial: [18999011]
