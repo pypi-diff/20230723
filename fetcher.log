@@ -9959,3 +9959,106 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 17:06:12] INFO root fetch - processPackages [klvm-rs]: Remove: archive file [/home/abi/fetcher/tmp/klvm_rs-0.2.8.tar.gz]
 [2023-07-23 17:06:12] INFO root fetch - main [MainThread]: End processing [klvm-rs]: success
 [2023-07-23 17:06:12] INFO root fetch - main [MainThread]: Store serial: [19002616]
+[2023-07-23 17:11:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19002616]
+[2023-07-23 17:11:21] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-23 17:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: paramspace
+[2023-07-23 17:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ktch
+[2023-07-23 17:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aicoder
+[2023-07-23 17:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: codeless-django
+[2023-07-23 17:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aicoder
+[2023-07-23 17:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: webdriver-manager
+[2023-07-23 17:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: astrotool
+[2023-07-23 17:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: janus-client
+[2023-07-23 17:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alibabacloud-rds20140815-py2
+[2023-07-23 17:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lassen
+[2023-07-23 17:11:22] INFO root fetch - processPackages [lassen]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-23 17:11:22] INFO root fetch - processPackages [janus-client]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-23 17:11:22] INFO root fetch - processPackages [aicoder]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-23 17:11:22] INFO root fetch - processPackages [codeless-django]: New version: [0.0.15] Old Version: [0.0.14]
+[2023-07-23 17:11:22] INFO root fetch - processPackages [webdriver-manager]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-07-23 17:11:22] INFO root fetch - processPackages [ktch]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-23 17:11:22] INFO root fetch - processPackages [aicoder]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-23 17:11:22] INFO root fetch - processPackages [paramspace]: New version: [2.6.1] Old Version: [2.6.0b2]
+[2023-07-23 17:11:22] INFO root fetch - processPackages [astrotool]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 17:11:22] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-23 17:11:22] INFO root fetch - processPackages [lassen]: Downloading https://files.pythonhosted.org/packages/8b/dd/449993e91106fb0809db41ac76180866edaa25c57e172b90502cef8fa908/lassen-0.2.0.tar.gz
+[2023-07-23 17:11:22] INFO root fetch - processPackages [janus-client]: Downloading https://files.pythonhosted.org/packages/90/ba/acdec9827edafcf80053dc1f23710f05f20bde5a61c1af7f2c79ead120a2/janus-client-0.2.3.tar.gz
+[2023-07-23 17:11:22] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/d9/97/f2945ed49bf4c9f622ef51cdc8c1a8e6515eb2d17effa8414cd698470fd2/aicoder-0.4.2-py3-none-any.whl
+[2023-07-23 17:11:22] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/d9/97/f2945ed49bf4c9f622ef51cdc8c1a8e6515eb2d17effa8414cd698470fd2/aicoder-0.4.2-py3-none-any.whl
+[2023-07-23 17:11:22] INFO root fetch - processPackages [codeless-django]: Downloading https://files.pythonhosted.org/packages/e3/32/8161b7dbb2a52414e403fda7c45e94fd2095f13899ed694aacdeecde26f8/codeless-django-0.0.14.tar.gz
+[2023-07-23 17:11:22] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/36/a3/9de509d7d04cda9a89162150a1ff1316469aa9cf46b2cafd1efe9d4c2be2/alibabacloud_rds20140815_py2-1.3.1.tar.gz
+[2023-07-23 17:11:22] INFO root fetch - processPackages [ktch]: Downloading https://files.pythonhosted.org/packages/f0/2f/aa4634aba638993c931cf5ab8fcf867d1853f7e205f689d86482966ffe23/ktch-0.3.0.tar.gz
+[2023-07-23 17:11:22] INFO root fetch - processPackages [webdriver-manager]: Downloading https://files.pythonhosted.org/packages/54/f3/49cb4193b643c4d3e5336637479304b8119f1a663f161019e98b32b9f544/webdriver_manager-3.9.0.tar.gz
+[2023-07-23 17:11:22] INFO root fetch - processPackages [astrotool]: Downloading https://files.pythonhosted.org/packages/90/e1/eee16bc865e7c2b609cb7ea9e7e3a51e6b2b8281d2d56e99cd77757b9619/astrotool-0.0.8.tar.gz
+[2023-07-23 17:11:22] INFO root fetch - processPackages [paramspace]: Downloading https://files.pythonhosted.org/packages/08/fc/bf50b6268622fa6158a0fd8e3aa573e3712a63efebd0d1e0dc8d49b7a332/paramspace-2.6.0b2.tar.gz
+[2023-07-23 17:11:22] INFO root fetch - processPackages [janus-client]: Downloading https://files.pythonhosted.org/packages/f5/06/00f352d65f4da37a9b5a9f7315e5707b812b75cb0e2cf001fe35661cd311/janus_client-0.2.4.tar.gz
+[2023-07-23 17:11:22] INFO root fetch - processPackages [webdriver-manager]: Downloading https://files.pythonhosted.org/packages/97/a8/b16286fc3f5c78cc44e8c716d792b8c8acd4f43521070e95b58cdfa5e15a/webdriver_manager-3.9.1.tar.gz
+[2023-07-23 17:11:22] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/fe/91/913a6fe1139305b6c478fc1403e0093b38c32e0a51ab0b6b161ab9208dc2/alibabacloud_rds20140815_py2-1.3.2.tar.gz
+[2023-07-23 17:11:22] INFO root fetch - processPackages [janus-client]: executing diffoscope
+[2023-07-23 17:11:22] INFO root fetch - processPackages [janus-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/janus-client-0.2.3.tar.gz tmp/janus_client-0.2.4.tar.gz --markdown 20230723/j/janus-client/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-23 17:11:23] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/78/53/8a486afab65295e791881926b985e1791e6efe6088b786d4a80d31ae3b0a/aicoder-0.4.3-py3-none-any.whl
+[2023-07-23 17:11:23] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/78/53/8a486afab65295e791881926b985e1791e6efe6088b786d4a80d31ae3b0a/aicoder-0.4.3-py3-none-any.whl
+[2023-07-23 17:11:23] INFO root fetch - processPackages [lassen]: Downloading https://files.pythonhosted.org/packages/f1/d9/40429912269ad57d5dc561ea4d2ffe0070654bf66c61e02809473040519d/lassen-0.2.1.tar.gz
+[2023-07-23 17:11:23] INFO root fetch - processPackages [codeless-django]: Downloading https://files.pythonhosted.org/packages/0c/e3/dee290b59f47d371ba3167acc0fc6043fcd89bd1d5a39b4ba7d498d52c7e/codeless-django-0.0.15.tar.gz
+[2023-07-23 17:11:23] INFO root fetch - processPackages [astrotool]: Downloading https://files.pythonhosted.org/packages/33/14/b9ce46535ca314d2e2217bb96cba3bd3608abaffac21ce78f681c298ba85/astrotool-0.0.9.tar.gz
+[2023-07-23 17:11:23] INFO root fetch - processPackages [ktch]: Downloading https://files.pythonhosted.org/packages/6c/51/ab991f56def3950f3b9e1b20f91d7fab7703d13c942a74cee1d7bf4889c7/ktch-0.3.1.tar.gz
+[2023-07-23 17:11:23] INFO root fetch - processPackages [webdriver-manager]: executing diffoscope
+[2023-07-23 17:11:23] INFO root fetch - processPackages [webdriver-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webdriver_manager-3.9.0.tar.gz tmp/webdriver_manager-3.9.1.tar.gz --markdown 20230723/w/webdriver-manager/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-07-23 17:11:23] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: executing diffoscope
+[2023-07-23 17:11:23] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815_py2-1.3.1.tar.gz tmp/alibabacloud_rds20140815_py2-1.3.2.tar.gz --markdown 20230723/a/alibabacloud-rds20140815-py2/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-23 17:11:23] INFO root fetch - processPackages [aicoder]: executing diffoscope
+[2023-07-23 17:11:23] INFO root fetch - processPackages [aicoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicoder-0.4.2-py3-none-any.whl.zip tmp/aicoder-0.4.3-py3-none-any.whl.zip --markdown 20230723/a/aicoder/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-23 17:11:23] INFO root fetch - processPackages [aicoder]: executing diffoscope
+[2023-07-23 17:11:23] INFO root fetch - processPackages [aicoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicoder-0.4.2-py3-none-any.whl.zip tmp/aicoder-0.4.3-py3-none-any.whl.zip --markdown 20230723/a/aicoder/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-23 17:11:23] INFO root fetch - processPackages [paramspace]: Downloading https://files.pythonhosted.org/packages/ab/45/68a9e553ddb3e4cc5af6c8953cd5655382d522b43619b54ab7fc7550e249/paramspace-2.6.1.tar.gz
+[2023-07-23 17:11:23] INFO root fetch - processPackages [lassen]: executing diffoscope
+[2023-07-23 17:11:23] INFO root fetch - processPackages [lassen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lassen-0.2.0.tar.gz tmp/lassen-0.2.1.tar.gz --markdown 20230723/l/lassen/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-23 17:11:23] INFO root fetch - processPackages [astrotool]: executing diffoscope
+[2023-07-23 17:11:23] INFO root fetch - processPackages [astrotool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astrotool-0.0.8.tar.gz tmp/astrotool-0.0.9.tar.gz --markdown 20230723/a/astrotool/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 17:11:23] INFO root fetch - processPackages [codeless-django]: executing diffoscope
+[2023-07-23 17:11:23] INFO root fetch - processPackages [codeless-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeless-django-0.0.14.tar.gz tmp/codeless-django-0.0.15.tar.gz --markdown 20230723/c/codeless-django/0.0.14-0.0.15/diff.md --exclude *.pyd
+[2023-07-23 17:11:23] INFO root fetch - processPackages [ktch]: executing diffoscope
+[2023-07-23 17:11:23] INFO root fetch - processPackages [ktch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ktch-0.3.0.tar.gz tmp/ktch-0.3.1.tar.gz --markdown 20230723/k/ktch/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-23 17:11:23] INFO root fetch - processPackages [paramspace]: executing diffoscope
+[2023-07-23 17:11:23] INFO root fetch - processPackages [paramspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paramspace-2.6.0b2.tar.gz tmp/paramspace-2.6.1.tar.gz --markdown 20230723/p/paramspace/2.6.0b2-2.6.1/diff.md --exclude *.pyd
+[2023-07-23 17:11:24] INFO root fetch - processPackages [janus-client]: Remove: archive file [/home/abi/fetcher/tmp/janus-client-0.2.3.tar.gz]
+[2023-07-23 17:11:24] INFO root fetch - processPackages [janus-client]: Remove: archive file [/home/abi/fetcher/tmp/janus_client-0.2.4.tar.gz]
+[2023-07-23 17:11:24] INFO root fetch - processPackages [janus-client]: Start processing: alibabacloud-rds20140815
+[2023-07-23 17:11:24] INFO root fetch - main [MainThread]: End processing [janus-client]: success
+[2023-07-23 17:11:24] INFO root fetch - processPackages [alibabacloud-rds20140815]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-23 17:11:24] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/5f/38/f84538e433bf80888d80fff1ecb5949fa755b46ec10e96b1238c937fc80f/alibabacloud_rds20140815-2.2.8.tar.gz
+[2023-07-23 17:11:24] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/8e/38/2ed843ab2f4bae57c984e9c496af84eaedd402b05d3492d4c9d1a253f508/alibabacloud_rds20140815-2.2.9.tar.gz
+[2023-07-23 17:11:24] INFO root fetch - processPackages [alibabacloud-rds20140815]: executing diffoscope
+[2023-07-23 17:11:24] INFO root fetch - processPackages [alibabacloud-rds20140815]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815-2.2.8.tar.gz tmp/alibabacloud_rds20140815-2.2.9.tar.gz --markdown 20230723/a/alibabacloud-rds20140815/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-23 17:11:24] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.4.2-py3-none-any.whl.zip]
+[2023-07-23 17:11:24] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.4.3-py3-none-any.whl.zip]
+[2023-07-23 17:11:24] INFO root fetch - processPackages [aicoder]: Start processing: keyrings.envvars
+[2023-07-23 17:11:24] INFO root fetch - main [MainThread]: End processing [aicoder]: success
+[2023-07-23 17:11:25] WARNING root fetch - processPackages [keyrings.envvars]: Skipping, unable to determine old version
+[2023-07-23 17:11:25] INFO root fetch - main [MainThread]: End processing [keyrings.envvars] error
+[2023-07-23 17:11:25] INFO root fetch - processPackages [ktch]: Remove: archive file [/home/abi/fetcher/tmp/ktch-0.3.0.tar.gz]
+[2023-07-23 17:11:25] INFO root fetch - processPackages [ktch]: Remove: archive file [/home/abi/fetcher/tmp/ktch-0.3.1.tar.gz]
+[2023-07-23 17:11:25] INFO root fetch - main [MainThread]: End processing [ktch]: success
+[2023-07-23 17:11:25] INFO root fetch - main [MainThread]: End processing [aicoder]: success
+[2023-07-23 17:11:25] INFO root fetch - processPackages [astrotool]: Remove: archive file [/home/abi/fetcher/tmp/astrotool-0.0.8.tar.gz]
+[2023-07-23 17:11:25] INFO root fetch - processPackages [astrotool]: Remove: archive file [/home/abi/fetcher/tmp/astrotool-0.0.9.tar.gz]
+[2023-07-23 17:11:25] INFO root fetch - main [MainThread]: End processing [astrotool]: success
+[2023-07-23 17:11:25] INFO root fetch - processPackages [webdriver-manager]: Remove: archive file [/home/abi/fetcher/tmp/webdriver_manager-3.9.0.tar.gz]
+[2023-07-23 17:11:25] INFO root fetch - processPackages [webdriver-manager]: Remove: archive file [/home/abi/fetcher/tmp/webdriver_manager-3.9.1.tar.gz]
+[2023-07-23 17:11:25] INFO root fetch - main [MainThread]: End processing [webdriver-manager]: success
+[2023-07-23 17:11:25] INFO root fetch - processPackages [codeless-django]: Remove: archive file [/home/abi/fetcher/tmp/codeless-django-0.0.14.tar.gz]
+[2023-07-23 17:11:25] INFO root fetch - processPackages [codeless-django]: Remove: archive file [/home/abi/fetcher/tmp/codeless-django-0.0.15.tar.gz]
+[2023-07-23 17:11:25] INFO root fetch - main [MainThread]: End processing [codeless-django]: success
+[2023-07-23 17:11:25] INFO root fetch - processPackages [paramspace]: Remove: archive file [/home/abi/fetcher/tmp/paramspace-2.6.0b2.tar.gz]
+[2023-07-23 17:11:25] INFO root fetch - processPackages [paramspace]: Remove: archive file [/home/abi/fetcher/tmp/paramspace-2.6.1.tar.gz]
+[2023-07-23 17:11:25] INFO root fetch - main [MainThread]: End processing [paramspace]: success
+[2023-07-23 17:11:25] INFO root fetch - processPackages [lassen]: Remove: archive file [/home/abi/fetcher/tmp/lassen-0.2.0.tar.gz]
+[2023-07-23 17:11:25] INFO root fetch - processPackages [lassen]: Remove: archive file [/home/abi/fetcher/tmp/lassen-0.2.1.tar.gz]
+[2023-07-23 17:11:25] INFO root fetch - main [MainThread]: End processing [lassen]: success
+[2023-07-23 17:11:25] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-1.3.1.tar.gz]
+[2023-07-23 17:11:25] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-1.3.2.tar.gz]
+[2023-07-23 17:11:25] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815-py2]: success
+[2023-07-23 17:11:26] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.2.8.tar.gz]
+[2023-07-23 17:11:26] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.2.9.tar.gz]
+[2023-07-23 17:11:26] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815]: success
+[2023-07-23 17:11:26] INFO root fetch - main [MainThread]: Store serial: [19002650]
