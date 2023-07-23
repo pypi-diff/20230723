@@ -4846,3 +4846,61 @@
 [2023-07-23 09:45:25] INFO root fetch - processPackages [brainpy]: Remove: archive file [/home/abi/fetcher/tmp/brainpy-2.4.3.1-py3-none-any.whl.zip]
 [2023-07-23 09:45:25] INFO root fetch - main [MainThread]: End processing [brainpy]: success
 [2023-07-23 09:45:25] INFO root fetch - main [MainThread]: Store serial: [19000105]
+[2023-07-23 09:50:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19000105]
+[2023-07-23 09:50:36] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-23 09:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Print-Tricks-And-More-Alpha
+[2023-07-23 09:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ldanansi
+[2023-07-23 09:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dash-solana-components
+[2023-07-23 09:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: keras-nightly
+[2023-07-23 09:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yowasp-yosys
+[2023-07-23 09:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: propan
+[2023-07-23 09:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-nightly-cpu
+[2023-07-23 09:50:36] INFO root fetch - processPackages [ldanansi]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-23 09:50:36] WARNING root fetch - processPackages [Print-Tricks-And-More-Alpha]: Skipping, unable to determine old version
+[2023-07-23 09:50:36] INFO root fetch - main [MainThread]: End processing [Print-Tricks-And-More-Alpha] error
+[2023-07-23 09:50:37] INFO root fetch - processPackages [propan]: New version: [0.1.5.9] Old Version: [0.1.5.8]
+[2023-07-23 09:50:37] INFO root fetch - processPackages [yowasp-yosys]: New version: [0.9.post5623.dev231] Old Version: [0.9.post5610.dev226]
+[2023-07-23 09:50:37] INFO root fetch - processPackages [dash-solana-components]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-23 09:50:37] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-07-23 09:50:37] INFO root fetch - processPackages [dash-solana-components]: Downloading https://files.pythonhosted.org/packages/a7/8d/da3e25a69d7246f8e9d7f46917686e011bd8e9df16e66cd7d81895988495/dash_solana_components-1.0.3-py3-none-any.whl
+[2023-07-23 09:50:37] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-07-23 09:50:37] INFO root fetch - processPackages [ldanansi]: Downloading https://files.pythonhosted.org/packages/bf/9e/e2a0cf13781850f674e43de2cab1ff9e169843167a6e95a6b3b2ad067a81/ldanansi-1.1.1.tar.gz
+[2023-07-23 09:50:37] INFO root fetch - processPackages [yowasp-yosys]: Downloading https://files.pythonhosted.org/packages/d9/10/e7c660588919726a2a41c8d346d4509ae1048b18dd3668a5a08e26ded384/yowasp_yosys-0.9.post5610.dev226-py3-none-any.whl
+[2023-07-23 09:50:37] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230723] Old Version: [2.14.0.dev20230722]
+[2023-07-23 09:50:37] INFO root fetch - processPackages [dash-solana-components]: Downloading https://files.pythonhosted.org/packages/05/b4/02851781c2a14617cf2520c6a6f130a64b7d4dd5a2339af52f657dc10dfa/dash_solana_components-1.0.4-py3-none-any.whl
+[2023-07-23 09:50:37] INFO root fetch - processPackages [ldanansi]: Downloading https://files.pythonhosted.org/packages/f5/18/d706d1335493c114ea331a1ddd84f43dec34f2491576f704c2cb93c8de21/ldanansi-1.1.2.tar.gz
+[2023-07-23 09:50:37] INFO root fetch - processPackages [propan]: executing diffoscope
+[2023-07-23 09:50:37] INFO root fetch - processPackages [propan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propan-0.1.5.8.tar.gz tmp/propan-0.1.5.9.tar.gz --markdown 20230723/p/propan/0.1.5.8-0.1.5.9/diff.md --exclude *.pyd
+[2023-07-23 09:50:37] INFO root fetch - processPackages [ldanansi]: executing diffoscope
+[2023-07-23 09:50:37] INFO root fetch - processPackages [ldanansi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldanansi-1.1.1.tar.gz tmp/ldanansi-1.1.2.tar.gz --markdown 20230723/l/ldanansi/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-23 09:50:37] INFO root fetch - processPackages [dash-solana-components]: executing diffoscope
+[2023-07-23 09:50:37] INFO root fetch - processPackages [dash-solana-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_solana_components-1.0.3-py3-none-any.whl.zip tmp/dash_solana_components-1.0.4-py3-none-any.whl.zip --markdown 20230723/d/dash-solana-components/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-23 09:50:37] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/de/4b/fbf48aa4c610ad6ca0bde94d1046f7b44f9de22cc0be102e9d1f8a0e1e28/tf_nightly_cpu-2.14.0.dev20230722-cp39-cp39-win_amd64.whl
+[2023-07-23 09:50:37] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/ad/b2/250e5ac4bce834467124068a9ca3d471580ba22bbdd5bda3aa50e50bed37/tf_nightly_cpu-2.14.0.dev20230723-cp39-cp39-win_amd64.whl
+[2023-07-23 09:50:38] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-07-23 09:50:38] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-07-23 09:50:38] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230722-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230723-cp39-cp39-win_amd64.whl.zip --markdown 20230723/t/tf-nightly-cpu/2.14.0.dev20230722-2.14.0.dev20230723/diff.md --exclude *.pyd
+[2023-07-23 09:50:38] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-07-23 09:50:38] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230723/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-07-23 09:50:38] INFO root fetch - processPackages [propan]: Remove: archive file [/home/abi/fetcher/tmp/propan-0.1.5.8.tar.gz]
+[2023-07-23 09:50:38] INFO root fetch - processPackages [propan]: Remove: archive file [/home/abi/fetcher/tmp/propan-0.1.5.9.tar.gz]
+[2023-07-23 09:50:38] INFO root fetch - main [MainThread]: End processing [propan]: success
+[2023-07-23 09:50:38] INFO root fetch - processPackages [ldanansi]: Remove: archive file [/home/abi/fetcher/tmp/ldanansi-1.1.1.tar.gz]
+[2023-07-23 09:50:38] INFO root fetch - processPackages [ldanansi]: Remove: archive file [/home/abi/fetcher/tmp/ldanansi-1.1.2.tar.gz]
+[2023-07-23 09:50:38] INFO root fetch - main [MainThread]: End processing [ldanansi]: success
+[2023-07-23 09:50:38] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230722-cp39-cp39-win_amd64.whl.zip]
+[2023-07-23 09:50:38] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230723-cp39-cp39-win_amd64.whl.zip]
+[2023-07-23 09:50:39] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-07-23 09:50:39] INFO root fetch - processPackages [yowasp-yosys]: Downloading https://files.pythonhosted.org/packages/35/c4/b4e64452f262989908f22d3e1fff557841f6182c69b887c4f6508b655418/yowasp_yosys-0.9.post5623.dev231-py3-none-any.whl
+[2023-07-23 09:50:41] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-07-23 09:50:41] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-07-23 09:50:41] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-07-23 09:50:41] INFO root fetch - processPackages [yowasp-yosys]: executing diffoscope
+[2023-07-23 09:50:41] INFO root fetch - processPackages [yowasp-yosys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yowasp_yosys-0.9.post5610.dev226-py3-none-any.whl.zip tmp/yowasp_yosys-0.9.post5623.dev231-py3-none-any.whl.zip --markdown 20230723/y/yowasp-yosys/0.9.post5610.dev226-0.9.post5623.dev231/diff.md --exclude *.pyd
+[2023-07-23 09:50:55] INFO root fetch - processPackages [dash-solana-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_solana_components-1.0.3-py3-none-any.whl.zip]
+[2023-07-23 09:50:55] INFO root fetch - processPackages [dash-solana-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_solana_components-1.0.4-py3-none-any.whl.zip]
+[2023-07-23 09:50:55] INFO root fetch - main [MainThread]: End processing [dash-solana-components]: success
+[2023-07-23 09:51:09] INFO root fetch - processPackages [yowasp-yosys]: Remove: archive file [/home/abi/fetcher/tmp/yowasp_yosys-0.9.post5610.dev226-py3-none-any.whl.zip]
+[2023-07-23 09:51:09] INFO root fetch - processPackages [yowasp-yosys]: Remove: archive file [/home/abi/fetcher/tmp/yowasp_yosys-0.9.post5623.dev231-py3-none-any.whl.zip]
+[2023-07-23 09:51:09] INFO root fetch - main [MainThread]: End processing [yowasp-yosys]: success
+[2023-07-23 09:51:09] INFO root fetch - main [MainThread]: Store serial: [19000125]
