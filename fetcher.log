@@ -14462,3 +14462,98 @@ AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
 [2023-07-23 22:00:58] INFO root fetch - processPackages [perceval-mozilla]: Remove: archive file [/home/abi/fetcher/tmp/perceval_mozilla-0.3.9.tar.gz]
 [2023-07-23 22:00:58] INFO root fetch - main [MainThread]: End processing [perceval-mozilla]: success
 [2023-07-23 22:00:58] INFO root fetch - main [MainThread]: Store serial: [19004546]
+[2023-07-23 22:06:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19004546]
+[2023-07-23 22:06:06] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-23 22:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: babymaycry
+[2023-07-23 22:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: photondemo
+[2023-07-23 22:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: corporate-reputation
+[2023-07-23 22:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygrace
+[2023-07-23 22:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stormlibpp
+[2023-07-23 22:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: poetry-creator
+[2023-07-23 22:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyntweb
+[2023-07-23 22:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: peviitor-pyscraper
+[2023-07-23 22:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: glasspy
+[2023-07-23 22:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: st-track-analysis
+[2023-07-23 22:06:07] INFO root fetch - processPackages [photondemo]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-23 22:06:07] WARNING root fetch - processPackages [peviitor-pyscraper]: Skipping, unable to determine old version
+[2023-07-23 22:06:07] INFO root fetch - processPackages [peviitor-pyscraper]: Start processing: my-magento
+[2023-07-23 22:06:07] INFO root fetch - main [MainThread]: End processing [peviitor-pyscraper] error
+[2023-07-23 22:06:07] INFO root fetch - processPackages [corporate-reputation]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-23 22:06:07] INFO root fetch - processPackages [babymaycry]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-23 22:06:07] INFO root fetch - processPackages [pyntweb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-23 22:06:07] INFO root fetch - processPackages [st-track-analysis]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-23 22:06:07] INFO root fetch - processPackages [pygrace]: New version: [1.3] Old Version: [1.2.1]
+[2023-07-23 22:06:07] INFO root fetch - processPackages [glasspy]: New version: [0.4.2] Old Version: [0.4.0]
+[2023-07-23 22:06:07] INFO root fetch - processPackages [stormlibpp]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-23 22:06:07] INFO root fetch - processPackages [poetry-creator]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-23 22:06:07] INFO root fetch - processPackages [my-magento]: New version: [2.1.2] Old Version: [2.1.1b0]
+[2023-07-23 22:06:07] INFO root fetch - processPackages [pyntweb]: Downloading https://files.pythonhosted.org/packages/2e/55/9fdd0c128f6126b0e1fb8dd2733eec6f7d04710d7d70ee998115c2fa03ef/pyntweb-0.2.8.tar.gz
+[2023-07-23 22:06:07] INFO root fetch - processPackages [photondemo]: Downloading https://files.pythonhosted.org/packages/3f/3c/e4ee83184aff32a00b38eed8c36d0edab7497b826f0c2831fa4d382ef518/photondemo-0.0.7.tar.gz
+[2023-07-23 22:06:07] INFO root fetch - processPackages [babymaycry]: Downloading https://files.pythonhosted.org/packages/ff/b0/cc302d99505285876276f15ac5600d0c150e4bb44d5cad9b8fb0b4467b41/babymaycry-0.0.7.tar.gz
+[2023-07-23 22:06:07] INFO root fetch - processPackages [corporate-reputation]: Downloading https://files.pythonhosted.org/packages/be/85/498bdc14a21e38e2c361e088ef36fd06e7b90364053cb303ee57d7169ce8/corporate_reputation-0.5.0.tar.gz
+[2023-07-23 22:06:07] INFO root fetch - processPackages [st-track-analysis]: Downloading https://files.pythonhosted.org/packages/64/1b/8cca3111616a03fec2e240864e37706ea226804863d17af7f8de214b8372/st_track_analysis-0.0.3.tar.gz
+[2023-07-23 22:06:07] INFO root fetch - processPackages [poetry-creator]: Downloading https://files.pythonhosted.org/packages/8c/4c/3f5c213cf662c6e767b9f2e2e4e25a480c69c18857d2ddb9ca8d3eecb6ab/poetry%20creator-0.1.0.tar.gz
+[2023-07-23 22:06:07] INFO root fetch - processPackages [glasspy]: Downloading https://files.pythonhosted.org/packages/a2/56/4d0535b62fd8d07f234f3642df2e7162cd9488f18db048305a36a302452e/glasspy-0.4.0.tar.gz
+[2023-07-23 22:06:07] INFO root fetch - processPackages [stormlibpp]: Downloading https://files.pythonhosted.org/packages/c0/66/9dabb2b0654948e8237714b13d7827100660a505a4f7e299f632bc226723/stormlibpp-0.3.0.tar.gz
+[2023-07-23 22:06:07] INFO root fetch - processPackages [pygrace]: Downloading https://files.pythonhosted.org/packages/d9/fc/5785992e09c62edab52c8bfa881e9cae3444ef0de22df352febf63c37d7d/pygrace-1.2.1.tar.gz
+[2023-07-23 22:06:07] INFO root fetch - processPackages [my-magento]: Downloading https://files.pythonhosted.org/packages/96/28/90247bb1e497b873281275972b191490decd493f3bf074cfbd419aaf559f/my-magento-2.1.1b0.tar.gz
+[2023-07-23 22:06:07] INFO root fetch - processPackages [pyntweb]: Downloading https://files.pythonhosted.org/packages/68/76/9710407be69a495a5e8f803078c9a0974413ebeb4f49e1bf7b63684a43bd/pyntweb-0.2.9.tar.gz
+[2023-07-23 22:06:07] WARNING root fetch - processPackages [glasspy]: Skipping package: exceeds size limit 79413145>=10485760
+[2023-07-23 22:06:07] INFO root fetch - processPackages [glasspy]: Start processing: posaydones-material-theming
+[2023-07-23 22:06:07] INFO root fetch - main [MainThread]: End processing [glasspy] error
+[2023-07-23 22:06:08] INFO root fetch - processPackages [babymaycry]: Downloading https://files.pythonhosted.org/packages/f9/0b/48caee12937c2a138650321d614023fcd34df81d035f4c49d395a76d108b/babymaycry-0.0.8.tar.gz
+[2023-07-23 22:06:08] INFO root fetch - processPackages [photondemo]: Downloading https://files.pythonhosted.org/packages/0a/6d/7932cd610a0541b76d781bb7f7bdd31d7a2f5dd2384d1eac4c2f87af88f3/photondemo-0.0.8.tar.gz
+[2023-07-23 22:06:08] INFO root fetch - processPackages [pyntweb]: executing diffoscope
+[2023-07-23 22:06:08] INFO root fetch - processPackages [pyntweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyntweb-0.2.8.tar.gz tmp/pyntweb-0.2.9.tar.gz --markdown 20230723/p/pyntweb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-23 22:06:08] INFO root fetch - processPackages [corporate-reputation]: Downloading https://files.pythonhosted.org/packages/88/e4/be594c1bac12c1064e53dd5633eed342ae9c52a729c980cd9b12f1fa4cc2/corporate_reputation-0.6.0.tar.gz
+[2023-07-23 22:06:08] WARNING root fetch - processPackages [posaydones-material-theming]: Skipping, unable to determine old version
+[2023-07-23 22:06:08] INFO root fetch - main [MainThread]: End processing [posaydones-material-theming] error
+[2023-07-23 22:06:08] INFO root fetch - processPackages [poetry-creator]: Downloading https://files.pythonhosted.org/packages/3e/1d/3edd8bdf88f0bf33dc62e1b1e72c68d25c1df4d3366b60bacb39383b0d17/poetry-creator-0.1.1.tar.gz
+[2023-07-23 22:06:08] INFO root fetch - processPackages [stormlibpp]: Downloading https://files.pythonhosted.org/packages/99/41/b64210ffd721f08ee4389675c2157473a186e7e6c8e5fe31cbcd9fb6a078/stormlibpp-0.3.1.tar.gz
+[2023-07-23 22:06:08] INFO root fetch - processPackages [babymaycry]: executing diffoscope
+[2023-07-23 22:06:08] INFO root fetch - processPackages [babymaycry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/babymaycry-0.0.7.tar.gz tmp/babymaycry-0.0.8.tar.gz --markdown 20230723/b/babymaycry/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-23 22:06:08] INFO root fetch - processPackages [st-track-analysis]: Downloading https://files.pythonhosted.org/packages/07/a0/ddcaa54ce9b97f15330350cf8c6a370720fa49f409fde3e5736099fcc133/st_track_analysis-0.0.4.tar.gz
+[2023-07-23 22:06:08] INFO root fetch - processPackages [my-magento]: Downloading https://files.pythonhosted.org/packages/ae/18/81d4dfbbbf42e7e8619f1b78b1851ac361093729bd85c60f213f31a5ef25/my-magento-2.1.2.tar.gz
+[2023-07-23 22:06:08] INFO root fetch - processPackages [photondemo]: executing diffoscope
+[2023-07-23 22:06:08] INFO root fetch - processPackages [photondemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/photondemo-0.0.7.tar.gz tmp/photondemo-0.0.8.tar.gz --markdown 20230723/p/photondemo/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-23 22:06:08] INFO root fetch - processPackages [stormlibpp]: executing diffoscope
+[2023-07-23 22:06:08] INFO root fetch - processPackages [stormlibpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stormlibpp-0.3.0.tar.gz tmp/stormlibpp-0.3.1.tar.gz --markdown 20230723/s/stormlibpp/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-23 22:06:08] INFO root fetch - processPackages [corporate-reputation]: executing diffoscope
+[2023-07-23 22:06:08] INFO root fetch - processPackages [corporate-reputation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corporate_reputation-0.5.0.tar.gz tmp/corporate_reputation-0.6.0.tar.gz --markdown 20230723/c/corporate-reputation/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-23 22:06:08] INFO root fetch - processPackages [pygrace]: Downloading https://files.pythonhosted.org/packages/3c/26/c1037f2c26577962e34eda6bf4b19677ac6f2fa2880609d8d5708b56106c/pygrace-1.3.tar.gz
+[2023-07-23 22:06:08] INFO root fetch - processPackages [poetry-creator]: executing diffoscope
+[2023-07-23 22:06:08] INFO root fetch - processPackages [poetry-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry creator-0.1.0.tar.gz tmp/poetry-creator-0.1.1.tar.gz --markdown 20230723/p/poetry-creator/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-23 22:06:08] INFO root fetch - processPackages [my-magento]: executing diffoscope
+[2023-07-23 22:06:08] INFO root fetch - processPackages [my-magento]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my-magento-2.1.1b0.tar.gz tmp/my-magento-2.1.2.tar.gz --markdown 20230723/m/my-magento/2.1.1b0-2.1.2/diff.md --exclude *.pyd
+[2023-07-23 22:06:08] INFO root fetch - processPackages [pygrace]: executing diffoscope
+[2023-07-23 22:06:08] INFO root fetch - processPackages [pygrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygrace-1.2.1.tar.gz tmp/pygrace-1.3.tar.gz --markdown 20230723/p/pygrace/1.2.1-1.3/diff.md --exclude *.pyd
+[2023-07-23 22:06:08] INFO root fetch - processPackages [st-track-analysis]: executing diffoscope
+[2023-07-23 22:06:08] INFO root fetch - processPackages [st-track-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_track_analysis-0.0.3.tar.gz tmp/st_track_analysis-0.0.4.tar.gz --markdown 20230723/s/st-track-analysis/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-23 22:06:09] INFO root fetch - processPackages [babymaycry]: Remove: archive file [/home/abi/fetcher/tmp/babymaycry-0.0.7.tar.gz]
+[2023-07-23 22:06:09] INFO root fetch - processPackages [babymaycry]: Remove: archive file [/home/abi/fetcher/tmp/babymaycry-0.0.8.tar.gz]
+[2023-07-23 22:06:09] INFO root fetch - main [MainThread]: End processing [babymaycry]: success
+[2023-07-23 22:06:09] INFO root fetch - processPackages [pyntweb]: Remove: archive file [/home/abi/fetcher/tmp/pyntweb-0.2.8.tar.gz]
+[2023-07-23 22:06:09] INFO root fetch - processPackages [pyntweb]: Remove: archive file [/home/abi/fetcher/tmp/pyntweb-0.2.9.tar.gz]
+[2023-07-23 22:06:09] INFO root fetch - main [MainThread]: End processing [pyntweb]: success
+[2023-07-23 22:06:09] INFO root fetch - processPackages [photondemo]: Remove: archive file [/home/abi/fetcher/tmp/photondemo-0.0.7.tar.gz]
+[2023-07-23 22:06:09] INFO root fetch - processPackages [photondemo]: Remove: archive file [/home/abi/fetcher/tmp/photondemo-0.0.8.tar.gz]
+[2023-07-23 22:06:09] INFO root fetch - main [MainThread]: End processing [photondemo]: success
+[2023-07-23 22:06:09] INFO root fetch - processPackages [poetry-creator]: Remove: archive file [/home/abi/fetcher/tmp/poetry creator-0.1.0.tar.gz]
+[2023-07-23 22:06:09] INFO root fetch - processPackages [poetry-creator]: Remove: archive file [/home/abi/fetcher/tmp/poetry-creator-0.1.1.tar.gz]
+[2023-07-23 22:06:09] INFO root fetch - main [MainThread]: End processing [poetry-creator]: success
+[2023-07-23 22:06:09] INFO root fetch - processPackages [my-magento]: Remove: archive file [/home/abi/fetcher/tmp/my-magento-2.1.1b0.tar.gz]
+[2023-07-23 22:06:09] INFO root fetch - processPackages [my-magento]: Remove: archive file [/home/abi/fetcher/tmp/my-magento-2.1.2.tar.gz]
+[2023-07-23 22:06:09] INFO root fetch - main [MainThread]: End processing [my-magento]: success
+[2023-07-23 22:06:09] INFO root fetch - processPackages [corporate-reputation]: Remove: archive file [/home/abi/fetcher/tmp/corporate_reputation-0.5.0.tar.gz]
+[2023-07-23 22:06:09] INFO root fetch - processPackages [corporate-reputation]: Remove: archive file [/home/abi/fetcher/tmp/corporate_reputation-0.6.0.tar.gz]
+[2023-07-23 22:06:09] INFO root fetch - main [MainThread]: End processing [corporate-reputation]: success
+[2023-07-23 22:06:09] INFO root fetch - processPackages [stormlibpp]: Remove: archive file [/home/abi/fetcher/tmp/stormlibpp-0.3.0.tar.gz]
+[2023-07-23 22:06:09] INFO root fetch - processPackages [stormlibpp]: Remove: archive file [/home/abi/fetcher/tmp/stormlibpp-0.3.1.tar.gz]
+[2023-07-23 22:06:09] INFO root fetch - main [MainThread]: End processing [stormlibpp]: success
+[2023-07-23 22:06:10] INFO root fetch - processPackages [pygrace]: Remove: archive file [/home/abi/fetcher/tmp/pygrace-1.2.1.tar.gz]
+[2023-07-23 22:06:10] INFO root fetch - processPackages [pygrace]: Remove: archive file [/home/abi/fetcher/tmp/pygrace-1.3.tar.gz]
+[2023-07-23 22:06:10] INFO root fetch - main [MainThread]: End processing [pygrace]: success
+[2023-07-23 22:07:12] INFO root fetch - processPackages [st-track-analysis]: Remove: archive file [/home/abi/fetcher/tmp/st_track_analysis-0.0.3.tar.gz]
+[2023-07-23 22:07:12] INFO root fetch - processPackages [st-track-analysis]: Remove: archive file [/home/abi/fetcher/tmp/st_track_analysis-0.0.4.tar.gz]
+[2023-07-23 22:07:12] INFO root fetch - main [MainThread]: End processing [st-track-analysis]: success
+[2023-07-23 22:07:12] INFO root fetch - main [MainThread]: Store serial: [19004584]
