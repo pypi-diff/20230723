@@ -7008,3 +7008,69 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 13:18:13] INFO root fetch - processPackages [translate-shell]: Remove: archive file [/home/abi/fetcher/tmp/translate-shell-0.0.9.tar.gz]
 [2023-07-23 13:18:13] INFO root fetch - main [MainThread]: End processing [translate-shell]: success
 [2023-07-23 13:18:13] INFO root fetch - main [MainThread]: Store serial: [19001080]
+[2023-07-23 13:23:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19001080]
+[2023-07-23 13:23:21] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-23 13:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: randog
+[2023-07-23 13:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pathos
+[2023-07-23 13:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: poetry-polylith-plugin
+[2023-07-23 13:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-univer
+[2023-07-23 13:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pharmpy-core
+[2023-07-23 13:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tb-nightly
+[2023-07-23 13:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: volvopy
+[2023-07-23 13:23:21] INFO root fetch - processPackages [randog]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-23 13:23:21] INFO root fetch - processPackages [poetry-polylith-plugin]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-07-23 13:23:21] INFO root fetch - processPackages [pathos]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-23 13:23:21] INFO root fetch - processPackages [volvopy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-23 13:23:21] INFO root fetch - processPackages [python-univer]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-07-23 13:23:21] INFO root fetch - processPackages [pharmpy-core]: New version: [0.98.2] Old Version: [0.98.1]
+[2023-07-23 13:23:21] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-07-23 13:23:21] INFO root fetch - processPackages [python-univer]: Downloading https://files.pythonhosted.org/packages/8c/a6/5e174bc83b3cef19b0c5aa50910480860cf0964817b71a370215bb556063/python-univer-1.4.2.tar.gz
+[2023-07-23 13:23:21] INFO root fetch - processPackages [volvopy]: Downloading https://files.pythonhosted.org/packages/09/80/61bd1f4ee62f2d455c9dba78d56bf9ebf309ea5f8732aa5afa30aab6f483/volvopy-0.1.8.tar.gz
+[2023-07-23 13:23:21] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-07-23 13:23:21] INFO root fetch - processPackages [poetry-polylith-plugin]: Downloading https://files.pythonhosted.org/packages/52/70/c4799a5cd60474db4fa25f1cff95f09641ef893abd0389070ab235a3cc20/poetry_polylith_plugin-1.6.1.tar.gz
+[2023-07-23 13:23:22] INFO root fetch - processPackages [randog]: Downloading https://files.pythonhosted.org/packages/df/80/52ed4358e7b6691d6b189037b9b389a32c2770d5ac82655a0738ebb17d3c/randog-0.7.0.tar.gz
+[2023-07-23 13:23:22] INFO root fetch - processPackages [pathos]: Downloading https://files.pythonhosted.org/packages/20/46/ee872a272db82e99f1c5d8953d1ff0bb3450ce29774e10003d13e10f3a63/pathos-0.3.0.tar.gz
+[2023-07-23 13:23:22] INFO root fetch - processPackages [pharmpy-core]: Downloading https://files.pythonhosted.org/packages/f3/25/54834d6e73b60680c7f0ddb287e533b22da79468c349a1e3ad19eefdaca4/pharmpy-core-0.98.1.tar.gz
+[2023-07-23 13:23:22] INFO root fetch - processPackages [volvopy]: Downloading https://files.pythonhosted.org/packages/65/63/ba8ec09cdf10dd66d13c6a803e3c55a019f7c7bff6c588035e14f79f610f/volvopy-0.1.9.tar.gz
+[2023-07-23 13:23:22] INFO root fetch - processPackages [python-univer]: Downloading https://files.pythonhosted.org/packages/f8/b4/a9aae9c6f2746cf5698ec495eecb0b00aa67a8eb96218480a4e7cc6ba351/python-univer-1.4.3.tar.gz
+[2023-07-23 13:23:22] INFO root fetch - processPackages [volvopy]: executing diffoscope
+[2023-07-23 13:23:22] INFO root fetch - processPackages [volvopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volvopy-0.1.8.tar.gz tmp/volvopy-0.1.9.tar.gz --markdown 20230723/v/volvopy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-23 13:23:22] INFO root fetch - processPackages [randog]: Downloading https://files.pythonhosted.org/packages/df/8f/a0f5c7bcda3a1fb9cbd76ad259eb0a432cb04a74576fa8bcbfba38cf7575/randog-0.8.0.tar.gz
+[2023-07-23 13:23:22] INFO root fetch - processPackages [python-univer]: executing diffoscope
+[2023-07-23 13:23:22] INFO root fetch - processPackages [python-univer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-univer-1.4.2.tar.gz tmp/python-univer-1.4.3.tar.gz --markdown 20230723/p/python-univer/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-07-23 13:23:22] INFO root fetch - processPackages [poetry-polylith-plugin]: Downloading https://files.pythonhosted.org/packages/0e/d7/6f02dc51a2cc6890be10720e50169deee443506006f31555c28152ff2f21/poetry_polylith_plugin-1.6.2.tar.gz
+[2023-07-23 13:23:22] INFO root fetch - processPackages [pathos]: Downloading https://files.pythonhosted.org/packages/f9/f9/180b44bda6b68d21b9547037b2a1609523dc874b51242d80c167d0914ad2/pathos-0.3.1.tar.gz
+[2023-07-23 13:23:22] INFO root fetch - processPackages [randog]: executing diffoscope
+[2023-07-23 13:23:22] INFO root fetch - processPackages [randog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/randog-0.7.0.tar.gz tmp/randog-0.8.0.tar.gz --markdown 20230723/r/randog/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-23 13:23:22] INFO root fetch - processPackages [pharmpy-core]: Downloading https://files.pythonhosted.org/packages/56/d6/0a6e41a53033f098ed19800c1fb18a58154d28a5d1855e5ba2024bb04897/pharmpy-core-0.98.2.tar.gz
+[2023-07-23 13:23:22] INFO root fetch - processPackages [poetry-polylith-plugin]: executing diffoscope
+[2023-07-23 13:23:22] INFO root fetch - processPackages [poetry-polylith-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_polylith_plugin-1.6.1.tar.gz tmp/poetry_polylith_plugin-1.6.2.tar.gz --markdown 20230723/p/poetry-polylith-plugin/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-07-23 13:23:22] INFO root fetch - processPackages [pathos]: executing diffoscope
+[2023-07-23 13:23:22] INFO root fetch - processPackages [pathos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathos-0.3.0.tar.gz tmp/pathos-0.3.1.tar.gz --markdown 20230723/p/pathos/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-23 13:23:22] INFO root fetch - processPackages [pharmpy-core]: executing diffoscope
+[2023-07-23 13:23:22] INFO root fetch - processPackages [pharmpy-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pharmpy-core-0.98.1.tar.gz tmp/pharmpy-core-0.98.2.tar.gz --markdown 20230723/p/pharmpy-core/0.98.1-0.98.2/diff.md --exclude *.pyd
+[2023-07-23 13:23:23] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-07-23 13:23:23] INFO root fetch - processPackages [python-univer]: Remove: archive file [/home/abi/fetcher/tmp/python-univer-1.4.2.tar.gz]
+[2023-07-23 13:23:23] INFO root fetch - processPackages [volvopy]: Remove: archive file [/home/abi/fetcher/tmp/volvopy-0.1.8.tar.gz]
+[2023-07-23 13:23:23] INFO root fetch - processPackages [python-univer]: Remove: archive file [/home/abi/fetcher/tmp/python-univer-1.4.3.tar.gz]
+[2023-07-23 13:23:23] INFO root fetch - processPackages [volvopy]: Remove: archive file [/home/abi/fetcher/tmp/volvopy-0.1.9.tar.gz]
+[2023-07-23 13:23:23] INFO root fetch - main [MainThread]: End processing [python-univer]: success
+[2023-07-23 13:23:23] INFO root fetch - main [MainThread]: End processing [volvopy]: success
+[2023-07-23 13:23:23] INFO root fetch - processPackages [randog]: Remove: archive file [/home/abi/fetcher/tmp/randog-0.7.0.tar.gz]
+[2023-07-23 13:23:23] INFO root fetch - processPackages [randog]: Remove: archive file [/home/abi/fetcher/tmp/randog-0.8.0.tar.gz]
+[2023-07-23 13:23:23] INFO root fetch - main [MainThread]: End processing [randog]: success
+[2023-07-23 13:23:23] INFO root fetch - processPackages [poetry-polylith-plugin]: Remove: archive file [/home/abi/fetcher/tmp/poetry_polylith_plugin-1.6.1.tar.gz]
+[2023-07-23 13:23:23] INFO root fetch - processPackages [poetry-polylith-plugin]: Remove: archive file [/home/abi/fetcher/tmp/poetry_polylith_plugin-1.6.2.tar.gz]
+[2023-07-23 13:23:23] INFO root fetch - main [MainThread]: End processing [poetry-polylith-plugin]: success
+[2023-07-23 13:23:24] INFO root fetch - processPackages [pathos]: Remove: archive file [/home/abi/fetcher/tmp/pathos-0.3.0.tar.gz]
+[2023-07-23 13:23:24] INFO root fetch - processPackages [pathos]: Remove: archive file [/home/abi/fetcher/tmp/pathos-0.3.1.tar.gz]
+[2023-07-23 13:23:24] INFO root fetch - main [MainThread]: End processing [pathos]: success
+[2023-07-23 13:23:24] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-07-23 13:23:24] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230723/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-07-23 13:23:26] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-07-23 13:23:26] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-07-23 13:23:26] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-07-23 13:23:29] INFO root fetch - processPackages [pharmpy-core]: Remove: archive file [/home/abi/fetcher/tmp/pharmpy-core-0.98.1.tar.gz]
+[2023-07-23 13:23:29] INFO root fetch - processPackages [pharmpy-core]: Remove: archive file [/home/abi/fetcher/tmp/pharmpy-core-0.98.2.tar.gz]
+[2023-07-23 13:23:29] INFO root fetch - main [MainThread]: End processing [pharmpy-core]: success
+[2023-07-23 13:23:29] INFO root fetch - main [MainThread]: Store serial: [19001099]
