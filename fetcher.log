@@ -6386,3 +6386,90 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 12:14:02] INFO root fetch - processPackages [edist]: Remove: archive file [/home/abi/fetcher/tmp/edist-1.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl.zip]
 [2023-07-23 12:14:02] INFO root fetch - main [MainThread]: End processing [edist]: success
 [2023-07-23 12:14:02] INFO root fetch - main [MainThread]: Store serial: [19000694]
+[2023-07-23 12:19:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19000694]
+[2023-07-23 12:19:11] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-23 12:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: summa-embed
+[2023-07-23 12:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aviatrix-discovery
+[2023-07-23 12:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uk-bin-collection
+[2023-07-23 12:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: drf-htmx-renderer
+[2023-07-23 12:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aviatrix-migration
+[2023-07-23 12:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: easy-liftover
+[2023-07-23 12:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: windmill-api
+[2023-07-23 12:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wmill
+[2023-07-23 12:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wmill-pg
+[2023-07-23 12:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aioplemmy
+[2023-07-23 12:19:11] INFO root fetch - processPackages [aviatrix-migration]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-23 12:19:11] INFO root fetch - processPackages [drf-htmx-renderer]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-23 12:19:11] INFO root fetch - processPackages [uk-bin-collection]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-07-23 12:19:11] INFO root fetch - processPackages [aviatrix-discovery]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-23 12:19:11] INFO root fetch - processPackages [summa-embed]: New version: [0.17.8] Old Version: [0.17.7]
+[2023-07-23 12:19:11] INFO root fetch - processPackages [aioplemmy]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-23 12:19:11] WARNING root fetch - processPackages [easy-liftover]: Skipping, unable to determine old version
+[2023-07-23 12:19:11] INFO root fetch - main [MainThread]: End processing [easy-liftover] error
+[2023-07-23 12:19:11] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-07-23 12:19:11] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-07-23 12:19:11] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-07-23 12:19:11] INFO root fetch - processPackages [aviatrix-migration]: Downloading https://files.pythonhosted.org/packages/21/c0/ad0ada02f772026372950703ae1a0caa68d0dea582f9995503a07f9663ca/aviatrix_migration-0.2.8-cp39-cp39-win_amd64.whl
+[2023-07-23 12:19:11] INFO root fetch - processPackages [drf-htmx-renderer]: Downloading https://files.pythonhosted.org/packages/55/c8/6f6b5319bcb1453dea400d51741c69b6de0e97dcab5ceea32d51b7e726a0/drf-htmx-renderer-0.0.1.tar.gz
+[2023-07-23 12:19:11] INFO root fetch - processPackages [uk-bin-collection]: Downloading https://files.pythonhosted.org/packages/58/1f/72a31d431c3fe35e4e1142ad12cfcc1b80aa698aabf4289c2cae7cd24b20/uk_bin_collection-0.6.0.tar.gz
+[2023-07-23 12:19:11] INFO root fetch - processPackages [aviatrix-discovery]: Downloading https://files.pythonhosted.org/packages/eb/5d/5d815901fd246f869c11597b89b558431d2380b03e96cfe1b922fb7f69b8/aviatrix_discovery-0.2.8-cp39-cp39-win_amd64.whl
+[2023-07-23 12:19:11] INFO root fetch - processPackages [summa-embed]: Downloading https://files.pythonhosted.org/packages/1f/ca/7d1b6d9708631980064fe1827d375ee8077236c3b20d7dc87bce7a36f8c1/summa_embed-0.17.7.tar.gz
+[2023-07-23 12:19:11] INFO root fetch - processPackages [aioplemmy]: Downloading https://files.pythonhosted.org/packages/9b/c3/a49f1c24b779a273c689262823f44fbc515f5bc5234c7238621226f6f665/aioplemmy-0.3.2.tar.gz
+[2023-07-23 12:19:11] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2023-07-23 12:19:11] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2023-07-23 12:19:11] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2023-07-23 12:19:12] INFO root fetch - processPackages [drf-htmx-renderer]: Downloading https://files.pythonhosted.org/packages/bf/9a/961e5906a21b15a4bf9d0265b4d10a07713a1765a940e18f6e49db0ff095/drf-htmx-renderer-0.0.2.tar.gz
+[2023-07-23 12:19:12] INFO root fetch - processPackages [uk-bin-collection]: Downloading https://files.pythonhosted.org/packages/0f/d5/7515bdc67f11c4469950f280773d5d43eba78f3843cd4b49ccc3d55c34b7/uk_bin_collection-0.7.0.tar.gz
+[2023-07-23 12:19:12] INFO root fetch - processPackages [aioplemmy]: Downloading https://files.pythonhosted.org/packages/6b/f4/da7f04bf70ab738cea3b24f496930976a1c47d73a36d403d51d5bac71fcf/aioplemmy-0.3.3.tar.gz
+[2023-07-23 12:19:12] INFO root fetch - processPackages [aviatrix-discovery]: Downloading https://files.pythonhosted.org/packages/18/ef/7d0c0938fbb6fab82da833245ac82adaa5314e519d3506c2a7972a598fe5/aviatrix_discovery-0.2.9-cp39-cp39-win_amd64.whl
+[2023-07-23 12:19:12] INFO root fetch - processPackages [drf-htmx-renderer]: executing diffoscope
+[2023-07-23 12:19:12] INFO root fetch - processPackages [drf-htmx-renderer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-htmx-renderer-0.0.1.tar.gz tmp/drf-htmx-renderer-0.0.2.tar.gz --markdown 20230723/d/drf-htmx-renderer/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-23 12:19:12] INFO root fetch - processPackages [uk-bin-collection]: executing diffoscope
+[2023-07-23 12:19:12] INFO root fetch - processPackages [uk-bin-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uk_bin_collection-0.6.0.tar.gz tmp/uk_bin_collection-0.7.0.tar.gz --markdown 20230723/u/uk-bin-collection/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-23 12:19:12] INFO root fetch - processPackages [summa-embed]: Downloading https://files.pythonhosted.org/packages/6b/ea/150d0c00b745d433ff3c5141fc5860aa80bc411f482be6781499f6c5ac8a/summa_embed-0.17.8.tar.gz
+[2023-07-23 12:19:12] INFO root fetch - processPackages [aviatrix-discovery]: executing diffoscope
+[2023-07-23 12:19:12] INFO root fetch - processPackages [aviatrix-discovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aviatrix_discovery-0.2.8-cp39-cp39-win_amd64.whl.zip tmp/aviatrix_discovery-0.2.9-cp39-cp39-win_amd64.whl.zip --markdown 20230723/a/aviatrix-discovery/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-23 12:19:12] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2023-07-23 12:19:12] INFO root fetch - processPackages [aioplemmy]: executing diffoscope
+[2023-07-23 12:19:12] INFO root fetch - processPackages [aioplemmy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioplemmy-0.3.2.tar.gz tmp/aioplemmy-0.3.3.tar.gz --markdown 20230723/a/aioplemmy/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-23 12:19:12] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2023-07-23 12:19:12] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2023-07-23 12:19:12] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20230723/w/wmill/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-07-23 12:19:12] INFO root fetch - processPackages [summa-embed]: executing diffoscope
+[2023-07-23 12:19:12] INFO root fetch - processPackages [summa-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/summa_embed-0.17.7.tar.gz tmp/summa_embed-0.17.8.tar.gz --markdown 20230723/s/summa-embed/0.17.7-0.17.8/diff.md --exclude *.pyd
+[2023-07-23 12:19:12] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2023-07-23 12:19:12] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20230723/w/windmill-api/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-07-23 12:19:12] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2023-07-23 12:19:12] INFO root fetch - processPackages [aviatrix-migration]: Downloading https://files.pythonhosted.org/packages/d0/4d/d0fe16c903b7e89479e55158323464d5451705d11c44dbb079ae8034f3a5/aviatrix_migration-0.2.9-cp39-cp39-win_amd64.whl
+[2023-07-23 12:19:12] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2023-07-23 12:19:12] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20230723/w/wmill-pg/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-07-23 12:19:13] INFO root fetch - processPackages [aviatrix-migration]: executing diffoscope
+[2023-07-23 12:19:13] INFO root fetch - processPackages [aviatrix-migration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aviatrix_migration-0.2.8-cp39-cp39-win_amd64.whl.zip tmp/aviatrix_migration-0.2.9-cp39-cp39-win_amd64.whl.zip --markdown 20230723/a/aviatrix-migration/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-23 12:19:13] INFO root fetch - processPackages [drf-htmx-renderer]: Remove: archive file [/home/abi/fetcher/tmp/drf-htmx-renderer-0.0.1.tar.gz]
+[2023-07-23 12:19:13] INFO root fetch - processPackages [drf-htmx-renderer]: Remove: archive file [/home/abi/fetcher/tmp/drf-htmx-renderer-0.0.2.tar.gz]
+[2023-07-23 12:19:13] INFO root fetch - main [MainThread]: End processing [drf-htmx-renderer]: success
+[2023-07-23 12:19:13] INFO root fetch - processPackages [aviatrix-discovery]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_discovery-0.2.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-23 12:19:13] INFO root fetch - processPackages [aviatrix-discovery]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_discovery-0.2.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-23 12:19:13] INFO root fetch - main [MainThread]: End processing [aviatrix-discovery]: success
+[2023-07-23 12:19:13] INFO root fetch - processPackages [aioplemmy]: Remove: archive file [/home/abi/fetcher/tmp/aioplemmy-0.3.2.tar.gz]
+[2023-07-23 12:19:13] INFO root fetch - processPackages [aioplemmy]: Remove: archive file [/home/abi/fetcher/tmp/aioplemmy-0.3.3.tar.gz]
+[2023-07-23 12:19:13] INFO root fetch - main [MainThread]: End processing [aioplemmy]: success
+[2023-07-23 12:19:13] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2023-07-23 12:19:13] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2023-07-23 12:19:13] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2023-07-23 12:19:13] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2023-07-23 12:19:13] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2023-07-23 12:19:13] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2023-07-23 12:19:14] INFO root fetch - processPackages [uk-bin-collection]: Remove: archive file [/home/abi/fetcher/tmp/uk_bin_collection-0.6.0.tar.gz]
+[2023-07-23 12:19:14] INFO root fetch - processPackages [uk-bin-collection]: Remove: archive file [/home/abi/fetcher/tmp/uk_bin_collection-0.7.0.tar.gz]
+[2023-07-23 12:19:14] INFO root fetch - main [MainThread]: End processing [uk-bin-collection]: success
+[2023-07-23 12:19:14] INFO root fetch - processPackages [summa-embed]: Remove: archive file [/home/abi/fetcher/tmp/summa_embed-0.17.7.tar.gz]
+[2023-07-23 12:19:14] INFO root fetch - processPackages [summa-embed]: Remove: archive file [/home/abi/fetcher/tmp/summa_embed-0.17.8.tar.gz]
+[2023-07-23 12:19:14] INFO root fetch - main [MainThread]: End processing [summa-embed]: success
+[2023-07-23 12:19:14] INFO root fetch - processPackages [aviatrix-migration]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration-0.2.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-23 12:19:14] INFO root fetch - processPackages [aviatrix-migration]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration-0.2.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-23 12:19:14] INFO root fetch - main [MainThread]: End processing [aviatrix-migration]: success
+[2023-07-23 12:19:20] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2023-07-23 12:19:20] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2023-07-23 12:19:20] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2023-07-23 12:19:20] INFO root fetch - main [MainThread]: Store serial: [19000765]
