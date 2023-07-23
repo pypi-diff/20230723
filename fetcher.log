@@ -13150,3 +13150,60 @@ AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
 [2023-07-23 20:46:41] INFO root fetch - processPackages [viresclient]: Remove: archive file [/home/abi/fetcher/tmp/viresclient-0.9.1.tar.gz]
 [2023-07-23 20:46:41] INFO root fetch - main [MainThread]: End processing [viresclient]: success
 [2023-07-23 20:46:41] INFO root fetch - main [MainThread]: Store serial: [19004061]
+[2023-07-23 20:51:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19004061]
+[2023-07-23 20:51:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-23 20:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OneOnOne
+[2023-07-23 20:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bpy-addon-build
+[2023-07-23 20:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: napari-workshop-browser
+[2023-07-23 20:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stability-matrix-tools
+[2023-07-23 20:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: micro-chrome-devtools-protocol
+[2023-07-23 20:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lisql
+[2023-07-23 20:51:50] INFO root fetch - processPackages [OneOnOne]: New version: [0.6945] Old Version: [0.6944]
+[2023-07-23 20:51:50] INFO root fetch - processPackages [stability-matrix-tools]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-23 20:51:50] INFO root fetch - processPackages [bpy-addon-build]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-23 20:51:50] INFO root fetch - processPackages [micro-chrome-devtools-protocol]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-23 20:51:50] INFO root fetch - processPackages [napari-workshop-browser]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-23 20:51:50] INFO root fetch - processPackages [lisql]: New version: [2.1.1] Old Version: [2.1]
+[2023-07-23 20:51:50] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/9b/3c/ab8dfc79dee7f9eb0ffc34f64dfde3d25ee67748abeac41b3f512549e949/OneOnOne-0.6944.tar.gz
+[2023-07-23 20:51:50] INFO root fetch - processPackages [lisql]: Downloading https://files.pythonhosted.org/packages/ab/8e/83ff60fa90f2ab8d67c610e7003c7a143276fec357ddcc4dd17495fd7c2e/lisql-2.1.tar.gz
+[2023-07-23 20:51:51] INFO root fetch - processPackages [stability-matrix-tools]: Downloading https://files.pythonhosted.org/packages/9e/2e/4b6a4802897636c87b43cfb630e5ffac91c5dfd180a965e0f16175c021df/stability_matrix_tools-0.1.9.tar.gz
+[2023-07-23 20:51:51] INFO root fetch - processPackages [micro-chrome-devtools-protocol]: Downloading https://files.pythonhosted.org/packages/6a/31/1d3c4e4961cc2ee9eeaed3fcfd33f9e9a356e4a778e046bf1c2edd0ddff5/micro-chrome-devtools-protocol-0.1.0.tar.gz
+[2023-07-23 20:51:51] INFO root fetch - processPackages [napari-workshop-browser]: Downloading https://files.pythonhosted.org/packages/76/13/c60332408c8313e2b370059a6f085cd82163f152582d3088a1db6075090a/napari-workshop-browser-0.0.1.tar.gz
+[2023-07-23 20:51:51] INFO root fetch - processPackages [bpy-addon-build]: Downloading https://files.pythonhosted.org/packages/e8/b3/0fd69c2c570925d4f57e802b5c08f2a09561f3b99e57a070bd235ae22532/bpy_addon_build-0.1.8.tar.gz
+[2023-07-23 20:51:51] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/78/88/2e42b72947f143f7b0d30b4bb20d2b61fc20382731a178a590dec9fd322a/OneOnOne-0.6945.tar.gz
+[2023-07-23 20:51:51] INFO root fetch - processPackages [lisql]: Downloading https://files.pythonhosted.org/packages/e7/a1/bbb5b5d21aa1d8788e66833be297962f28175358d1d51485d40fb6dac96b/lisql-2.1.1.tar.gz
+[2023-07-23 20:51:51] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-23 20:51:51] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.6944.tar.gz tmp/OneOnOne-0.6945.tar.gz --markdown 20230723/O/OneOnOne/0.6944-0.6945/diff.md --exclude *.pyd
+[2023-07-23 20:51:51] INFO root fetch - processPackages [bpy-addon-build]: Downloading https://files.pythonhosted.org/packages/a0/c1/e3d715f0b09d23e8a19bef1df8e09f16a7aec88ae281447967b1e2360a96/bpy_addon_build-0.1.9.tar.gz
+[2023-07-23 20:51:51] INFO root fetch - processPackages [micro-chrome-devtools-protocol]: Downloading https://files.pythonhosted.org/packages/09/48/c4c930d7cda92aac1682be29682c47f28dd60863316d4ec6f90e21cc5a26/micro-chrome-devtools-protocol-0.2.0.tar.gz
+[2023-07-23 20:51:51] INFO root fetch - processPackages [stability-matrix-tools]: Downloading https://files.pythonhosted.org/packages/bc/78/44b480c4d566ebd2dfd907ab2e36aa55b66c0a329fb70486947910a2b65f/stability_matrix_tools-0.2.0.tar.gz
+[2023-07-23 20:51:51] INFO root fetch - processPackages [micro-chrome-devtools-protocol]: executing diffoscope
+[2023-07-23 20:51:51] INFO root fetch - processPackages [micro-chrome-devtools-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micro-chrome-devtools-protocol-0.1.0.tar.gz tmp/micro-chrome-devtools-protocol-0.2.0.tar.gz --markdown 20230723/m/micro-chrome-devtools-protocol/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-23 20:51:51] INFO root fetch - processPackages [bpy-addon-build]: executing diffoscope
+[2023-07-23 20:51:51] INFO root fetch - processPackages [bpy-addon-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpy_addon_build-0.1.8.tar.gz tmp/bpy_addon_build-0.1.9.tar.gz --markdown 20230723/b/bpy-addon-build/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-23 20:51:51] INFO root fetch - processPackages [napari-workshop-browser]: Downloading https://files.pythonhosted.org/packages/fa/ad/6cd3d28e29112898b5038342849a8a6480ccc597969ddd7ac0d5cf6b8add/napari-workshop-browser-0.0.2.tar.gz
+[2023-07-23 20:51:51] INFO root fetch - processPackages [lisql]: executing diffoscope
+[2023-07-23 20:51:51] INFO root fetch - processPackages [lisql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lisql-2.1.tar.gz tmp/lisql-2.1.1.tar.gz --markdown 20230723/l/lisql/2.1-2.1.1/diff.md --exclude *.pyd
+[2023-07-23 20:51:51] INFO root fetch - processPackages [stability-matrix-tools]: executing diffoscope
+[2023-07-23 20:51:51] INFO root fetch - processPackages [stability-matrix-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stability_matrix_tools-0.1.9.tar.gz tmp/stability_matrix_tools-0.2.0.tar.gz --markdown 20230723/s/stability-matrix-tools/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-23 20:51:51] INFO root fetch - processPackages [napari-workshop-browser]: executing diffoscope
+[2023-07-23 20:51:51] INFO root fetch - processPackages [napari-workshop-browser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-workshop-browser-0.0.1.tar.gz tmp/napari-workshop-browser-0.0.2.tar.gz --markdown 20230723/n/napari-workshop-browser/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-23 20:51:52] INFO root fetch - processPackages [micro-chrome-devtools-protocol]: Remove: archive file [/home/abi/fetcher/tmp/micro-chrome-devtools-protocol-0.1.0.tar.gz]
+[2023-07-23 20:51:52] INFO root fetch - processPackages [micro-chrome-devtools-protocol]: Remove: archive file [/home/abi/fetcher/tmp/micro-chrome-devtools-protocol-0.2.0.tar.gz]
+[2023-07-23 20:51:52] INFO root fetch - main [MainThread]: End processing [micro-chrome-devtools-protocol]: success
+[2023-07-23 20:51:52] INFO root fetch - processPackages [bpy-addon-build]: Remove: archive file [/home/abi/fetcher/tmp/bpy_addon_build-0.1.8.tar.gz]
+[2023-07-23 20:51:52] INFO root fetch - processPackages [bpy-addon-build]: Remove: archive file [/home/abi/fetcher/tmp/bpy_addon_build-0.1.9.tar.gz]
+[2023-07-23 20:51:52] INFO root fetch - main [MainThread]: End processing [bpy-addon-build]: success
+[2023-07-23 20:51:52] INFO root fetch - processPackages [lisql]: Remove: archive file [/home/abi/fetcher/tmp/lisql-2.1.tar.gz]
+[2023-07-23 20:51:52] INFO root fetch - processPackages [lisql]: Remove: archive file [/home/abi/fetcher/tmp/lisql-2.1.1.tar.gz]
+[2023-07-23 20:51:52] INFO root fetch - main [MainThread]: End processing [lisql]: success
+[2023-07-23 20:51:52] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6944.tar.gz]
+[2023-07-23 20:51:52] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.6945.tar.gz]
+[2023-07-23 20:51:52] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-23 20:51:52] INFO root fetch - processPackages [napari-workshop-browser]: Remove: archive file [/home/abi/fetcher/tmp/napari-workshop-browser-0.0.1.tar.gz]
+[2023-07-23 20:51:52] INFO root fetch - processPackages [napari-workshop-browser]: Remove: archive file [/home/abi/fetcher/tmp/napari-workshop-browser-0.0.2.tar.gz]
+[2023-07-23 20:51:52] INFO root fetch - main [MainThread]: End processing [napari-workshop-browser]: success
+[2023-07-23 20:51:52] INFO root fetch - processPackages [stability-matrix-tools]: Remove: archive file [/home/abi/fetcher/tmp/stability_matrix_tools-0.1.9.tar.gz]
+[2023-07-23 20:51:52] INFO root fetch - processPackages [stability-matrix-tools]: Remove: archive file [/home/abi/fetcher/tmp/stability_matrix_tools-0.2.0.tar.gz]
+[2023-07-23 20:51:52] INFO root fetch - main [MainThread]: End processing [stability-matrix-tools]: success
+[2023-07-23 20:51:52] INFO root fetch - main [MainThread]: Store serial: [19004078]
