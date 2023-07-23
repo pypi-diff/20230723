@@ -4302,3 +4302,32 @@
 [2023-07-23 08:22:08] INFO root fetch - processPackages [great-expectations-experimental]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations_experimental-0.1.20230723002.tar.gz]
 [2023-07-23 08:22:08] INFO root fetch - main [MainThread]: End processing [great-expectations-experimental]: success
 [2023-07-23 08:22:08] INFO root fetch - main [MainThread]: Store serial: [18999851]
+[2023-07-23 08:27:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999851]
+[2023-07-23 08:27:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-23 08:27:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-vite-plugin
+[2023-07-23 08:27:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-animus
+[2023-07-23 08:27:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-mystool
+[2023-07-23 08:27:18] INFO root fetch - processPackages [django-vite-plugin]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-07-23 08:27:18] INFO root fetch - processPackages [py-animus]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-23 08:27:18] INFO root fetch - processPackages [nonebot-plugin-mystool]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-07-23 08:27:18] INFO root fetch - processPackages [nonebot-plugin-mystool]: Downloading https://files.pythonhosted.org/packages/e0/e0/488573e0e1f2db23f71e26f18d37b1ac10b710938ef3e69a3e6702a8bc91/nonebot_plugin_mystool-1.0.1.tar.gz
+[2023-07-23 08:27:18] INFO root fetch - processPackages [py-animus]: Downloading https://files.pythonhosted.org/packages/e5/fa/7364cee42c144e604e244323f847586bf0aff605bf0c6ffa328dd8638ca3/py_animus-1.0.8.tar.gz
+[2023-07-23 08:27:18] INFO root fetch - processPackages [django-vite-plugin]: Downloading https://files.pythonhosted.org/packages/42/23/a39f854b5ed6d7bb369216c71dfea4d0d618b0f547586f2a8e41c72c3819/django_vite_plugin-1.3.0.tar.gz
+[2023-07-23 08:27:18] INFO root fetch - processPackages [django-vite-plugin]: executing diffoscope
+[2023-07-23 08:27:18] INFO root fetch - processPackages [django-vite-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_vite_plugin-1.2.0.tar.gz tmp/django_vite_plugin-1.3.0.tar.gz --markdown 20230723/d/django-vite-plugin/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-07-23 08:27:18] INFO root fetch - processPackages [nonebot-plugin-mystool]: Downloading https://files.pythonhosted.org/packages/a2/6b/c95e89cb132df7b841be326248e116ccbf7ae247a2d764ffcb03d9f6f816/nonebot_plugin_mystool-1.1.0.tar.gz
+[2023-07-23 08:27:18] INFO root fetch - processPackages [nonebot-plugin-mystool]: executing diffoscope
+[2023-07-23 08:27:18] INFO root fetch - processPackages [nonebot-plugin-mystool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_mystool-1.0.1.tar.gz tmp/nonebot_plugin_mystool-1.1.0.tar.gz --markdown 20230723/n/nonebot-plugin-mystool/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-07-23 08:27:18] INFO root fetch - processPackages [py-animus]: Downloading https://files.pythonhosted.org/packages/d0/f2/ad85921f027bfea132df7280af98bacb101900532efd1d6e0a3cf1407033/py_animus-1.0.9.tar.gz
+[2023-07-23 08:27:19] INFO root fetch - processPackages [py-animus]: executing diffoscope
+[2023-07-23 08:27:19] INFO root fetch - processPackages [py-animus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_animus-1.0.8.tar.gz tmp/py_animus-1.0.9.tar.gz --markdown 20230723/p/py-animus/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-23 08:27:19] INFO root fetch - processPackages [django-vite-plugin]: Remove: archive file [/home/abi/fetcher/tmp/django_vite_plugin-1.2.0.tar.gz]
+[2023-07-23 08:27:19] INFO root fetch - processPackages [django-vite-plugin]: Remove: archive file [/home/abi/fetcher/tmp/django_vite_plugin-1.3.0.tar.gz]
+[2023-07-23 08:27:19] INFO root fetch - main [MainThread]: End processing [django-vite-plugin]: success
+[2023-07-23 08:27:19] INFO root fetch - processPackages [nonebot-plugin-mystool]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_mystool-1.0.1.tar.gz]
+[2023-07-23 08:27:19] INFO root fetch - processPackages [nonebot-plugin-mystool]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_mystool-1.1.0.tar.gz]
+[2023-07-23 08:27:19] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-mystool]: success
+[2023-07-23 08:27:20] INFO root fetch - processPackages [py-animus]: Remove: archive file [/home/abi/fetcher/tmp/py_animus-1.0.8.tar.gz]
+[2023-07-23 08:27:20] INFO root fetch - processPackages [py-animus]: Remove: archive file [/home/abi/fetcher/tmp/py_animus-1.0.9.tar.gz]
+[2023-07-23 08:27:20] INFO root fetch - main [MainThread]: End processing [py-animus]: success
+[2023-07-23 08:27:20] INFO root fetch - main [MainThread]: Store serial: [18999860]
