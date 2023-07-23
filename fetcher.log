@@ -4331,3 +4331,51 @@
 [2023-07-23 08:27:20] INFO root fetch - processPackages [py-animus]: Remove: archive file [/home/abi/fetcher/tmp/py_animus-1.0.9.tar.gz]
 [2023-07-23 08:27:20] INFO root fetch - main [MainThread]: End processing [py-animus]: success
 [2023-07-23 08:27:20] INFO root fetch - main [MainThread]: Store serial: [18999860]
+[2023-07-23 08:32:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999860]
+[2023-07-23 08:32:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-23 08:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-stable-diffusion-diao
+[2023-07-23 08:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hstrat
+[2023-07-23 08:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qps-limit
+[2023-07-23 08:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wow-ai-mms
+[2023-07-23 08:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vinhvh-package
+[2023-07-23 08:32:30] INFO root fetch - processPackages [wow-ai-mms]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-23 08:32:30] INFO root fetch - processPackages [qps-limit]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-23 08:32:30] INFO root fetch - processPackages [vinhvh-package]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-23 08:32:30] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: New version: [0.3.9.6.5] Old Version: [0.3.9.6.4]
+[2023-07-23 08:32:30] INFO root fetch - processPackages [hstrat]: New version: [1.8.0] Old Version: [1.7.4]
+[2023-07-23 08:32:30] INFO root fetch - processPackages [wow-ai-mms]: Downloading https://files.pythonhosted.org/packages/3d/48/c2f072452412271be50573881fc916a27129320c75a0a37c1e3defe62484/wow_ai_mms-0.1.4.tar.gz
+[2023-07-23 08:32:30] INFO root fetch - processPackages [vinhvh-package]: Downloading https://files.pythonhosted.org/packages/eb/4f/c3b7858bec58dc3188426b4be3f1faa1bf1fdbb6a3edab3e976f46036204/vinhvh_package-0.0.1.tar.gz
+[2023-07-23 08:32:30] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/53/e4/4bd377a2c14d28439acd21b038cba17cde87b5ac00d172432d1960518a12/nonebot_plugin_stable_diffusion_diao-0.3.9.6.4.tar.gz
+[2023-07-23 08:32:30] INFO root fetch - processPackages [hstrat]: Downloading https://files.pythonhosted.org/packages/c9/0d/58844d17b78cea126ddaed48df9ebd168bf32c6185ec0b0ca32580091642/hstrat-1.7.4.tar.gz
+[2023-07-23 08:32:30] INFO root fetch - processPackages [qps-limit]: Downloading https://files.pythonhosted.org/packages/04/c2/95db7b617d426062693546a33924649a8093ef44e6f818fee5f1cb4469a5/qps_limit-1.1.0-py3-none-any.whl
+[2023-07-23 08:32:30] INFO root fetch - processPackages [wow-ai-mms]: Downloading https://files.pythonhosted.org/packages/05/cf/69a93aecf112fd5427b6ed586d5925140ca2946039c99441ad6dd3c727e2/wow_ai_mms-0.1.5.tar.gz
+[2023-07-23 08:32:30] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/bd/f3/381abb131f001d8c1d888da9def4c09eb19a62ba5bf85ce215939311a563/nonebot_plugin_stable_diffusion_diao-0.3.9.6.5.tar.gz
+[2023-07-23 08:32:30] INFO root fetch - processPackages [vinhvh-package]: Downloading https://files.pythonhosted.org/packages/f1/e0/7bdf948f6de7eeee84766a6839b5e754d24f0a3810cb478fee9b844b5f21/vinhvh_package-0.0.2.tar.gz
+[2023-07-23 08:32:30] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: executing diffoscope
+[2023-07-23 08:32:30] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.6.4.tar.gz tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.6.5.tar.gz --markdown 20230723/n/nonebot-plugin-stable-diffusion-diao/0.3.9.6.4-0.3.9.6.5/diff.md --exclude *.pyd
+[2023-07-23 08:32:30] INFO root fetch - processPackages [qps-limit]: Downloading https://files.pythonhosted.org/packages/64/9d/08c3369c0a3fc4b9439f950054bf539c2ad0949637fdc3b810b171c2a88e/qps_limit-1.1.1-py3-none-any.whl
+[2023-07-23 08:32:30] INFO root fetch - processPackages [wow-ai-mms]: executing diffoscope
+[2023-07-23 08:32:30] INFO root fetch - processPackages [wow-ai-mms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wow_ai_mms-0.1.4.tar.gz tmp/wow_ai_mms-0.1.5.tar.gz --markdown 20230723/w/wow-ai-mms/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-23 08:32:30] INFO root fetch - processPackages [qps-limit]: executing diffoscope
+[2023-07-23 08:32:30] INFO root fetch - processPackages [qps-limit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qps_limit-1.1.0-py3-none-any.whl.zip tmp/qps_limit-1.1.1-py3-none-any.whl.zip --markdown 20230723/q/qps-limit/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-23 08:32:31] INFO root fetch - processPackages [vinhvh-package]: executing diffoscope
+[2023-07-23 08:32:31] INFO root fetch - processPackages [vinhvh-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vinhvh_package-0.0.1.tar.gz tmp/vinhvh_package-0.0.2.tar.gz --markdown 20230723/v/vinhvh-package/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-23 08:32:31] INFO root fetch - processPackages [hstrat]: Downloading https://files.pythonhosted.org/packages/b8/89/9193d1b80ce9efb063695461fb3c9d0909288d30268f4362629ccede198b/hstrat-1.8.0.tar.gz
+[2023-07-23 08:32:31] INFO root fetch - processPackages [hstrat]: executing diffoscope
+[2023-07-23 08:32:31] INFO root fetch - processPackages [hstrat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hstrat-1.7.4.tar.gz tmp/hstrat-1.8.0.tar.gz --markdown 20230723/h/hstrat/1.7.4-1.8.0/diff.md --exclude *.pyd
+[2023-07-23 08:32:31] INFO root fetch - processPackages [qps-limit]: Remove: archive file [/home/abi/fetcher/tmp/qps_limit-1.1.0-py3-none-any.whl.zip]
+[2023-07-23 08:32:31] INFO root fetch - processPackages [qps-limit]: Remove: archive file [/home/abi/fetcher/tmp/qps_limit-1.1.1-py3-none-any.whl.zip]
+[2023-07-23 08:32:31] INFO root fetch - main [MainThread]: End processing [qps-limit]: success
+[2023-07-23 08:32:31] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.6.4.tar.gz]
+[2023-07-23 08:32:31] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.6.5.tar.gz]
+[2023-07-23 08:32:31] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stable-diffusion-diao]: success
+[2023-07-23 08:32:31] INFO root fetch - processPackages [vinhvh-package]: Remove: archive file [/home/abi/fetcher/tmp/vinhvh_package-0.0.1.tar.gz]
+[2023-07-23 08:32:31] INFO root fetch - processPackages [vinhvh-package]: Remove: archive file [/home/abi/fetcher/tmp/vinhvh_package-0.0.2.tar.gz]
+[2023-07-23 08:32:31] INFO root fetch - main [MainThread]: End processing [vinhvh-package]: success
+[2023-07-23 08:32:31] INFO root fetch - processPackages [wow-ai-mms]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_mms-0.1.4.tar.gz]
+[2023-07-23 08:32:31] INFO root fetch - processPackages [wow-ai-mms]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_mms-0.1.5.tar.gz]
+[2023-07-23 08:32:31] INFO root fetch - main [MainThread]: End processing [wow-ai-mms]: success
+[2023-07-23 08:32:38] INFO root fetch - processPackages [hstrat]: Remove: archive file [/home/abi/fetcher/tmp/hstrat-1.7.4.tar.gz]
+[2023-07-23 08:32:38] INFO root fetch - processPackages [hstrat]: Remove: archive file [/home/abi/fetcher/tmp/hstrat-1.8.0.tar.gz]
+[2023-07-23 08:32:38] INFO root fetch - main [MainThread]: End processing [hstrat]: success
+[2023-07-23 08:32:38] INFO root fetch - main [MainThread]: Store serial: [18999874]
