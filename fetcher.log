@@ -14882,3 +14882,33 @@ AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
 [2023-07-23 22:33:17] INFO root fetch - processPackages [getajob]: Remove: archive file [/home/abi/fetcher/tmp/getajob-0.4.1.tar.gz]
 [2023-07-23 22:33:17] INFO root fetch - main [MainThread]: End processing [getajob]: success
 [2023-07-23 22:33:17] INFO root fetch - main [MainThread]: Store serial: [19004715]
+[2023-07-23 22:38:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19004715]
+[2023-07-23 22:38:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-23 22:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iterlite
+[2023-07-23 22:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MedicalImageConverter
+[2023-07-23 22:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spotRiver
+[2023-07-23 22:38:26] INFO root fetch - processPackages [MedicalImageConverter]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-23 22:38:26] INFO root fetch - processPackages [spotRiver]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-23 22:38:26] INFO root fetch - processPackages [iterlite]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-23 22:38:26] INFO root fetch - processPackages [MedicalImageConverter]: Downloading https://files.pythonhosted.org/packages/d5/17/131294a4ae2de29bee3bc8636a84a104e4bff1e3d465cc44ca3b9e8b2274/MedicalImageConverter-1.1.1.tar.gz
+[2023-07-23 22:38:26] INFO root fetch - processPackages [spotRiver]: Downloading https://files.pythonhosted.org/packages/67/69/d646739daf9e9434499e3cf5d1d62ba2ed86ecd62f113177a90575eb517c/spotRiver-0.0.98.tar.gz
+[2023-07-23 22:38:26] INFO root fetch - processPackages [iterlite]: Downloading https://files.pythonhosted.org/packages/59/02/59ac3034077a2f96ec3ad81566c3d1ed677bb8e21264e517e105e5b51169/iterlite-0.1.9.tar.gz
+[2023-07-23 22:38:26] INFO root fetch - processPackages [MedicalImageConverter]: Downloading https://files.pythonhosted.org/packages/56/9d/5c6d9f6a8c30d03c30a7e6d71b8eaf15b6b102d19537c0d10cc1b314cad6/MedicalImageConverter-1.1.2.tar.gz
+[2023-07-23 22:38:26] INFO root fetch - processPackages [spotRiver]: Downloading https://files.pythonhosted.org/packages/46/74/52f0a2fdf6bebd2e115eeb483098cca2a0279608a0ee1165eb34c13c6454/spotRiver-0.0.99.tar.gz
+[2023-07-23 22:38:27] INFO root fetch - processPackages [iterlite]: Downloading https://files.pythonhosted.org/packages/41/10/04f529cb9f20825e99d496ec8e5ae429ec82ee2f03432329c6cbf53020d2/iterlite-0.2.0.tar.gz
+[2023-07-23 22:38:27] INFO root fetch - processPackages [MedicalImageConverter]: executing diffoscope
+[2023-07-23 22:38:27] INFO root fetch - processPackages [MedicalImageConverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MedicalImageConverter-1.1.1.tar.gz tmp/MedicalImageConverter-1.1.2.tar.gz --markdown 20230723/M/MedicalImageConverter/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-23 22:38:27] INFO root fetch - processPackages [iterlite]: executing diffoscope
+[2023-07-23 22:38:27] INFO root fetch - processPackages [iterlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iterlite-0.1.9.tar.gz tmp/iterlite-0.2.0.tar.gz --markdown 20230723/i/iterlite/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-23 22:38:27] INFO root fetch - processPackages [spotRiver]: executing diffoscope
+[2023-07-23 22:38:27] INFO root fetch - processPackages [spotRiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotRiver-0.0.98.tar.gz tmp/spotRiver-0.0.99.tar.gz --markdown 20230723/s/spotRiver/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-23 22:38:27] INFO root fetch - processPackages [iterlite]: Remove: archive file [/home/abi/fetcher/tmp/iterlite-0.1.9.tar.gz]
+[2023-07-23 22:38:27] INFO root fetch - processPackages [iterlite]: Remove: archive file [/home/abi/fetcher/tmp/iterlite-0.2.0.tar.gz]
+[2023-07-23 22:38:27] INFO root fetch - main [MainThread]: End processing [iterlite]: success
+[2023-07-23 22:38:27] INFO root fetch - processPackages [MedicalImageConverter]: Remove: archive file [/home/abi/fetcher/tmp/MedicalImageConverter-1.1.1.tar.gz]
+[2023-07-23 22:38:27] INFO root fetch - processPackages [MedicalImageConverter]: Remove: archive file [/home/abi/fetcher/tmp/MedicalImageConverter-1.1.2.tar.gz]
+[2023-07-23 22:38:27] INFO root fetch - main [MainThread]: End processing [MedicalImageConverter]: success
+[2023-07-23 22:38:28] INFO root fetch - processPackages [spotRiver]: Remove: archive file [/home/abi/fetcher/tmp/spotRiver-0.0.98.tar.gz]
+[2023-07-23 22:38:28] INFO root fetch - processPackages [spotRiver]: Remove: archive file [/home/abi/fetcher/tmp/spotRiver-0.0.99.tar.gz]
+[2023-07-23 22:38:28] INFO root fetch - main [MainThread]: End processing [spotRiver]: success
+[2023-07-23 22:38:28] INFO root fetch - main [MainThread]: Store serial: [19004723]
