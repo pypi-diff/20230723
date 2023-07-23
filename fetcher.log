@@ -12173,3 +12173,24 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 19:32:16] INFO root fetch - processPackages [sirmordred]: Remove: archive file [/home/abi/fetcher/tmp/sirmordred-0.9.2rc1.tar.gz]
 [2023-07-23 19:32:16] INFO root fetch - main [MainThread]: End processing [sirmordred]: success
 [2023-07-23 19:32:16] INFO root fetch - main [MainThread]: Store serial: [19003626]
+[2023-07-23 19:37:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19003626]
+[2023-07-23 19:37:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-23 19:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ordinal-scale-stats
+[2023-07-23 19:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gymnasium-connect-four
+[2023-07-23 19:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tracereq-sdk
+[2023-07-23 19:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlfast
+[2023-07-23 19:37:25] WARNING root fetch - processPackages [tracereq-sdk]: Skipping, unable to determine old version
+[2023-07-23 19:37:25] INFO root fetch - main [MainThread]: End processing [tracereq-sdk] error
+[2023-07-23 19:37:25] WARNING root fetch - processPackages [ordinal-scale-stats]: Skipping, unable to determine old version
+[2023-07-23 19:37:25] INFO root fetch - main [MainThread]: End processing [ordinal-scale-stats] error
+[2023-07-23 19:37:25] INFO root fetch - processPackages [mlfast]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 19:37:25] WARNING root fetch - processPackages [gymnasium-connect-four]: Skipping, unable to determine old version
+[2023-07-23 19:37:25] INFO root fetch - main [MainThread]: End processing [gymnasium-connect-four] error
+[2023-07-23 19:37:25] INFO root fetch - processPackages [mlfast]: Downloading https://files.pythonhosted.org/packages/e2/fe/1766115228a5487697577fe004010600f383974022f6296c3eebc5bec29b/mlfast-0.0.8.tar.gz
+[2023-07-23 19:37:25] INFO root fetch - processPackages [mlfast]: Downloading https://files.pythonhosted.org/packages/4b/96/002662868307bd126d52e014c5443224de93ed0676e926a9650e3a4058f4/mlfast-0.0.9.tar.gz
+[2023-07-23 19:37:26] INFO root fetch - processPackages [mlfast]: executing diffoscope
+[2023-07-23 19:37:26] INFO root fetch - processPackages [mlfast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlfast-0.0.8.tar.gz tmp/mlfast-0.0.9.tar.gz --markdown 20230723/m/mlfast/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 19:37:26] INFO root fetch - processPackages [mlfast]: Remove: archive file [/home/abi/fetcher/tmp/mlfast-0.0.8.tar.gz]
+[2023-07-23 19:37:26] INFO root fetch - processPackages [mlfast]: Remove: archive file [/home/abi/fetcher/tmp/mlfast-0.0.9.tar.gz]
+[2023-07-23 19:37:26] INFO root fetch - main [MainThread]: End processing [mlfast]: success
+[2023-07-23 19:37:26] INFO root fetch - main [MainThread]: Store serial: [19003720]
