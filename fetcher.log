@@ -2229,3 +2229,52 @@
 [2023-07-23 03:50:30] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
 [2023-07-23 03:50:30] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
 [2023-07-23 03:50:30] INFO root fetch - main [MainThread]: Store serial: [18998971]
+[2023-07-23 03:55:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18998971]
+[2023-07-23 03:55:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-23 03:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: volsite-postgres-common
+[2023-07-23 03:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: convinence-torch
+[2023-07-23 03:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: volsite-postgres-common
+[2023-07-23 03:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ykdl
+[2023-07-23 03:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: volworld-aws-api-common
+[2023-07-23 03:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pg-sui
+[2023-07-23 03:55:39] INFO root fetch - processPackages [volsite-postgres-common]: New version: [0.1.9] Old Version: [0.1.82]
+[2023-07-23 03:55:39] INFO root fetch - processPackages [pg-sui]: New version: [0.2.1] Old Version: [0.2]
+[2023-07-23 03:55:39] WARNING root fetch - processPackages [convinence-torch]: Skipping, unable to determine old version
+[2023-07-23 03:55:39] INFO root fetch - main [MainThread]: End processing [convinence-torch] error
+[2023-07-23 03:55:39] INFO root fetch - processPackages [ykdl]: New version: [1.8.2] Old Version: [1.8.1.post1]
+[2023-07-23 03:55:39] INFO root fetch - processPackages [volworld-aws-api-common]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-23 03:55:39] INFO root fetch - processPackages [volsite-postgres-common]: New version: [0.1.9] Old Version: [0.1.82]
+[2023-07-23 03:55:39] INFO root fetch - processPackages [volworld-aws-api-common]: Downloading https://files.pythonhosted.org/packages/c7/82/7aefcc55e9d34309e43a1c4f62f535a10cbf84c23f14b0b54efb88505de6/volworld_aws_api_common-0.1.98.tar.gz
+[2023-07-23 03:55:39] INFO root fetch - processPackages [volsite-postgres-common]: Downloading https://files.pythonhosted.org/packages/7b/fd/15865cdfada8615572673a967693254b63cf383a1a3f69d4ad08649428a8/volsite_postgres_common-0.1.82.tar.gz
+[2023-07-23 03:55:39] INFO root fetch - processPackages [volsite-postgres-common]: Downloading https://files.pythonhosted.org/packages/7b/fd/15865cdfada8615572673a967693254b63cf383a1a3f69d4ad08649428a8/volsite_postgres_common-0.1.82.tar.gz
+[2023-07-23 03:55:39] INFO root fetch - processPackages [pg-sui]: Downloading https://files.pythonhosted.org/packages/95/44/d2dc7592e49b0248679f6e8f506037333e87081391e812468efa189870d5/PG-SUI-0.2.tar.gz
+[2023-07-23 03:55:40] INFO root fetch - processPackages [ykdl]: Downloading https://files.pythonhosted.org/packages/1e/a2/8d68c0f5bfda82033fac0d36875c185241de37e1ac56f8b3f161e825a1e6/ykdl-1.8.1.post1.tar.gz
+[2023-07-23 03:55:40] INFO root fetch - processPackages [volsite-postgres-common]: Downloading https://files.pythonhosted.org/packages/ff/03/668bfd84cd84ef92e37f65f495239d8be55d05abd92dc4bd35f340822fce/volsite_postgres_common-0.1.9.tar.gz
+[2023-07-23 03:55:40] INFO root fetch - processPackages [volworld-aws-api-common]: Downloading https://files.pythonhosted.org/packages/85/c0/0151fa36df35a94f04ec24e70e3a88eb186696b9f9258ee1d18d894c66d6/volworld_aws_api_common-0.1.99.tar.gz
+[2023-07-23 03:55:40] INFO root fetch - processPackages [volsite-postgres-common]: Downloading https://files.pythonhosted.org/packages/ff/03/668bfd84cd84ef92e37f65f495239d8be55d05abd92dc4bd35f340822fce/volsite_postgres_common-0.1.9.tar.gz
+[2023-07-23 03:55:40] INFO root fetch - processPackages [pg-sui]: Downloading https://files.pythonhosted.org/packages/26/a8/c07e127838518e6d5dcb0582a7bb774614c51b3cb2c2fe2eeba134df7675/pg-sui-0.2.1.tar.gz
+[2023-07-23 03:55:40] INFO root fetch - processPackages [volworld-aws-api-common]: executing diffoscope
+[2023-07-23 03:55:40] INFO root fetch - processPackages [volworld-aws-api-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volworld_aws_api_common-0.1.98.tar.gz tmp/volworld_aws_api_common-0.1.99.tar.gz --markdown 20230723/v/volworld-aws-api-common/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-23 03:55:40] INFO root fetch - processPackages [volsite-postgres-common]: executing diffoscope
+[2023-07-23 03:55:40] INFO root fetch - processPackages [volsite-postgres-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volsite_postgres_common-0.1.82.tar.gz tmp/volsite_postgres_common-0.1.9.tar.gz --markdown 20230723/v/volsite-postgres-common/0.1.82-0.1.9/diff.md --exclude *.pyd
+[2023-07-23 03:55:40] INFO root fetch - processPackages [volsite-postgres-common]: executing diffoscope
+[2023-07-23 03:55:40] INFO root fetch - processPackages [volsite-postgres-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volsite_postgres_common-0.1.82.tar.gz tmp/volsite_postgres_common-0.1.9.tar.gz --markdown 20230723/v/volsite-postgres-common/0.1.82-0.1.9/diff.md --exclude *.pyd
+[2023-07-23 03:55:40] INFO root fetch - processPackages [pg-sui]: executing diffoscope
+[2023-07-23 03:55:40] INFO root fetch - processPackages [pg-sui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PG-SUI-0.2.tar.gz tmp/pg-sui-0.2.1.tar.gz --markdown 20230723/p/pg-sui/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-07-23 03:55:40] INFO root fetch - processPackages [ykdl]: Downloading https://files.pythonhosted.org/packages/f2/27/f4e7616a139c84a04edb7778db2b3cfb77348ab73020ff232b6551fa8bdd/ykdl-1.8.2.tar.gz
+[2023-07-23 03:55:40] INFO root fetch - processPackages [ykdl]: executing diffoscope
+[2023-07-23 03:55:40] INFO root fetch - processPackages [ykdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ykdl-1.8.1.post1.tar.gz tmp/ykdl-1.8.2.tar.gz --markdown 20230723/y/ykdl/1.8.1.post1-1.8.2/diff.md --exclude *.pyd
+[2023-07-23 03:55:41] INFO root fetch - processPackages [volworld-aws-api-common]: Remove: archive file [/home/abi/fetcher/tmp/volworld_aws_api_common-0.1.98.tar.gz]
+[2023-07-23 03:55:41] INFO root fetch - processPackages [volworld-aws-api-common]: Remove: archive file [/home/abi/fetcher/tmp/volworld_aws_api_common-0.1.99.tar.gz]
+[2023-07-23 03:55:41] INFO root fetch - main [MainThread]: End processing [volworld-aws-api-common]: success
+[2023-07-23 03:55:41] INFO root fetch - processPackages [volsite-postgres-common]: Remove: archive file [/home/abi/fetcher/tmp/volsite_postgres_common-0.1.82.tar.gz]
+[2023-07-23 03:55:41] INFO root fetch - processPackages [volsite-postgres-common]: Remove: archive file [/home/abi/fetcher/tmp/volsite_postgres_common-0.1.9.tar.gz]
+[2023-07-23 03:55:41] INFO root fetch - main [MainThread]: End processing [volsite-postgres-common]: success
+[2023-07-23 03:55:41] INFO root fetch - main [MainThread]: End processing [volsite-postgres-common]: success
+[2023-07-23 03:55:41] INFO root fetch - processPackages [pg-sui]: Remove: archive file [/home/abi/fetcher/tmp/PG-SUI-0.2.tar.gz]
+[2023-07-23 03:55:41] INFO root fetch - processPackages [pg-sui]: Remove: archive file [/home/abi/fetcher/tmp/pg-sui-0.2.1.tar.gz]
+[2023-07-23 03:55:41] INFO root fetch - main [MainThread]: End processing [pg-sui]: success
+[2023-07-23 03:55:42] INFO root fetch - processPackages [ykdl]: Remove: archive file [/home/abi/fetcher/tmp/ykdl-1.8.1.post1.tar.gz]
+[2023-07-23 03:55:42] INFO root fetch - processPackages [ykdl]: Remove: archive file [/home/abi/fetcher/tmp/ykdl-1.8.2.tar.gz]
+[2023-07-23 03:55:42] INFO root fetch - main [MainThread]: End processing [ykdl]: success
+[2023-07-23 03:55:42] INFO root fetch - main [MainThread]: Store serial: [18998991]
