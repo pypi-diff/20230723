@@ -9393,3 +9393,48 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 16:24:24] INFO root fetch - main [MainThread]: End processing [punwrap]: success
 [2023-07-23 16:24:24] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
 [2023-07-23 16:24:24] INFO root fetch - main [MainThread]: Store serial: [19002305]
+[2023-07-23 16:29:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19002305]
+[2023-07-23 16:29:33] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-23 16:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kellanz
+[2023-07-23 16:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zhei-init
+[2023-07-23 16:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: my-ui-booking.com
+[2023-07-23 16:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ktrain
+[2023-07-23 16:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: audio-extract
+[2023-07-23 16:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qcfinancial
+[2023-07-23 16:29:33] INFO root fetch - processPackages [zhei-init]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-23 16:29:33] INFO root fetch - processPackages [my-ui-booking.com]: New version: [0.5] Old Version: [0.4]
+[2023-07-23 16:29:33] WARNING root fetch - processPackages [kellanz]: Skipping, unable to determine old version
+[2023-07-23 16:29:33] INFO root fetch - main [MainThread]: End processing [kellanz] error
+[2023-07-23 16:29:33] INFO root fetch - processPackages [ktrain]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-23 16:29:33] WARNING root fetch - processPackages [qcfinancial]: Skipping, unable to determine old version
+[2023-07-23 16:29:33] INFO root fetch - main [MainThread]: End processing [qcfinancial] error
+[2023-07-23 16:29:33] INFO root fetch - processPackages [audio-extract]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-07-23 16:29:33] INFO root fetch - processPackages [ktrain]: Downloading https://files.pythonhosted.org/packages/4c/eb/f7c8eecbaa0e06d80dbf78e1ae6b293b944d89a1f294331324c0b5262ad4/ktrain-0.9.3.tar.gz
+[2023-07-23 16:29:34] INFO root fetch - processPackages [zhei-init]: Downloading https://files.pythonhosted.org/packages/72/8b/a652319d21eef8fc0fac747a04ae6e613ba5b458bee2d03e268d4315f70e/zhei-init-0.0.3.tar.gz
+[2023-07-23 16:29:34] INFO root fetch - processPackages [my-ui-booking.com]: Downloading https://files.pythonhosted.org/packages/db/02/6bd4e8393ee5a22ca47f23ad73cc7dcc6688ab0c10f0d893fc677c005cf8/my_ui_booking.com-0.4.tar.gz
+[2023-07-23 16:29:34] INFO root fetch - processPackages [audio-extract]: Downloading https://files.pythonhosted.org/packages/e5/13/e4a3b6066996f6a4aea227557acc63fa1d09b6ca0defef63f88f8161d407/audio_extract-0.3.2.tar.gz
+[2023-07-23 16:29:34] INFO root fetch - processPackages [ktrain]: Downloading https://files.pythonhosted.org/packages/73/d5/77df174a24b752d0c7bb5a140591e2c909781b0ab6d9d73451d484a6ede2/ktrain-0.9.4.tar.gz
+[2023-07-23 16:29:34] INFO root fetch - processPackages [ktrain]: executing diffoscope
+[2023-07-23 16:29:34] INFO root fetch - processPackages [ktrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ktrain-0.9.3.tar.gz tmp/ktrain-0.9.4.tar.gz --markdown 20230723/k/ktrain/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-23 16:29:34] INFO root fetch - processPackages [zhei-init]: Downloading https://files.pythonhosted.org/packages/8f/ce/9786d186013164d767fd640bdfee4fec68b0860ff1757fe9a964038d9349/zhei-init-0.0.4.tar.gz
+[2023-07-23 16:29:34] INFO root fetch - processPackages [my-ui-booking.com]: Downloading https://files.pythonhosted.org/packages/23/23/2bcfb169258636a6f058613c1d34832e6d5be00004b7aeed33d10c96132a/my_ui_booking.com-0.5.tar.gz
+[2023-07-23 16:29:34] INFO root fetch - processPackages [audio-extract]: Downloading https://files.pythonhosted.org/packages/45/60/6e87ea9b349c118cb8c312b2665dd98f6e908f9624788789d22b54eeedb0/audio_extract-0.4.0.tar.gz
+[2023-07-23 16:29:34] INFO root fetch - processPackages [zhei-init]: executing diffoscope
+[2023-07-23 16:29:34] INFO root fetch - processPackages [zhei-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhei-init-0.0.3.tar.gz tmp/zhei-init-0.0.4.tar.gz --markdown 20230723/z/zhei-init/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-23 16:29:34] INFO root fetch - processPackages [audio-extract]: executing diffoscope
+[2023-07-23 16:29:34] INFO root fetch - processPackages [audio-extract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_extract-0.3.2.tar.gz tmp/audio_extract-0.4.0.tar.gz --markdown 20230723/a/audio-extract/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-07-23 16:29:34] INFO root fetch - processPackages [my-ui-booking.com]: executing diffoscope
+[2023-07-23 16:29:34] INFO root fetch - processPackages [my-ui-booking.com]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my_ui_booking.com-0.4.tar.gz tmp/my_ui_booking.com-0.5.tar.gz --markdown 20230723/m/my-ui-booking.com/0.4-0.5/diff.md --exclude *.pyd
+[2023-07-23 16:29:35] INFO root fetch - processPackages [zhei-init]: Remove: archive file [/home/abi/fetcher/tmp/zhei-init-0.0.3.tar.gz]
+[2023-07-23 16:29:35] INFO root fetch - processPackages [zhei-init]: Remove: archive file [/home/abi/fetcher/tmp/zhei-init-0.0.4.tar.gz]
+[2023-07-23 16:29:35] INFO root fetch - main [MainThread]: End processing [zhei-init]: success
+[2023-07-23 16:29:35] INFO root fetch - processPackages [ktrain]: Remove: archive file [/home/abi/fetcher/tmp/ktrain-0.9.3.tar.gz]
+[2023-07-23 16:29:35] INFO root fetch - processPackages [ktrain]: Remove: archive file [/home/abi/fetcher/tmp/ktrain-0.9.4.tar.gz]
+[2023-07-23 16:29:35] INFO root fetch - main [MainThread]: End processing [ktrain]: success
+[2023-07-23 16:29:35] INFO root fetch - processPackages [audio-extract]: Remove: archive file [/home/abi/fetcher/tmp/audio_extract-0.3.2.tar.gz]
+[2023-07-23 16:29:35] INFO root fetch - processPackages [audio-extract]: Remove: archive file [/home/abi/fetcher/tmp/audio_extract-0.4.0.tar.gz]
+[2023-07-23 16:29:35] INFO root fetch - main [MainThread]: End processing [audio-extract]: success
+[2023-07-23 16:29:35] INFO root fetch - processPackages [my-ui-booking.com]: Remove: archive file [/home/abi/fetcher/tmp/my_ui_booking.com-0.4.tar.gz]
+[2023-07-23 16:29:35] INFO root fetch - processPackages [my-ui-booking.com]: Remove: archive file [/home/abi/fetcher/tmp/my_ui_booking.com-0.5.tar.gz]
+[2023-07-23 16:29:35] INFO root fetch - main [MainThread]: End processing [my-ui-booking.com]: success
+[2023-07-23 16:29:35] INFO root fetch - main [MainThread]: Store serial: [19002328]
