@@ -11636,3 +11636,87 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 18:50:38] INFO root fetch - processPackages [graal]: Remove: archive file [/home/abi/fetcher/tmp/graal-0.4.9rc1.tar.gz]
 [2023-07-23 18:50:38] INFO root fetch - main [MainThread]: End processing [graal]: success
 [2023-07-23 18:50:38] INFO root fetch - main [MainThread]: Store serial: [19003409]
+[2023-07-23 18:55:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19003409]
+[2023-07-23 18:55:46] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-23 18:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langful
+[2023-07-23 18:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Flask-SQL-Pro
+[2023-07-23 18:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apixdev
+[2023-07-23 18:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: atproto
+[2023-07-23 18:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libprocess
+[2023-07-23 18:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aiofauna
+[2023-07-23 18:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: infobvc
+[2023-07-23 18:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: imat
+[2023-07-23 18:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mytimer
+[2023-07-23 18:55:47] INFO root fetch - processPackages [atproto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 18:55:47] INFO root fetch - processPackages [apixdev]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-23 18:55:47] INFO root fetch - processPackages [imat]: New version: [3.2.0] Old Version: [3.1]
+[2023-07-23 18:55:47] INFO root fetch - processPackages [libprocess]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-23 18:55:47] INFO root fetch - processPackages [aiofauna]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-23 18:55:47] INFO root fetch - processPackages [Flask-SQL-Pro]: New version: [3.3] Old Version: [3.2]
+[2023-07-23 18:55:47] INFO root fetch - processPackages [langful]: New version: [0.39] Old Version: [0.38]
+[2023-07-23 18:55:47] INFO root fetch - processPackages [infobvc]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-23 18:55:47] INFO root fetch - processPackages [mytimer]: New version: [0.7] Old Version: [0.6]
+[2023-07-23 18:55:47] INFO root fetch - processPackages [atproto]: Downloading https://files.pythonhosted.org/packages/41/b1/8fd5cf9bb765a6bab94fe28a2c42c4f7961bca68115339fa301a2551b814/atproto-0.0.8.tar.gz
+[2023-07-23 18:55:47] INFO root fetch - processPackages [Flask-SQL-Pro]: Downloading https://files.pythonhosted.org/packages/ba/72/2556daf9f170bc5e3e7666975dea106e413c71c0e0147db3ec20a49453a2/Flask-SQL-Pro-3.2.tar.gz
+[2023-07-23 18:55:47] INFO root fetch - processPackages [libprocess]: Downloading https://files.pythonhosted.org/packages/49/04/d71770c85426e837d8a483917a7b6be815a7481c0aa30b90f296e12b83a8/libprocess-0.1.1.tar.gz
+[2023-07-23 18:55:47] INFO root fetch - processPackages [apixdev]: Downloading https://files.pythonhosted.org/packages/66/5e/4902cca4e791cd5a9e2f8cd86171db9358c9dbab50e25d2f64aa16dd0f9c/apixdev-0.1.1.tar.gz
+[2023-07-23 18:55:47] INFO root fetch - processPackages [imat]: Downloading https://files.pythonhosted.org/packages/55/24/24b392b566669986a79892cad227f8dbb135d22a03a0c62423be4b15ecd9/imat-3.1.tar.gz
+[2023-07-23 18:55:47] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/3e/34/45e4d8e4dc572a71d3667cb471907d117cbe30ff4ab274142fdfc9aff5bb/aiofauna-0.1.8.tar.gz
+[2023-07-23 18:55:47] INFO root fetch - processPackages [infobvc]: Downloading https://files.pythonhosted.org/packages/0a/cf/006e6d419fb66426d54a9a2656ac474f059c3805d09ddaf9960573a37b11/infobvc-0.0.3.tar.gz
+[2023-07-23 18:55:47] INFO root fetch - processPackages [langful]: Downloading https://files.pythonhosted.org/packages/c7/6b/d215c29a6792e134081403d64de5e166cd573fba4b79dbf03dfb079ed98d/langful-0.38-py3-none-any.whl
+[2023-07-23 18:55:47] INFO root fetch - processPackages [mytimer]: Downloading https://files.pythonhosted.org/packages/42/1e/80c6446865ab165f762b8a5f997a95dc0f63e4c4c19ab8230d20e1e1e41c/mytimer-0.6.tar.gz
+[2023-07-23 18:55:47] INFO root fetch - processPackages [atproto]: Downloading https://files.pythonhosted.org/packages/77/1e/7dc305471e00c4c47363abdd5b249d56887681dfb22aa19f38866d6e7506/atproto-0.0.9.tar.gz
+[2023-07-23 18:55:47] INFO root fetch - processPackages [Flask-SQL-Pro]: Downloading https://files.pythonhosted.org/packages/c2/8d/650bff51a67992197a5511686255d819019bb51b32b9d733d0ff29a25da3/Flask-SQL-Pro-3.3.tar.gz
+[2023-07-23 18:55:47] INFO root fetch - processPackages [atproto]: executing diffoscope
+[2023-07-23 18:55:47] INFO root fetch - processPackages [atproto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atproto-0.0.8.tar.gz tmp/atproto-0.0.9.tar.gz --markdown 20230723/a/atproto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 18:55:47] INFO root fetch - processPackages [apixdev]: Downloading https://files.pythonhosted.org/packages/8b/bc/30e688a2e1ed1061bcb395c5e133f9b4dec5ceb7e5033a130edc198850c3/apixdev-0.2.0.tar.gz
+[2023-07-23 18:55:47] INFO root fetch - processPackages [libprocess]: Downloading https://files.pythonhosted.org/packages/01/77/036c476eef868ba1f85310f1fff82811e699f7bc2e55550447d05a97ea9d/libprocess-0.1.2.tar.gz
+[2023-07-23 18:55:48] INFO root fetch - processPackages [langful]: Downloading https://files.pythonhosted.org/packages/99/16/9e3b3a101ebe9e192eb86b0c0ab0340c67e950e544905181eb560c37fe64/langful-0.39-py3-none-any.whl
+[2023-07-23 18:55:48] INFO root fetch - processPackages [imat]: Downloading https://files.pythonhosted.org/packages/ad/ad/1a1a506b1d58d257fd298eedb7e61e66ec84cd2e18be69414b58733811c8/imat-3.2.0.tar.gz
+[2023-07-23 18:55:48] INFO root fetch - processPackages [infobvc]: Downloading https://files.pythonhosted.org/packages/8e/8c/65f6f2644da1a3c92cb3b147aefcbaf7f1c2f91dceec6723574099f84f5a/infobvc-0.0.4.tar.gz
+[2023-07-23 18:55:48] INFO root fetch - processPackages [Flask-SQL-Pro]: executing diffoscope
+[2023-07-23 18:55:48] INFO root fetch - processPackages [Flask-SQL-Pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-SQL-Pro-3.2.tar.gz tmp/Flask-SQL-Pro-3.3.tar.gz --markdown 20230723/F/Flask-SQL-Pro/3.2-3.3/diff.md --exclude *.pyd
+[2023-07-23 18:55:48] INFO root fetch - processPackages [libprocess]: executing diffoscope
+[2023-07-23 18:55:48] INFO root fetch - processPackages [apixdev]: executing diffoscope
+[2023-07-23 18:55:48] INFO root fetch - processPackages [libprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libprocess-0.1.1.tar.gz tmp/libprocess-0.1.2.tar.gz --markdown 20230723/l/libprocess/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-23 18:55:48] INFO root fetch - processPackages [apixdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apixdev-0.1.1.tar.gz tmp/apixdev-0.2.0.tar.gz --markdown 20230723/a/apixdev/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-23 18:55:48] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/d7/d5/ea2895300374337f982c6e19ce7049fb1c99fa3489038d2ff524d477a522/aiofauna-0.1.9.tar.gz
+[2023-07-23 18:55:48] INFO root fetch - processPackages [mytimer]: Downloading https://files.pythonhosted.org/packages/d8/66/404bccd736bf24759b3f5f0ff1b0ba0506588d9281e21810631a87abdb09/mytimer-0.7.tar.gz
+[2023-07-23 18:55:48] INFO root fetch - processPackages [langful]: executing diffoscope
+[2023-07-23 18:55:48] INFO root fetch - processPackages [langful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langful-0.38-py3-none-any.whl.zip tmp/langful-0.39-py3-none-any.whl.zip --markdown 20230723/l/langful/0.38-0.39/diff.md --exclude *.pyd
+[2023-07-23 18:55:48] INFO root fetch - processPackages [infobvc]: executing diffoscope
+[2023-07-23 18:55:48] INFO root fetch - processPackages [infobvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infobvc-0.0.3.tar.gz tmp/infobvc-0.0.4.tar.gz --markdown 20230723/i/infobvc/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-23 18:55:48] INFO root fetch - processPackages [imat]: executing diffoscope
+[2023-07-23 18:55:48] INFO root fetch - processPackages [imat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imat-3.1.tar.gz tmp/imat-3.2.0.tar.gz --markdown 20230723/i/imat/3.1-3.2.0/diff.md --exclude *.pyd
+[2023-07-23 18:55:48] INFO root fetch - processPackages [aiofauna]: executing diffoscope
+[2023-07-23 18:55:48] INFO root fetch - processPackages [aiofauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiofauna-0.1.8.tar.gz tmp/aiofauna-0.1.9.tar.gz --markdown 20230723/a/aiofauna/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-23 18:55:48] INFO root fetch - processPackages [mytimer]: executing diffoscope
+[2023-07-23 18:55:48] INFO root fetch - processPackages [mytimer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mytimer-0.6.tar.gz tmp/mytimer-0.7.tar.gz --markdown 20230723/m/mytimer/0.6-0.7/diff.md --exclude *.pyd
+[2023-07-23 18:55:49] INFO root fetch - processPackages [Flask-SQL-Pro]: Remove: archive file [/home/abi/fetcher/tmp/Flask-SQL-Pro-3.2.tar.gz]
+[2023-07-23 18:55:49] INFO root fetch - processPackages [Flask-SQL-Pro]: Remove: archive file [/home/abi/fetcher/tmp/Flask-SQL-Pro-3.3.tar.gz]
+[2023-07-23 18:55:49] INFO root fetch - main [MainThread]: End processing [Flask-SQL-Pro]: success
+[2023-07-23 18:55:49] INFO root fetch - processPackages [infobvc]: Remove: archive file [/home/abi/fetcher/tmp/infobvc-0.0.3.tar.gz]
+[2023-07-23 18:55:49] INFO root fetch - processPackages [infobvc]: Remove: archive file [/home/abi/fetcher/tmp/infobvc-0.0.4.tar.gz]
+[2023-07-23 18:55:49] INFO root fetch - main [MainThread]: End processing [infobvc]: success
+[2023-07-23 18:55:49] INFO root fetch - processPackages [langful]: Remove: archive file [/home/abi/fetcher/tmp/langful-0.38-py3-none-any.whl.zip]
+[2023-07-23 18:55:49] INFO root fetch - processPackages [langful]: Remove: archive file [/home/abi/fetcher/tmp/langful-0.39-py3-none-any.whl.zip]
+[2023-07-23 18:55:49] INFO root fetch - main [MainThread]: End processing [langful]: success
+[2023-07-23 18:55:49] INFO root fetch - processPackages [libprocess]: Remove: archive file [/home/abi/fetcher/tmp/libprocess-0.1.1.tar.gz]
+[2023-07-23 18:55:49] INFO root fetch - processPackages [libprocess]: Remove: archive file [/home/abi/fetcher/tmp/libprocess-0.1.2.tar.gz]
+[2023-07-23 18:55:49] INFO root fetch - main [MainThread]: End processing [libprocess]: success
+[2023-07-23 18:55:49] INFO root fetch - processPackages [apixdev]: Remove: archive file [/home/abi/fetcher/tmp/apixdev-0.1.1.tar.gz]
+[2023-07-23 18:55:49] INFO root fetch - processPackages [apixdev]: Remove: archive file [/home/abi/fetcher/tmp/apixdev-0.2.0.tar.gz]
+[2023-07-23 18:55:49] INFO root fetch - main [MainThread]: End processing [apixdev]: success
+[2023-07-23 18:55:49] INFO root fetch - processPackages [imat]: Remove: archive file [/home/abi/fetcher/tmp/imat-3.1.tar.gz]
+[2023-07-23 18:55:49] INFO root fetch - processPackages [imat]: Remove: archive file [/home/abi/fetcher/tmp/imat-3.2.0.tar.gz]
+[2023-07-23 18:55:49] INFO root fetch - main [MainThread]: End processing [imat]: success
+[2023-07-23 18:55:49] INFO root fetch - processPackages [aiofauna]: Remove: archive file [/home/abi/fetcher/tmp/aiofauna-0.1.8.tar.gz]
+[2023-07-23 18:55:49] INFO root fetch - processPackages [aiofauna]: Remove: archive file [/home/abi/fetcher/tmp/aiofauna-0.1.9.tar.gz]
+[2023-07-23 18:55:49] INFO root fetch - main [MainThread]: End processing [aiofauna]: success
+[2023-07-23 18:55:50] INFO root fetch - processPackages [atproto]: Remove: archive file [/home/abi/fetcher/tmp/atproto-0.0.8.tar.gz]
+[2023-07-23 18:55:50] INFO root fetch - processPackages [atproto]: Remove: archive file [/home/abi/fetcher/tmp/atproto-0.0.9.tar.gz]
+[2023-07-23 18:55:50] INFO root fetch - main [MainThread]: End processing [atproto]: success
+[2023-07-23 18:55:50] INFO root fetch - processPackages [mytimer]: Remove: archive file [/home/abi/fetcher/tmp/mytimer-0.6.tar.gz]
+[2023-07-23 18:55:50] INFO root fetch - processPackages [mytimer]: Remove: archive file [/home/abi/fetcher/tmp/mytimer-0.7.tar.gz]
+[2023-07-23 18:55:50] INFO root fetch - main [MainThread]: End processing [mytimer]: success
+[2023-07-23 18:55:50] INFO root fetch - main [MainThread]: Store serial: [19003433]
