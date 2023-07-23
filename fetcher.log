@@ -6158,3 +6158,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 11:47:31] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.7a5.tar.gz]
 [2023-07-23 11:47:31] INFO root fetch - main [MainThread]: End processing [fedml]: success
 [2023-07-23 11:47:31] INFO root fetch - main [MainThread]: Store serial: [19000562]
+[2023-07-23 11:52:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19000562]
+[2023-07-23 11:52:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-23 11:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: storey
+[2023-07-23 11:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: importer-local
+[2023-07-23 11:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anchovy
+[2023-07-23 11:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adafri
+[2023-07-23 11:52:40] INFO root fetch - processPackages [importer-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 11:52:40] INFO root fetch - processPackages [anchovy]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-07-23 11:52:40] INFO root fetch - processPackages [storey]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-07-23 11:52:40] INFO root fetch - processPackages [anchovy]: Downloading https://files.pythonhosted.org/packages/3e/aa/ae6ac5ea8e84a9b99dbdefe890552fffe316b2654a3e306965d8da855a4e/anchovy-0.7.1.tar.gz
+[2023-07-23 11:52:40] INFO root fetch - processPackages [adafri]: New version: [0.0.50] Old Version: [0.0.49]
+[2023-07-23 11:52:40] INFO root fetch - processPackages [importer-local]: Downloading https://files.pythonhosted.org/packages/3b/68/0b10215ac7859421c193cd0df3aab70a0aef2e2db5f22c14a5a2fd7bd732/importer-local-0.0.8.tar.gz
+[2023-07-23 11:52:40] INFO root fetch - processPackages [storey]: Downloading https://files.pythonhosted.org/packages/49/31/12a099311119718cf7abf6d3caf97362c1ab596795e309e850b8b411c55e/storey-1.5.0.tar.gz
+[2023-07-23 11:52:40] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/3f/16/81acf69bdd9a610bf24e547fe85700c97e4113a029c59ff849cedefc40c6/adafri-0.0.49.tar.gz
+[2023-07-23 11:52:40] INFO root fetch - processPackages [importer-local]: Downloading https://files.pythonhosted.org/packages/80/33/939765aa01c27931d172ea899fb7307071569b4fc595e6ec107018aabc97/importer-local-0.0.9.tar.gz
+[2023-07-23 11:52:41] INFO root fetch - processPackages [anchovy]: Downloading https://files.pythonhosted.org/packages/df/0a/fb7864dc6bac0accdee7dc0227864ccadf1e824e61544fc16bc51c0ac338/anchovy-0.8.0.tar.gz
+[2023-07-23 11:52:41] INFO root fetch - processPackages [storey]: Downloading https://files.pythonhosted.org/packages/0b/46/80a3a5033c471744f5fded89c7fe4d66cfd4067008eb9445cfdf95af0325/storey-1.5.1.tar.gz
+[2023-07-23 11:52:41] INFO root fetch - processPackages [importer-local]: executing diffoscope
+[2023-07-23 11:52:41] INFO root fetch - processPackages [importer-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/importer-local-0.0.8.tar.gz tmp/importer-local-0.0.9.tar.gz --markdown 20230723/i/importer-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 11:52:41] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/03/e0/f4f904da14c7cbdbd2f442967d5ec8815dd7cd3c82de061be9b0f7e8628a/adafri-0.0.50.tar.gz
+[2023-07-23 11:52:41] INFO root fetch - processPackages [storey]: executing diffoscope
+[2023-07-23 11:52:41] INFO root fetch - processPackages [storey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storey-1.5.0.tar.gz tmp/storey-1.5.1.tar.gz --markdown 20230723/s/storey/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-07-23 11:52:41] INFO root fetch - processPackages [anchovy]: executing diffoscope
+[2023-07-23 11:52:41] INFO root fetch - processPackages [anchovy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anchovy-0.7.1.tar.gz tmp/anchovy-0.8.0.tar.gz --markdown 20230723/a/anchovy/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-07-23 11:52:41] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-23 11:52:41] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.49.tar.gz tmp/adafri-0.0.50.tar.gz --markdown 20230723/a/adafri/0.0.49-0.0.50/diff.md --exclude *.pyd
+[2023-07-23 11:52:41] INFO root fetch - processPackages [importer-local]: Remove: archive file [/home/abi/fetcher/tmp/importer-local-0.0.8.tar.gz]
+[2023-07-23 11:52:41] INFO root fetch - processPackages [importer-local]: Remove: archive file [/home/abi/fetcher/tmp/importer-local-0.0.9.tar.gz]
+[2023-07-23 11:52:41] INFO root fetch - main [MainThread]: End processing [importer-local]: success
+[2023-07-23 11:52:42] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.49.tar.gz]
+[2023-07-23 11:52:42] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.50.tar.gz]
+[2023-07-23 11:52:42] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-23 11:52:42] INFO root fetch - processPackages [storey]: Remove: archive file [/home/abi/fetcher/tmp/storey-1.5.0.tar.gz]
+[2023-07-23 11:52:42] INFO root fetch - processPackages [storey]: Remove: archive file [/home/abi/fetcher/tmp/storey-1.5.1.tar.gz]
+[2023-07-23 11:52:42] INFO root fetch - main [MainThread]: End processing [storey]: success
+[2023-07-23 11:52:42] INFO root fetch - processPackages [anchovy]: Remove: archive file [/home/abi/fetcher/tmp/anchovy-0.7.1.tar.gz]
+[2023-07-23 11:52:42] INFO root fetch - processPackages [anchovy]: Remove: archive file [/home/abi/fetcher/tmp/anchovy-0.8.0.tar.gz]
+[2023-07-23 11:52:42] INFO root fetch - main [MainThread]: End processing [anchovy]: success
+[2023-07-23 11:52:42] INFO root fetch - main [MainThread]: Store serial: [19000578]
