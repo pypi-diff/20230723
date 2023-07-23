@@ -11875,3 +11875,63 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 19:11:22] INFO root fetch - processPackages [grimoire-elk]: Remove: archive file [/home/abi/fetcher/tmp/grimoire-elk-0.99.0.tar.gz]
 [2023-07-23 19:11:22] INFO root fetch - main [MainThread]: End processing [grimoire-elk]: success
 [2023-07-23 19:11:22] INFO root fetch - main [MainThread]: Store serial: [19003501]
+[2023-07-23 19:16:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19003501]
+[2023-07-23 19:16:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-23 19:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: examon-beginners-package
+[2023-07-23 19:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gammarer.aws-ec2-instance-connect-custom-resource
+[2023-07-23 19:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: HPO
+[2023-07-23 19:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rtn-simrs
+[2023-07-23 19:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pygame-layout
+[2023-07-23 19:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: noether
+[2023-07-23 19:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: httpx-file
+[2023-07-23 19:16:31] INFO root fetch - processPackages [examon-beginners-package]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 19:16:31] INFO root fetch - processPackages [noether]: New version: [1.0.0] Old Version: [0.1.3]
+[2023-07-23 19:16:31] WARNING root fetch - processPackages [pygame-layout]: Skipping, unable to determine old version
+[2023-07-23 19:16:31] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-07-23 19:16:31] INFO root fetch - main [MainThread]: End processing [pygame-layout] error
+[2023-07-23 19:16:31] INFO root fetch - processPackages [httpx-file]: New version: [0.2.0] Old Version: [0.0.1.dev0]
+[2023-07-23 19:16:31] INFO root fetch - processPackages [rtn-simrs]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-23 19:16:31] INFO root fetch - processPackages [HPO]: New version: [0.2] Old Version: [0.1]
+[2023-07-23 19:16:31] INFO root fetch - processPackages [examon-beginners-package]: Downloading https://files.pythonhosted.org/packages/54/b2/19d320cd46ecaa9277572a72d62dfa3f72f5fc2a52a18fb590f0a7f9a5db/examon_beginners_package-0.0.8.tar.gz
+[2023-07-23 19:16:31] INFO root fetch - processPackages [HPO]: Downloading https://files.pythonhosted.org/packages/df/e1/afd514f3d8b15c57efc9606e8bbcf0f63c1fab12fc68de8a81815c325ee2/HPO-0.1-py3-none-any.whl
+[2023-07-23 19:16:31] INFO root fetch - processPackages [rtn-simrs]: Downloading https://files.pythonhosted.org/packages/03/3e/72ac7cd252766b7c3b2a7e57d1befa1c2c968dfe31091097faf3dce6fb34/rtn_simrs-0.1.0.tar.gz
+[2023-07-23 19:16:31] INFO root fetch - processPackages [noether]: Downloading https://files.pythonhosted.org/packages/22/92/95377e5ae1c493ce9b815d855712b99ad82d5a223534fbd85c2f1712420d/noether-0.1.3.tar.gz
+[2023-07-23 19:16:31] INFO root fetch - processPackages [httpx-file]: Downloading https://files.pythonhosted.org/packages/5e/da/d3fb73a760161f700f8f2e5f5b72fbdb82eb81aa2654255871402aab2138/httpx-file-0.0.1.dev0.tar.gz
+[2023-07-23 19:16:31] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: Downloading https://files.pythonhosted.org/packages/b1/8f/9e675461f4524a8b54729e8f34f2e5ac73efc19efebf54571b0228932fa1/gammarer.aws-ec2-instance-connect-custom-resource-0.4.5.tar.gz
+[2023-07-23 19:16:31] INFO root fetch - processPackages [examon-beginners-package]: Downloading https://files.pythonhosted.org/packages/b1/5c/bb51ad01796abf4a5a1d03b1169e5a511a116f2a6255d0b82fafc32da719/examon_beginners_package-0.0.9.tar.gz
+[2023-07-23 19:16:31] INFO root fetch - processPackages [examon-beginners-package]: executing diffoscope
+[2023-07-23 19:16:31] INFO root fetch - processPackages [examon-beginners-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/examon_beginners_package-0.0.8.tar.gz tmp/examon_beginners_package-0.0.9.tar.gz --markdown 20230723/e/examon-beginners-package/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 19:16:31] INFO root fetch - processPackages [HPO]: Downloading https://files.pythonhosted.org/packages/31/e5/66a2ec2d4ff50ed0a648df4e9f1865f5aa2d78fa8572adb3cd5eb0639327/HPO-0.2.tar.gz
+[2023-07-23 19:16:31] INFO root fetch - processPackages [rtn-simrs]: Downloading https://files.pythonhosted.org/packages/db/cc/7e1629f754fdb94e87804ca66873fc89264751a52a933862314861a7efbc/rtn_simrs-0.1.1.tar.gz
+[2023-07-23 19:16:31] INFO root fetch - processPackages [noether]: Downloading https://files.pythonhosted.org/packages/79/e0/6054a1cec33a3a2ffb562a28fa60ad6b87c86a37d21e2b86ec38db09aad3/noether-1.0.0.tar.gz
+[2023-07-23 19:16:31] INFO root fetch - processPackages [httpx-file]: Downloading https://files.pythonhosted.org/packages/b4/f7/737dbfaa3b3288ce69f75fad9a4cd22cae60d71763618ddd849018895172/httpx-file-0.2.0.tar.gz
+[2023-07-23 19:16:31] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: Downloading https://files.pythonhosted.org/packages/84/74/8a16fd538f52c93b31af53fe66ebf4ab1babc86471322b7d293491b7bf4f/gammarer.aws-ec2-instance-connect-custom-resource-0.4.6.tar.gz
+[2023-07-23 19:16:31] INFO root fetch - processPackages [rtn-simrs]: executing diffoscope
+[2023-07-23 19:16:31] INFO root fetch - processPackages [rtn-simrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtn_simrs-0.1.0.tar.gz tmp/rtn_simrs-0.1.1.tar.gz --markdown 20230723/r/rtn-simrs/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-23 19:16:32] INFO root fetch - processPackages [noether]: executing diffoscope
+[2023-07-23 19:16:32] INFO root fetch - processPackages [noether]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noether-0.1.3.tar.gz tmp/noether-1.0.0.tar.gz --markdown 20230723/n/noether/0.1.3-1.0.0/diff.md --exclude *.pyd
+[2023-07-23 19:16:32] INFO root fetch - processPackages [httpx-file]: executing diffoscope
+[2023-07-23 19:16:32] INFO root fetch - processPackages [httpx-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httpx-file-0.0.1.dev0.tar.gz tmp/httpx-file-0.2.0.tar.gz --markdown 20230723/h/httpx-file/0.0.1.dev0-0.2.0/diff.md --exclude *.pyd
+[2023-07-23 19:16:32] INFO root fetch - processPackages [HPO]: executing diffoscope
+[2023-07-23 19:16:32] INFO root fetch - processPackages [HPO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HPO-0.1-py3-none-any.whl.zip tmp/HPO-0.2.tar.gz --markdown 20230723/H/HPO/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-23 19:16:32] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: executing diffoscope
+[2023-07-23 19:16:32] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-ec2-instance-connect-custom-resource-0.4.5.tar.gz tmp/gammarer.aws-ec2-instance-connect-custom-resource-0.4.6.tar.gz --markdown 20230723/g/gammarer.aws-ec2-instance-connect-custom-resource/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-07-23 19:16:32] INFO root fetch - processPackages [examon-beginners-package]: Remove: archive file [/home/abi/fetcher/tmp/examon_beginners_package-0.0.8.tar.gz]
+[2023-07-23 19:16:32] INFO root fetch - processPackages [examon-beginners-package]: Remove: archive file [/home/abi/fetcher/tmp/examon_beginners_package-0.0.9.tar.gz]
+[2023-07-23 19:16:32] INFO root fetch - main [MainThread]: End processing [examon-beginners-package]: success
+[2023-07-23 19:16:32] INFO root fetch - processPackages [HPO]: Remove: archive file [/home/abi/fetcher/tmp/HPO-0.1-py3-none-any.whl.zip]
+[2023-07-23 19:16:32] INFO root fetch - processPackages [HPO]: Remove: archive file [/home/abi/fetcher/tmp/HPO-0.2.tar.gz]
+[2023-07-23 19:16:32] INFO root fetch - main [MainThread]: End processing [HPO]: success
+[2023-07-23 19:16:33] INFO root fetch - processPackages [httpx-file]: Remove: archive file [/home/abi/fetcher/tmp/httpx-file-0.0.1.dev0.tar.gz]
+[2023-07-23 19:16:33] INFO root fetch - processPackages [httpx-file]: Remove: archive file [/home/abi/fetcher/tmp/httpx-file-0.2.0.tar.gz]
+[2023-07-23 19:16:33] INFO root fetch - main [MainThread]: End processing [httpx-file]: success
+[2023-07-23 19:16:33] INFO root fetch - processPackages [noether]: Remove: archive file [/home/abi/fetcher/tmp/noether-0.1.3.tar.gz]
+[2023-07-23 19:16:33] INFO root fetch - processPackages [noether]: Remove: archive file [/home/abi/fetcher/tmp/noether-1.0.0.tar.gz]
+[2023-07-23 19:16:33] INFO root fetch - main [MainThread]: End processing [noether]: success
+[2023-07-23 19:16:33] INFO root fetch - processPackages [rtn-simrs]: Remove: archive file [/home/abi/fetcher/tmp/rtn_simrs-0.1.0.tar.gz]
+[2023-07-23 19:16:33] INFO root fetch - processPackages [rtn-simrs]: Remove: archive file [/home/abi/fetcher/tmp/rtn_simrs-0.1.1.tar.gz]
+[2023-07-23 19:16:33] INFO root fetch - main [MainThread]: End processing [rtn-simrs]: success
+[2023-07-23 19:16:33] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ec2-instance-connect-custom-resource-0.4.5.tar.gz]
+[2023-07-23 19:16:33] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ec2-instance-connect-custom-resource-0.4.6.tar.gz]
+[2023-07-23 19:16:33] INFO root fetch - main [MainThread]: End processing [gammarer.aws-ec2-instance-connect-custom-resource]: success
+[2023-07-23 19:16:33] INFO root fetch - main [MainThread]: Store serial: [19003523]
