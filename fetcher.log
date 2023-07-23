@@ -7503,3 +7503,18 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 13:54:46] INFO root fetch - processPackages [pyquizrd]: Remove: archive file [/home/abi/fetcher/tmp/pyquizrd-0.1.5.tar.gz]
 [2023-07-23 13:54:46] INFO root fetch - main [MainThread]: End processing [pyquizrd]: success
 [2023-07-23 13:54:46] INFO root fetch - main [MainThread]: Store serial: [19001289]
+[2023-07-23 13:59:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19001289]
+[2023-07-23 13:59:55] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-23 13:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: my-ui-booking.com
+[2023-07-23 13:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SageLogger
+[2023-07-23 13:59:55] INFO root fetch - processPackages [SageLogger]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-07-23 13:59:55] WARNING root fetch - processPackages [my-ui-booking.com]: Skipping, unable to determine old version
+[2023-07-23 13:59:55] INFO root fetch - main [MainThread]: End processing [my-ui-booking.com] error
+[2023-07-23 13:59:55] INFO root fetch - processPackages [SageLogger]: Downloading https://files.pythonhosted.org/packages/ae/20/eb352894c0ea39c352ae1e68415fbd15391b10aad82bd8f3c952eced2f8a/SageLogger-1.3.4.tar.gz
+[2023-07-23 13:59:56] INFO root fetch - processPackages [SageLogger]: Downloading https://files.pythonhosted.org/packages/e2/72/15393f510d56a0ffa18767e83880fac08e9ce2d99953f642b94a7fa295bc/SageLogger-1.3.5.tar.gz
+[2023-07-23 13:59:57] INFO root fetch - processPackages [SageLogger]: executing diffoscope
+[2023-07-23 13:59:57] INFO root fetch - processPackages [SageLogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SageLogger-1.3.4.tar.gz tmp/SageLogger-1.3.5.tar.gz --markdown 20230723/S/SageLogger/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-07-23 13:59:57] INFO root fetch - processPackages [SageLogger]: Remove: archive file [/home/abi/fetcher/tmp/SageLogger-1.3.4.tar.gz]
+[2023-07-23 13:59:57] INFO root fetch - processPackages [SageLogger]: Remove: archive file [/home/abi/fetcher/tmp/SageLogger-1.3.5.tar.gz]
+[2023-07-23 13:59:57] INFO root fetch - main [MainThread]: End processing [SageLogger]: success
+[2023-07-23 13:59:57] INFO root fetch - main [MainThread]: Store serial: [19001298]
