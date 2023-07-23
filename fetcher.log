@@ -13358,3 +13358,93 @@ AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
 [2023-07-23 21:02:18] INFO root fetch - processPackages [tempren]: Remove: archive file [/home/abi/fetcher/tmp/tempren-0.9.0.tar.gz]
 [2023-07-23 21:02:18] INFO root fetch - main [MainThread]: End processing [tempren]: success
 [2023-07-23 21:02:18] INFO root fetch - main [MainThread]: Store serial: [19004141]
+[2023-07-23 21:07:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19004141]
+[2023-07-23 21:07:26] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-23 21:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gigagan-pytorch
+[2023-07-23 21:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ephemeral-sh
+[2023-07-23 21:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chromedriver-auto
+[2023-07-23 21:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: septem-circumstantiae
+[2023-07-23 21:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: geogif
+[2023-07-23 21:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: faapi
+[2023-07-23 21:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datasette-sqlite-hello
+[2023-07-23 21:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sqlite-hello
+[2023-07-23 21:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sqlite-utils-sqlite-hello
+[2023-07-23 21:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qtgql
+[2023-07-23 21:07:26] INFO root fetch - processPackages [datasette-sqlite-hello]: New version: [0.1.0a52] Old Version: [0.1.0a50]
+[2023-07-23 21:07:26] INFO root fetch - processPackages [ephemeral-sh]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-23 21:07:26] INFO root fetch - processPackages [sqlite-hello]: New version: [0.1.0a52] Old Version: [0.1.0a50]
+[2023-07-23 21:07:26] INFO root fetch - processPackages [gigagan-pytorch]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-23 21:07:26] INFO root fetch - processPackages [chromedriver-auto]: New version: [1.0.4] Old Version: [1.0.1]
+[2023-07-23 21:07:26] INFO root fetch - processPackages [septem-circumstantiae]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-23 21:07:26] INFO root fetch - processPackages [geogif]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-23 21:07:27] INFO root fetch - processPackages [qtgql]: New version: [0.130.2] Old Version: [0.129.2]
+[2023-07-23 21:07:27] INFO root fetch - processPackages [faapi]: New version: [3.9.6] Old Version: [3.9.5]
+[2023-07-23 21:07:27] WARNING root fetch - processPackages [sqlite-utils-sqlite-hello]: Skipping, unable to determine old version
+[2023-07-23 21:07:27] INFO root fetch - processPackages [sqlite-utils-sqlite-hello]: Start processing: startorch
+[2023-07-23 21:07:27] INFO root fetch - main [MainThread]: End processing [sqlite-utils-sqlite-hello] error
+[2023-07-23 21:07:27] INFO root fetch - processPackages [ephemeral-sh]: Downloading https://files.pythonhosted.org/packages/59/99/77c4d89fbc88a1c63e50e988a971a35ad6b6fd3f44b500a378ceb74643c3/ephemeral_sh-0.3.1-py3-none-any.whl
+[2023-07-23 21:07:27] INFO root fetch - processPackages [datasette-sqlite-hello]: Downloading https://files.pythonhosted.org/packages/79/40/06ea6a169e5f4691cc4a4956aad73004582c4c754716c4d60a05b27b7fe4/datasette_sqlite_hello-0.1.0a50-py3-none-any.whl
+[2023-07-23 21:07:27] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/80/b7/8ae892c86dd643f1b0e34073f9cdc339676f69d2ea999749324076ac4fb4/qtgql-0.129.2.tar.gz
+[2023-07-23 21:07:27] WARNING root fetch - processPackages [startorch]: Skipping, unable to determine old version
+[2023-07-23 21:07:27] INFO root fetch - main [MainThread]: End processing [startorch] error
+[2023-07-23 21:07:27] INFO root fetch - processPackages [sqlite-hello]: Downloading https://files.pythonhosted.org/packages/98/3c/eca07f9e6d8cbdbd8955c28640d38f641ce8c959bf3cd2e516c97669d6a7/sqlite_hello-0.1.0a50-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-07-23 21:07:27] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/92/b5/f7b24a7bf522deb17d61f68310cd8d0313aefd5ba2edac35b881686e8457/gigagan-pytorch-0.2.2.tar.gz
+[2023-07-23 21:07:27] INFO root fetch - processPackages [chromedriver-auto]: Downloading https://files.pythonhosted.org/packages/35/db/1019bb8a825d56ac9faa273284dc2eb357b583309b10738704b2d2f180f1/chromedriver_auto-1.0.1.tar.gz
+[2023-07-23 21:07:27] INFO root fetch - processPackages [septem-circumstantiae]: Downloading https://files.pythonhosted.org/packages/07/8d/cd11a82b899a149c9c60dd7f200e1ec7ce58ee7e59d9ff4014b2803bdb99/septem-circumstantiae-0.0.4.tar.gz
+[2023-07-23 21:07:27] INFO root fetch - processPackages [geogif]: Downloading https://files.pythonhosted.org/packages/b9/43/6cbdf2fb5d5615817d5bfda1f777dd771eb8635a699b03a5098409479a77/geogif-0.1.4.tar.gz
+[2023-07-23 21:07:27] INFO root fetch - processPackages [faapi]: Downloading https://files.pythonhosted.org/packages/f9/10/6a6d74bcaacd78cd0b36467e0fafc78e1c90749212578f96ff497b541274/faapi-3.9.5.tar.gz
+[2023-07-23 21:07:27] INFO root fetch - processPackages [ephemeral-sh]: Downloading https://files.pythonhosted.org/packages/d3/5f/d6c6cb830d591f98b483092d185feff56e7e1c849f9fb8b3db6e7dc0171a/ephemeral_sh-0.3.2-py3-none-any.whl
+[2023-07-23 21:07:27] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/f3/07/bf6f5c80aed5a7009d48f0fb16714f9a1da5417363a0925fa43631e5ab60/qtgql-0.130.2.tar.gz
+[2023-07-23 21:07:27] INFO root fetch - processPackages [datasette-sqlite-hello]: Downloading https://files.pythonhosted.org/packages/85/1a/728b8e56047a244208c1726d220d7c7ea701b80f20f9ca9bb317746d24bd/datasette_sqlite_hello-0.1.0a52-py3-none-any.whl
+[2023-07-23 21:07:27] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/fd/15/50f931962cb93ebe85c5c088b77c6384a054e7d43b83ae24e96e723823fd/gigagan-pytorch-0.2.3.tar.gz
+[2023-07-23 21:07:27] INFO root fetch - processPackages [ephemeral-sh]: executing diffoscope
+[2023-07-23 21:07:27] INFO root fetch - processPackages [ephemeral-sh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ephemeral_sh-0.3.1-py3-none-any.whl.zip tmp/ephemeral_sh-0.3.2-py3-none-any.whl.zip --markdown 20230723/e/ephemeral-sh/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-23 21:07:27] INFO root fetch - processPackages [qtgql]: executing diffoscope
+[2023-07-23 21:07:27] INFO root fetch - processPackages [qtgql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtgql-0.129.2.tar.gz tmp/qtgql-0.130.2.tar.gz --markdown 20230723/q/qtgql/0.129.2-0.130.2/diff.md --exclude *.pyd
+[2023-07-23 21:07:27] INFO root fetch - processPackages [sqlite-hello]: Downloading https://files.pythonhosted.org/packages/ed/f2/f10cad937c7e8f5c9a3a4353945f6bbd05fbbd49ef8e3b8cede6bb7b3005/sqlite_hello-0.1.0a52-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-07-23 21:07:27] INFO root fetch - processPackages [geogif]: Downloading https://files.pythonhosted.org/packages/ce/71/40c7ae1109faf7105d24ff8e9f560db6f306e6d8eade5fa3893243a8030f/geogif-0.1.5.tar.gz
+[2023-07-23 21:07:27] INFO root fetch - processPackages [septem-circumstantiae]: Downloading https://files.pythonhosted.org/packages/a0/15/ddaa2f9388bce845bc454347d81819be1f8dad6edac2693156043c5889dc/septem-circumstantiae-0.0.5.tar.gz
+[2023-07-23 21:07:27] INFO root fetch - processPackages [chromedriver-auto]: Downloading https://files.pythonhosted.org/packages/ae/ad/be66fc97397403d1e6e94ead38e18a114087e0a2b784eb4403ba3dd575ba/chromedriver_auto-1.0.4.tar.gz
+[2023-07-23 21:07:27] INFO root fetch - processPackages [gigagan-pytorch]: executing diffoscope
+[2023-07-23 21:07:27] INFO root fetch - processPackages [gigagan-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigagan-pytorch-0.2.2.tar.gz tmp/gigagan-pytorch-0.2.3.tar.gz --markdown 20230723/g/gigagan-pytorch/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-23 21:07:27] INFO root fetch - processPackages [datasette-sqlite-hello]: executing diffoscope
+[2023-07-23 21:07:27] INFO root fetch - processPackages [datasette-sqlite-hello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_hello-0.1.0a50-py3-none-any.whl.zip tmp/datasette_sqlite_hello-0.1.0a52-py3-none-any.whl.zip --markdown 20230723/d/datasette-sqlite-hello/0.1.0a50-0.1.0a52/diff.md --exclude *.pyd
+[2023-07-23 21:07:27] INFO root fetch - processPackages [faapi]: Downloading https://files.pythonhosted.org/packages/f0/b2/d21c0eec6c9b56d00d1ca475ca9d4328c6859f221531b51fbf6888b63427/faapi-3.9.6.tar.gz
+[2023-07-23 21:07:28] INFO root fetch - processPackages [septem-circumstantiae]: executing diffoscope
+[2023-07-23 21:07:28] INFO root fetch - processPackages [septem-circumstantiae]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/septem-circumstantiae-0.0.4.tar.gz tmp/septem-circumstantiae-0.0.5.tar.gz --markdown 20230723/s/septem-circumstantiae/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-23 21:07:28] INFO root fetch - processPackages [chromedriver-auto]: executing diffoscope
+[2023-07-23 21:07:28] INFO root fetch - processPackages [chromedriver-auto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver_auto-1.0.1.tar.gz tmp/chromedriver_auto-1.0.4.tar.gz --markdown 20230723/c/chromedriver-auto/1.0.1-1.0.4/diff.md --exclude *.pyd
+[2023-07-23 21:07:28] INFO root fetch - processPackages [geogif]: executing diffoscope
+[2023-07-23 21:07:28] INFO root fetch - processPackages [geogif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geogif-0.1.4.tar.gz tmp/geogif-0.1.5.tar.gz --markdown 20230723/g/geogif/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-23 21:07:28] INFO root fetch - processPackages [faapi]: executing diffoscope
+[2023-07-23 21:07:28] INFO root fetch - processPackages [faapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faapi-3.9.5.tar.gz tmp/faapi-3.9.6.tar.gz --markdown 20230723/f/faapi/3.9.5-3.9.6/diff.md --exclude *.pyd
+[2023-07-23 21:07:28] INFO root fetch - processPackages [sqlite-hello]: executing diffoscope
+[2023-07-23 21:07:28] INFO root fetch - processPackages [sqlite-hello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_hello-0.1.0a50-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip tmp/sqlite_hello-0.1.0a52-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip --markdown 20230723/s/sqlite-hello/0.1.0a50-0.1.0a52/diff.md --exclude *.pyd
+[2023-07-23 21:07:29] INFO root fetch - processPackages [ephemeral-sh]: Remove: archive file [/home/abi/fetcher/tmp/ephemeral_sh-0.3.1-py3-none-any.whl.zip]
+[2023-07-23 21:07:29] INFO root fetch - processPackages [ephemeral-sh]: Remove: archive file [/home/abi/fetcher/tmp/ephemeral_sh-0.3.2-py3-none-any.whl.zip]
+[2023-07-23 21:07:29] INFO root fetch - main [MainThread]: End processing [ephemeral-sh]: success
+[2023-07-23 21:07:29] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.2.2.tar.gz]
+[2023-07-23 21:07:29] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.2.3.tar.gz]
+[2023-07-23 21:07:29] INFO root fetch - main [MainThread]: End processing [gigagan-pytorch]: success
+[2023-07-23 21:07:29] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.129.2.tar.gz]
+[2023-07-23 21:07:29] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.130.2.tar.gz]
+[2023-07-23 21:07:29] INFO root fetch - main [MainThread]: End processing [qtgql]: success
+[2023-07-23 21:07:29] INFO root fetch - processPackages [chromedriver-auto]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver_auto-1.0.1.tar.gz]
+[2023-07-23 21:07:29] INFO root fetch - processPackages [chromedriver-auto]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver_auto-1.0.4.tar.gz]
+[2023-07-23 21:07:29] INFO root fetch - main [MainThread]: End processing [chromedriver-auto]: success
+[2023-07-23 21:07:29] INFO root fetch - processPackages [datasette-sqlite-hello]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_hello-0.1.0a50-py3-none-any.whl.zip]
+[2023-07-23 21:07:29] INFO root fetch - processPackages [datasette-sqlite-hello]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_hello-0.1.0a52-py3-none-any.whl.zip]
+[2023-07-23 21:07:29] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-hello]: success
+[2023-07-23 21:07:29] INFO root fetch - processPackages [geogif]: Remove: archive file [/home/abi/fetcher/tmp/geogif-0.1.4.tar.gz]
+[2023-07-23 21:07:29] INFO root fetch - processPackages [geogif]: Remove: archive file [/home/abi/fetcher/tmp/geogif-0.1.5.tar.gz]
+[2023-07-23 21:07:29] INFO root fetch - main [MainThread]: End processing [geogif]: success
+[2023-07-23 21:07:29] INFO root fetch - processPackages [septem-circumstantiae]: Remove: archive file [/home/abi/fetcher/tmp/septem-circumstantiae-0.0.4.tar.gz]
+[2023-07-23 21:07:29] INFO root fetch - processPackages [septem-circumstantiae]: Remove: archive file [/home/abi/fetcher/tmp/septem-circumstantiae-0.0.5.tar.gz]
+[2023-07-23 21:07:29] INFO root fetch - main [MainThread]: End processing [septem-circumstantiae]: success
+[2023-07-23 21:07:29] INFO root fetch - processPackages [faapi]: Remove: archive file [/home/abi/fetcher/tmp/faapi-3.9.5.tar.gz]
+[2023-07-23 21:07:29] INFO root fetch - processPackages [faapi]: Remove: archive file [/home/abi/fetcher/tmp/faapi-3.9.6.tar.gz]
+[2023-07-23 21:07:29] INFO root fetch - main [MainThread]: End processing [faapi]: success
+[2023-07-23 21:07:30] INFO root fetch - processPackages [sqlite-hello]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_hello-0.1.0a50-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
+[2023-07-23 21:07:30] INFO root fetch - processPackages [sqlite-hello]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_hello-0.1.0a52-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
+[2023-07-23 21:07:30] INFO root fetch - main [MainThread]: End processing [sqlite-hello]: success
+[2023-07-23 21:07:30] INFO root fetch - main [MainThread]: Store serial: [19004174]
