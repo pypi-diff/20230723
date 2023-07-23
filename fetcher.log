@@ -2639,3 +2639,42 @@
 [2023-07-23 05:08:26] INFO root fetch - processPackages [vitriolic]: Remove: archive file [/home/abi/fetcher/tmp/vitriolic-3.3.2-py3-none-any.whl.zip]
 [2023-07-23 05:08:26] INFO root fetch - main [MainThread]: End processing [vitriolic]: success
 [2023-07-23 05:08:26] INFO root fetch - main [MainThread]: Store serial: [18999131]
+[2023-07-23 05:13:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999131]
+[2023-07-23 05:13:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-23 05:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: miniosl
+[2023-07-23 05:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfsd
+[2023-07-23 05:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sirtuin
+[2023-07-23 05:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: GANDLF
+[2023-07-23 05:13:34] INFO root fetch - processPackages [miniosl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 05:13:34] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 05:13:34] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230722] Old Version: [0.0.17.dev20230721]
+[2023-07-23 05:13:34] INFO root fetch - processPackages [sirtuin]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-23 05:13:34] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/be/b2/3ccc4cc903e2bdd09e36ceee13ffcdcc1902e295307a202e3401f72a0a59/GANDLF-0.0.17.dev20230721.tar.gz
+[2023-07-23 05:13:34] INFO root fetch - processPackages [miniosl]: Downloading https://files.pythonhosted.org/packages/ec/23/0a40da03e8d4efaa180037441979bfeecb3b76264d97ff4a9b50aca248fb/miniosl-0.0.8-cp310-cp310-manylinux_2_28_x86_64.whl
+[2023-07-23 05:13:34] INFO root fetch - processPackages [sirtuin]: Downloading https://files.pythonhosted.org/packages/63/83/935877a2d578fe0d1ce2aa72094321256afab6719af65bee26370a7a0d92/sirtuin-0.1.2.tar.gz
+[2023-07-23 05:13:34] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/bc/a3/f3db8d87a39f5eb8a59d2664840211b257e17b2838d141754bf65b5b99d4/kfsd-0.0.8.tar.gz
+[2023-07-23 05:13:35] INFO root fetch - processPackages [sirtuin]: Downloading https://files.pythonhosted.org/packages/d2/42/a66ba3890cbf7a77f56a941cb4f024543612fb86d602b0277a4c5d20a437/sirtuin-0.1.3.tar.gz
+[2023-07-23 05:13:35] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/0f/0a/4c71c61ffd176249acccac2f88105f3995eb778061cdb51482319d8d164e/GANDLF-0.0.17.dev20230722.tar.gz
+[2023-07-23 05:13:35] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/cc/18/f96c1914d54bd725df13ee5bf82870ca513b9a3c82d89aa30a7d271fa26a/kfsd-0.0.9.tar.gz
+[2023-07-23 05:13:35] INFO root fetch - processPackages [miniosl]: Downloading https://files.pythonhosted.org/packages/52/e1/2eae407bda00f8e2ae889b1f97fba9a3c2178f4caeaaf633f7febb6f2b16/miniosl-0.0.9-cp310-cp310-manylinux_2_28_x86_64.whl
+[2023-07-23 05:13:35] INFO root fetch - processPackages [sirtuin]: executing diffoscope
+[2023-07-23 05:13:35] INFO root fetch - processPackages [sirtuin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirtuin-0.1.2.tar.gz tmp/sirtuin-0.1.3.tar.gz --markdown 20230723/s/sirtuin/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-23 05:13:35] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-07-23 05:13:35] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230723/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 05:13:35] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-07-23 05:13:35] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230721.tar.gz tmp/GANDLF-0.0.17.dev20230722.tar.gz --markdown 20230723/G/GANDLF/0.0.17.dev20230721-0.0.17.dev20230722/diff.md --exclude *.pyd
+[2023-07-23 05:13:35] INFO root fetch - processPackages [miniosl]: executing diffoscope
+[2023-07-23 05:13:35] INFO root fetch - processPackages [miniosl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniosl-0.0.8-cp310-cp310-manylinux_2_28_x86_64.whl.zip tmp/miniosl-0.0.9-cp310-cp310-manylinux_2_28_x86_64.whl.zip --markdown 20230723/m/miniosl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 05:13:36] INFO root fetch - processPackages [sirtuin]: Remove: archive file [/home/abi/fetcher/tmp/sirtuin-0.1.2.tar.gz]
+[2023-07-23 05:13:36] INFO root fetch - processPackages [sirtuin]: Remove: archive file [/home/abi/fetcher/tmp/sirtuin-0.1.3.tar.gz]
+[2023-07-23 05:13:36] INFO root fetch - main [MainThread]: End processing [sirtuin]: success
+[2023-07-23 05:13:36] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.8.tar.gz]
+[2023-07-23 05:13:36] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.9.tar.gz]
+[2023-07-23 05:13:36] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-07-23 05:13:36] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230721.tar.gz]
+[2023-07-23 05:13:36] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230722.tar.gz]
+[2023-07-23 05:13:36] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-07-23 05:13:44] INFO root fetch - processPackages [miniosl]: Remove: archive file [/home/abi/fetcher/tmp/miniosl-0.0.8-cp310-cp310-manylinux_2_28_x86_64.whl.zip]
+[2023-07-23 05:13:44] INFO root fetch - processPackages [miniosl]: Remove: archive file [/home/abi/fetcher/tmp/miniosl-0.0.9-cp310-cp310-manylinux_2_28_x86_64.whl.zip]
+[2023-07-23 05:13:44] INFO root fetch - main [MainThread]: End processing [miniosl]: success
+[2023-07-23 05:13:44] INFO root fetch - main [MainThread]: Store serial: [18999143]
