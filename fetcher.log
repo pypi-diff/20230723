@@ -15700,3 +15700,48 @@ AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
 [2023-07-23 23:51:32] INFO root fetch - processPackages [sirmordred]: Remove: archive file [/home/abi/fetcher/tmp/sirmordred-0.9.2rc1.tar.gz]
 [2023-07-23 23:51:32] INFO root fetch - main [MainThread]: End processing [sirmordred]: success
 [2023-07-23 23:51:32] INFO root fetch - main [MainThread]: Store serial: [19005067]
+[2023-07-23 23:56:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19005067]
+[2023-07-23 23:56:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-23 23:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apacai
+[2023-07-23 23:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyvalidata
+[2023-07-23 23:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Mathics3
+[2023-07-23 23:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: medusa-zip
+[2023-07-23 23:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pykoi
+[2023-07-23 23:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pypkg-builder
+[2023-07-23 23:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: JSEStocks
+[2023-07-23 23:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: houseprices2023xx
+[2023-07-23 23:56:41] WARNING root fetch - processPackages [pykoi]: Skipping, unable to determine old version
+[2023-07-23 23:56:41] INFO root fetch - main [MainThread]: End processing [pykoi] error
+[2023-07-23 23:56:41] WARNING root fetch - processPackages [apacai]: Skipping, unable to determine old version
+[2023-07-23 23:56:41] INFO root fetch - main [MainThread]: End processing [apacai] error
+[2023-07-23 23:56:41] INFO root fetch - processPackages [pyvalidata]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-23 23:56:41] WARNING root fetch - processPackages [medusa-zip]: Skipping, unable to determine old version
+[2023-07-23 23:56:41] INFO root fetch - main [MainThread]: End processing [medusa-zip] error
+[2023-07-23 23:56:41] INFO root fetch - processPackages [JSEStocks]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-23 23:56:41] WARNING root fetch - processPackages [pypkg-builder]: Skipping, unable to determine old version
+[2023-07-23 23:56:41] INFO root fetch - main [MainThread]: End processing [pypkg-builder] error
+[2023-07-23 23:56:41] WARNING root fetch - processPackages [houseprices2023xx]: Skipping, unable to determine old version
+[2023-07-23 23:56:41] INFO root fetch - main [MainThread]: End processing [houseprices2023xx] error
+[2023-07-23 23:56:41] INFO root fetch - processPackages [Mathics3]: New version: [6.0.2] Old Version: [6.0.1]
+[2023-07-23 23:56:41] INFO root fetch - processPackages [pyvalidata]: Downloading https://files.pythonhosted.org/packages/25/df/077cafa455da5b05c8894d16ca5a1215eb2b91eae46fc0ff1cf929586520/pyvalidata-0.0.1.tar.gz
+[2023-07-23 23:56:42] INFO root fetch - processPackages [JSEStocks]: Downloading https://files.pythonhosted.org/packages/03/c7/7b6d0b0dbcc266c1c0303efc0599bcc6cb4a00b3d6071fe6bdba88524828/JSEStocks-0.0.2.tar.gz
+[2023-07-23 23:56:42] INFO root fetch - processPackages [Mathics3]: Downloading https://files.pythonhosted.org/packages/8d/e5/02856eee267173299ce11691387521815b08d1620cd370dc2bfd7dcb20a9/Mathics3-6.0.1.tar.gz
+[2023-07-23 23:56:42] INFO root fetch - processPackages [JSEStocks]: Downloading https://files.pythonhosted.org/packages/5a/56/cd1b0dbb515e1cbdbffb16ebd72d861046c3441b470fbab912e2f6897c3f/JSEStocks-0.0.3.tar.gz
+[2023-07-23 23:56:42] INFO root fetch - processPackages [pyvalidata]: Downloading https://files.pythonhosted.org/packages/9b/24/20edd64670dffd824482dfcddbb06c32db959d74a708a38391725058288e/pyvalidata-0.1.0.tar.gz
+[2023-07-23 23:56:42] INFO root fetch - processPackages [JSEStocks]: executing diffoscope
+[2023-07-23 23:56:42] INFO root fetch - processPackages [JSEStocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JSEStocks-0.0.2.tar.gz tmp/JSEStocks-0.0.3.tar.gz --markdown 20230723/J/JSEStocks/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-23 23:56:42] INFO root fetch - processPackages [pyvalidata]: executing diffoscope
+[2023-07-23 23:56:42] INFO root fetch - processPackages [pyvalidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvalidata-0.0.1.tar.gz tmp/pyvalidata-0.1.0.tar.gz --markdown 20230723/p/pyvalidata/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-23 23:56:42] INFO root fetch - processPackages [Mathics3]: Downloading https://files.pythonhosted.org/packages/37/56/0b5dc69a32d4a6e9cf31530f1a138594db684c11a6ffb1a0a61a4e95fe20/Mathics3-6.0.2.tar.gz
+[2023-07-23 23:56:43] INFO root fetch - processPackages [Mathics3]: executing diffoscope
+[2023-07-23 23:56:43] INFO root fetch - processPackages [Mathics3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Mathics3-6.0.1.tar.gz tmp/Mathics3-6.0.2.tar.gz --markdown 20230723/M/Mathics3/6.0.1-6.0.2/diff.md --exclude *.pyd
+[2023-07-23 23:56:43] INFO root fetch - processPackages [JSEStocks]: Remove: archive file [/home/abi/fetcher/tmp/JSEStocks-0.0.2.tar.gz]
+[2023-07-23 23:56:43] INFO root fetch - processPackages [JSEStocks]: Remove: archive file [/home/abi/fetcher/tmp/JSEStocks-0.0.3.tar.gz]
+[2023-07-23 23:56:43] INFO root fetch - main [MainThread]: End processing [JSEStocks]: success
+[2023-07-23 23:56:43] INFO root fetch - processPackages [pyvalidata]: Remove: archive file [/home/abi/fetcher/tmp/pyvalidata-0.0.1.tar.gz]
+[2023-07-23 23:56:43] INFO root fetch - processPackages [pyvalidata]: Remove: archive file [/home/abi/fetcher/tmp/pyvalidata-0.1.0.tar.gz]
+[2023-07-23 23:56:43] INFO root fetch - main [MainThread]: End processing [pyvalidata]: success
+[2023-07-23 23:56:48] INFO root fetch - processPackages [Mathics3]: Remove: archive file [/home/abi/fetcher/tmp/Mathics3-6.0.1.tar.gz]
+[2023-07-23 23:56:48] INFO root fetch - processPackages [Mathics3]: Remove: archive file [/home/abi/fetcher/tmp/Mathics3-6.0.2.tar.gz]
+[2023-07-23 23:56:48] INFO root fetch - main [MainThread]: End processing [Mathics3]: success
+[2023-07-23 23:56:48] INFO root fetch - main [MainThread]: Store serial: [19005107]
