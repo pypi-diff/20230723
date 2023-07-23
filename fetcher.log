@@ -15357,3 +15357,24 @@ AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
 [2023-07-23 23:15:07] INFO root fetch - processPackages [recnetpy]: Remove: archive file [/home/abi/fetcher/tmp/recnetpy-0.1.51.tar.gz]
 [2023-07-23 23:15:07] INFO root fetch - main [MainThread]: End processing [recnetpy]: success
 [2023-07-23 23:15:07] INFO root fetch - main [MainThread]: Store serial: [19004898]
+[2023-07-23 23:20:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19004898]
+[2023-07-23 23:20:16] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-23 23:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yeelight
+[2023-07-23 23:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlitopencvplayer
+[2023-07-23 23:20:16] INFO root fetch - processPackages [yeelight]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-23 23:20:16] INFO root fetch - processPackages [streamlitopencvplayer]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-07-23 23:20:16] INFO root fetch - processPackages [yeelight]: Downloading https://files.pythonhosted.org/packages/e5/01/e91461068a9dc34b7e4570749a1eace991ce901f15f59fe559898e4d8b67/yeelight-0.7.8.tar.gz
+[2023-07-23 23:20:16] INFO root fetch - processPackages [streamlitopencvplayer]: Downloading https://files.pythonhosted.org/packages/8a/83/e6d4402bf01c7c99e37a9f7c4a9d648ab2f4a196a12940f93c9f44b1d977/streamlitopencvplayer-1.5.3.tar.gz
+[2023-07-23 23:20:16] INFO root fetch - processPackages [streamlitopencvplayer]: Downloading https://files.pythonhosted.org/packages/ac/c5/84091e2fcff9c67791e61c7d5df6d2330589d4e0dab223c690348be17ccd/streamlitopencvplayer-1.5.4.tar.gz
+[2023-07-23 23:20:16] INFO root fetch - processPackages [yeelight]: Downloading https://files.pythonhosted.org/packages/b4/70/c65a115750c17c3d78e1108d0c58ca4c774572ed953a3bd84b11425a418f/yeelight-0.7.9.tar.gz
+[2023-07-23 23:20:16] INFO root fetch - processPackages [streamlitopencvplayer]: executing diffoscope
+[2023-07-23 23:20:16] INFO root fetch - processPackages [streamlitopencvplayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlitopencvplayer-1.5.3.tar.gz tmp/streamlitopencvplayer-1.5.4.tar.gz --markdown 20230723/s/streamlitopencvplayer/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-07-23 23:20:17] INFO root fetch - processPackages [yeelight]: executing diffoscope
+[2023-07-23 23:20:17] INFO root fetch - processPackages [yeelight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeelight-0.7.8.tar.gz tmp/yeelight-0.7.9.tar.gz --markdown 20230723/y/yeelight/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-23 23:20:17] INFO root fetch - processPackages [streamlitopencvplayer]: Remove: archive file [/home/abi/fetcher/tmp/streamlitopencvplayer-1.5.3.tar.gz]
+[2023-07-23 23:20:17] INFO root fetch - processPackages [streamlitopencvplayer]: Remove: archive file [/home/abi/fetcher/tmp/streamlitopencvplayer-1.5.4.tar.gz]
+[2023-07-23 23:20:17] INFO root fetch - main [MainThread]: End processing [streamlitopencvplayer]: success
+[2023-07-23 23:20:17] INFO root fetch - processPackages [yeelight]: Remove: archive file [/home/abi/fetcher/tmp/yeelight-0.7.8.tar.gz]
+[2023-07-23 23:20:17] INFO root fetch - processPackages [yeelight]: Remove: archive file [/home/abi/fetcher/tmp/yeelight-0.7.9.tar.gz]
+[2023-07-23 23:20:17] INFO root fetch - main [MainThread]: End processing [yeelight]: success
+[2023-07-23 23:20:17] INFO root fetch - main [MainThread]: Store serial: [19004905]
