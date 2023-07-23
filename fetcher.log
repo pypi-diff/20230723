@@ -4206,3 +4206,51 @@
 [2023-07-23 08:11:42] INFO root fetch - processPackages [dash-solana-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_solana_components-1.0.2-py3-none-any.whl.zip]
 [2023-07-23 08:11:42] INFO root fetch - main [MainThread]: End processing [dash-solana-components]: success
 [2023-07-23 08:11:42] INFO root fetch - main [MainThread]: Store serial: [18999816]
+[2023-07-23 08:16:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999816]
+[2023-07-23 08:16:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-23 08:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: energon-prometheus-exporter
+[2023-07-23 08:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xgorn-api
+[2023-07-23 08:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyg-nightly
+[2023-07-23 08:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clean-python
+[2023-07-23 08:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: geography
+[2023-07-23 08:16:52] INFO root fetch - processPackages [clean-python]: New version: [0.2.0b0] Old Version: [0.1.0]
+[2023-07-23 08:16:52] INFO root fetch - processPackages [energon-prometheus-exporter]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-23 08:16:52] INFO root fetch - processPackages [xgorn-api]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-23 08:16:52] INFO root fetch - processPackages [geography]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 08:16:52] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230722] Old Version: [2.4.0.dev20230721]
+[2023-07-23 08:16:52] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/38/6e/adf7e5adfdcd4f583a4b56887ce2467d0f7f476b8dc0a62eda10c41448a4/pyg_nightly-2.4.0.dev20230721.tar.gz
+[2023-07-23 08:16:52] INFO root fetch - processPackages [clean-python]: Downloading https://files.pythonhosted.org/packages/32/43/e16ba41fafa85f473f26fb91c9fa2c58b1f80183e1d85000b7c51f172441/clean-python-0.1.0.tar.gz
+[2023-07-23 08:16:52] INFO root fetch - processPackages [geography]: Downloading https://files.pythonhosted.org/packages/eb/ae/5da084e2061fe125d0b6c140bdbc3a046b3b24641a7e2be112461a228052/geography-0.0.8.tar.gz
+[2023-07-23 08:16:52] INFO root fetch - processPackages [energon-prometheus-exporter]: Downloading https://files.pythonhosted.org/packages/6a/f7/49429662bbf365ddc4bb5193e7ce81e2300cf6b30fc6e6e0f36aeafd2f24/energon_prometheus_exporter-0.0.1.tar.gz
+[2023-07-23 08:16:52] INFO root fetch - processPackages [xgorn-api]: Downloading https://files.pythonhosted.org/packages/26/f7/8bd87435003398da392f8d0ea90ac47078a3c58a7c3da639c939695b2b6c/xgorn-api-1.0.3.tar.gz
+[2023-07-23 08:16:52] INFO root fetch - processPackages [clean-python]: Downloading https://files.pythonhosted.org/packages/16/80/21c8baa467700b564fab9e8ec3b61a1301546399ce747ae94904175a573d/clean-python-0.2.0b0.tar.gz
+[2023-07-23 08:16:52] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/7e/6d/724d688b6f20de2d6fad0dec491b7858c16814b6b75c81125cf18b122b1d/pyg_nightly-2.4.0.dev20230722.tar.gz
+[2023-07-23 08:16:52] INFO root fetch - processPackages [energon-prometheus-exporter]: Downloading https://files.pythonhosted.org/packages/7a/d6/388e6cfcd39493697c96539ecc4f7d95b8adb103c5fa595745f49cd491c4/energon_prometheus_exporter-0.0.2.tar.gz
+[2023-07-23 08:16:52] INFO root fetch - processPackages [xgorn-api]: Downloading https://files.pythonhosted.org/packages/ec/60/9afa21ad740bf7db89ea216c9f48c784f5f8a69cbe8562e6cf29229a46ba/xgorn-api-1.0.4.tar.gz
+[2023-07-23 08:16:52] INFO root fetch - processPackages [clean-python]: executing diffoscope
+[2023-07-23 08:16:52] INFO root fetch - processPackages [clean-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clean-python-0.1.0.tar.gz tmp/clean-python-0.2.0b0.tar.gz --markdown 20230723/c/clean-python/0.1.0-0.2.0b0/diff.md --exclude *.pyd
+[2023-07-23 08:16:52] INFO root fetch - processPackages [xgorn-api]: executing diffoscope
+[2023-07-23 08:16:52] INFO root fetch - processPackages [xgorn-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xgorn-api-1.0.3.tar.gz tmp/xgorn-api-1.0.4.tar.gz --markdown 20230723/x/xgorn-api/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-23 08:16:52] INFO root fetch - processPackages [energon-prometheus-exporter]: executing diffoscope
+[2023-07-23 08:16:52] INFO root fetch - processPackages [energon-prometheus-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energon_prometheus_exporter-0.0.1.tar.gz tmp/energon_prometheus_exporter-0.0.2.tar.gz --markdown 20230723/e/energon-prometheus-exporter/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-23 08:16:53] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-07-23 08:16:53] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230721.tar.gz tmp/pyg_nightly-2.4.0.dev20230722.tar.gz --markdown 20230723/p/pyg-nightly/2.4.0.dev20230721-2.4.0.dev20230722/diff.md --exclude *.pyd
+[2023-07-23 08:16:53] INFO root fetch - processPackages [geography]: Downloading https://files.pythonhosted.org/packages/40/30/bdea1bdd15ad1e1e66ed2f8c5cf90434d2c0cfc355c3d017977d196a19bd/geography-0.0.9.tar.gz
+[2023-07-23 08:16:53] INFO root fetch - processPackages [geography]: executing diffoscope
+[2023-07-23 08:16:53] INFO root fetch - processPackages [geography]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geography-0.0.8.tar.gz tmp/geography-0.0.9.tar.gz --markdown 20230723/g/geography/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 08:16:53] INFO root fetch - processPackages [energon-prometheus-exporter]: Remove: archive file [/home/abi/fetcher/tmp/energon_prometheus_exporter-0.0.1.tar.gz]
+[2023-07-23 08:16:53] INFO root fetch - processPackages [energon-prometheus-exporter]: Remove: archive file [/home/abi/fetcher/tmp/energon_prometheus_exporter-0.0.2.tar.gz]
+[2023-07-23 08:16:53] INFO root fetch - main [MainThread]: End processing [energon-prometheus-exporter]: success
+[2023-07-23 08:16:53] INFO root fetch - processPackages [xgorn-api]: Remove: archive file [/home/abi/fetcher/tmp/xgorn-api-1.0.3.tar.gz]
+[2023-07-23 08:16:53] INFO root fetch - processPackages [xgorn-api]: Remove: archive file [/home/abi/fetcher/tmp/xgorn-api-1.0.4.tar.gz]
+[2023-07-23 08:16:53] INFO root fetch - main [MainThread]: End processing [xgorn-api]: success
+[2023-07-23 08:16:54] INFO root fetch - processPackages [clean-python]: Remove: archive file [/home/abi/fetcher/tmp/clean-python-0.1.0.tar.gz]
+[2023-07-23 08:16:54] INFO root fetch - processPackages [clean-python]: Remove: archive file [/home/abi/fetcher/tmp/clean-python-0.2.0b0.tar.gz]
+[2023-07-23 08:16:54] INFO root fetch - main [MainThread]: End processing [clean-python]: success
+[2023-07-23 08:16:54] INFO root fetch - processPackages [geography]: Remove: archive file [/home/abi/fetcher/tmp/geography-0.0.8.tar.gz]
+[2023-07-23 08:16:54] INFO root fetch - processPackages [geography]: Remove: archive file [/home/abi/fetcher/tmp/geography-0.0.9.tar.gz]
+[2023-07-23 08:16:54] INFO root fetch - main [MainThread]: End processing [geography]: success
+[2023-07-23 08:16:56] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230721.tar.gz]
+[2023-07-23 08:16:56] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230722.tar.gz]
+[2023-07-23 08:16:56] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-07-23 08:16:56] INFO root fetch - main [MainThread]: Store serial: [18999831]
