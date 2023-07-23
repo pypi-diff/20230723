@@ -8309,3 +8309,90 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 15:02:44] INFO root fetch - processPackages [AshCrypt]: Remove: archive file [/home/abi/fetcher/tmp/AshCrypt-3.0.1.tar.gz]
 [2023-07-23 15:02:44] INFO root fetch - main [MainThread]: End processing [AshCrypt]: success
 [2023-07-23 15:02:44] INFO root fetch - main [MainThread]: Store serial: [19001670]
+[2023-07-23 15:07:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19001670]
+[2023-07-23 15:07:52] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-23 15:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pg-bulk-ingest
+[2023-07-23 15:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-07-23 15:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: artistml-sdk
+[2023-07-23 15:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coffeepy
+[2023-07-23 15:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-stdlib
+[2023-07-23 15:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: IDsys
+[2023-07-23 15:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: palmers-agents-general
+[2023-07-23 15:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: netbox-config-diff
+[2023-07-23 15:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: MyBaleCloud
+[2023-07-23 15:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-numpy
+[2023-07-23 15:07:52] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-23 15:07:52] INFO root fetch - processPackages [palmers-agents-general]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 15:07:52] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.7.22] Old Version: [2023.7.21]
+[2023-07-23 15:07:52] INFO root fetch - processPackages [IDsys]: New version: [0.0.8.5] Old Version: [0.0.8]
+[2023-07-23 15:07:52] INFO root fetch - processPackages [pg-bulk-ingest]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 15:07:52] INFO root fetch - processPackages [MyBaleCloud]: New version: [2.0] Old Version: [1.0]
+[2023-07-23 15:07:52] INFO root fetch - processPackages [artistml-sdk]: New version: [0.2.1.dev9751808] Old Version: [0.2.1.dev9296519]
+[2023-07-23 15:07:52] WARNING root fetch - processPackages [netbox-config-diff]: Skipping, unable to determine old version
+[2023-07-23 15:07:52] INFO root fetch - main [MainThread]: End processing [netbox-config-diff] error
+[2023-07-23 15:07:52] INFO root fetch - processPackages [coffeepy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-23 15:07:53] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-23 15:07:53] INFO root fetch - processPackages [palmers-agents-general]: Downloading https://files.pythonhosted.org/packages/a0/ba/bb9972f2c344a2bfc6289bc81301dc0b876b6cc6c50834a9b71e5b5ffdf4/palmers_agents_general-0.0.8.tar.gz
+[2023-07-23 15:07:53] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-23 15:07:53] INFO root fetch - processPackages [MyBaleCloud]: Downloading https://files.pythonhosted.org/packages/83/07/7d41f926e876d2087fb51fa8ceb3e683dcdcafebfb67e5373e40caf7843e/MyBaleCloud-1.0.tar.gz
+[2023-07-23 15:07:53] INFO root fetch - processPackages [IDsys]: Downloading https://files.pythonhosted.org/packages/5d/2e/e372ccfb40252a04857a285c17e35c4c7aaf5306df9fb73a18c3f5fa9e32/IDsys-0.0.8.tar.gz
+[2023-07-23 15:07:53] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-23 15:07:53] INFO root fetch - processPackages [coffeepy]: Downloading https://files.pythonhosted.org/packages/c7/a8/c1a54f153371191622860591103697b4e843ddd9337f3d555db902e8819c/coffeepy-0.1.8.tar.gz
+[2023-07-23 15:07:53] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/dd/55/95930d04b13447997b10272c617dafd6ea8e9b977acecef40e530b63d1ca/fbgemm_gpu_nightly_cpu-2023.7.21-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-23 15:07:53] INFO root fetch - processPackages [artistml-sdk]: Downloading https://files.pythonhosted.org/packages/29/b5/ec0aebe275a00a097cb3360547ad5d43d0f14e3e1bb61d10932cdd2225d7/artistml-sdk-0.2.1.dev9296519.tar.gz
+[2023-07-23 15:07:53] INFO root fetch - processPackages [pg-bulk-ingest]: Downloading https://files.pythonhosted.org/packages/e7/4c/79370bd20a6c816fde6c364043a829acf317c47786fa13893e26ccd005f6/pg_bulk_ingest-0.0.8.tar.gz
+[2023-07-23 15:07:53] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-23 15:07:53] INFO root fetch - processPackages [palmers-agents-general]: Downloading https://files.pythonhosted.org/packages/61/cd/e3e3e79d25eaa13474a77df36729a9c49c52bf78a9aabee81eb71e0e9622/palmers_agents_general-0.0.9.tar.gz
+[2023-07-23 15:07:53] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-23 15:07:53] INFO root fetch - processPackages [IDsys]: Downloading https://files.pythonhosted.org/packages/fe/3d/5b659debfafc38d9a4a6fab7e7bc0f065c91e355e6631d922b26000191e1/IDsys-0.0.8.5.tar.gz
+[2023-07-23 15:07:53] INFO root fetch - processPackages [MyBaleCloud]: Downloading https://files.pythonhosted.org/packages/a6/03/623ff39dcc4f5437c0890a43acc03b300b62b0f2e00ad4efd85645b0885f/MyBaleCloud-2.0.tar.gz
+[2023-07-23 15:07:53] INFO root fetch - processPackages [coffeepy]: Downloading https://files.pythonhosted.org/packages/f2/31/619861d155e2b92b45e91f1fe622f07ee6180f3a2933d7c9e94ea101ef19/coffeepy-0.1.9.tar.gz
+[2023-07-23 15:07:53] INFO root fetch - processPackages [palmers-agents-general]: executing diffoscope
+[2023-07-23 15:07:53] INFO root fetch - processPackages [palmers-agents-general]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palmers_agents_general-0.0.8.tar.gz tmp/palmers_agents_general-0.0.9.tar.gz --markdown 20230723/p/palmers-agents-general/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 15:07:53] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-23 15:07:53] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230723/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-23 15:07:53] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-23 15:07:53] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230723/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-23 15:07:53] INFO root fetch - processPackages [MyBaleCloud]: executing diffoscope
+[2023-07-23 15:07:53] INFO root fetch - processPackages [MyBaleCloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MyBaleCloud-1.0.tar.gz tmp/MyBaleCloud-2.0.tar.gz --markdown 20230723/M/MyBaleCloud/1.0-2.0/diff.md --exclude *.pyd
+[2023-07-23 15:07:53] INFO root fetch - processPackages [coffeepy]: executing diffoscope
+[2023-07-23 15:07:53] INFO root fetch - processPackages [coffeepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coffeepy-0.1.8.tar.gz tmp/coffeepy-0.1.9.tar.gz --markdown 20230723/c/coffeepy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-23 15:07:53] INFO root fetch - processPackages [artistml-sdk]: Downloading https://files.pythonhosted.org/packages/a5/ab/fd30f226e75bea3ba0ae70702d214b65a3aca5bb422c5255ea0286522ffa/artistml-sdk-0.2.1.dev9751808.tar.gz
+[2023-07-23 15:07:53] INFO root fetch - processPackages [IDsys]: executing diffoscope
+[2023-07-23 15:07:53] INFO root fetch - processPackages [IDsys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IDsys-0.0.8.tar.gz tmp/IDsys-0.0.8.5.tar.gz --markdown 20230723/I/IDsys/0.0.8-0.0.8.5/diff.md --exclude *.pyd
+[2023-07-23 15:07:54] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/f6/4b/8c47ac1a02c6524afd6f479cf8a80ec2b7b56d91e70abcd0403d59fe3f93/fbgemm_gpu_nightly_cpu-2023.7.22-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-23 15:07:54] INFO root fetch - processPackages [artistml-sdk]: executing diffoscope
+[2023-07-23 15:07:54] INFO root fetch - processPackages [artistml-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artistml-sdk-0.2.1.dev9296519.tar.gz tmp/artistml-sdk-0.2.1.dev9751808.tar.gz --markdown 20230723/a/artistml-sdk/0.2.1.dev9296519-0.2.1.dev9751808/diff.md --exclude *.pyd
+[2023-07-23 15:07:54] INFO root fetch - processPackages [pg-bulk-ingest]: Downloading https://files.pythonhosted.org/packages/db/bb/df7525f74975aacf76789085425bed157db43bb21c9d69e39c9e4bedd944/pg_bulk_ingest-0.0.9.tar.gz
+[2023-07-23 15:07:54] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-07-23 15:07:54] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.7.21-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.7.22-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230723/f/fbgemm-gpu-nightly-cpu/2023.7.21-2023.7.22/diff.md --exclude *.pyd
+[2023-07-23 15:07:54] INFO root fetch - processPackages [pg-bulk-ingest]: executing diffoscope
+[2023-07-23 15:07:54] INFO root fetch - processPackages [pg-bulk-ingest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_bulk_ingest-0.0.8.tar.gz tmp/pg_bulk_ingest-0.0.9.tar.gz --markdown 20230723/p/pg-bulk-ingest/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 15:07:54] INFO root fetch - processPackages [palmers-agents-general]: Remove: archive file [/home/abi/fetcher/tmp/palmers_agents_general-0.0.8.tar.gz]
+[2023-07-23 15:07:54] INFO root fetch - processPackages [palmers-agents-general]: Remove: archive file [/home/abi/fetcher/tmp/palmers_agents_general-0.0.9.tar.gz]
+[2023-07-23 15:07:54] INFO root fetch - main [MainThread]: End processing [palmers-agents-general]: success
+[2023-07-23 15:07:55] INFO root fetch - processPackages [MyBaleCloud]: Remove: archive file [/home/abi/fetcher/tmp/MyBaleCloud-1.0.tar.gz]
+[2023-07-23 15:07:55] INFO root fetch - processPackages [MyBaleCloud]: Remove: archive file [/home/abi/fetcher/tmp/MyBaleCloud-2.0.tar.gz]
+[2023-07-23 15:07:55] INFO root fetch - main [MainThread]: End processing [MyBaleCloud]: success
+[2023-07-23 15:07:55] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-23 15:07:55] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-23 15:07:55] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-23 15:07:55] INFO root fetch - processPackages [coffeepy]: Remove: archive file [/home/abi/fetcher/tmp/coffeepy-0.1.8.tar.gz]
+[2023-07-23 15:07:55] INFO root fetch - processPackages [coffeepy]: Remove: archive file [/home/abi/fetcher/tmp/coffeepy-0.1.9.tar.gz]
+[2023-07-23 15:07:55] INFO root fetch - main [MainThread]: End processing [coffeepy]: success
+[2023-07-23 15:07:55] INFO root fetch - processPackages [IDsys]: Remove: archive file [/home/abi/fetcher/tmp/IDsys-0.0.8.tar.gz]
+[2023-07-23 15:07:55] INFO root fetch - processPackages [IDsys]: Remove: archive file [/home/abi/fetcher/tmp/IDsys-0.0.8.5.tar.gz]
+[2023-07-23 15:07:55] INFO root fetch - main [MainThread]: End processing [IDsys]: success
+[2023-07-23 15:07:55] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-23 15:07:55] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-23 15:07:55] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-23 15:07:55] INFO root fetch - processPackages [pg-bulk-ingest]: Remove: archive file [/home/abi/fetcher/tmp/pg_bulk_ingest-0.0.8.tar.gz]
+[2023-07-23 15:07:55] INFO root fetch - processPackages [pg-bulk-ingest]: Remove: archive file [/home/abi/fetcher/tmp/pg_bulk_ingest-0.0.9.tar.gz]
+[2023-07-23 15:07:55] INFO root fetch - main [MainThread]: End processing [pg-bulk-ingest]: success
+[2023-07-23 15:07:55] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.21-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-23 15:07:55] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.22-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-23 15:07:55] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-07-23 15:07:55] INFO root fetch - processPackages [artistml-sdk]: Remove: archive file [/home/abi/fetcher/tmp/artistml-sdk-0.2.1.dev9296519.tar.gz]
+[2023-07-23 15:07:55] INFO root fetch - processPackages [artistml-sdk]: Remove: archive file [/home/abi/fetcher/tmp/artistml-sdk-0.2.1.dev9751808.tar.gz]
+[2023-07-23 15:07:55] INFO root fetch - main [MainThread]: End processing [artistml-sdk]: success
+[2023-07-23 15:07:55] INFO root fetch - main [MainThread]: Store serial: [19001706]
