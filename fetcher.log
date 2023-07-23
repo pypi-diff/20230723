@@ -9274,3 +9274,60 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 16:14:00] INFO root fetch - processPackages [vision-models-playground]: Remove: archive file [/home/abi/fetcher/tmp/vision_models_playground-0.2.2.tar.gz]
 [2023-07-23 16:14:00] INFO root fetch - main [MainThread]: End processing [vision-models-playground]: success
 [2023-07-23 16:14:00] INFO root fetch - main [MainThread]: Store serial: [19002248]
+[2023-07-23 16:19:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19002248]
+[2023-07-23 16:19:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-23 16:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coffeepy
+[2023-07-23 16:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yayaml
+[2023-07-23 16:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plotagain
+[2023-07-23 16:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: experiments-csv
+[2023-07-23 16:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OctoBot-Trading
+[2023-07-23 16:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: my-ui-booking.com
+[2023-07-23 16:19:09] INFO root fetch - processPackages [experiments-csv]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-23 16:19:09] INFO root fetch - processPackages [coffeepy]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-23 16:19:09] INFO root fetch - processPackages [plotagain]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-23 16:19:09] INFO root fetch - processPackages [yayaml]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-23 16:19:09] INFO root fetch - processPackages [my-ui-booking.com]: New version: [0.2] Old Version: [0.1]
+[2023-07-23 16:19:09] INFO root fetch - processPackages [OctoBot-Trading]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-07-23 16:19:09] INFO root fetch - processPackages [coffeepy]: Downloading https://files.pythonhosted.org/packages/f2/31/619861d155e2b92b45e91f1fe622f07ee6180f3a2933d7c9e94ea101ef19/coffeepy-0.1.9.tar.gz
+[2023-07-23 16:19:09] INFO root fetch - processPackages [plotagain]: Downloading https://files.pythonhosted.org/packages/9a/5d/eb6eb532ba54dc400fda5a57f6964b0efbf2a40fb5362b2d68da61be5e86/plotagain-1.0.4.tar.gz
+[2023-07-23 16:19:09] INFO root fetch - processPackages [experiments-csv]: Downloading https://files.pythonhosted.org/packages/ee/a1/a12a2bc6853f4ae200539b684324bc14b2ddae0fcd54299e0068eaf6f650/experiments_csv-0.5.2.tar.gz
+[2023-07-23 16:19:09] INFO root fetch - processPackages [my-ui-booking.com]: Downloading https://files.pythonhosted.org/packages/bf/0c/29551febd7cd7a42c0e4451b89878141a3d179d01f6bb5587a7b728ec8ab/my_ui_booking.com-0.1.tar.gz
+[2023-07-23 16:19:09] INFO root fetch - processPackages [OctoBot-Trading]: Downloading https://files.pythonhosted.org/packages/73/23/c1d7881529a8c9625e383e42f1dc81df6232f45c2ceb32da5ce75194f893/OctoBot-Trading-2.4.8.tar.gz
+[2023-07-23 16:19:09] INFO root fetch - processPackages [yayaml]: Downloading https://files.pythonhosted.org/packages/80/39/8e3cbac2eb0a1ca81675d6a3d2013014b47ac0fd9680de43cb54a13dc1e8/yayaml-0.1.0.tar.gz
+[2023-07-23 16:19:09] INFO root fetch - processPackages [coffeepy]: Downloading https://files.pythonhosted.org/packages/8b/70/2563ea1f2216de6be084fca6d5cc94b33e17134467f7aec8626a45667b56/coffeepy-0.2.0.tar.gz
+[2023-07-23 16:19:10] INFO root fetch - processPackages [coffeepy]: executing diffoscope
+[2023-07-23 16:19:10] INFO root fetch - processPackages [coffeepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coffeepy-0.1.9.tar.gz tmp/coffeepy-0.2.0.tar.gz --markdown 20230723/c/coffeepy/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-23 16:19:10] INFO root fetch - processPackages [plotagain]: Downloading https://files.pythonhosted.org/packages/11/72/2443a6e4c4fcedb4a598bdbf5d0205d43ba27b15133cdfb6e64807a35263/plotagain-1.0.5.tar.gz
+[2023-07-23 16:19:10] INFO root fetch - processPackages [experiments-csv]: Downloading https://files.pythonhosted.org/packages/8c/52/b28e67c770d53c7b1298d965e3efb2af3cf4e4c02db81f5ce78e8ab16781/experiments_csv-0.5.3.tar.gz
+[2023-07-23 16:19:10] INFO root fetch - processPackages [my-ui-booking.com]: Downloading https://files.pythonhosted.org/packages/d7/8c/f689b30adb3477ac1a7b47225c2dab16870e844410a576fdd48a9bcdfd2d/my_ui_booking.com-0.2.tar.gz
+[2023-07-23 16:19:10] INFO root fetch - processPackages [yayaml]: Downloading https://files.pythonhosted.org/packages/fe/e5/117b2b663d78fd7fb1f2d585c911e2949b0f21072dd45b4794e0e13b95a5/yayaml-0.1.1.tar.gz
+[2023-07-23 16:19:10] INFO root fetch - processPackages [plotagain]: executing diffoscope
+[2023-07-23 16:19:10] INFO root fetch - processPackages [plotagain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotagain-1.0.4.tar.gz tmp/plotagain-1.0.5.tar.gz --markdown 20230723/p/plotagain/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-23 16:19:10] INFO root fetch - processPackages [OctoBot-Trading]: Downloading https://files.pythonhosted.org/packages/77/bc/ecdb68086de1f382830bf4a54be7e64fdcf11183cbc9e6485fe1c829615e/OctoBot-Trading-2.4.9.tar.gz
+[2023-07-23 16:19:10] INFO root fetch - processPackages [experiments-csv]: executing diffoscope
+[2023-07-23 16:19:10] INFO root fetch - processPackages [experiments-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experiments_csv-0.5.2.tar.gz tmp/experiments_csv-0.5.3.tar.gz --markdown 20230723/e/experiments-csv/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-23 16:19:10] INFO root fetch - processPackages [my-ui-booking.com]: executing diffoscope
+[2023-07-23 16:19:10] INFO root fetch - processPackages [my-ui-booking.com]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my_ui_booking.com-0.1.tar.gz tmp/my_ui_booking.com-0.2.tar.gz --markdown 20230723/m/my-ui-booking.com/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-23 16:19:10] INFO root fetch - processPackages [yayaml]: executing diffoscope
+[2023-07-23 16:19:10] INFO root fetch - processPackages [yayaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yayaml-0.1.0.tar.gz tmp/yayaml-0.1.1.tar.gz --markdown 20230723/y/yayaml/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-23 16:19:10] INFO root fetch - processPackages [OctoBot-Trading]: executing diffoscope
+[2023-07-23 16:19:10] INFO root fetch - processPackages [OctoBot-Trading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoBot-Trading-2.4.8.tar.gz tmp/OctoBot-Trading-2.4.9.tar.gz --markdown 20230723/O/OctoBot-Trading/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-07-23 16:19:11] INFO root fetch - processPackages [coffeepy]: Remove: archive file [/home/abi/fetcher/tmp/coffeepy-0.1.9.tar.gz]
+[2023-07-23 16:19:11] INFO root fetch - processPackages [coffeepy]: Remove: archive file [/home/abi/fetcher/tmp/coffeepy-0.2.0.tar.gz]
+[2023-07-23 16:19:11] INFO root fetch - main [MainThread]: End processing [coffeepy]: success
+[2023-07-23 16:19:11] INFO root fetch - processPackages [my-ui-booking.com]: Remove: archive file [/home/abi/fetcher/tmp/my_ui_booking.com-0.1.tar.gz]
+[2023-07-23 16:19:11] INFO root fetch - processPackages [my-ui-booking.com]: Remove: archive file [/home/abi/fetcher/tmp/my_ui_booking.com-0.2.tar.gz]
+[2023-07-23 16:19:11] INFO root fetch - main [MainThread]: End processing [my-ui-booking.com]: success
+[2023-07-23 16:19:11] INFO root fetch - processPackages [plotagain]: Remove: archive file [/home/abi/fetcher/tmp/plotagain-1.0.4.tar.gz]
+[2023-07-23 16:19:11] INFO root fetch - processPackages [plotagain]: Remove: archive file [/home/abi/fetcher/tmp/plotagain-1.0.5.tar.gz]
+[2023-07-23 16:19:11] INFO root fetch - main [MainThread]: End processing [plotagain]: success
+[2023-07-23 16:19:11] INFO root fetch - processPackages [yayaml]: Remove: archive file [/home/abi/fetcher/tmp/yayaml-0.1.0.tar.gz]
+[2023-07-23 16:19:11] INFO root fetch - processPackages [yayaml]: Remove: archive file [/home/abi/fetcher/tmp/yayaml-0.1.1.tar.gz]
+[2023-07-23 16:19:11] INFO root fetch - main [MainThread]: End processing [yayaml]: success
+[2023-07-23 16:19:11] INFO root fetch - processPackages [experiments-csv]: Remove: archive file [/home/abi/fetcher/tmp/experiments_csv-0.5.2.tar.gz]
+[2023-07-23 16:19:11] INFO root fetch - processPackages [experiments-csv]: Remove: archive file [/home/abi/fetcher/tmp/experiments_csv-0.5.3.tar.gz]
+[2023-07-23 16:19:11] INFO root fetch - main [MainThread]: End processing [experiments-csv]: success
+[2023-07-23 16:19:13] INFO root fetch - processPackages [OctoBot-Trading]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Trading-2.4.8.tar.gz]
+[2023-07-23 16:19:13] INFO root fetch - processPackages [OctoBot-Trading]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Trading-2.4.9.tar.gz]
+[2023-07-23 16:19:13] INFO root fetch - main [MainThread]: End processing [OctoBot-Trading]: success
+[2023-07-23 16:19:13] INFO root fetch - main [MainThread]: Store serial: [19002269]
