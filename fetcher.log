@@ -7284,3 +7284,69 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 13:39:04] INFO root fetch - processPackages [datomize]: Remove: archive file [/home/abi/fetcher/tmp/datomize-2.3.9.tar.gz]
 [2023-07-23 13:39:04] INFO root fetch - main [MainThread]: End processing [datomize]: success
 [2023-07-23 13:39:04] INFO root fetch - main [MainThread]: Store serial: [19001203]
+[2023-07-23 13:44:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19001203]
+[2023-07-23 13:44:13] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-23 13:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SageLogger
+[2023-07-23 13:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Google-Ads-Transparency-Scraper
+[2023-07-23 13:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pciSeq
+[2023-07-23 13:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: firefox-bookmarks
+[2023-07-23 13:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ui-booking.com
+[2023-07-23 13:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyquizrd
+[2023-07-23 13:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reinforced-lib
+[2023-07-23 13:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rtn-simrs
+[2023-07-23 13:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: customs-tax
+[2023-07-23 13:44:13] WARNING root fetch - processPackages [customs-tax]: Skipping, unable to determine old version
+[2023-07-23 13:44:13] INFO root fetch - main [MainThread]: End processing [customs-tax] error
+[2023-07-23 13:44:13] WARNING root fetch - processPackages [ui-booking.com]: Skipping, unable to determine old version
+[2023-07-23 13:44:13] INFO root fetch - main [MainThread]: End processing [ui-booking.com] error
+[2023-07-23 13:44:13] INFO root fetch - processPackages [pyquizrd]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-23 13:44:13] INFO root fetch - processPackages [firefox-bookmarks]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-23 13:44:13] INFO root fetch - processPackages [SageLogger]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-23 13:44:13] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: New version: [1.6.0] Old Version: [1.5.8]
+[2023-07-23 13:44:13] INFO root fetch - processPackages [pciSeq]: New version: [0.0.57.dev1] Old Version: [0.0.57.dev0]
+[2023-07-23 13:44:13] WARNING root fetch - processPackages [rtn-simrs]: Skipping, unable to determine old version
+[2023-07-23 13:44:13] INFO root fetch - main [MainThread]: End processing [rtn-simrs] error
+[2023-07-23 13:44:13] INFO root fetch - processPackages [pyquizrd]: Downloading https://files.pythonhosted.org/packages/e9/63/8d7bd23a97c7d01a4db91dcfcfc5a1dcda250802814221afd95924e6c139/pyquizrd-0.1.3.tar.gz
+[2023-07-23 13:44:13] INFO root fetch - processPackages [reinforced-lib]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-07-23 13:44:13] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: Downloading https://files.pythonhosted.org/packages/5b/a4/0b9349881d4bb922649a022e2b9eeedaef8feeb8df8aff63f235110cd9f6/Google-Ads-Transparency-Scraper-1.5.8.tar.gz
+[2023-07-23 13:44:13] INFO root fetch - processPackages [SageLogger]: Downloading https://files.pythonhosted.org/packages/0c/e7/36d44bb7daadd39c84fd511426346bdd1b1a54cbdad6a3dab831030036af/SageLogger-1.3.1.tar.gz
+[2023-07-23 13:44:13] INFO root fetch - processPackages [firefox-bookmarks]: Downloading https://files.pythonhosted.org/packages/cd/6c/2359d36c09e0e3787e0cd3d45a27c4ae36d379523f1b5f877f5ea2664afa/firefox_bookmarks-0.0.1.tar.gz
+[2023-07-23 13:44:13] INFO root fetch - processPackages [pciSeq]: Downloading https://files.pythonhosted.org/packages/73/e8/84db55b2faf7381d099cffec3ee58f41554fe4e4e5b6520b210e0c2fd004/pciSeq-0.0.57.dev0-py3-none-any.whl
+[2023-07-23 13:44:13] INFO root fetch - processPackages [reinforced-lib]: Downloading https://files.pythonhosted.org/packages/f5/65/801af510f292873722920ea677e43e69d90c9fffcdc082871ff338228ee5/reinforced-lib-0.2.0.tar.gz
+[2023-07-23 13:44:13] INFO root fetch - processPackages [pyquizrd]: Downloading https://files.pythonhosted.org/packages/47/aa/e7c4e310879222cc77a9e3131a7ac9219f24976527d60c6fa44c5f75f5e7/pyquizrd-0.1.4.tar.gz
+[2023-07-23 13:44:14] INFO root fetch - processPackages [firefox-bookmarks]: Downloading https://files.pythonhosted.org/packages/3b/e0/7f48f9abeba1a8840fb770336d13e47756557e6226d6ed01d50fbe382463/firefox_bookmarks-0.1.0.tar.gz
+[2023-07-23 13:44:14] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: Downloading https://files.pythonhosted.org/packages/57/ae/3514d333ad8ce1b41e11b0723d82e084c69fc2041a46fb3613c42f51ba1e/Google-Ads-Transparency-Scraper-1.6.0.tar.gz
+[2023-07-23 13:44:14] INFO root fetch - processPackages [SageLogger]: Downloading https://files.pythonhosted.org/packages/db/c8/97f6a19158b5301031d2ba4f2f909cdf0445786a9191a31b27cc807efe78/SageLogger-1.3.2.tar.gz
+[2023-07-23 13:44:14] INFO root fetch - processPackages [pyquizrd]: executing diffoscope
+[2023-07-23 13:44:14] INFO root fetch - processPackages [pyquizrd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquizrd-0.1.3.tar.gz tmp/pyquizrd-0.1.4.tar.gz --markdown 20230723/p/pyquizrd/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-23 13:44:14] INFO root fetch - processPackages [firefox-bookmarks]: executing diffoscope
+[2023-07-23 13:44:14] INFO root fetch - processPackages [firefox-bookmarks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firefox_bookmarks-0.0.1.tar.gz tmp/firefox_bookmarks-0.1.0.tar.gz --markdown 20230723/f/firefox-bookmarks/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-23 13:44:14] INFO root fetch - processPackages [pciSeq]: Downloading https://files.pythonhosted.org/packages/e9/b5/e87d7052c60717292f768b033c2475ed2f45535253c9e9b848778e01cdc3/pciSeq-0.0.57.dev1-py3-none-any.whl
+[2023-07-23 13:44:14] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: executing diffoscope
+[2023-07-23 13:44:14] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Google-Ads-Transparency-Scraper-1.5.8.tar.gz tmp/Google-Ads-Transparency-Scraper-1.6.0.tar.gz --markdown 20230723/G/Google-Ads-Transparency-Scraper/1.5.8-1.6.0/diff.md --exclude *.pyd
+[2023-07-23 13:44:14] INFO root fetch - processPackages [SageLogger]: executing diffoscope
+[2023-07-23 13:44:14] INFO root fetch - processPackages [SageLogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SageLogger-1.3.1.tar.gz tmp/SageLogger-1.3.2.tar.gz --markdown 20230723/S/SageLogger/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-23 13:44:14] INFO root fetch - processPackages [reinforced-lib]: Downloading https://files.pythonhosted.org/packages/e1/fa/a41d0eea8dd336d0f9d1ab1be77e42bc049c1730392a6f8319604bfe8ad6/reinforced-lib-1.0.0.tar.gz
+[2023-07-23 13:44:14] INFO root fetch - processPackages [pciSeq]: executing diffoscope
+[2023-07-23 13:44:14] INFO root fetch - processPackages [pciSeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pciSeq-0.0.57.dev0-py3-none-any.whl.zip tmp/pciSeq-0.0.57.dev1-py3-none-any.whl.zip --markdown 20230723/p/pciSeq/0.0.57.dev0-0.0.57.dev1/diff.md --exclude *.pyd
+[2023-07-23 13:44:14] INFO root fetch - processPackages [reinforced-lib]: executing diffoscope
+[2023-07-23 13:44:14] INFO root fetch - processPackages [reinforced-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reinforced-lib-0.2.0.tar.gz tmp/reinforced-lib-1.0.0.tar.gz --markdown 20230723/r/reinforced-lib/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-23 13:44:15] INFO root fetch - processPackages [SageLogger]: Remove: archive file [/home/abi/fetcher/tmp/SageLogger-1.3.1.tar.gz]
+[2023-07-23 13:44:15] INFO root fetch - processPackages [SageLogger]: Remove: archive file [/home/abi/fetcher/tmp/SageLogger-1.3.2.tar.gz]
+[2023-07-23 13:44:15] INFO root fetch - main [MainThread]: End processing [SageLogger]: success
+[2023-07-23 13:44:15] INFO root fetch - processPackages [firefox-bookmarks]: Remove: archive file [/home/abi/fetcher/tmp/firefox_bookmarks-0.0.1.tar.gz]
+[2023-07-23 13:44:15] INFO root fetch - processPackages [firefox-bookmarks]: Remove: archive file [/home/abi/fetcher/tmp/firefox_bookmarks-0.1.0.tar.gz]
+[2023-07-23 13:44:15] INFO root fetch - main [MainThread]: End processing [firefox-bookmarks]: success
+[2023-07-23 13:44:15] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: Remove: archive file [/home/abi/fetcher/tmp/Google-Ads-Transparency-Scraper-1.5.8.tar.gz]
+[2023-07-23 13:44:15] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: Remove: archive file [/home/abi/fetcher/tmp/Google-Ads-Transparency-Scraper-1.6.0.tar.gz]
+[2023-07-23 13:44:15] INFO root fetch - main [MainThread]: End processing [Google-Ads-Transparency-Scraper]: success
+[2023-07-23 13:44:15] INFO root fetch - processPackages [reinforced-lib]: Remove: archive file [/home/abi/fetcher/tmp/reinforced-lib-0.2.0.tar.gz]
+[2023-07-23 13:44:15] INFO root fetch - processPackages [reinforced-lib]: Remove: archive file [/home/abi/fetcher/tmp/reinforced-lib-1.0.0.tar.gz]
+[2023-07-23 13:44:15] INFO root fetch - main [MainThread]: End processing [reinforced-lib]: success
+[2023-07-23 13:44:15] INFO root fetch - processPackages [pciSeq]: Remove: archive file [/home/abi/fetcher/tmp/pciSeq-0.0.57.dev0-py3-none-any.whl.zip]
+[2023-07-23 13:44:15] INFO root fetch - processPackages [pciSeq]: Remove: archive file [/home/abi/fetcher/tmp/pciSeq-0.0.57.dev1-py3-none-any.whl.zip]
+[2023-07-23 13:44:15] INFO root fetch - main [MainThread]: End processing [pciSeq]: success
+[2023-07-23 13:44:15] INFO root fetch - processPackages [pyquizrd]: Remove: archive file [/home/abi/fetcher/tmp/pyquizrd-0.1.3.tar.gz]
+[2023-07-23 13:44:15] INFO root fetch - processPackages [pyquizrd]: Remove: archive file [/home/abi/fetcher/tmp/pyquizrd-0.1.4.tar.gz]
+[2023-07-23 13:44:15] INFO root fetch - main [MainThread]: End processing [pyquizrd]: success
+[2023-07-23 13:44:15] INFO root fetch - main [MainThread]: Store serial: [19001234]
