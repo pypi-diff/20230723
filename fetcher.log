@@ -3496,3 +3496,51 @@
 [2023-07-23 06:36:56] INFO root fetch - processPackages [reddit-user-to-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/reddit_user_to_sqlite-0.4.2.tar.gz]
 [2023-07-23 06:36:56] INFO root fetch - main [MainThread]: End processing [reddit-user-to-sqlite]: success
 [2023-07-23 06:36:56] INFO root fetch - main [MainThread]: Store serial: [18999484]
+[2023-07-23 06:42:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999484]
+[2023-07-23 06:42:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-23 06:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reddit-user-to-sqlite
+[2023-07-23 06:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: colordemo
+[2023-07-23 06:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyfsd
+[2023-07-23 06:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: foliolib
+[2023-07-23 06:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tendril-interests
+[2023-07-23 06:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dynrender-skia
+[2023-07-23 06:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: drivecycle
+[2023-07-23 06:42:06] INFO root fetch - processPackages [foliolib]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-07-23 06:42:06] INFO root fetch - processPackages [reddit-user-to-sqlite]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-23 06:42:06] WARNING root fetch - processPackages [pyfsd]: Skipping, unable to determine old version
+[2023-07-23 06:42:06] INFO root fetch - main [MainThread]: End processing [pyfsd] error
+[2023-07-23 06:42:06] WARNING root fetch - processPackages [colordemo]: Skipping, unable to determine old version
+[2023-07-23 06:42:06] INFO root fetch - main [MainThread]: End processing [colordemo] error
+[2023-07-23 06:42:06] INFO root fetch - processPackages [dynrender-skia]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-07-23 06:42:06] WARNING root fetch - processPackages [drivecycle]: Skipping, unable to determine old version
+[2023-07-23 06:42:06] INFO root fetch - main [MainThread]: End processing [drivecycle] error
+[2023-07-23 06:42:06] INFO root fetch - processPackages [tendril-interests]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-23 06:42:06] INFO root fetch - processPackages [foliolib]: Downloading https://files.pythonhosted.org/packages/d7/ee/904ad102354a62d64d9bdab26d2f025ccea28bf6e2451c67bad88458737c/foliolib-0.3.9a1.tar.gz
+[2023-07-23 06:42:06] INFO root fetch - processPackages [reddit-user-to-sqlite]: Downloading https://files.pythonhosted.org/packages/1d/8f/dd547ab37ea201498ccb90d84efb63064ebdf43bf13db748265ff5d07837/reddit_user_to_sqlite-0.4.1.tar.gz
+[2023-07-23 06:42:06] INFO root fetch - processPackages [dynrender-skia]: Downloading https://files.pythonhosted.org/packages/a2/c7/3e13fe329e21c51408e78dac42de9725c79c73315cf45edbb3364488f255/dynrender_skia-0.1.0.tar.gz
+[2023-07-23 06:42:06] INFO root fetch - processPackages [tendril-interests]: Downloading https://files.pythonhosted.org/packages/69/3f/ab09f737843e9f73a7c01c1b80e52ec7171907753bb72d849b79b9a9d0f2/tendril-interests-0.2.8.tar.gz
+[2023-07-23 06:42:06] INFO root fetch - processPackages [foliolib]: Downloading https://files.pythonhosted.org/packages/94/e7/ba3d5ae91056aa4a8a64e3afa788d10b222ae0d38408aed4a425349d8b07/foliolib-0.3.9a2.tar.gz
+[2023-07-23 06:42:06] INFO root fetch - processPackages [reddit-user-to-sqlite]: Downloading https://files.pythonhosted.org/packages/b2/50/dd4e19068929cfa89cb48c4ff91d3016fecc0fb3003993332823ae0d21ae/reddit_user_to_sqlite-0.4.2.tar.gz
+[2023-07-23 06:42:06] INFO root fetch - processPackages [tendril-interests]: Downloading https://files.pythonhosted.org/packages/b1/cf/a585e684d2253d773a1451924c5aa64bec8a95b0d20d8ae1ec6d84633cd2/tendril-interests-0.2.9.tar.gz
+[2023-07-23 06:42:06] INFO root fetch - processPackages [dynrender-skia]: Downloading https://files.pythonhosted.org/packages/68/a9/33bfa4d34c90d5a3c56121683c357d993d41380554c029ae3a148860600c/dynrender_skia-0.1.2.tar.gz
+[2023-07-23 06:42:06] INFO root fetch - processPackages [foliolib]: executing diffoscope
+[2023-07-23 06:42:06] INFO root fetch - processPackages [foliolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foliolib-0.3.9a1.tar.gz tmp/foliolib-0.3.9a2.tar.gz --markdown 20230723/f/foliolib/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-07-23 06:42:06] INFO root fetch - processPackages [reddit-user-to-sqlite]: executing diffoscope
+[2023-07-23 06:42:06] INFO root fetch - processPackages [reddit-user-to-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reddit_user_to_sqlite-0.4.1.tar.gz tmp/reddit_user_to_sqlite-0.4.2.tar.gz --markdown 20230723/r/reddit-user-to-sqlite/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-23 06:42:06] INFO root fetch - processPackages [dynrender-skia]: executing diffoscope
+[2023-07-23 06:42:06] INFO root fetch - processPackages [dynrender-skia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynrender_skia-0.1.0.tar.gz tmp/dynrender_skia-0.1.2.tar.gz --markdown 20230723/d/dynrender-skia/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-07-23 06:42:07] INFO root fetch - processPackages [tendril-interests]: executing diffoscope
+[2023-07-23 06:42:07] INFO root fetch - processPackages [tendril-interests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-interests-0.2.8.tar.gz tmp/tendril-interests-0.2.9.tar.gz --markdown 20230723/t/tendril-interests/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-23 06:42:07] INFO root fetch - processPackages [reddit-user-to-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/reddit_user_to_sqlite-0.4.1.tar.gz]
+[2023-07-23 06:42:07] INFO root fetch - processPackages [reddit-user-to-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/reddit_user_to_sqlite-0.4.2.tar.gz]
+[2023-07-23 06:42:07] INFO root fetch - main [MainThread]: End processing [reddit-user-to-sqlite]: success
+[2023-07-23 06:42:07] INFO root fetch - processPackages [dynrender-skia]: Remove: archive file [/home/abi/fetcher/tmp/dynrender_skia-0.1.0.tar.gz]
+[2023-07-23 06:42:07] INFO root fetch - processPackages [dynrender-skia]: Remove: archive file [/home/abi/fetcher/tmp/dynrender_skia-0.1.2.tar.gz]
+[2023-07-23 06:42:07] INFO root fetch - main [MainThread]: End processing [dynrender-skia]: success
+[2023-07-23 06:42:07] INFO root fetch - processPackages [tendril-interests]: Remove: archive file [/home/abi/fetcher/tmp/tendril-interests-0.2.8.tar.gz]
+[2023-07-23 06:42:07] INFO root fetch - processPackages [tendril-interests]: Remove: archive file [/home/abi/fetcher/tmp/tendril-interests-0.2.9.tar.gz]
+[2023-07-23 06:42:07] INFO root fetch - main [MainThread]: End processing [tendril-interests]: success
+[2023-07-23 06:42:08] INFO root fetch - processPackages [foliolib]: Remove: archive file [/home/abi/fetcher/tmp/foliolib-0.3.9a1.tar.gz]
+[2023-07-23 06:42:08] INFO root fetch - processPackages [foliolib]: Remove: archive file [/home/abi/fetcher/tmp/foliolib-0.3.9a2.tar.gz]
+[2023-07-23 06:42:08] INFO root fetch - main [MainThread]: End processing [foliolib]: success
+[2023-07-23 06:42:08] INFO root fetch - main [MainThread]: Store serial: [18999508]
