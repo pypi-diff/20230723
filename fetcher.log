@@ -3213,3 +3213,36 @@
 [2023-07-23 06:10:58] WARNING root fetch - processPackages [MedicalImageConverter]: Skipping, unable to determine old version
 [2023-07-23 06:10:58] INFO root fetch - main [MainThread]: End processing [MedicalImageConverter] error
 [2023-07-23 06:10:58] INFO root fetch - main [MainThread]: Store serial: [18999398]
+[2023-07-23 06:16:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999398]
+[2023-07-23 06:16:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-23 06:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dash-solana-components
+[2023-07-23 06:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ece4078
+[2023-07-23 06:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hyfi-template
+[2023-07-23 06:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydnst
+[2023-07-23 06:16:08] INFO root fetch - processPackages [ece4078]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-23 06:16:08] INFO root fetch - processPackages [hyfi-template]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-23 06:16:08] INFO root fetch - processPackages [pydnst]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-23 06:16:08] WARNING root fetch - processPackages [dash-solana-components]: Skipping, unable to determine old version
+[2023-07-23 06:16:08] INFO root fetch - main [MainThread]: End processing [dash-solana-components] error
+[2023-07-23 06:16:08] INFO root fetch - processPackages [ece4078]: Downloading https://files.pythonhosted.org/packages/9b/49/5313b049c976b399c57652124034f01a1fc84e720263a39a697a54e2954b/ece4078-1.0.7.tar.gz
+[2023-07-23 06:16:08] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/34/7c/bb394341dbb31186ced62bb7f6f44854bcda47b6575aaa3b070248050cc7/hyfi_template-0.6.1.tar.gz
+[2023-07-23 06:16:08] INFO root fetch - processPackages [pydnst]: Downloading https://files.pythonhosted.org/packages/4e/4e/aeeba6a0b9def45e27dd4017b623423a6ce31fbaa41c5ca0ad000697ab81/pydnst-1.0.2.tar.gz
+[2023-07-23 06:16:08] INFO root fetch - processPackages [pydnst]: Downloading https://files.pythonhosted.org/packages/48/a9/90d29c1bf3e25172edffc117e4f030c220cc43bab409e38e00465dc09d02/pydnst-1.0.3.tar.gz
+[2023-07-23 06:16:08] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/09/d6/963189563216887497bd934c963ccafcae995a4c8e426d4826f99c45bbc5/hyfi_template-0.6.2.tar.gz
+[2023-07-23 06:16:08] INFO root fetch - processPackages [ece4078]: Downloading https://files.pythonhosted.org/packages/4f/fa/31b36cdf83502350044f10234dfb61698d8466bc52b27018864acb0570a6/ece4078-1.0.8.tar.gz
+[2023-07-23 06:16:08] INFO root fetch - processPackages [pydnst]: executing diffoscope
+[2023-07-23 06:16:08] INFO root fetch - processPackages [pydnst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydnst-1.0.2.tar.gz tmp/pydnst-1.0.3.tar.gz --markdown 20230723/p/pydnst/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-23 06:16:09] INFO root fetch - processPackages [hyfi-template]: executing diffoscope
+[2023-07-23 06:16:09] INFO root fetch - processPackages [hyfi-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi_template-0.6.1.tar.gz tmp/hyfi_template-0.6.2.tar.gz --markdown 20230723/h/hyfi-template/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-23 06:16:09] INFO root fetch - processPackages [ece4078]: executing diffoscope
+[2023-07-23 06:16:09] INFO root fetch - processPackages [ece4078]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ece4078-1.0.7.tar.gz tmp/ece4078-1.0.8.tar.gz --markdown 20230723/e/ece4078/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-23 06:16:09] INFO root fetch - processPackages [hyfi-template]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_template-0.6.1.tar.gz]
+[2023-07-23 06:16:09] INFO root fetch - processPackages [hyfi-template]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_template-0.6.2.tar.gz]
+[2023-07-23 06:16:09] INFO root fetch - main [MainThread]: End processing [hyfi-template]: success
+[2023-07-23 06:16:09] INFO root fetch - processPackages [pydnst]: Remove: archive file [/home/abi/fetcher/tmp/pydnst-1.0.2.tar.gz]
+[2023-07-23 06:16:09] INFO root fetch - processPackages [pydnst]: Remove: archive file [/home/abi/fetcher/tmp/pydnst-1.0.3.tar.gz]
+[2023-07-23 06:16:09] INFO root fetch - main [MainThread]: End processing [pydnst]: success
+[2023-07-23 06:16:09] INFO root fetch - processPackages [ece4078]: Remove: archive file [/home/abi/fetcher/tmp/ece4078-1.0.7.tar.gz]
+[2023-07-23 06:16:09] INFO root fetch - processPackages [ece4078]: Remove: archive file [/home/abi/fetcher/tmp/ece4078-1.0.8.tar.gz]
+[2023-07-23 06:16:09] INFO root fetch - main [MainThread]: End processing [ece4078]: success
+[2023-07-23 06:16:09] INFO root fetch - main [MainThread]: Store serial: [18999411]
