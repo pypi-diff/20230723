@@ -4110,3 +4110,30 @@
 [2023-07-23 08:01:04] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.3.1.tar.gz]
 [2023-07-23 08:01:04] INFO root fetch - main [MainThread]: End processing [apysc]: success
 [2023-07-23 08:01:04] INFO root fetch - main [MainThread]: Store serial: [18999778]
+[2023-07-23 08:06:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999778]
+[2023-07-23 08:06:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-23 08:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlglot
+[2023-07-23 08:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plutous-trade-crypto
+[2023-07-23 08:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onnxstream
+[2023-07-23 08:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: figh
+[2023-07-23 08:06:12] WARNING root fetch - processPackages [figh]: Skipping, unable to determine old version
+[2023-07-23 08:06:12] INFO root fetch - main [MainThread]: End processing [figh] error
+[2023-07-23 08:06:12] WARNING root fetch - processPackages [onnxstream]: Skipping, unable to determine old version
+[2023-07-23 08:06:12] INFO root fetch - main [MainThread]: End processing [onnxstream] error
+[2023-07-23 08:06:12] INFO root fetch - processPackages [plutous-trade-crypto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 08:06:13] INFO root fetch - processPackages [sqlglot]: New version: [9.0.6] Old Version: [9.0.5]
+[2023-07-23 08:06:13] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/e3/db/d32a1544d7f944ad8af411383551ea4aa42adfdd0f238ff44a5a3edaa00e/plutous_trade_crypto-0.0.8.tar.gz
+[2023-07-23 08:06:13] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/20/6b/5034324cd2ac42831b5103037f6a14e518172128c4196b8d01b93dcc76c8/sqlglot-9.0.5.tar.gz
+[2023-07-23 08:06:13] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/b4/a4/200ca398a36203e8bd51a034e50c51963506316cbf5e7a47866700accaee/plutous_trade_crypto-0.0.9.tar.gz
+[2023-07-23 08:06:13] INFO root fetch - processPackages [plutous-trade-crypto]: executing diffoscope
+[2023-07-23 08:06:13] INFO root fetch - processPackages [plutous-trade-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous_trade_crypto-0.0.8.tar.gz tmp/plutous_trade_crypto-0.0.9.tar.gz --markdown 20230723/p/plutous-trade-crypto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 08:06:13] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/36/2a/e7389a112e1a7cfd1fcc7c7209a0f8f5ffe905ce8aad03f447367dc9b209/sqlglot-9.0.6.tar.gz
+[2023-07-23 08:06:13] INFO root fetch - processPackages [sqlglot]: executing diffoscope
+[2023-07-23 08:06:13] INFO root fetch - processPackages [sqlglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlglot-9.0.5.tar.gz tmp/sqlglot-9.0.6.tar.gz --markdown 20230723/s/sqlglot/9.0.5-9.0.6/diff.md --exclude *.pyd
+[2023-07-23 08:06:14] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.8.tar.gz]
+[2023-07-23 08:06:14] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.9.tar.gz]
+[2023-07-23 08:06:14] INFO root fetch - main [MainThread]: End processing [plutous-trade-crypto]: success
+[2023-07-23 08:06:14] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.5.tar.gz]
+[2023-07-23 08:06:14] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.6.tar.gz]
+[2023-07-23 08:06:14] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
+[2023-07-23 08:06:14] INFO root fetch - main [MainThread]: Store serial: [18999793]
