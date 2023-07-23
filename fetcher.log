@@ -15073,3 +15073,95 @@ AssertionError: tmp/chromedriver_auto-0.0.4.tar.gz does not exist
 [2023-07-23 22:48:51] INFO root fetch - processPackages [shimpy]: Remove: archive file [/home/abi/fetcher/tmp/shimpy-0.0.2.tar.gz]
 [2023-07-23 22:48:51] INFO root fetch - main [MainThread]: End processing [shimpy]: success
 [2023-07-23 22:48:51] INFO root fetch - main [MainThread]: Store serial: [19004785]
+[2023-07-23 22:53:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19004785]
+[2023-07-23 22:54:00] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-23 22:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: diagrams-yaml
+[2023-07-23 22:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: able-recipe
+[2023-07-23 22:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zomboid-rcon
+[2023-07-23 22:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: docker-harbormaster
+[2023-07-23 22:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rec-spotify
+[2023-07-23 22:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: photondemo
+[2023-07-23 22:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mynacode
+[2023-07-23 22:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: finemotion
+[2023-07-23 22:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mynacode
+[2023-07-23 22:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mynacode
+[2023-07-23 22:54:00] INFO root fetch - processPackages [able-recipe]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-23 22:54:00] INFO root fetch - processPackages [docker-harbormaster]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-23 22:54:00] INFO root fetch - processPackages [zomboid-rcon]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-07-23 22:54:00] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-23 22:54:00] INFO root fetch - processPackages [rec-spotify]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-23 22:54:00] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-23 22:54:00] INFO root fetch - processPackages [diagrams-yaml]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 22:54:00] INFO root fetch - processPackages [photondemo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 22:54:00] WARNING root fetch - processPackages [finemotion]: Skipping, unable to determine old version
+[2023-07-23 22:54:00] INFO root fetch - processPackages [finemotion]: Start processing: temp-api
+[2023-07-23 22:54:00] INFO root fetch - main [MainThread]: End processing [finemotion] error
+[2023-07-23 22:54:00] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-23 22:54:00] INFO root fetch - processPackages [docker-harbormaster]: Downloading https://files.pythonhosted.org/packages/92/fa/f05a5c0c44d1432da0d68613d47bd2ff60629e70a7f42102972474f9abc3/docker_harbormaster-0.3.1.tar.gz
+[2023-07-23 22:54:00] INFO root fetch - processPackages [temp-api]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-23 22:54:00] INFO root fetch - processPackages [diagrams-yaml]: Downloading https://files.pythonhosted.org/packages/c4/ea/5e3b353c67fc4618ed5054b9bc3073d07b8547eb862e2c569d1bac930bc1/diagrams-yaml-0.0.8.tar.gz
+[2023-07-23 22:54:00] INFO root fetch - processPackages [able-recipe]: Downloading https://files.pythonhosted.org/packages/4a/98/6bfafe815b01af4570ceac3d22e226f4135c3f28bf76917afad5b17a2378/able_recipe-1.0.8.tar.gz
+[2023-07-23 22:54:00] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-23 22:54:00] INFO root fetch - processPackages [zomboid-rcon]: Downloading https://files.pythonhosted.org/packages/2c/0c/23fb90079b7b3059811be6628970bef6079133b9c608d6552dcb7ddf4792/zomboid_rcon-1.0.0.tar.gz
+[2023-07-23 22:54:00] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-23 22:54:00] INFO root fetch - processPackages [rec-spotify]: Downloading https://files.pythonhosted.org/packages/74/9c/50aec6b628f781c19aa8da092cc90d3eb09ab992778817fa0dcf20436c6a/rec_spotify-1.2.1.tar.gz
+[2023-07-23 22:54:00] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-23 22:54:00] INFO root fetch - processPackages [photondemo]: Downloading https://files.pythonhosted.org/packages/0a/6d/7932cd610a0541b76d781bb7f7bdd31d7a2f5dd2384d1eac4c2f87af88f3/photondemo-0.0.8.tar.gz
+[2023-07-23 22:54:00] INFO root fetch - processPackages [temp-api]: Downloading https://files.pythonhosted.org/packages/71/a3/fa0a5ea395338d7a531f01dd7d072aa9da23b3311686fba17669b8aae521/temp_api-0.1.0.tar.gz
+[2023-07-23 22:54:01] INFO root fetch - processPackages [diagrams-yaml]: Downloading https://files.pythonhosted.org/packages/00/0e/19a99adef69387beff8673a0f28ecb82c54badf65941129492ba3ae7c0ac/diagrams-yaml-0.0.9.tar.gz
+[2023-07-23 22:54:01] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-23 22:54:01] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-23 22:54:01] INFO root fetch - processPackages [docker-harbormaster]: Downloading https://files.pythonhosted.org/packages/88/55/f49268964f55559b0c8fcfd1b87ae70bd80510ec11893d2d7d6ddc6ccece/docker_harbormaster-0.3.2.tar.gz
+[2023-07-23 22:54:01] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-23 22:54:01] INFO root fetch - processPackages [able-recipe]: Downloading https://files.pythonhosted.org/packages/c6/a2/89fecb575fa9f87f080d1070437fb8570a3acb72faca18cd828c7967b06f/able_recipe-1.0.9.tar.gz
+[2023-07-23 22:54:01] INFO root fetch - processPackages [diagrams-yaml]: executing diffoscope
+[2023-07-23 22:54:01] INFO root fetch - processPackages [diagrams-yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diagrams-yaml-0.0.8.tar.gz tmp/diagrams-yaml-0.0.9.tar.gz --markdown 20230723/d/diagrams-yaml/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 22:54:01] INFO root fetch - processPackages [photondemo]: Downloading https://files.pythonhosted.org/packages/2f/9e/40812f7ad1e8f5454f4c951d1ed05c6cb8c153661e3ca9c0592c6603a2e0/photondemo-0.0.9.tar.gz
+[2023-07-23 22:54:01] INFO root fetch - processPackages [rec-spotify]: Downloading https://files.pythonhosted.org/packages/d7/3e/9fd414ba6e76c5f0a0a5831609d212c7d3c55e458b5734bde6151af84c9b/rec_spotify-1.2.2.tar.gz
+[2023-07-23 22:54:01] INFO root fetch - processPackages [zomboid-rcon]: Downloading https://files.pythonhosted.org/packages/03/8f/23e7dd26eb12126ced113c6e090538340cf74e8d826caaddf4f0e1cf3f8a/zomboid_rcon-1.0.2.tar.gz
+[2023-07-23 22:54:01] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-23 22:54:01] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230723/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-23 22:54:01] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-23 22:54:01] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230723/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-23 22:54:01] INFO root fetch - processPackages [docker-harbormaster]: executing diffoscope
+[2023-07-23 22:54:01] INFO root fetch - processPackages [docker-harbormaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker_harbormaster-0.3.1.tar.gz tmp/docker_harbormaster-0.3.2.tar.gz --markdown 20230723/d/docker-harbormaster/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-23 22:54:01] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-23 22:54:01] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230723/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-23 22:54:01] INFO root fetch - processPackages [temp-api]: Downloading https://files.pythonhosted.org/packages/c8/0d/c145d39719dc1624bac3f19f4bc1ab27184ada4f284bf1c803b81d3354cd/temp_api-0.1.1.tar.gz
+[2023-07-23 22:54:01] INFO root fetch - processPackages [able-recipe]: executing diffoscope
+[2023-07-23 22:54:01] INFO root fetch - processPackages [able-recipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/able_recipe-1.0.8.tar.gz tmp/able_recipe-1.0.9.tar.gz --markdown 20230723/a/able-recipe/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-23 22:54:01] INFO root fetch - processPackages [photondemo]: executing diffoscope
+[2023-07-23 22:54:01] INFO root fetch - processPackages [photondemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/photondemo-0.0.8.tar.gz tmp/photondemo-0.0.9.tar.gz --markdown 20230723/p/photondemo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 22:54:01] INFO root fetch - processPackages [zomboid-rcon]: executing diffoscope
+[2023-07-23 22:54:01] INFO root fetch - processPackages [zomboid-rcon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zomboid_rcon-1.0.0.tar.gz tmp/zomboid_rcon-1.0.2.tar.gz --markdown 20230723/z/zomboid-rcon/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-07-23 22:54:01] INFO root fetch - processPackages [rec-spotify]: executing diffoscope
+[2023-07-23 22:54:01] INFO root fetch - processPackages [rec-spotify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rec_spotify-1.2.1.tar.gz tmp/rec_spotify-1.2.2.tar.gz --markdown 20230723/r/rec-spotify/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-23 22:54:01] INFO root fetch - processPackages [temp-api]: executing diffoscope
+[2023-07-23 22:54:01] INFO root fetch - processPackages [temp-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/temp_api-0.1.0.tar.gz tmp/temp_api-0.1.1.tar.gz --markdown 20230723/t/temp-api/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-23 22:54:02] INFO root fetch - processPackages [diagrams-yaml]: Remove: archive file [/home/abi/fetcher/tmp/diagrams-yaml-0.0.8.tar.gz]
+[2023-07-23 22:54:02] INFO root fetch - processPackages [diagrams-yaml]: Remove: archive file [/home/abi/fetcher/tmp/diagrams-yaml-0.0.9.tar.gz]
+[2023-07-23 22:54:02] INFO root fetch - main [MainThread]: End processing [diagrams-yaml]: success
+[2023-07-23 22:54:03] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-07-23 22:54:03] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-07-23 22:54:03] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-23 22:54:03] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-23 22:54:03] INFO root fetch - processPackages [docker-harbormaster]: Remove: archive file [/home/abi/fetcher/tmp/docker_harbormaster-0.3.1.tar.gz]
+[2023-07-23 22:54:03] INFO root fetch - processPackages [docker-harbormaster]: Remove: archive file [/home/abi/fetcher/tmp/docker_harbormaster-0.3.2.tar.gz]
+[2023-07-23 22:54:03] INFO root fetch - main [MainThread]: End processing [docker-harbormaster]: success
+[2023-07-23 22:54:03] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-23 22:54:03] INFO root fetch - processPackages [temp-api]: Remove: archive file [/home/abi/fetcher/tmp/temp_api-0.1.0.tar.gz]
+[2023-07-23 22:54:03] INFO root fetch - processPackages [temp-api]: Remove: archive file [/home/abi/fetcher/tmp/temp_api-0.1.1.tar.gz]
+[2023-07-23 22:54:03] INFO root fetch - main [MainThread]: End processing [temp-api]: success
+[2023-07-23 22:54:03] INFO root fetch - processPackages [photondemo]: Remove: archive file [/home/abi/fetcher/tmp/photondemo-0.0.8.tar.gz]
+[2023-07-23 22:54:03] INFO root fetch - processPackages [photondemo]: Remove: archive file [/home/abi/fetcher/tmp/photondemo-0.0.9.tar.gz]
+[2023-07-23 22:54:03] INFO root fetch - main [MainThread]: End processing [photondemo]: success
+[2023-07-23 22:54:03] INFO root fetch - processPackages [able-recipe]: Remove: archive file [/home/abi/fetcher/tmp/able_recipe-1.0.8.tar.gz]
+[2023-07-23 22:54:03] INFO root fetch - processPackages [able-recipe]: Remove: archive file [/home/abi/fetcher/tmp/able_recipe-1.0.9.tar.gz]
+[2023-07-23 22:54:03] INFO root fetch - main [MainThread]: End processing [able-recipe]: success
+[2023-07-23 22:54:03] INFO root fetch - processPackages [zomboid-rcon]: Remove: archive file [/home/abi/fetcher/tmp/zomboid_rcon-1.0.0.tar.gz]
+[2023-07-23 22:54:03] INFO root fetch - processPackages [zomboid-rcon]: Remove: archive file [/home/abi/fetcher/tmp/zomboid_rcon-1.0.2.tar.gz]
+[2023-07-23 22:54:03] INFO root fetch - main [MainThread]: End processing [zomboid-rcon]: success
+[2023-07-23 22:54:03] INFO root fetch - processPackages [rec-spotify]: Remove: archive file [/home/abi/fetcher/tmp/rec_spotify-1.2.1.tar.gz]
+[2023-07-23 22:54:03] INFO root fetch - processPackages [rec-spotify]: Remove: archive file [/home/abi/fetcher/tmp/rec_spotify-1.2.2.tar.gz]
+[2023-07-23 22:54:03] INFO root fetch - main [MainThread]: End processing [rec-spotify]: success
+[2023-07-23 22:54:03] INFO root fetch - main [MainThread]: Store serial: [19004814]
