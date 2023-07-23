@@ -11544,3 +11544,95 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 18:45:26] INFO root fetch - processPackages [zzq-string-sum]: Remove: archive file [/home/abi/fetcher/tmp/zzq_string_sum-0.4.0-cp312-cp312-manylinux_2_12_i686.manylinux2010_i686.whl.zip]
 [2023-07-23 18:45:26] INFO root fetch - main [MainThread]: End processing [zzq-string-sum]: success
 [2023-07-23 18:45:26] INFO root fetch - main [MainThread]: Store serial: [19003338]
+[2023-07-23 18:50:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19003338]
+[2023-07-23 18:50:34] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-23 18:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stc-geck
+[2023-07-23 18:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: database-without-orm-local
+[2023-07-23 18:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graal
+[2023-07-23 18:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vocalhost
+[2023-07-23 18:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: localeet
+[2023-07-23 18:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pygame-ui-controls
+[2023-07-23 18:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MedicalImageConverter
+[2023-07-23 18:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: taskiq
+[2023-07-23 18:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Flask-SQL-Pro
+[2023-07-23 18:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gigagan-pytorch
+[2023-07-23 18:50:35] INFO root fetch - processPackages [Flask-SQL-Pro]: New version: [3.2] Old Version: [3.1]
+[2023-07-23 18:50:35] INFO root fetch - processPackages [pygame-ui-controls]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-23 18:50:35] INFO root fetch - processPackages [database-without-orm-local]: New version: [0.0.18] Old Version: [0.0.17]
+[2023-07-23 18:50:35] INFO root fetch - processPackages [localeet]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-23 18:50:35] INFO root fetch - processPackages [stc-geck]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-23 18:50:35] INFO root fetch - processPackages [vocalhost]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-07-23 18:50:35] INFO root fetch - processPackages [MedicalImageConverter]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-23 18:50:35] INFO root fetch - processPackages [taskiq]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-07-23 18:50:35] INFO root fetch - processPackages [graal]: New version: [0.4.9rc1] Old Version: [0.4.9]
+[2023-07-23 18:50:35] INFO root fetch - processPackages [gigagan-pytorch]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-23 18:50:35] INFO root fetch - processPackages [Flask-SQL-Pro]: Downloading https://files.pythonhosted.org/packages/d3/9c/d27cd27c3e2f6a985bd5e9506fefa5cdaa45e2a3424a298a9d03fd19a2e7/Flask-SQL-Pro-3.1.tar.gz
+[2023-07-23 18:50:35] INFO root fetch - processPackages [localeet]: Downloading https://files.pythonhosted.org/packages/ad/07/97ca5ab5f9115c74c5844c1d2b64147cb897eb3e1e012b7305f3b03215ed/localeet-0.0.3.tar.gz
+[2023-07-23 18:50:35] INFO root fetch - processPackages [pygame-ui-controls]: Downloading https://files.pythonhosted.org/packages/28/66/451e22d212909bda21ba56376c33766b846af4abbed365d25ea05f646c93/pygame_ui_controls-1.1.2-py3-none-any.whl
+[2023-07-23 18:50:35] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/be/b0/4d464405e8b805823829907ca5b9cc50aac0dca80644c3147d4146d45ecb/gigagan-pytorch-0.1.9.tar.gz
+[2023-07-23 18:50:35] INFO root fetch - processPackages [MedicalImageConverter]: Downloading https://files.pythonhosted.org/packages/8f/27/fe3aa4ff91bae46e2d2ece7c8933f695a137f3a68b90f6133fd340c0f290/MedicalImageConverter-1.0.2.tar.gz
+[2023-07-23 18:50:35] INFO root fetch - processPackages [database-without-orm-local]: Downloading https://files.pythonhosted.org/packages/81/fc/7f3eed65475bc071506c92f8c612a1fb43975f5144cb0f06a11c0e311648/database-without-orm-local-0.0.17.tar.gz
+[2023-07-23 18:50:35] INFO root fetch - processPackages [stc-geck]: Downloading https://files.pythonhosted.org/packages/36/0e/29359562bbdf1bfc27e8cea1d558d51fb1655200c18c88e49f849c005074/stc-geck-1.3.2.tar.gz
+[2023-07-23 18:50:35] INFO root fetch - processPackages [graal]: Downloading https://files.pythonhosted.org/packages/28/71/99ec2531294b878cbfa9cb41e308c5db4437123469a73bfa1b5913989405/graal-0.4.9.tar.gz
+[2023-07-23 18:50:35] INFO root fetch - processPackages [taskiq]: Downloading https://files.pythonhosted.org/packages/df/50/284498203e6b39022bddfad2e026003ba3bd1ae2e13ece1cff664ec35863/taskiq-0.8.5.tar.gz
+[2023-07-23 18:50:35] INFO root fetch - processPackages [vocalhost]: Downloading https://files.pythonhosted.org/packages/8c/a9/069a194edbc8d8fd98740fdd12a6beab86226d23c346339796dbc0ee0e3a/vocalhost-1.1.8.tar.gz
+[2023-07-23 18:50:35] INFO root fetch - processPackages [Flask-SQL-Pro]: Downloading https://files.pythonhosted.org/packages/ba/72/2556daf9f170bc5e3e7666975dea106e413c71c0e0147db3ec20a49453a2/Flask-SQL-Pro-3.2.tar.gz
+[2023-07-23 18:50:36] INFO root fetch - processPackages [localeet]: Downloading https://files.pythonhosted.org/packages/d5/b1/4b8a39124d6259a29135d2c41969f3caf04802df053b1b934e97e8fee515/localeet-0.0.4.tar.gz
+[2023-07-23 18:50:36] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/d4/f6/79e661dbaf1c76dc91c8166484a16ec5414f4dee504de4f943617dce13cc/gigagan-pytorch-0.2.0.tar.gz
+[2023-07-23 18:50:36] INFO root fetch - processPackages [pygame-ui-controls]: Downloading https://files.pythonhosted.org/packages/e6/6e/220b249e501fb167a01284e91db19fc7a5bd4f1de7380719c3ce45b9549d/pygame_ui_controls-1.1.3-py3-none-any.whl
+[2023-07-23 18:50:36] INFO root fetch - processPackages [vocalhost]: executing diffoscope
+[2023-07-23 18:50:36] INFO root fetch - processPackages [vocalhost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vocalhost-1.1.7.tar.gz tmp/vocalhost-1.1.8.tar.gz --markdown 20230723/v/vocalhost/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-07-23 18:50:36] INFO root fetch - processPackages [database-without-orm-local]: Downloading https://files.pythonhosted.org/packages/ce/6a/52c7f8b7eaf226882ed2ae1b3385b02ce41c0c0d8db89dff69ead8b4b088/database-without-orm-local-0.0.18.tar.gz
+[2023-07-23 18:50:36] INFO root fetch - processPackages [MedicalImageConverter]: Downloading https://files.pythonhosted.org/packages/96/e7/3dc005d6ff6a72ed70243f63adcdef586e98ad28637983ec3f051bb57288/MedicalImageConverter-1.0.3.tar.gz
+[2023-07-23 18:50:36] INFO root fetch - processPackages [stc-geck]: Downloading https://files.pythonhosted.org/packages/11/31/fb29a749294481f15e76ce1fd32d3a2b91f45ca109680c75ea8370d608a9/stc-geck-1.3.3.tar.gz
+[2023-07-23 18:50:36] INFO root fetch - processPackages [localeet]: executing diffoscope
+[2023-07-23 18:50:36] INFO root fetch - processPackages [localeet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localeet-0.0.3.tar.gz tmp/localeet-0.0.4.tar.gz --markdown 20230723/l/localeet/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-23 18:50:36] INFO root fetch - processPackages [taskiq]: Downloading https://files.pythonhosted.org/packages/cf/15/3bfecc9795d29eee9c5d7b0d0871b8626d38f2639ff6bc79e1b29b744ae2/taskiq-0.8.6.tar.gz
+[2023-07-23 18:50:36] INFO root fetch - processPackages [pygame-ui-controls]: executing diffoscope
+[2023-07-23 18:50:36] INFO root fetch - processPackages [pygame-ui-controls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygame_ui_controls-1.1.2-py3-none-any.whl.zip tmp/pygame_ui_controls-1.1.3-py3-none-any.whl.zip --markdown 20230723/p/pygame-ui-controls/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-23 18:50:36] INFO root fetch - processPackages [Flask-SQL-Pro]: executing diffoscope
+[2023-07-23 18:50:36] INFO root fetch - processPackages [Flask-SQL-Pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-SQL-Pro-3.1.tar.gz tmp/Flask-SQL-Pro-3.2.tar.gz --markdown 20230723/F/Flask-SQL-Pro/3.1-3.2/diff.md --exclude *.pyd
+[2023-07-23 18:50:36] INFO root fetch - processPackages [gigagan-pytorch]: executing diffoscope
+[2023-07-23 18:50:36] INFO root fetch - processPackages [gigagan-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigagan-pytorch-0.1.9.tar.gz tmp/gigagan-pytorch-0.2.0.tar.gz --markdown 20230723/g/gigagan-pytorch/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-23 18:50:36] INFO root fetch - processPackages [database-without-orm-local]: executing diffoscope
+[2023-07-23 18:50:36] INFO root fetch - processPackages [database-without-orm-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database-without-orm-local-0.0.17.tar.gz tmp/database-without-orm-local-0.0.18.tar.gz --markdown 20230723/d/database-without-orm-local/0.0.17-0.0.18/diff.md --exclude *.pyd
+[2023-07-23 18:50:36] INFO root fetch - processPackages [MedicalImageConverter]: executing diffoscope
+[2023-07-23 18:50:36] INFO root fetch - processPackages [MedicalImageConverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MedicalImageConverter-1.0.2.tar.gz tmp/MedicalImageConverter-1.0.3.tar.gz --markdown 20230723/M/MedicalImageConverter/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-23 18:50:36] INFO root fetch - processPackages [stc-geck]: executing diffoscope
+[2023-07-23 18:50:36] INFO root fetch - processPackages [stc-geck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stc-geck-1.3.2.tar.gz tmp/stc-geck-1.3.3.tar.gz --markdown 20230723/s/stc-geck/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-23 18:50:36] INFO root fetch - processPackages [taskiq]: executing diffoscope
+[2023-07-23 18:50:36] INFO root fetch - processPackages [taskiq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskiq-0.8.5.tar.gz tmp/taskiq-0.8.6.tar.gz --markdown 20230723/t/taskiq/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-07-23 18:50:36] INFO root fetch - processPackages [graal]: Downloading https://files.pythonhosted.org/packages/e0/70/db6f659a9b5bd80d414a88a02c4ad9e8c2c86ce6917625ce6034a2ed0a4c/graal-0.4.9rc1.tar.gz
+[2023-07-23 18:50:36] INFO root fetch - processPackages [graal]: executing diffoscope
+[2023-07-23 18:50:36] INFO root fetch - processPackages [graal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graal-0.4.9.tar.gz tmp/graal-0.4.9rc1.tar.gz --markdown 20230723/g/graal/0.4.9-0.4.9rc1/diff.md --exclude *.pyd
+[2023-07-23 18:50:37] INFO root fetch - processPackages [vocalhost]: Remove: archive file [/home/abi/fetcher/tmp/vocalhost-1.1.7.tar.gz]
+[2023-07-23 18:50:37] INFO root fetch - processPackages [vocalhost]: Remove: archive file [/home/abi/fetcher/tmp/vocalhost-1.1.8.tar.gz]
+[2023-07-23 18:50:37] INFO root fetch - main [MainThread]: End processing [vocalhost]: success
+[2023-07-23 18:50:37] INFO root fetch - processPackages [localeet]: Remove: archive file [/home/abi/fetcher/tmp/localeet-0.0.3.tar.gz]
+[2023-07-23 18:50:37] INFO root fetch - processPackages [localeet]: Remove: archive file [/home/abi/fetcher/tmp/localeet-0.0.4.tar.gz]
+[2023-07-23 18:50:37] INFO root fetch - main [MainThread]: End processing [localeet]: success
+[2023-07-23 18:50:37] INFO root fetch - processPackages [Flask-SQL-Pro]: Remove: archive file [/home/abi/fetcher/tmp/Flask-SQL-Pro-3.1.tar.gz]
+[2023-07-23 18:50:37] INFO root fetch - processPackages [Flask-SQL-Pro]: Remove: archive file [/home/abi/fetcher/tmp/Flask-SQL-Pro-3.2.tar.gz]
+[2023-07-23 18:50:37] INFO root fetch - main [MainThread]: End processing [Flask-SQL-Pro]: success
+[2023-07-23 18:50:37] INFO root fetch - processPackages [MedicalImageConverter]: Remove: archive file [/home/abi/fetcher/tmp/MedicalImageConverter-1.0.2.tar.gz]
+[2023-07-23 18:50:37] INFO root fetch - processPackages [MedicalImageConverter]: Remove: archive file [/home/abi/fetcher/tmp/MedicalImageConverter-1.0.3.tar.gz]
+[2023-07-23 18:50:37] INFO root fetch - main [MainThread]: End processing [MedicalImageConverter]: success
+[2023-07-23 18:50:37] INFO root fetch - processPackages [pygame-ui-controls]: Remove: archive file [/home/abi/fetcher/tmp/pygame_ui_controls-1.1.2-py3-none-any.whl.zip]
+[2023-07-23 18:50:37] INFO root fetch - processPackages [pygame-ui-controls]: Remove: archive file [/home/abi/fetcher/tmp/pygame_ui_controls-1.1.3-py3-none-any.whl.zip]
+[2023-07-23 18:50:37] INFO root fetch - main [MainThread]: End processing [pygame-ui-controls]: success
+[2023-07-23 18:50:37] INFO root fetch - processPackages [stc-geck]: Remove: archive file [/home/abi/fetcher/tmp/stc-geck-1.3.2.tar.gz]
+[2023-07-23 18:50:37] INFO root fetch - processPackages [stc-geck]: Remove: archive file [/home/abi/fetcher/tmp/stc-geck-1.3.3.tar.gz]
+[2023-07-23 18:50:37] INFO root fetch - main [MainThread]: End processing [stc-geck]: success
+[2023-07-23 18:50:37] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.1.9.tar.gz]
+[2023-07-23 18:50:37] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.2.0.tar.gz]
+[2023-07-23 18:50:37] INFO root fetch - main [MainThread]: End processing [gigagan-pytorch]: success
+[2023-07-23 18:50:38] INFO root fetch - processPackages [taskiq]: Remove: archive file [/home/abi/fetcher/tmp/taskiq-0.8.5.tar.gz]
+[2023-07-23 18:50:38] INFO root fetch - processPackages [taskiq]: Remove: archive file [/home/abi/fetcher/tmp/taskiq-0.8.6.tar.gz]
+[2023-07-23 18:50:38] INFO root fetch - main [MainThread]: End processing [taskiq]: success
+[2023-07-23 18:50:38] INFO root fetch - processPackages [database-without-orm-local]: Remove: archive file [/home/abi/fetcher/tmp/database-without-orm-local-0.0.17.tar.gz]
+[2023-07-23 18:50:38] INFO root fetch - processPackages [database-without-orm-local]: Remove: archive file [/home/abi/fetcher/tmp/database-without-orm-local-0.0.18.tar.gz]
+[2023-07-23 18:50:38] INFO root fetch - main [MainThread]: End processing [database-without-orm-local]: success
+[2023-07-23 18:50:38] INFO root fetch - processPackages [graal]: Remove: archive file [/home/abi/fetcher/tmp/graal-0.4.9.tar.gz]
+[2023-07-23 18:50:38] INFO root fetch - processPackages [graal]: Remove: archive file [/home/abi/fetcher/tmp/graal-0.4.9rc1.tar.gz]
+[2023-07-23 18:50:38] INFO root fetch - main [MainThread]: End processing [graal]: success
+[2023-07-23 18:50:38] INFO root fetch - main [MainThread]: Store serial: [19003409]
