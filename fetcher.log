@@ -3667,3 +3667,81 @@
 [2023-07-23 07:02:49] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.7.tar.gz]
 [2023-07-23 07:02:49] INFO root fetch - main [MainThread]: End processing [tablate]: success
 [2023-07-23 07:02:49] INFO root fetch - main [MainThread]: Store serial: [18999560]
+[2023-07-23 07:07:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999560]
+[2023-07-23 07:07:59] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-23 07:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: multiprocess
+[2023-07-23 07:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plaso
+[2023-07-23 07:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: localstack-core
+[2023-07-23 07:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rapid-pe
+[2023-07-23 07:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pg-alchemy-kit
+[2023-07-23 07:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: krakenci-client
+[2023-07-23 07:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: krakenci-server
+[2023-07-23 07:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: UploadHub
+[2023-07-23 07:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dask-cuda
+[2023-07-23 07:07:59] INFO root fetch - processPackages [plaso]: New version: [20230717] Old Version: [20230311]
+[2023-07-23 07:07:59] INFO root fetch - processPackages [multiprocess]: New version: [0.70.9] Old Version: [0.70.8]
+[2023-07-23 07:07:59] WARNING root fetch - processPackages [UploadHub]: Skipping, unable to determine old version
+[2023-07-23 07:07:59] INFO root fetch - main [MainThread]: End processing [UploadHub] error
+[2023-07-23 07:07:59] INFO root fetch - processPackages [pg-alchemy-kit]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-23 07:07:59] INFO root fetch - processPackages [krakenci-client]: New version: [1.3.25] Old Version: [1.3.24]
+[2023-07-23 07:07:59] INFO root fetch - processPackages [krakenci-server]: New version: [1.3.25] Old Version: [1.2.2]
+[2023-07-23 07:07:59] INFO root fetch - processPackages [localstack-core]: New version: [2.2.1.dev20230723050442] Old Version: [2.2.1.dev20230721131140]
+[2023-07-23 07:07:59] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230723] Old Version: [0.1.1.dev20230722]
+[2023-07-23 07:07:59] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230723] Old Version: [23.8.0a230722]
+[2023-07-23 07:07:59] INFO root fetch - processPackages [pg-alchemy-kit]: Downloading https://files.pythonhosted.org/packages/99/01/1b1023809cb8d6c3d1739a7a6f6746a488b3c30d523296fe3634afc70607/pg_alchemy_kit-0.1.1.tar.gz
+[2023-07-23 07:07:59] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/33/89/409ff23af13c3efabda82d4fc433b305979b26d5e5adcd4c57396977431c/rapid_pe-0.1.1.dev20230722.tar.gz
+[2023-07-23 07:07:59] INFO root fetch - processPackages [plaso]: Downloading https://files.pythonhosted.org/packages/52/6c/a2a9d79a9cbdc0bd2592febed1566f99e327fa0f0083d113d1c3046bf2e2/plaso-20230311.tar.gz
+[2023-07-23 07:07:59] INFO root fetch - processPackages [multiprocess]: Downloading https://files.pythonhosted.org/packages/50/40/b23b1ddd3cb0e072fdbec5f458e8369df48643a3b04dfb55365a63a51687/multiprocess-0.70.8.tar.gz
+[2023-07-23 07:07:59] INFO root fetch - processPackages [krakenci-client]: Downloading https://files.pythonhosted.org/packages/1b/a8/93a2c71e0e1ebc9e120529bd130aa44e138bb43fe2f6a14e89703759b9ee/krakenci_client-1.3.24.tar.gz
+[2023-07-23 07:07:59] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/58/5a/db5dec9b4538adc6792af82b0ba18c159e21db0acbffe937ee65e74c206a/localstack-core-2.2.1.dev20230721131140.tar.gz
+[2023-07-23 07:07:59] INFO root fetch - processPackages [krakenci-server]: Downloading https://files.pythonhosted.org/packages/92/e2/b01a017283d47b65bc05dde7957e07633a36f6a9224e87f6b93a523ecda3/krakenci_server-1.2.2.tar.gz
+[2023-07-23 07:07:59] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/ec/3e/bd37298cc36395506c92214be8af555545ed0ab3aa08db02877ccb5c9af1/dask-cuda-23.8.0a230722.tar.gz
+[2023-07-23 07:08:00] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/2c/5c/26edd3bd364690d4458d8a590b5965cc444afd0fa47d7c422544bde9b373/rapid_pe-0.1.1.dev20230723.tar.gz
+[2023-07-23 07:08:00] INFO root fetch - processPackages [pg-alchemy-kit]: Downloading https://files.pythonhosted.org/packages/dc/9a/30bd12eb109ca6b9a78bccd38e0a8cd7772fe27bd2c012164cec4ddb1a44/pg_alchemy_kit-0.1.2.tar.gz
+[2023-07-23 07:08:00] INFO root fetch - processPackages [krakenci-client]: Downloading https://files.pythonhosted.org/packages/b5/25/fc9bbbdc3caf64cc3674cbe2ab0073b52a4dca8329b53eac29b393cc058b/krakenci_client-1.3.25.tar.gz
+[2023-07-23 07:08:00] INFO root fetch - processPackages [krakenci-server]: Downloading https://files.pythonhosted.org/packages/45/43/bbc9d756c536b465bf80ebfa43d132bf7965bc284432dc10d43b84f56c23/krakenci_server-1.3.25.tar.gz
+[2023-07-23 07:08:00] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/19/03/6738f306f0f51352c621177ec957741087f99c5cccca632a7affc5d14466/dask-cuda-23.8.0a230723.tar.gz
+[2023-07-23 07:08:00] INFO root fetch - processPackages [krakenci-client]: executing diffoscope
+[2023-07-23 07:08:00] INFO root fetch - processPackages [krakenci-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krakenci_client-1.3.24.tar.gz tmp/krakenci_client-1.3.25.tar.gz --markdown 20230723/k/krakenci-client/1.3.24-1.3.25/diff.md --exclude *.pyd
+[2023-07-23 07:08:00] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-07-23 07:08:00] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230722.tar.gz tmp/rapid_pe-0.1.1.dev20230723.tar.gz --markdown 20230723/r/rapid-pe/0.1.1.dev20230722-0.1.1.dev20230723/diff.md --exclude *.pyd
+[2023-07-23 07:08:00] INFO root fetch - processPackages [pg-alchemy-kit]: executing diffoscope
+[2023-07-23 07:08:00] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/ca/89/55f29aafc297ed0d42fc2c7ea7149f8413fa24b4d5ea820d79452386e976/localstack-core-2.2.1.dev20230723050442.tar.gz
+[2023-07-23 07:08:00] INFO root fetch - processPackages [pg-alchemy-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_alchemy_kit-0.1.1.tar.gz tmp/pg_alchemy_kit-0.1.2.tar.gz --markdown 20230723/p/pg-alchemy-kit/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-23 07:08:00] INFO root fetch - processPackages [plaso]: Downloading https://files.pythonhosted.org/packages/28/a4/e76737f0e9e812f991d2a2ed6ea587b3b4bd42e3715918dad820fb0cda8a/plaso-20230717.tar.gz
+[2023-07-23 07:08:00] INFO root fetch - processPackages [krakenci-server]: executing diffoscope
+[2023-07-23 07:08:00] INFO root fetch - processPackages [krakenci-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krakenci_server-1.2.2.tar.gz tmp/krakenci_server-1.3.25.tar.gz --markdown 20230723/k/krakenci-server/1.2.2-1.3.25/diff.md --exclude *.pyd
+[2023-07-23 07:08:00] INFO root fetch - processPackages [multiprocess]: Downloading https://files.pythonhosted.org/packages/58/17/5151b6ac2ac9b6276d46c33369ff814b0901872b2a0871771252f02e9192/multiprocess-0.70.9.tar.gz
+[2023-07-23 07:08:00] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-07-23 07:08:00] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230722.tar.gz tmp/dask-cuda-23.8.0a230723.tar.gz --markdown 20230723/d/dask-cuda/23.8.0a230722-23.8.0a230723/diff.md --exclude *.pyd
+[2023-07-23 07:08:00] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-23 07:08:00] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.2.1.dev20230721131140.tar.gz tmp/localstack-core-2.2.1.dev20230723050442.tar.gz --markdown 20230723/l/localstack-core/2.2.1.dev20230721131140-2.2.1.dev20230723050442/diff.md --exclude *.pyd
+[2023-07-23 07:08:00] INFO root fetch - processPackages [multiprocess]: executing diffoscope
+[2023-07-23 07:08:00] INFO root fetch - processPackages [multiprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiprocess-0.70.8.tar.gz tmp/multiprocess-0.70.9.tar.gz --markdown 20230723/m/multiprocess/0.70.8-0.70.9/diff.md --exclude *.pyd
+[2023-07-23 07:08:00] INFO root fetch - processPackages [plaso]: executing diffoscope
+[2023-07-23 07:08:00] INFO root fetch - processPackages [plaso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plaso-20230311.tar.gz tmp/plaso-20230717.tar.gz --markdown 20230723/p/plaso/20230311-20230717/diff.md --exclude *.pyd
+[2023-07-23 07:08:01] INFO root fetch - processPackages [pg-alchemy-kit]: Remove: archive file [/home/abi/fetcher/tmp/pg_alchemy_kit-0.1.1.tar.gz]
+[2023-07-23 07:08:01] INFO root fetch - processPackages [pg-alchemy-kit]: Remove: archive file [/home/abi/fetcher/tmp/pg_alchemy_kit-0.1.2.tar.gz]
+[2023-07-23 07:08:01] INFO root fetch - main [MainThread]: End processing [pg-alchemy-kit]: success
+[2023-07-23 07:08:01] INFO root fetch - processPackages [krakenci-client]: Remove: archive file [/home/abi/fetcher/tmp/krakenci_client-1.3.24.tar.gz]
+[2023-07-23 07:08:01] INFO root fetch - processPackages [krakenci-client]: Remove: archive file [/home/abi/fetcher/tmp/krakenci_client-1.3.25.tar.gz]
+[2023-07-23 07:08:01] INFO root fetch - main [MainThread]: End processing [krakenci-client]: success
+[2023-07-23 07:08:01] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230722.tar.gz]
+[2023-07-23 07:08:01] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230723.tar.gz]
+[2023-07-23 07:08:01] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-07-23 07:08:01] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230722.tar.gz]
+[2023-07-23 07:08:01] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230723.tar.gz]
+[2023-07-23 07:08:01] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-07-23 07:08:02] INFO root fetch - processPackages [krakenci-server]: Remove: archive file [/home/abi/fetcher/tmp/krakenci_server-1.2.2.tar.gz]
+[2023-07-23 07:08:02] INFO root fetch - processPackages [krakenci-server]: Remove: archive file [/home/abi/fetcher/tmp/krakenci_server-1.3.25.tar.gz]
+[2023-07-23 07:08:02] INFO root fetch - main [MainThread]: End processing [krakenci-server]: success
+[2023-07-23 07:08:04] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230721131140.tar.gz]
+[2023-07-23 07:08:04] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230723050442.tar.gz]
+[2023-07-23 07:08:04] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-23 07:08:08] INFO root fetch - processPackages [multiprocess]: Remove: archive file [/home/abi/fetcher/tmp/multiprocess-0.70.8.tar.gz]
+[2023-07-23 07:08:08] INFO root fetch - processPackages [multiprocess]: Remove: archive file [/home/abi/fetcher/tmp/multiprocess-0.70.9.tar.gz]
+[2023-07-23 07:08:08] INFO root fetch - main [MainThread]: End processing [multiprocess]: success
+[2023-07-23 07:08:09] INFO root fetch - processPackages [plaso]: Remove: archive file [/home/abi/fetcher/tmp/plaso-20230311.tar.gz]
+[2023-07-23 07:08:09] INFO root fetch - processPackages [plaso]: Remove: archive file [/home/abi/fetcher/tmp/plaso-20230717.tar.gz]
+[2023-07-23 07:08:09] INFO root fetch - main [MainThread]: End processing [plaso]: success
+[2023-07-23 07:08:09] INFO root fetch - main [MainThread]: Store serial: [18999600]
