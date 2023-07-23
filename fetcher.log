@@ -1690,3 +1690,47 @@
 [2023-07-23 02:45:05] INFO root fetch - processPackages [pybaiduphoto]: Remove: archive file [/home/abi/fetcher/tmp/pybaiduphoto-2023.7.23.843.tar.gz]
 [2023-07-23 02:45:05] INFO root fetch - main [MainThread]: End processing [pybaiduphoto]: success
 [2023-07-23 02:45:05] INFO root fetch - main [MainThread]: Store serial: [18998672]
+[2023-07-23 02:50:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18998672]
+[2023-07-23 02:50:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-23 02:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfds-nightly
+[2023-07-23 02:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Signal8
+[2023-07-23 02:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kubric-nightly
+[2023-07-23 02:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neuralpit
+[2023-07-23 02:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-comprehend-s3olap
+[2023-07-23 02:50:15] INFO root fetch - processPackages [Signal8]: New version: [5.0.1] Old Version: [5.0]
+[2023-07-23 02:50:15] INFO root fetch - processPackages [neuralpit]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-23 02:50:15] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-23 02:50:15] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-23 02:50:15] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/99/3e/7e354a77309319f3adb6f57b598a640d5361b6651289f47362ebf4c9cd84/Signal8-5.0.tar.gz
+[2023-07-23 02:50:15] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202307230044] Old Version: [4.9.2.dev202307220044]
+[2023-07-23 02:50:15] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/56/58/bb03618390059b6d129f2de5cd391ec42364984c951277841e024e78d46e/neuralpit-2.0.8.tar.gz
+[2023-07-23 02:50:15] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/bf/45/efe5ab87889959326f80b81945414a41c438fa00b255ffe28308ecb3b52b/kubric-nightly-2023.7.8.tar.gz
+[2023-07-23 02:50:15] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-07-23 02:50:15] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/8d/d4/cdca716e9f1023aaa975149951886336025da24ab787ef5b10e974341df6/neuralpit-2.0.9.tar.gz
+[2023-07-23 02:50:15] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/bb/cd/24a7d0673a40d4a2ccf50e8e9298594da4b918433ca23a33d7273fcb6871/kubric-nightly-2023.7.9.tar.gz
+[2023-07-23 02:50:15] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/ad/d0/499bbaf00173bcd1b1e42533001b706a02dcae4bffa49f8dabc222925ec7/tfds-nightly-4.9.2.dev202307220044.tar.gz
+[2023-07-23 02:50:15] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/b3/85/9b172fe11b7a05ada61e53b0ae08be5aacdb3449b0dc9afaad2dc283b140/Signal8-5.0.1.tar.gz
+[2023-07-23 02:50:15] INFO root fetch - processPackages [neuralpit]: executing diffoscope
+[2023-07-23 02:50:15] INFO root fetch - processPackages [neuralpit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralpit-2.0.8.tar.gz tmp/neuralpit-2.0.9.tar.gz --markdown 20230723/n/neuralpit/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-23 02:50:15] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-07-23 02:50:15] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.7.8.tar.gz tmp/kubric-nightly-2023.7.9.tar.gz --markdown 20230723/k/kubric-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-23 02:50:15] INFO root fetch - processPackages [Signal8]: executing diffoscope
+[2023-07-23 02:50:15] INFO root fetch - processPackages [Signal8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Signal8-5.0.tar.gz tmp/Signal8-5.0.1.tar.gz --markdown 20230723/S/Signal8/5.0-5.0.1/diff.md --exclude *.pyd
+[2023-07-23 02:50:16] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/c1/d8/253b3b01c7526a210365c55715587fa2344d8fa523f94c000465d92be21b/tfds-nightly-4.9.2.dev202307230044.tar.gz
+[2023-07-23 02:50:16] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-07-23 02:50:16] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-07-23 02:50:16] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-07-23 02:50:16] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202307220044.tar.gz tmp/tfds-nightly-4.9.2.dev202307230044.tar.gz --markdown 20230723/t/tfds-nightly/4.9.2.dev202307220044-4.9.2.dev202307230044/diff.md --exclude *.pyd
+[2023-07-23 02:50:16] INFO root fetch - processPackages [neuralpit]: Remove: archive file [/home/abi/fetcher/tmp/neuralpit-2.0.8.tar.gz]
+[2023-07-23 02:50:16] INFO root fetch - processPackages [neuralpit]: Remove: archive file [/home/abi/fetcher/tmp/neuralpit-2.0.9.tar.gz]
+[2023-07-23 02:50:16] INFO root fetch - main [MainThread]: End processing [neuralpit]: success
+[2023-07-23 02:50:16] INFO root fetch - processPackages [Signal8]: Remove: archive file [/home/abi/fetcher/tmp/Signal8-5.0.tar.gz]
+[2023-07-23 02:50:16] INFO root fetch - processPackages [Signal8]: Remove: archive file [/home/abi/fetcher/tmp/Signal8-5.0.1.tar.gz]
+[2023-07-23 02:50:16] INFO root fetch - main [MainThread]: End processing [Signal8]: success
+[2023-07-23 02:50:16] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.7.8.tar.gz]
+[2023-07-23 02:50:16] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.7.9.tar.gz]
+[2023-07-23 02:50:16] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-07-23 02:50:22] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307220044.tar.gz]
+[2023-07-23 02:50:22] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307230044.tar.gz]
+[2023-07-23 02:50:22] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-07-23 02:50:22] INFO root fetch - main [MainThread]: Store serial: [18998687]
