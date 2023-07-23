@@ -8496,3 +8496,119 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 15:13:09] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
 [2023-07-23 15:13:09] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-07-23 15:13:09] INFO root fetch - main [MainThread]: Store serial: [19001763]
+[2023-07-23 15:18:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19001763]
+[2023-07-23 15:18:18] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-23 15:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-sphinx
+[2023-07-23 15:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tremolo
+[2023-07-23 15:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bufap
+[2023-07-23 15:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: IDsys
+[2023-07-23 15:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyarmor.cli.core
+[2023-07-23 15:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-django
+[2023-07-23 15:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: external-user-local
+[2023-07-23 15:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: txt2ebook
+[2023-07-23 15:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dl2050utils
+[2023-07-23 15:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: circt
+[2023-07-23 15:18:18] INFO root fetch - processPackages [dl2050utils]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-23 15:18:18] INFO root fetch - processPackages [IDsys]: New version: [0.0.8.8] Old Version: [0.0.8.7]
+[2023-07-23 15:18:18] WARNING root fetch - processPackages [bufap]: Skipping, unable to determine old version
+[2023-07-23 15:18:18] INFO root fetch - processPackages [bufap]: Start processing: FirebaseDatabaseTakeover
+[2023-07-23 15:18:18] INFO root fetch - main [MainThread]: End processing [bufap] error
+[2023-07-23 15:18:18] INFO root fetch - processPackages [tremolo]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-23 15:18:18] INFO root fetch - processPackages [circt]: New version: [1.48.1.dev41] Old Version: [1.48.1.dev39]
+[2023-07-23 15:18:18] INFO root fetch - processPackages [external-user-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 15:18:18] INFO root fetch - processPackages [txt2ebook]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-23 15:18:18] INFO root fetch - processPackages [pyarmor.cli.core]: New version: [4.3.dev1] Old Version: [3.2.dev2]
+[2023-07-23 15:18:18] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-23 15:18:18] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-23 15:18:18] WARNING root fetch - processPackages [FirebaseDatabaseTakeover]: Skipping, unable to determine old version
+[2023-07-23 15:18:18] INFO root fetch - processPackages [FirebaseDatabaseTakeover]: Start processing: nbdev-apl
+[2023-07-23 15:18:18] INFO root fetch - main [MainThread]: End processing [FirebaseDatabaseTakeover] error
+[2023-07-23 15:18:18] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c2/11/20896420a2b6842cdae9b98b4642b86f62277734141db689849e79713875/dl2050utils-1.0.98.tar.gz
+[2023-07-23 15:18:18] INFO root fetch - processPackages [IDsys]: Downloading https://files.pythonhosted.org/packages/e8/b8/eeb6ae1618aaa97a701d2620a6e6a87efeeab303d818a93ed4925ae3eef6/IDsys-0.0.8.7.tar.gz
+[2023-07-23 15:18:18] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-07-23 15:18:18] INFO root fetch - processPackages [tremolo]: Downloading https://files.pythonhosted.org/packages/17/91/55df15a00968bc570dc929dde0d884467bd21d9f1dc571df2cf31ad3d9c0/tremolo-0.0.98.tar.gz
+[2023-07-23 15:18:18] INFO root fetch - processPackages [circt]: Downloading https://files.pythonhosted.org/packages/f4/8b/ab5c6b10f202e8c81620245ad26a637ff8918727361f55d9b06d68ab8ff9/circt-1.48.1.dev39-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-23 15:18:18] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.912] Old Version: [0.0.911]
+[2023-07-23 15:18:18] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-07-23 15:18:18] INFO root fetch - processPackages [txt2ebook]: Downloading https://files.pythonhosted.org/packages/7c/c4/d60a564f3da745273bfa35e59033388d7e8d9e9554261bd419d45d8071c7/txt2ebook-0.1.8.tar.gz
+[2023-07-23 15:18:18] INFO root fetch - processPackages [external-user-local]: Downloading https://files.pythonhosted.org/packages/86/30/b540313993796f3f2d485b43bfe07512777aa124a848f52f01c45115413f/External-User-Local-0.0.8.tar.gz
+[2023-07-23 15:18:18] INFO root fetch - processPackages [pyarmor.cli.core]: Downloading https://files.pythonhosted.org/packages/fd/1a/f6bf6d3f325ce7a27ea433aee7c098a8d878b83307538ce49c7ef9c1c891/pyarmor.cli.core-3.2.dev2-cp39-none-win_amd64.whl
+[2023-07-23 15:18:18] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/46/18/4670dc5a4ea85a06100334dab43d9171eecc05e6192702b93fd936c84519/nbdev-apl-0.0.911.tar.gz
+[2023-07-23 15:18:19] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c9/17/6752cfb2e56bf2902e5a751d8b67ff3c1642fb0d69b3207b81fb5c311ea5/dl2050utils-1.0.99.tar.gz
+[2023-07-23 15:18:19] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-07-23 15:18:19] INFO root fetch - processPackages [IDsys]: Downloading https://files.pythonhosted.org/packages/da/38/4eb52696d76b449d4ce96b0b17d1069f0c304eb43197b99da4f67ec7a67d/IDsys-0.0.8.8.tar.gz
+[2023-07-23 15:18:19] INFO root fetch - processPackages [dl2050utils]: executing diffoscope
+[2023-07-23 15:18:19] INFO root fetch - processPackages [dl2050utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl2050utils-1.0.98.tar.gz tmp/dl2050utils-1.0.99.tar.gz --markdown 20230723/d/dl2050utils/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-23 15:18:19] INFO root fetch - processPackages [external-user-local]: Downloading https://files.pythonhosted.org/packages/ce/14/fcd112d1522df4a9951f08cb9c7f39637dd2b6ea155db31d46d9df347f21/External-user-local-0.0.9.tar.gz
+[2023-07-23 15:18:19] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-07-23 15:18:19] INFO root fetch - processPackages [IDsys]: executing diffoscope
+[2023-07-23 15:18:19] INFO root fetch - processPackages [IDsys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IDsys-0.0.8.7.tar.gz tmp/IDsys-0.0.8.8.tar.gz --markdown 20230723/I/IDsys/0.0.8.7-0.0.8.8/diff.md --exclude *.pyd
+[2023-07-23 15:18:19] INFO root fetch - processPackages [external-user-local]: executing diffoscope
+[2023-07-23 15:18:19] INFO root fetch - processPackages [external-user-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/External-User-Local-0.0.8.tar.gz tmp/External-user-local-0.0.9.tar.gz --markdown 20230723/e/external-user-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 15:18:19] INFO root fetch - processPackages [txt2ebook]: Downloading https://files.pythonhosted.org/packages/2a/b8/8ad395f87b8f7685da9b3f389de9870183f09446c9f0624dfed431e3b9b8/txt2ebook-0.1.9.tar.gz
+[2023-07-23 15:18:19] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/1e/2d/85b9c000957436efd161e712ddda46127e87c25a0f5bf71f6c41b1d45ce8/nbdev-apl-0.0.912.tar.gz
+[2023-07-23 15:18:19] INFO root fetch - processPackages [pyarmor.cli.core]: Downloading https://files.pythonhosted.org/packages/17/03/9f3f39cba715955e612324c63f8ca9dbd4b9e55b6950d05655f0e74138e7/pyarmor.cli.core-4.3.dev1.zip
+[2023-07-23 15:18:19] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-07-23 15:18:19] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230723/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-23 15:18:19] INFO root fetch - processPackages [tremolo]: Downloading https://files.pythonhosted.org/packages/9d/1f/2855765591f7f7e3122f1fde84cd87b5ded8131578ba6b246fe07394c77b/tremolo-0.0.99.tar.gz
+[2023-07-23 15:18:19] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-07-23 15:18:19] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.911.tar.gz tmp/nbdev-apl-0.0.912.tar.gz --markdown 20230723/n/nbdev-apl/0.0.911-0.0.912/diff.md --exclude *.pyd
+[2023-07-23 15:18:19] INFO root fetch - processPackages [pyarmor.cli.core]: executing diffoscope
+[2023-07-23 15:18:19] INFO root fetch - processPackages [pyarmor.cli.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core-3.2.dev2-cp39-none-win_amd64.whl.zip tmp/pyarmor.cli.core-4.3.dev1.zip --markdown 20230723/p/pyarmor.cli.core/3.2.dev2-4.3.dev1/diff.md --exclude *.pyd
+[2023-07-23 15:18:19] INFO root fetch - processPackages [tremolo]: executing diffoscope
+[2023-07-23 15:18:19] INFO root fetch - processPackages [tremolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tremolo-0.0.98.tar.gz tmp/tremolo-0.0.99.tar.gz --markdown 20230723/t/tremolo/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-23 15:18:19] INFO root fetch - processPackages [txt2ebook]: executing diffoscope
+[2023-07-23 15:18:19] INFO root fetch - processPackages [txt2ebook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/txt2ebook-0.1.8.tar.gz tmp/txt2ebook-0.1.9.tar.gz --markdown 20230723/t/txt2ebook/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-23 15:18:19] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-07-23 15:18:19] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230723/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-23 15:18:20] INFO root fetch - processPackages [dl2050utils]: Remove: archive file [/home/abi/fetcher/tmp/dl2050utils-1.0.98.tar.gz]
+[2023-07-23 15:18:20] INFO root fetch - processPackages [dl2050utils]: Remove: archive file [/home/abi/fetcher/tmp/dl2050utils-1.0.99.tar.gz]
+[2023-07-23 15:18:20] INFO root fetch - processPackages [dl2050utils]: Start processing: GramAddict
+[2023-07-23 15:18:20] INFO root fetch - main [MainThread]: End processing [dl2050utils]: success
+[2023-07-23 15:18:20] INFO root fetch - processPackages [GramAddict]: New version: [3.2.4] Old Version: [3.2.2]
+[2023-07-23 15:18:20] INFO root fetch - processPackages [GramAddict]: Downloading https://files.pythonhosted.org/packages/da/a6/4c5c94acf0ea68464434634be12d2c4c46c72ae7ea37827d93a1471ab445/gramaddict-3.2.2.tar.gz
+[2023-07-23 15:18:20] INFO root fetch - processPackages [external-user-local]: Remove: archive file [/home/abi/fetcher/tmp/External-User-Local-0.0.8.tar.gz]
+[2023-07-23 15:18:20] INFO root fetch - processPackages [external-user-local]: Remove: archive file [/home/abi/fetcher/tmp/External-user-local-0.0.9.tar.gz]
+[2023-07-23 15:18:20] INFO root fetch - processPackages [external-user-local]: Start processing: heatmap_cli
+[2023-07-23 15:18:20] INFO root fetch - main [MainThread]: End processing [external-user-local]: success
+[2023-07-23 15:18:20] INFO root fetch - processPackages [circt]: Downloading https://files.pythonhosted.org/packages/10/c8/39f2c7b83cef3399c103a09c7512bd5489b7399c7eb3ad67bee622fc1357/circt-1.48.1.dev41-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-23 15:18:20] INFO root fetch - processPackages [IDsys]: Remove: archive file [/home/abi/fetcher/tmp/IDsys-0.0.8.7.tar.gz]
+[2023-07-23 15:18:20] INFO root fetch - processPackages [IDsys]: Remove: archive file [/home/abi/fetcher/tmp/IDsys-0.0.8.8.tar.gz]
+[2023-07-23 15:18:20] INFO root fetch - main [MainThread]: End processing [IDsys]: success
+[2023-07-23 15:18:20] INFO root fetch - processPackages [heatmap_cli]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-07-23 15:18:20] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-07-23 15:18:20] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-07-23 15:18:20] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-07-23 15:18:20] INFO root fetch - processPackages [pyarmor.cli.core]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core-3.2.dev2-cp39-none-win_amd64.whl.zip]
+[2023-07-23 15:18:20] INFO root fetch - processPackages [pyarmor.cli.core]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core-4.3.dev1.zip]
+[2023-07-23 15:18:20] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core]: success
+[2023-07-23 15:18:20] INFO root fetch - processPackages [GramAddict]: Downloading https://files.pythonhosted.org/packages/6b/af/7ab1c4290291c8d667170e1201d13d8b1636fbee54c053ac96acd9884a72/GramAddict-3.2.4.tar.gz
+[2023-07-23 15:18:21] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.911.tar.gz]
+[2023-07-23 15:18:21] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.912.tar.gz]
+[2023-07-23 15:18:21] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-07-23 15:18:21] INFO root fetch - processPackages [heatmap_cli]: Downloading https://files.pythonhosted.org/packages/85/d5/b4ad65dad682c52925ca6bae0bfd07efe40d8d819597670ce5eabdca6f96/heatmap_cli-0.1.3.tar.gz
+[2023-07-23 15:18:21] INFO root fetch - processPackages [txt2ebook]: Remove: archive file [/home/abi/fetcher/tmp/txt2ebook-0.1.8.tar.gz]
+[2023-07-23 15:18:21] INFO root fetch - processPackages [txt2ebook]: Remove: archive file [/home/abi/fetcher/tmp/txt2ebook-0.1.9.tar.gz]
+[2023-07-23 15:18:21] INFO root fetch - main [MainThread]: End processing [txt2ebook]: success
+[2023-07-23 15:18:21] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-07-23 15:18:21] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-07-23 15:18:21] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-07-23 15:18:21] INFO root fetch - processPackages [tremolo]: Remove: archive file [/home/abi/fetcher/tmp/tremolo-0.0.98.tar.gz]
+[2023-07-23 15:18:21] INFO root fetch - processPackages [tremolo]: Remove: archive file [/home/abi/fetcher/tmp/tremolo-0.0.99.tar.gz]
+[2023-07-23 15:18:21] INFO root fetch - main [MainThread]: End processing [tremolo]: success
+[2023-07-23 15:18:21] INFO root fetch - processPackages [heatmap_cli]: Downloading https://files.pythonhosted.org/packages/e0/75/370ef8926efdeb62fedc5fcd5f21d30049668d83ceb2299dfc21d4f557e3/heatmap_cli-0.2.0.tar.gz
+[2023-07-23 15:18:21] INFO root fetch - processPackages [heatmap_cli]: executing diffoscope
+[2023-07-23 15:18:21] INFO root fetch - processPackages [heatmap_cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heatmap_cli-0.1.3.tar.gz tmp/heatmap_cli-0.2.0.tar.gz --markdown 20230723/h/heatmap_cli/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-07-23 15:18:21] INFO root fetch - processPackages [GramAddict]: executing diffoscope
+[2023-07-23 15:18:21] INFO root fetch - processPackages [GramAddict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gramaddict-3.2.2.tar.gz tmp/GramAddict-3.2.4.tar.gz --markdown 20230723/G/GramAddict/3.2.2-3.2.4/diff.md --exclude *.pyd
+[2023-07-23 15:18:21] INFO root fetch - processPackages [circt]: executing diffoscope
+[2023-07-23 15:18:21] INFO root fetch - processPackages [circt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circt-1.48.1.dev39-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/circt-1.48.1.dev41-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230723/c/circt/1.48.1.dev39-1.48.1.dev41/diff.md --exclude *.pyd
+[2023-07-23 15:18:22] INFO root fetch - processPackages [heatmap_cli]: Remove: archive file [/home/abi/fetcher/tmp/heatmap_cli-0.1.3.tar.gz]
+[2023-07-23 15:18:22] INFO root fetch - processPackages [heatmap_cli]: Remove: archive file [/home/abi/fetcher/tmp/heatmap_cli-0.2.0.tar.gz]
+[2023-07-23 15:18:22] INFO root fetch - main [MainThread]: End processing [heatmap_cli]: success
+[2023-07-23 15:18:22] INFO root fetch - processPackages [GramAddict]: Remove: archive file [/home/abi/fetcher/tmp/gramaddict-3.2.2.tar.gz]
+[2023-07-23 15:18:22] INFO root fetch - processPackages [GramAddict]: Remove: archive file [/home/abi/fetcher/tmp/GramAddict-3.2.4.tar.gz]
+[2023-07-23 15:18:22] INFO root fetch - main [MainThread]: End processing [GramAddict]: success
+[2023-07-23 15:21:22] ERROR root fetch - processPackages [circt]: Timeout during execution of pkgdiff
+[2023-07-23 15:21:22] INFO root fetch - main [MainThread]: End processing [circt] error
+[2023-07-23 15:21:22] INFO root fetch - main [MainThread]: Store serial: [19001852]
