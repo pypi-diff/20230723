@@ -10351,3 +10351,59 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 17:27:03] INFO root fetch - processPackages [async-poe-client]: Remove: archive file [/home/abi/fetcher/tmp/async_poe_client-0.1.3.tar.gz]
 [2023-07-23 17:27:03] INFO root fetch - main [MainThread]: End processing [async-poe-client]: success
 [2023-07-23 17:27:03] INFO root fetch - main [MainThread]: Store serial: [19002733]
+[2023-07-23 17:32:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19002733]
+[2023-07-23 17:32:11] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-23 17:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aicoder
+[2023-07-23 17:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codeboxapi
+[2023-07-23 17:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ai4xde
+[2023-07-23 17:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TLSFAllocator
+[2023-07-23 17:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blankly
+[2023-07-23 17:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smpl-pkg-powly535
+[2023-07-23 17:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mass-analytics
+[2023-07-23 17:32:12] INFO root fetch - processPackages [aicoder]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-23 17:32:12] INFO root fetch - processPackages [ai4xde]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-07-23 17:32:12] INFO root fetch - processPackages [codeboxapi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 17:32:12] INFO root fetch - processPackages [smpl-pkg-powly535]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-23 17:32:12] WARNING root fetch - processPackages [TLSFAllocator]: Skipping, unable to determine old version
+[2023-07-23 17:32:12] INFO root fetch - main [MainThread]: End processing [TLSFAllocator] error
+[2023-07-23 17:32:12] INFO root fetch - processPackages [blankly]: New version: [v0.1.1-alpha] Old Version: [1.9.0b0]
+[2023-07-23 17:32:12] INFO root fetch - processPackages [mass-analytics]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-23 17:32:12] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/78/53/8a486afab65295e791881926b985e1791e6efe6088b786d4a80d31ae3b0a/aicoder-0.4.3-py3-none-any.whl
+[2023-07-23 17:32:12] INFO root fetch - processPackages [smpl-pkg-powly535]: Downloading https://files.pythonhosted.org/packages/46/5c/7318dcb4e22fea2b09dac43b33e1b3667888b57f7a431e677a13404b98f5/smpl-pkg-powly535-0.0.2.tar.gz
+[2023-07-23 17:32:12] INFO root fetch - processPackages [ai4xde]: Downloading https://files.pythonhosted.org/packages/b2/18/2246f687653dcc4612d54a78cd4b91861984633f70ce0e8f0da188c4082a/ai4xde-0.1.5.tar.gz
+[2023-07-23 17:32:12] INFO root fetch - processPackages [codeboxapi]: Downloading https://files.pythonhosted.org/packages/20/86/21b83aa25c92841c8caee97c0785f57c4a8b383ed8c3666252072eefc7a4/codeboxapi-0.0.8.tar.gz
+[2023-07-23 17:32:12] INFO root fetch - processPackages [blankly]: Downloading https://files.pythonhosted.org/packages/c8/39/dd0bc7938a44cc979bdd795f1dbfb6ab8a1e4a143f8c0caa67b58c616f8e/blankly-1.9.0b0.tar.gz
+[2023-07-23 17:32:12] INFO root fetch - processPackages [mass-analytics]: Downloading https://files.pythonhosted.org/packages/26/06/8a9a670ab6ce18f37d3184ad3321abdb89aea16077688b39879e2638a3ce/mass_analytics-1.0.3.tar.gz
+[2023-07-23 17:32:12] WARNING root fetch - processPackages [ai4xde]: Skipping package: exceeds size limit 23922471>=10485760
+[2023-07-23 17:32:12] INFO root fetch - main [MainThread]: End processing [ai4xde] error
+[2023-07-23 17:32:12] INFO root fetch - processPackages [smpl-pkg-powly535]: Downloading https://files.pythonhosted.org/packages/6e/dc/8f6f0126f23f350eb0da4e4d43093d4d8aa07afc3230cfefcc14407c58d5/smpl-pkg-powly535-0.0.3.tar.gz
+[2023-07-23 17:32:12] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/47/3c/c823f6abb2aeaf8df41a1718f6720484e5cf22804ad1b18c7048395bfd52/aicoder-0.4.4-py3-none-any.whl
+[2023-07-23 17:32:12] INFO root fetch - processPackages [smpl-pkg-powly535]: executing diffoscope
+[2023-07-23 17:32:12] INFO root fetch - processPackages [smpl-pkg-powly535]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smpl-pkg-powly535-0.0.2.tar.gz tmp/smpl-pkg-powly535-0.0.3.tar.gz --markdown 20230723/s/smpl-pkg-powly535/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-23 17:32:12] INFO root fetch - processPackages [aicoder]: executing diffoscope
+[2023-07-23 17:32:12] INFO root fetch - processPackages [aicoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicoder-0.4.3-py3-none-any.whl.zip tmp/aicoder-0.4.4-py3-none-any.whl.zip --markdown 20230723/a/aicoder/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-23 17:32:12] INFO root fetch - processPackages [mass-analytics]: Downloading https://files.pythonhosted.org/packages/c9/f2/7013f86e77c56aefff3e16125c4c7fbdaea2342b0890466e32c2da73dd14/mass_analytics-1.0.4.tar.gz
+[2023-07-23 17:32:12] INFO root fetch - processPackages [codeboxapi]: Downloading https://files.pythonhosted.org/packages/85/1e/7c6eda9373b99ecefa347632a0386195e4693118d2e8438b74efcbfddc11/codeboxapi-0.0.9.tar.gz
+[2023-07-23 17:32:12] INFO root fetch - processPackages [codeboxapi]: executing diffoscope
+[2023-07-23 17:32:12] INFO root fetch - processPackages [codeboxapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeboxapi-0.0.8.tar.gz tmp/codeboxapi-0.0.9.tar.gz --markdown 20230723/c/codeboxapi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 17:32:12] INFO root fetch - processPackages [mass-analytics]: executing diffoscope
+[2023-07-23 17:32:12] INFO root fetch - processPackages [mass-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mass_analytics-1.0.3.tar.gz tmp/mass_analytics-1.0.4.tar.gz --markdown 20230723/m/mass-analytics/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-23 17:32:13] INFO root fetch - processPackages [blankly]: Downloading https://files.pythonhosted.org/packages/37/09/2b3d3c550e836da466714ea73a27936d290b87884dd859dfc2b8baea2c9c/Blankly-v0.1.1-alpha.tar.gz
+[2023-07-23 17:32:13] INFO root fetch - processPackages [blankly]: executing diffoscope
+[2023-07-23 17:32:13] INFO root fetch - processPackages [blankly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blankly-1.9.0b0.tar.gz tmp/Blankly-v0.1.1-alpha.tar.gz --markdown 20230723/b/blankly/1.9.0b0-v0.1.1-alpha/diff.md --exclude *.pyd
+[2023-07-23 17:32:13] INFO root fetch - processPackages [smpl-pkg-powly535]: Remove: archive file [/home/abi/fetcher/tmp/smpl-pkg-powly535-0.0.2.tar.gz]
+[2023-07-23 17:32:13] INFO root fetch - processPackages [smpl-pkg-powly535]: Remove: archive file [/home/abi/fetcher/tmp/smpl-pkg-powly535-0.0.3.tar.gz]
+[2023-07-23 17:32:13] INFO root fetch - main [MainThread]: End processing [smpl-pkg-powly535]: success
+[2023-07-23 17:32:13] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.4.3-py3-none-any.whl.zip]
+[2023-07-23 17:32:13] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.4.4-py3-none-any.whl.zip]
+[2023-07-23 17:32:13] INFO root fetch - main [MainThread]: End processing [aicoder]: success
+[2023-07-23 17:32:13] INFO root fetch - processPackages [codeboxapi]: Remove: archive file [/home/abi/fetcher/tmp/codeboxapi-0.0.8.tar.gz]
+[2023-07-23 17:32:13] INFO root fetch - processPackages [codeboxapi]: Remove: archive file [/home/abi/fetcher/tmp/codeboxapi-0.0.9.tar.gz]
+[2023-07-23 17:32:13] INFO root fetch - main [MainThread]: End processing [codeboxapi]: success
+[2023-07-23 17:32:13] INFO root fetch - processPackages [mass-analytics]: Remove: archive file [/home/abi/fetcher/tmp/mass_analytics-1.0.3.tar.gz]
+[2023-07-23 17:32:13] INFO root fetch - processPackages [mass-analytics]: Remove: archive file [/home/abi/fetcher/tmp/mass_analytics-1.0.4.tar.gz]
+[2023-07-23 17:32:13] INFO root fetch - main [MainThread]: End processing [mass-analytics]: success
+[2023-07-23 17:32:14] INFO root fetch - processPackages [blankly]: Remove: archive file [/home/abi/fetcher/tmp/blankly-1.9.0b0.tar.gz]
+[2023-07-23 17:32:14] INFO root fetch - processPackages [blankly]: Remove: archive file [/home/abi/fetcher/tmp/Blankly-v0.1.1-alpha.tar.gz]
+[2023-07-23 17:32:14] INFO root fetch - main [MainThread]: End processing [blankly]: success
+[2023-07-23 17:32:14] INFO root fetch - main [MainThread]: Store serial: [19002756]
