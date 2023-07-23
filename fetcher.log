@@ -5153,3 +5153,56 @@
 [2023-07-23 10:17:18] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-07-23 10:17:18] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-07-23 10:17:18] INFO root fetch - main [MainThread]: Store serial: [19000212]
+[2023-07-23 10:22:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19000212]
+[2023-07-23 10:22:27] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-23 10:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygamd
+[2023-07-23 10:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Print-Tricks-And-More-Alpha
+[2023-07-23 10:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: get-docker-secret
+[2023-07-23 10:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: discoger
+[2023-07-23 10:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastapi-tortoise-crud
+[2023-07-23 10:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mplsoccer
+[2023-07-23 10:22:27] INFO root fetch - processPackages [get-docker-secret]: New version: [2.0.0] Old Version: [1.0.2]
+[2023-07-23 10:22:27] INFO root fetch - processPackages [pygamd]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-23 10:22:27] INFO root fetch - processPackages [fastapi-tortoise-crud]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-23 10:22:27] INFO root fetch - processPackages [discoger]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-07-23 10:22:27] INFO root fetch - processPackages [mplsoccer]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-07-23 10:22:27] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: New version: [0.3.82a0] Old Version: [0.3.82]
+[2023-07-23 10:22:27] INFO root fetch - processPackages [discoger]: Downloading https://files.pythonhosted.org/packages/03/2e/735d9aa0813d3998bac43b4a6cb202349b908f3c5d54fa4345d551719418/discoger-2.1.1.tar.gz
+[2023-07-23 10:22:27] INFO root fetch - processPackages [fastapi-tortoise-crud]: Downloading https://files.pythonhosted.org/packages/58/50/aa41b76ca873253462b94931c5396dd9ff786c7ae4d0d8916b30ec60aaa0/fastapi-tortoise-crud-0.1.8.tar.gz
+[2023-07-23 10:22:27] INFO root fetch - processPackages [mplsoccer]: Downloading https://files.pythonhosted.org/packages/ee/4b/bb9e318530baff18bb134fb13ed7eacb72f8515ead04725c06a105f649da/mplsoccer-1.1.9.tar.gz
+[2023-07-23 10:22:27] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Downloading https://files.pythonhosted.org/packages/f7/33/c3054b8f202466e272d996cf45e456c296dd13f9cefacfcc24eb9eaf46a5/Print_Tricks_And_More_Alpha-0.3.82-py3-none-any.whl
+[2023-07-23 10:22:27] INFO root fetch - processPackages [get-docker-secret]: Downloading https://files.pythonhosted.org/packages/a6/f0/af549ef2b12768025d6fb1be792d45e387fb835e3ac3d66b9ff767ed8428/get-docker-secret-1.0.2.tar.gz
+[2023-07-23 10:22:27] INFO root fetch - processPackages [pygamd]: Downloading https://files.pythonhosted.org/packages/6f/a8/0f4647911b9cff4134f68f5126447488ecb22f5d0188ab6b9c33327e9950/pygamd-1.3.2.tar.gz
+[2023-07-23 10:22:27] WARNING root fetch - processPackages [pygamd]: Skipping package: exceeds size limit 25899518>=10485760
+[2023-07-23 10:22:27] INFO root fetch - main [MainThread]: End processing [pygamd] error
+[2023-07-23 10:22:27] INFO root fetch - processPackages [mplsoccer]: Downloading https://files.pythonhosted.org/packages/5d/94/2e13414c8d746211ecb0798861ba2f5e11b629976cd7e34db8a760cf02fd/mplsoccer-1.2.0.tar.gz
+[2023-07-23 10:22:27] INFO root fetch - processPackages [discoger]: Downloading https://files.pythonhosted.org/packages/01/09/e4d649852a04014d60de7ed24c4058a0432bb4e6d52cc162791e57fd59a6/discoger-2.1.2.tar.gz
+[2023-07-23 10:22:27] INFO root fetch - processPackages [fastapi-tortoise-crud]: Downloading https://files.pythonhosted.org/packages/9c/5c/bdedc57ee383ff9319975918ca668e630fc995554a053e5f21f694527da7/fastapi-tortoise-crud-0.1.9.tar.gz
+[2023-07-23 10:22:27] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Downloading https://files.pythonhosted.org/packages/be/84/331a3f9e9ac8c4d6436cdcd7bfb7f82501071d7f0ee68f01809a53495d8c/Print_Tricks_And_More_Alpha-0.3.82a0-py3-none-any.whl
+[2023-07-23 10:22:28] INFO root fetch - processPackages [mplsoccer]: executing diffoscope
+[2023-07-23 10:22:28] INFO root fetch - processPackages [mplsoccer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mplsoccer-1.1.9.tar.gz tmp/mplsoccer-1.2.0.tar.gz --markdown 20230723/m/mplsoccer/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-07-23 10:22:28] INFO root fetch - processPackages [fastapi-tortoise-crud]: executing diffoscope
+[2023-07-23 10:22:28] INFO root fetch - processPackages [fastapi-tortoise-crud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-tortoise-crud-0.1.8.tar.gz tmp/fastapi-tortoise-crud-0.1.9.tar.gz --markdown 20230723/f/fastapi-tortoise-crud/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-23 10:22:28] INFO root fetch - processPackages [discoger]: executing diffoscope
+[2023-07-23 10:22:28] INFO root fetch - processPackages [discoger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discoger-2.1.1.tar.gz tmp/discoger-2.1.2.tar.gz --markdown 20230723/d/discoger/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-07-23 10:22:28] INFO root fetch - processPackages [get-docker-secret]: Downloading https://files.pythonhosted.org/packages/53/10/8586b943cf23d3a620e546a2a126a79507378263890275e6c2fe8220a100/get-docker-secret-2.0.0.tar.gz
+[2023-07-23 10:22:28] INFO root fetch - processPackages [get-docker-secret]: executing diffoscope
+[2023-07-23 10:22:28] INFO root fetch - processPackages [get-docker-secret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/get-docker-secret-1.0.2.tar.gz tmp/get-docker-secret-2.0.0.tar.gz --markdown 20230723/g/get-docker-secret/1.0.2-2.0.0/diff.md --exclude *.pyd
+[2023-07-23 10:22:28] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: executing diffoscope
+[2023-07-23 10:22:28] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Print_Tricks_And_More_Alpha-0.3.82-py3-none-any.whl.zip tmp/Print_Tricks_And_More_Alpha-0.3.82a0-py3-none-any.whl.zip --markdown 20230723/P/Print-Tricks-And-More-Alpha/0.3.82-0.3.82a0/diff.md --exclude *.pyd
+[2023-07-23 10:22:28] INFO root fetch - processPackages [fastapi-tortoise-crud]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-tortoise-crud-0.1.8.tar.gz]
+[2023-07-23 10:22:28] INFO root fetch - processPackages [fastapi-tortoise-crud]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-tortoise-crud-0.1.9.tar.gz]
+[2023-07-23 10:22:28] INFO root fetch - main [MainThread]: End processing [fastapi-tortoise-crud]: success
+[2023-07-23 10:22:29] INFO root fetch - processPackages [discoger]: Remove: archive file [/home/abi/fetcher/tmp/discoger-2.1.1.tar.gz]
+[2023-07-23 10:22:29] INFO root fetch - processPackages [discoger]: Remove: archive file [/home/abi/fetcher/tmp/discoger-2.1.2.tar.gz]
+[2023-07-23 10:22:29] INFO root fetch - main [MainThread]: End processing [discoger]: success
+[2023-07-23 10:22:29] INFO root fetch - processPackages [get-docker-secret]: Remove: archive file [/home/abi/fetcher/tmp/get-docker-secret-1.0.2.tar.gz]
+[2023-07-23 10:22:29] INFO root fetch - processPackages [get-docker-secret]: Remove: archive file [/home/abi/fetcher/tmp/get-docker-secret-2.0.0.tar.gz]
+[2023-07-23 10:22:29] INFO root fetch - main [MainThread]: End processing [get-docker-secret]: success
+[2023-07-23 10:22:29] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Remove: archive file [/home/abi/fetcher/tmp/Print_Tricks_And_More_Alpha-0.3.82-py3-none-any.whl.zip]
+[2023-07-23 10:22:29] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Remove: archive file [/home/abi/fetcher/tmp/Print_Tricks_And_More_Alpha-0.3.82a0-py3-none-any.whl.zip]
+[2023-07-23 10:22:29] INFO root fetch - main [MainThread]: End processing [Print-Tricks-And-More-Alpha]: success
+[2023-07-23 10:22:29] INFO root fetch - processPackages [mplsoccer]: Remove: archive file [/home/abi/fetcher/tmp/mplsoccer-1.1.9.tar.gz]
+[2023-07-23 10:22:29] INFO root fetch - processPackages [mplsoccer]: Remove: archive file [/home/abi/fetcher/tmp/mplsoccer-1.2.0.tar.gz]
+[2023-07-23 10:22:29] INFO root fetch - main [MainThread]: End processing [mplsoccer]: success
+[2023-07-23 10:22:29] INFO root fetch - main [MainThread]: Store serial: [19000227]
