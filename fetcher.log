@@ -3246,3 +3246,26 @@
 [2023-07-23 06:16:09] INFO root fetch - processPackages [ece4078]: Remove: archive file [/home/abi/fetcher/tmp/ece4078-1.0.8.tar.gz]
 [2023-07-23 06:16:09] INFO root fetch - main [MainThread]: End processing [ece4078]: success
 [2023-07-23 06:16:09] INFO root fetch - main [MainThread]: Store serial: [18999411]
+[2023-07-23 06:21:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999411]
+[2023-07-23 06:21:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-23 06:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dynrender-skia
+[2023-07-23 06:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ultralytics-copy
+[2023-07-23 06:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DNBC4dev
+[2023-07-23 06:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vcorelib
+[2023-07-23 06:21:18] INFO root fetch - processPackages [DNBC4dev]: New version: [2.1.9] Old Version: [2.1.7]
+[2023-07-23 06:21:18] WARNING root fetch - processPackages [ultralytics-copy]: Skipping, unable to determine old version
+[2023-07-23 06:21:18] INFO root fetch - main [MainThread]: End processing [ultralytics-copy] error
+[2023-07-23 06:21:18] INFO root fetch - processPackages [vcorelib]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-07-23 06:21:18] WARNING root fetch - processPackages [dynrender-skia]: Skipping, unable to determine old version
+[2023-07-23 06:21:18] INFO root fetch - main [MainThread]: End processing [dynrender-skia] error
+[2023-07-23 06:21:18] INFO root fetch - processPackages [vcorelib]: Downloading https://files.pythonhosted.org/packages/76/75/b73640f4bd9358491f91b5589abd6070bbb83f8320bfc35ef02b345b9b26/vcorelib-2.4.0.tar.gz
+[2023-07-23 06:21:18] INFO root fetch - processPackages [DNBC4dev]: Downloading https://files.pythonhosted.org/packages/65/7b/63e92ad2e689c57bf9c728d327653d6c48944a68f86e6046eaeae2f9549a/DNBC4dev-2.1.7.tar.gz
+[2023-07-23 06:21:18] WARNING root fetch - processPackages [DNBC4dev]: Skipping package: exceeds size limit 28784571>=10485760
+[2023-07-23 06:21:18] INFO root fetch - main [MainThread]: End processing [DNBC4dev] error
+[2023-07-23 06:21:18] INFO root fetch - processPackages [vcorelib]: Downloading https://files.pythonhosted.org/packages/9d/61/395c6646e9e4bf265ce4979cbaba6c13d6c7b0bb22cec89c136816365f8e/vcorelib-2.4.1.tar.gz
+[2023-07-23 06:21:19] INFO root fetch - processPackages [vcorelib]: executing diffoscope
+[2023-07-23 06:21:19] INFO root fetch - processPackages [vcorelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcorelib-2.4.0.tar.gz tmp/vcorelib-2.4.1.tar.gz --markdown 20230723/v/vcorelib/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-07-23 06:21:20] INFO root fetch - processPackages [vcorelib]: Remove: archive file [/home/abi/fetcher/tmp/vcorelib-2.4.0.tar.gz]
+[2023-07-23 06:21:20] INFO root fetch - processPackages [vcorelib]: Remove: archive file [/home/abi/fetcher/tmp/vcorelib-2.4.1.tar.gz]
+[2023-07-23 06:21:20] INFO root fetch - main [MainThread]: End processing [vcorelib]: success
+[2023-07-23 06:21:20] INFO root fetch - main [MainThread]: Store serial: [18999426]
