@@ -11996,3 +11996,87 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 19:21:47] INFO root fetch - processPackages [vegas]: Remove: archive file [/home/abi/fetcher/tmp/vegas-5.4.2.tar.gz]
 [2023-07-23 19:21:47] INFO root fetch - main [MainThread]: End processing [vegas]: success
 [2023-07-23 19:21:47] INFO root fetch - main [MainThread]: Store serial: [19003551]
+[2023-07-23 19:26:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19003551]
+[2023-07-23 19:26:56] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-23 19:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyImageJGui
+[2023-07-23 19:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gammarer.aws-secure-bucket
+[2023-07-23 19:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langstitch
+[2023-07-23 19:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlfast
+[2023-07-23 19:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: HPO
+[2023-07-23 19:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dup-hawk
+[2023-07-23 19:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rtn-simrs
+[2023-07-23 19:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lnschema_core
+[2023-07-23 19:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: github-actions-cli
+[2023-07-23 19:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyloom
+[2023-07-23 19:26:57] WARNING root fetch - processPackages [dup-hawk]: Skipping, unable to determine old version
+[2023-07-23 19:26:57] INFO root fetch - processPackages [dup-hawk]: Start processing: devchat
+[2023-07-23 19:26:57] INFO root fetch - main [MainThread]: End processing [dup-hawk] error
+[2023-07-23 19:26:57] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-23 19:26:57] INFO root fetch - processPackages [pyImageJGui]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-23 19:26:57] INFO root fetch - processPackages [rtn-simrs]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-23 19:26:57] INFO root fetch - processPackages [github-actions-cli]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2023-07-23 19:26:57] INFO root fetch - processPackages [HPO]: New version: [0.3] Old Version: [0.2]
+[2023-07-23 19:26:57] INFO root fetch - processPackages [mlfast]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-23 19:26:57] WARNING root fetch - processPackages [langstitch]: Skipping, unable to determine old version
+[2023-07-23 19:26:57] INFO root fetch - main [MainThread]: End processing [langstitch] error
+[2023-07-23 19:26:57] WARNING root fetch - processPackages [pyloom]: Skipping, unable to determine old version
+[2023-07-23 19:26:57] INFO root fetch - main [MainThread]: End processing [pyloom] error
+[2023-07-23 19:26:57] INFO root fetch - processPackages [lnschema_core]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-23 19:26:57] INFO root fetch - processPackages [devchat]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-23 19:26:57] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: Downloading https://files.pythonhosted.org/packages/aa/90/5effb0cfaaf918ae005b817988210551374e2fa0bc5d15b8e9b54429fd65/gammarer.aws-secure-bucket-0.9.5.tar.gz
+[2023-07-23 19:26:57] INFO root fetch - processPackages [rtn-simrs]: Downloading https://files.pythonhosted.org/packages/db/cc/7e1629f754fdb94e87804ca66873fc89264751a52a933862314861a7efbc/rtn_simrs-0.1.1.tar.gz
+[2023-07-23 19:26:57] INFO root fetch - processPackages [HPO]: Downloading https://files.pythonhosted.org/packages/31/e5/66a2ec2d4ff50ed0a648df4e9f1865f5aa2d78fa8572adb3cd5eb0639327/HPO-0.2.tar.gz
+[2023-07-23 19:26:57] INFO root fetch - processPackages [pyImageJGui]: Downloading https://files.pythonhosted.org/packages/f5/24/427154b914ee6aadebac86ea4c18ff41650078f636cbad0a60e4ae6037cb/pyImageJGui-0.0.1.tar.gz
+[2023-07-23 19:26:57] INFO root fetch - processPackages [github-actions-cli]: Downloading https://files.pythonhosted.org/packages/41/fa/6a4e4c5a5355f4438542a1d7aa3aad4003c4a5e003e70b03622552b9875d/github_actions_cli-1.0.0b1.tar.gz
+[2023-07-23 19:26:57] INFO root fetch - processPackages [mlfast]: Downloading https://files.pythonhosted.org/packages/e2/fe/1766115228a5487697577fe004010600f383974022f6296c3eebc5bec29b/mlfast-0.0.8.tar.gz
+[2023-07-23 19:26:57] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/7a/53/1459e32f6943488250f623718aeb560351a142d81c57a5fc8ef6b0dd1680/lnschema_core-0.8.1.tar.gz
+[2023-07-23 19:26:57] INFO root fetch - processPackages [devchat]: Downloading https://files.pythonhosted.org/packages/f3/61/920e416e3b6f168907abd78a183913dcd38186b961b9bb0a944ec3008ea5/devchat-0.1.9.tar.gz
+[2023-07-23 19:26:57] INFO root fetch - processPackages [rtn-simrs]: Downloading https://files.pythonhosted.org/packages/68/5a/9ef720515d24c5f2d732911b6dc8094a6c8d41b6a24e02f7803f51cd5e66/rtn_simrs-0.1.2.tar.gz
+[2023-07-23 19:26:57] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: Downloading https://files.pythonhosted.org/packages/65/21/500a1028b01837af2679a2cca677dce03cf82bce196823306fd6f17af777/gammarer.aws-secure-bucket-0.9.6.tar.gz
+[2023-07-23 19:26:57] INFO root fetch - processPackages [HPO]: Downloading https://files.pythonhosted.org/packages/6b/61/b3a562b649624c67817bfd10394c0261ac1170fa9d2169173c76b6df6d6e/HPO-0.3.tar.gz
+[2023-07-23 19:26:57] INFO root fetch - processPackages [pyImageJGui]: Downloading https://files.pythonhosted.org/packages/06/ed/b87916ac4c47bc5861678da1273d10bbd1cfe613f404e78c0ddb12f0bb22/pyImageJGui-0.0.2.tar.gz
+[2023-07-23 19:26:57] INFO root fetch - processPackages [HPO]: executing diffoscope
+[2023-07-23 19:26:57] INFO root fetch - processPackages [HPO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HPO-0.2.tar.gz tmp/HPO-0.3.tar.gz --markdown 20230723/H/HPO/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-23 19:26:57] INFO root fetch - processPackages [rtn-simrs]: executing diffoscope
+[2023-07-23 19:26:57] INFO root fetch - processPackages [pyImageJGui]: executing diffoscope
+[2023-07-23 19:26:57] INFO root fetch - processPackages [rtn-simrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtn_simrs-0.1.1.tar.gz tmp/rtn_simrs-0.1.2.tar.gz --markdown 20230723/r/rtn-simrs/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-23 19:26:57] INFO root fetch - processPackages [pyImageJGui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyImageJGui-0.0.1.tar.gz tmp/pyImageJGui-0.0.2.tar.gz --markdown 20230723/p/pyImageJGui/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-23 19:26:57] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: executing diffoscope
+[2023-07-23 19:26:57] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-bucket-0.9.5.tar.gz tmp/gammarer.aws-secure-bucket-0.9.6.tar.gz --markdown 20230723/g/gammarer.aws-secure-bucket/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-23 19:26:57] INFO root fetch - processPackages [devchat]: Downloading https://files.pythonhosted.org/packages/d4/81/b006899f1ce2f12dac503538aa74a5ff0022f7f4a81d2ef7a0fdb093ab08/devchat-0.2.0.tar.gz
+[2023-07-23 19:26:57] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/39/cd/cc4d91db21934f66692bedcbdb15fc2c82698c7cc9d0288133e8fa2f5cee/lnschema_core-0.9.0.tar.gz
+[2023-07-23 19:26:57] INFO root fetch - processPackages [github-actions-cli]: Downloading https://files.pythonhosted.org/packages/dd/a8/e97a91444b19d70ae833448edc999307379df7896b368300010248b1e058/github_actions_cli-1.0.0b2.tar.gz
+[2023-07-23 19:26:58] INFO root fetch - processPackages [mlfast]: Downloading https://files.pythonhosted.org/packages/4b/96/002662868307bd126d52e014c5443224de93ed0676e926a9650e3a4058f4/mlfast-0.0.9.tar.gz
+[2023-07-23 19:26:58] INFO root fetch - processPackages [devchat]: executing diffoscope
+[2023-07-23 19:26:58] INFO root fetch - processPackages [devchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devchat-0.1.9.tar.gz tmp/devchat-0.2.0.tar.gz --markdown 20230723/d/devchat/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-23 19:26:58] INFO root fetch - processPackages [github-actions-cli]: executing diffoscope
+[2023-07-23 19:26:58] INFO root fetch - processPackages [github-actions-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github_actions_cli-1.0.0b1.tar.gz tmp/github_actions_cli-1.0.0b2.tar.gz --markdown 20230723/g/github-actions-cli/1.0.0b1-1.0.0b2/diff.md --exclude *.pyd
+[2023-07-23 19:26:58] INFO root fetch - processPackages [lnschema_core]: executing diffoscope
+[2023-07-23 19:26:58] INFO root fetch - processPackages [lnschema_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_core-0.8.1.tar.gz tmp/lnschema_core-0.9.0.tar.gz --markdown 20230723/l/lnschema_core/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-23 19:26:58] INFO root fetch - processPackages [mlfast]: executing diffoscope
+[2023-07-23 19:26:58] INFO root fetch - processPackages [mlfast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlfast-0.0.8.tar.gz tmp/mlfast-0.0.9.tar.gz --markdown 20230723/m/mlfast/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-23 19:26:59] INFO root fetch - processPackages [HPO]: Remove: archive file [/home/abi/fetcher/tmp/HPO-0.2.tar.gz]
+[2023-07-23 19:26:59] INFO root fetch - processPackages [HPO]: Remove: archive file [/home/abi/fetcher/tmp/HPO-0.3.tar.gz]
+[2023-07-23 19:26:59] INFO root fetch - main [MainThread]: End processing [HPO]: success
+[2023-07-23 19:26:59] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-bucket-0.9.5.tar.gz]
+[2023-07-23 19:26:59] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-bucket-0.9.6.tar.gz]
+[2023-07-23 19:26:59] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-bucket]: success
+[2023-07-23 19:26:59] INFO root fetch - processPackages [pyImageJGui]: Remove: archive file [/home/abi/fetcher/tmp/pyImageJGui-0.0.1.tar.gz]
+[2023-07-23 19:26:59] INFO root fetch - processPackages [pyImageJGui]: Remove: archive file [/home/abi/fetcher/tmp/pyImageJGui-0.0.2.tar.gz]
+[2023-07-23 19:26:59] INFO root fetch - main [MainThread]: End processing [pyImageJGui]: success
+[2023-07-23 19:26:59] INFO root fetch - processPackages [rtn-simrs]: Remove: archive file [/home/abi/fetcher/tmp/rtn_simrs-0.1.1.tar.gz]
+[2023-07-23 19:26:59] INFO root fetch - processPackages [rtn-simrs]: Remove: archive file [/home/abi/fetcher/tmp/rtn_simrs-0.1.2.tar.gz]
+[2023-07-23 19:26:59] INFO root fetch - main [MainThread]: End processing [rtn-simrs]: success
+[2023-07-23 19:26:59] INFO root fetch - processPackages [devchat]: Remove: archive file [/home/abi/fetcher/tmp/devchat-0.1.9.tar.gz]
+[2023-07-23 19:26:59] INFO root fetch - processPackages [devchat]: Remove: archive file [/home/abi/fetcher/tmp/devchat-0.2.0.tar.gz]
+[2023-07-23 19:26:59] INFO root fetch - main [MainThread]: End processing [devchat]: success
+[2023-07-23 19:26:59] INFO root fetch - processPackages [github-actions-cli]: Remove: archive file [/home/abi/fetcher/tmp/github_actions_cli-1.0.0b1.tar.gz]
+[2023-07-23 19:26:59] INFO root fetch - processPackages [github-actions-cli]: Remove: archive file [/home/abi/fetcher/tmp/github_actions_cli-1.0.0b2.tar.gz]
+[2023-07-23 19:26:59] INFO root fetch - main [MainThread]: End processing [github-actions-cli]: success
+[2023-07-23 19:26:59] INFO root fetch - processPackages [mlfast]: Remove: archive file [/home/abi/fetcher/tmp/mlfast-0.0.8.tar.gz]
+[2023-07-23 19:26:59] INFO root fetch - processPackages [mlfast]: Remove: archive file [/home/abi/fetcher/tmp/mlfast-0.0.9.tar.gz]
+[2023-07-23 19:26:59] INFO root fetch - main [MainThread]: End processing [mlfast]: success
+[2023-07-23 19:26:59] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.8.1.tar.gz]
+[2023-07-23 19:26:59] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.9.0.tar.gz]
+[2023-07-23 19:26:59] INFO root fetch - main [MainThread]: End processing [lnschema_core]: success
+[2023-07-23 19:26:59] INFO root fetch - main [MainThread]: Store serial: [19003595]
