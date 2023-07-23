@@ -2695,3 +2695,36 @@
 [2023-07-23 05:18:57] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.9.tar.gz]
 [2023-07-23 05:18:57] INFO root fetch - main [MainThread]: End processing [kfsd]: success
 [2023-07-23 05:18:57] INFO root fetch - main [MainThread]: Store serial: [18999171]
+[2023-07-23 05:24:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18999171]
+[2023-07-23 05:24:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-23 05:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-ogp-view
+[2023-07-23 05:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-uniauth
+[2023-07-23 05:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scrall
+[2023-07-23 05:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf-cdktf-provider-gitlab
+[2023-07-23 05:24:05] INFO root fetch - processPackages [scrall]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-23 05:24:05] ERROR root fetch - processPackages [django-ogp-view]: Unable to get metadata: No such project 'django-ogp-view'
+[2023-07-23 05:24:05] INFO root fetch - main [MainThread]: End processing [django-ogp-view] error
+[2023-07-23 05:24:05] INFO root fetch - processPackages [django-uniauth]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-23 05:24:05] INFO root fetch - processPackages [cdktf-cdktf-provider-gitlab]: New version: [9.0.2] Old Version: [9.0.1]
+[2023-07-23 05:24:05] INFO root fetch - processPackages [scrall]: Downloading https://files.pythonhosted.org/packages/de/00/9be7725773d762b1329f041571b6d1925040ba279ca0d8793d9bb0f39264/scrall-0.2.8.tar.gz
+[2023-07-23 05:24:06] INFO root fetch - processPackages [django-uniauth]: Downloading https://files.pythonhosted.org/packages/99/b1/c7ffde49fc990f4dcd690269e5b8dd881a732e14104cc4e328278212ff6d/django-uniauth-1.4.0.tar.gz
+[2023-07-23 05:24:06] INFO root fetch - processPackages [cdktf-cdktf-provider-gitlab]: Downloading https://files.pythonhosted.org/packages/68/4d/bb441911dac576f8b8af3b0054dba464c56827076ee4306adfbf8d5342b2/cdktf-cdktf-provider-gitlab-9.0.1.tar.gz
+[2023-07-23 05:24:06] INFO root fetch - processPackages [scrall]: Downloading https://files.pythonhosted.org/packages/9a/df/ccceb037295ae0343198d907678498d8862f523ce37edf85f3e7717dd05f/scrall-0.2.9.tar.gz
+[2023-07-23 05:24:06] INFO root fetch - processPackages [scrall]: executing diffoscope
+[2023-07-23 05:24:06] INFO root fetch - processPackages [scrall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrall-0.2.8.tar.gz tmp/scrall-0.2.9.tar.gz --markdown 20230723/s/scrall/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-23 05:24:06] INFO root fetch - processPackages [django-uniauth]: Downloading https://files.pythonhosted.org/packages/28/34/21a643f3fce3968179585bda92ff545b4d680c6b5ed03c6ddd365a21f0e3/django-uniauth-1.4.1.tar.gz
+[2023-07-23 05:24:06] INFO root fetch - processPackages [cdktf-cdktf-provider-gitlab]: Downloading https://files.pythonhosted.org/packages/88/e3/60d57c9fcc6102776e3bd7723e13c3a6b8d821c384c69321757a4b4ae436/cdktf-cdktf-provider-gitlab-9.0.2.tar.gz
+[2023-07-23 05:24:06] INFO root fetch - processPackages [django-uniauth]: executing diffoscope
+[2023-07-23 05:24:06] INFO root fetch - processPackages [django-uniauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-uniauth-1.4.0.tar.gz tmp/django-uniauth-1.4.1.tar.gz --markdown 20230723/d/django-uniauth/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-23 05:24:06] INFO root fetch - processPackages [cdktf-cdktf-provider-gitlab]: executing diffoscope
+[2023-07-23 05:24:06] INFO root fetch - processPackages [cdktf-cdktf-provider-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-gitlab-9.0.1.tar.gz tmp/cdktf-cdktf-provider-gitlab-9.0.2.tar.gz --markdown 20230723/c/cdktf-cdktf-provider-gitlab/9.0.1-9.0.2/diff.md --exclude *.pyd
+[2023-07-23 05:24:06] INFO root fetch - processPackages [scrall]: Remove: archive file [/home/abi/fetcher/tmp/scrall-0.2.8.tar.gz]
+[2023-07-23 05:24:06] INFO root fetch - processPackages [scrall]: Remove: archive file [/home/abi/fetcher/tmp/scrall-0.2.9.tar.gz]
+[2023-07-23 05:24:06] INFO root fetch - main [MainThread]: End processing [scrall]: success
+[2023-07-23 05:24:07] INFO root fetch - processPackages [django-uniauth]: Remove: archive file [/home/abi/fetcher/tmp/django-uniauth-1.4.0.tar.gz]
+[2023-07-23 05:24:07] INFO root fetch - processPackages [django-uniauth]: Remove: archive file [/home/abi/fetcher/tmp/django-uniauth-1.4.1.tar.gz]
+[2023-07-23 05:24:07] INFO root fetch - main [MainThread]: End processing [django-uniauth]: success
+[2023-07-23 05:24:09] INFO root fetch - processPackages [cdktf-cdktf-provider-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-gitlab-9.0.1.tar.gz]
+[2023-07-23 05:24:09] INFO root fetch - processPackages [cdktf-cdktf-provider-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-gitlab-9.0.2.tar.gz]
+[2023-07-23 05:24:09] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-gitlab]: success
+[2023-07-23 05:24:09] INFO root fetch - main [MainThread]: Store serial: [18999191]
