@@ -6056,3 +6056,54 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 11:37:01] INFO root fetch - processPackages [recompose]: Remove: archive file [/home/abi/fetcher/tmp/recompose-1.0.1-py3-none-any.whl.zip]
 [2023-07-23 11:37:01] INFO root fetch - main [MainThread]: End processing [recompose]: success
 [2023-07-23 11:37:01] INFO root fetch - main [MainThread]: Store serial: [19000524]
+[2023-07-23 11:42:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19000524]
+[2023-07-23 11:42:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-23 11:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-animus
+[2023-07-23 11:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wow-ai-mms
+[2023-07-23 11:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pso2keras
+[2023-07-23 11:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: subconfig
+[2023-07-23 11:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-univer
+[2023-07-23 11:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: league-client
+[2023-07-23 11:42:10] INFO root fetch - processPackages [wow-ai-mms]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-23 11:42:10] INFO root fetch - processPackages [py-animus]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-23 11:42:10] WARNING root fetch - processPackages [subconfig]: Skipping, unable to determine old version
+[2023-07-23 11:42:10] INFO root fetch - processPackages [pso2keras]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-23 11:42:10] INFO root fetch - main [MainThread]: End processing [subconfig] error
+[2023-07-23 11:42:10] INFO root fetch - processPackages [league-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-23 11:42:10] INFO root fetch - processPackages [python-univer]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-23 11:42:10] INFO root fetch - processPackages [wow-ai-mms]: Downloading https://files.pythonhosted.org/packages/cc/2f/cc7606fe678873e4720a1c96a106cc5b40b453e0b7edde14c1b85eb70e02/wow_ai_mms-0.1.9.tar.gz
+[2023-07-23 11:42:10] INFO root fetch - processPackages [league-client]: Downloading https://files.pythonhosted.org/packages/6c/04/9929e1e274fb1b8465e5b0a422d4b94ed7344109af5a65de3a94a0f20cbc/league_client-1.0.8-py3-none-any.whl
+[2023-07-23 11:42:10] INFO root fetch - processPackages [pso2keras]: Downloading https://files.pythonhosted.org/packages/30/fe/2ae0189828d99226feb6cfdfb935ffc1bdce92f5efa2d6c0b5bf73129a82/pso2keras-0.1.5.tar.gz
+[2023-07-23 11:42:10] INFO root fetch - processPackages [py-animus]: Downloading https://files.pythonhosted.org/packages/e5/fa/7364cee42c144e604e244323f847586bf0aff605bf0c6ffa328dd8638ca3/py_animus-1.0.8.tar.gz
+[2023-07-23 11:42:10] INFO root fetch - processPackages [python-univer]: Downloading https://files.pythonhosted.org/packages/cd/d9/9ee5ffb66c309fa3219b6573098bdabbf63506ece523dc69261b1fe1cbfe/python-univer-1.4.0.tar.gz
+[2023-07-23 11:42:10] INFO root fetch - processPackages [league-client]: Downloading https://files.pythonhosted.org/packages/aa/87/fc183fd3ed892333e3d73e72ce9a6cd78d3516202fe299f819159565d8a5/league-client-1.0.9.tar.gz
+[2023-07-23 11:42:10] INFO root fetch - processPackages [league-client]: executing diffoscope
+[2023-07-23 11:42:10] INFO root fetch - processPackages [league-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/league_client-1.0.8-py3-none-any.whl.zip tmp/league-client-1.0.9.tar.gz --markdown 20230723/l/league-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-23 11:42:10] INFO root fetch - processPackages [pso2keras]: Downloading https://files.pythonhosted.org/packages/3d/da/f98e5838c4754bdc81507d732e1df0c260abb9a2568341c03971a75c4454/pso2keras-0.1.6.tar.gz
+[2023-07-23 11:42:10] INFO root fetch - processPackages [py-animus]: Downloading https://files.pythonhosted.org/packages/d0/f2/ad85921f027bfea132df7280af98bacb101900532efd1d6e0a3cf1407033/py_animus-1.0.9.tar.gz
+[2023-07-23 11:42:10] INFO root fetch - processPackages [python-univer]: Downloading https://files.pythonhosted.org/packages/7a/d8/471698d6dd13fc8c3c91b3ae07a85bf401ab59b72e88d97413e61abec015/python-univer-1.4.1.tar.gz
+[2023-07-23 11:42:10] INFO root fetch - processPackages [pso2keras]: executing diffoscope
+[2023-07-23 11:42:10] INFO root fetch - processPackages [pso2keras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pso2keras-0.1.5.tar.gz tmp/pso2keras-0.1.6.tar.gz --markdown 20230723/p/pso2keras/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-23 11:42:11] INFO root fetch - processPackages [wow-ai-mms]: Downloading https://files.pythonhosted.org/packages/3b/4c/1abc0236d84ec8236907782d794c7382d2fa1bb6d3addb3fc02ec6e77f27/wow_ai_mms-0.2.0.tar.gz
+[2023-07-23 11:42:11] INFO root fetch - processPackages [py-animus]: executing diffoscope
+[2023-07-23 11:42:11] INFO root fetch - processPackages [py-animus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_animus-1.0.8.tar.gz tmp/py_animus-1.0.9.tar.gz --markdown 20230723/p/py-animus/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-23 11:42:11] INFO root fetch - processPackages [python-univer]: executing diffoscope
+[2023-07-23 11:42:11] INFO root fetch - processPackages [python-univer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-univer-1.4.0.tar.gz tmp/python-univer-1.4.1.tar.gz --markdown 20230723/p/python-univer/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-23 11:42:11] INFO root fetch - processPackages [wow-ai-mms]: executing diffoscope
+[2023-07-23 11:42:11] INFO root fetch - processPackages [wow-ai-mms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wow_ai_mms-0.1.9.tar.gz tmp/wow_ai_mms-0.2.0.tar.gz --markdown 20230723/w/wow-ai-mms/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-23 11:42:11] INFO root fetch - processPackages [league-client]: Remove: archive file [/home/abi/fetcher/tmp/league_client-1.0.8-py3-none-any.whl.zip]
+[2023-07-23 11:42:11] INFO root fetch - processPackages [league-client]: Remove: archive file [/home/abi/fetcher/tmp/league-client-1.0.9.tar.gz]
+[2023-07-23 11:42:11] INFO root fetch - main [MainThread]: End processing [league-client]: success
+[2023-07-23 11:42:11] INFO root fetch - processPackages [pso2keras]: Remove: archive file [/home/abi/fetcher/tmp/pso2keras-0.1.5.tar.gz]
+[2023-07-23 11:42:11] INFO root fetch - processPackages [pso2keras]: Remove: archive file [/home/abi/fetcher/tmp/pso2keras-0.1.6.tar.gz]
+[2023-07-23 11:42:11] INFO root fetch - main [MainThread]: End processing [pso2keras]: success
+[2023-07-23 11:42:12] INFO root fetch - processPackages [py-animus]: Remove: archive file [/home/abi/fetcher/tmp/py_animus-1.0.8.tar.gz]
+[2023-07-23 11:42:12] INFO root fetch - processPackages [py-animus]: Remove: archive file [/home/abi/fetcher/tmp/py_animus-1.0.9.tar.gz]
+[2023-07-23 11:42:12] INFO root fetch - main [MainThread]: End processing [py-animus]: success
+[2023-07-23 11:42:12] INFO root fetch - processPackages [python-univer]: Remove: archive file [/home/abi/fetcher/tmp/python-univer-1.4.0.tar.gz]
+[2023-07-23 11:42:12] INFO root fetch - processPackages [python-univer]: Remove: archive file [/home/abi/fetcher/tmp/python-univer-1.4.1.tar.gz]
+[2023-07-23 11:42:12] INFO root fetch - main [MainThread]: End processing [python-univer]: success
+[2023-07-23 11:42:14] INFO root fetch - processPackages [wow-ai-mms]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_mms-0.1.9.tar.gz]
+[2023-07-23 11:42:14] INFO root fetch - processPackages [wow-ai-mms]: Remove: archive file [/home/abi/fetcher/tmp/wow_ai_mms-0.2.0.tar.gz]
+[2023-07-23 11:42:14] INFO root fetch - main [MainThread]: End processing [wow-ai-mms]: success
+[2023-07-23 11:42:14] INFO root fetch - main [MainThread]: Store serial: [19000544]
