@@ -10756,3 +10756,102 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-07-23 17:58:23] INFO root fetch - processPackages [bycon]: Remove: archive file [/home/abi/fetcher/tmp/bycon-1.0.9.tar.gz]
 [2023-07-23 17:58:23] INFO root fetch - main [MainThread]: End processing [bycon]: success
 [2023-07-23 17:58:23] INFO root fetch - main [MainThread]: Store serial: [19002890]
+[2023-07-23 18:03:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19002890]
+[2023-07-23 18:03:33] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-23 18:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zzq-string-sum
+[2023-07-23 18:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torrent-hound
+[2023-07-23 18:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easyorc-pil-fix
+[2023-07-23 18:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: experimaestro
+[2023-07-23 18:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: posaydones-material-theming
+[2023-07-23 18:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: collagen
+[2023-07-23 18:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fruitcraft
+[2023-07-23 18:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-tbase-post-product
+[2023-07-23 18:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pybitset
+[2023-07-23 18:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gitbuilding
+[2023-07-23 18:03:33] WARNING root fetch - processPackages [easyorc-pil-fix]: Skipping, unable to determine old version
+[2023-07-23 18:03:33] INFO root fetch - processPackages [easyorc-pil-fix]: Start processing: trino-query-parser
+[2023-07-23 18:03:33] INFO root fetch - main [MainThread]: End processing [easyorc-pil-fix] error
+[2023-07-23 18:03:33] INFO root fetch - processPackages [posaydones-material-theming]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-23 18:03:33] INFO root fetch - processPackages [gitbuilding]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-23 18:03:33] INFO root fetch - processPackages [experimaestro]: New version: [1.0.0] Old Version: [0.9.9]
+[2023-07-23 18:03:33] INFO root fetch - processPackages [zzq-string-sum]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-23 18:03:33] INFO root fetch - processPackages [fruitcraft]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-23 18:03:33] WARNING root fetch - processPackages [collagen]: Skipping, unable to determine old version
+[2023-07-23 18:03:33] INFO root fetch - processPackages [collagen]: Start processing: RelayMe
+[2023-07-23 18:03:33] INFO root fetch - main [MainThread]: End processing [collagen] error
+[2023-07-23 18:03:33] INFO root fetch - processPackages [torrent-hound]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-07-23 18:03:33] INFO root fetch - processPackages [trino-query-parser]: New version: [0.405.5] Old Version: [0.405.4]
+[2023-07-23 18:03:33] INFO root fetch - processPackages [django-tbase-post-product]: New version: [2023.7.716887389] Old Version: [2023.7.716887386]
+[2023-07-23 18:03:33] INFO root fetch - processPackages [RelayMe]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-23 18:03:33] INFO root fetch - processPackages [fruitcraft]: Downloading https://files.pythonhosted.org/packages/78/fc/d242751cfdd1231938f3dc36d18623b7e9e2ee8582d063f7df50b96f26a3/fruitcraft-0.0.3.tar.gz
+[2023-07-23 18:03:33] INFO root fetch - processPackages [posaydones-material-theming]: Downloading https://files.pythonhosted.org/packages/5f/cd/ba5ba9e11bbd8c30576eb0159fd4b438ebe9b0609e998080e53516ff742d/posaydones-material-theming-1.0.3.tar.gz
+[2023-07-23 18:03:33] INFO root fetch - processPackages [pybitset]: New version: [0.0.1rc2] Old Version: [0.0.1rc1]
+[2023-07-23 18:03:33] INFO root fetch - processPackages [RelayMe]: Downloading https://files.pythonhosted.org/packages/fa/c6/399af990d564917cdd64702d214b2537f7f64690aee3dfa376c5cc5c9756/RelayMe-0.0.6.tar.gz
+[2023-07-23 18:03:33] INFO root fetch - processPackages [gitbuilding]: Downloading https://files.pythonhosted.org/packages/5d/02/d9c71baf1393f7e1fed92d62be7ad76d2d954368badcb806fac4afb5d257/gitbuilding-0.9.0.tar.gz
+[2023-07-23 18:03:33] INFO root fetch - processPackages [zzq-string-sum]: Downloading https://files.pythonhosted.org/packages/83/73/f15c389603169b6d9616c620838da4bbb9327caa6d3b14ce313bc7e371e2/zzq_string_sum-0.2.0.tar.gz
+[2023-07-23 18:03:33] INFO root fetch - processPackages [experimaestro]: Downloading https://files.pythonhosted.org/packages/01/8f/03545ff21231a99d4620e2c8cea78638225e661012da7e67c5f46c291a0d/experimaestro-0.9.9-py2.py3-none-any.whl
+[2023-07-23 18:03:33] INFO root fetch - processPackages [torrent-hound]: Downloading https://files.pythonhosted.org/packages/aa/ed/f83520a591aac2c6a0792f0b3309f0b501545ff4b393caa9d7fde385a954/torrent-hound-2.1.0.tar.gz
+[2023-07-23 18:03:33] INFO root fetch - processPackages [trino-query-parser]: Downloading https://files.pythonhosted.org/packages/d6/24/5250fc97032c007a7dcc661be476e94fe81d69b64b559775275f5c8ee0c2/trino_query_parser-0.405.4-py3-none-any.whl
+[2023-07-23 18:03:33] INFO root fetch - processPackages [django-tbase-post-product]: Downloading https://files.pythonhosted.org/packages/69/ba/bf2c8c1a83462dd2fae7b6981f8a8fcf812bf14b73ac755f5395e3ee4557/django_tbase_post_product-2023.7.716887386.tar.gz
+[2023-07-23 18:03:34] INFO root fetch - processPackages [pybitset]: Downloading https://files.pythonhosted.org/packages/64/53/086ec917edbb7286e6dbe3514724c6a52289c9bac2f37be07e4fd1fb6cb0/pybitset-0.0.1rc1.tar.gz
+[2023-07-23 18:03:34] INFO root fetch - processPackages [posaydones-material-theming]: Downloading https://files.pythonhosted.org/packages/00/a0/99a2d5b446e8e90b1e2ae43ec244bc2a99ffcc35766d50c2e13ca122b8ff/posaydones-material-theming-1.0.4.tar.gz
+[2023-07-23 18:03:34] INFO root fetch - processPackages [fruitcraft]: Downloading https://files.pythonhosted.org/packages/c5/e3/6f6edb8ef52df2a3a572fd7cc53777bfc8e80373f00fb2b83f56aa8284eb/fruitcraft-0.0.4.tar.gz
+[2023-07-23 18:03:34] INFO root fetch - processPackages [RelayMe]: Downloading https://files.pythonhosted.org/packages/8a/85/d21193c538810d375cd43ac4290cded20a5a25859a03bf9c678ce9a77594/RelayMe-0.0.7.tar.gz
+[2023-07-23 18:03:34] INFO root fetch - processPackages [fruitcraft]: executing diffoscope
+[2023-07-23 18:03:34] INFO root fetch - processPackages [fruitcraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fruitcraft-0.0.3.tar.gz tmp/fruitcraft-0.0.4.tar.gz --markdown 20230723/f/fruitcraft/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-23 18:03:34] INFO root fetch - processPackages [torrent-hound]: Downloading https://files.pythonhosted.org/packages/f5/a5/f8ca19182a0aafff0f47c2eba6687293b5e3ac12134b3e15b2f5cbc186b9/torrent-hound-2.1.1.tar.gz
+[2023-07-23 18:03:34] INFO root fetch - processPackages [zzq-string-sum]: Downloading https://files.pythonhosted.org/packages/46/cc/550e8fad7d4df643a86c801e78ff8a4d44d80787ac012d3086e5d3700b2c/zzq_string_sum-0.3.0.tar.gz
+[2023-07-23 18:03:34] INFO root fetch - processPackages [RelayMe]: executing diffoscope
+[2023-07-23 18:03:34] INFO root fetch - processPackages [RelayMe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RelayMe-0.0.6.tar.gz tmp/RelayMe-0.0.7.tar.gz --markdown 20230723/R/RelayMe/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-23 18:03:34] INFO root fetch - processPackages [posaydones-material-theming]: executing diffoscope
+[2023-07-23 18:03:34] INFO root fetch - processPackages [posaydones-material-theming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/posaydones-material-theming-1.0.3.tar.gz tmp/posaydones-material-theming-1.0.4.tar.gz --markdown 20230723/p/posaydones-material-theming/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-23 18:03:34] INFO root fetch - processPackages [trino-query-parser]: Downloading https://files.pythonhosted.org/packages/07/ec/e6e19d33562762b470889ca5243b93bf4caf6665da46abc31587141e238f/trino_query_parser-0.405.5-py3-none-any.whl
+[2023-07-23 18:03:34] INFO root fetch - processPackages [django-tbase-post-product]: Downloading https://files.pythonhosted.org/packages/b2/1c/662b7a63c26b1775ed703f7609bdfe40ea00728d0a5543ce6498d553c4a7/django_tbase_post_product-2023.7.716887389.tar.gz
+[2023-07-23 18:03:34] INFO root fetch - processPackages [torrent-hound]: executing diffoscope
+[2023-07-23 18:03:34] INFO root fetch - processPackages [torrent-hound]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torrent-hound-2.1.0.tar.gz tmp/torrent-hound-2.1.1.tar.gz --markdown 20230723/t/torrent-hound/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-07-23 18:03:34] INFO root fetch - processPackages [pybitset]: Downloading https://files.pythonhosted.org/packages/e4/f8/bef37eca51f704a27298976ce089a74a04421318737c342e65fbb165df46/pybitset-0.0.1rc2.tar.gz
+[2023-07-23 18:03:34] INFO root fetch - processPackages [trino-query-parser]: executing diffoscope
+[2023-07-23 18:03:34] INFO root fetch - processPackages [trino-query-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trino_query_parser-0.405.4-py3-none-any.whl.zip tmp/trino_query_parser-0.405.5-py3-none-any.whl.zip --markdown 20230723/t/trino-query-parser/0.405.4-0.405.5/diff.md --exclude *.pyd
+[2023-07-23 18:03:34] INFO root fetch - processPackages [zzq-string-sum]: executing diffoscope
+[2023-07-23 18:03:34] INFO root fetch - processPackages [zzq-string-sum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zzq_string_sum-0.2.0.tar.gz tmp/zzq_string_sum-0.3.0.tar.gz --markdown 20230723/z/zzq-string-sum/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-23 18:03:34] INFO root fetch - processPackages [pybitset]: executing diffoscope
+[2023-07-23 18:03:34] INFO root fetch - processPackages [pybitset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybitset-0.0.1rc1.tar.gz tmp/pybitset-0.0.1rc2.tar.gz --markdown 20230723/p/pybitset/0.0.1rc1-0.0.1rc2/diff.md --exclude *.pyd
+[2023-07-23 18:03:34] INFO root fetch - processPackages [django-tbase-post-product]: executing diffoscope
+[2023-07-23 18:03:34] INFO root fetch - processPackages [django-tbase-post-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_tbase_post_product-2023.7.716887386.tar.gz tmp/django_tbase_post_product-2023.7.716887389.tar.gz --markdown 20230723/d/django-tbase-post-product/2023.7.716887386-2023.7.716887389/diff.md --exclude *.pyd
+[2023-07-23 18:03:35] INFO root fetch - processPackages [gitbuilding]: Downloading https://files.pythonhosted.org/packages/15/ed/67289495ef2328366701013c075dc09429e3101a0d66d3f73ca280175e13/gitbuilding-0.9.1.tar.gz
+[2023-07-23 18:03:35] INFO root fetch - processPackages [RelayMe]: Remove: archive file [/home/abi/fetcher/tmp/RelayMe-0.0.6.tar.gz]
+[2023-07-23 18:03:35] INFO root fetch - processPackages [RelayMe]: Remove: archive file [/home/abi/fetcher/tmp/RelayMe-0.0.7.tar.gz]
+[2023-07-23 18:03:35] INFO root fetch - main [MainThread]: End processing [RelayMe]: success
+[2023-07-23 18:03:35] INFO root fetch - processPackages [posaydones-material-theming]: Remove: archive file [/home/abi/fetcher/tmp/posaydones-material-theming-1.0.3.tar.gz]
+[2023-07-23 18:03:35] INFO root fetch - processPackages [posaydones-material-theming]: Remove: archive file [/home/abi/fetcher/tmp/posaydones-material-theming-1.0.4.tar.gz]
+[2023-07-23 18:03:35] INFO root fetch - main [MainThread]: End processing [posaydones-material-theming]: success
+[2023-07-23 18:03:35] INFO root fetch - processPackages [torrent-hound]: Remove: archive file [/home/abi/fetcher/tmp/torrent-hound-2.1.0.tar.gz]
+[2023-07-23 18:03:35] INFO root fetch - processPackages [torrent-hound]: Remove: archive file [/home/abi/fetcher/tmp/torrent-hound-2.1.1.tar.gz]
+[2023-07-23 18:03:35] INFO root fetch - main [MainThread]: End processing [torrent-hound]: success
+[2023-07-23 18:03:35] INFO root fetch - processPackages [fruitcraft]: Remove: archive file [/home/abi/fetcher/tmp/fruitcraft-0.0.3.tar.gz]
+[2023-07-23 18:03:35] INFO root fetch - processPackages [fruitcraft]: Remove: archive file [/home/abi/fetcher/tmp/fruitcraft-0.0.4.tar.gz]
+[2023-07-23 18:03:35] INFO root fetch - main [MainThread]: End processing [fruitcraft]: success
+[2023-07-23 18:03:35] INFO root fetch - processPackages [gitbuilding]: executing diffoscope
+[2023-07-23 18:03:35] INFO root fetch - processPackages [gitbuilding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitbuilding-0.9.0.tar.gz tmp/gitbuilding-0.9.1.tar.gz --markdown 20230723/g/gitbuilding/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-23 18:03:35] INFO root fetch - processPackages [experimaestro]: Downloading https://files.pythonhosted.org/packages/37/fd/f8bf6cb2a70e7e714286a45d7fcfe4ba7268e30510f07f24348a5e34ea4b/experimaestro-1.0.0.zip
+[2023-07-23 18:03:36] INFO root fetch - processPackages [django-tbase-post-product]: Remove: archive file [/home/abi/fetcher/tmp/django_tbase_post_product-2023.7.716887386.tar.gz]
+[2023-07-23 18:03:36] INFO root fetch - processPackages [django-tbase-post-product]: Remove: archive file [/home/abi/fetcher/tmp/django_tbase_post_product-2023.7.716887389.tar.gz]
+[2023-07-23 18:03:36] INFO root fetch - main [MainThread]: End processing [django-tbase-post-product]: success
+[2023-07-23 18:03:36] INFO root fetch - processPackages [experimaestro]: executing diffoscope
+[2023-07-23 18:03:36] INFO root fetch - processPackages [experimaestro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230723:/home/abi/fetcher/20230723:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experimaestro-0.9.9-py2.py3-none-any.whl.zip tmp/experimaestro-1.0.0.zip --markdown 20230723/e/experimaestro/0.9.9-1.0.0/diff.md --exclude *.pyd
+[2023-07-23 18:03:36] INFO root fetch - processPackages [pybitset]: Remove: archive file [/home/abi/fetcher/tmp/pybitset-0.0.1rc1.tar.gz]
+[2023-07-23 18:03:36] INFO root fetch - processPackages [pybitset]: Remove: archive file [/home/abi/fetcher/tmp/pybitset-0.0.1rc2.tar.gz]
+[2023-07-23 18:03:36] INFO root fetch - main [MainThread]: End processing [pybitset]: success
+[2023-07-23 18:03:36] INFO root fetch - processPackages [trino-query-parser]: Remove: archive file [/home/abi/fetcher/tmp/trino_query_parser-0.405.4-py3-none-any.whl.zip]
+[2023-07-23 18:03:36] INFO root fetch - processPackages [trino-query-parser]: Remove: archive file [/home/abi/fetcher/tmp/trino_query_parser-0.405.5-py3-none-any.whl.zip]
+[2023-07-23 18:03:36] INFO root fetch - main [MainThread]: End processing [trino-query-parser]: success
+[2023-07-23 18:03:36] INFO root fetch - processPackages [zzq-string-sum]: Remove: archive file [/home/abi/fetcher/tmp/zzq_string_sum-0.2.0.tar.gz]
+[2023-07-23 18:03:36] INFO root fetch - processPackages [zzq-string-sum]: Remove: archive file [/home/abi/fetcher/tmp/zzq_string_sum-0.3.0.tar.gz]
+[2023-07-23 18:03:36] INFO root fetch - main [MainThread]: End processing [zzq-string-sum]: success
+[2023-07-23 18:03:37] INFO root fetch - processPackages [gitbuilding]: Remove: archive file [/home/abi/fetcher/tmp/gitbuilding-0.9.0.tar.gz]
+[2023-07-23 18:03:37] INFO root fetch - processPackages [gitbuilding]: Remove: archive file [/home/abi/fetcher/tmp/gitbuilding-0.9.1.tar.gz]
+[2023-07-23 18:03:37] INFO root fetch - main [MainThread]: End processing [gitbuilding]: success
+[2023-07-23 18:03:38] INFO root fetch - processPackages [experimaestro]: Remove: archive file [/home/abi/fetcher/tmp/experimaestro-0.9.9-py2.py3-none-any.whl.zip]
+[2023-07-23 18:03:38] INFO root fetch - processPackages [experimaestro]: Remove: archive file [/home/abi/fetcher/tmp/experimaestro-1.0.0.zip]
+[2023-07-23 18:03:38] INFO root fetch - main [MainThread]: End processing [experimaestro]: success
+[2023-07-23 18:03:38] INFO root fetch - main [MainThread]: Store serial: [19003000]
